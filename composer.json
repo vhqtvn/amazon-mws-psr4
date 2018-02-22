@@ -1,0 +1,28 @@
+{
+  "name": "vhqtvn/amazon-mws-psr4",
+  "description": "Amazon MWS rebuild",
+  "type": "library",
+  "license": "Apache",
+  "authors": [
+    {
+      "name": "Hoa Nguyen Van",
+      "email": "vanhoa@vhn.vn"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Vhqtvn\\AmazonMWS": "src/Vhqtvn/AmazonMWS"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Scripts\\": "scripts/"
+    }
+  },
+  "require-dev": {
+    "nikic/php-parser": "^3.1.4",
+    "kevinlebrun/colors.php": "^1.0"
+  }
+}

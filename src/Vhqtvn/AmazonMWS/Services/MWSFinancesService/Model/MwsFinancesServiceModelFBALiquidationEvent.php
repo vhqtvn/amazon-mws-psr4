@@ -1,0 +1,194 @@
+<?php
+
+namespace Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model;
+
+use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
+/**
+ * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFBALiquidationEvent
+ * 
+ * Properties:
+ * <ul>
+ * 
+ * <li>PostedDate: string</li>
+ * <li>OriginalRemovalOrderId: string</li>
+ * <li>LiquidationProceedsAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
+ * <li>LiquidationFeeAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
+ *
+ * </ul>
+ */
+class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
+{
+    public function __construct($data = null)
+    {
+        $this->_fields = array('PostedDate' => array('FieldValue' => null, 'FieldType' => 'string'), 'OriginalRemovalOrderId' => array('FieldValue' => null, 'FieldType' => 'string'), 'LiquidationProceedsAmount' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency::class), 'LiquidationFeeAmount' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency::class));
+        parent::__construct($data);
+    }
+    /**
+     * Get the value of the PostedDate property.
+     *
+     * @return XMLGregorianCalendar PostedDate.
+     */
+    public function getPostedDate()
+    {
+        return $this->_fields['PostedDate']['FieldValue'];
+    }
+    /**
+     * Set the value of the PostedDate property.
+     *
+     * @param string postedDate
+     * @return $this 
+     */
+    public function setPostedDate($value)
+    {
+        $this->_fields['PostedDate']['FieldValue'] = $value;
+        return $this;
+    }
+    /**
+     * Check to see if PostedDate is set.
+     *
+     * @return true if PostedDate is set.
+     */
+    public function isSetPostedDate()
+    {
+        return !is_null($this->_fields['PostedDate']['FieldValue']);
+    }
+    /**
+     * Set the value of PostedDate, return this.
+     *
+     * @param postedDate
+     *             The new value to set.
+     *
+     * @return $this .
+     */
+    public function withPostedDate($value)
+    {
+        $this->setPostedDate($value);
+        return $this;
+    }
+    /**
+     * Get the value of the OriginalRemovalOrderId property.
+     *
+     * @return String OriginalRemovalOrderId.
+     */
+    public function getOriginalRemovalOrderId()
+    {
+        return $this->_fields['OriginalRemovalOrderId']['FieldValue'];
+    }
+    /**
+     * Set the value of the OriginalRemovalOrderId property.
+     *
+     * @param string originalRemovalOrderId
+     * @return $this 
+     */
+    public function setOriginalRemovalOrderId($value)
+    {
+        $this->_fields['OriginalRemovalOrderId']['FieldValue'] = $value;
+        return $this;
+    }
+    /**
+     * Check to see if OriginalRemovalOrderId is set.
+     *
+     * @return true if OriginalRemovalOrderId is set.
+     */
+    public function isSetOriginalRemovalOrderId()
+    {
+        return !is_null($this->_fields['OriginalRemovalOrderId']['FieldValue']);
+    }
+    /**
+     * Set the value of OriginalRemovalOrderId, return this.
+     *
+     * @param originalRemovalOrderId
+     *             The new value to set.
+     *
+     * @return $this .
+     */
+    public function withOriginalRemovalOrderId($value)
+    {
+        $this->setOriginalRemovalOrderId($value);
+        return $this;
+    }
+    /**
+     * Get the value of the LiquidationProceedsAmount property.
+     *
+     * @return Currency LiquidationProceedsAmount.
+     */
+    public function getLiquidationProceedsAmount()
+    {
+        return $this->_fields['LiquidationProceedsAmount']['FieldValue'];
+    }
+    /**
+     * Set the value of the LiquidationProceedsAmount property.
+     *
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency liquidationProceedsAmount
+     * @return $this 
+     */
+    public function setLiquidationProceedsAmount($value)
+    {
+        $this->_fields['LiquidationProceedsAmount']['FieldValue'] = $value;
+        return $this;
+    }
+    /**
+     * Check to see if LiquidationProceedsAmount is set.
+     *
+     * @return true if LiquidationProceedsAmount is set.
+     */
+    public function isSetLiquidationProceedsAmount()
+    {
+        return !is_null($this->_fields['LiquidationProceedsAmount']['FieldValue']);
+    }
+    /**
+     * Set the value of LiquidationProceedsAmount, return this.
+     *
+     * @param liquidationProceedsAmount
+     *             The new value to set.
+     *
+     * @return $this .
+     */
+    public function withLiquidationProceedsAmount($value)
+    {
+        $this->setLiquidationProceedsAmount($value);
+        return $this;
+    }
+    /**
+     * Get the value of the LiquidationFeeAmount property.
+     *
+     * @return Currency LiquidationFeeAmount.
+     */
+    public function getLiquidationFeeAmount()
+    {
+        return $this->_fields['LiquidationFeeAmount']['FieldValue'];
+    }
+    /**
+     * Set the value of the LiquidationFeeAmount property.
+     *
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency liquidationFeeAmount
+     * @return $this 
+     */
+    public function setLiquidationFeeAmount($value)
+    {
+        $this->_fields['LiquidationFeeAmount']['FieldValue'] = $value;
+        return $this;
+    }
+    /**
+     * Check to see if LiquidationFeeAmount is set.
+     *
+     * @return true if LiquidationFeeAmount is set.
+     */
+    public function isSetLiquidationFeeAmount()
+    {
+        return !is_null($this->_fields['LiquidationFeeAmount']['FieldValue']);
+    }
+    /**
+     * Set the value of LiquidationFeeAmount, return this.
+     *
+     * @param liquidationFeeAmount
+     *             The new value to set.
+     *
+     * @return $this .
+     */
+    public function withLiquidationFeeAmount($value)
+    {
+        $this->setLiquidationFeeAmount($value);
+        return $this;
+    }
+}
