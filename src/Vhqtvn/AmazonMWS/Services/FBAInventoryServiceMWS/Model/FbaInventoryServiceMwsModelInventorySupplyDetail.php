@@ -105,7 +105,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
     /**
      * Get the value of the EarliestAvailableToPick property.
      *
-     * @return Timepoint EarliestAvailableToPick.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint EarliestAvailableToPick.
      */
     public function getEarliestAvailableToPick()
     {
@@ -147,7 +147,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
     /**
      * Get the value of the LatestAvailableToPick property.
      *
-     * @return Timepoint LatestAvailableToPick.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint LatestAvailableToPick.
      */
     public function getLatestAvailableToPick()
     {

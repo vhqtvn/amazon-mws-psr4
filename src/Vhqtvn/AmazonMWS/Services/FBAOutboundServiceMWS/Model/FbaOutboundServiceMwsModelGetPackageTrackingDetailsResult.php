@@ -323,7 +323,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the ShipToAddress property.
      *
-     * @return TrackingAddress ShipToAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress ShipToAddress.
      */
     public function getShipToAddress()
     {
@@ -491,7 +491,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the TrackingEvents property.
      *
-     * @return TrackingEventList TrackingEvents.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEventList TrackingEvents.
      */
     public function getTrackingEvents()
     {

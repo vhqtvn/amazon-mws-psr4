@@ -62,7 +62,7 @@ class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServi
     /**
      * Get the value of the TotalFeesEstimate property.
      *
-     * @return MoneyType TotalFeesEstimate.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType TotalFeesEstimate.
      */
     public function getTotalFeesEstimate()
     {
@@ -104,7 +104,7 @@ class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServi
     /**
      * Get the value of the FeeDetailList property.
      *
-     * @return FeeDetailList FeeDetailList.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetailList FeeDetailList.
      */
     public function getFeeDetailList()
     {

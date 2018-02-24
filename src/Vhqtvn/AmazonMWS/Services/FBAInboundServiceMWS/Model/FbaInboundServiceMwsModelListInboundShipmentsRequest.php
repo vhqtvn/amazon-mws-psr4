@@ -150,7 +150,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
     /**
      * Get the value of the ShipmentStatusList property.
      *
-     * @return ShipmentStatusList ShipmentStatusList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentStatusList ShipmentStatusList.
      */
     public function getShipmentStatusList()
     {
@@ -192,7 +192,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
     /**
      * Get the value of the ShipmentIdList property.
      *
-     * @return ShipmentIdList ShipmentIdList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentIdList ShipmentIdList.
      */
     public function getShipmentIdList()
     {

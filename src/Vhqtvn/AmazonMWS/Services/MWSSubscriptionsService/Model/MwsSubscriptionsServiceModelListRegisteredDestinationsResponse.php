@@ -23,7 +23,7 @@ class MwsSubscriptionsServiceModelListRegisteredDestinationsResponse extends Mws
     /**
      * Get the value of the ListRegisteredDestinationsResult property.
      *
-     * @return ListRegisteredDestinationsResult ListRegisteredDestinationsResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelListRegisteredDestinationsResult ListRegisteredDestinationsResult.
      */
     public function getListRegisteredDestinationsResult()
     {
@@ -65,7 +65,7 @@ class MwsSubscriptionsServiceModelListRegisteredDestinationsResponse extends Mws
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MwsSubscriptionsServiceModelListRegisteredDestinationsResponse extends Mws
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

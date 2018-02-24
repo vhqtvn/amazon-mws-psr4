@@ -24,7 +24,7 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Get the value of the Identifiers property.
      *
-     * @return IdentifierType Identifiers.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelIdentifierType Identifiers.
      */
     public function getIdentifiers()
     {
@@ -66,7 +66,7 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Get the value of the AttributeSets property.
      *
-     * @return AttributeSetList AttributeSets.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelAttributeSetList AttributeSets.
      */
     public function getAttributeSets()
     {
@@ -108,7 +108,7 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Get the value of the Relationships property.
      *
-     * @return RelationshipList Relationships.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelRelationshipList Relationships.
      */
     public function getRelationships()
     {
@@ -150,7 +150,7 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Get the value of the CompetitivePricing property.
      *
-     * @return CompetitivePricingType CompetitivePricing.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCompetitivePricingType CompetitivePricing.
      */
     public function getCompetitivePricing()
     {
@@ -192,7 +192,7 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Get the value of the SalesRankings property.
      *
-     * @return SalesRankList SalesRankings.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSalesRankList SalesRankings.
      */
     public function getSalesRankings()
     {
@@ -234,7 +234,7 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Get the value of the LowestOfferListings property.
      *
-     * @return LowestOfferListingList LowestOfferListings.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestOfferListingList LowestOfferListings.
      */
     public function getLowestOfferListings()
     {
@@ -276,7 +276,7 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Get the value of the Offers property.
      *
-     * @return OffersList Offers.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOffersList Offers.
      */
     public function getOffers()
     {

@@ -164,7 +164,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Gets the value of the FeedSubmissionIdList.
      * 
-     * @return IdList FeedSubmissionIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList FeedSubmissionIdList
      */
     public function getFeedSubmissionIdList()
     {
@@ -244,7 +244,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Gets the value of the FeedTypeList.
      * 
-     * @return TypeList FeedTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList FeedTypeList
      */
     public function getFeedTypeList()
     {
@@ -284,7 +284,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Gets the value of the FeedProcessingStatusList.
      * 
-     * @return StatusList FeedProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList FeedProcessingStatusList
      */
     public function getFeedProcessingStatusList()
     {

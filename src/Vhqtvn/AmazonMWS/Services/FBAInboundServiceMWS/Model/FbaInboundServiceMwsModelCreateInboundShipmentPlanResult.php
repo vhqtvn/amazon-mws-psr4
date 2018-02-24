@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanResult extends FbaInboun
     /**
      * Get the value of the InboundShipmentPlans property.
      *
-     * @return InboundShipmentPlanList InboundShipmentPlans.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanList InboundShipmentPlans.
      */
     public function getInboundShipmentPlans()
     {

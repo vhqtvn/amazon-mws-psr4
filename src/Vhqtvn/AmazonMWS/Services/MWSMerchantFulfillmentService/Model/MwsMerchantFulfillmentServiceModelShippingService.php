@@ -321,7 +321,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the Rate property.
      *
-     * @return CurrencyAmount Rate.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount Rate.
      */
     public function getRate()
     {
@@ -363,7 +363,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the ShippingServiceOptions property.
      *
-     * @return ShippingServiceOptions ShippingServiceOptions.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions ShippingServiceOptions.
      */
     public function getShippingServiceOptions()
     {

@@ -147,7 +147,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnRequest extends FbaOutbou
     /**
      * Get the value of the Items property.
      *
-     * @return CreateReturnItemList Items.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCreateReturnItemList Items.
      */
     public function getItems()
     {

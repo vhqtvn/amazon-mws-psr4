@@ -350,7 +350,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the RentalInitialValue property.
      *
-     * @return Currency RentalInitialValue.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency RentalInitialValue.
      */
     public function getRentalInitialValue()
     {
@@ -392,7 +392,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the RentalReimbursement property.
      *
-     * @return Currency RentalReimbursement.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency RentalReimbursement.
      */
     public function getRentalReimbursement()
     {

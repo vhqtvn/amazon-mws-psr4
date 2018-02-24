@@ -23,7 +23,7 @@ class MarketplaceWebServiceOrdersModelListOrderItemsResponse extends Marketplace
     /**
      * Get the value of the ListOrderItemsResult property.
      *
-     * @return ListOrderItemsResult ListOrderItemsResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelListOrderItemsResult ListOrderItemsResult.
      */
     public function getListOrderItemsResult()
     {
@@ -65,7 +65,7 @@ class MarketplaceWebServiceOrdersModelListOrderItemsResponse extends Marketplace
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MarketplaceWebServiceOrdersModelListOrderItemsResponse extends Marketplace
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

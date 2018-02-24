@@ -277,7 +277,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Get the value of the EarliestAvailability property.
      *
-     * @return Timepoint EarliestAvailability.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint EarliestAvailability.
      */
     public function getEarliestAvailability()
     {
@@ -319,7 +319,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Get the value of the SupplyDetail property.
      *
-     * @return InventorySupplyDetailList SupplyDetail.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyDetailList SupplyDetail.
      */
     public function getSupplyDetail()
     {

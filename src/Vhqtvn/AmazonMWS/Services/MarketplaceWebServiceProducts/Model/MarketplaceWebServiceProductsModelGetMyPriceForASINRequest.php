@@ -147,7 +147,7 @@ class MarketplaceWebServiceProductsModelGetMyPriceForASINRequest extends Marketp
     /**
      * Get the value of the ASINList property.
      *
-     * @return ASINListType ASINList.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINListType ASINList.
      */
     public function getASINList()
     {

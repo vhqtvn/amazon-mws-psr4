@@ -66,7 +66,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the PerUnitAmount property.
      *
-     * @return Currency PerUnitAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency PerUnitAmount.
      */
     public function getPerUnitAmount()
     {
@@ -108,7 +108,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the TotalAmount property.
      *
-     * @return Currency TotalAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency TotalAmount.
      */
     public function getTotalAmount()
     {

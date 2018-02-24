@@ -64,7 +64,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Get the value of the Price property.
      *
-     * @return PriceType Price.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType Price.
      */
     public function getPrice()
     {

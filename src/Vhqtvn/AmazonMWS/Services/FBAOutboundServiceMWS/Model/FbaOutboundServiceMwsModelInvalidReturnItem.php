@@ -104,7 +104,7 @@ class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsM
     /**
      * Get the value of the InvalidItemReason property.
      *
-     * @return InvalidItemReason InvalidItemReason.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidItemReason InvalidItemReason.
      */
     public function getInvalidItemReason()
     {

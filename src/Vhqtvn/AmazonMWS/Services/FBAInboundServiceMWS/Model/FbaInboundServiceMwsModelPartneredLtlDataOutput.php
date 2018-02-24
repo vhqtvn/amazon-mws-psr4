@@ -32,7 +32,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the Contact property.
      *
-     * @return Contact Contact.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelContact Contact.
      */
     public function getContact()
     {
@@ -200,7 +200,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the PalletList property.
      *
-     * @return PalletList PalletList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPalletList PalletList.
      */
     public function getPalletList()
     {
@@ -242,7 +242,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the TotalWeight property.
      *
-     * @return Weight TotalWeight.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight TotalWeight.
      */
     public function getTotalWeight()
     {
@@ -284,7 +284,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the SellerDeclaredValue property.
      *
-     * @return Amount SellerDeclaredValue.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount SellerDeclaredValue.
      */
     public function getSellerDeclaredValue()
     {
@@ -326,7 +326,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the AmazonCalculatedValue property.
      *
-     * @return Amount AmazonCalculatedValue.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount AmazonCalculatedValue.
      */
     public function getAmazonCalculatedValue()
     {
@@ -587,7 +587,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the PartneredEstimate property.
      *
-     * @return PartneredEstimate PartneredEstimate.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredEstimate PartneredEstimate.
      */
     public function getPartneredEstimate()
     {

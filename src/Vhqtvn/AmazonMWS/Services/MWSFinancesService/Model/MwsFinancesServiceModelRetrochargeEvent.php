@@ -149,7 +149,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the BaseTax property.
      *
-     * @return Currency BaseTax.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency BaseTax.
      */
     public function getBaseTax()
     {
@@ -191,7 +191,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the ShippingTax property.
      *
-     * @return Currency ShippingTax.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency ShippingTax.
      */
     public function getShippingTax()
     {

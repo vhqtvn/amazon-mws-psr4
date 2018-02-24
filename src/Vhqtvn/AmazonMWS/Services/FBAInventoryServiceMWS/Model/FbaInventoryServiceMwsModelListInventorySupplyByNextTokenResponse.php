@@ -23,7 +23,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResponse extends 
     /**
      * Get the value of the ListInventorySupplyByNextTokenResult property.
      *
-     * @return ListInventorySupplyByNextTokenResult ListInventorySupplyByNextTokenResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult ListInventorySupplyByNextTokenResult.
      */
     public function getListInventorySupplyByNextTokenResult()
     {
@@ -65,7 +65,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResponse extends 
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResponse extends 
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

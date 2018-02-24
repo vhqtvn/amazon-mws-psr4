@@ -104,7 +104,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesRequest exten
     /**
      * Get the value of the ShipmentRequestDetails property.
      *
-     * @return ShipmentRequestDetails ShipmentRequestDetails.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipmentRequestDetails ShipmentRequestDetails.
      */
     public function getShipmentRequestDetails()
     {

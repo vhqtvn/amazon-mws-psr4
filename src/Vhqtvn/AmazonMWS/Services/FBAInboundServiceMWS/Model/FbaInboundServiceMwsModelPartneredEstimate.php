@@ -20,7 +20,7 @@ class FbaInboundServiceMwsModelPartneredEstimate extends FbaInboundServiceMwsMod
     /**
      * Get the value of the Amount property.
      *
-     * @return Amount Amount.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount Amount.
      */
     public function getAmount()
     {

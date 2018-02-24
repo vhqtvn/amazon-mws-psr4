@@ -106,7 +106,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Get the value of the ReimbursedAmount property.
      *
-     * @return Currency ReimbursedAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency ReimbursedAmount.
      */
     public function getReimbursedAmount()
     {

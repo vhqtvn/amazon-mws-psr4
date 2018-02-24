@@ -71,7 +71,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the ItemIdentifier property.
      *
-     * @return ProductIdentifier ItemIdentifier.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier ItemIdentifier.
      */
     public function getItemIdentifier()
     {
@@ -281,7 +281,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the YourPricePlusShipping property.
      *
-     * @return Price YourPricePlusShipping.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice YourPricePlusShipping.
      */
     public function getYourPricePlusShipping()
     {
@@ -323,7 +323,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the LowestPricePlusShipping property.
      *
-     * @return Price LowestPricePlusShipping.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice LowestPricePlusShipping.
      */
     public function getLowestPricePlusShipping()
     {

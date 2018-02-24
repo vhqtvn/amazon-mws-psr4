@@ -69,7 +69,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Get the value of the ScheduledDeliveryInfo property.
      *
-     * @return ScheduledDeliveryInfo ScheduledDeliveryInfo.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelScheduledDeliveryInfo ScheduledDeliveryInfo.
      */
     public function getScheduledDeliveryInfo()
     {
@@ -213,7 +213,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Get the value of the EstimatedShippingWeight property.
      *
-     * @return Weight EstimatedShippingWeight.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelWeight EstimatedShippingWeight.
      */
     public function getEstimatedShippingWeight()
     {
@@ -255,7 +255,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Get the value of the EstimatedFees property.
      *
-     * @return FeeList EstimatedFees.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFeeList EstimatedFees.
      */
     public function getEstimatedFees()
     {
@@ -297,7 +297,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Get the value of the FulfillmentPreviewShipments property.
      *
-     * @return FulfillmentPreviewShipmentList FulfillmentPreviewShipments.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewShipmentList FulfillmentPreviewShipments.
      */
     public function getFulfillmentPreviewShipments()
     {
@@ -339,7 +339,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Get the value of the UnfulfillablePreviewItems property.
      *
-     * @return UnfulfillablePreviewItemList UnfulfillablePreviewItems.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUnfulfillablePreviewItemList UnfulfillablePreviewItems.
      */
     public function getUnfulfillablePreviewItems()
     {
@@ -381,7 +381,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Get the value of the OrderUnfulfillableReasons property.
      *
-     * @return StringList OrderUnfulfillableReasons.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelStringList OrderUnfulfillableReasons.
      */
     public function getOrderUnfulfillableReasons()
     {

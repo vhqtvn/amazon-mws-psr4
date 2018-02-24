@@ -23,7 +23,7 @@ class MarketplaceWebServiceProductsModelGetProductCategoriesForSKUResponse exten
     /**
      * Get the value of the GetProductCategoriesForSKUResult property.
      *
-     * @return GetProductCategoriesForSKUResult GetProductCategoriesForSKUResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetProductCategoriesForSKUResult GetProductCategoriesForSKUResult.
      */
     public function getGetProductCategoriesForSKUResult()
     {
@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetProductCategoriesForSKUResponse exten
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MarketplaceWebServiceProductsModelGetProductCategoriesForSKUResponse exten
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

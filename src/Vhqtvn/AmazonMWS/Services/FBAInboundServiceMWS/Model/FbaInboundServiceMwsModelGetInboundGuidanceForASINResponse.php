@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForASINResponse extends FbaInbo
     /**
      * Get the value of the GetInboundGuidanceForASINResult property.
      *
-     * @return GetInboundGuidanceForASINResult GetInboundGuidanceForASINResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetInboundGuidanceForASINResult GetInboundGuidanceForASINResult.
      */
     public function getGetInboundGuidanceForASINResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForASINResponse extends FbaInbo
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForASINResponse extends FbaInbo
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

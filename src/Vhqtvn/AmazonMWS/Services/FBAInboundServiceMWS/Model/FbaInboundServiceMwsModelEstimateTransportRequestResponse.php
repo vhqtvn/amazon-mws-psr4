@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelEstimateTransportRequestResponse extends FbaInbou
     /**
      * Get the value of the EstimateTransportRequestResult property.
      *
-     * @return EstimateTransportRequestResult EstimateTransportRequestResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelEstimateTransportRequestResult EstimateTransportRequestResult.
      */
     public function getEstimateTransportRequestResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelEstimateTransportRequestResponse extends FbaInbou
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelEstimateTransportRequestResponse extends FbaInbou
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

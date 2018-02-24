@@ -147,7 +147,7 @@ class FbaOutboundServiceMwsModelUnfulfillablePreviewItem extends FbaOutboundServ
     /**
      * Get the value of the ItemUnfulfillableReasons property.
      *
-     * @return StringList ItemUnfulfillableReasons.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelStringList ItemUnfulfillableReasons.
      */
     public function getItemUnfulfillableReasons()
     {

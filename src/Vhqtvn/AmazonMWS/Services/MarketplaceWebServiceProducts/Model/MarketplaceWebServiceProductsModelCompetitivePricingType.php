@@ -20,7 +20,7 @@ class MarketplaceWebServiceProductsModelCompetitivePricingType extends Marketpla
     /**
      * Get the value of the CompetitivePrices property.
      *
-     * @return CompetitivePriceList CompetitivePrices.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCompetitivePriceList CompetitivePrices.
      */
     public function getCompetitivePrices()
     {
@@ -62,7 +62,7 @@ class MarketplaceWebServiceProductsModelCompetitivePricingType extends Marketpla
     /**
      * Get the value of the NumberOfOfferListings property.
      *
-     * @return NumberOfOfferListingsList NumberOfOfferListings.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelNumberOfOfferListingsList NumberOfOfferListings.
      */
     public function getNumberOfOfferListings()
     {
@@ -104,7 +104,7 @@ class MarketplaceWebServiceProductsModelCompetitivePricingType extends Marketpla
     /**
      * Get the value of the TradeInValue property.
      *
-     * @return MoneyType TradeInValue.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType TradeInValue.
      */
     public function getTradeInValue()
     {

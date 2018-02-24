@@ -106,7 +106,7 @@ class FbaOutboundServiceMwsModelReturnAuthorization extends FbaOutboundServiceMw
     /**
      * Get the value of the ReturnToAddress property.
      *
-     * @return Address ReturnToAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress ReturnToAddress.
      */
     public function getReturnToAddress()
     {

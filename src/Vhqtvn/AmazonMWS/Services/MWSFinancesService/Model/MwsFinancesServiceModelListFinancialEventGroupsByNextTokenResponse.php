@@ -23,7 +23,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResponse extends
     /**
      * Get the value of the ListFinancialEventGroupsByNextTokenResult property.
      *
-     * @return ListFinancialEventGroupsByNextTokenResult ListFinancialEventGroupsByNextTokenResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResult ListFinancialEventGroupsByNextTokenResult.
      */
     public function getListFinancialEventGroupsByNextTokenResult()
     {
@@ -65,7 +65,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResponse extends
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResponse extends
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

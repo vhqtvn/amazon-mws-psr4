@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForSKUResult extends FbaInboun
     /**
      * Get the value of the SKUPrepInstructionsList property.
      *
-     * @return SKUPrepInstructionsList SKUPrepInstructionsList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUPrepInstructionsList SKUPrepInstructionsList.
      */
     public function getSKUPrepInstructionsList()
     {
@@ -61,7 +61,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForSKUResult extends FbaInboun
     /**
      * Get the value of the InvalidSKUList property.
      *
-     * @return InvalidSKUList InvalidSKUList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidSKUList InvalidSKUList.
      */
     public function getInvalidSKUList()
     {

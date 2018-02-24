@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelGetUniquePackageLabelsResponse extends FbaInbound
     /**
      * Get the value of the GetUniquePackageLabelsResult property.
      *
-     * @return GetUniquePackageLabelsResult GetUniquePackageLabelsResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetUniquePackageLabelsResult GetUniquePackageLabelsResult.
      */
     public function getGetUniquePackageLabelsResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelGetUniquePackageLabelsResponse extends FbaInbound
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelGetUniquePackageLabelsResponse extends FbaInbound
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

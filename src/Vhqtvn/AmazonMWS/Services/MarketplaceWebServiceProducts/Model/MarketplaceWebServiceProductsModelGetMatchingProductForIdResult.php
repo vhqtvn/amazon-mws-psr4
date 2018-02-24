@@ -22,7 +22,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Get the value of the Products property.
      *
-     * @return ProductList Products.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProductList Products.
      */
     public function getProducts()
     {
@@ -64,7 +64,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Get the value of the Error property.
      *
-     * @return Error Error.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError Error.
      */
     public function getError()
     {

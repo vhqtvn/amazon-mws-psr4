@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountResponse extends Marketpla
     /**
      * Gets the value of the GetFeedSubmissionCountResult.
      * 
-     * @return GetFeedSubmissionCountResult GetFeedSubmissionCountResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountResult GetFeedSubmissionCountResult
      */
     public function getGetFeedSubmissionCountResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountResponse extends Marketpla
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

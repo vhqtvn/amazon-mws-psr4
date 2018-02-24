@@ -190,7 +190,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
     /**
      * Get the value of the IdList property.
      *
-     * @return IdListType IdList.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelIdListType IdList.
      */
     public function getIdList()
     {

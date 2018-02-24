@@ -192,7 +192,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Get the value of the Identifier property.
      *
-     * @return GetLowestPricedOffersSkuIdentifier Identifier.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier Identifier.
      */
     public function getIdentifier()
     {
@@ -234,7 +234,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Get the value of the Summary property.
      *
-     * @return Summary Summary.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSummary Summary.
      */
     public function getSummary()
     {
@@ -276,7 +276,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Get the value of the Offers property.
      *
-     * @return SKUOfferDetailList Offers.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetailList Offers.
      */
     public function getOffers()
     {

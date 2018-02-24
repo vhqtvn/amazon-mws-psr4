@@ -18,7 +18,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentResult extends MwsMerchant
     /**
      * Get the value of the Shipment property.
      *
-     * @return Shipment Shipment.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipment Shipment.
      */
     public function getShipment()
     {

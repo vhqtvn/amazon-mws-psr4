@@ -30,7 +30,7 @@ class MarketplaceWebServiceModelSubmitFeedResult extends MarketplaceWebServiceMo
     /**
      * Gets the value of the FeedSubmissionInfo.
      * 
-     * @return FeedSubmissionInfo FeedSubmissionInfo
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo FeedSubmissionInfo
      */
     public function getFeedSubmissionInfo()
     {

@@ -23,7 +23,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenRespons
     /**
      * Get the value of the ListRecommendationsByNextTokenResult property.
      *
-     * @return ListRecommendationsByNextTokenResult ListRecommendationsByNextTokenResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenResult ListRecommendationsByNextTokenResult.
      */
     public function getListRecommendationsByNextTokenResult()
     {
@@ -65,7 +65,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenRespons
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenRespons
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

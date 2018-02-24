@@ -160,7 +160,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
     /**
      * Gets the value of the ReportTypeList.
      * 
-     * @return TypeList ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList ReportTypeList
      */
     public function getReportTypeList()
     {
@@ -200,7 +200,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
     /**
      * Gets the value of the ReportProcessingStatusList.
      * 
-     * @return StatusList ReportProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList ReportProcessingStatusList
      */
     public function getReportProcessingStatusList()
     {

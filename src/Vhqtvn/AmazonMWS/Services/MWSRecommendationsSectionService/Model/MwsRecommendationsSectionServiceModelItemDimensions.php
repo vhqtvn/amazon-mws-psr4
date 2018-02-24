@@ -21,7 +21,7 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
     /**
      * Get the value of the Height property.
      *
-     * @return DimensionMeasure Height.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure Height.
      */
     public function getHeight()
     {
@@ -63,7 +63,7 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
     /**
      * Get the value of the Width property.
      *
-     * @return DimensionMeasure Width.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure Width.
      */
     public function getWidth()
     {
@@ -105,7 +105,7 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
     /**
      * Get the value of the Length property.
      *
-     * @return DimensionMeasure Length.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure Length.
      */
     public function getLength()
     {
@@ -147,7 +147,7 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
     /**
      * Get the value of the Weight property.
      *
-     * @return WeightMeasure Weight.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelWeightMeasure Weight.
      */
     public function getWeight()
     {

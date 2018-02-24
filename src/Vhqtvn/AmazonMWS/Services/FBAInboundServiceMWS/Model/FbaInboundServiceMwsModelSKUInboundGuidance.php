@@ -147,7 +147,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidance extends FbaInboundServiceMwsMo
     /**
      * Get the value of the GuidanceReasonList property.
      *
-     * @return GuidanceReasonList GuidanceReasonList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList GuidanceReasonList.
      */
     public function getGuidanceReasonList()
     {

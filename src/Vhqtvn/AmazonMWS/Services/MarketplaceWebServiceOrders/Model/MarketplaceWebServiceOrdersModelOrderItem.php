@@ -300,7 +300,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the ProductInfo property.
      *
-     * @return ProductInfoDetail ProductInfo.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelProductInfoDetail ProductInfo.
      */
     public function getProductInfo()
     {
@@ -342,7 +342,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the PointsGranted property.
      *
-     * @return PointsGrantedDetail PointsGranted.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPointsGrantedDetail PointsGranted.
      */
     public function getPointsGranted()
     {
@@ -384,7 +384,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the ItemPrice property.
      *
-     * @return Money ItemPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney ItemPrice.
      */
     public function getItemPrice()
     {
@@ -426,7 +426,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the ShippingPrice property.
      *
-     * @return Money ShippingPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney ShippingPrice.
      */
     public function getShippingPrice()
     {
@@ -468,7 +468,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the GiftWrapPrice property.
      *
-     * @return Money GiftWrapPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney GiftWrapPrice.
      */
     public function getGiftWrapPrice()
     {
@@ -510,7 +510,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the ItemTax property.
      *
-     * @return Money ItemTax.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney ItemTax.
      */
     public function getItemTax()
     {
@@ -552,7 +552,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the ShippingTax property.
      *
-     * @return Money ShippingTax.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney ShippingTax.
      */
     public function getShippingTax()
     {
@@ -594,7 +594,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the GiftWrapTax property.
      *
-     * @return Money GiftWrapTax.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney GiftWrapTax.
      */
     public function getGiftWrapTax()
     {
@@ -636,7 +636,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the ShippingDiscount property.
      *
-     * @return Money ShippingDiscount.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney ShippingDiscount.
      */
     public function getShippingDiscount()
     {
@@ -678,7 +678,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the PromotionDiscount property.
      *
-     * @return Money PromotionDiscount.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney PromotionDiscount.
      */
     public function getPromotionDiscount()
     {
@@ -777,7 +777,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the CODFee property.
      *
-     * @return Money CODFee.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney CODFee.
      */
     public function getCODFee()
     {
@@ -819,7 +819,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the CODFeeDiscount property.
      *
-     * @return Money CODFeeDiscount.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney CODFeeDiscount.
      */
     public function getCODFeeDiscount()
     {
@@ -996,7 +996,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the InvoiceData property.
      *
-     * @return InvoiceData InvoiceData.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelInvoiceData InvoiceData.
      */
     public function getInvoiceData()
     {
@@ -1290,7 +1290,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the BuyerCustomizedInfo property.
      *
-     * @return BuyerCustomizedInfoDetail BuyerCustomizedInfo.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerCustomizedInfoDetail BuyerCustomizedInfo.
      */
     public function getBuyerCustomizedInfo()
     {
@@ -1332,7 +1332,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the TaxCollection property.
      *
-     * @return TaxCollection TaxCollection.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxCollection TaxCollection.
      */
     public function getTaxCollection()
     {

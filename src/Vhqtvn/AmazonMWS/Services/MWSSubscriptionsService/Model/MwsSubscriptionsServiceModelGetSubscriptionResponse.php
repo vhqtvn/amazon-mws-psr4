@@ -23,7 +23,7 @@ class MwsSubscriptionsServiceModelGetSubscriptionResponse extends MwsSubscriptio
     /**
      * Get the value of the GetSubscriptionResult property.
      *
-     * @return GetSubscriptionResult GetSubscriptionResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelGetSubscriptionResult GetSubscriptionResult.
      */
     public function getGetSubscriptionResult()
     {
@@ -65,7 +65,7 @@ class MwsSubscriptionsServiceModelGetSubscriptionResponse extends MwsSubscriptio
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MwsSubscriptionsServiceModelGetSubscriptionResponse extends MwsSubscriptio
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

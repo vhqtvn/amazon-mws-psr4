@@ -215,7 +215,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the ShipFromAddress property.
      *
-     * @return Address ShipFromAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress ShipFromAddress.
      */
     public function getShipFromAddress()
     {
@@ -257,7 +257,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the ShipToAddress property.
      *
-     * @return Address ShipToAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress ShipToAddress.
      */
     public function getShipToAddress()
     {
@@ -299,7 +299,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the PackageDimensions property.
      *
-     * @return PackageDimensions PackageDimensions.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions PackageDimensions.
      */
     public function getPackageDimensions()
     {
@@ -341,7 +341,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the Weight property.
      *
-     * @return Weight Weight.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight Weight.
      */
     public function getWeight()
     {
@@ -383,7 +383,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the Insurance property.
      *
-     * @return CurrencyAmount Insurance.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount Insurance.
      */
     public function getInsurance()
     {
@@ -425,7 +425,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the ShippingService property.
      *
-     * @return ShippingService ShippingService.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService ShippingService.
      */
     public function getShippingService()
     {
@@ -467,7 +467,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the Label property.
      *
-     * @return Label Label.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabel Label.
      */
     public function getLabel()
     {

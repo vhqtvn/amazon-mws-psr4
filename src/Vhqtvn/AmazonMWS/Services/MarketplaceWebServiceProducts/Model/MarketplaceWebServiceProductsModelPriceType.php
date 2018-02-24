@@ -21,7 +21,7 @@ class MarketplaceWebServiceProductsModelPriceType extends MarketplaceWebServiceP
     /**
      * Get the value of the LandedPrice property.
      *
-     * @return MoneyType LandedPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType LandedPrice.
      */
     public function getLandedPrice()
     {
@@ -63,7 +63,7 @@ class MarketplaceWebServiceProductsModelPriceType extends MarketplaceWebServiceP
     /**
      * Get the value of the ListingPrice property.
      *
-     * @return MoneyType ListingPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType ListingPrice.
      */
     public function getListingPrice()
     {
@@ -105,7 +105,7 @@ class MarketplaceWebServiceProductsModelPriceType extends MarketplaceWebServiceP
     /**
      * Get the value of the Shipping property.
      *
-     * @return MoneyType Shipping.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType Shipping.
      */
     public function getShipping()
     {
@@ -147,7 +147,7 @@ class MarketplaceWebServiceProductsModelPriceType extends MarketplaceWebServiceP
     /**
      * Get the value of the Points property.
      *
-     * @return Points Points.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints Points.
      */
     public function getPoints()
     {

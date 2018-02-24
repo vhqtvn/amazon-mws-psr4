@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetReportRequestListResponse extends Marketplace
     /**
      * Gets the value of the GetReportRequestListResult.
      * 
-     * @return GetReportRequestListResult GetReportRequestListResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequestListResult GetReportRequestListResult
      */
     public function getGetReportRequestListResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetReportRequestListResponse extends Marketplace
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

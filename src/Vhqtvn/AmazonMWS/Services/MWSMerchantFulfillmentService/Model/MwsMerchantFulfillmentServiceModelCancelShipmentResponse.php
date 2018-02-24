@@ -23,7 +23,7 @@ class MwsMerchantFulfillmentServiceModelCancelShipmentResponse extends MwsMercha
     /**
      * Get the value of the CancelShipmentResult property.
      *
-     * @return CancelShipmentResult CancelShipmentResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCancelShipmentResult CancelShipmentResult.
      */
     public function getCancelShipmentResult()
     {
@@ -65,7 +65,7 @@ class MwsMerchantFulfillmentServiceModelCancelShipmentResponse extends MwsMercha
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MwsMerchantFulfillmentServiceModelCancelShipmentResponse extends MwsMercha
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

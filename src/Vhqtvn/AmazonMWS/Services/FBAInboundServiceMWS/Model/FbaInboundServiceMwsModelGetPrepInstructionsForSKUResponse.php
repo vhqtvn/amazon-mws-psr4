@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForSKUResponse extends FbaInbo
     /**
      * Get the value of the GetPrepInstructionsForSKUResult property.
      *
-     * @return GetPrepInstructionsForSKUResult GetPrepInstructionsForSKUResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetPrepInstructionsForSKUResult GetPrepInstructionsForSKUResult.
      */
     public function getGetPrepInstructionsForSKUResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForSKUResponse extends FbaInbo
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForSKUResponse extends FbaInbo
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

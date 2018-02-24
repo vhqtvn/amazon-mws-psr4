@@ -194,7 +194,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Get the value of the Address property.
      *
-     * @return Address Address.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress Address.
      */
     public function getAddress()
     {
@@ -236,7 +236,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Get the value of the Items property.
      *
-     * @return GetFulfillmentPreviewItemList Items.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewItemList Items.
      */
     public function getItems()
     {
@@ -278,7 +278,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Get the value of the ShippingSpeedCategories property.
      *
-     * @return ShippingSpeedCategoryList ShippingSpeedCategories.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelShippingSpeedCategoryList ShippingSpeedCategories.
      */
     public function getShippingSpeedCategories()
     {

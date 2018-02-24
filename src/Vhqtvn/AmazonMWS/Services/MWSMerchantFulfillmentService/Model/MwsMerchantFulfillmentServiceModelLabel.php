@@ -64,7 +64,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Get the value of the Dimensions property.
      *
-     * @return LabelDimensions Dimensions.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelDimensions Dimensions.
      */
     public function getDimensions()
     {
@@ -106,7 +106,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Get the value of the FileContents property.
      *
-     * @return FileContents FileContents.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelFileContents FileContents.
      */
     public function getFileContents()
     {

@@ -121,7 +121,7 @@ class MarketplaceWebServiceProductsModelSKUOfferDetail extends MarketplaceWebSer
     /**
      * Get the value of the SellerFeedbackRating property.
      *
-     * @return SellerFeedbackType SellerFeedbackRating.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerFeedbackType SellerFeedbackRating.
      */
     public function getSellerFeedbackRating()
     {
@@ -163,7 +163,7 @@ class MarketplaceWebServiceProductsModelSKUOfferDetail extends MarketplaceWebSer
     /**
      * Get the value of the ShippingTime property.
      *
-     * @return DetailedShippingTimeType ShippingTime.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelDetailedShippingTimeType ShippingTime.
      */
     public function getShippingTime()
     {
@@ -205,7 +205,7 @@ class MarketplaceWebServiceProductsModelSKUOfferDetail extends MarketplaceWebSer
     /**
      * Get the value of the ListingPrice property.
      *
-     * @return MoneyType ListingPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType ListingPrice.
      */
     public function getListingPrice()
     {
@@ -247,7 +247,7 @@ class MarketplaceWebServiceProductsModelSKUOfferDetail extends MarketplaceWebSer
     /**
      * Get the value of the Points property.
      *
-     * @return Points Points.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints Points.
      */
     public function getPoints()
     {
@@ -289,7 +289,7 @@ class MarketplaceWebServiceProductsModelSKUOfferDetail extends MarketplaceWebSer
     /**
      * Get the value of the Shipping property.
      *
-     * @return MoneyType Shipping.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType Shipping.
      */
     public function getShipping()
     {
@@ -331,7 +331,7 @@ class MarketplaceWebServiceProductsModelSKUOfferDetail extends MarketplaceWebSer
     /**
      * Get the value of the ShipsFrom property.
      *
-     * @return ShipsFromType ShipsFrom.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShipsFromType ShipsFrom.
      */
     public function getShipsFrom()
     {

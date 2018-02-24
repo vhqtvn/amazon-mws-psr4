@@ -104,7 +104,7 @@ class MarketplaceWebServiceProductsModelGetMyFeesEstimateRequest extends Marketp
     /**
      * Get the value of the FeesEstimateRequestList property.
      *
-     * @return FeesEstimateRequestList FeesEstimateRequestList.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateRequestList FeesEstimateRequestList.
      */
     public function getFeesEstimateRequestList()
     {

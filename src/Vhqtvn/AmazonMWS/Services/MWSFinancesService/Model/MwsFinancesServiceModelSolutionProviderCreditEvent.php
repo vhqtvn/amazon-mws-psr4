@@ -363,7 +363,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the TransactionAmount property.
      *
-     * @return Currency TransactionAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency TransactionAmount.
      */
     public function getTransactionAmount()
     {

@@ -150,7 +150,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Get the value of the ItemIdentifier property.
      *
-     * @return ProductIdentifier ItemIdentifier.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier ItemIdentifier.
      */
     public function getItemIdentifier()
     {

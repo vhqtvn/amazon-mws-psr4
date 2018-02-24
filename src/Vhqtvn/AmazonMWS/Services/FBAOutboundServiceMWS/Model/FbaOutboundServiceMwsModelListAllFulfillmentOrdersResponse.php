@@ -23,7 +23,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersResponse extends FbaOutb
     /**
      * Get the value of the ListAllFulfillmentOrdersResult property.
      *
-     * @return ListAllFulfillmentOrdersResult ListAllFulfillmentOrdersResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelListAllFulfillmentOrdersResult ListAllFulfillmentOrdersResult.
      */
     public function getListAllFulfillmentOrdersResult()
     {
@@ -65,7 +65,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersResponse extends FbaOutb
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersResponse extends FbaOutb
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

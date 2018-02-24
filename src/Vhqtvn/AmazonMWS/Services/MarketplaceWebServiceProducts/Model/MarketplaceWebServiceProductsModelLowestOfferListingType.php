@@ -22,7 +22,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
     /**
      * Get the value of the Qualifiers property.
      *
-     * @return QualifiersType Qualifiers.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelQualifiersType Qualifiers.
      */
     public function getQualifiers()
     {
@@ -148,7 +148,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
     /**
      * Get the value of the Price property.
      *
-     * @return PriceType Price.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType Price.
      */
     public function getPrice()
     {

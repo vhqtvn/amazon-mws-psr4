@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelListInboundShipmentItemsByNextTokenResponse exten
     /**
      * Get the value of the ListInboundShipmentItemsByNextTokenResult property.
      *
-     * @return ListInboundShipmentItemsByNextTokenResult ListInboundShipmentItemsByNextTokenResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelListInboundShipmentItemsByNextTokenResult ListInboundShipmentItemsByNextTokenResult.
      */
     public function getListInboundShipmentItemsByNextTokenResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelListInboundShipmentItemsByNextTokenResponse exten
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelListInboundShipmentItemsByNextTokenResponse exten
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

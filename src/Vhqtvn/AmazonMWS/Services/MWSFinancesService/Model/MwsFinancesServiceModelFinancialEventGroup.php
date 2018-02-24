@@ -154,7 +154,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the OriginalTotal property.
      *
-     * @return Currency OriginalTotal.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency OriginalTotal.
      */
     public function getOriginalTotal()
     {
@@ -196,7 +196,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the ConvertedTotal property.
      *
-     * @return Currency ConvertedTotal.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency ConvertedTotal.
      */
     public function getConvertedTotal()
     {
@@ -364,7 +364,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the BeginningBalance property.
      *
-     * @return Currency BeginningBalance.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency BeginningBalance.
      */
     public function getBeginningBalance()
     {

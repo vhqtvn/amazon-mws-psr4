@@ -160,7 +160,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
     /**
      * Gets the value of the ReportTypeList.
      * 
-     * @return TypeList ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList ReportTypeList
      */
     public function getReportTypeList()
     {

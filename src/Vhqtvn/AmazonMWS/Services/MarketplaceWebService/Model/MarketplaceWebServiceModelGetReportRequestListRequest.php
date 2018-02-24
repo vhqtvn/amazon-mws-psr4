@@ -164,7 +164,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Gets the value of the ReportRequestIdList.
      * 
-     * @return IdList ReportRequestIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList ReportRequestIdList
      */
     public function getReportRequestIdList()
     {
@@ -204,7 +204,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Gets the value of the ReportTypeList.
      * 
-     * @return TypeList ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList ReportTypeList
      */
     public function getReportTypeList()
     {
@@ -244,7 +244,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Gets the value of the ReportProcessingStatusList.
      * 
-     * @return StatusList ReportProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList ReportProcessingStatusList
      */
     public function getReportProcessingStatusList()
     {

@@ -61,7 +61,7 @@ class MwsFinancesServiceModelFeeComponent extends MwsFinancesServiceModel
     /**
      * Get the value of the FeeAmount property.
      *
-     * @return Currency FeeAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency FeeAmount.
      */
     public function getFeeAmount()
     {

@@ -61,7 +61,7 @@ class MwsSubscriptionsServiceModelDestination extends MwsSubscriptionsServiceMod
     /**
      * Get the value of the AttributeList property.
      *
-     * @return AttributeKeyValueList AttributeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValueList AttributeList.
      */
     public function getAttributeList()
     {

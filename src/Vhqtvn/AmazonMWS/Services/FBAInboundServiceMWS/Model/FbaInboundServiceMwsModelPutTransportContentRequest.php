@@ -242,7 +242,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
     /**
      * Get the value of the TransportDetails property.
      *
-     * @return TransportDetailInput TransportDetails.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDetailInput TransportDetails.
      */
     public function getTransportDetails()
     {

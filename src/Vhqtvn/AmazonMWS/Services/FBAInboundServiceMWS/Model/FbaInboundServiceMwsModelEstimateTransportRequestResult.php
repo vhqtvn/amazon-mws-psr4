@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelEstimateTransportRequestResult extends FbaInbound
     /**
      * Get the value of the TransportResult property.
      *
-     * @return TransportResult TransportResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportResult TransportResult.
      */
     public function getTransportResult()
     {

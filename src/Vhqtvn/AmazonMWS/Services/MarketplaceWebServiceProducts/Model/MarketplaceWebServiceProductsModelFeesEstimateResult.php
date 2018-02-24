@@ -63,7 +63,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
     /**
      * Get the value of the FeesEstimateIdentifier property.
      *
-     * @return FeesEstimateIdentifier FeesEstimateIdentifier.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateIdentifier FeesEstimateIdentifier.
      */
     public function getFeesEstimateIdentifier()
     {
@@ -105,7 +105,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
     /**
      * Get the value of the FeesEstimate property.
      *
-     * @return FeesEstimate FeesEstimate.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimate FeesEstimate.
      */
     public function getFeesEstimate()
     {
@@ -147,7 +147,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
     /**
      * Get the value of the Error property.
      *
-     * @return Error Error.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError Error.
      */
     public function getError()
     {

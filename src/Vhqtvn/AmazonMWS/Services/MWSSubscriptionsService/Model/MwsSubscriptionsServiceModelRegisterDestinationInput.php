@@ -147,7 +147,7 @@ class MwsSubscriptionsServiceModelRegisterDestinationInput extends MwsSubscripti
     /**
      * Get the value of the Destination property.
      *
-     * @return Destination Destination.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestination Destination.
      */
     public function getDestination()
     {

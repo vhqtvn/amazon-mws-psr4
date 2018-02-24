@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
     /**
      * Gets the value of the ManageReportScheduleResult.
      * 
-     * @return ManageReportScheduleResult ManageReportScheduleResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleResult ManageReportScheduleResult
      */
     public function getManageReportScheduleResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

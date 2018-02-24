@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenResponse extends 
     /**
      * Gets the value of the GetReportRequestListByNextTokenResult.
      * 
-     * @return GetReportRequestListByNextTokenResult GetReportRequestListByNextTokenResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequestListByNextTokenResult GetReportRequestListByNextTokenResult
      */
     public function getGetReportRequestListByNextTokenResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenResponse extends 
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

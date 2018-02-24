@@ -19,7 +19,7 @@ class MwsFinancesServiceModelLoanServicingEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the LoanAmount property.
      *
-     * @return Currency LoanAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency LoanAmount.
      */
     public function getLoanAmount()
     {

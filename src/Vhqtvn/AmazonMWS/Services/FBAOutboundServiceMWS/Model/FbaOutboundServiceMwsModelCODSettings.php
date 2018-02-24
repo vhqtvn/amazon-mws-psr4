@@ -73,7 +73,7 @@ class FbaOutboundServiceMwsModelCODSettings extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the CODCharge property.
      *
-     * @return Currency CODCharge.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency CODCharge.
      */
     public function getCODCharge()
     {
@@ -115,7 +115,7 @@ class FbaOutboundServiceMwsModelCODSettings extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the CODChargeTax property.
      *
-     * @return Currency CODChargeTax.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency CODChargeTax.
      */
     public function getCODChargeTax()
     {
@@ -157,7 +157,7 @@ class FbaOutboundServiceMwsModelCODSettings extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the ShippingCharge property.
      *
-     * @return Currency ShippingCharge.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency ShippingCharge.
      */
     public function getShippingCharge()
     {
@@ -199,7 +199,7 @@ class FbaOutboundServiceMwsModelCODSettings extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the ShippingChargeTax property.
      *
-     * @return Currency ShippingChargeTax.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency ShippingChargeTax.
      */
     public function getShippingChargeTax()
     {

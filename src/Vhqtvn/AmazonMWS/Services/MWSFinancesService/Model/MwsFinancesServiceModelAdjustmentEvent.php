@@ -105,7 +105,7 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the AdjustmentAmount property.
      *
-     * @return Currency AdjustmentAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency AdjustmentAmount.
      */
     public function getAdjustmentAmount()
     {

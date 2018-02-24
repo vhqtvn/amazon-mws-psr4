@@ -285,7 +285,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Get the value of the DeliveryWindow property.
      *
-     * @return DeliveryWindow DeliveryWindow.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindow DeliveryWindow.
      */
     public function getDeliveryWindow()
     {
@@ -327,7 +327,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Get the value of the DestinationAddress property.
      *
-     * @return Address DestinationAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress DestinationAddress.
      */
     public function getDestinationAddress()
     {
@@ -495,7 +495,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Get the value of the CODSettings property.
      *
-     * @return CODSettings CODSettings.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCODSettings CODSettings.
      */
     public function getCODSettings()
     {
@@ -663,7 +663,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Get the value of the NotificationEmailList property.
      *
-     * @return NotificationEmailList NotificationEmailList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelNotificationEmailList NotificationEmailList.
      */
     public function getNotificationEmailList()
     {

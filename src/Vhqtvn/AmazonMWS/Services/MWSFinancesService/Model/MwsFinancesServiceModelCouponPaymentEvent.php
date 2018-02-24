@@ -235,7 +235,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the FeeComponent property.
      *
-     * @return FeeComponent FeeComponent.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent FeeComponent.
      */
     public function getFeeComponent()
     {
@@ -277,7 +277,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the ChargeComponent property.
      *
-     * @return ChargeComponent ChargeComponent.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent ChargeComponent.
      */
     public function getChargeComponent()
     {
@@ -319,7 +319,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the TotalAmount property.
      *
-     * @return Currency TotalAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency TotalAmount.
      */
     public function getTotalAmount()
     {

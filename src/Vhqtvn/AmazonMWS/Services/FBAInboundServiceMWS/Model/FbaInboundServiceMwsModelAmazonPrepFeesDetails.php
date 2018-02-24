@@ -61,7 +61,7 @@ class FbaInboundServiceMwsModelAmazonPrepFeesDetails extends FbaInboundServiceMw
     /**
      * Get the value of the FeePerUnit property.
      *
-     * @return Amount FeePerUnit.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount FeePerUnit.
      */
     public function getFeePerUnit()
     {

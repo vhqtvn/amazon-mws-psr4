@@ -61,7 +61,7 @@ class MwsFinancesServiceModelListFinancialEventsByNextTokenResult extends MwsFin
     /**
      * Get the value of the FinancialEvents property.
      *
-     * @return FinancialEvents FinancialEvents.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEvents FinancialEvents.
      */
     public function getFinancialEvents()
     {

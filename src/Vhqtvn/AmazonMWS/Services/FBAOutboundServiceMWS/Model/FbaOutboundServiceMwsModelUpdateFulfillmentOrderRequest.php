@@ -411,7 +411,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the DestinationAddress property.
      *
-     * @return Address DestinationAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress DestinationAddress.
      */
     public function getDestinationAddress()
     {
@@ -621,7 +621,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the NotificationEmailList property.
      *
-     * @return NotificationEmailList NotificationEmailList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelNotificationEmailList NotificationEmailList.
      */
     public function getNotificationEmailList()
     {
@@ -663,7 +663,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the Items property.
      *
-     * @return UpdateFulfillmentOrderItemList Items.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUpdateFulfillmentOrderItemList Items.
      */
     public function getItems()
     {

@@ -147,7 +147,7 @@ class MwsSubscriptionsServiceModelCreateSubscriptionInput extends MwsSubscriptio
     /**
      * Get the value of the Subscription property.
      *
-     * @return Subscription Subscription.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSubscription Subscription.
      */
     public function getSubscription()
     {

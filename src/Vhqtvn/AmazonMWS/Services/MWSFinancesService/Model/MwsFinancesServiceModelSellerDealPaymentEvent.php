@@ -235,7 +235,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the feeAmount property.
      *
-     * @return Currency feeAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency feeAmount.
      */
     public function getfeeAmount()
     {
@@ -277,7 +277,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the taxAmount property.
      *
-     * @return Currency taxAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency taxAmount.
      */
     public function gettaxAmount()
     {
@@ -319,7 +319,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the totalAmount property.
      *
-     * @return Currency totalAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency totalAmount.
      */
     public function gettotalAmount()
     {

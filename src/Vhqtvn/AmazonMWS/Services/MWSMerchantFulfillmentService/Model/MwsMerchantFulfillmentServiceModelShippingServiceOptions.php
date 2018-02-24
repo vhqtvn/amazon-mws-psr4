@@ -63,7 +63,7 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
     /**
      * Get the value of the DeclaredValue property.
      *
-     * @return CurrencyAmount DeclaredValue.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount DeclaredValue.
      */
     public function getDeclaredValue()
     {

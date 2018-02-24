@@ -22,7 +22,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Get the value of the FulfillmentOrder property.
      *
-     * @return FulfillmentOrder FulfillmentOrder.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrder FulfillmentOrder.
      */
     public function getFulfillmentOrder()
     {
@@ -64,7 +64,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Get the value of the FulfillmentOrderItem property.
      *
-     * @return FulfillmentOrderItemList FulfillmentOrderItem.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrderItemList FulfillmentOrderItem.
      */
     public function getFulfillmentOrderItem()
     {
@@ -106,7 +106,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Get the value of the FulfillmentShipment property.
      *
-     * @return FulfillmentShipmentList FulfillmentShipment.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentList FulfillmentShipment.
      */
     public function getFulfillmentShipment()
     {
@@ -148,7 +148,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Get the value of the ReturnItemList property.
      *
-     * @return ReturnItemList ReturnItemList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnItemList ReturnItemList.
      */
     public function getReturnItemList()
     {
@@ -190,7 +190,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Get the value of the ReturnAuthorizationList property.
      *
-     * @return ReturnAuthorizationList ReturnAuthorizationList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnAuthorizationList ReturnAuthorizationList.
      */
     public function getReturnAuthorizationList()
     {

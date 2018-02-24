@@ -243,7 +243,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Get the value of the PriceToEstimateFees property.
      *
-     * @return PriceToEstimateFees PriceToEstimateFees.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceToEstimateFees PriceToEstimateFees.
      */
     public function getPriceToEstimateFees()
     {

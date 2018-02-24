@@ -105,7 +105,7 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the LiquidationProceedsAmount property.
      *
-     * @return Currency LiquidationProceedsAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency LiquidationProceedsAmount.
      */
     public function getLiquidationProceedsAmount()
     {
@@ -147,7 +147,7 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the LiquidationFeeAmount property.
      *
-     * @return Currency LiquidationFeeAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency LiquidationFeeAmount.
      */
     public function getLiquidationFeeAmount()
     {

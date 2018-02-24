@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelListInboundShipmentItemsResult extends FbaInbound
     /**
      * Get the value of the ItemData property.
      *
-     * @return InboundShipmentItemList ItemData.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentItemList ItemData.
      */
     public function getItemData()
     {

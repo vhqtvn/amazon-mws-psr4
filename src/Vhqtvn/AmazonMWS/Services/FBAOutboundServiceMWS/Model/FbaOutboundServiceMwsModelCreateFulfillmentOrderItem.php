@@ -321,7 +321,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Get the value of the PerUnitDeclaredValue property.
      *
-     * @return Currency PerUnitDeclaredValue.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency PerUnitDeclaredValue.
      */
     public function getPerUnitDeclaredValue()
     {
@@ -363,7 +363,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Get the value of the PerUnitPrice property.
      *
-     * @return Currency PerUnitPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency PerUnitPrice.
      */
     public function getPerUnitPrice()
     {
@@ -405,7 +405,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Get the value of the PerUnitTax property.
      *
-     * @return Currency PerUnitTax.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency PerUnitTax.
      */
     public function getPerUnitTax()
     {

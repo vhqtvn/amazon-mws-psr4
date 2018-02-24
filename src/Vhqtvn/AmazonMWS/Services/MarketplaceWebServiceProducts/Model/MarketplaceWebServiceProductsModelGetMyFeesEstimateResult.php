@@ -18,7 +18,7 @@ class MarketplaceWebServiceProductsModelGetMyFeesEstimateResult extends Marketpl
     /**
      * Get the value of the FeesEstimateResultList property.
      *
-     * @return FeesEstimateResultList FeesEstimateResultList.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateResultList FeesEstimateResultList.
      */
     public function getFeesEstimateResultList()
     {

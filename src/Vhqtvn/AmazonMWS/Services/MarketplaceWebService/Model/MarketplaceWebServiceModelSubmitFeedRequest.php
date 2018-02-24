@@ -57,7 +57,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
     /**
      * Gets the value of the content type
      *
-     * @return ContentType instance
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelContentType instance
      */
     public function getContentType()
     {
@@ -196,7 +196,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
     /**
      * Gets the value of the MarketplaceIdList.
      * 
-     * @return IdList MarketplaceIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList MarketplaceIdList
      */
     public function getMarketplaceIdList()
     {

@@ -111,7 +111,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the ShipFromAddress property.
      *
-     * @return Address ShipFromAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress ShipFromAddress.
      */
     public function getShipFromAddress()
     {
@@ -414,7 +414,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the EstimatedBoxContentsFee property.
      *
-     * @return BoxContentsFeeDetails EstimatedBoxContentsFee.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelBoxContentsFeeDetails EstimatedBoxContentsFee.
      */
     public function getEstimatedBoxContentsFee()
     {

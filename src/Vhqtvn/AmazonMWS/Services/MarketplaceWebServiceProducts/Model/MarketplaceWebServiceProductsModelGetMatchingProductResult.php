@@ -21,7 +21,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductResult extends Marketp
     /**
      * Get the value of the Product property.
      *
-     * @return Product Product.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct Product.
      */
     public function getProduct()
     {
@@ -63,7 +63,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductResult extends Marketp
     /**
      * Get the value of the Error property.
      *
-     * @return Error Error.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError Error.
      */
     public function getError()
     {

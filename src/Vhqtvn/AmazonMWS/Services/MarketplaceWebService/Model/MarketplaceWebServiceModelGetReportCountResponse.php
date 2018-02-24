@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetReportCountResponse extends MarketplaceWebSer
     /**
      * Gets the value of the GetReportCountResult.
      * 
-     * @return GetReportCountResult GetReportCountResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportCountResult GetReportCountResult
      */
     public function getGetReportCountResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetReportCountResponse extends MarketplaceWebSer
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

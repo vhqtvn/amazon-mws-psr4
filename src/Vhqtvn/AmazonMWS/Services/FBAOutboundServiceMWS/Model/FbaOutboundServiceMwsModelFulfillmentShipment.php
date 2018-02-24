@@ -234,7 +234,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Get the value of the FulfillmentShipmentItem property.
      *
-     * @return FulfillmentShipmentItemList FulfillmentShipmentItem.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentItemList FulfillmentShipmentItem.
      */
     public function getFulfillmentShipmentItem()
     {
@@ -276,7 +276,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Get the value of the FulfillmentShipmentPackage property.
      *
-     * @return FulfillmentShipmentPackageList FulfillmentShipmentPackage.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentPackageList FulfillmentShipmentPackage.
      */
     public function getFulfillmentShipmentPackage()
     {

@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
     /**
      * Gets the value of the CancelFeedSubmissionsResult.
      * 
-     * @return CancelFeedSubmissionsResult CancelFeedSubmissionsResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelFeedSubmissionsResult CancelFeedSubmissionsResult
      */
     public function getCancelFeedSubmissionsResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

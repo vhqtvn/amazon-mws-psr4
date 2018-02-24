@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Get the value of the FeeAmount property.
      *
-     * @return MoneyType FeeAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType FeeAmount.
      */
     public function getFeeAmount()
     {
@@ -107,7 +107,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Get the value of the FeePromotion property.
      *
-     * @return MoneyType FeePromotion.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType FeePromotion.
      */
     public function getFeePromotion()
     {
@@ -149,7 +149,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Get the value of the TaxAmount property.
      *
-     * @return MoneyType TaxAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType TaxAmount.
      */
     public function getTaxAmount()
     {
@@ -191,7 +191,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Get the value of the FinalFee property.
      *
-     * @return MoneyType FinalFee.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType FinalFee.
      */
     public function getFinalFee()
     {
@@ -233,7 +233,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Get the value of the IncludedFeeDetailList property.
      *
-     * @return FeeDetailList IncludedFeeDetailList.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetailList IncludedFeeDetailList.
      */
     public function getIncludedFeeDetailList()
     {

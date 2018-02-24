@@ -149,7 +149,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the baseValue property.
      *
-     * @return Currency baseValue.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency baseValue.
      */
     public function getbaseValue()
     {
@@ -191,7 +191,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the taxValue property.
      *
-     * @return Currency taxValue.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency taxValue.
      */
     public function gettaxValue()
     {
@@ -233,7 +233,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the transactionValue property.
      *
-     * @return Currency transactionValue.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency transactionValue.
      */
     public function gettransactionValue()
     {

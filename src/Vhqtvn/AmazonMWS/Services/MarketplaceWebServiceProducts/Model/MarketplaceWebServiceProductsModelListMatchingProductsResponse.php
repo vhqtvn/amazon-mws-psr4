@@ -23,7 +23,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsResponse extends Mar
     /**
      * Get the value of the ListMatchingProductsResult property.
      *
-     * @return ListMatchingProductsResult ListMatchingProductsResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelListMatchingProductsResult ListMatchingProductsResult.
      */
     public function getListMatchingProductsResult()
     {
@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsResponse extends Mar
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsResponse extends Mar
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

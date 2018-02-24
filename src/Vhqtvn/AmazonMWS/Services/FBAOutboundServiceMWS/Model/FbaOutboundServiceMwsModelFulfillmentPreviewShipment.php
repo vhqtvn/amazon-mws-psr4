@@ -190,7 +190,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Get the value of the FulfillmentPreviewItems property.
      *
-     * @return FulfillmentPreviewItemList FulfillmentPreviewItems.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewItemList FulfillmentPreviewItems.
      */
     public function getFulfillmentPreviewItems()
     {

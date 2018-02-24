@@ -160,7 +160,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
     /**
      * Gets the value of the FeedTypeList.
      * 
-     * @return TypeList FeedTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList FeedTypeList
      */
     public function getFeedTypeList()
     {
@@ -200,7 +200,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
     /**
      * Gets the value of the FeedProcessingStatusList.
      * 
-     * @return StatusList FeedProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList FeedProcessingStatusList
      */
     public function getFeedProcessingStatusList()
     {

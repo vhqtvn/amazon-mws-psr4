@@ -62,7 +62,7 @@ class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMw
     /**
      * Get the value of the FeePerUnit property.
      *
-     * @return Amount FeePerUnit.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount FeePerUnit.
      */
     public function getFeePerUnit()
     {
@@ -104,7 +104,7 @@ class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMw
     /**
      * Get the value of the TotalFee property.
      *
-     * @return Amount TotalFee.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount TotalFee.
      */
     public function getTotalFee()
     {

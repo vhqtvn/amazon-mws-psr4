@@ -61,7 +61,7 @@ class MarketplaceWebServiceOrdersModelPointsGrantedDetail extends MarketplaceWeb
     /**
      * Get the value of the PointsMonetaryValue property.
      *
-     * @return Money PointsMonetaryValue.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney PointsMonetaryValue.
      */
     public function getPointsMonetaryValue()
     {

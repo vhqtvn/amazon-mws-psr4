@@ -147,7 +147,7 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
     /**
      * Get the value of the Detail property.
      *
-     * @return ErrorDetail Detail.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelErrorDetail Detail.
      */
     public function getDetail()
     {

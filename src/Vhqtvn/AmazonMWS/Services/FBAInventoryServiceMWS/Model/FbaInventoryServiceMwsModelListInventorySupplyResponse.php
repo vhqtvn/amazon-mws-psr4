@@ -23,7 +23,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyResponse extends FbaInventor
     /**
      * Get the value of the ListInventorySupplyResult property.
      *
-     * @return ListInventorySupplyResult ListInventorySupplyResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelListInventorySupplyResult ListInventorySupplyResult.
      */
     public function getListInventorySupplyResult()
     {
@@ -65,7 +65,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyResponse extends FbaInventor
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyResponse extends FbaInventor
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

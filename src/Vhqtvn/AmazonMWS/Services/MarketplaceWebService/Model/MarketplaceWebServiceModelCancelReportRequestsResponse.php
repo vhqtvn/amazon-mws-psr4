@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
     /**
      * Gets the value of the CancelReportRequestsResult.
      * 
-     * @return CancelReportRequestsResult CancelReportRequestsResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelReportRequestsResult CancelReportRequestsResult
      */
     public function getCancelReportRequestsResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

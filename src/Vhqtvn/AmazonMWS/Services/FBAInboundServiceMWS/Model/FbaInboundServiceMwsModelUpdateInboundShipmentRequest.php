@@ -191,7 +191,7 @@ class FbaInboundServiceMwsModelUpdateInboundShipmentRequest extends FbaInboundSe
     /**
      * Get the value of the InboundShipmentHeader property.
      *
-     * @return InboundShipmentHeader InboundShipmentHeader.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentHeader InboundShipmentHeader.
      */
     public function getInboundShipmentHeader()
     {
@@ -233,7 +233,7 @@ class FbaInboundServiceMwsModelUpdateInboundShipmentRequest extends FbaInboundSe
     /**
      * Get the value of the InboundShipmentItems property.
      *
-     * @return InboundShipmentItemList InboundShipmentItems.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentItemList InboundShipmentItems.
      */
     public function getInboundShipmentItems()
     {

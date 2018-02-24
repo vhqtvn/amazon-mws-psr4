@@ -147,7 +147,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanItem extends FbaInboundService
     /**
      * Get the value of the PrepDetailsList property.
      *
-     * @return PrepDetailsList PrepDetailsList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList PrepDetailsList.
      */
     public function getPrepDetailsList()
     {

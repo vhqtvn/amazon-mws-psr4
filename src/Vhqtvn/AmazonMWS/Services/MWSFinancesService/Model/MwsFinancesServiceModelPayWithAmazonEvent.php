@@ -195,7 +195,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the Charge property.
      *
-     * @return ChargeComponent Charge.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent Charge.
      */
     public function getCharge()
     {

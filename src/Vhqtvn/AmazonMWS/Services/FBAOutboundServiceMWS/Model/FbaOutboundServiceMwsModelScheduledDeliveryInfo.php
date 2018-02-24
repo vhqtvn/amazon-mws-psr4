@@ -61,7 +61,7 @@ class FbaOutboundServiceMwsModelScheduledDeliveryInfo extends FbaOutboundService
     /**
      * Get the value of the DeliveryWindows property.
      *
-     * @return DeliveryWindowList DeliveryWindows.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindowList DeliveryWindows.
      */
     public function getDeliveryWindows()
     {

@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelGetBillOfLadingResult extends FbaInboundServiceMw
     /**
      * Get the value of the TransportDocument property.
      *
-     * @return TransportDocument TransportDocument.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDocument TransportDocument.
      */
     public function getTransportDocument()
     {

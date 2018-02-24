@@ -23,7 +23,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResponse exte
     /**
      * Get the value of the GetLowestPricedOffersForSKUResult property.
      *
-     * @return GetLowestPricedOffersForSKUResult GetLowestPricedOffersForSKUResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult GetLowestPricedOffersForSKUResult.
      */
     public function getGetLowestPricedOffersForSKUResult()
     {
@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResponse exte
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResponse exte
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

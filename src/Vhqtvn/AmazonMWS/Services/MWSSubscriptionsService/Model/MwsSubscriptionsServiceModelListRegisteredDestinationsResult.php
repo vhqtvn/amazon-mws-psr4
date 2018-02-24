@@ -18,7 +18,7 @@ class MwsSubscriptionsServiceModelListRegisteredDestinationsResult extends MwsSu
     /**
      * Get the value of the DestinationList property.
      *
-     * @return DestinationList DestinationList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestinationList DestinationList.
      */
     public function getDestinationList()
     {

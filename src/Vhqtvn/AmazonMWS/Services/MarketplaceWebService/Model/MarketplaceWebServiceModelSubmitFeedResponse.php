@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
     /**
      * Gets the value of the SubmitFeedResult.
      * 
-     * @return SubmitFeedResult SubmitFeedResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelSubmitFeedResult SubmitFeedResult
      */
     public function getSubmitFeedResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

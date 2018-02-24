@@ -104,7 +104,7 @@ class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebService
     /**
      * Get the value of the Parent property.
      *
-     * @return Categories Parent.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories Parent.
      */
     public function getParent()
     {

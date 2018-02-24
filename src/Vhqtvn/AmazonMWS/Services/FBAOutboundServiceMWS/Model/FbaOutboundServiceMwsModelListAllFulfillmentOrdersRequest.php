@@ -190,7 +190,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Get the value of the FulfillmentMethod property.
      *
-     * @return FulfillmentMethodList FulfillmentMethod.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentMethodList FulfillmentMethod.
      */
     public function getFulfillmentMethod()
     {

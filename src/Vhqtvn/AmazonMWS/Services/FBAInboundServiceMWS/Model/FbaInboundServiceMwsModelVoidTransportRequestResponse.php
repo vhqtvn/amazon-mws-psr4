@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelVoidTransportRequestResponse extends FbaInboundSe
     /**
      * Get the value of the VoidTransportRequestResult property.
      *
-     * @return VoidTransportRequestResult VoidTransportRequestResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelVoidTransportRequestResult VoidTransportRequestResult.
      */
     public function getVoidTransportRequestResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelVoidTransportRequestResponse extends FbaInboundSe
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelVoidTransportRequestResponse extends FbaInboundSe
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

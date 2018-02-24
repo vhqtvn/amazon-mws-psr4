@@ -168,7 +168,7 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Get the value of the ShipFromAddress property.
      *
-     * @return Address ShipFromAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress ShipFromAddress.
      */
     public function getShipFromAddress()
     {
@@ -210,7 +210,7 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Get the value of the PackageDimensions property.
      *
-     * @return PackageDimensions PackageDimensions.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions PackageDimensions.
      */
     public function getPackageDimensions()
     {
@@ -252,7 +252,7 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Get the value of the Weight property.
      *
-     * @return Weight Weight.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight Weight.
      */
     public function getWeight()
     {
@@ -378,7 +378,7 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Get the value of the ShippingServiceOptions property.
      *
-     * @return ShippingServiceOptions ShippingServiceOptions.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions ShippingServiceOptions.
      */
     public function getShippingServiceOptions()
     {
@@ -420,7 +420,7 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Get the value of the LabelCustomization property.
      *
-     * @return LabelCustomization LabelCustomization.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelCustomization LabelCustomization.
      */
     public function getLabelCustomization()
     {

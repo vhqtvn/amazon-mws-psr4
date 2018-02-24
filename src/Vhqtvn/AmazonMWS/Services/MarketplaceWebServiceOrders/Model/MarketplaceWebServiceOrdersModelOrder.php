@@ -431,7 +431,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the ShippingAddress property.
      *
-     * @return Address ShippingAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelAddress ShippingAddress.
      */
     public function getShippingAddress()
     {
@@ -473,7 +473,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the OrderTotal property.
      *
-     * @return Money OrderTotal.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney OrderTotal.
      */
     public function getOrderTotal()
     {
@@ -923,7 +923,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the BuyerTaxInfo property.
      *
-     * @return BuyerTaxInfo BuyerTaxInfo.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerTaxInfo BuyerTaxInfo.
      */
     public function getBuyerTaxInfo()
     {

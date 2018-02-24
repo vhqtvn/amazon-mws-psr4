@@ -160,7 +160,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
     /**
      * Gets the value of the FeedSubmissionIdList.
      * 
-     * @return IdList FeedSubmissionIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList FeedSubmissionIdList
      */
     public function getFeedSubmissionIdList()
     {
@@ -200,7 +200,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
     /**
      * Gets the value of the FeedTypeList.
      * 
-     * @return TypeList FeedTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList FeedTypeList
      */
     public function getFeedTypeList()
     {

@@ -20,7 +20,7 @@ class FbaInboundServiceMwsModelTransportContent extends FbaInboundServiceMwsMode
     /**
      * Get the value of the TransportHeader property.
      *
-     * @return TransportHeader TransportHeader.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportHeader TransportHeader.
      */
     public function getTransportHeader()
     {
@@ -62,7 +62,7 @@ class FbaInboundServiceMwsModelTransportContent extends FbaInboundServiceMwsMode
     /**
      * Get the value of the TransportDetails property.
      *
-     * @return TransportDetailOutput TransportDetails.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDetailOutput TransportDetails.
      */
     public function getTransportDetails()
     {
@@ -104,7 +104,7 @@ class FbaInboundServiceMwsModelTransportContent extends FbaInboundServiceMwsMode
     /**
      * Get the value of the TransportResult property.
      *
-     * @return TransportResult TransportResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportResult TransportResult.
      */
     public function getTransportResult()
     {

@@ -24,7 +24,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Get the value of the Contact property.
      *
-     * @return Contact Contact.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelContact Contact.
      */
     public function getContact()
     {
@@ -192,7 +192,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Get the value of the PalletList property.
      *
-     * @return PalletList PalletList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPalletList PalletList.
      */
     public function getPalletList()
     {
@@ -234,7 +234,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Get the value of the TotalWeight property.
      *
-     * @return Weight TotalWeight.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight TotalWeight.
      */
     public function getTotalWeight()
     {
@@ -276,7 +276,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Get the value of the SellerDeclaredValue property.
      *
-     * @return Amount SellerDeclaredValue.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount SellerDeclaredValue.
      */
     public function getSellerDeclaredValue()
     {

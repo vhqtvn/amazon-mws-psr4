@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
     /**
      * Gets the value of the GetFeedSubmissionListByNextTokenResult.
      * 
-     * @return GetFeedSubmissionListByNextTokenResult GetFeedSubmissionListByNextTokenResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResult GetFeedSubmissionListByNextTokenResult
      */
     public function getGetFeedSubmissionListByNextTokenResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

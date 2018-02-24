@@ -104,7 +104,7 @@ class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
     /**
      * Get the value of the PromotionAmount property.
      *
-     * @return Currency PromotionAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency PromotionAmount.
      */
     public function getPromotionAmount()
     {

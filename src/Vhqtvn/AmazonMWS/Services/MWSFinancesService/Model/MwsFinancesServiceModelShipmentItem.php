@@ -597,7 +597,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the CostOfPointsGranted property.
      *
-     * @return Currency CostOfPointsGranted.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency CostOfPointsGranted.
      */
     public function getCostOfPointsGranted()
     {
@@ -639,7 +639,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the CostOfPointsReturned property.
      *
-     * @return Currency CostOfPointsReturned.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency CostOfPointsReturned.
      */
     public function getCostOfPointsReturned()
     {

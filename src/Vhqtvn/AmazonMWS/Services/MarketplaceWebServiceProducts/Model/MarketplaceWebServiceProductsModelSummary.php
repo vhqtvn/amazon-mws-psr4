@@ -67,7 +67,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Get the value of the NumberOfOffers property.
      *
-     * @return NumberOfOffers NumberOfOffers.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelNumberOfOffers NumberOfOffers.
      */
     public function getNumberOfOffers()
     {
@@ -109,7 +109,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Get the value of the LowestPrices property.
      *
-     * @return LowestPrices LowestPrices.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestPrices LowestPrices.
      */
     public function getLowestPrices()
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Get the value of the BuyBoxPrices property.
      *
-     * @return BuyBoxPrices BuyBoxPrices.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxPrices BuyBoxPrices.
      */
     public function getBuyBoxPrices()
     {
@@ -193,7 +193,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Get the value of the ListPrice property.
      *
-     * @return MoneyType ListPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType ListPrice.
      */
     public function getListPrice()
     {
@@ -235,7 +235,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Get the value of the SuggestedLowerPricePlusShipping property.
      *
-     * @return MoneyType SuggestedLowerPricePlusShipping.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType SuggestedLowerPricePlusShipping.
      */
     public function getSuggestedLowerPricePlusShipping()
     {
@@ -277,7 +277,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Get the value of the BuyBoxEligibleOffers property.
      *
-     * @return BuyBoxEligibleOffers BuyBoxEligibleOffers.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxEligibleOffers BuyBoxEligibleOffers.
      */
     public function getBuyBoxEligibleOffers()
     {

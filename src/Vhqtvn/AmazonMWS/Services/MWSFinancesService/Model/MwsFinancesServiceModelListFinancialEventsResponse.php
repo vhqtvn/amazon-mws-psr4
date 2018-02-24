@@ -23,7 +23,7 @@ class MwsFinancesServiceModelListFinancialEventsResponse extends MwsFinancesServ
     /**
      * Get the value of the ListFinancialEventsResult property.
      *
-     * @return ListFinancialEventsResult ListFinancialEventsResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelListFinancialEventsResult ListFinancialEventsResult.
      */
     public function getListFinancialEventsResult()
     {
@@ -65,7 +65,7 @@ class MwsFinancesServiceModelListFinancialEventsResponse extends MwsFinancesServ
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MwsFinancesServiceModelListFinancialEventsResponse extends MwsFinancesServ
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

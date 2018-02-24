@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelConfirmPreorderResponse extends FbaInboundService
     /**
      * Get the value of the ConfirmPreorderResult property.
      *
-     * @return ConfirmPreorderResult ConfirmPreorderResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelConfirmPreorderResult ConfirmPreorderResult.
      */
     public function getConfirmPreorderResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelConfirmPreorderResponse extends FbaInboundService
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelConfirmPreorderResponse extends FbaInboundService
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

@@ -21,7 +21,7 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
     /**
      * Get the value of the RecoveryAmount property.
      *
-     * @return Currency RecoveryAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency RecoveryAmount.
      */
     public function getRecoveryAmount()
     {
@@ -63,7 +63,7 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
     /**
      * Get the value of the OriginalAmount property.
      *
-     * @return Currency OriginalAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency OriginalAmount.
      */
     public function getOriginalAmount()
     {

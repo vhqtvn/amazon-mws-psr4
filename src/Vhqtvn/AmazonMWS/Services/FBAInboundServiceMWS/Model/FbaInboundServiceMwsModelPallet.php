@@ -20,7 +20,7 @@ class FbaInboundServiceMwsModelPallet extends FbaInboundServiceMwsModel
     /**
      * Get the value of the Dimensions property.
      *
-     * @return Dimensions Dimensions.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelDimensions Dimensions.
      */
     public function getDimensions()
     {
@@ -62,7 +62,7 @@ class FbaInboundServiceMwsModelPallet extends FbaInboundServiceMwsModel
     /**
      * Get the value of the Weight property.
      *
-     * @return Weight Weight.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight Weight.
      */
     public function getWeight()
     {

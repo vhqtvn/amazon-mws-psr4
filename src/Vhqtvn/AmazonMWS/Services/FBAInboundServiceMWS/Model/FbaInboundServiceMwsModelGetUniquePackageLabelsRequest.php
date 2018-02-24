@@ -190,7 +190,7 @@ class FbaInboundServiceMwsModelGetUniquePackageLabelsRequest extends FbaInboundS
     /**
      * Get the value of the PackageLabelsToPrint property.
      *
-     * @return PackageIdentifiers PackageLabelsToPrint.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPackageIdentifiers PackageLabelsToPrint.
      */
     public function getPackageLabelsToPrint()
     {

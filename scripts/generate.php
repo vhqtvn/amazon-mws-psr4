@@ -318,6 +318,23 @@ function final_text_transform($code, $lib_name, $dst_ns, $base_ns)
                         },
                         $doc_text_new
                     );
+                    $doc_text_new = preg_replace_callback(
+                        '/@return ([0-9a-zA-Z]+)(\s)/',
+                        function ($m) {
+                            $class = $m[1];
+                            assert(strpos($class, '_') === false);
+                            $old_name = array_slice($this->dst_ns, count($this->base_ns));
+//                            var_dump(base_path('/amazon-srcs/src/' . implode('/', $old_name) . "/$class.php"));exit;
+                            if (!file_exists(base_path('/amazon-srcs/src/' . implode('/', $old_name) . "/$class.php"))) {
+                                return $m[0];
+                            }
+                            $old_name[] = $class;
+                            $old_name = implode("_", $old_name);
+                            $new_name = "\\" . name_transform($old_name, $this->lib_name, $this->base_ns);
+                            return "@return $new_name{$m[2]}";
+                        },
+                        $doc_text_new
+                    );
                     $doc_text_new = str_ireplace('@return this instance', '@return $this ', $doc_text_new);
                     if ($node instanceof Stmt\Class_) {
                         if (preg_match($pattern =

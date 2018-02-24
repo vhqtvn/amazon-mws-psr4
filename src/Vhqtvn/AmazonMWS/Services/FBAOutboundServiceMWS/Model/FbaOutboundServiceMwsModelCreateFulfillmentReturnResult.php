@@ -20,7 +20,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnResult extends FbaOutboun
     /**
      * Get the value of the ReturnItemList property.
      *
-     * @return ReturnItemList ReturnItemList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnItemList ReturnItemList.
      */
     public function getReturnItemList()
     {
@@ -62,7 +62,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnResult extends FbaOutboun
     /**
      * Get the value of the InvalidReturnItemList property.
      *
-     * @return InvalidReturnItemList InvalidReturnItemList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidReturnItemList InvalidReturnItemList.
      */
     public function getInvalidReturnItemList()
     {
@@ -104,7 +104,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnResult extends FbaOutboun
     /**
      * Get the value of the ReturnAuthorizationList property.
      *
-     * @return ReturnAuthorizationList ReturnAuthorizationList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnAuthorizationList ReturnAuthorizationList.
      */
     public function getReturnAuthorizationList()
     {

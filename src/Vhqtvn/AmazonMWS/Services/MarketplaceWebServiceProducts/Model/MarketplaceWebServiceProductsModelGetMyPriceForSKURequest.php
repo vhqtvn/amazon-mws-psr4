@@ -147,7 +147,7 @@ class MarketplaceWebServiceProductsModelGetMyPriceForSKURequest extends Marketpl
     /**
      * Get the value of the SellerSKUList property.
      *
-     * @return SellerSKUListType SellerSKUList.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUListType SellerSKUList.
      */
     public function getSellerSKUList()
     {

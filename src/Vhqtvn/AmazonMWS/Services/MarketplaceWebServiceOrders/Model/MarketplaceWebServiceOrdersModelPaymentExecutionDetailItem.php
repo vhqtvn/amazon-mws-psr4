@@ -19,7 +19,7 @@ class MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem extends Marketp
     /**
      * Get the value of the Payment property.
      *
-     * @return Money Payment.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney Payment.
      */
     public function getPayment()
     {

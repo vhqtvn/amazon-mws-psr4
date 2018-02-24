@@ -105,7 +105,7 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForSKURequest extends FbaInboun
     /**
      * Get the value of the SellerSKUList property.
      *
-     * @return SellerSKUList SellerSKUList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSellerSKUList SellerSKUList.
      */
     public function getSellerSKUList()
     {

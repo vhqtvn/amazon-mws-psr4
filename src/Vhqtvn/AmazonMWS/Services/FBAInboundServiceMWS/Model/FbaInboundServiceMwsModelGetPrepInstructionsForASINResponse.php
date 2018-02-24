@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResponse extends FbaInb
     /**
      * Get the value of the GetPrepInstructionsForASINResult property.
      *
-     * @return GetPrepInstructionsForASINResult GetPrepInstructionsForASINResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetPrepInstructionsForASINResult GetPrepInstructionsForASINResult.
      */
     public function getGetPrepInstructionsForASINResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResponse extends FbaInb
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResponse extends FbaInb
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

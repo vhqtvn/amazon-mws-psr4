@@ -61,7 +61,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersResult extends FbaOutbou
     /**
      * Get the value of the FulfillmentOrders property.
      *
-     * @return FulfillmentOrderList FulfillmentOrders.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrderList FulfillmentOrders.
      */
     public function getFulfillmentOrders()
     {

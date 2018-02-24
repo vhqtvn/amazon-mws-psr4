@@ -73,7 +73,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the ItemIdentifier property.
      *
-     * @return ProductIdentifier ItemIdentifier.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier ItemIdentifier.
      */
     public function getItemIdentifier()
     {

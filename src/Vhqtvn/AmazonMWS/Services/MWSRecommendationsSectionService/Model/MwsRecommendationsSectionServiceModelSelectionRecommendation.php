@@ -71,7 +71,7 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Get the value of the ItemIdentifier property.
      *
-     * @return ProductIdentifier ItemIdentifier.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier ItemIdentifier.
      */
     public function getItemIdentifier()
     {
@@ -281,7 +281,7 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Get the value of the BuyboxPrice property.
      *
-     * @return Price BuyboxPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice BuyboxPrice.
      */
     public function getBuyboxPrice()
     {

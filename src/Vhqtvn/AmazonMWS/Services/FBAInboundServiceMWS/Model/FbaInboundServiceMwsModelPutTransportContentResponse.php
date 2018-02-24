@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelPutTransportContentResponse extends FbaInboundSer
     /**
      * Get the value of the PutTransportContentResult property.
      *
-     * @return PutTransportContentResult PutTransportContentResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPutTransportContentResult PutTransportContentResult.
      */
     public function getPutTransportContentResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelPutTransportContentResponse extends FbaInboundSer
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelPutTransportContentResponse extends FbaInboundSer
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

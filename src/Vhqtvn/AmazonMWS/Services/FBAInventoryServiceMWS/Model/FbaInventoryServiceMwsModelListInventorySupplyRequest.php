@@ -192,7 +192,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Get the value of the SellerSkus property.
      *
-     * @return SellerSkuList SellerSkus.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelSellerSkuList SellerSkus.
      */
     public function getSellerSkus()
     {

@@ -18,7 +18,7 @@ class MwsSubscriptionsServiceModelListSubscriptionsResult extends MwsSubscriptio
     /**
      * Get the value of the SubscriptionList property.
      *
-     * @return SubscriptionList SubscriptionList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSubscriptionList SubscriptionList.
      */
     public function getSubscriptionList()
     {

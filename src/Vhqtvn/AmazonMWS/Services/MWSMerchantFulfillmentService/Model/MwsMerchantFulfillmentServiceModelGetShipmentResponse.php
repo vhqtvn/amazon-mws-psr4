@@ -23,7 +23,7 @@ class MwsMerchantFulfillmentServiceModelGetShipmentResponse extends MwsMerchantF
     /**
      * Get the value of the GetShipmentResult property.
      *
-     * @return GetShipmentResult GetShipmentResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelGetShipmentResult GetShipmentResult.
      */
     public function getGetShipmentResult()
     {
@@ -65,7 +65,7 @@ class MwsMerchantFulfillmentServiceModelGetShipmentResponse extends MwsMerchantF
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MwsMerchantFulfillmentServiceModelGetShipmentResponse extends MwsMerchantF
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

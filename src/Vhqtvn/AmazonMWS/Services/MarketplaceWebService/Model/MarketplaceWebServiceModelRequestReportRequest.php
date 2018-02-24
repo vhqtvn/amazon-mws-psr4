@@ -163,7 +163,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
     /**
      * Gets the value of the MarketplaceIdList.
      * 
-     * @return IdList MarketplaceIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList MarketplaceIdList
      */
     public function getMarketplaceIdList()
     {

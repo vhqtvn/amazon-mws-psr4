@@ -156,7 +156,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
     /**
      * Gets the value of the ReportIdList.
      * 
-     * @return IdList ReportIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList ReportIdList
      */
     public function getReportIdList()
     {

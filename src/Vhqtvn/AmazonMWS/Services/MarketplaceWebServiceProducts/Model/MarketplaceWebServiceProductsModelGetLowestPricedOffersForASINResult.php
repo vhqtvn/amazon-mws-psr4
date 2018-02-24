@@ -192,7 +192,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINResult exten
     /**
      * Get the value of the Identifier property.
      *
-     * @return GetLowestPricedOffersAsinIdentifier Identifier.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersAsinIdentifier Identifier.
      */
     public function getIdentifier()
     {
@@ -234,7 +234,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINResult exten
     /**
      * Get the value of the Summary property.
      *
-     * @return Summary Summary.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSummary Summary.
      */
     public function getSummary()
     {
@@ -276,7 +276,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINResult exten
     /**
      * Get the value of the Offers property.
      *
-     * @return ASINOfferDetailList Offers.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINOfferDetailList Offers.
      */
     public function getOffers()
     {

@@ -76,7 +76,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the ItemIdentifier property.
      *
-     * @return ProductIdentifier ItemIdentifier.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier ItemIdentifier.
      */
     public function getItemIdentifier()
     {
@@ -286,7 +286,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the YourPricePlusShipping property.
      *
-     * @return Price YourPricePlusShipping.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice YourPricePlusShipping.
      */
     public function getYourPricePlusShipping()
     {
@@ -328,7 +328,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the LowestPricePlusShipping property.
      *
-     * @return Price LowestPricePlusShipping.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice LowestPricePlusShipping.
      */
     public function getLowestPricePlusShipping()
     {
@@ -370,7 +370,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the PriceDifferenceToLowPrice property.
      *
-     * @return Price PriceDifferenceToLowPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice PriceDifferenceToLowPrice.
      */
     public function getPriceDifferenceToLowPrice()
     {
@@ -412,7 +412,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the MedianPricePlusShipping property.
      *
-     * @return Price MedianPricePlusShipping.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice MedianPricePlusShipping.
      */
     public function getMedianPricePlusShipping()
     {
@@ -454,7 +454,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the LowestMerchantFulfilledOfferPrice property.
      *
-     * @return Price LowestMerchantFulfilledOfferPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice LowestMerchantFulfilledOfferPrice.
      */
     public function getLowestMerchantFulfilledOfferPrice()
     {
@@ -496,7 +496,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the LowestAmazonFulfilledOfferPrice property.
      *
-     * @return Price LowestAmazonFulfilledOfferPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice LowestAmazonFulfilledOfferPrice.
      */
     public function getLowestAmazonFulfilledOfferPrice()
     {

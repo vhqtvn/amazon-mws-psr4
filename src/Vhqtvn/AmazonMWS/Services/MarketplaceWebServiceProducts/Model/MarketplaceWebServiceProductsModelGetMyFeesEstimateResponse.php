@@ -23,7 +23,7 @@ class MarketplaceWebServiceProductsModelGetMyFeesEstimateResponse extends Market
     /**
      * Get the value of the GetMyFeesEstimateResult property.
      *
-     * @return GetMyFeesEstimateResult GetMyFeesEstimateResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyFeesEstimateResult GetMyFeesEstimateResult.
      */
     public function getGetMyFeesEstimateResult()
     {
@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetMyFeesEstimateResponse extends Market
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MarketplaceWebServiceProductsModelGetMyFeesEstimateResponse extends Market
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

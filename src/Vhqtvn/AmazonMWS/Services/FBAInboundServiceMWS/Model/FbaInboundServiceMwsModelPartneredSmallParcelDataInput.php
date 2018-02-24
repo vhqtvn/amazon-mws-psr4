@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelDataInput extends FbaInboundS
     /**
      * Get the value of the PackageList property.
      *
-     * @return PartneredSmallParcelPackageInputList PackageList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelPackageInputList PackageList.
      */
     public function getPackageList()
     {

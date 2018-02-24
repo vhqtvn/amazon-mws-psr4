@@ -61,7 +61,7 @@ class FbaOutboundServiceMwsModelFee extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the Amount property.
      *
-     * @return Currency Amount.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency Amount.
      */
     public function getAmount()
     {

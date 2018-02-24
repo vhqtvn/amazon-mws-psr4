@@ -62,7 +62,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResult exten
     /**
      * Get the value of the ListParticipations property.
      *
-     * @return ListParticipations ListParticipations.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListParticipations ListParticipations.
      */
     public function getListParticipations()
     {
@@ -104,7 +104,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResult exten
     /**
      * Get the value of the ListMarketplaces property.
      *
-     * @return ListMarketplaces ListMarketplaces.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListMarketplaces ListMarketplaces.
      */
     public function getListMarketplaces()
     {

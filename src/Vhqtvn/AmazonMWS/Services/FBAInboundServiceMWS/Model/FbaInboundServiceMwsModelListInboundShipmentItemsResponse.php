@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelListInboundShipmentItemsResponse extends FbaInbou
     /**
      * Get the value of the ListInboundShipmentItemsResult property.
      *
-     * @return ListInboundShipmentItemsResult ListInboundShipmentItemsResult.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelListInboundShipmentItemsResult ListInboundShipmentItemsResult.
      */
     public function getListInboundShipmentItemsResult()
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelListInboundShipmentItemsResponse extends FbaInbou
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class FbaInboundServiceMwsModelListInboundShipmentItemsResponse extends FbaInbou
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

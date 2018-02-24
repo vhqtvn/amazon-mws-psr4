@@ -61,7 +61,7 @@ class MwsFinancesServiceModelDirectPayment extends MwsFinancesServiceModel
     /**
      * Get the value of the DirectPaymentAmount property.
      *
-     * @return Currency DirectPaymentAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency DirectPaymentAmount.
      */
     public function getDirectPaymentAmount()
     {

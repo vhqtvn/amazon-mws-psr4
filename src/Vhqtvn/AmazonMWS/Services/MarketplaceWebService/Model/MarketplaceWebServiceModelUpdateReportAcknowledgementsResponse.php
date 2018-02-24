@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
     /**
      * Gets the value of the UpdateReportAcknowledgementsResult.
      * 
-     * @return UpdateReportAcknowledgementsResult UpdateReportAcknowledgementsResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsResult UpdateReportAcknowledgementsResult
      */
     public function getUpdateReportAcknowledgementsResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

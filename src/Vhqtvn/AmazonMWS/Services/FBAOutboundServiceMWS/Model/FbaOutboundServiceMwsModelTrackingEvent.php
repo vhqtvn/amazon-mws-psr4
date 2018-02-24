@@ -62,7 +62,7 @@ class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the EventAddress property.
      *
-     * @return TrackingAddress EventAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress EventAddress.
      */
     public function getEventAddress()
     {

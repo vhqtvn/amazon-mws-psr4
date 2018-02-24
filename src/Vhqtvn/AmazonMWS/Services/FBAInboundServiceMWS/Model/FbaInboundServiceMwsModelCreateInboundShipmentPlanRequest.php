@@ -151,7 +151,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
     /**
      * Get the value of the ShipFromAddress property.
      *
-     * @return Address ShipFromAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress ShipFromAddress.
      */
     public function getShipFromAddress()
     {
@@ -319,7 +319,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
     /**
      * Get the value of the InboundShipmentPlanRequestItems property.
      *
-     * @return InboundShipmentPlanRequestItemList InboundShipmentPlanRequestItems.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanRequestItemList InboundShipmentPlanRequestItems.
      */
     public function getInboundShipmentPlanRequestItems()
     {

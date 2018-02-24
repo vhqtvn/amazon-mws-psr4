@@ -66,7 +66,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Get the value of the ShipFromAddress property.
      *
-     * @return Address ShipFromAddress.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress ShipFromAddress.
      */
     public function getShipFromAddress()
     {

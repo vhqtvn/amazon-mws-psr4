@@ -147,7 +147,7 @@ class FbaInboundServiceMwsModelASINPrepInstructions extends FbaInboundServiceMws
     /**
      * Get the value of the PrepInstructionList property.
      *
-     * @return PrepInstructionList PrepInstructionList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList PrepInstructionList.
      */
     public function getPrepInstructionList()
     {

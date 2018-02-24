@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetReportScheduleCountResponse extends Marketpla
     /**
      * Gets the value of the GetReportScheduleCountResult.
      * 
-     * @return GetReportScheduleCountResult GetReportScheduleCountResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleCountResult GetReportScheduleCountResult
      */
     public function getGetReportScheduleCountResult()
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetReportScheduleCountResponse extends Marketpla
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
     {

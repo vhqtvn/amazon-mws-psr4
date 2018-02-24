@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelDataOutput extends FbaInbound
     /**
      * Get the value of the PackageList property.
      *
-     * @return PartneredSmallParcelPackageOutputList PackageList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelPackageOutputList PackageList.
      */
     public function getPackageList()
     {
@@ -61,7 +61,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelDataOutput extends FbaInbound
     /**
      * Get the value of the PartneredEstimate property.
      *
-     * @return PartneredEstimate PartneredEstimate.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredEstimate PartneredEstimate.
      */
     public function getPartneredEstimate()
     {

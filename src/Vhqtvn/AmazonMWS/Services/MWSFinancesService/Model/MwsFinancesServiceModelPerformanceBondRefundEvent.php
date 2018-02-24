@@ -62,7 +62,7 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
     /**
      * Get the value of the Amount property.
      *
-     * @return Currency Amount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency Amount.
      */
     public function getAmount()
     {

@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelDataOutput extends FbaInbo
     /**
      * Get the value of the PackageList property.
      *
-     * @return NonPartneredSmallParcelPackageOutputList PackageList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutputList PackageList.
      */
     public function getPackageList()
     {

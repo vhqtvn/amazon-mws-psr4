@@ -23,7 +23,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResponse extends Mark
     /**
      * Get the value of the ListOrdersByNextTokenResult property.
      *
-     * @return ListOrdersByNextTokenResult ListOrdersByNextTokenResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult ListOrdersByNextTokenResult.
      */
     public function getListOrdersByNextTokenResult()
     {
@@ -65,7 +65,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResponse extends Mark
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResponse extends Mark
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

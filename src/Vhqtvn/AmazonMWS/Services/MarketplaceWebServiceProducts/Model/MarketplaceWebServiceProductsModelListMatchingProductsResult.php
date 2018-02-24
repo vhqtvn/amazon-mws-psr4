@@ -18,7 +18,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsResult extends Marke
     /**
      * Get the value of the Products property.
      *
-     * @return ProductList Products.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProductList Products.
      */
     public function getProducts()
     {

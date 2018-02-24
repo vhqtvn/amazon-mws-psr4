@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelGetTransportContentResult extends FbaInboundServi
     /**
      * Get the value of the TransportContent property.
      *
-     * @return TransportContent TransportContent.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportContent TransportContent.
      */
     public function getTransportContent()
     {

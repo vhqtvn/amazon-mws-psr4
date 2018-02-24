@@ -24,7 +24,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Get the value of the BuyingPrice property.
      *
-     * @return PriceType BuyingPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType BuyingPrice.
      */
     public function getBuyingPrice()
     {
@@ -66,7 +66,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Get the value of the RegularPrice property.
      *
-     * @return MoneyType RegularPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType RegularPrice.
      */
     public function getRegularPrice()
     {

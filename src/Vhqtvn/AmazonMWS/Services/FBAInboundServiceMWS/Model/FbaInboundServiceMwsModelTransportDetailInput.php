@@ -21,7 +21,7 @@ class FbaInboundServiceMwsModelTransportDetailInput extends FbaInboundServiceMws
     /**
      * Get the value of the PartneredSmallParcelData property.
      *
-     * @return PartneredSmallParcelDataInput PartneredSmallParcelData.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelDataInput PartneredSmallParcelData.
      */
     public function getPartneredSmallParcelData()
     {
@@ -63,7 +63,7 @@ class FbaInboundServiceMwsModelTransportDetailInput extends FbaInboundServiceMws
     /**
      * Get the value of the NonPartneredSmallParcelData property.
      *
-     * @return NonPartneredSmallParcelDataInput NonPartneredSmallParcelData.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelNonPartneredSmallParcelDataInput NonPartneredSmallParcelData.
      */
     public function getNonPartneredSmallParcelData()
     {
@@ -105,7 +105,7 @@ class FbaInboundServiceMwsModelTransportDetailInput extends FbaInboundServiceMws
     /**
      * Get the value of the PartneredLtlData property.
      *
-     * @return PartneredLtlDataInput PartneredLtlData.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredLtlDataInput PartneredLtlData.
      */
     public function getPartneredLtlData()
     {
@@ -147,7 +147,7 @@ class FbaInboundServiceMwsModelTransportDetailInput extends FbaInboundServiceMws
     /**
      * Get the value of the NonPartneredLtlData property.
      *
-     * @return NonPartneredLtlDataInput NonPartneredLtlData.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelNonPartneredLtlDataInput NonPartneredLtlData.
      */
     public function getNonPartneredLtlData()
     {

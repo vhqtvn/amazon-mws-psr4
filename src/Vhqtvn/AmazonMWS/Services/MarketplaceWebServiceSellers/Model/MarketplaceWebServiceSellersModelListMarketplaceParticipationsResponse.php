@@ -23,7 +23,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResponse ext
     /**
      * Get the value of the ListMarketplaceParticipationsResult property.
      *
-     * @return ListMarketplaceParticipationsResult ListMarketplaceParticipationsResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListMarketplaceParticipationsResult ListMarketplaceParticipationsResult.
      */
     public function getListMarketplaceParticipationsResult()
     {
@@ -65,7 +65,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResponse ext
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +107,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResponse ext
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {

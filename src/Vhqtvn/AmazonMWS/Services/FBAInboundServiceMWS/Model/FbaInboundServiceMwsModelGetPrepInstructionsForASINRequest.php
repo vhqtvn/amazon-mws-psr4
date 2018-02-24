@@ -105,7 +105,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINRequest extends FbaInbo
     /**
      * Get the value of the AsinList property.
      *
-     * @return AsinList AsinList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAsinList AsinList.
      */
     public function getAsinList()
     {

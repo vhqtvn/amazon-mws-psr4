@@ -19,7 +19,7 @@ class MarketplaceWebServiceProductsModelIdentifierType extends MarketplaceWebSer
     /**
      * Get the value of the MarketplaceASIN property.
      *
-     * @return ASINIdentifier MarketplaceASIN.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINIdentifier MarketplaceASIN.
      */
     public function getMarketplaceASIN()
     {
@@ -61,7 +61,7 @@ class MarketplaceWebServiceProductsModelIdentifierType extends MarketplaceWebSer
     /**
      * Get the value of the SKUIdentifier property.
      *
-     * @return SellerSKUIdentifier SKUIdentifier.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUIdentifier SKUIdentifier.
      */
     public function getSKUIdentifier()
     {

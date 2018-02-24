@@ -105,7 +105,7 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForASINRequest extends FbaInbou
     /**
      * Get the value of the ASINList property.
      *
-     * @return ASINList ASINList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINList ASINList.
      */
     public function getASINList()
     {

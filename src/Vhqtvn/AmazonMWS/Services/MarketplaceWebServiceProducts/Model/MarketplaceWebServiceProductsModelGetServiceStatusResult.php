@@ -147,7 +147,7 @@ class MarketplaceWebServiceProductsModelGetServiceStatusResult extends Marketpla
     /**
      * Get the value of the Messages property.
      *
-     * @return MessageList Messages.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMessageList Messages.
      */
     public function getMessages()
     {

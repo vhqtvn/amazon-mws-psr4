@@ -62,7 +62,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyResult extends FbaInventoryS
     /**
      * Get the value of the InventorySupplyList property.
      *
-     * @return InventorySupplyList InventorySupplyList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyList InventorySupplyList.
      */
     public function getInventorySupplyList()
     {

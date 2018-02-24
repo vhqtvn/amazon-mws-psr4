@@ -64,7 +64,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the RecoveryAmount property.
      *
-     * @return Currency RecoveryAmount.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency RecoveryAmount.
      */
     public function getRecoveryAmount()
     {
@@ -106,7 +106,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the OverPaymentCredit property.
      *
-     * @return Currency OverPaymentCredit.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency OverPaymentCredit.
      */
     public function getOverPaymentCredit()
     {

@@ -191,7 +191,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Get the value of the PrepInstructionList property.
      *
-     * @return PrepInstructionList PrepInstructionList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList PrepInstructionList.
      */
     public function getPrepInstructionList()
     {
@@ -233,7 +233,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Get the value of the AmazonPrepFeesDetailsList property.
      *
-     * @return AmazonPrepFeesDetailsList AmazonPrepFeesDetailsList.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetailsList AmazonPrepFeesDetailsList.
      */
     public function getAmazonPrepFeesDetailsList()
     {

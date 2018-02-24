@@ -30,7 +30,7 @@ class MarketplaceWebServiceModelRequestReportResult extends MarketplaceWebServic
     /**
      * Gets the value of the ReportRequestInfo.
      * 
-     * @return ReportRequestInfo ReportRequestInfo
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo ReportRequestInfo
      */
     public function getReportRequestInfo()
     {
