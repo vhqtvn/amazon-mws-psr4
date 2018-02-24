@@ -9,14 +9,9 @@ use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetCompetitivePricingForASINResponse
  * 
- * Properties:
- * <ul>
- * 
- * <li>GetCompetitivePricingForASINResult: array</li>
- * <li>ResponseMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata</li>
- * <li>ResponseHeaderMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata</li>
- *
- * </ul>
+ * @property	array	$GetCompetitivePricingForASINResult
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata	$ResponseMetadata
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata	$ResponseHeaderMetadata
  */
 class MarketplaceWebServiceProductsModelGetCompetitivePricingForASINResponse extends MarketplaceWebServiceProductsModel
 {
@@ -28,7 +23,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForASINResponse ext
     /**
      * Get the value of the GetCompetitivePricingForASINResult property.
      *
-     * @return List<GetCompetitivePricingForASINResult> GetCompetitivePricingForASINResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetCompetitivePricingForASINResult[] GetCompetitivePricingForASINResult.
      */
     public function getGetCompetitivePricingForASINResult()
     {

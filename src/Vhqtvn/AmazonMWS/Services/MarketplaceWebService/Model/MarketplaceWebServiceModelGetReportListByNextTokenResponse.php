@@ -9,13 +9,8 @@ use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListByNextTokenResponse
  * 
- * Properties:
- * <ul>
- * 
- * <li>GetReportListByNextTokenResult: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListByNextTokenResult</li>
- * <li>ResponseMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListByNextTokenResult	$GetReportListByNextTokenResult
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata	$ResponseMetadata
  */
 class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends MarketplaceWebServiceModel
 {

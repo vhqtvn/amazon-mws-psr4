@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEventList
  * 
- * Properties:
- * <ul>
- * 
- * <li>member: array</li>
- *
- * </ul>
+ * @property	array	$member
  */
 class FbaOutboundServiceMwsModelTrackingEventList extends FbaOutboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaOutboundServiceMwsModelTrackingEventList extends FbaOutboundServiceMwsM
     /**
      * Get the value of the member property.
      *
-     * @return List<TrackingEvent> member.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEvent[] member.
      */
     public function getmember()
     {

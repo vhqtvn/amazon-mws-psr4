@@ -6,19 +6,14 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupply
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>FNSKU: string</li>
- * <li>ASIN: string</li>
- * <li>Condition: string</li>
- * <li>TotalSupplyQuantity: int</li>
- * <li>InStockSupplyQuantity: int</li>
- * <li>EarliestAvailability: \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint</li>
- * <li>SupplyDetail: \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyDetailList</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$FNSKU
+ * @property	string	$ASIN
+ * @property	string	$Condition
+ * @property	int	$TotalSupplyQuantity
+ * @property	int	$InStockSupplyQuantity
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint	$EarliestAvailability
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyDetailList	$SupplyDetail
  */
 class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsModel
 {

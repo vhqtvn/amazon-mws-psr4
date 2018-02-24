@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelGetServiceStatusRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
  */
 class MwsMerchantFulfillmentServiceModelGetServiceStatusRequest extends MwsMerchantFulfillmentServiceModel
 {

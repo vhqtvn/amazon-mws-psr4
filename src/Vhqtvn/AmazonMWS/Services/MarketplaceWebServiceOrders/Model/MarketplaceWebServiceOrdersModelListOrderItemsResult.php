@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelListOrderItemsResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>NextToken: string</li>
- * <li>AmazonOrderId: string</li>
- * <li>OrderItems: array</li>
- *
- * </ul>
+ * @property	string	$NextToken
+ * @property	string	$AmazonOrderId
+ * @property	array	$OrderItems
  */
 class MarketplaceWebServiceOrdersModelListOrderItemsResult extends MarketplaceWebServiceOrdersModel
 {
@@ -109,7 +104,7 @@ class MarketplaceWebServiceOrdersModelListOrderItemsResult extends MarketplaceWe
     /**
      * Get the value of the OrderItems property.
      *
-     * @return List<OrderItem> OrderItems.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrderItem[] OrderItems.
      */
     public function getOrderItems()
     {

@@ -6,23 +6,18 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelAdvertisingRecommendation
  * 
- * Properties:
- * <ul>
- * 
- * <li>LastUpdated: string</li>
- * <li>ItemIdentifier: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier</li>
- * <li>ItemName: string</li>
- * <li>BrandName: string</li>
- * <li>ProductCategory: string</li>
- * <li>SalesRank: int</li>
- * <li>YourPricePlusShipping: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice</li>
- * <li>LowestPricePlusShipping: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice</li>
- * <li>AvailableQuantity: int</li>
- * <li>SalesForTheLast30Days: int</li>
- * <li>RecommendationId: string</li>
- * <li>RecommendationReason: string</li>
- *
- * </ul>
+ * @property	string	$LastUpdated
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier	$ItemIdentifier
+ * @property	string	$ItemName
+ * @property	string	$BrandName
+ * @property	string	$ProductCategory
+ * @property	int	$SalesRank
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice	$YourPricePlusShipping
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice	$LowestPricePlusShipping
+ * @property	int	$AvailableQuantity
+ * @property	int	$SalesForTheLast30Days
+ * @property	string	$RecommendationId
+ * @property	string	$RecommendationReason
  */
 class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends MwsRecommendationsSectionServiceModel
 {

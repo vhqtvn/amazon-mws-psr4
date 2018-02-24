@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyPriceForSKURequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>MarketplaceId: string</li>
- * <li>SellerSKUList: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUListType</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$MarketplaceId
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUListType	$SellerSKUList
  */
 class MarketplaceWebServiceProductsModelGetMyPriceForSKURequest extends MarketplaceWebServiceProductsModel
 {

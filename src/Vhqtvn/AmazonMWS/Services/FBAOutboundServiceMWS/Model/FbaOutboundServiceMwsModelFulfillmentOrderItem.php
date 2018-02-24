@@ -6,25 +6,20 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrderItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>SellerFulfillmentOrderItemId: string</li>
- * <li>Quantity: int</li>
- * <li>GiftMessage: string</li>
- * <li>DisplayableComment: string</li>
- * <li>FulfillmentNetworkSKU: string</li>
- * <li>OrderItemDisposition: string</li>
- * <li>CancelledQuantity: int</li>
- * <li>UnfulfillableQuantity: int</li>
- * <li>EstimatedShipDateTime: string</li>
- * <li>EstimatedArrivalDateTime: string</li>
- * <li>PerUnitPrice: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency</li>
- * <li>PerUnitTax: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency</li>
- * <li>PerUnitDeclaredValue: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$SellerFulfillmentOrderItemId
+ * @property	int	$Quantity
+ * @property	string	$GiftMessage
+ * @property	string	$DisplayableComment
+ * @property	string	$FulfillmentNetworkSKU
+ * @property	string	$OrderItemDisposition
+ * @property	int	$CancelledQuantity
+ * @property	int	$UnfulfillableQuantity
+ * @property	string	$EstimatedShipDateTime
+ * @property	string	$EstimatedArrivalDateTime
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency	$PerUnitPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency	$PerUnitTax
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency	$PerUnitDeclaredValue
  */
 class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceMwsModel
 {

@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerTaxInfo
  * 
- * Properties:
- * <ul>
- * 
- * <li>CompanyLegalName: string</li>
- * <li>TaxingRegion: string</li>
- * <li>TaxClassifications: array</li>
- *
- * </ul>
+ * @property	string	$CompanyLegalName
+ * @property	string	$TaxingRegion
+ * @property	array	$TaxClassifications
  */
 class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebServiceOrdersModel
 {
@@ -109,7 +104,7 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
     /**
      * Get the value of the TaxClassifications property.
      *
-     * @return List<TaxClassification> TaxClassifications.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxClassification[] TaxClassifications.
      */
     public function getTaxClassifications()
     {

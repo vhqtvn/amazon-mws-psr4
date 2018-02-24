@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseMetadata
  * 
- * Properties:
- * <ul>
- * 
- * <li>RequestId: string</li>
- *
- * </ul>
+ * @property	string	$RequestId
  */
 class MwsMerchantFulfillmentServiceModelResponseMetadata extends MwsMerchantFulfillmentServiceModel
 {

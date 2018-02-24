@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>NextToken: string</li>
- * <li>HasNext: bool</li>
- * <li>ReportInfo: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo</li>
- *
- * </ul>
+ * @property	string	$NextToken
+ * @property	bool	$HasNext
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo	$ReportInfo
  */
 class MarketplaceWebServiceModelGetReportListResult extends MarketplaceWebServiceModel
 {

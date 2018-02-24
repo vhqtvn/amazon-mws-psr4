@@ -9,14 +9,9 @@ use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGetServiceStatusResponse
  * 
- * Properties:
- * <ul>
- * 
- * <li>GetServiceStatusResult: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGetServiceStatusResult</li>
- * <li>ResponseMetadata: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseMetadata</li>
- * <li>ResponseHeaderMetadata: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseHeaderMetadata</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGetServiceStatusResult	$GetServiceStatusResult
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseMetadata	$ResponseMetadata
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseHeaderMetadata	$ResponseHeaderMetadata
  */
 class MwsRecommendationsSectionServiceModelGetServiceStatusResponse extends MwsRecommendationsSectionServiceModel
 {

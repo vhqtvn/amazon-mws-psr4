@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentPackage
  * 
- * Properties:
- * <ul>
- * 
- * <li>PackageNumber: int</li>
- * <li>CarrierCode: string</li>
- * <li>TrackingNumber: string</li>
- * <li>EstimatedArrivalDateTime: string</li>
- *
- * </ul>
+ * @property	int	$PackageNumber
+ * @property	string	$CarrierCode
+ * @property	string	$TrackingNumber
+ * @property	string	$EstimatedArrivalDateTime
  */
 class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundServiceMwsModel
 {

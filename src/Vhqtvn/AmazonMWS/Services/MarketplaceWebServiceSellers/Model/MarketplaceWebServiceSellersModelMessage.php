@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\MarketplaceWebService
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMessage
  * 
- * Properties:
- * <ul>
- * 
- * <li>Locale: string</li>
- * <li>Text: string</li>
- *
- * </ul>
+ * @property	string	$Locale
+ * @property	string	$Text
  */
 class MarketplaceWebServiceSellersModelMessage extends MarketplaceWebServiceSellersModel
 {

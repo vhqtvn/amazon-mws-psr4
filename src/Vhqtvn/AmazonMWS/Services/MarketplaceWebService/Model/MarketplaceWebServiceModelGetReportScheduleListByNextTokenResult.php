@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>NextToken: string</li>
- * <li>HasNext: bool</li>
- * <li>ReportSchedule: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule</li>
- *
- * </ul>
+ * @property	string	$NextToken
+ * @property	bool	$HasNext
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule	$ReportSchedule
  */
 class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult extends MarketplaceWebServiceModel
 {

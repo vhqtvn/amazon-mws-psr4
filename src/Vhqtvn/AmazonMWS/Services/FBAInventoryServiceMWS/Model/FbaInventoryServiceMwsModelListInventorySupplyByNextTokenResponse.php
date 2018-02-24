@@ -9,14 +9,9 @@ use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResponse
  * 
- * Properties:
- * <ul>
- * 
- * <li>ListInventorySupplyByNextTokenResult: \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult</li>
- * <li>ResponseMetadata: \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseMetadata</li>
- * <li>ResponseHeaderMetadata: \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseHeaderMetadata</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult	$ListInventorySupplyByNextTokenResult
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseMetadata	$ResponseMetadata
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseHeaderMetadata	$ResponseHeaderMetadata
  */
 class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResponse extends FbaInventoryServiceMwsModel
 {

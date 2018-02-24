@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindow
  * 
- * Properties:
- * <ul>
- * 
- * <li>StartDateTime: string</li>
- * <li>EndDateTime: string</li>
- *
- * </ul>
+ * @property	string	$StartDateTime
+ * @property	string	$EndDateTime
  */
 class FbaOutboundServiceMwsModelDeliveryWindow extends FbaOutboundServiceMwsModel
 {

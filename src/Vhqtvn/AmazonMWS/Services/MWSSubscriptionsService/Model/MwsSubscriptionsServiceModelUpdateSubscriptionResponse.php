@@ -9,14 +9,9 @@ use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelUpdateSubscriptionResponse
  * 
- * Properties:
- * <ul>
- * 
- * <li>UpdateSubscriptionResult: \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelUpdateSubscriptionResult</li>
- * <li>ResponseMetadata: \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseMetadata</li>
- * <li>ResponseHeaderMetadata: \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseHeaderMetadata</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelUpdateSubscriptionResult	$UpdateSubscriptionResult
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseMetadata	$ResponseMetadata
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseHeaderMetadata	$ResponseHeaderMetadata
  */
 class MwsSubscriptionsServiceModelUpdateSubscriptionResponse extends MwsSubscriptionsServiceModel
 {

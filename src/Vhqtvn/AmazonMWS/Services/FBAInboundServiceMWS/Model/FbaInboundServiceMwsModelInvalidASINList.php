@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASINList
  * 
- * Properties:
- * <ul>
- * 
- * <li>InvalidASIN: array</li>
- *
- * </ul>
+ * @property	array	$InvalidASIN
  */
 class FbaInboundServiceMwsModelInvalidASINList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelInvalidASINList extends FbaInboundServiceMwsModel
     /**
      * Get the value of the InvalidASIN property.
      *
-     * @return List<InvalidASIN> InvalidASIN.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASIN[] InvalidASIN.
      */
     public function getInvalidASIN()
     {

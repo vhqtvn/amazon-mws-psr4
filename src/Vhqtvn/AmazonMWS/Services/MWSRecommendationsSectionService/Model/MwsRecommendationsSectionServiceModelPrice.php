@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice
  * 
- * Properties:
- * <ul>
- * 
- * <li>CurrencyCode: string</li>
- * <li>Amount: float</li>
- *
- * </ul>
+ * @property	string	$CurrencyCode
+ * @property	float	$Amount
  */
 class MwsRecommendationsSectionServiceModelPrice extends MwsRecommendationsSectionServiceModel
 {

@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint
  * 
- * Properties:
- * <ul>
- * 
- * <li>TimepointType: string</li>
- * <li>DateTime: string</li>
- *
- * </ul>
+ * @property	string	$TimepointType
+ * @property	string	$DateTime
  */
 class FbaInventoryServiceMwsModelTimepoint extends FbaInventoryServiceMwsModel
 {

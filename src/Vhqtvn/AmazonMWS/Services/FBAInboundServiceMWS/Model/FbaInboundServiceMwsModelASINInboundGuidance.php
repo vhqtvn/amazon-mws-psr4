@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINInboundGuidance
  * 
- * Properties:
- * <ul>
- * 
- * <li>ASIN: string</li>
- * <li>InboundGuidance: string</li>
- * <li>GuidanceReasonList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList</li>
- *
- * </ul>
+ * @property	string	$ASIN
+ * @property	string	$InboundGuidance
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList	$GuidanceReasonList
  */
 class FbaInboundServiceMwsModelASINInboundGuidance extends FbaInboundServiceMwsModel
 {

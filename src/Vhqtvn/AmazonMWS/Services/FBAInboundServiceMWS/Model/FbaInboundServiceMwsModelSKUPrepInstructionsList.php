@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUPrepInstructionsList
  * 
- * Properties:
- * <ul>
- * 
- * <li>SKUPrepInstructions: array</li>
- *
- * </ul>
+ * @property	array	$SKUPrepInstructions
  */
 class FbaInboundServiceMwsModelSKUPrepInstructionsList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructionsList extends FbaInboundService
     /**
      * Get the value of the SKUPrepInstructions property.
      *
-     * @return List<SKUPrepInstructions> SKUPrepInstructions.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUPrepInstructions[] SKUPrepInstructions.
      */
     public function getSKUPrepInstructions()
     {

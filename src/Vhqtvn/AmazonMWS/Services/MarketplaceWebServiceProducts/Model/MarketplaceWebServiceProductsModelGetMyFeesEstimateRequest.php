@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyFeesEstimateRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>FeesEstimateRequestList: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateRequestList</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateRequestList	$FeesEstimateRequestList
  */
 class MarketplaceWebServiceProductsModelGetMyFeesEstimateRequest extends MarketplaceWebServiceProductsModel
 {

@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>NextToken: string</li>
- * <li>HasNext: bool</li>
- * <li>FeedSubmissionInfo: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo</li>
- *
- * </ul>
+ * @property	string	$NextToken
+ * @property	bool	$HasNext
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo	$FeedSubmissionInfo
  */
 class MarketplaceWebServiceModelGetFeedSubmissionListResult extends MarketplaceWebServiceModel
 {

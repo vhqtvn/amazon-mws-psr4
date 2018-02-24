@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidReturnItemList
  * 
- * Properties:
- * <ul>
- * 
- * <li>member: array</li>
- *
- * </ul>
+ * @property	array	$member
  */
 class FbaOutboundServiceMwsModelInvalidReturnItemList extends FbaOutboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaOutboundServiceMwsModelInvalidReturnItemList extends FbaOutboundService
     /**
      * Get the value of the member property.
      *
-     * @return List<InvalidReturnItem> member.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidReturnItem[] member.
      */
     public function getmember()
     {

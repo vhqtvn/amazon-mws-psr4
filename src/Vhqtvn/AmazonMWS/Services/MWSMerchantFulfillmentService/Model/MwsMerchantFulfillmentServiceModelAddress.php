@@ -6,22 +6,17 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress
  * 
- * Properties:
- * <ul>
- * 
- * <li>Name: string</li>
- * <li>AddressLine1: string</li>
- * <li>AddressLine2: string</li>
- * <li>AddressLine3: string</li>
- * <li>DistrictOrCounty: string</li>
- * <li>Email: string</li>
- * <li>City: string</li>
- * <li>StateOrProvinceCode: string</li>
- * <li>PostalCode: string</li>
- * <li>CountryCode: string</li>
- * <li>Phone: string</li>
- *
- * </ul>
+ * @property	string	$Name
+ * @property	string	$AddressLine1
+ * @property	string	$AddressLine2
+ * @property	string	$AddressLine3
+ * @property	string	$DistrictOrCounty
+ * @property	string	$Email
+ * @property	string	$City
+ * @property	string	$StateOrProvinceCode
+ * @property	string	$PostalCode
+ * @property	string	$CountryCode
+ * @property	string	$Phone
  */
 class MwsMerchantFulfillmentServiceModelAddress extends MwsMerchantFulfillmentServiceModel
 {

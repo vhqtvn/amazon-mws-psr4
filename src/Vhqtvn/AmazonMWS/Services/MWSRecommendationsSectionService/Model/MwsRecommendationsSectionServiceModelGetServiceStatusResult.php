@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGetServiceStatusResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Status: string</li>
- * <li>Timestamp: string</li>
- *
- * </ul>
+ * @property	string	$Status
+ * @property	string	$Timestamp
  */
 class MwsRecommendationsSectionServiceModelGetServiceStatusResult extends MwsRecommendationsSectionServiceModel
 {

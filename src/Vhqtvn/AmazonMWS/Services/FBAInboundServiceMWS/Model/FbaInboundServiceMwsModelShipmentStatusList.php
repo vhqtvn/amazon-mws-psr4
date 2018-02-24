@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentStatusList
  * 
- * Properties:
- * <ul>
- * 
- * <li>member: array</li>
- *
- * </ul>
+ * @property	array	$member
  */
 class FbaInboundServiceMwsModelShipmentStatusList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelShipmentStatusList extends FbaInboundServiceMwsMo
     /**
      * Get the value of the member property.
      *
-     * @return List<String> member.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelString[] member.
      */
     public function getmember()
     {

@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDirectPayment
  * 
- * Properties:
- * <ul>
- * 
- * <li>DirectPaymentType: string</li>
- * <li>DirectPaymentAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- *
- * </ul>
+ * @property	string	$DirectPaymentType
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$DirectPaymentAmount
  */
 class MwsFinancesServiceModelDirectPayment extends MwsFinancesServiceModel
 {

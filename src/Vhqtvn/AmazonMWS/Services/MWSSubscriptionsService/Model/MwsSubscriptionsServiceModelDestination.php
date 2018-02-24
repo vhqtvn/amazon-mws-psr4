@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestination
  * 
- * Properties:
- * <ul>
- * 
- * <li>DeliveryChannel: string</li>
- * <li>AttributeList: \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValueList</li>
- *
- * </ul>
+ * @property	string	$DeliveryChannel
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValueList	$AttributeList
  */
 class MwsSubscriptionsServiceModelDestination extends MwsSubscriptionsServiceModel
 {

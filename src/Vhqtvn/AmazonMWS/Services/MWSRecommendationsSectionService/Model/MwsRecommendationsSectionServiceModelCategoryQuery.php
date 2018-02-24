@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelCategoryQuery
  * 
- * Properties:
- * <ul>
- * 
- * <li>RecommendationCategory: string</li>
- * <li>FilterOptions: array</li>
- *
- * </ul>
+ * @property	string	$RecommendationCategory
+ * @property	array	$FilterOptions
  */
 class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendationsSectionServiceModel
 {
@@ -66,7 +61,7 @@ class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendati
     /**
      * Get the value of the FilterOptions property.
      *
-     * @return List<String> FilterOptions.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelString[] FilterOptions.
      */
     public function getFilterOptions()
     {

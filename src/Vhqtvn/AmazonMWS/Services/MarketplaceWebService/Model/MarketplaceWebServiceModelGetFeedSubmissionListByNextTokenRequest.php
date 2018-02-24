@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>Marketplace: string</li>
- * <li>Merchant: string</li>
- * <li>NextToken: string</li>
- *
- * </ul>
+ * @property	string	$Marketplace
+ * @property	string	$Merchant
+ * @property	string	$NextToken
  */
 class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenRequest extends MarketplaceWebServiceModel
 {

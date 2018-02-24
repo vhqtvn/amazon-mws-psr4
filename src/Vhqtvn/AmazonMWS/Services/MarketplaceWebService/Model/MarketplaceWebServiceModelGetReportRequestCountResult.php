@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequestCountResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Count: int</li>
- *
- * </ul>
+ * @property	int	$Count
  */
 class MarketplaceWebServiceModelGetReportRequestCountResult extends MarketplaceWebServiceModel
 {

@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\MarketplaceWebService
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelResponseMetadata
  * 
- * Properties:
- * <ul>
- * 
- * <li>RequestId: string</li>
- *
- * </ul>
+ * @property	string	$RequestId
  */
 class MarketplaceWebServiceSellersModelResponseMetadata extends MarketplaceWebServiceSellersModel
 {

@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelFeedSubmissionsResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Count: int</li>
- * <li>FeedSubmissionInfo: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo</li>
- *
- * </ul>
+ * @property	int	$Count
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo	$FeedSubmissionInfo
  */
 class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceWebServiceModel
 {

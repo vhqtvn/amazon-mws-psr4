@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetInboundGuidanceForASINResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>ASINInboundGuidanceList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINInboundGuidanceList</li>
- * <li>InvalidASINList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASINList</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINInboundGuidanceList	$ASINInboundGuidanceList
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASINList	$InvalidASINList
  */
 class FbaInboundServiceMwsModelGetInboundGuidanceForASINResult extends FbaInboundServiceMwsModel
 {

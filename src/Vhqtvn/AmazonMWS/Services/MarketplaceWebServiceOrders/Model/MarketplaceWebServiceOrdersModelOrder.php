@@ -6,47 +6,42 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrder
  * 
- * Properties:
- * <ul>
- * 
- * <li>AmazonOrderId: string</li>
- * <li>SellerOrderId: string</li>
- * <li>PurchaseDate: string</li>
- * <li>LastUpdateDate: string</li>
- * <li>OrderStatus: string</li>
- * <li>FulfillmentChannel: string</li>
- * <li>SalesChannel: string</li>
- * <li>OrderChannel: string</li>
- * <li>ShipServiceLevel: string</li>
- * <li>ShippingAddress: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelAddress</li>
- * <li>OrderTotal: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>NumberOfItemsShipped: int</li>
- * <li>NumberOfItemsUnshipped: int</li>
- * <li>PaymentExecutionDetail: array</li>
- * <li>PaymentMethod: string</li>
- * <li>PaymentMethodDetails: array</li>
- * <li>MarketplaceId: string</li>
- * <li>BuyerEmail: string</li>
- * <li>BuyerName: string</li>
- * <li>BuyerCounty: string</li>
- * <li>BuyerTaxInfo: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerTaxInfo</li>
- * <li>ShipmentServiceLevelCategory: string</li>
- * <li>ShippedByAmazonTFM: bool</li>
- * <li>TFMShipmentStatus: string</li>
- * <li>CbaDisplayableShippingLabel: string</li>
- * <li>OrderType: string</li>
- * <li>EarliestShipDate: string</li>
- * <li>LatestShipDate: string</li>
- * <li>EarliestDeliveryDate: string</li>
- * <li>LatestDeliveryDate: string</li>
- * <li>IsBusinessOrder: bool</li>
- * <li>PurchaseOrderNumber: string</li>
- * <li>IsPrime: bool</li>
- * <li>IsPremiumOrder: bool</li>
- * <li>ReplacedOrderId: string</li>
- * <li>IsReplacementOrder: bool</li>
- *
- * </ul>
+ * @property	string	$AmazonOrderId
+ * @property	string	$SellerOrderId
+ * @property	string	$PurchaseDate
+ * @property	string	$LastUpdateDate
+ * @property	string	$OrderStatus
+ * @property	string	$FulfillmentChannel
+ * @property	string	$SalesChannel
+ * @property	string	$OrderChannel
+ * @property	string	$ShipServiceLevel
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelAddress	$ShippingAddress
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$OrderTotal
+ * @property	int	$NumberOfItemsShipped
+ * @property	int	$NumberOfItemsUnshipped
+ * @property	array	$PaymentExecutionDetail
+ * @property	string	$PaymentMethod
+ * @property	array	$PaymentMethodDetails
+ * @property	string	$MarketplaceId
+ * @property	string	$BuyerEmail
+ * @property	string	$BuyerName
+ * @property	string	$BuyerCounty
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerTaxInfo	$BuyerTaxInfo
+ * @property	string	$ShipmentServiceLevelCategory
+ * @property	bool	$ShippedByAmazonTFM
+ * @property	string	$TFMShipmentStatus
+ * @property	string	$CbaDisplayableShippingLabel
+ * @property	string	$OrderType
+ * @property	string	$EarliestShipDate
+ * @property	string	$LatestShipDate
+ * @property	string	$EarliestDeliveryDate
+ * @property	string	$LatestDeliveryDate
+ * @property	bool	$IsBusinessOrder
+ * @property	string	$PurchaseOrderNumber
+ * @property	bool	$IsPrime
+ * @property	bool	$IsPremiumOrder
+ * @property	string	$ReplacedOrderId
+ * @property	bool	$IsReplacementOrder
  */
 class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersModel
 {
@@ -604,7 +599,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the PaymentExecutionDetail property.
      *
-     * @return List<PaymentExecutionDetailItem> PaymentExecutionDetail.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem[] PaymentExecutionDetail.
      */
     public function getPaymentExecutionDetail()
     {
@@ -703,7 +698,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the PaymentMethodDetails property.
      *
-     * @return List<String> PaymentMethodDetails.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] PaymentMethodDetails.
      */
     public function getPaymentMethodDetails()
     {

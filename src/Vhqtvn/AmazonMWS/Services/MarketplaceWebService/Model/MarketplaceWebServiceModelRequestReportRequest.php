@@ -7,18 +7,13 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceM
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelRequestReportRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>Marketplace: string</li>
- * <li>Merchant: string</li>
- * <li>MarketplaceIdList: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList</li>
- * <li>ReportType: string</li>
- * <li>StartDate: string</li>
- * <li>EndDate: string</li>
- * <li>ReportOptions: string</li>
- *
- * </ul>
+ * @property	string	$Marketplace
+ * @property	string	$Merchant
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList	$MarketplaceIdList
+ * @property	string	$ReportType
+ * @property	string	$StartDate
+ * @property	string	$EndDate
+ * @property	string	$ReportOptions
  */
 class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServiceModel
 {

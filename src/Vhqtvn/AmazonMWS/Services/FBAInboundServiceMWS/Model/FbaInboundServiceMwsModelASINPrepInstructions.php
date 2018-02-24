@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINPrepInstructions
  * 
- * Properties:
- * <ul>
- * 
- * <li>ASIN: string</li>
- * <li>BarcodeInstruction: string</li>
- * <li>PrepGuidance: string</li>
- * <li>PrepInstructionList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList</li>
- *
- * </ul>
+ * @property	string	$ASIN
+ * @property	string	$BarcodeInstruction
+ * @property	string	$PrepGuidance
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList	$PrepInstructionList
  */
 class FbaInboundServiceMwsModelASINPrepInstructions extends FbaInboundServiceMwsModel
 {

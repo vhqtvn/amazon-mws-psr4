@@ -9,17 +9,12 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceM
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelSubmitFeedRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>Marketplace: string</li>
- * <li>Merchant: string</li>
- * <li>MarketplaceIdList: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList</li>
- * <li>FeedContent: string</li>
- * <li>FeedType: string</li>
- * <li>PurgeAndReplace: bool</li>
- *
- * </ul>
+ * @property	string	$Marketplace
+ * @property	string	$Merchant
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList	$MarketplaceIdList
+ * @property	string	$FeedContent
+ * @property	string	$FeedType
+ * @property	bool	$PurgeAndReplace
  */
 class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceModel
 {

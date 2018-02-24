@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelListReturnReasonCodesResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>ReasonCodeDetailsList: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReasonCodeDetailsList</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReasonCodeDetailsList	$ReasonCodeDetailsList
  */
 class FbaOutboundServiceMwsModelListReturnReasonCodesResult extends FbaOutboundServiceMwsModel
 {

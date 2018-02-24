@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelDimensions
  * 
- * Properties:
- * <ul>
- * 
- * <li>Length: float</li>
- * <li>Width: float</li>
- * <li>Unit: string</li>
- *
- * </ul>
+ * @property	float	$Length
+ * @property	float	$Width
+ * @property	string	$Unit
  */
 class MwsMerchantFulfillmentServiceModelLabelDimensions extends MwsMerchantFulfillmentServiceModel
 {

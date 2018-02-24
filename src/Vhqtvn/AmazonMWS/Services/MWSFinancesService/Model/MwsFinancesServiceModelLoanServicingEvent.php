@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelLoanServicingEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>LoanAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>SourceBusinessEventType: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$LoanAmount
+ * @property	string	$SourceBusinessEventType
  */
 class MwsFinancesServiceModelLoanServicingEvent extends MwsFinancesServiceModel
 {

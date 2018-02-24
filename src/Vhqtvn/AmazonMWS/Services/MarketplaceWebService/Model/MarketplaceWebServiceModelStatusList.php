@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList
  * 
- * Properties:
- * <ul>
- * 
- * <li>Status: string</li>
- *
- * </ul>
+ * @property	string	$Status
  */
 class MarketplaceWebServiceModelStatusList extends MarketplaceWebServiceModel
 {

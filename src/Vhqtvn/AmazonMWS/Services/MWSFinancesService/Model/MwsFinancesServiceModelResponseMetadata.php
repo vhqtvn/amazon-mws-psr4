@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseMetadata
  * 
- * Properties:
- * <ul>
- * 
- * <li>RequestId: string</li>
- *
- * </ul>
+ * @property	string	$RequestId
  */
 class MwsFinancesServiceModelResponseMetadata extends MwsFinancesServiceModel
 {

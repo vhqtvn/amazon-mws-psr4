@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestPrices
  * 
- * Properties:
- * <ul>
- * 
- * <li>LowestPrice: array</li>
- *
- * </ul>
+ * @property	array	$LowestPrice
  */
 class MarketplaceWebServiceProductsModelLowestPrices extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelLowestPrices extends MarketplaceWebServi
     /**
      * Get the value of the LowestPrice property.
      *
-     * @return List<LowestPriceType> LowestPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestPriceType[] LowestPrice.
      */
     public function getLowestPrice()
     {

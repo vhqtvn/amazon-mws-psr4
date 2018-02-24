@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>Marketplace: string</li>
- * <li>SellerFulfillmentOrderId: string</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$Marketplace
+ * @property	string	$SellerFulfillmentOrderId
  */
 class FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest extends FbaOutboundServiceMwsModel
 {

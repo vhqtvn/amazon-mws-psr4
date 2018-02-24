@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValue
  * 
- * Properties:
- * <ul>
- * 
- * <li>Key: string</li>
- * <li>Value: string</li>
- *
- * </ul>
+ * @property	string	$Key
+ * @property	string	$Value
  */
 class MwsSubscriptionsServiceModelAttributeKeyValue extends MwsSubscriptionsServiceModel
 {

@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCreateShipmentResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Shipment: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipment</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipment	$Shipment
  */
 class MwsMerchantFulfillmentServiceModelCreateShipmentResult extends MwsMerchantFulfillmentServiceModel
 {

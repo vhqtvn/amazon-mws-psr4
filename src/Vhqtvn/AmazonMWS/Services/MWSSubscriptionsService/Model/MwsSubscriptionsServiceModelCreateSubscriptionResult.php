@@ -6,11 +6,6 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelCreateSubscriptionResult
  * 
- * Properties:
- * <ul>
- * 
- *
- * </ul>
  */
 class MwsSubscriptionsServiceModelCreateSubscriptionResult extends MwsSubscriptionsServiceModel
 {

@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\MarketplaceWebService
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListParticipations
  * 
- * Properties:
- * <ul>
- * 
- * <li>Participation: array</li>
- *
- * </ul>
+ * @property	array	$Participation
  */
 class MarketplaceWebServiceSellersModelListParticipations extends MarketplaceWebServiceSellersModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceSellersModelListParticipations extends MarketplaceWeb
     /**
      * Get the value of the Participation property.
      *
-     * @return List<Participation> Participation.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelParticipation[] Participation.
      */
     public function getParticipation()
     {

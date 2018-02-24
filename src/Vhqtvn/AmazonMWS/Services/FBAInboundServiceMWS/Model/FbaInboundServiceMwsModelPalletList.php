@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPalletList
  * 
- * Properties:
- * <ul>
- * 
- * <li>member: array</li>
- *
- * </ul>
+ * @property	array	$member
  */
 class FbaInboundServiceMwsModelPalletList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelPalletList extends FbaInboundServiceMwsModel
     /**
      * Get the value of the member property.
      *
-     * @return List<Pallet> member.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPallet[] member.
      */
     public function getmember()
     {

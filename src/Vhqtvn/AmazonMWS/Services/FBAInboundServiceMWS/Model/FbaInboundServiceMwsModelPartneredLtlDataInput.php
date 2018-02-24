@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredLtlDataInput
  * 
- * Properties:
- * <ul>
- * 
- * <li>Contact: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelContact</li>
- * <li>BoxCount: int</li>
- * <li>SellerFreightClass: string</li>
- * <li>FreightReadyDate: string</li>
- * <li>PalletList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPalletList</li>
- * <li>TotalWeight: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight</li>
- * <li>SellerDeclaredValue: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelContact	$Contact
+ * @property	int	$BoxCount
+ * @property	string	$SellerFreightClass
+ * @property	string	$FreightReadyDate
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPalletList	$PalletList
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight	$TotalWeight
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount	$SellerDeclaredValue
  */
 class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMwsModel
 {

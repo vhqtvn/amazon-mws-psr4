@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentList
  * 
- * Properties:
- * <ul>
- * 
- * <li>member: array</li>
- *
- * </ul>
+ * @property	array	$member
  */
 class FbaOutboundServiceMwsModelFulfillmentShipmentList extends FbaOutboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentList extends FbaOutboundServi
     /**
      * Get the value of the member property.
      *
-     * @return List<FulfillmentShipment> member.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipment[] member.
      */
     public function getmember()
     {

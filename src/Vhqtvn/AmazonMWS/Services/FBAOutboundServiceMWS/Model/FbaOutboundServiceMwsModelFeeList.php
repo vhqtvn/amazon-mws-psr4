@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFeeList
  * 
- * Properties:
- * <ul>
- * 
- * <li>member: array</li>
- *
- * </ul>
+ * @property	array	$member
  */
 class FbaOutboundServiceMwsModelFeeList extends FbaOutboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaOutboundServiceMwsModelFeeList extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the member property.
      *
-     * @return List<Fee> member.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFee[] member.
      */
     public function getmember()
     {

@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseMetadata
  * 
- * Properties:
- * <ul>
- * 
- * <li>RequestId: string</li>
- *
- * </ul>
+ * @property	string	$RequestId
  */
 class FbaInventoryServiceMwsModelResponseMetadata extends FbaInventoryServiceMwsModel
 {

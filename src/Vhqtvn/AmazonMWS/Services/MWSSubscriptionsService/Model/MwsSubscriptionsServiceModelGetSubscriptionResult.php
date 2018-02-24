@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelGetSubscriptionResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Subscription: \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSubscription</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSubscription	$Subscription
  */
 class MwsSubscriptionsServiceModelGetSubscriptionResult extends MwsSubscriptionsServiceModel
 {

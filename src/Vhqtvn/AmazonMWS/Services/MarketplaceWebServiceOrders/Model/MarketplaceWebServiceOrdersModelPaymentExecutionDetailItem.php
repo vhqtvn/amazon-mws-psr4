@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>Payment: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>PaymentMethod: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$Payment
+ * @property	string	$PaymentMethod
  */
 class MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem extends MarketplaceWebServiceOrdersModel
 {

@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetPackageLabelsRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>ShipmentId: string</li>
- * <li>PageType: string</li>
- * <li>NumberOfPackages: int</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$ShipmentId
+ * @property	string	$PageType
+ * @property	int	$NumberOfPackages
  */
 class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundServiceMwsModel
 {

@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList
  * 
- * Properties:
- * <ul>
- * 
- * <li>Type: string</li>
- *
- * </ul>
+ * @property	string	$Type
  */
 class MarketplaceWebServiceModelTypeList extends MarketplaceWebServiceModel
 {

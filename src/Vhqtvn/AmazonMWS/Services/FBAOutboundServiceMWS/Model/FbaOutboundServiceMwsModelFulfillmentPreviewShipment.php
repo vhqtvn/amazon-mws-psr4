@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewShipment
  * 
- * Properties:
- * <ul>
- * 
- * <li>EarliestShipDate: string</li>
- * <li>LatestShipDate: string</li>
- * <li>EarliestArrivalDate: string</li>
- * <li>LatestArrivalDate: string</li>
- * <li>FulfillmentPreviewItems: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewItemList</li>
- *
- * </ul>
+ * @property	string	$EarliestShipDate
+ * @property	string	$LatestShipDate
+ * @property	string	$EarliestArrivalDate
+ * @property	string	$LatestArrivalDate
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewItemList	$FulfillmentPreviewItems
  */
 class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundServiceMwsModel
 {

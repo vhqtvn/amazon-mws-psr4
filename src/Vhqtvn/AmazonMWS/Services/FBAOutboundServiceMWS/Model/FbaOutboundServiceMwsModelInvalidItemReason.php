@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidItemReason
  * 
- * Properties:
- * <ul>
- * 
- * <li>InvalidItemReasonCode: string</li>
- * <li>Description: string</li>
- *
- * </ul>
+ * @property	string	$InvalidItemReasonCode
+ * @property	string	$Description
  */
 class FbaOutboundServiceMwsModelInvalidItemReason extends FbaOutboundServiceMwsModel
 {

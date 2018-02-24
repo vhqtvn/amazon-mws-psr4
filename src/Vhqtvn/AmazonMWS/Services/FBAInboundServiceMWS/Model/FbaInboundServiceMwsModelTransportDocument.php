@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDocument
  * 
- * Properties:
- * <ul>
- * 
- * <li>PdfDocument: string</li>
- * <li>Checksum: string</li>
- *
- * </ul>
+ * @property	string	$PdfDocument
+ * @property	string	$Checksum
  */
 class FbaInboundServiceMwsModelTransportDocument extends FbaInboundServiceMwsModel
 {

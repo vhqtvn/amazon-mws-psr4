@@ -9,14 +9,9 @@ use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForSKUResponse
  * 
- * Properties:
- * <ul>
- * 
- * <li>GetLowestOfferListingsForSKUResult: array</li>
- * <li>ResponseMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata</li>
- * <li>ResponseHeaderMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata</li>
- *
- * </ul>
+ * @property	array	$GetLowestOfferListingsForSKUResult
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata	$ResponseMetadata
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata	$ResponseHeaderMetadata
  */
 class MarketplaceWebServiceProductsModelGetLowestOfferListingsForSKUResponse extends MarketplaceWebServiceProductsModel
 {
@@ -28,7 +23,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForSKUResponse ext
     /**
      * Get the value of the GetLowestOfferListingsForSKUResult property.
      *
-     * @return List<GetLowestOfferListingsForSKUResult> GetLowestOfferListingsForSKUResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForSKUResult[] GetLowestOfferListingsForSKUResult.
      */
     public function getGetLowestOfferListingsForSKUResult()
     {

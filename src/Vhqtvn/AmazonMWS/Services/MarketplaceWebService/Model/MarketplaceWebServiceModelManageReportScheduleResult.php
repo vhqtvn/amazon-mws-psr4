@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Count: int</li>
- * <li>ReportSchedule: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule</li>
- *
- * </ul>
+ * @property	int	$Count
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule	$ReportSchedule
  */
 class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWebServiceModel
 {

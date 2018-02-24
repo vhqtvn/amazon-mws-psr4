@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelInvoiceData
  * 
- * Properties:
- * <ul>
- * 
- * <li>InvoiceRequirement: string</li>
- * <li>BuyerSelectedInvoiceCategory: string</li>
- * <li>InvoiceTitle: string</li>
- * <li>InvoiceInformation: string</li>
- *
- * </ul>
+ * @property	string	$InvoiceRequirement
+ * @property	string	$BuyerSelectedInvoiceCategory
+ * @property	string	$InvoiceTitle
+ * @property	string	$InvoiceInformation
  */
 class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceOrdersModel
 {

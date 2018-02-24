@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput
  * 
- * Properties:
- * <ul>
- * 
- * <li>CarrierName: string</li>
- * <li>TrackingId: string</li>
- * <li>PackageStatus: string</li>
- *
- * </ul>
+ * @property	string	$CarrierName
+ * @property	string	$TrackingId
+ * @property	string	$PackageStatus
  */
 class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaInboundServiceMwsModel
 {

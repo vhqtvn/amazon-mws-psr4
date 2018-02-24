@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelScheduledDeliveryInfo
  * 
- * Properties:
- * <ul>
- * 
- * <li>DeliveryTimeZone: string</li>
- * <li>DeliveryWindows: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindowList</li>
- *
- * </ul>
+ * @property	string	$DeliveryTimeZone
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindowList	$DeliveryWindows
  */
 class FbaOutboundServiceMwsModelScheduledDeliveryInfo extends FbaOutboundServiceMwsModel
 {

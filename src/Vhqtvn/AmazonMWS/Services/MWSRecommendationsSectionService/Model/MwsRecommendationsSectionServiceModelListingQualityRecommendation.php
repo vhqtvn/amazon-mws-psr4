@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListingQualityRecommendation
  * 
- * Properties:
- * <ul>
- * 
- * <li>QualitySet: string</li>
- * <li>DefectGroup: string</li>
- * <li>DefectAttribute: string</li>
- * <li>ItemIdentifier: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier</li>
- * <li>ItemName: string</li>
- * <li>RecommendationId: string</li>
- * <li>RecommendationReason: string</li>
- *
- * </ul>
+ * @property	string	$QualitySet
+ * @property	string	$DefectGroup
+ * @property	string	$DefectAttribute
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier	$ItemIdentifier
+ * @property	string	$ItemName
+ * @property	string	$RecommendationId
+ * @property	string	$RecommendationReason
  */
 class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends MwsRecommendationsSectionServiceModel
 {

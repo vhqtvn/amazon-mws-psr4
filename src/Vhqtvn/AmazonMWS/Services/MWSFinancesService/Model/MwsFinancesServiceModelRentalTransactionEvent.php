@@ -6,20 +6,15 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRentalTransactionEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>AmazonOrderId: string</li>
- * <li>RentalEventType: string</li>
- * <li>ExtensionLength: int</li>
- * <li>PostedDate: string</li>
- * <li>RentalChargeList: array</li>
- * <li>RentalFeeList: array</li>
- * <li>MarketplaceName: string</li>
- * <li>RentalInitialValue: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>RentalReimbursement: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- *
- * </ul>
+ * @property	string	$AmazonOrderId
+ * @property	string	$RentalEventType
+ * @property	int	$ExtensionLength
+ * @property	string	$PostedDate
+ * @property	array	$RentalChargeList
+ * @property	array	$RentalFeeList
+ * @property	string	$MarketplaceName
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$RentalInitialValue
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$RentalReimbursement
  */
 class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceModel
 {
@@ -199,7 +194,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the RentalChargeList property.
      *
-     * @return List<ChargeComponent> RentalChargeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] RentalChargeList.
      */
     public function getRentalChargeList()
     {
@@ -256,7 +251,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the RentalFeeList property.
      *
-     * @return List<FeeComponent> RentalFeeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] RentalFeeList.
      */
     public function getRentalFeeList()
     {

@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelTaxWithheldComponent
  * 
- * Properties:
- * <ul>
- * 
- * <li>TaxCollectionModel: string</li>
- * <li>TaxesWithheld: array</li>
- *
- * </ul>
+ * @property	string	$TaxCollectionModel
+ * @property	array	$TaxesWithheld
  */
 class MwsFinancesServiceModelTaxWithheldComponent extends MwsFinancesServiceModel
 {
@@ -66,7 +61,7 @@ class MwsFinancesServiceModelTaxWithheldComponent extends MwsFinancesServiceMode
     /**
      * Get the value of the TaxesWithheld property.
      *
-     * @return List<ChargeComponent> TaxesWithheld.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] TaxesWithheld.
      */
     public function getTaxesWithheld()
     {

@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersAsinIdentifier
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>ASIN: string</li>
- * <li>ItemCondition: string</li>
- * <li>TimeOfOfferChange: string</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	string	$ASIN
+ * @property	string	$ItemCondition
+ * @property	string	$TimeOfOfferChange
  */
 class MarketplaceWebServiceProductsModelGetLowestPricedOffersAsinIdentifier extends MarketplaceWebServiceProductsModel
 {

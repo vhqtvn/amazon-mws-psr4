@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>EventDate: string</li>
- * <li>EventAddress: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress</li>
- * <li>EventCode: string</li>
- *
- * </ul>
+ * @property	string	$EventDate
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress	$EventAddress
+ * @property	string	$EventCode
  */
 class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
 {

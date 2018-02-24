@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportHeader
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>ShipmentId: string</li>
- * <li>IsPartnered: bool</li>
- * <li>ShipmentType: string</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$ShipmentId
+ * @property	bool	$IsPartnered
+ * @property	string	$ShipmentType
  */
 class FbaInboundServiceMwsModelTransportHeader extends FbaInboundServiceMwsModel
 {

@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyPriceForSKUResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Product: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct</li>
- * <li>Error: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError</li>
- * <li>SellerSKU: string</li>
- * <li>status: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct	$Product
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError	$Error
+ * @property	string	$SellerSKU
+ * @property	string	$status
  */
 class MarketplaceWebServiceProductsModelGetMyPriceForSKUResult extends MarketplaceWebServiceProductsModel
 {

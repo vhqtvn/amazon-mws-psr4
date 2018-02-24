@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidSKU
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>ErrorReason: string</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$ErrorReason
  */
 class FbaInboundServiceMwsModelInvalidSKU extends FbaInboundServiceMwsModel
 {

@@ -6,19 +6,14 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShipmentId: string</li>
- * <li>SellerSKU: string</li>
- * <li>FulfillmentNetworkSKU: string</li>
- * <li>QuantityShipped: int</li>
- * <li>QuantityReceived: int</li>
- * <li>QuantityInCase: int</li>
- * <li>ReleaseDate: string</li>
- * <li>PrepDetailsList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList</li>
- *
- * </ul>
+ * @property	string	$ShipmentId
+ * @property	string	$SellerSKU
+ * @property	string	$FulfillmentNetworkSKU
+ * @property	int	$QuantityShipped
+ * @property	int	$QuantityReceived
+ * @property	int	$QuantityInCase
+ * @property	string	$ReleaseDate
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList	$PrepDetailsList
  */
 class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsModel
 {

@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTemporarilyUnavailableCarrier
  * 
- * Properties:
- * <ul>
- * 
- * <li>CarrierName: string</li>
- *
- * </ul>
+ * @property	string	$CarrierName
  */
 class MwsMerchantFulfillmentServiceModelTemporarilyUnavailableCarrier extends MwsMerchantFulfillmentServiceModel
 {

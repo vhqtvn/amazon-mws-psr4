@@ -6,25 +6,20 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelListOrdersRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>CreatedAfter: string</li>
- * <li>CreatedBefore: string</li>
- * <li>LastUpdatedAfter: string</li>
- * <li>LastUpdatedBefore: string</li>
- * <li>OrderStatus: array</li>
- * <li>MarketplaceId: array</li>
- * <li>FulfillmentChannel: array</li>
- * <li>PaymentMethod: array</li>
- * <li>BuyerEmail: string</li>
- * <li>SellerOrderId: string</li>
- * <li>MaxResultsPerPage: int</li>
- * <li>TFMShipmentStatus: array</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$CreatedAfter
+ * @property	string	$CreatedBefore
+ * @property	string	$LastUpdatedAfter
+ * @property	string	$LastUpdatedBefore
+ * @property	array	$OrderStatus
+ * @property	array	$MarketplaceId
+ * @property	array	$FulfillmentChannel
+ * @property	array	$PaymentMethod
+ * @property	string	$BuyerEmail
+ * @property	string	$SellerOrderId
+ * @property	int	$MaxResultsPerPage
+ * @property	array	$TFMShipmentStatus
  */
 class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebServiceOrdersModel
 {
@@ -288,7 +283,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the OrderStatus property.
      *
-     * @return List<String> OrderStatus.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] OrderStatus.
      */
     public function getOrderStatus()
     {
@@ -345,7 +340,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return List<String> MarketplaceId.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -402,7 +397,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the FulfillmentChannel property.
      *
-     * @return List<String> FulfillmentChannel.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] FulfillmentChannel.
      */
     public function getFulfillmentChannel()
     {
@@ -459,7 +454,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the PaymentMethod property.
      *
-     * @return List<String> PaymentMethod.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] PaymentMethod.
      */
     public function getPaymentMethod()
     {
@@ -642,7 +637,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the TFMShipmentStatus property.
      *
-     * @return List<String> TFMShipmentStatus.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] TFMShipmentStatus.
      */
     public function getTFMShipmentStatus()
     {

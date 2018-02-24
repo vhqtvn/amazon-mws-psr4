@@ -6,21 +6,16 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShippingServiceName: string</li>
- * <li>CarrierName: string</li>
- * <li>ShippingServiceId: string</li>
- * <li>ShippingServiceOfferId: string</li>
- * <li>ShipDate: string</li>
- * <li>EarliestEstimatedDeliveryDate: string</li>
- * <li>LatestEstimatedDeliveryDate: string</li>
- * <li>Rate: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount</li>
- * <li>ShippingServiceOptions: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions</li>
- * <li>AvailableLabelFormats: array</li>
- *
- * </ul>
+ * @property	string	$ShippingServiceName
+ * @property	string	$CarrierName
+ * @property	string	$ShippingServiceId
+ * @property	string	$ShippingServiceOfferId
+ * @property	string	$ShipDate
+ * @property	string	$EarliestEstimatedDeliveryDate
+ * @property	string	$LatestEstimatedDeliveryDate
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount	$Rate
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions	$ShippingServiceOptions
+ * @property	array	$AvailableLabelFormats
  */
 class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfillmentServiceModel
 {
@@ -410,7 +405,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the AvailableLabelFormats property.
      *
-     * @return List<String> AvailableLabelFormats.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelString[] AvailableLabelFormats.
      */
     public function getAvailableLabelFormats()
     {

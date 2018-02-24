@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>PostedDate: string</li>
- * <li>EnrollmentId: string</li>
- * <li>ParentASIN: string</li>
- * <li>FeeComponent: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent</li>
- * <li>ChargeComponent: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent</li>
- * <li>TotalAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- *
- * </ul>
+ * @property	string	$PostedDate
+ * @property	string	$EnrollmentId
+ * @property	string	$ParentASIN
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent	$FeeComponent
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent	$ChargeComponent
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$TotalAmount
  */
 class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinancesServiceModel
 {

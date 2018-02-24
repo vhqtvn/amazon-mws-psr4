@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelGetServiceStatusResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Status: string</li>
- * <li>Timestamp: string</li>
- *
- * </ul>
+ * @property	string	$Status
+ * @property	string	$Timestamp
  */
 class MwsFinancesServiceModelGetServiceStatusResult extends MwsFinancesServiceModel
 {

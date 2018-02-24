@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCompetitivePriceList
  * 
- * Properties:
- * <ul>
- * 
- * <li>CompetitivePrice: array</li>
- *
- * </ul>
+ * @property	array	$CompetitivePrice
  */
 class MarketplaceWebServiceProductsModelCompetitivePriceList extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceList extends Marketplace
     /**
      * Get the value of the CompetitivePrice property.
      *
-     * @return List<CompetitivePriceType> CompetitivePrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCompetitivePriceType[] CompetitivePrice.
      */
     public function getCompetitivePrice()
     {

@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSubscription
  * 
- * Properties:
- * <ul>
- * 
- * <li>NotificationType: string</li>
- * <li>Destination: \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestination</li>
- * <li>IsEnabled: bool</li>
- *
- * </ul>
+ * @property	string	$NotificationType
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestination	$Destination
+ * @property	bool	$IsEnabled
  */
 class MwsSubscriptionsServiceModelSubscription extends MwsSubscriptionsServiceModel
 {

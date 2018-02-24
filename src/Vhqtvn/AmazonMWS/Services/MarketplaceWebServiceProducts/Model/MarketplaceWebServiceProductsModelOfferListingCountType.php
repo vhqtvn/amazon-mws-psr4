@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOfferListingCountType
  * 
- * Properties:
- * <ul>
- * 
- * <li>Value: int</li>
- * <li>condition: string</li>
- *
- * </ul>
+ * @property	int	$Value
+ * @property	string	$condition
  */
 class MarketplaceWebServiceProductsModelOfferListingCountType extends MarketplaceWebServiceProductsModel
 {

@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>SellerId: string</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	string	$MWSAuthToken
+ * @property	string	$SellerId
  */
 class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsRequest extends MwsRecommendationsSectionServiceModel
 {

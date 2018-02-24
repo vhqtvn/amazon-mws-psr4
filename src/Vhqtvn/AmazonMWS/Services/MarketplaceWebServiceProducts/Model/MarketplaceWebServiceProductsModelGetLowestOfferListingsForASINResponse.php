@@ -9,14 +9,9 @@ use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResponse
  * 
- * Properties:
- * <ul>
- * 
- * <li>GetLowestOfferListingsForASINResult: array</li>
- * <li>ResponseMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata</li>
- * <li>ResponseHeaderMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata</li>
- *
- * </ul>
+ * @property	array	$GetLowestOfferListingsForASINResult
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata	$ResponseMetadata
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata	$ResponseHeaderMetadata
  */
 class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResponse extends MarketplaceWebServiceProductsModel
 {
@@ -28,7 +23,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResponse ex
     /**
      * Get the value of the GetLowestOfferListingsForASINResult property.
      *
-     * @return List<GetLowestOfferListingsForASINResult> GetLowestOfferListingsForASINResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult[] GetLowestOfferListingsForASINResult.
      */
     public function getGetLowestOfferListingsForASINResult()
     {

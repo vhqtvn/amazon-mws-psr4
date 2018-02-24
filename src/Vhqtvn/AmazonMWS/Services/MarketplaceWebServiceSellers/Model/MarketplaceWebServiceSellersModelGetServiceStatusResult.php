@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\MarketplaceWebService
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelGetServiceStatusResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Status: string</li>
- * <li>Timestamp: string</li>
- * <li>MessageId: string</li>
- * <li>Messages: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMessageList</li>
- *
- * </ul>
+ * @property	string	$Status
+ * @property	string	$Timestamp
+ * @property	string	$MessageId
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMessageList	$Messages
  */
 class MarketplaceWebServiceSellersModelGetServiceStatusResult extends MarketplaceWebServiceSellersModel
 {

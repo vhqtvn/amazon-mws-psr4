@@ -6,28 +6,23 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPricingRecommendation
  * 
- * Properties:
- * <ul>
- * 
- * <li>LastUpdated: string</li>
- * <li>ItemIdentifier: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier</li>
- * <li>ItemName: string</li>
- * <li>Condition: string</li>
- * <li>SubCondition: string</li>
- * <li>FulfillmentChannel: string</li>
- * <li>YourPricePlusShipping: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice</li>
- * <li>LowestPricePlusShipping: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice</li>
- * <li>PriceDifferenceToLowPrice: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice</li>
- * <li>MedianPricePlusShipping: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice</li>
- * <li>LowestMerchantFulfilledOfferPrice: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice</li>
- * <li>LowestAmazonFulfilledOfferPrice: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice</li>
- * <li>NumberOfOffers: int</li>
- * <li>NumberOfMerchantFulfilledOffers: int</li>
- * <li>NumberOfAmazonFulfilledOffers: int</li>
- * <li>RecommendationId: string</li>
- * <li>RecommendationReason: string</li>
- *
- * </ul>
+ * @property	string	$LastUpdated
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier	$ItemIdentifier
+ * @property	string	$ItemName
+ * @property	string	$Condition
+ * @property	string	$SubCondition
+ * @property	string	$FulfillmentChannel
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice	$YourPricePlusShipping
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice	$LowestPricePlusShipping
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice	$PriceDifferenceToLowPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice	$MedianPricePlusShipping
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice	$LowestMerchantFulfilledOfferPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice	$LowestAmazonFulfilledOfferPrice
+ * @property	int	$NumberOfOffers
+ * @property	int	$NumberOfMerchantFulfilledOffers
+ * @property	int	$NumberOfAmazonFulfilledOffers
+ * @property	string	$RecommendationId
+ * @property	string	$RecommendationReason
  */
 class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsRecommendationsSectionServiceModel
 {

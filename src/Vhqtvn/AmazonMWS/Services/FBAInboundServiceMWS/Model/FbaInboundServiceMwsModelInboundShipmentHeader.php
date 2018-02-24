@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentHeader
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShipmentName: string</li>
- * <li>ShipFromAddress: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress</li>
- * <li>DestinationFulfillmentCenterId: string</li>
- * <li>AreCasesRequired: bool</li>
- * <li>ShipmentStatus: string</li>
- * <li>LabelPrepPreference: string</li>
- * <li>IntendedBoxContentsSource: string</li>
- *
- * </ul>
+ * @property	string	$ShipmentName
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress	$ShipFromAddress
+ * @property	string	$DestinationFulfillmentCenterId
+ * @property	bool	$AreCasesRequired
+ * @property	string	$ShipmentStatus
+ * @property	string	$LabelPrepPreference
+ * @property	string	$IntendedBoxContentsSource
  */
 class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMwsModel
 {

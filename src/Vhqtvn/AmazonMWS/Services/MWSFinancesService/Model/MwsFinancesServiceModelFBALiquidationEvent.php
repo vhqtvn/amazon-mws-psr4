@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFBALiquidationEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>PostedDate: string</li>
- * <li>OriginalRemovalOrderId: string</li>
- * <li>LiquidationProceedsAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>LiquidationFeeAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- *
- * </ul>
+ * @property	string	$PostedDate
+ * @property	string	$OriginalRemovalOrderId
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$LiquidationProceedsAmount
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$LiquidationFeeAmount
  */
 class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
 {

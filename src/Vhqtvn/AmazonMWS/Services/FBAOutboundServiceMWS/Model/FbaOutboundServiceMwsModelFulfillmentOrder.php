@@ -6,27 +6,22 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrder
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerFulfillmentOrderId: string</li>
- * <li>MarketplaceId: string</li>
- * <li>DisplayableOrderId: string</li>
- * <li>DisplayableOrderDateTime: string</li>
- * <li>DisplayableOrderComment: string</li>
- * <li>ShippingSpeedCategory: string</li>
- * <li>DeliveryWindow: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindow</li>
- * <li>DestinationAddress: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress</li>
- * <li>FulfillmentAction: string</li>
- * <li>FulfillmentPolicy: string</li>
- * <li>FulfillmentMethod: string</li>
- * <li>CODSettings: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCODSettings</li>
- * <li>ReceivedDateTime: string</li>
- * <li>FulfillmentOrderStatus: string</li>
- * <li>StatusUpdatedDateTime: string</li>
- * <li>NotificationEmailList: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelNotificationEmailList</li>
- *
- * </ul>
+ * @property	string	$SellerFulfillmentOrderId
+ * @property	string	$MarketplaceId
+ * @property	string	$DisplayableOrderId
+ * @property	string	$DisplayableOrderDateTime
+ * @property	string	$DisplayableOrderComment
+ * @property	string	$ShippingSpeedCategory
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindow	$DeliveryWindow
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress	$DestinationAddress
+ * @property	string	$FulfillmentAction
+ * @property	string	$FulfillmentPolicy
+ * @property	string	$FulfillmentMethod
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCODSettings	$CODSettings
+ * @property	string	$ReceivedDateTime
+ * @property	string	$FulfillmentOrderStatus
+ * @property	string	$StatusUpdatedDateTime
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelNotificationEmailList	$NotificationEmailList
  */
 class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsModel
 {

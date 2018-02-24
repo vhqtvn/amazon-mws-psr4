@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlan
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShipmentId: string</li>
- * <li>DestinationFulfillmentCenterId: string</li>
- * <li>ShipToAddress: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress</li>
- * <li>LabelPrepType: string</li>
- * <li>Items: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanItemList</li>
- * <li>EstimatedBoxContentsFee: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelBoxContentsFeeDetails</li>
- *
- * </ul>
+ * @property	string	$ShipmentId
+ * @property	string	$DestinationFulfillmentCenterId
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress	$ShipToAddress
+ * @property	string	$LabelPrepType
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanItemList	$Items
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelBoxContentsFeeDetails	$EstimatedBoxContentsFee
  */
 class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsModel
 {

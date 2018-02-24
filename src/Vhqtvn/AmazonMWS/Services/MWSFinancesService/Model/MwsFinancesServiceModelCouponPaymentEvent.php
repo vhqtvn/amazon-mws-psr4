@@ -6,19 +6,14 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCouponPaymentEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>PostedDate: string</li>
- * <li>CouponId: string</li>
- * <li>SellerCouponDescription: string</li>
- * <li>ClipOrRedemptionCount: int</li>
- * <li>PaymentEventId: string</li>
- * <li>FeeComponent: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent</li>
- * <li>ChargeComponent: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent</li>
- * <li>TotalAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- *
- * </ul>
+ * @property	string	$PostedDate
+ * @property	string	$CouponId
+ * @property	string	$SellerCouponDescription
+ * @property	int	$ClipOrRedemptionCount
+ * @property	string	$PaymentEventId
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent	$FeeComponent
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent	$ChargeComponent
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$TotalAmount
  */
 class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
 {

@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo
  * 
- * Properties:
- * <ul>
- * 
- * <li>FeedSubmissionId: string</li>
- * <li>FeedType: string</li>
- * <li>SubmittedDate: string</li>
- * <li>FeedProcessingStatus: string</li>
- * <li>StartedProcessingDate: string</li>
- * <li>CompletedProcessingDate: string</li>
- *
- * </ul>
+ * @property	string	$FeedSubmissionId
+ * @property	string	$FeedType
+ * @property	string	$SubmittedDate
+ * @property	string	$FeedProcessingStatus
+ * @property	string	$StartedProcessingDate
+ * @property	string	$CompletedProcessingDate
  */
 class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebServiceModel
 {

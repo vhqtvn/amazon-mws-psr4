@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValueList
  * 
- * Properties:
- * <ul>
- * 
- * <li>member: array</li>
- *
- * </ul>
+ * @property	array	$member
  */
 class MwsSubscriptionsServiceModelAttributeKeyValueList extends MwsSubscriptionsServiceModel
 {
@@ -23,7 +18,7 @@ class MwsSubscriptionsServiceModelAttributeKeyValueList extends MwsSubscriptions
     /**
      * Get the value of the member property.
      *
-     * @return List<AttributeKeyValue> member.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValue[] member.
      */
     public function getmember()
     {

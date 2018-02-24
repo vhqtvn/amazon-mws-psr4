@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions
  * 
- * Properties:
- * <ul>
- * 
- * <li>DeliveryExperience: string</li>
- * <li>DeclaredValue: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount</li>
- * <li>CarrierWillPickUp: bool</li>
- * <li>LabelFormat: string</li>
- *
- * </ul>
+ * @property	string	$DeliveryExperience
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount	$DeclaredValue
+ * @property	bool	$CarrierWillPickUp
+ * @property	string	$LabelFormat
  */
 class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMerchantFulfillmentServiceModel
 {

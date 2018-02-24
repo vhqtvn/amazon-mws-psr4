@@ -6,25 +6,20 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelInventoryRecommendation
  * 
- * Properties:
- * <ul>
- * 
- * <li>LastUpdated: string</li>
- * <li>ItemIdentifier: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier</li>
- * <li>ItemName: string</li>
- * <li>FulfillmentChannel: string</li>
- * <li>SalesForTheLast14Days: int</li>
- * <li>SalesForTheLast30Days: int</li>
- * <li>AvailableQuantity: int</li>
- * <li>DaysUntilStockRunsOut: int</li>
- * <li>InboundQuantity: int</li>
- * <li>RecommendedInboundQuantity: int</li>
- * <li>DaysOutOfStockLast30Days: int</li>
- * <li>LostSalesInLast30Days: int</li>
- * <li>RecommendationId: string</li>
- * <li>RecommendationReason: string</li>
- *
- * </ul>
+ * @property	string	$LastUpdated
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier	$ItemIdentifier
+ * @property	string	$ItemName
+ * @property	string	$FulfillmentChannel
+ * @property	int	$SalesForTheLast14Days
+ * @property	int	$SalesForTheLast30Days
+ * @property	int	$AvailableQuantity
+ * @property	int	$DaysUntilStockRunsOut
+ * @property	int	$InboundQuantity
+ * @property	int	$RecommendedInboundQuantity
+ * @property	int	$DaysOutOfStockLast30Days
+ * @property	int	$LostSalesInLast30Days
+ * @property	string	$RecommendationId
+ * @property	string	$RecommendationReason
  */
 class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRecommendationsSectionServiceModel
 {

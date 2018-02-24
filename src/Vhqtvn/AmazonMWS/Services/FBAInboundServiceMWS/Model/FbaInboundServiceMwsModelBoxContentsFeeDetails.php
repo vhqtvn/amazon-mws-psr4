@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelBoxContentsFeeDetails
  * 
- * Properties:
- * <ul>
- * 
- * <li>TotalUnits: int</li>
- * <li>FeePerUnit: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount</li>
- * <li>TotalFee: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount</li>
- *
- * </ul>
+ * @property	int	$TotalUnits
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount	$FeePerUnit
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount	$TotalFee
  */
 class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMwsModel
 {

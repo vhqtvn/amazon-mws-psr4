@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelImagingServicesFeeEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>ImagingRequestBillingItemID: string</li>
- * <li>ASIN: string</li>
- * <li>PostedDate: string</li>
- * <li>FeeList: array</li>
- *
- * </ul>
+ * @property	string	$ImagingRequestBillingItemID
+ * @property	string	$ASIN
+ * @property	string	$PostedDate
+ * @property	array	$FeeList
  */
 class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceModel
 {
@@ -152,7 +147,7 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
     /**
      * Get the value of the FeeList property.
      *
-     * @return List<FeeComponent> FeeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] FeeList.
      */
     public function getFeeList()
     {

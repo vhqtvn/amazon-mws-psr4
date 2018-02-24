@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListRecommendationsRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>SellerId: string</li>
- * <li>RecommendationCategory: string</li>
- * <li>CategoryQueryList: array</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	string	$MWSAuthToken
+ * @property	string	$SellerId
+ * @property	string	$RecommendationCategory
+ * @property	array	$CategoryQueryList
  */
 class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends MwsRecommendationsSectionServiceModel
 {
@@ -195,7 +190,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Get the value of the CategoryQueryList property.
      *
-     * @return List<CategoryQuery> CategoryQueryList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelCategoryQuery[] CategoryQueryList.
      */
     public function getCategoryQueryList()
     {

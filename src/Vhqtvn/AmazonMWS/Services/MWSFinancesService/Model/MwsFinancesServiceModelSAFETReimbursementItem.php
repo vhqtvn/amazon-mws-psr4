@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>itemChargeList: array</li>
- * <li>productDescription: string</li>
- * <li>quantity: string</li>
- *
- * </ul>
+ * @property	array	$itemChargeList
+ * @property	string	$productDescription
+ * @property	string	$quantity
  */
 class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceModel
 {
@@ -25,7 +20,7 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
     /**
      * Get the value of the itemChargeList property.
      *
-     * @return List<ChargeComponent> itemChargeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] itemChargeList.
      */
     public function getitemChargeList()
     {

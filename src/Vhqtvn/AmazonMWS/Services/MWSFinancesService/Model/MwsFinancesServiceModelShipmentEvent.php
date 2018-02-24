@@ -6,24 +6,19 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>AmazonOrderId: string</li>
- * <li>SellerOrderId: string</li>
- * <li>MarketplaceName: string</li>
- * <li>OrderChargeList: array</li>
- * <li>OrderChargeAdjustmentList: array</li>
- * <li>ShipmentFeeList: array</li>
- * <li>ShipmentFeeAdjustmentList: array</li>
- * <li>OrderFeeList: array</li>
- * <li>OrderFeeAdjustmentList: array</li>
- * <li>DirectPaymentList: array</li>
- * <li>PostedDate: string</li>
- * <li>ShipmentItemList: array</li>
- * <li>ShipmentItemAdjustmentList: array</li>
- *
- * </ul>
+ * @property	string	$AmazonOrderId
+ * @property	string	$SellerOrderId
+ * @property	string	$MarketplaceName
+ * @property	array	$OrderChargeList
+ * @property	array	$OrderChargeAdjustmentList
+ * @property	array	$ShipmentFeeList
+ * @property	array	$ShipmentFeeAdjustmentList
+ * @property	array	$OrderFeeList
+ * @property	array	$OrderFeeAdjustmentList
+ * @property	array	$DirectPaymentList
+ * @property	string	$PostedDate
+ * @property	array	$ShipmentItemList
+ * @property	array	$ShipmentItemAdjustmentList
  */
 class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
 {
@@ -161,7 +156,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the OrderChargeList property.
      *
-     * @return List<ChargeComponent> OrderChargeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] OrderChargeList.
      */
     public function getOrderChargeList()
     {
@@ -218,7 +213,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the OrderChargeAdjustmentList property.
      *
-     * @return List<ChargeComponent> OrderChargeAdjustmentList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] OrderChargeAdjustmentList.
      */
     public function getOrderChargeAdjustmentList()
     {
@@ -275,7 +270,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the ShipmentFeeList property.
      *
-     * @return List<FeeComponent> ShipmentFeeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] ShipmentFeeList.
      */
     public function getShipmentFeeList()
     {
@@ -332,7 +327,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the ShipmentFeeAdjustmentList property.
      *
-     * @return List<FeeComponent> ShipmentFeeAdjustmentList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] ShipmentFeeAdjustmentList.
      */
     public function getShipmentFeeAdjustmentList()
     {
@@ -389,7 +384,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the OrderFeeList property.
      *
-     * @return List<FeeComponent> OrderFeeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] OrderFeeList.
      */
     public function getOrderFeeList()
     {
@@ -446,7 +441,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the OrderFeeAdjustmentList property.
      *
-     * @return List<FeeComponent> OrderFeeAdjustmentList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] OrderFeeAdjustmentList.
      */
     public function getOrderFeeAdjustmentList()
     {
@@ -503,7 +498,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the DirectPaymentList property.
      *
-     * @return List<DirectPayment> DirectPaymentList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDirectPayment[] DirectPaymentList.
      */
     public function getDirectPaymentList()
     {
@@ -602,7 +597,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the ShipmentItemList property.
      *
-     * @return List<ShipmentItem> ShipmentItemList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentItem[] ShipmentItemList.
      */
     public function getShipmentItemList()
     {
@@ -659,7 +654,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the ShipmentItemAdjustmentList property.
      *
-     * @return List<ShipmentItem> ShipmentItemAdjustmentList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentItem[] ShipmentItemAdjustmentList.
      */
     public function getShipmentItemAdjustmentList()
     {

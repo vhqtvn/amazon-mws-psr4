@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateIdentifier
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>SellerId: string</li>
- * <li>IdType: string</li>
- * <li>IdValue: string</li>
- * <li>IsAmazonFulfilled: bool</li>
- * <li>PriceToEstimateFees: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceToEstimateFees</li>
- * <li>SellerInputIdentifier: string</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	string	$SellerId
+ * @property	string	$IdType
+ * @property	string	$IdValue
+ * @property	bool	$IsAmazonFulfilled
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceToEstimateFees	$PriceToEstimateFees
+ * @property	string	$SellerInputIdentifier
  */
 class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends MarketplaceWebServiceProductsModel
 {

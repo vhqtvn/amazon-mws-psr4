@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSalesRankType
  * 
- * Properties:
- * <ul>
- * 
- * <li>ProductCategoryId: string</li>
- * <li>Rank: int</li>
- *
- * </ul>
+ * @property	string	$ProductCategoryId
+ * @property	int	$Rank
  */
 class MarketplaceWebServiceProductsModelSalesRankType extends MarketplaceWebServiceProductsModel
 {

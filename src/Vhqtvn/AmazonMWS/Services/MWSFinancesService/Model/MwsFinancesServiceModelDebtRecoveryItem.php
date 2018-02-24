@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>RecoveryAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>OriginalAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>GroupBeginDate: string</li>
- * <li>GroupEndDate: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$RecoveryAmount
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$OriginalAmount
+ * @property	string	$GroupBeginDate
+ * @property	string	$GroupEndDate
  */
 class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
 {

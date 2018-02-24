@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSalesRankList
  * 
- * Properties:
- * <ul>
- * 
- * <li>SalesRank: array</li>
- *
- * </ul>
+ * @property	array	$SalesRank
  */
 class MarketplaceWebServiceProductsModelSalesRankList extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelSalesRankList extends MarketplaceWebServ
     /**
      * Get the value of the SalesRank property.
      *
-     * @return List<SalesRankType> SalesRank.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSalesRankType[] SalesRank.
      */
     public function getSalesRank()
     {

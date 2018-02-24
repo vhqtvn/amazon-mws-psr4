@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnAuthorization
  * 
- * Properties:
- * <ul>
- * 
- * <li>ReturnAuthorizationId: string</li>
- * <li>FulfillmentCenterId: string</li>
- * <li>ReturnToAddress: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress</li>
- * <li>AmazonRmaId: string</li>
- * <li>RmaPageURL: string</li>
- *
- * </ul>
+ * @property	string	$ReturnAuthorizationId
+ * @property	string	$FulfillmentCenterId
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress	$ReturnToAddress
+ * @property	string	$AmazonRmaId
+ * @property	string	$RmaPageURL
  */
 class FbaOutboundServiceMwsModelReturnAuthorization extends FbaOutboundServiceMwsModel
 {

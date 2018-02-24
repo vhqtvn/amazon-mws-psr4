@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelDetailedShippingTimeType
  * 
- * Properties:
- * <ul>
- * 
- * <li>minimumHours: int</li>
- * <li>maximumHours: int</li>
- * <li>availableDate: string</li>
- * <li>availabilityType: string</li>
- *
- * </ul>
+ * @property	int	$minimumHours
+ * @property	int	$maximumHours
+ * @property	string	$availableDate
+ * @property	string	$availabilityType
  */
 class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends MarketplaceWebServiceProductsModel
 {

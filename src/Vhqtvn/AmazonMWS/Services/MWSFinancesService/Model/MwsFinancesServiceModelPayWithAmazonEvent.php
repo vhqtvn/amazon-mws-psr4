@@ -6,21 +6,16 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPayWithAmazonEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerOrderId: string</li>
- * <li>TransactionPostedDate: string</li>
- * <li>BusinessObjectType: string</li>
- * <li>SalesChannel: string</li>
- * <li>Charge: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent</li>
- * <li>FeeList: array</li>
- * <li>PaymentAmountType: string</li>
- * <li>AmountDescription: string</li>
- * <li>FulfillmentChannel: string</li>
- * <li>StoreName: string</li>
- *
- * </ul>
+ * @property	string	$SellerOrderId
+ * @property	string	$TransactionPostedDate
+ * @property	string	$BusinessObjectType
+ * @property	string	$SalesChannel
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent	$Charge
+ * @property	array	$FeeList
+ * @property	string	$PaymentAmountType
+ * @property	string	$AmountDescription
+ * @property	string	$FulfillmentChannel
+ * @property	string	$StoreName
  */
 class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
 {
@@ -242,7 +237,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the FeeList property.
      *
-     * @return List<FeeComponent> FeeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] FeeList.
      */
     public function getFeeList()
     {

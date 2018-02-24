@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList
  * 
- * Properties:
- * <ul>
- * 
- * <li>Id: string</li>
- *
- * </ul>
+ * @property	string	$Id
  */
 class MarketplaceWebServiceModelIdList extends MarketplaceWebServiceModel
 {

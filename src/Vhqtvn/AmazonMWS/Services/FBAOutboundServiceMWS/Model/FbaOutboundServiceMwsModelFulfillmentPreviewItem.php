@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>Quantity: int</li>
- * <li>SellerFulfillmentOrderItemId: string</li>
- * <li>EstimatedShippingWeight: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelWeight</li>
- * <li>ShippingWeightCalculationMethod: string</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	int	$Quantity
+ * @property	string	$SellerFulfillmentOrderItemId
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelWeight	$EstimatedShippingWeight
+ * @property	string	$ShippingWeightCalculationMethod
  */
 class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServiceMwsModel
 {

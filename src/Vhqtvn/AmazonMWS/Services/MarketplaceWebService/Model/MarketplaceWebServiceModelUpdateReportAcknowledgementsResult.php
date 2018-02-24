@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Count: int</li>
- * <li>ReportInfo: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo</li>
- *
- * </ul>
+ * @property	int	$Count
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo	$ReportInfo
  */
 class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends MarketplaceWebServiceModel
 {

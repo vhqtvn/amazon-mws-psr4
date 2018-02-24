@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelGetOrderResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Orders: array</li>
- *
- * </ul>
+ * @property	array	$Orders
  */
 class MarketplaceWebServiceOrdersModelGetOrderResult extends MarketplaceWebServiceOrdersModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceOrdersModelGetOrderResult extends MarketplaceWebServi
     /**
      * Get the value of the Orders property.
      *
-     * @return List<Order> Orders.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrder[] Orders.
      */
     public function getOrders()
     {

@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelListInboundShipmentsRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>Marketplace: string</li>
- * <li>ShipmentStatusList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentStatusList</li>
- * <li>ShipmentIdList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentIdList</li>
- * <li>LastUpdatedBefore: string</li>
- * <li>LastUpdatedAfter: string</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$Marketplace
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentStatusList	$ShipmentStatusList
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentIdList	$ShipmentIdList
+ * @property	string	$LastUpdatedBefore
+ * @property	string	$LastUpdatedAfter
  */
 class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundServiceMwsModel
 {

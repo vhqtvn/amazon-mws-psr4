@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelNonPartneredLtlDataInput
  * 
- * Properties:
- * <ul>
- * 
- * <li>CarrierName: string</li>
- * <li>ProNumber: string</li>
- *
- * </ul>
+ * @property	string	$CarrierName
+ * @property	string	$ProNumber
  */
 class FbaInboundServiceMwsModelNonPartneredLtlDataInput extends FbaInboundServiceMwsModel
 {

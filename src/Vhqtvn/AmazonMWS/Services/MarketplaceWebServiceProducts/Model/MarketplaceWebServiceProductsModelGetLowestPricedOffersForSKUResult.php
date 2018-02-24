@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceID: string</li>
- * <li>SKU: string</li>
- * <li>ItemCondition: string</li>
- * <li>status: string</li>
- * <li>Identifier: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier</li>
- * <li>Summary: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSummary</li>
- * <li>Offers: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetailList</li>
- *
- * </ul>
+ * @property	string	$MarketplaceID
+ * @property	string	$SKU
+ * @property	string	$ItemCondition
+ * @property	string	$status
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier	$Identifier
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSummary	$Summary
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetailList	$Offers
  */
 class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extends MarketplaceWebServiceProductsModel
 {

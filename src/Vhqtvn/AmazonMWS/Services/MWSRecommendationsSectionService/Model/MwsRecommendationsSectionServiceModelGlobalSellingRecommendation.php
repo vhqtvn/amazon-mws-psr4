@@ -6,25 +6,20 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGlobalSellingRecommendation
  * 
- * Properties:
- * <ul>
- * 
- * <li>LastUpdated: string</li>
- * <li>ItemIdentifier: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier</li>
- * <li>ItemName: string</li>
- * <li>BrandName: string</li>
- * <li>ProductCategory: string</li>
- * <li>SalesRank: int</li>
- * <li>BuyboxPrice: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice</li>
- * <li>NumberOfOffers: int</li>
- * <li>NumberOfOffersFulfilledByAmazon: int</li>
- * <li>AverageCustomerReview: float</li>
- * <li>NumberOfCustomerReviews: int</li>
- * <li>ItemDimensions: \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelItemDimensions</li>
- * <li>RecommendationId: string</li>
- * <li>RecommendationReason: string</li>
- *
- * </ul>
+ * @property	string	$LastUpdated
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier	$ItemIdentifier
+ * @property	string	$ItemName
+ * @property	string	$BrandName
+ * @property	string	$ProductCategory
+ * @property	int	$SalesRank
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice	$BuyboxPrice
+ * @property	int	$NumberOfOffers
+ * @property	int	$NumberOfOffersFulfilledByAmazon
+ * @property	float	$AverageCustomerReview
+ * @property	int	$NumberOfCustomerReviews
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelItemDimensions	$ItemDimensions
+ * @property	string	$RecommendationId
+ * @property	string	$RecommendationReason
  */
 class MwsRecommendationsSectionServiceModelGlobalSellingRecommendation extends MwsRecommendationsSectionServiceModel
 {

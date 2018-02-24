@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney
  * 
- * Properties:
- * <ul>
- * 
- * <li>CurrencyCode: string</li>
- * <li>Amount: string</li>
- *
- * </ul>
+ * @property	string	$CurrencyCode
+ * @property	string	$Amount
  */
 class MarketplaceWebServiceOrdersModelMoney extends MarketplaceWebServiceOrdersModel
 {

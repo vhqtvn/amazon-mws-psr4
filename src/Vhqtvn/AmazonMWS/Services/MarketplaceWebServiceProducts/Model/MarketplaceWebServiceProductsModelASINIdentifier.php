@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINIdentifier
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>ASIN: string</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	string	$ASIN
  */
 class MarketplaceWebServiceProductsModelASINIdentifier extends MarketplaceWebServiceProductsModel
 {

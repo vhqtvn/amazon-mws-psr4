@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxPrices
  * 
- * Properties:
- * <ul>
- * 
- * <li>BuyBoxPrice: array</li>
- *
- * </ul>
+ * @property	array	$BuyBoxPrice
  */
 class MarketplaceWebServiceProductsModelBuyBoxPrices extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelBuyBoxPrices extends MarketplaceWebServi
     /**
      * Get the value of the BuyBoxPrice property.
      *
-     * @return List<BuyBoxPriceType> BuyBoxPrice.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxPriceType[] BuyBoxPrice.
      */
     public function getBuyBoxPrice()
     {

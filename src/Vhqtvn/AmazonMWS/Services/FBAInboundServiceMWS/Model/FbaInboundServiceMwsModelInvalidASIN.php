@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASIN
  * 
- * Properties:
- * <ul>
- * 
- * <li>ASIN: string</li>
- * <li>ErrorReason: string</li>
- *
- * </ul>
+ * @property	string	$ASIN
+ * @property	string	$ErrorReason
  */
 class FbaInboundServiceMwsModelInvalidASIN extends FbaInboundServiceMwsModel
 {

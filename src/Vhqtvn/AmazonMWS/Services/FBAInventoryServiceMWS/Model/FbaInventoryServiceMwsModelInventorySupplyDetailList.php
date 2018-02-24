@@ -6,12 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyDetailList
  * 
- * Properties:
- * <ul>
- * 
- * <li>member: array</li>
+ * @property	array	$member
  *
- * </ul>
+ * @property array $member
  */
 class FbaInventoryServiceMwsModelInventorySupplyDetailList extends FbaInventoryServiceMwsModel
 {
@@ -23,7 +20,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetailList extends FbaInventoryS
     /**
      * Get the value of the member property.
      *
-     * @return List<InventorySupplyDetail> member.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyDetail[] member.
      */
     public function getmember()
     {

@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUPrepInstructions
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>ASIN: string</li>
- * <li>BarcodeInstruction: string</li>
- * <li>PrepGuidance: string</li>
- * <li>PrepInstructionList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList</li>
- * <li>AmazonPrepFeesDetailsList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetailsList</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$ASIN
+ * @property	string	$BarcodeInstruction
+ * @property	string	$PrepGuidance
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList	$PrepInstructionList
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetailsList	$AmazonPrepFeesDetailsList
  */
 class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsModel
 {

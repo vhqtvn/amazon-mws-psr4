@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>MarketplaceId: string</li>
- * <li>ASINList: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINListType</li>
- * <li>ItemCondition: string</li>
- * <li>ExcludeMe: bool</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$MarketplaceId
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINListType	$ASINList
+ * @property	string	$ItemCondition
+ * @property	bool	$ExcludeMe
  */
 class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest extends MarketplaceWebServiceProductsModel
 {

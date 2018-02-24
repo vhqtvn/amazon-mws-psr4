@@ -6,26 +6,21 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipment
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShipmentId: string</li>
- * <li>AmazonOrderId: string</li>
- * <li>SellerOrderId: string</li>
- * <li>ItemList: array</li>
- * <li>ShipFromAddress: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress</li>
- * <li>ShipToAddress: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress</li>
- * <li>PackageDimensions: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions</li>
- * <li>Weight: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight</li>
- * <li>Insurance: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount</li>
- * <li>ShippingService: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService</li>
- * <li>Label: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabel</li>
- * <li>Status: string</li>
- * <li>TrackingId: string</li>
- * <li>CreatedDate: string</li>
- * <li>LastUpdatedDate: string</li>
- *
- * </ul>
+ * @property	string	$ShipmentId
+ * @property	string	$AmazonOrderId
+ * @property	string	$SellerOrderId
+ * @property	array	$ItemList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress	$ShipFromAddress
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress	$ShipToAddress
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions	$PackageDimensions
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight	$Weight
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount	$Insurance
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService	$ShippingService
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabel	$Label
+ * @property	string	$Status
+ * @property	string	$TrackingId
+ * @property	string	$CreatedDate
+ * @property	string	$LastUpdatedDate
  */
 class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentServiceModel
 {
@@ -163,7 +158,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the ItemList property.
      *
-     * @return List<Item> ItemList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelItem[] ItemList.
      */
     public function getItemList()
     {

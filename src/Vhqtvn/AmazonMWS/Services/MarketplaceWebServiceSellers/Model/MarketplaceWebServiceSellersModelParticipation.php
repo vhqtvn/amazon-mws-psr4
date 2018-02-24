@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\MarketplaceWebService
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelParticipation
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>SellerId: string</li>
- * <li>HasSellerSuspendedListings: string</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	string	$SellerId
+ * @property	string	$HasSellerSuspendedListings
  */
 class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServiceSellersModel
 {

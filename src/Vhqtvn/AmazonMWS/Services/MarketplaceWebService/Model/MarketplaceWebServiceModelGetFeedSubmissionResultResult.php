@@ -6,11 +6,6 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionResultResult
  * 
- * Properties:
- * <ul>
- * 
- *
- * </ul>
  */
 class MarketplaceWebServiceModelGetFeedSubmissionResultResult extends MarketplaceWebServiceModel
 {

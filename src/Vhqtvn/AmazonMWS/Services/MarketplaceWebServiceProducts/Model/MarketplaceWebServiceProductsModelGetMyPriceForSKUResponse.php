@@ -9,14 +9,9 @@ use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyPriceForSKUResponse
  * 
- * Properties:
- * <ul>
- * 
- * <li>GetMyPriceForSKUResult: array</li>
- * <li>ResponseMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata</li>
- * <li>ResponseHeaderMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata</li>
- *
- * </ul>
+ * @property	array	$GetMyPriceForSKUResult
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata	$ResponseMetadata
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata	$ResponseHeaderMetadata
  */
 class MarketplaceWebServiceProductsModelGetMyPriceForSKUResponse extends MarketplaceWebServiceProductsModel
 {
@@ -28,7 +23,7 @@ class MarketplaceWebServiceProductsModelGetMyPriceForSKUResponse extends Marketp
     /**
      * Get the value of the GetMyPriceForSKUResult property.
      *
-     * @return List<GetMyPriceForSKUResult> GetMyPriceForSKUResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyPriceForSKUResult[] GetMyPriceForSKUResult.
      */
     public function getGetMyPriceForSKUResult()
     {

@@ -6,31 +6,26 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEvents
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShipmentEventList: array</li>
- * <li>RefundEventList: array</li>
- * <li>GuaranteeClaimEventList: array</li>
- * <li>ChargebackEventList: array</li>
- * <li>PayWithAmazonEventList: array</li>
- * <li>ServiceProviderCreditEventList: array</li>
- * <li>RetrochargeEventList: array</li>
- * <li>RentalTransactionEventList: array</li>
- * <li>PerformanceBondRefundEventList: array</li>
- * <li>ProductAdsPaymentEventList: array</li>
- * <li>ServiceFeeEventList: array</li>
- * <li>SellerDealPaymentEventList: array</li>
- * <li>DebtRecoveryEventList: array</li>
- * <li>LoanServicingEventList: array</li>
- * <li>AdjustmentEventList: array</li>
- * <li>SAFETReimbursementEventList: array</li>
- * <li>SellerReviewEnrollmentPaymentEventList: array</li>
- * <li>FBALiquidationEventList: array</li>
- * <li>CouponPaymentEventList: array</li>
- * <li>ImagingServicesFeeEventList: array</li>
- *
- * </ul>
+ * @property	array	$ShipmentEventList
+ * @property	array	$RefundEventList
+ * @property	array	$GuaranteeClaimEventList
+ * @property	array	$ChargebackEventList
+ * @property	array	$PayWithAmazonEventList
+ * @property	array	$ServiceProviderCreditEventList
+ * @property	array	$RetrochargeEventList
+ * @property	array	$RentalTransactionEventList
+ * @property	array	$PerformanceBondRefundEventList
+ * @property	array	$ProductAdsPaymentEventList
+ * @property	array	$ServiceFeeEventList
+ * @property	array	$SellerDealPaymentEventList
+ * @property	array	$DebtRecoveryEventList
+ * @property	array	$LoanServicingEventList
+ * @property	array	$AdjustmentEventList
+ * @property	array	$SAFETReimbursementEventList
+ * @property	array	$SellerReviewEnrollmentPaymentEventList
+ * @property	array	$FBALiquidationEventList
+ * @property	array	$CouponPaymentEventList
+ * @property	array	$ImagingServicesFeeEventList
  */
 class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
 {
@@ -42,7 +37,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the ShipmentEventList property.
      *
-     * @return List<ShipmentEvent> ShipmentEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[] ShipmentEventList.
      */
     public function getShipmentEventList()
     {
@@ -99,7 +94,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the RefundEventList property.
      *
-     * @return List<ShipmentEvent> RefundEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[] RefundEventList.
      */
     public function getRefundEventList()
     {
@@ -156,7 +151,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the GuaranteeClaimEventList property.
      *
-     * @return List<ShipmentEvent> GuaranteeClaimEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[] GuaranteeClaimEventList.
      */
     public function getGuaranteeClaimEventList()
     {
@@ -213,7 +208,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the ChargebackEventList property.
      *
-     * @return List<ShipmentEvent> ChargebackEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[] ChargebackEventList.
      */
     public function getChargebackEventList()
     {
@@ -270,7 +265,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the PayWithAmazonEventList property.
      *
-     * @return List<PayWithAmazonEvent> PayWithAmazonEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPayWithAmazonEvent[] PayWithAmazonEventList.
      */
     public function getPayWithAmazonEventList()
     {
@@ -327,7 +322,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the ServiceProviderCreditEventList property.
      *
-     * @return List<SolutionProviderCreditEvent> ServiceProviderCreditEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSolutionProviderCreditEvent[] ServiceProviderCreditEventList.
      */
     public function getServiceProviderCreditEventList()
     {
@@ -384,7 +379,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the RetrochargeEventList property.
      *
-     * @return List<RetrochargeEvent> RetrochargeEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRetrochargeEvent[] RetrochargeEventList.
      */
     public function getRetrochargeEventList()
     {
@@ -441,7 +436,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the RentalTransactionEventList property.
      *
-     * @return List<RentalTransactionEvent> RentalTransactionEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRentalTransactionEvent[] RentalTransactionEventList.
      */
     public function getRentalTransactionEventList()
     {
@@ -498,7 +493,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the PerformanceBondRefundEventList property.
      *
-     * @return List<PerformanceBondRefundEvent> PerformanceBondRefundEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPerformanceBondRefundEvent[] PerformanceBondRefundEventList.
      */
     public function getPerformanceBondRefundEventList()
     {
@@ -555,7 +550,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the ProductAdsPaymentEventList property.
      *
-     * @return List<ProductAdsPaymentEvent> ProductAdsPaymentEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelProductAdsPaymentEvent[] ProductAdsPaymentEventList.
      */
     public function getProductAdsPaymentEventList()
     {
@@ -612,7 +607,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the ServiceFeeEventList property.
      *
-     * @return List<ServiceFeeEvent> ServiceFeeEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelServiceFeeEvent[] ServiceFeeEventList.
      */
     public function getServiceFeeEventList()
     {
@@ -669,7 +664,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the SellerDealPaymentEventList property.
      *
-     * @return List<SellerDealPaymentEvent> SellerDealPaymentEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerDealPaymentEvent[] SellerDealPaymentEventList.
      */
     public function getSellerDealPaymentEventList()
     {
@@ -726,7 +721,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the DebtRecoveryEventList property.
      *
-     * @return List<DebtRecoveryEvent> DebtRecoveryEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryEvent[] DebtRecoveryEventList.
      */
     public function getDebtRecoveryEventList()
     {
@@ -783,7 +778,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the LoanServicingEventList property.
      *
-     * @return List<LoanServicingEvent> LoanServicingEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelLoanServicingEvent[] LoanServicingEventList.
      */
     public function getLoanServicingEventList()
     {
@@ -840,7 +835,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the AdjustmentEventList property.
      *
-     * @return List<AdjustmentEvent> AdjustmentEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentEvent[] AdjustmentEventList.
      */
     public function getAdjustmentEventList()
     {
@@ -897,7 +892,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the SAFETReimbursementEventList property.
      *
-     * @return List<SAFETReimbursementEvent> SAFETReimbursementEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementEvent[] SAFETReimbursementEventList.
      */
     public function getSAFETReimbursementEventList()
     {
@@ -954,7 +949,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the SellerReviewEnrollmentPaymentEventList property.
      *
-     * @return List<SellerReviewEnrollmentPaymentEvent> SellerReviewEnrollmentPaymentEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent[] SellerReviewEnrollmentPaymentEventList.
      */
     public function getSellerReviewEnrollmentPaymentEventList()
     {
@@ -1011,7 +1006,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the FBALiquidationEventList property.
      *
-     * @return List<FBALiquidationEvent> FBALiquidationEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFBALiquidationEvent[] FBALiquidationEventList.
      */
     public function getFBALiquidationEventList()
     {
@@ -1068,7 +1063,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the CouponPaymentEventList property.
      *
-     * @return List<CouponPaymentEvent> CouponPaymentEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCouponPaymentEvent[] CouponPaymentEventList.
      */
     public function getCouponPaymentEventList()
     {
@@ -1125,7 +1120,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Get the value of the ImagingServicesFeeEventList property.
      *
-     * @return List<ImagingServicesFeeEvent> ImagingServicesFeeEventList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelImagingServicesFeeEvent[] ImagingServicesFeeEventList.
      */
     public function getImagingServicesFeeEventList()
     {

@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelContact
  * 
- * Properties:
- * <ul>
- * 
- * <li>Name: string</li>
- * <li>Phone: string</li>
- * <li>Email: string</li>
- * <li>Fax: string</li>
- *
- * </ul>
+ * @property	string	$Name
+ * @property	string	$Phone
+ * @property	string	$Email
+ * @property	string	$Fax
  */
 class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
 {

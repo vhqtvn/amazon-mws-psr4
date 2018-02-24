@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPerformanceBondRefundEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceCountryCode: string</li>
- * <li>Amount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>ProductGroupList: array</li>
- *
- * </ul>
+ * @property	string	$MarketplaceCountryCode
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$Amount
+ * @property	array	$ProductGroupList
  */
 class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServiceModel
 {
@@ -109,7 +104,7 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
     /**
      * Get the value of the ProductGroupList property.
      *
-     * @return List<String> ProductGroupList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelString[] ProductGroupList.
      */
     public function getProductGroupList()
     {

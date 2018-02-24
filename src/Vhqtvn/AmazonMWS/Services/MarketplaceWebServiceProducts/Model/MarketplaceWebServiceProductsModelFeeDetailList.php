@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetailList
  * 
- * Properties:
- * <ul>
- * 
- * <li>FeeDetail: array</li>
- *
- * </ul>
+ * @property	array	$FeeDetail
  */
 class MarketplaceWebServiceProductsModelFeeDetailList extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelFeeDetailList extends MarketplaceWebServ
     /**
      * Get the value of the FeeDetail property.
      *
-     * @return List<FeeDetail> FeeDetail.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetail[] FeeDetail.
      */
     public function getFeeDetail()
     {

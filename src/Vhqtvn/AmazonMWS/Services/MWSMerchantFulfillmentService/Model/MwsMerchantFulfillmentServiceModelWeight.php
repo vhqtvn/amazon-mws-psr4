@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight
  * 
- * Properties:
- * <ul>
- * 
- * <li>Value: float</li>
- * <li>Unit: string</li>
- *
- * </ul>
+ * @property	float	$Value
+ * @property	string	$Unit
  */
 class MwsMerchantFulfillmentServiceModelWeight extends MwsMerchantFulfillmentServiceModel
 {

@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelCustomization
  * 
- * Properties:
- * <ul>
- * 
- * <li>CustomTextForLabel: string</li>
- * <li>StandardIdForLabel: string</li>
- *
- * </ul>
+ * @property	string	$CustomTextForLabel
+ * @property	string	$StandardIdForLabel
  */
 class MwsMerchantFulfillmentServiceModelLabelCustomization extends MwsMerchantFulfillmentServiceModel
 {

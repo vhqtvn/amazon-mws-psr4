@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelGetServiceStatusResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Status: string</li>
- * <li>Timestamp: string</li>
- *
- * </ul>
+ * @property	string	$Status
+ * @property	string	$Timestamp
  */
 class MwsMerchantFulfillmentServiceModelGetServiceStatusResult extends MwsMerchantFulfillmentServiceModel
 {

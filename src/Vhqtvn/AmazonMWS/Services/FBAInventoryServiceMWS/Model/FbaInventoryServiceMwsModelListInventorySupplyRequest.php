@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelListInventorySupplyRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>Marketplace: string</li>
- * <li>MarketplaceId: string</li>
- * <li>SellerSkus: \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelSellerSkuList</li>
- * <li>QueryStartDateTime: string</li>
- * <li>ResponseGroup: string</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$Marketplace
+ * @property	string	$MarketplaceId
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelSellerSkuList	$SellerSkus
+ * @property	string	$QueryStartDateTime
+ * @property	string	$ResponseGroup
  */
 class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventoryServiceMwsModel
 {

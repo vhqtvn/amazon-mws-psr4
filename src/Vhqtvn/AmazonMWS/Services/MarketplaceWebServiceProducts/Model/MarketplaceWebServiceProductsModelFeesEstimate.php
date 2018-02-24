@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimate
  * 
- * Properties:
- * <ul>
- * 
- * <li>TimeOfFeesEstimation: string</li>
- * <li>TotalFeesEstimate: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType</li>
- * <li>FeeDetailList: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetailList</li>
- *
- * </ul>
+ * @property	string	$TimeOfFeesEstimation
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType	$TotalFeesEstimate
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetailList	$FeeDetailList
  */
 class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServiceProductsModel
 {

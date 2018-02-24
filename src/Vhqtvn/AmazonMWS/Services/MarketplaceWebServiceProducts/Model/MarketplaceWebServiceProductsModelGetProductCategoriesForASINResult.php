@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetProductCategoriesForASINResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Self: array</li>
- *
- * </ul>
+ * @property	array	$Self
  */
 class MarketplaceWebServiceProductsModelGetProductCategoriesForASINResult extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelGetProductCategoriesForASINResult extend
     /**
      * Get the value of the Self property.
      *
-     * @return List<Categories> Self.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories[] Self.
      */
     public function getSelf()
     {

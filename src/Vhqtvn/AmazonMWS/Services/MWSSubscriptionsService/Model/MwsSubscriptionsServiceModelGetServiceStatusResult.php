@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelGetServiceStatusResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Status: string</li>
- * <li>Timestamp: string</li>
- *
- * </ul>
+ * @property	string	$Status
+ * @property	string	$Timestamp
  */
 class MwsSubscriptionsServiceModelGetServiceStatusResult extends MwsSubscriptionsServiceModel
 {

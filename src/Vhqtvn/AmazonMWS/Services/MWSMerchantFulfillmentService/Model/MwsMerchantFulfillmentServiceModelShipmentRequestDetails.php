@@ -6,21 +6,16 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipmentRequestDetails
  * 
- * Properties:
- * <ul>
- * 
- * <li>AmazonOrderId: string</li>
- * <li>SellerOrderId: string</li>
- * <li>ItemList: array</li>
- * <li>ShipFromAddress: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress</li>
- * <li>PackageDimensions: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions</li>
- * <li>Weight: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight</li>
- * <li>MustArriveByDate: string</li>
- * <li>ShipDate: string</li>
- * <li>ShippingServiceOptions: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions</li>
- * <li>LabelCustomization: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelCustomization</li>
- *
- * </ul>
+ * @property	string	$AmazonOrderId
+ * @property	string	$SellerOrderId
+ * @property	array	$ItemList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress	$ShipFromAddress
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions	$PackageDimensions
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight	$Weight
+ * @property	string	$MustArriveByDate
+ * @property	string	$ShipDate
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions	$ShippingServiceOptions
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelCustomization	$LabelCustomization
  */
 class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMerchantFulfillmentServiceModel
 {
@@ -116,7 +111,7 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Get the value of the ItemList property.
      *
-     * @return List<Item> ItemList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelItem[] ItemList.
      */
     public function getItemList()
     {

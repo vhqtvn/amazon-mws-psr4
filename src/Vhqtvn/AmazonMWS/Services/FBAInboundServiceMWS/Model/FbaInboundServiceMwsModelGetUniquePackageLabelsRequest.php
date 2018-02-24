@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetUniquePackageLabelsRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>ShipmentId: string</li>
- * <li>PageType: string</li>
- * <li>PackageLabelsToPrint: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPackageIdentifiers</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$ShipmentId
+ * @property	string	$PageType
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPackageIdentifiers	$PackageLabelsToPrint
  */
 class FbaInboundServiceMwsModelGetUniquePackageLabelsRequest extends FbaInboundServiceMwsModel
 {

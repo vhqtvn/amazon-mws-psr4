@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>DebtRecoveryType: string</li>
- * <li>RecoveryAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>OverPaymentCredit: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>DebtRecoveryItemList: array</li>
- * <li>ChargeInstrumentList: array</li>
- *
- * </ul>
+ * @property	string	$DebtRecoveryType
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$RecoveryAmount
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$OverPaymentCredit
+ * @property	array	$DebtRecoveryItemList
+ * @property	array	$ChargeInstrumentList
  */
 class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
 {
@@ -153,7 +148,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the DebtRecoveryItemList property.
      *
-     * @return List<DebtRecoveryItem> DebtRecoveryItemList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryItem[] DebtRecoveryItemList.
      */
     public function getDebtRecoveryItemList()
     {
@@ -210,7 +205,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the ChargeInstrumentList property.
      *
-     * @return List<ChargeInstrument> ChargeInstrumentList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeInstrument[] ChargeInstrumentList.
      */
     public function getChargeInstrumentList()
     {

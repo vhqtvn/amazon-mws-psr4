@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINPrepInstructionsList
  * 
- * Properties:
- * <ul>
- * 
- * <li>ASINPrepInstructions: array</li>
- *
- * </ul>
+ * @property	array	$ASINPrepInstructions
  */
 class FbaInboundServiceMwsModelASINPrepInstructionsList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelASINPrepInstructionsList extends FbaInboundServic
     /**
      * Get the value of the ASINPrepInstructions property.
      *
-     * @return List<ASINPrepInstructions> ASINPrepInstructions.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINPrepInstructions[] ASINPrepInstructions.
      */
     public function getASINPrepInstructions()
     {

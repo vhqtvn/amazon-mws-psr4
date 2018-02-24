@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList
  * 
- * Properties:
- * <ul>
- * 
- * <li>PrepInstruction: array</li>
- *
- * </ul>
+ * @property	array	$PrepInstruction
  */
 class FbaInboundServiceMwsModelPrepInstructionList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelPrepInstructionList extends FbaInboundServiceMwsM
     /**
      * Get the value of the PrepInstruction property.
      *
-     * @return List<String> PrepInstruction.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelString[] PrepInstruction.
      */
     public function getPrepInstruction()
     {

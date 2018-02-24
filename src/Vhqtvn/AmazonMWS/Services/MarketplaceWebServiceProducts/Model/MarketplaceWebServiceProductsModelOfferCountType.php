@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOfferCountType
  * 
- * Properties:
- * <ul>
- * 
- * <li>condition: string</li>
- * <li>fulfillmentChannel: string</li>
- * <li>OfferCount: int</li>
- *
- * </ul>
+ * @property	string	$condition
+ * @property	string	$fulfillmentChannel
+ * @property	int	$OfferCount
  */
 class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebServiceProductsModel
 {

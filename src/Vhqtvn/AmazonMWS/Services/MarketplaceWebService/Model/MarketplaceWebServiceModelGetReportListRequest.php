@@ -6,19 +6,14 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>Marketplace: string</li>
- * <li>Merchant: string</li>
- * <li>MaxCount: int</li>
- * <li>ReportTypeList: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList</li>
- * <li>Acknowledged: bool</li>
- * <li>AvailableFromDate: string</li>
- * <li>AvailableToDate: string</li>
- * <li>ReportRequestIdList: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList</li>
- *
- * </ul>
+ * @property	string	$Marketplace
+ * @property	string	$Merchant
+ * @property	int	$MaxCount
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList	$ReportTypeList
+ * @property	bool	$Acknowledged
+ * @property	string	$AvailableFromDate
+ * @property	string	$AvailableToDate
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList	$ReportRequestIdList
  */
 class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServiceModel
 {

@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestOfferListingType
  * 
- * Properties:
- * <ul>
- * 
- * <li>Qualifiers: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelQualifiersType</li>
- * <li>NumberOfOfferListingsConsidered: int</li>
- * <li>SellerFeedbackCount: int</li>
- * <li>Price: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType</li>
- * <li>MultipleOffersAtLowestPrice: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelQualifiersType	$Qualifiers
+ * @property	int	$NumberOfOfferListingsConsidered
+ * @property	int	$SellerFeedbackCount
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType	$Price
+ * @property	string	$MultipleOffersAtLowestPrice
  */
 class MarketplaceWebServiceProductsModelLowestOfferListingType extends MarketplaceWebServiceProductsModel
 {

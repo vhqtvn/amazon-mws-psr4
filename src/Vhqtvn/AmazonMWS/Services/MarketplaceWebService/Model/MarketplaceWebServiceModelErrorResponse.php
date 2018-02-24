@@ -9,13 +9,8 @@ use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelErrorResponse
  * 
- * Properties:
- * <ul>
- * 
- * <li>Error: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError</li>
- * <li>RequestId: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError	$Error
+ * @property	string	$RequestId
  */
 class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
 {

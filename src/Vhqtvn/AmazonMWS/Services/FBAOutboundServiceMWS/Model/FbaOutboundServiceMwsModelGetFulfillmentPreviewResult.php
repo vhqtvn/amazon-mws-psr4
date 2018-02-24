@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>FulfillmentPreviews: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewList</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewList	$FulfillmentPreviews
  */
 class FbaOutboundServiceMwsModelGetFulfillmentPreviewResult extends FbaOutboundServiceMwsModel
 {

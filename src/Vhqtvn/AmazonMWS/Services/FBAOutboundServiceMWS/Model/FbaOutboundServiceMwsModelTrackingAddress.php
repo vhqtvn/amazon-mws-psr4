@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress
  * 
- * Properties:
- * <ul>
- * 
- * <li>City: string</li>
- * <li>State: string</li>
- * <li>Country: string</li>
- *
- * </ul>
+ * @property	string	$City
+ * @property	string	$State
+ * @property	string	$Country
  */
 class FbaOutboundServiceMwsModelTrackingAddress extends FbaOutboundServiceMwsModel
 {

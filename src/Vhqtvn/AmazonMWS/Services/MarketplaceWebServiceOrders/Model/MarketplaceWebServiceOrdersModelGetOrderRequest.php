@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelGetOrderRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>AmazonOrderId: array</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	array	$AmazonOrderId
  */
 class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServiceOrdersModel
 {
@@ -109,7 +104,7 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
     /**
      * Get the value of the AmazonOrderId property.
      *
-     * @return List<String> AmazonOrderId.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] AmazonOrderId.
      */
     public function getAmazonOrderId()
     {

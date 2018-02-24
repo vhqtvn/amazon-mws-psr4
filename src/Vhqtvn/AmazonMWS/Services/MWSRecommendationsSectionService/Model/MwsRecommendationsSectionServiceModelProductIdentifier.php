@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier
  * 
- * Properties:
- * <ul>
- * 
- * <li>Asin: string</li>
- * <li>Sku: string</li>
- * <li>Upc: string</li>
- *
- * </ul>
+ * @property	string	$Asin
+ * @property	string	$Sku
+ * @property	string	$Upc
  */
 class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommendationsSectionServiceModel
 {

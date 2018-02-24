@@ -6,11 +6,6 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportResult
  * 
- * Properties:
- * <ul>
- * 
- *
- * </ul>
  */
 class MarketplaceWebServiceModelGetReportResult extends MarketplaceWebServiceModel
 {

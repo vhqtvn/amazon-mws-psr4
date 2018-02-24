@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\MarketplaceWebService
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMarketplace
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>Name: string</li>
- * <li>DefaultCountryCode: string</li>
- * <li>DefaultCurrencyCode: string</li>
- * <li>DefaultLanguageCode: string</li>
- * <li>DomainName: string</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	string	$Name
+ * @property	string	$DefaultCountryCode
+ * @property	string	$DefaultCurrencyCode
+ * @property	string	$DefaultLanguageCode
+ * @property	string	$DomainName
  */
 class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebServiceSellersModel
 {

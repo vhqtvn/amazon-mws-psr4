@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateResultList
  * 
- * Properties:
- * <ul>
- * 
- * <li>FeesEstimateResult: array</li>
- *
- * </ul>
+ * @property	array	$FeesEstimateResult
  */
 class MarketplaceWebServiceProductsModelFeesEstimateResultList extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResultList extends Marketpla
     /**
      * Get the value of the FeesEstimateResult property.
      *
-     * @return List<FeesEstimateResult> FeesEstimateResult.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateResult[] FeesEstimateResult.
      */
     public function getFeesEstimateResult()
     {

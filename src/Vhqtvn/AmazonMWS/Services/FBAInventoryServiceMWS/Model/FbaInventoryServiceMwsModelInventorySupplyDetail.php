@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyDetail
  * 
- * Properties:
- * <ul>
- * 
- * <li>Quantity: int</li>
- * <li>SupplyType: string</li>
- * <li>EarliestAvailableToPick: \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint</li>
- * <li>LatestAvailableToPick: \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint</li>
- *
- * </ul>
+ * @property	int	$Quantity
+ * @property	string	$SupplyType
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint	$EarliestAvailableToPick
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint	$LatestAvailableToPick
  */
 class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServiceMwsModel
 {

@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCreateShipmentRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>ShipmentRequestDetails: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipmentRequestDetails</li>
- * <li>ShippingServiceId: string</li>
- * <li>ShippingServiceOfferId: string</li>
- * <li>HazmatType: string</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipmentRequestDetails	$ShipmentRequestDetails
+ * @property	string	$ShippingServiceId
+ * @property	string	$ShippingServiceOfferId
+ * @property	string	$HazmatType
  */
 class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchantFulfillmentServiceModel
 {

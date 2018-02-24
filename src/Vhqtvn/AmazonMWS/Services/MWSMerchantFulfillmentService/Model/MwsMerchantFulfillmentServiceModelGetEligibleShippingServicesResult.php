@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShippingServiceList: array</li>
- * <li>TemporarilyUnavailableCarrierList: array</li>
- * <li>TermsAndConditionsNotAcceptedCarrierList: array</li>
- *
- * </ul>
+ * @property	array	$ShippingServiceList
+ * @property	array	$TemporarilyUnavailableCarrierList
+ * @property	array	$TermsAndConditionsNotAcceptedCarrierList
  */
 class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extends MwsMerchantFulfillmentServiceModel
 {
@@ -25,7 +20,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
     /**
      * Get the value of the ShippingServiceList property.
      *
-     * @return List<ShippingService> ShippingServiceList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService[] ShippingServiceList.
      */
     public function getShippingServiceList()
     {
@@ -82,7 +77,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
     /**
      * Get the value of the TemporarilyUnavailableCarrierList property.
      *
-     * @return List<TemporarilyUnavailableCarrier> TemporarilyUnavailableCarrierList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTemporarilyUnavailableCarrier[] TemporarilyUnavailableCarrierList.
      */
     public function getTemporarilyUnavailableCarrierList()
     {
@@ -139,7 +134,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
     /**
      * Get the value of the TermsAndConditionsNotAcceptedCarrierList property.
      *
-     * @return List<TermsAndConditionsNotAcceptedCarrier> TermsAndConditionsNotAcceptedCarrierList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTermsAndConditionsNotAcceptedCarrier[] TermsAndConditionsNotAcceptedCarrierList.
      */
     public function getTermsAndConditionsNotAcceptedCarrierList()
     {

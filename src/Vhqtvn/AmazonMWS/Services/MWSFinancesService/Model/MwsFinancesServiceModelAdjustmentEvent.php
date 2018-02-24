@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>AdjustmentType: string</li>
- * <li>PostedDate: string</li>
- * <li>AdjustmentAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>AdjustmentItemList: array</li>
- *
- * </ul>
+ * @property	string	$AdjustmentType
+ * @property	string	$PostedDate
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$AdjustmentAmount
+ * @property	array	$AdjustmentItemList
  */
 class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
 {
@@ -152,7 +147,7 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the AdjustmentItemList property.
      *
-     * @return List<AdjustmentItem> AdjustmentItemList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentItem[] AdjustmentItemList.
      */
     public function getAdjustmentItemList()
     {

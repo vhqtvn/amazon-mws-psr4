@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUInboundGuidance
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>ASIN: string</li>
- * <li>InboundGuidance: string</li>
- * <li>GuidanceReasonList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$ASIN
+ * @property	string	$InboundGuidance
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList	$GuidanceReasonList
  */
 class FbaInboundServiceMwsModelSKUInboundGuidance extends FbaInboundServiceMwsModel
 {

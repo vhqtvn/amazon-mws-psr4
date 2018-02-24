@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMatchingProductForIdResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Products: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProductList</li>
- * <li>Error: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError</li>
- * <li>Id: string</li>
- * <li>IdType: string</li>
- * <li>status: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProductList	$Products
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError	$Error
+ * @property	string	$Id
+ * @property	string	$IdType
+ * @property	string	$status
  */
 class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends MarketplaceWebServiceProductsModel
 {

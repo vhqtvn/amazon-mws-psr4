@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\MarketplaceWebService
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListMarketplaces
  * 
- * Properties:
- * <ul>
- * 
- * <li>Marketplace: array</li>
- *
- * </ul>
+ * @property	array	$Marketplace
  */
 class MarketplaceWebServiceSellersModelListMarketplaces extends MarketplaceWebServiceSellersModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceSellersModelListMarketplaces extends MarketplaceWebSe
     /**
      * Get the value of the Marketplace property.
      *
-     * @return List<Marketplace> Marketplace.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMarketplace[] Marketplace.
      */
     public function getMarketplace()
     {

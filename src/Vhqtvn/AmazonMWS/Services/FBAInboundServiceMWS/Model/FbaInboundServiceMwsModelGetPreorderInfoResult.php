@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetPreorderInfoResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShipmentContainsPreorderableItems: bool</li>
- * <li>ShipmentConfirmedForPreorder: bool</li>
- * <li>NeedByDate: string</li>
- * <li>ConfirmedFulfillableDate: string</li>
- *
- * </ul>
+ * @property	bool	$ShipmentContainsPreorderableItems
+ * @property	bool	$ShipmentConfirmedForPreorder
+ * @property	string	$NeedByDate
+ * @property	string	$ConfirmedFulfillableDate
  */
 class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMwsModel
 {

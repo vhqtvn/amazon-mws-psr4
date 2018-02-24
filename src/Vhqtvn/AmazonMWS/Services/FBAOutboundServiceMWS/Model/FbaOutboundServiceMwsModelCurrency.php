@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency
  * 
- * Properties:
- * <ul>
- * 
- * <li>CurrencyCode: string</li>
- * <li>Value: string</li>
- *
- * </ul>
+ * @property	string	$CurrencyCode
+ * @property	string	$Value
  */
 class FbaOutboundServiceMwsModelCurrency extends FbaOutboundServiceMwsModel
 {

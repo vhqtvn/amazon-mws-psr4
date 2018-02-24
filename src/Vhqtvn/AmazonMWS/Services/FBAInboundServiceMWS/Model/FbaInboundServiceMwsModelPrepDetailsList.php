@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList
  * 
- * Properties:
- * <ul>
- * 
- * <li>PrepDetails: array</li>
- *
- * </ul>
+ * @property	array	$PrepDetails
  */
 class FbaInboundServiceMwsModelPrepDetailsList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelPrepDetailsList extends FbaInboundServiceMwsModel
     /**
      * Get the value of the PrepDetails property.
      *
-     * @return List<PrepDetails> PrepDetails.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetails[] PrepDetails.
      */
     public function getPrepDetails()
     {

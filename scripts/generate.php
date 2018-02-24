@@ -185,6 +185,7 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
     $traverser = new NodeTraverser();
     $traverser->addVisitor($class_name_transformer);
     $ast = $traverser->traverse($ast);
+
     array_unshift($ast,
         new Stmt\Namespace_(
             new Node\Name($dst_ns)
@@ -305,7 +306,48 @@ function final_text_transform($code, $lib_name, $dst_ns, $base_ns)
                         },
                         $doc_text
                     );
+                    $doc_text_new = preg_replace_callback(
+                        '@\bList<([0-9a-zA-Z_]+)>@',
+                        function ($m) {
+                            $class = $m[1];
+                            assert(strpos($class, '_') === false);
+                            $old_name = array_slice($this->dst_ns, count($this->base_ns));
+                            $old_name[] = $class;
+                            $old_name = implode("_", $old_name);
+                            return "\\" . name_transform($old_name, $this->lib_name, $this->base_ns) . '[]';
+                        },
+                        $doc_text_new
+                    );
                     $doc_text_new = str_ireplace('@return this instance', '@return $this ', $doc_text_new);
+                    if ($node instanceof Stmt\Class_) {
+                        if (preg_match($pattern =
+                            '@ \* Properties:\n'
+                            . ' \* <ul>\n'
+                            . ' \* *\n'
+                            . '( \* <li>.*?</li>\n)*'
+                            . ' \* *\n'
+                            . ' \* </ul>'
+                            . '@ism'
+                            , $doc_text_new
+                        )) {
+                            $doc_text_new = preg_replace_callback($pattern, function ($m) {
+                                $doc_block = $m[0];
+                                unset($m);
+                                preg_match_all('@<li>(.*?)</li>@ism', $doc_block, $m);
+                                $props = [];
+                                foreach ($m[1] as $prop_line) {
+                                    if (!preg_match('@[0-9a-zA-Z_]+: [0-9a-zA-Z_\\\\]+@ism', $prop_line)) {
+                                        die("Invalid prop line $prop_line");
+                                    }
+                                    list($name, $type) = array_map('trim', explode(":", $prop_line));
+                                    $props[] = ['name' => $name, 'type' => $type];
+                                }
+                                return implode("\n", array_map(function ($prop) {
+                                    return " * @property\t{$prop['type']}\t\${$prop['name']}";
+                                }, $props));
+                            }, $doc_text_new);
+                        }
+                    }
                     if ($doc_text_new !== $doc_text) {
                         $node->setDocComment(new PhpParser\Comment\Doc(
                             $doc_text_new,
@@ -321,7 +363,6 @@ function final_text_transform($code, $lib_name, $dst_ns, $base_ns)
 
     $prettyPrinter = new PrettyPrinter\Standard(['shortArraySyntax' => true]);
     $code = $prettyPrinter->prettyPrintFile($ast);
-
 
     return $code;
 }

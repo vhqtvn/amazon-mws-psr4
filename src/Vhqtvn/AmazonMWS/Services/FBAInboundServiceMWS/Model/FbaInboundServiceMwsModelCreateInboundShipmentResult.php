@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelCreateInboundShipmentResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShipmentId: string</li>
- *
- * </ul>
+ * @property	string	$ShipmentId
  */
 class FbaInboundServiceMwsModelCreateInboundShipmentResult extends FbaInboundServiceMwsModel
 {

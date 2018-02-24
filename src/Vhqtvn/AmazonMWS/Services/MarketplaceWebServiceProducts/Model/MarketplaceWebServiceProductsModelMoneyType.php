@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType
  * 
- * Properties:
- * <ul>
- * 
- * <li>CurrencyCode: string</li>
- * <li>Amount: float</li>
- *
- * </ul>
+ * @property	string	$CurrencyCode
+ * @property	float	$Amount
  */
 class MarketplaceWebServiceProductsModelMoneyType extends MarketplaceWebServiceProductsModel
 {

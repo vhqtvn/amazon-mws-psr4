@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>SellerSKU: string</li>
- * <li>ItemCondition: string</li>
- * <li>TimeOfOfferChange: string</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	string	$SellerSKU
+ * @property	string	$ItemCondition
+ * @property	string	$TimeOfOfferChange
  */
 class MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier extends MarketplaceWebServiceProductsModel
 {

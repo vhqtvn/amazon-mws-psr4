@@ -6,11 +6,6 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDeregisterDestinationResult
  * 
- * Properties:
- * <ul>
- * 
- *
- * </ul>
  */
 class MwsSubscriptionsServiceModelDeregisterDestinationResult extends MwsSubscriptionsServiceModel
 {

@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPointsGrantedDetail
  * 
- * Properties:
- * <ul>
- * 
- * <li>PointsNumber: int</li>
- * <li>PointsMonetaryValue: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- *
- * </ul>
+ * @property	int	$PointsNumber
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$PointsMonetaryValue
  */
 class MarketplaceWebServiceOrdersModelPointsGrantedDetail extends MarketplaceWebServiceOrdersModel
 {

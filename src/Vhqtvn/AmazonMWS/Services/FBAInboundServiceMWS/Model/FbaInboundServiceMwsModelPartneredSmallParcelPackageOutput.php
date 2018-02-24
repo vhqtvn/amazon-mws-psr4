@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput
  * 
- * Properties:
- * <ul>
- * 
- * <li>Dimensions: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelDimensions</li>
- * <li>Weight: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight</li>
- * <li>CarrierName: string</li>
- * <li>TrackingId: string</li>
- * <li>PackageStatus: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelDimensions	$Dimensions
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight	$Weight
+ * @property	string	$CarrierName
+ * @property	string	$TrackingId
+ * @property	string	$PackageStatus
  */
 class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInboundServiceMwsModel
 {

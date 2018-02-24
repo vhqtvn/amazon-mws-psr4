@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelNumberOfOffers
  * 
- * Properties:
- * <ul>
- * 
- * <li>OfferCount: array</li>
- *
- * </ul>
+ * @property	array	$OfferCount
  */
 class MarketplaceWebServiceProductsModelNumberOfOffers extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelNumberOfOffers extends MarketplaceWebSer
     /**
      * Get the value of the OfferCount property.
      *
-     * @return List<OfferCountType> OfferCount.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOfferCountType[] OfferCount.
      */
     public function getOfferCount()
     {

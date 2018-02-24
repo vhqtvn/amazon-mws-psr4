@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShipsFromType
  * 
- * Properties:
- * <ul>
- * 
- * <li>State: string</li>
- * <li>Country: string</li>
- *
- * </ul>
+ * @property	string	$State
+ * @property	string	$Country
  */
 class MarketplaceWebServiceProductsModelShipsFromType extends MarketplaceWebServiceProductsModel
 {

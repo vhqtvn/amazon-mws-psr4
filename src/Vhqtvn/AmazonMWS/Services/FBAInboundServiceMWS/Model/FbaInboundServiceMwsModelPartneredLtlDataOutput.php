@@ -6,26 +6,21 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredLtlDataOutput
  * 
- * Properties:
- * <ul>
- * 
- * <li>Contact: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelContact</li>
- * <li>BoxCount: int</li>
- * <li>SellerFreightClass: string</li>
- * <li>FreightReadyDate: string</li>
- * <li>PalletList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPalletList</li>
- * <li>TotalWeight: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight</li>
- * <li>SellerDeclaredValue: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount</li>
- * <li>AmazonCalculatedValue: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount</li>
- * <li>PreviewPickupDate: string</li>
- * <li>PreviewDeliveryDate: string</li>
- * <li>PreviewFreightClass: string</li>
- * <li>AmazonReferenceId: string</li>
- * <li>IsBillOfLadingAvailable: bool</li>
- * <li>PartneredEstimate: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredEstimate</li>
- * <li>CarrierName: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelContact	$Contact
+ * @property	int	$BoxCount
+ * @property	string	$SellerFreightClass
+ * @property	string	$FreightReadyDate
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPalletList	$PalletList
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight	$TotalWeight
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount	$SellerDeclaredValue
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount	$AmazonCalculatedValue
+ * @property	string	$PreviewPickupDate
+ * @property	string	$PreviewDeliveryDate
+ * @property	string	$PreviewFreightClass
+ * @property	string	$AmazonReferenceId
+ * @property	bool	$IsBillOfLadingAvailable
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredEstimate	$PartneredEstimate
+ * @property	string	$CarrierName
  */
 class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceMwsModel
 {

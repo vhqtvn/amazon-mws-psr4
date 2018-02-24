@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabel
  * 
- * Properties:
- * <ul>
- * 
- * <li>CustomTextForLabel: string</li>
- * <li>Dimensions: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelDimensions</li>
- * <li>FileContents: \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelFileContents</li>
- * <li>LabelFormat: string</li>
- * <li>StandardIdForLabel: string</li>
- *
- * </ul>
+ * @property	string	$CustomTextForLabel
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelDimensions	$Dimensions
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelFileContents	$FileContents
+ * @property	string	$LabelFormat
+ * @property	string	$StandardIdForLabel
  */
 class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServiceModel
 {

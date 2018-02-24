@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>OrderItemId: string</li>
- * <li>Quantity: int</li>
- *
- * </ul>
+ * @property	string	$OrderItemId
+ * @property	int	$Quantity
  */
 class MwsMerchantFulfillmentServiceModelItem extends MwsMerchantFulfillmentServiceModel
 {

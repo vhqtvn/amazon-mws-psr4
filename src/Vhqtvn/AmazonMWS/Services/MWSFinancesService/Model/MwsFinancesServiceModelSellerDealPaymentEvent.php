@@ -6,19 +6,14 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerDealPaymentEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>postedDate: string</li>
- * <li>dealId: string</li>
- * <li>dealDescription: string</li>
- * <li>eventType: string</li>
- * <li>feeType: string</li>
- * <li>feeAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>taxAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>totalAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- *
- * </ul>
+ * @property	string	$postedDate
+ * @property	string	$dealId
+ * @property	string	$dealDescription
+ * @property	string	$eventType
+ * @property	string	$feeType
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$feeAmount
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$taxAmount
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$totalAmount
  */
 class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceModel
 {

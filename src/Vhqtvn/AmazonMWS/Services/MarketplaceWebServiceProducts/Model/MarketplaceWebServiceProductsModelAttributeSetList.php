@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelAttributeSetList
  * 
- * Properties:
- * <ul>
- * 
- * <li>Any: array</li>
- *
- * </ul>
+ * @property	array	$Any
  */
 class MarketplaceWebServiceProductsModelAttributeSetList extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelAttributeSetList extends MarketplaceWebS
     /**
      * Get the value of the Any property.
      *
-     * @return List<Object> Any.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelObject[] Any.
      */
     public function getAny()
     {

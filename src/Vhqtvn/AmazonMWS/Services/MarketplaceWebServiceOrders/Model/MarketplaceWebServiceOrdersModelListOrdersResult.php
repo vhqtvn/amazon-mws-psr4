@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelListOrdersResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>NextToken: string</li>
- * <li>CreatedBefore: string</li>
- * <li>LastUpdatedBefore: string</li>
- * <li>Orders: array</li>
- *
- * </ul>
+ * @property	string	$NextToken
+ * @property	string	$CreatedBefore
+ * @property	string	$LastUpdatedBefore
+ * @property	array	$Orders
  */
 class MarketplaceWebServiceOrdersModelListOrdersResult extends MarketplaceWebServiceOrdersModel
 {
@@ -152,7 +147,7 @@ class MarketplaceWebServiceOrdersModelListOrdersResult extends MarketplaceWebSer
     /**
      * Get the value of the Orders property.
      *
-     * @return List<Order> Orders.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrder[] Orders.
      */
     public function getOrders()
     {

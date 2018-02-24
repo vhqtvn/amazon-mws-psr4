@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAsinList
  * 
- * Properties:
- * <ul>
- * 
- * <li>Id: array</li>
- *
- * </ul>
+ * @property	array	$Id
  */
 class FbaInboundServiceMwsModelAsinList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelAsinList extends FbaInboundServiceMwsModel
     /**
      * Get the value of the Id property.
      *
-     * @return List<String> Id.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelString[] Id.
      */
     public function getId()
     {

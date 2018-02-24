@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelDimensions
  * 
- * Properties:
- * <ul>
- * 
- * <li>Length: float</li>
- * <li>Width: float</li>
- * <li>Height: float</li>
- * <li>Unit: string</li>
- *
- * </ul>
+ * @property	float	$Length
+ * @property	float	$Width
+ * @property	float	$Height
+ * @property	string	$Unit
  */
 class FbaInboundServiceMwsModelDimensions extends FbaInboundServiceMwsModel
 {

@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelListRegisteredDestinationsResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>DestinationList: \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestinationList</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestinationList	$DestinationList
  */
 class MwsSubscriptionsServiceModelListRegisteredDestinationsResult extends MwsSubscriptionsServiceModel
 {

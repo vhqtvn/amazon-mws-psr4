@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOfferType
  * 
- * Properties:
- * <ul>
- * 
- * <li>BuyingPrice: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType</li>
- * <li>RegularPrice: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType</li>
- * <li>FulfillmentChannel: string</li>
- * <li>ItemCondition: string</li>
- * <li>ItemSubCondition: string</li>
- * <li>SellerId: string</li>
- * <li>SellerSKU: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType	$BuyingPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType	$RegularPrice
+ * @property	string	$FulfillmentChannel
+ * @property	string	$ItemCondition
+ * @property	string	$ItemSubCondition
+ * @property	string	$SellerId
+ * @property	string	$SellerSKU
  */
 class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceProductsModel
 {

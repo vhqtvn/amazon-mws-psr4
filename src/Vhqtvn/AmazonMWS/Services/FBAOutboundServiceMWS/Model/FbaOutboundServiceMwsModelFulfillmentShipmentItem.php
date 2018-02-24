@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>SellerFulfillmentOrderItemId: string</li>
- * <li>Quantity: int</li>
- * <li>PackageNumber: int</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$SellerFulfillmentOrderItemId
+ * @property	int	$Quantity
+ * @property	int	$PackageNumber
  */
 class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServiceMwsModel
 {

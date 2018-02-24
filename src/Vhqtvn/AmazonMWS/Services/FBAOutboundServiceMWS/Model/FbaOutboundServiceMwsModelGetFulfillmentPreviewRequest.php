@@ -6,20 +6,15 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>Marketplace: string</li>
- * <li>MarketplaceId: string</li>
- * <li>Address: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress</li>
- * <li>Items: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewItemList</li>
- * <li>ShippingSpeedCategories: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelShippingSpeedCategoryList</li>
- * <li>IncludeCODFulfillmentPreview: bool</li>
- * <li>IncludeDeliveryWindows: bool</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$Marketplace
+ * @property	string	$MarketplaceId
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress	$Address
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewItemList	$Items
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelShippingSpeedCategoryList	$ShippingSpeedCategories
+ * @property	bool	$IncludeCODFulfillmentPreview
+ * @property	bool	$IncludeDeliveryWindows
  */
 class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutboundServiceMwsModel
 {

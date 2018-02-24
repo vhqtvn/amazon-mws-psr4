@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipment
  * 
- * Properties:
- * <ul>
- * 
- * <li>AmazonShipmentId: string</li>
- * <li>FulfillmentCenterId: string</li>
- * <li>FulfillmentShipmentStatus: string</li>
- * <li>ShippingDateTime: string</li>
- * <li>EstimatedArrivalDateTime: string</li>
- * <li>FulfillmentShipmentItem: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentItemList</li>
- * <li>FulfillmentShipmentPackage: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentPackageList</li>
- *
- * </ul>
+ * @property	string	$AmazonShipmentId
+ * @property	string	$FulfillmentCenterId
+ * @property	string	$FulfillmentShipmentStatus
+ * @property	string	$ShippingDateTime
+ * @property	string	$EstimatedArrivalDateTime
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentItemList	$FulfillmentShipmentItem
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentPackageList	$FulfillmentShipmentPackage
  */
 class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMwsModel
 {

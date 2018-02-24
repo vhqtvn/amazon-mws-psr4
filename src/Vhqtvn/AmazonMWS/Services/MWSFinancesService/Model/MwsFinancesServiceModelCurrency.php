@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency
  * 
- * Properties:
- * <ul>
- * 
- * <li>CurrencyCode: string</li>
- * <li>CurrencyAmount: float</li>
- *
- * </ul>
+ * @property	string	$CurrencyCode
+ * @property	float	$CurrencyAmount
  */
 class MwsFinancesServiceModelCurrency extends MwsFinancesServiceModel
 {

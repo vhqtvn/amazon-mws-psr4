@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerCustomizedInfoDetail
  * 
- * Properties:
- * <ul>
- * 
- * <li>CustomizedURL: string</li>
- *
- * </ul>
+ * @property	string	$CustomizedURL
  */
 class MarketplaceWebServiceOrdersModelBuyerCustomizedInfoDetail extends MarketplaceWebServiceOrdersModel
 {

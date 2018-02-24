@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShippingTimeType
  * 
- * Properties:
- * <ul>
- * 
- * <li>Max: string</li>
- *
- * </ul>
+ * @property	string	$Max
  */
 class MarketplaceWebServiceProductsModelShippingTimeType extends MarketplaceWebServiceProductsModel
 {

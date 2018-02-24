@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMessage
  * 
- * Properties:
- * <ul>
- * 
- * <li>Locale: string</li>
- * <li>Text: string</li>
- *
- * </ul>
+ * @property	string	$Locale
+ * @property	string	$Text
  */
 class MarketplaceWebServiceOrdersModelMessage extends MarketplaceWebServiceOrdersModel
 {

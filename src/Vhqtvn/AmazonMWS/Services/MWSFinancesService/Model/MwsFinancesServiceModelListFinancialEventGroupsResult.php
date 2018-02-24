@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelListFinancialEventGroupsResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>NextToken: string</li>
- * <li>FinancialEventGroupList: array</li>
- *
- * </ul>
+ * @property	string	$NextToken
+ * @property	array	$FinancialEventGroupList
  */
 class MwsFinancesServiceModelListFinancialEventGroupsResult extends MwsFinancesServiceModel
 {
@@ -66,7 +61,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsResult extends MwsFinancesS
     /**
      * Get the value of the FinancialEventGroupList property.
      *
-     * @return List<FinancialEventGroup> FinancialEventGroupList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEventGroup[] FinancialEventGroupList.
      */
     public function getFinancialEventGroupList()
     {

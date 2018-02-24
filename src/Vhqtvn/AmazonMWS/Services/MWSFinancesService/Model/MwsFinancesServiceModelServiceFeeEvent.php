@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelServiceFeeEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>AmazonOrderId: string</li>
- * <li>FeeReason: string</li>
- * <li>FeeList: array</li>
- * <li>SellerSKU: string</li>
- * <li>FnSKU: string</li>
- * <li>FeeDescription: string</li>
- * <li>ASIN: string</li>
- *
- * </ul>
+ * @property	string	$AmazonOrderId
+ * @property	string	$FeeReason
+ * @property	array	$FeeList
+ * @property	string	$SellerSKU
+ * @property	string	$FnSKU
+ * @property	string	$FeeDescription
+ * @property	string	$ASIN
  */
 class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
 {
@@ -113,7 +108,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the FeeList property.
      *
-     * @return List<FeeComponent> FeeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] FeeList.
      */
     public function getFeeList()
     {

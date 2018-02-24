@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelGetServiceStatusResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Status: string</li>
- * <li>Timestamp: string</li>
- * <li>MessageId: string</li>
- * <li>Messages: array</li>
- *
- * </ul>
+ * @property	string	$Status
+ * @property	string	$Timestamp
+ * @property	string	$MessageId
+ * @property	array	$Messages
  */
 class MarketplaceWebServiceOrdersModelGetServiceStatusResult extends MarketplaceWebServiceOrdersModel
 {
@@ -152,7 +147,7 @@ class MarketplaceWebServiceOrdersModelGetServiceStatusResult extends Marketplace
     /**
      * Get the value of the Messages property.
      *
-     * @return List<Message> Messages.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMessage[] Messages.
      */
     public function getMessages()
     {

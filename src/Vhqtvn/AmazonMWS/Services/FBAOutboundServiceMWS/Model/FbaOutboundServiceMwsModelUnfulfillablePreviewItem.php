@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUnfulfillablePreviewItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>Quantity: int</li>
- * <li>SellerFulfillmentOrderItemId: string</li>
- * <li>ItemUnfulfillableReasons: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelStringList</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	int	$Quantity
+ * @property	string	$SellerFulfillmentOrderItemId
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelStringList	$ItemUnfulfillableReasons
  */
 class FbaOutboundServiceMwsModelUnfulfillablePreviewItem extends FbaOutboundServiceMwsModel
 {

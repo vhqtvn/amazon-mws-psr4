@@ -6,24 +6,19 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>OrderItemId: string</li>
- * <li>OrderAdjustmentItemId: string</li>
- * <li>QuantityShipped: int</li>
- * <li>ItemChargeList: array</li>
- * <li>ItemChargeAdjustmentList: array</li>
- * <li>ItemFeeList: array</li>
- * <li>ItemFeeAdjustmentList: array</li>
- * <li>ItemTaxWithheldList: array</li>
- * <li>PromotionList: array</li>
- * <li>PromotionAdjustmentList: array</li>
- * <li>CostOfPointsGranted: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>CostOfPointsReturned: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$OrderItemId
+ * @property	string	$OrderAdjustmentItemId
+ * @property	int	$QuantityShipped
+ * @property	array	$ItemChargeList
+ * @property	array	$ItemChargeAdjustmentList
+ * @property	array	$ItemFeeList
+ * @property	array	$ItemFeeAdjustmentList
+ * @property	array	$ItemTaxWithheldList
+ * @property	array	$PromotionList
+ * @property	array	$PromotionAdjustmentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$CostOfPointsGranted
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$CostOfPointsReturned
  */
 class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
 {
@@ -203,7 +198,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the ItemChargeList property.
      *
-     * @return List<ChargeComponent> ItemChargeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] ItemChargeList.
      */
     public function getItemChargeList()
     {
@@ -260,7 +255,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the ItemChargeAdjustmentList property.
      *
-     * @return List<ChargeComponent> ItemChargeAdjustmentList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] ItemChargeAdjustmentList.
      */
     public function getItemChargeAdjustmentList()
     {
@@ -317,7 +312,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the ItemFeeList property.
      *
-     * @return List<FeeComponent> ItemFeeList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] ItemFeeList.
      */
     public function getItemFeeList()
     {
@@ -374,7 +369,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the ItemFeeAdjustmentList property.
      *
-     * @return List<FeeComponent> ItemFeeAdjustmentList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] ItemFeeAdjustmentList.
      */
     public function getItemFeeAdjustmentList()
     {
@@ -431,7 +426,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the ItemTaxWithheldList property.
      *
-     * @return List<TaxWithheldComponent> ItemTaxWithheldList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelTaxWithheldComponent[] ItemTaxWithheldList.
      */
     public function getItemTaxWithheldList()
     {
@@ -488,7 +483,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the PromotionList property.
      *
-     * @return List<Promotion> PromotionList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPromotion[] PromotionList.
      */
     public function getPromotionList()
     {
@@ -545,7 +540,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the PromotionAdjustmentList property.
      *
-     * @return List<Promotion> PromotionAdjustmentList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPromotion[] PromotionAdjustmentList.
      */
     public function getPromotionAdjustmentList()
     {

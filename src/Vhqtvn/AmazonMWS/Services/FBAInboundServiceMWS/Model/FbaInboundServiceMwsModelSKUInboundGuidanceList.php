@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUInboundGuidanceList
  * 
- * Properties:
- * <ul>
- * 
- * <li>SKUInboundGuidance: array</li>
- *
- * </ul>
+ * @property	array	$SKUInboundGuidance
  */
 class FbaInboundServiceMwsModelSKUInboundGuidanceList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidanceList extends FbaInboundServiceM
     /**
      * Get the value of the SKUInboundGuidance property.
      *
-     * @return List<SKUInboundGuidance> SKUInboundGuidance.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUInboundGuidance[] SKUInboundGuidance.
      */
     public function getSKUInboundGuidance()
     {

@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelListReturnReasonCodesRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>MarketplaceId: string</li>
- * <li>SellerFulfillmentOrderId: string</li>
- * <li>SellerSKU: string</li>
- * <li>Language: string</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$MarketplaceId
+ * @property	string	$SellerFulfillmentOrderId
+ * @property	string	$SellerSKU
+ * @property	string	$Language
  */
 class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutboundServiceMwsModel
 {

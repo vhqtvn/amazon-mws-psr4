@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>Marketplace: string</li>
- * <li>Merchant: string</li>
- * <li>ReportType: string</li>
- * <li>Schedule: string</li>
- * <li>ScheduleDate: string</li>
- *
- * </ul>
+ * @property	string	$Marketplace
+ * @property	string	$Merchant
+ * @property	string	$ReportType
+ * @property	string	$Schedule
+ * @property	string	$ScheduleDate
  */
 class MarketplaceWebServiceModelManageReportScheduleRequest extends MarketplaceWebServiceModel
 {

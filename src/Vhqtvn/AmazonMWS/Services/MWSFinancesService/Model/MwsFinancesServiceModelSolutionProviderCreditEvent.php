@@ -6,21 +6,16 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSolutionProviderCreditEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>ProviderTransactionType: string</li>
- * <li>SellerOrderId: string</li>
- * <li>MarketplaceId: string</li>
- * <li>MarketplaceCountryCode: string</li>
- * <li>SellerId: string</li>
- * <li>SellerStoreName: string</li>
- * <li>ProviderId: string</li>
- * <li>ProviderStoreName: string</li>
- * <li>TransactionAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>TransactionCreationDate: string</li>
- *
- * </ul>
+ * @property	string	$ProviderTransactionType
+ * @property	string	$SellerOrderId
+ * @property	string	$MarketplaceId
+ * @property	string	$MarketplaceCountryCode
+ * @property	string	$SellerId
+ * @property	string	$SellerStoreName
+ * @property	string	$ProviderId
+ * @property	string	$ProviderStoreName
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$TransactionAmount
+ * @property	string	$TransactionCreationDate
  */
 class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServiceModel
 {

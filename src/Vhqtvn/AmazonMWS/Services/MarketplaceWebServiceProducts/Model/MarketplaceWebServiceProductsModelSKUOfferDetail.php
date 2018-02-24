@@ -6,22 +6,17 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetail
  * 
- * Properties:
- * <ul>
- * 
- * <li>MyOffer: bool</li>
- * <li>SubCondition: string</li>
- * <li>SellerFeedbackRating: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerFeedbackType</li>
- * <li>ShippingTime: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelDetailedShippingTimeType</li>
- * <li>ListingPrice: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType</li>
- * <li>Points: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints</li>
- * <li>Shipping: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType</li>
- * <li>ShipsFrom: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShipsFromType</li>
- * <li>IsFulfilledByAmazon: bool</li>
- * <li>IsBuyBoxWinner: bool</li>
- * <li>IsFeaturedMerchant: bool</li>
- *
- * </ul>
+ * @property	bool	$MyOffer
+ * @property	string	$SubCondition
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerFeedbackType	$SellerFeedbackRating
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelDetailedShippingTimeType	$ShippingTime
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType	$ListingPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints	$Points
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType	$Shipping
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShipsFromType	$ShipsFrom
+ * @property	bool	$IsFulfilledByAmazon
+ * @property	bool	$IsBuyBoxWinner
+ * @property	bool	$IsFeaturedMerchant
  */
 class MarketplaceWebServiceProductsModelSKUOfferDetail extends MarketplaceWebServiceProductsModel
 {

@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelFileContents
  * 
- * Properties:
- * <ul>
- * 
- * <li>Contents: string</li>
- * <li>FileType: string</li>
- * <li>Checksum: string</li>
- *
- * </ul>
+ * @property	string	$Contents
+ * @property	string	$FileType
+ * @property	string	$Checksum
  */
 class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillmentServiceModel
 {

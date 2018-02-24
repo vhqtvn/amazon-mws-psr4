@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerFeedbackType
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerPositiveFeedbackRating: float</li>
- * <li>FeedbackCount: int</li>
- *
- * </ul>
+ * @property	float	$SellerPositiveFeedbackRating
+ * @property	int	$FeedbackCount
  */
 class MarketplaceWebServiceProductsModelSellerFeedbackType extends MarketplaceWebServiceProductsModel
 {

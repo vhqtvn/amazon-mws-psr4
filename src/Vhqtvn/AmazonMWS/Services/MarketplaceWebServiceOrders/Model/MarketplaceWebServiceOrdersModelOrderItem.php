@@ -6,42 +6,37 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrderItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>ASIN: string</li>
- * <li>SellerSKU: string</li>
- * <li>OrderItemId: string</li>
- * <li>Title: string</li>
- * <li>QuantityOrdered: int</li>
- * <li>QuantityShipped: int</li>
- * <li>ProductInfo: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelProductInfoDetail</li>
- * <li>PointsGranted: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPointsGrantedDetail</li>
- * <li>ItemPrice: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>ShippingPrice: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>GiftWrapPrice: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>ItemTax: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>ShippingTax: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>GiftWrapTax: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>ShippingDiscount: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>PromotionDiscount: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>PromotionIds: array</li>
- * <li>CODFee: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>CODFeeDiscount: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney</li>
- * <li>IsGift: bool</li>
- * <li>GiftMessageText: string</li>
- * <li>GiftWrapLevel: string</li>
- * <li>InvoiceData: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelInvoiceData</li>
- * <li>ConditionNote: string</li>
- * <li>ConditionId: string</li>
- * <li>ConditionSubtypeId: string</li>
- * <li>ScheduledDeliveryStartDate: string</li>
- * <li>ScheduledDeliveryEndDate: string</li>
- * <li>PriceDesignation: string</li>
- * <li>BuyerCustomizedInfo: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerCustomizedInfoDetail</li>
- * <li>TaxCollection: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxCollection</li>
- *
- * </ul>
+ * @property	string	$ASIN
+ * @property	string	$SellerSKU
+ * @property	string	$OrderItemId
+ * @property	string	$Title
+ * @property	int	$QuantityOrdered
+ * @property	int	$QuantityShipped
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelProductInfoDetail	$ProductInfo
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPointsGrantedDetail	$PointsGranted
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$ItemPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$ShippingPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$GiftWrapPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$ItemTax
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$ShippingTax
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$GiftWrapTax
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$ShippingDiscount
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$PromotionDiscount
+ * @property	array	$PromotionIds
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$CODFee
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$CODFeeDiscount
+ * @property	bool	$IsGift
+ * @property	string	$GiftMessageText
+ * @property	string	$GiftWrapLevel
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelInvoiceData	$InvoiceData
+ * @property	string	$ConditionNote
+ * @property	string	$ConditionId
+ * @property	string	$ConditionSubtypeId
+ * @property	string	$ScheduledDeliveryStartDate
+ * @property	string	$ScheduledDeliveryEndDate
+ * @property	string	$PriceDesignation
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerCustomizedInfoDetail	$BuyerCustomizedInfo
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxCollection	$TaxCollection
  */
 class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrdersModel
 {
@@ -725,7 +720,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Get the value of the PromotionIds property.
      *
-     * @return List<String> PromotionIds.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] PromotionIds.
      */
     public function getPromotionIds()
     {

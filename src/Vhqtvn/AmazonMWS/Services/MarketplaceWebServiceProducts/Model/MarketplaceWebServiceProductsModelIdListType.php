@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelIdListType
  * 
- * Properties:
- * <ul>
- * 
- * <li>Id: array</li>
- *
- * </ul>
+ * @property	array	$Id
  */
 class MarketplaceWebServiceProductsModelIdListType extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelIdListType extends MarketplaceWebService
     /**
      * Get the value of the Id property.
      *
-     * @return List<String> Id.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelString[] Id.
      */
     public function getId()
     {

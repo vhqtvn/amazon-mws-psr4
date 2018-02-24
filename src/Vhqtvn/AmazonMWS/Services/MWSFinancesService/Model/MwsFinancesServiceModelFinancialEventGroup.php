@@ -6,22 +6,17 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEventGroup
  * 
- * Properties:
- * <ul>
- * 
- * <li>FinancialEventGroupId: string</li>
- * <li>ProcessingStatus: string</li>
- * <li>FundTransferStatus: string</li>
- * <li>OriginalTotal: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>ConvertedTotal: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>FundTransferDate: string</li>
- * <li>TraceId: string</li>
- * <li>AccountTail: string</li>
- * <li>BeginningBalance: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>FinancialEventGroupStart: string</li>
- * <li>FinancialEventGroupEnd: string</li>
- *
- * </ul>
+ * @property	string	$FinancialEventGroupId
+ * @property	string	$ProcessingStatus
+ * @property	string	$FundTransferStatus
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$OriginalTotal
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$ConvertedTotal
+ * @property	string	$FundTransferDate
+ * @property	string	$TraceId
+ * @property	string	$AccountTail
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$BeginningBalance
+ * @property	string	$FinancialEventGroupStart
+ * @property	string	$FinancialEventGroupEnd
  */
 class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
 {

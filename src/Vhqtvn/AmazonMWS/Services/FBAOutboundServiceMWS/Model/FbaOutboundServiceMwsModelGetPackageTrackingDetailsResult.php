@@ -6,23 +6,18 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>PackageNumber: int</li>
- * <li>TrackingNumber: string</li>
- * <li>CarrierCode: string</li>
- * <li>CarrierPhoneNumber: string</li>
- * <li>CarrierURL: string</li>
- * <li>ShipDate: string</li>
- * <li>EstimatedArrivalDate: string</li>
- * <li>ShipToAddress: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress</li>
- * <li>CurrentStatus: string</li>
- * <li>SignedForBy: string</li>
- * <li>AdditionalLocationInfo: string</li>
- * <li>TrackingEvents: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEventList</li>
- *
- * </ul>
+ * @property	int	$PackageNumber
+ * @property	string	$TrackingNumber
+ * @property	string	$CarrierCode
+ * @property	string	$CarrierPhoneNumber
+ * @property	string	$CarrierURL
+ * @property	string	$ShipDate
+ * @property	string	$EstimatedArrivalDate
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress	$ShipToAddress
+ * @property	string	$CurrentStatus
+ * @property	string	$SignedForBy
+ * @property	string	$AdditionalLocationInfo
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEventList	$TrackingEvents
  */
 class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutboundServiceMwsModel
 {

@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCompetitivePriceType
  * 
- * Properties:
- * <ul>
- * 
- * <li>CompetitivePriceId: string</li>
- * <li>Price: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType</li>
- * <li>condition: string</li>
- * <li>subcondition: string</li>
- * <li>belongsToRequester: bool</li>
- *
- * </ul>
+ * @property	string	$CompetitivePriceId
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType	$Price
+ * @property	string	$condition
+ * @property	string	$subcondition
+ * @property	bool	$belongsToRequester
  */
 class MarketplaceWebServiceProductsModelCompetitivePriceType extends MarketplaceWebServiceProductsModel
 {

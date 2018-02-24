@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFee
  * 
- * Properties:
- * <ul>
- * 
- * <li>Name: string</li>
- * <li>Amount: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency</li>
- *
- * </ul>
+ * @property	string	$Name
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency	$Amount
  */
 class FbaOutboundServiceMwsModelFee extends FbaOutboundServiceMwsModel
 {

@@ -6,21 +6,16 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCreateFulfillmentOrderItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>SellerFulfillmentOrderItemId: string</li>
- * <li>Quantity: int</li>
- * <li>GiftMessage: string</li>
- * <li>DisplayableComment: string</li>
- * <li>FulfillmentNetworkSKU: string</li>
- * <li>OrderItemDisposition: string</li>
- * <li>PerUnitDeclaredValue: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency</li>
- * <li>PerUnitPrice: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency</li>
- * <li>PerUnitTax: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$SellerFulfillmentOrderItemId
+ * @property	int	$Quantity
+ * @property	string	$GiftMessage
+ * @property	string	$DisplayableComment
+ * @property	string	$FulfillmentNetworkSKU
+ * @property	string	$OrderItemDisposition
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency	$PerUnitDeclaredValue
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency	$PerUnitPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency	$PerUnitTax
  */
 class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundServiceMwsModel
 {

@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelListFinancialEventsRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>MaxResultsPerPage: int</li>
- * <li>AmazonOrderId: string</li>
- * <li>FinancialEventGroupId: string</li>
- * <li>PostedAfter: string</li>
- * <li>PostedBefore: string</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	int	$MaxResultsPerPage
+ * @property	string	$AmazonOrderId
+ * @property	string	$FinancialEventGroupId
+ * @property	string	$PostedAfter
+ * @property	string	$PostedBefore
  */
 class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServiceModel
 {

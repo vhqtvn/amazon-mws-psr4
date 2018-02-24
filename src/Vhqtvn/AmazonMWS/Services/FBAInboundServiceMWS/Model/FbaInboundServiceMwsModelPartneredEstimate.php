@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredEstimate
  * 
- * Properties:
- * <ul>
- * 
- * <li>Amount: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount</li>
- * <li>ConfirmDeadline: string</li>
- * <li>VoidDeadline: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount	$Amount
+ * @property	string	$ConfirmDeadline
+ * @property	string	$VoidDeadline
  */
 class FbaInboundServiceMwsModelPartneredEstimate extends FbaInboundServiceMwsModel
 {

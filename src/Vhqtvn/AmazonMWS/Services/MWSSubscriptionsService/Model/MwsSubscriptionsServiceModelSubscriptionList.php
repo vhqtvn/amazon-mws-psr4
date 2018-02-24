@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSubscriptionList
  * 
- * Properties:
- * <ul>
- * 
- * <li>member: array</li>
- *
- * </ul>
+ * @property	array	$member
  */
 class MwsSubscriptionsServiceModelSubscriptionList extends MwsSubscriptionsServiceModel
 {
@@ -23,7 +18,7 @@ class MwsSubscriptionsServiceModelSubscriptionList extends MwsSubscriptionsServi
     /**
      * Get the value of the member property.
      *
-     * @return List<Subscription> member.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSubscription[] member.
      */
     public function getmember()
     {

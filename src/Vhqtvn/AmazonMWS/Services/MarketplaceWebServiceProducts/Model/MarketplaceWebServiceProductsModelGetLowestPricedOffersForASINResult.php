@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceID: string</li>
- * <li>ASIN: string</li>
- * <li>ItemCondition: string</li>
- * <li>status: string</li>
- * <li>Identifier: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersAsinIdentifier</li>
- * <li>Summary: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSummary</li>
- * <li>Offers: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINOfferDetailList</li>
- *
- * </ul>
+ * @property	string	$MarketplaceID
+ * @property	string	$ASIN
+ * @property	string	$ItemCondition
+ * @property	string	$status
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersAsinIdentifier	$Identifier
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSummary	$Summary
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINOfferDetailList	$Offers
  */
 class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINResult extends MarketplaceWebServiceProductsModel
 {

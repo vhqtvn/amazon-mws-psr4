@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories
  * 
- * Properties:
- * <ul>
- * 
- * <li>ProductCategoryId: string</li>
- * <li>ProductCategoryName: string</li>
- * <li>Parent: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories</li>
- *
- * </ul>
+ * @property	string	$ProductCategoryId
+ * @property	string	$ProductCategoryName
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories	$Parent
  */
 class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebServiceProductsModel
 {

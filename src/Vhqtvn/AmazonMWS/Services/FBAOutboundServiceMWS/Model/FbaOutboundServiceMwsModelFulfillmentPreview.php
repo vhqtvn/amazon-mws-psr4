@@ -6,21 +6,16 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreview
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShippingSpeedCategory: string</li>
- * <li>ScheduledDeliveryInfo: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelScheduledDeliveryInfo</li>
- * <li>IsFulfillable: bool</li>
- * <li>IsCODCapable: bool</li>
- * <li>EstimatedShippingWeight: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelWeight</li>
- * <li>EstimatedFees: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFeeList</li>
- * <li>FulfillmentPreviewShipments: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewShipmentList</li>
- * <li>UnfulfillablePreviewItems: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUnfulfillablePreviewItemList</li>
- * <li>OrderUnfulfillableReasons: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelStringList</li>
- * <li>MarketplaceId: string</li>
- *
- * </ul>
+ * @property	string	$ShippingSpeedCategory
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelScheduledDeliveryInfo	$ScheduledDeliveryInfo
+ * @property	bool	$IsFulfillable
+ * @property	bool	$IsCODCapable
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelWeight	$EstimatedShippingWeight
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFeeList	$EstimatedFees
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewShipmentList	$FulfillmentPreviewShipments
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUnfulfillablePreviewItemList	$UnfulfillablePreviewItems
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelStringList	$OrderUnfulfillableReasons
+ * @property	string	$MarketplaceId
  */
 class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMwsModel
 {

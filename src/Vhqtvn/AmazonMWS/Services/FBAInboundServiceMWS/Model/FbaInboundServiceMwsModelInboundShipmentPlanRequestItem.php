@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanRequestItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>ASIN: string</li>
- * <li>Condition: string</li>
- * <li>Quantity: int</li>
- * <li>QuantityInCase: int</li>
- * <li>PrepDetailsList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$ASIN
+ * @property	string	$Condition
+ * @property	int	$Quantity
+ * @property	int	$QuantityInCase
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList	$PrepDetailsList
  */
 class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInboundServiceMwsModel
 {

@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelNonPartneredSmallParcelPackageInput
  * 
- * Properties:
- * <ul>
- * 
- * <li>TrackingId: string</li>
- *
- * </ul>
+ * @property	string	$TrackingId
  */
 class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageInput extends FbaInboundServiceMwsModel
 {

@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProductList
  * 
- * Properties:
- * <ul>
- * 
- * <li>Product: array</li>
- *
- * </ul>
+ * @property	array	$Product
  */
 class MarketplaceWebServiceProductsModelProductList extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelProductList extends MarketplaceWebServic
     /**
      * Get the value of the Product property.
      *
-     * @return List<Product> Product.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct[] Product.
      */
     public function getProduct()
     {

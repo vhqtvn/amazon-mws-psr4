@@ -6,19 +6,14 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>Marketplace: string</li>
- * <li>ShipFromAddress: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress</li>
- * <li>LabelPrepPreference: string</li>
- * <li>ShipToCountryCode: string</li>
- * <li>ShipToCountrySubdivisionCode: string</li>
- * <li>InboundShipmentPlanRequestItems: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanRequestItemList</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$Marketplace
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress	$ShipFromAddress
+ * @property	string	$LabelPrepPreference
+ * @property	string	$ShipToCountryCode
+ * @property	string	$ShipToCountrySubdivisionCode
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanRequestItemList	$InboundShipmentPlanRequestItems
  */
 class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInboundServiceMwsModel
 {

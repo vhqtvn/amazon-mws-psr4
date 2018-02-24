@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions
  * 
- * Properties:
- * <ul>
- * 
- * <li>Length: float</li>
- * <li>Width: float</li>
- * <li>Height: float</li>
- * <li>Unit: string</li>
- * <li>PredefinedPackageDimensions: string</li>
- *
- * </ul>
+ * @property	float	$Length
+ * @property	float	$Width
+ * @property	float	$Height
+ * @property	string	$Unit
+ * @property	string	$PredefinedPackageDimensions
  */
 class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFulfillmentServiceModel
 {

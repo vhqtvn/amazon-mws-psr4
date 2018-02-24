@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>FulfillmentNetworkSKU: string</li>
- * <li>Quantity: int</li>
- * <li>PrepDetailsList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	string	$FulfillmentNetworkSKU
+ * @property	int	$Quantity
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList	$PrepDetailsList
  */
 class FbaInboundServiceMwsModelInboundShipmentPlanItem extends FbaInboundServiceMwsModel
 {

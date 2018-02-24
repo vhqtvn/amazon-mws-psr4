@@ -6,19 +6,14 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListRecommendationsResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>InventoryRecommendations: array</li>
- * <li>SelectionRecommendations: array</li>
- * <li>PricingRecommendations: array</li>
- * <li>FulfillmentRecommendations: array</li>
- * <li>ListingQualityRecommendations: array</li>
- * <li>GlobalSellingRecommendations: array</li>
- * <li>AdvertisingRecommendations: array</li>
- * <li>NextToken: string</li>
- *
- * </ul>
+ * @property	array	$InventoryRecommendations
+ * @property	array	$SelectionRecommendations
+ * @property	array	$PricingRecommendations
+ * @property	array	$FulfillmentRecommendations
+ * @property	array	$ListingQualityRecommendations
+ * @property	array	$GlobalSellingRecommendations
+ * @property	array	$AdvertisingRecommendations
+ * @property	string	$NextToken
  */
 class MwsRecommendationsSectionServiceModelListRecommendationsResult extends MwsRecommendationsSectionServiceModel
 {
@@ -30,7 +25,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Get the value of the InventoryRecommendations property.
      *
-     * @return List<InventoryRecommendation> InventoryRecommendations.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelInventoryRecommendation[] InventoryRecommendations.
      */
     public function getInventoryRecommendations()
     {
@@ -87,7 +82,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Get the value of the SelectionRecommendations property.
      *
-     * @return List<SelectionRecommendation> SelectionRecommendations.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelSelectionRecommendation[] SelectionRecommendations.
      */
     public function getSelectionRecommendations()
     {
@@ -144,7 +139,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Get the value of the PricingRecommendations property.
      *
-     * @return List<PricingRecommendation> PricingRecommendations.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPricingRecommendation[] PricingRecommendations.
      */
     public function getPricingRecommendations()
     {
@@ -201,7 +196,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Get the value of the FulfillmentRecommendations property.
      *
-     * @return List<FulfillmentRecommendation> FulfillmentRecommendations.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelFulfillmentRecommendation[] FulfillmentRecommendations.
      */
     public function getFulfillmentRecommendations()
     {
@@ -258,7 +253,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Get the value of the ListingQualityRecommendations property.
      *
-     * @return List<ListingQualityRecommendation> ListingQualityRecommendations.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListingQualityRecommendation[] ListingQualityRecommendations.
      */
     public function getListingQualityRecommendations()
     {
@@ -315,7 +310,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Get the value of the GlobalSellingRecommendations property.
      *
-     * @return List<GlobalSellingRecommendation> GlobalSellingRecommendations.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGlobalSellingRecommendation[] GlobalSellingRecommendations.
      */
     public function getGlobalSellingRecommendations()
     {
@@ -372,7 +367,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Get the value of the AdvertisingRecommendations property.
      *
-     * @return List<AdvertisingRecommendation> AdvertisingRecommendations.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelAdvertisingRecommendation[] AdvertisingRecommendations.
      */
     public function getAdvertisingRecommendations()
     {

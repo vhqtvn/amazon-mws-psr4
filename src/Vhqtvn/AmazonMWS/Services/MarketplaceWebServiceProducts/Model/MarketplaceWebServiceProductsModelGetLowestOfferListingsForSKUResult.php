@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForSKUResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>AllOfferListingsConsidered: bool</li>
- * <li>Product: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct</li>
- * <li>Error: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError</li>
- * <li>SellerSKU: string</li>
- * <li>status: string</li>
- *
- * </ul>
+ * @property	bool	$AllOfferListingsConsidered
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct	$Product
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError	$Error
+ * @property	string	$SellerSKU
+ * @property	string	$status
  */
 class MarketplaceWebServiceProductsModelGetLowestOfferListingsForSKUResult extends MarketplaceWebServiceProductsModel
 {

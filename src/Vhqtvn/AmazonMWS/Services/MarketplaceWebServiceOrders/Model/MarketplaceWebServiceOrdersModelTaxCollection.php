@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxCollection
  * 
- * Properties:
- * <ul>
- * 
- * <li>Model: string</li>
- * <li>ResponsibleParty: string</li>
- *
- * </ul>
+ * @property	string	$Model
+ * @property	string	$ResponsibleParty
  */
 class MarketplaceWebServiceOrdersModelTaxCollection extends MarketplaceWebServiceOrdersModel
 {

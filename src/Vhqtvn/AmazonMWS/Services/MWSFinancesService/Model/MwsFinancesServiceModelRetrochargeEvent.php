@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRetrochargeEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>RetrochargeEventType: string</li>
- * <li>AmazonOrderId: string</li>
- * <li>PostedDate: string</li>
- * <li>BaseTax: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>ShippingTax: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>MarketplaceName: string</li>
- *
- * </ul>
+ * @property	string	$RetrochargeEventType
+ * @property	string	$AmazonOrderId
+ * @property	string	$PostedDate
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$BaseTax
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$ShippingTax
+ * @property	string	$MarketplaceName
  */
 class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
 {

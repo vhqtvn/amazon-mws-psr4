@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelQualifiersType
  * 
- * Properties:
- * <ul>
- * 
- * <li>ItemCondition: string</li>
- * <li>ItemSubcondition: string</li>
- * <li>FulfillmentChannel: string</li>
- * <li>ShipsDomestically: string</li>
- * <li>ShippingTime: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShippingTimeType</li>
- * <li>SellerPositiveFeedbackRating: string</li>
- *
- * </ul>
+ * @property	string	$ItemCondition
+ * @property	string	$ItemSubcondition
+ * @property	string	$FulfillmentChannel
+ * @property	string	$ShipsDomestically
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShippingTimeType	$ShippingTime
+ * @property	string	$SellerPositiveFeedbackRating
  */
 class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebServiceProductsModel
 {

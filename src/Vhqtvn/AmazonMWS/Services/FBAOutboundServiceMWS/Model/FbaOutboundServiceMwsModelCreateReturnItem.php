@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCreateReturnItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerReturnItemId: string</li>
- * <li>SellerFulfillmentOrderItemId: string</li>
- * <li>AmazonShipmentId: string</li>
- * <li>ReturnReasonCode: string</li>
- * <li>ReturnComment: string</li>
- *
- * </ul>
+ * @property	string	$SellerReturnItemId
+ * @property	string	$SellerFulfillmentOrderItemId
+ * @property	string	$AmazonShipmentId
+ * @property	string	$ReturnReasonCode
+ * @property	string	$ReturnComment
  */
 class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsModel
 {

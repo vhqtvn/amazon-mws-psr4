@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\MarketplaceWebService
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMessageList
  * 
- * Properties:
- * <ul>
- * 
- * <li>Message: array</li>
- *
- * </ul>
+ * @property	array	$Message
  */
 class MarketplaceWebServiceSellersModelMessageList extends MarketplaceWebServiceSellersModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceSellersModelMessageList extends MarketplaceWebService
     /**
      * Get the value of the Message property.
      *
-     * @return List<Message> Message.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMessage[] Message.
      */
     public function getMessage()
     {

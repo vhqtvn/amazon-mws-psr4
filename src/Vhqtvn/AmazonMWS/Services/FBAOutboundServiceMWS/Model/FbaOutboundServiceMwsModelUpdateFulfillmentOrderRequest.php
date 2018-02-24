@@ -6,27 +6,22 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>Marketplace: string</li>
- * <li>MarketplaceId: string</li>
- * <li>SellerFulfillmentOrderId: string</li>
- * <li>DisplayableOrderId: string</li>
- * <li>DisplayableOrderDateTime: string</li>
- * <li>DisplayableOrderComment: string</li>
- * <li>ShippingSpeedCategory: string</li>
- * <li>DestinationAddress: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress</li>
- * <li>FulfillmentAction: string</li>
- * <li>FulfillmentPolicy: string</li>
- * <li>FulfillmentMethod: string</li>
- * <li>ShipFromCountryCode: string</li>
- * <li>NotificationEmailList: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelNotificationEmailList</li>
- * <li>Items: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUpdateFulfillmentOrderItemList</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$Marketplace
+ * @property	string	$MarketplaceId
+ * @property	string	$SellerFulfillmentOrderId
+ * @property	string	$DisplayableOrderId
+ * @property	string	$DisplayableOrderDateTime
+ * @property	string	$DisplayableOrderComment
+ * @property	string	$ShippingSpeedCategory
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress	$DestinationAddress
+ * @property	string	$FulfillmentAction
+ * @property	string	$FulfillmentPolicy
+ * @property	string	$FulfillmentMethod
+ * @property	string	$ShipFromCountryCode
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelNotificationEmailList	$NotificationEmailList
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUpdateFulfillmentOrderItemList	$Items
  */
 class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboundServiceMwsModel
 {

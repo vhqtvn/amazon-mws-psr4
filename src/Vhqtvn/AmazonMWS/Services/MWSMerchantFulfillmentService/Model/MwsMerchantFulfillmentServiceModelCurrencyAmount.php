@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount
  * 
- * Properties:
- * <ul>
- * 
- * <li>CurrencyCode: string</li>
- * <li>Amount: float</li>
- *
- * </ul>
+ * @property	string	$CurrencyCode
+ * @property	float	$Amount
  */
 class MwsMerchantFulfillmentServiceModelCurrencyAmount extends MwsMerchantFulfillmentServiceModel
 {

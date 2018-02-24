@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeInstrument
  * 
- * Properties:
- * <ul>
- * 
- * <li>Description: string</li>
- * <li>Tail: string</li>
- * <li>Amount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- *
- * </ul>
+ * @property	string	$Description
+ * @property	string	$Tail
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$Amount
  */
 class MwsFinancesServiceModelChargeInstrument extends MwsFinancesServiceModel
 {

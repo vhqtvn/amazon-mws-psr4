@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetails
  * 
- * Properties:
- * <ul>
- * 
- * <li>PrepInstruction: string</li>
- * <li>FeePerUnit: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount</li>
- *
- * </ul>
+ * @property	string	$PrepInstruction
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount	$FeePerUnit
  */
 class FbaInboundServiceMwsModelAmazonPrepFeesDetails extends FbaInboundServiceMwsModel
 {

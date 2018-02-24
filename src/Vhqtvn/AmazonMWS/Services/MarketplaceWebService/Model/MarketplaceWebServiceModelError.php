@@ -6,15 +6,10 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError
  * 
- * Properties:
- * <ul>
- * 
- * <li>Type: string</li>
- * <li>Code: string</li>
- * <li>Message: string</li>
- * <li>Detail: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelObject</li>
- *
- * </ul>
+ * @property	string	$Type
+ * @property	string	$Code
+ * @property	string	$Message
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelObject	$Detail
  */
 class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
 {

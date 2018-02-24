@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelListInboundShipmentsByNextTokenResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>ShipmentData: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentList</li>
- * <li>NextToken: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentList	$ShipmentData
+ * @property	string	$NextToken
  */
 class FbaInboundServiceMwsModelListInboundShipmentsByNextTokenResult extends FbaInboundServiceMwsModel
 {

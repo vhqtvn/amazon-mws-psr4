@@ -6,11 +6,6 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceMod
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSendTestNotificationToDestinationResult
  * 
- * Properties:
- * <ul>
- * 
- *
- * </ul>
  */
 class MwsSubscriptionsServiceModelSendTestNotificationToDestinationResult extends MwsSubscriptionsServiceModel
 {

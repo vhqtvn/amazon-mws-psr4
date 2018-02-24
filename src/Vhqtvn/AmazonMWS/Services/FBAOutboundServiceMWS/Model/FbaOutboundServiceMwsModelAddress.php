@@ -6,21 +6,16 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress
  * 
- * Properties:
- * <ul>
- * 
- * <li>Name: string</li>
- * <li>Line1: string</li>
- * <li>Line2: string</li>
- * <li>Line3: string</li>
- * <li>DistrictOrCounty: string</li>
- * <li>City: string</li>
- * <li>StateOrProvinceCode: string</li>
- * <li>CountryCode: string</li>
- * <li>PostalCode: string</li>
- * <li>PhoneNumber: string</li>
- *
- * </ul>
+ * @property	string	$Name
+ * @property	string	$Line1
+ * @property	string	$Line2
+ * @property	string	$Line3
+ * @property	string	$DistrictOrCounty
+ * @property	string	$City
+ * @property	string	$StateOrProvinceCode
+ * @property	string	$CountryCode
+ * @property	string	$PostalCode
+ * @property	string	$PhoneNumber
  */
 class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
 {

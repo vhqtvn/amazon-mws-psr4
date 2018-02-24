@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelConfirmPreorderResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>ConfirmedNeedByDate: string</li>
- * <li>ConfirmedFulfillableDate: string</li>
- *
- * </ul>
+ * @property	string	$ConfirmedNeedByDate
+ * @property	string	$ConfirmedFulfillableDate
  */
 class FbaInboundServiceMwsModelConfirmPreorderResult extends FbaInboundServiceMwsModel
 {

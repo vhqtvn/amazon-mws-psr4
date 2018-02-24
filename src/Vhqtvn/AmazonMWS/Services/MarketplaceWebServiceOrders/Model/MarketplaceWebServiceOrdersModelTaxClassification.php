@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxClassification
  * 
- * Properties:
- * <ul>
- * 
- * <li>Name: string</li>
- * <li>Value: string</li>
- *
- * </ul>
+ * @property	string	$Name
+ * @property	string	$Value
  */
 class MarketplaceWebServiceOrdersModelTaxClassification extends MarketplaceWebServiceOrdersModel
 {

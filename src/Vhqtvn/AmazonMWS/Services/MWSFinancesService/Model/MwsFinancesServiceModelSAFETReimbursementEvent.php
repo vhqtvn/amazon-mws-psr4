@@ -6,16 +6,11 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementEvent
  * 
- * Properties:
- * <ul>
- * 
- * <li>PostedDate: string</li>
- * <li>SAFETClaimId: string</li>
- * <li>ReimbursedAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>ReasonCode: string</li>
- * <li>SAFETReimbursementItemList: array</li>
- *
- * </ul>
+ * @property	string	$PostedDate
+ * @property	string	$SAFETClaimId
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$ReimbursedAmount
+ * @property	string	$ReasonCode
+ * @property	array	$SAFETReimbursementItemList
  */
 class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceModel
 {
@@ -195,7 +190,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Get the value of the SAFETReimbursementItemList property.
      *
-     * @return List<SAFETReimbursementItem> SAFETReimbursementItemList.
+     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementItem[] SAFETReimbursementItemList.
      */
     public function getSAFETReimbursementItemList()
     {

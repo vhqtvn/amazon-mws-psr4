@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPutTransportContentRequest
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerId: string</li>
- * <li>MWSAuthToken: string</li>
- * <li>ShipmentId: string</li>
- * <li>IsPartnered: bool</li>
- * <li>ShipmentType: string</li>
- * <li>TransportDetails: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDetailInput</li>
- *
- * </ul>
+ * @property	string	$SellerId
+ * @property	string	$MWSAuthToken
+ * @property	string	$ShipmentId
+ * @property	bool	$IsPartnered
+ * @property	string	$ShipmentType
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDetailInput	$TransportDetails
  */
 class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServiceMwsModel
 {

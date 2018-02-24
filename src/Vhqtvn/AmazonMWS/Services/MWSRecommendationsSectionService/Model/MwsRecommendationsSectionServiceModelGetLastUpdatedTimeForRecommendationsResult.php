@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>InventoryRecommendationsLastUpdated: string</li>
- * <li>SelectionRecommendationsLastUpdated: string</li>
- * <li>FulfillmentRecommendationsLastUpdated: string</li>
- * <li>PricingRecommendationsLastUpdated: string</li>
- * <li>GlobalSellingRecommendationsLastUpdated: string</li>
- * <li>AdvertisingRecommendationsLastUpdated: string</li>
- *
- * </ul>
+ * @property	string	$InventoryRecommendationsLastUpdated
+ * @property	string	$SelectionRecommendationsLastUpdated
+ * @property	string	$FulfillmentRecommendationsLastUpdated
+ * @property	string	$PricingRecommendationsLastUpdated
+ * @property	string	$GlobalSellingRecommendationsLastUpdated
+ * @property	string	$AdvertisingRecommendationsLastUpdated
  */
 class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsResult extends MwsRecommendationsSectionServiceModel
 {

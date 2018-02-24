@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidReturnItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerReturnItemId: string</li>
- * <li>SellerFulfillmentOrderItemId: string</li>
- * <li>InvalidItemReason: \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidItemReason</li>
- *
- * </ul>
+ * @property	string	$SellerReturnItemId
+ * @property	string	$SellerFulfillmentOrderItemId
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidItemReason	$InvalidItemReason
  */
 class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsModel
 {

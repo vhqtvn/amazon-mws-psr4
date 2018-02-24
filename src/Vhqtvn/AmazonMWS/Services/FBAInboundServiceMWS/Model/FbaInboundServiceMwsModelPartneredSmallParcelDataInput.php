@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelDataInput
  * 
- * Properties:
- * <ul>
- * 
- * <li>PackageList: \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelPackageInputList</li>
- * <li>CarrierName: string</li>
- *
- * </ul>
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelPackageInputList	$PackageList
+ * @property	string	$CarrierName
  */
 class FbaInboundServiceMwsModelPartneredSmallParcelDataInput extends FbaInboundServiceMwsModel
 {

@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetServiceStatusResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>Status: string</li>
- * <li>Timestamp: string</li>
- *
- * </ul>
+ * @property	string	$Status
+ * @property	string	$Timestamp
  */
 class FbaInboundServiceMwsModelGetServiceStatusResult extends FbaInboundServiceMwsModel
 {

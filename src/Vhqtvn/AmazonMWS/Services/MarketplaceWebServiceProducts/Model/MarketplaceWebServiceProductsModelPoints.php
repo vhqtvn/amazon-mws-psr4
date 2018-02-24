@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints
  * 
- * Properties:
- * <ul>
- * 
- * <li>PointsNumber: int</li>
- * <li>PointsMonetaryValue: \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType</li>
- *
- * </ul>
+ * @property	int	$PointsNumber
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType	$PointsMonetaryValue
  */
 class MarketplaceWebServiceProductsModelPoints extends MarketplaceWebServiceProductsModel
 {

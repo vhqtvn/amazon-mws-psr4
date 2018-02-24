@@ -6,18 +6,13 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>Quantity: string</li>
- * <li>PerUnitAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>TotalAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- * <li>SellerSKU: string</li>
- * <li>FnSKU: string</li>
- * <li>ProductDescription: string</li>
- * <li>ASIN: string</li>
- *
- * </ul>
+ * @property	string	$Quantity
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$PerUnitAmount
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$TotalAmount
+ * @property	string	$SellerSKU
+ * @property	string	$FnSKU
+ * @property	string	$ProductDescription
+ * @property	string	$ASIN
  */
 class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
 {

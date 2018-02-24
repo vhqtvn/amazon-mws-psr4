@@ -6,23 +6,18 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelAddress
  * 
- * Properties:
- * <ul>
- * 
- * <li>Name: string</li>
- * <li>AddressLine1: string</li>
- * <li>AddressLine2: string</li>
- * <li>AddressLine3: string</li>
- * <li>City: string</li>
- * <li>County: string</li>
- * <li>District: string</li>
- * <li>StateOrRegion: string</li>
- * <li>PostalCode: string</li>
- * <li>CountryCode: string</li>
- * <li>Phone: string</li>
- * <li>AddressType: string</li>
- *
- * </ul>
+ * @property	string	$Name
+ * @property	string	$AddressLine1
+ * @property	string	$AddressLine2
+ * @property	string	$AddressLine3
+ * @property	string	$City
+ * @property	string	$County
+ * @property	string	$District
+ * @property	string	$StateOrRegion
+ * @property	string	$PostalCode
+ * @property	string	$CountryCode
+ * @property	string	$Phone
+ * @property	string	$AddressType
  */
 class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrdersModel
 {

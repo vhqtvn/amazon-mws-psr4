@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure
  * 
- * Properties:
- * <ul>
- * 
- * <li>Value: float</li>
- * <li>Unit: string</li>
- *
- * </ul>
+ * @property	float	$Value
+ * @property	string	$Unit
  */
 class MwsRecommendationsSectionServiceModelDimensionMeasure extends MwsRecommendationsSectionServiceModel
 {

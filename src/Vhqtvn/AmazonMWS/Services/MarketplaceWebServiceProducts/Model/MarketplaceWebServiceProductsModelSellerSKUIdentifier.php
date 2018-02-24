@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUIdentifier
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>SellerId: string</li>
- * <li>SellerSKU: string</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	string	$SellerId
+ * @property	string	$SellerSKU
  */
 class MarketplaceWebServiceProductsModelSellerSKUIdentifier extends MarketplaceWebServiceProductsModel
 {

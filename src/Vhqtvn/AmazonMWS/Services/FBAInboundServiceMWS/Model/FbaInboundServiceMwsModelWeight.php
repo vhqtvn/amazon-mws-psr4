@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight
  * 
- * Properties:
- * <ul>
- * 
- * <li>Value: float</li>
- * <li>Unit: string</li>
- *
- * </ul>
+ * @property	float	$Value
+ * @property	string	$Unit
  */
 class FbaInboundServiceMwsModelWeight extends FbaInboundServiceMwsModel
 {

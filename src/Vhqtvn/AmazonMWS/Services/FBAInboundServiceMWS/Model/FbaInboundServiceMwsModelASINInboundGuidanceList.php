@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINInboundGuidanceList
  * 
- * Properties:
- * <ul>
- * 
- * <li>ASINInboundGuidance: array</li>
- *
- * </ul>
+ * @property	array	$ASINInboundGuidance
  */
 class FbaInboundServiceMwsModelASINInboundGuidanceList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelASINInboundGuidanceList extends FbaInboundService
     /**
      * Get the value of the ASINInboundGuidance property.
      *
-     * @return List<ASINInboundGuidance> ASINInboundGuidance.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINInboundGuidance[] ASINInboundGuidance.
      */
     public function getASINInboundGuidance()
     {

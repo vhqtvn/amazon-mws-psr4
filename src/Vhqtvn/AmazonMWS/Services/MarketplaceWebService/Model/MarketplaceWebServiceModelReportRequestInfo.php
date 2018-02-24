@@ -6,17 +6,12 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo
  * 
- * Properties:
- * <ul>
- * 
- * <li>ReportRequestId: string</li>
- * <li>ReportType: string</li>
- * <li>StartDate: string</li>
- * <li>EndDate: string</li>
- * <li>SubmittedDate: string</li>
- * <li>ReportProcessingStatus: string</li>
- *
- * </ul>
+ * @property	string	$ReportRequestId
+ * @property	string	$ReportType
+ * @property	string	$StartDate
+ * @property	string	$EndDate
+ * @property	string	$SubmittedDate
+ * @property	string	$ReportProcessingStatus
  */
 class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceModel
 {

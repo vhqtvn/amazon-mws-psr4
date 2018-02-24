@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetailList
  * 
- * Properties:
- * <ul>
- * 
- * <li>Offer: array</li>
- *
- * </ul>
+ * @property	array	$Offer
  */
 class MarketplaceWebServiceProductsModelSKUOfferDetailList extends MarketplaceWebServiceProductsModel
 {
@@ -23,7 +18,7 @@ class MarketplaceWebServiceProductsModelSKUOfferDetailList extends MarketplaceWe
     /**
      * Get the value of the Offer property.
      *
-     * @return List<SKUOfferDetail> Offer.
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetail[] Offer.
      */
     public function getOffer()
     {

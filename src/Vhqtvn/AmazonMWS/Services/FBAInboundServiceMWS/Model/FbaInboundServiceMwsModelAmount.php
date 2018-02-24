@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount
  * 
- * Properties:
- * <ul>
- * 
- * <li>CurrencyCode: string</li>
- * <li>Value: float</li>
- *
- * </ul>
+ * @property	string	$CurrencyCode
+ * @property	float	$Value
  */
 class FbaInboundServiceMwsModelAmount extends FbaInboundServiceMwsModel
 {

@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetails
  * 
- * Properties:
- * <ul>
- * 
- * <li>PrepInstruction: string</li>
- * <li>PrepOwner: string</li>
- *
- * </ul>
+ * @property	string	$PrepInstruction
+ * @property	string	$PrepOwner
  */
 class FbaInboundServiceMwsModelPrepDetails extends FbaInboundServiceMwsModel
 {

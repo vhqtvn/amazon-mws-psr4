@@ -24,8 +24,7 @@ abstract class AmazonMWSModel
     /**
      * Construct new model class
      *
-     * @param mixed $data - DOMElement or Associative Array to construct from.
-     * @throws \Exception
+     * @param array|\DOMElement $data - DOMElement or Associative Array to construct from.
      */
     public function __construct($data = null)
     {
@@ -35,7 +34,7 @@ abstract class AmazonMWSModel
             } elseif ($this->_isDOMElement($data)) {
                 $this->_fromDOMElement($data);
             } else {
-                throw new \Exception ("Unable to construct from provided data. Please be sure to pass associative array or DOMElement");
+                throw new \RuntimeException ("Unable to construct from provided data. Please be sure to pass associative array or DOMElement");
             }
         }
     }

@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>MarketplaceId: string</li>
- * <li>InventorySupplyList: \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyList</li>
- * <li>NextToken: string</li>
- *
- * </ul>
+ * @property	string	$MarketplaceId
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyList	$InventorySupplyList
+ * @property	string	$NextToken
  */
 class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult extends FbaInventoryServiceMwsModel
 {

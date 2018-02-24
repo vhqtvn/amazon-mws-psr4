@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPromotion
  * 
- * Properties:
- * <ul>
- * 
- * <li>PromotionType: string</li>
- * <li>PromotionId: string</li>
- * <li>PromotionAmount: \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency</li>
- *
- * </ul>
+ * @property	string	$PromotionType
+ * @property	string	$PromotionId
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$PromotionAmount
  */
 class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
 {

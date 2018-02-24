@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelProductInfoDetail
  * 
- * Properties:
- * <ul>
- * 
- * <li>NumberOfItems: int</li>
- *
- * </ul>
+ * @property	int	$NumberOfItems
  */
 class MarketplaceWebServiceOrdersModelProductInfoDetail extends MarketplaceWebServiceOrdersModel
 {

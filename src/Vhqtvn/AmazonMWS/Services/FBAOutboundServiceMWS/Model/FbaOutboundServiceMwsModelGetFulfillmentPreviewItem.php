@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewItem
  * 
- * Properties:
- * <ul>
- * 
- * <li>SellerSKU: string</li>
- * <li>Quantity: int</li>
- * <li>SellerFulfillmentOrderItemId: string</li>
- *
- * </ul>
+ * @property	string	$SellerSKU
+ * @property	int	$Quantity
+ * @property	string	$SellerFulfillmentOrderItemId
  */
 class FbaOutboundServiceMwsModelGetFulfillmentPreviewItem extends FbaOutboundServiceMwsModel
 {

@@ -6,13 +6,8 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelWeightMeasure
  * 
- * Properties:
- * <ul>
- * 
- * <li>Value: float</li>
- * <li>Unit: string</li>
- *
- * </ul>
+ * @property	float	$Value
+ * @property	string	$Unit
  */
 class MwsRecommendationsSectionServiceModelWeightMeasure extends MwsRecommendationsSectionServiceModel
 {

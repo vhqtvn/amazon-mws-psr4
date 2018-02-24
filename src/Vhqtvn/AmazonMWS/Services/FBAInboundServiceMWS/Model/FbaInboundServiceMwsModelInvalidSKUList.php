@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidSKUList
  * 
- * Properties:
- * <ul>
- * 
- * <li>InvalidSKU: array</li>
- *
- * </ul>
+ * @property	array	$InvalidSKU
  */
 class FbaInboundServiceMwsModelInvalidSKUList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelInvalidSKUList extends FbaInboundServiceMwsModel
     /**
      * Get the value of the InvalidSKU property.
      *
-     * @return List<InvalidSKU> InvalidSKU.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidSKU[] InvalidSKU.
      */
     public function getInvalidSKU()
     {

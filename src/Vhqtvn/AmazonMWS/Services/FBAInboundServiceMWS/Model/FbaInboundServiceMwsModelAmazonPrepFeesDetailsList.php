@@ -6,12 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetailsList
  * 
- * Properties:
- * <ul>
- * 
- * <li>AmazonPrepFeesDetails: array</li>
- *
- * </ul>
+ * @property	array	$AmazonPrepFeesDetails
  */
 class FbaInboundServiceMwsModelAmazonPrepFeesDetailsList extends FbaInboundServiceMwsModel
 {
@@ -23,7 +18,7 @@ class FbaInboundServiceMwsModelAmazonPrepFeesDetailsList extends FbaInboundServi
     /**
      * Get the value of the AmazonPrepFeesDetails property.
      *
-     * @return List<AmazonPrepFeesDetails> AmazonPrepFeesDetails.
+     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetails[] AmazonPrepFeesDetails.
      */
     public function getAmazonPrepFeesDetails()
     {

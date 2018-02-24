@@ -6,14 +6,9 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportResult
  * 
- * Properties:
- * <ul>
- * 
- * <li>TransportStatus: string</li>
- * <li>ErrorCode: string</li>
- * <li>ErrorDescription: string</li>
- *
- * </ul>
+ * @property	string	$TransportStatus
+ * @property	string	$ErrorCode
+ * @property	string	$ErrorDescription
  */
 class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
 {
