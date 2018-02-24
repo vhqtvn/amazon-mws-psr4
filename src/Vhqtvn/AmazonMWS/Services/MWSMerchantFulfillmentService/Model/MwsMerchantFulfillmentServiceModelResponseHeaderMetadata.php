@@ -28,13 +28,13 @@ class MwsMerchantFulfillmentServiceModelResponseHeaderMetadata
     const QUOTA_REMAINING = 'x-mws-quota-remaining';
     const QUOTA_RESETS_AT = 'x-mws-quota-resetsOn';
     private $metadata = array();
-    public function __construct($requestId = null, $responseContext = null, $timestamp = null, $quotaMax = null, $quotaMax = null, $quotaResetsAt = null)
+    public function __construct($requestId = null, $responseContext = null, $timestamp = null, $quotaMax = null, $quotaRemaining = null, $quotaResetsAt = null)
     {
         $this->metadata[self::REQUEST_ID] = $requestId;
         $this->metadata[self::RESPONSE_CONTEXT] = $responseContext;
         $this->metadata[self::TIMESTAMP] = $timestamp;
         $this->metadata[self::QUOTA_MAX] = $quotaMax;
-        $this->metadata[self::QUOTA_REMAINING] = $quotaMax;
+        $this->metadata[self::QUOTA_REMAINING] = $quotaRemaining;
         $this->metadata[self::QUOTA_RESETS_AT] = $quotaResetsAt;
     }
     public function getRequestId()
@@ -53,7 +53,7 @@ class MwsMerchantFulfillmentServiceModelResponseHeaderMetadata
      * Gets the max quota allowed for a quota period
      * (from the x-mws-quota-max header)
      *
-     * @return the max quota allowed for a quota period
+     * @return string the max quota allowed for a quota period
      */
     public function getQuotaMax()
     {
@@ -63,7 +63,7 @@ class MwsMerchantFulfillmentServiceModelResponseHeaderMetadata
      * Gets the quota remaining within this quota period
      * (from the x-mws-quota-remaining header)
      *
-     * @return the quota remaining within this quota period
+     * @return string the quota remaining within this quota period
      */
     public function getQuotaRemaining()
     {
@@ -73,7 +73,7 @@ class MwsMerchantFulfillmentServiceModelResponseHeaderMetadata
      * Gets the time that this quota period ends
      * (from the x-mws-quota-resetsOn header)
      *
-     * @return the time that this quota period ends
+     * @return string the time that this quota period ends
      */
     public function getQuotaResetsAt()
     {

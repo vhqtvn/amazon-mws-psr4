@@ -381,6 +381,10 @@ function final_text_transform($code, $lib_name, $dst_ns, $base_ns)
     $prettyPrinter = new PrettyPrinter\Standard(['shortArraySyntax' => true]);
     $code = $prettyPrinter->prettyPrintFile($ast);
 
+    $code = str_replace('$quotaMax = null, $quotaMax = null, ', '$quotaMax = null, $quotaRemaining = null, ', $code);
+    $code = str_replace('$this->metadata[self::QUOTA_REMAINING] = $quotaMax;', '$this->metadata[self::QUOTA_REMAINING] = $quotaRemaining;', $code);
+    $code = str_replace('@return the ', '@return string the ', $code);
+
     return $code;
 }
 
