@@ -2,7 +2,7 @@
   "name": "vhqtvn/amazon-mws-psr4",
   "description": "Amazon MWS rebuild",
   "type": "library",
-  "license": "Apache",
+  "license": "Apache-2.0",
   "authors": [
     {
       "name": "Hoa Nguyen Van",
