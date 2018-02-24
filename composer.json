@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Vhqtvn\\AmazonMWS": "src/Vhqtvn/AmazonMWS"
+      "Vhqtvn\\AmazonMWS\\": "src/Vhqtvn/AmazonMWS"
     }
   },
   "autoload-dev": {
