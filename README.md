@@ -1,6 +1,6 @@
 Amazon Marketplace Webservice PSR4
 ----------------------------------
-Amazon Marketplace Webservice SDKs rewrite into PSR4.
+Amazon Marketplace Webservice SDKs in PSR4.
 
 Install using composer:
 ```bash
