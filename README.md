@@ -39,4 +39,5 @@ try {
     echo("XML: " . $ex->getXML() . "\n");
     echo("ResponseHeaderMetadata: " . $ex->getResponseHeaderMetadata() . "\n");
 } catch (\Exception $ex) {
+}
 ```
