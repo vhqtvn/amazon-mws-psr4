@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForASINResponse ext
     /**
      * Add values for GetCompetitivePricingForASINResult, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetCompetitivePricingForASINResult $GetCompetitivePricingForASINResult_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetCompetitivePricingForASINResult[] $GetCompetitivePricingForASINResult_array,...
      * @return $this
      */
     public function withGetCompetitivePricingForASINResult(...$GetCompetitivePricingForASINResult_array)

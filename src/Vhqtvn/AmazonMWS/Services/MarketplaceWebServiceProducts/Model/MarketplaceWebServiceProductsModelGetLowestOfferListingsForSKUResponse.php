@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForSKUResponse ext
     /**
      * Add values for GetLowestOfferListingsForSKUResult, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForSKUResult $GetLowestOfferListingsForSKUResult_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForSKUResult[] $GetLowestOfferListingsForSKUResult_array,...
      * @return $this
      */
     public function withGetLowestOfferListingsForSKUResult(...$GetLowestOfferListingsForSKUResult_array)

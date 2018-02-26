@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageInputList extends FbaI
     /**
      * Add values for member, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelPackageInput $member_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelPackageInput[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)

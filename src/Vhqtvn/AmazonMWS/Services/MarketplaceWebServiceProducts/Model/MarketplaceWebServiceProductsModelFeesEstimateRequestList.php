@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequestList extends Marketpl
     /**
      * Add values for FeesEstimateRequest, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateRequest $FeesEstimateRequest_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateRequest[] $FeesEstimateRequest_array,...
      * @return $this
      */
     public function withFeesEstimateRequest(...$FeesEstimateRequest_array)

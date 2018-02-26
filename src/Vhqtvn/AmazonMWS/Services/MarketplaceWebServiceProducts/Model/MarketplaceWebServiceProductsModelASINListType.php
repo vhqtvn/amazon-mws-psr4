@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelASINListType extends MarketplaceWebServi
     /**
      * Add values for ASIN, return this.
      *
-     * @param \ $ASIN_array,...
+     * @param \[] $ASIN_array,...
      * @return $this
      */
     public function withASIN(...$ASIN_array)

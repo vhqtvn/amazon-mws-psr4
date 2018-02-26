@@ -60,7 +60,7 @@ class MarketplaceWebServiceSellersModelListMarketplaces extends MarketplaceWebSe
     /**
      * Add values for Marketplace, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMarketplace $Marketplace_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMarketplace[] $Marketplace_array,...
      * @return $this
      */
     public function withMarketplace(...$Marketplace_array)

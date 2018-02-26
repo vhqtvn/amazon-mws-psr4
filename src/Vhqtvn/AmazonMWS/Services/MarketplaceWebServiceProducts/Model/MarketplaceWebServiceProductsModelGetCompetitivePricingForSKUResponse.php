@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResponse exte
     /**
      * Add values for GetCompetitivePricingForSKUResult, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResult $GetCompetitivePricingForSKUResult_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResult[] $GetCompetitivePricingForSKUResult_array,...
      * @return $this
      */
     public function withGetCompetitivePricingForSKUResult(...$GetCompetitivePricingForSKUResult_array)

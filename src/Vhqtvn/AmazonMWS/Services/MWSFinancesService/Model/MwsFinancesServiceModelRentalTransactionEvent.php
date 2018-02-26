@@ -228,7 +228,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Add values for RentalChargeList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $RentalChargeList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] $RentalChargeList_array,...
      * @return $this
      */
     public function withRentalChargeList(...$RentalChargeList_array)
@@ -283,7 +283,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Add values for RentalFeeList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $RentalFeeList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] $RentalFeeList_array,...
      * @return $this
      */
     public function withRentalFeeList(...$RentalFeeList_array)

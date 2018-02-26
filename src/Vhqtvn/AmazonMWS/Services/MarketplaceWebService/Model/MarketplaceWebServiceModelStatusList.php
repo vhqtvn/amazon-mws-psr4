@@ -53,7 +53,7 @@ class MarketplaceWebServiceModelStatusList extends MarketplaceWebServiceModel
     /**
      * Add values for Status, return this.
      *
-     * @param \ $Status_array,...
+     * @param \[] $Status_array,...
      * @return $this
      */
     public function withStatus($stringArgs, ...$Status_array)

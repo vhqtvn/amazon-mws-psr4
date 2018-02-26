@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelFeeDetailList extends MarketplaceWebServ
     /**
      * Add values for FeeDetail, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetail $FeeDetail_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetail[] $FeeDetail_array,...
      * @return $this
      */
     public function withFeeDetail(...$FeeDetail_array)

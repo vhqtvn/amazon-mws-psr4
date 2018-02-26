@@ -142,7 +142,7 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
     /**
      * Add values for AmazonOrderId, return this.
      *
-     * @param \ $AmazonOrderId_array,...
+     * @param \[] $AmazonOrderId_array,...
      * @return $this
      */
     public function withAmazonOrderId(...$AmazonOrderId_array)

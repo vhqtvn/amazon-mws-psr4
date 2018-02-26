@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelProductList extends MarketplaceWebServic
     /**
      * Add values for Product, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct $Product_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct[] $Product_array,...
      * @return $this
      */
     public function withProduct(...$Product_array)

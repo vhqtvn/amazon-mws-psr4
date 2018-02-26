@@ -330,7 +330,7 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
                                 "/**\n" .
                                 " * Add values for $prop, return this.\n" .
                                 " *\n" .
-                                " * @param \\$type_transform \$${prop}_array,...\n" .
+                                " * @param \\{$type_transform}[] \$${prop}_array,...\n" .
                                 " * @return \$this\n" .
                                 " */"
                                 ,

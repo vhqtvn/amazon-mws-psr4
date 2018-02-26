@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetMyPriceForSKUResponse extends Marketp
     /**
      * Add values for GetMyPriceForSKUResult, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyPriceForSKUResult $GetMyPriceForSKUResult_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyPriceForSKUResult[] $GetMyPriceForSKUResult_array,...
      * @return $this
      */
     public function withGetMyPriceForSKUResult(...$GetMyPriceForSKUResult_array)

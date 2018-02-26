@@ -184,7 +184,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Add values for DebtRecoveryItemList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryItem $DebtRecoveryItemList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryItem[] $DebtRecoveryItemList_array,...
      * @return $this
      */
     public function withDebtRecoveryItemList(...$DebtRecoveryItemList_array)
@@ -239,7 +239,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Add values for ChargeInstrumentList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeInstrument $ChargeInstrumentList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeInstrument[] $ChargeInstrumentList_array,...
      * @return $this
      */
     public function withChargeInstrumentList(...$ChargeInstrumentList_array)

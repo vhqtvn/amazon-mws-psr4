@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelGetProductCategoriesForASINResult extend
     /**
      * Add values for Self, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories $Self_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories[] $Self_array,...
      * @return $this
      */
     public function withSelf(...$Self_array)

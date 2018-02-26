@@ -95,7 +95,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
     /**
      * Add values for FeedSubmissionInfo, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo $FeedSubmissionInfo_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo[] $FeedSubmissionInfo_array,...
      * @return $this
      */
     public function withFeedSubmissionInfo($feedSubmissionInfoArgs, ...$FeedSubmissionInfo_array)

@@ -137,7 +137,7 @@ class MarketplaceWebServiceModelGetReportListResult extends MarketplaceWebServic
     /**
      * Add values for ReportInfo, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo $ReportInfo_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo[] $ReportInfo_array,...
      * @return $this
      */
     public function withReportInfo($reportInfoArgs, ...$ReportInfo_array)

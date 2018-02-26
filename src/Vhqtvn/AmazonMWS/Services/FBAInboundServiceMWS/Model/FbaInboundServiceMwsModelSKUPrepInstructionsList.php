@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructionsList extends FbaInboundService
     /**
      * Add values for SKUPrepInstructions, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUPrepInstructions $SKUPrepInstructions_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUPrepInstructions[] $SKUPrepInstructions_array,...
      * @return $this
      */
     public function withSKUPrepInstructions(...$SKUPrepInstructions_array)

@@ -60,7 +60,7 @@ class MwsSubscriptionsServiceModelDestinationList extends MwsSubscriptionsServic
     /**
      * Add values for member, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestination $member_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestination[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)

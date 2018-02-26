@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetMyPriceForASINResponse extends Market
     /**
      * Add values for GetMyPriceForASINResult, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyPriceForASINResult $GetMyPriceForASINResult_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyPriceForASINResult[] $GetMyPriceForASINResult_array,...
      * @return $this
      */
     public function withGetMyPriceForASINResult(...$GetMyPriceForASINResult_array)

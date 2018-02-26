@@ -269,7 +269,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Add values for FeeList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $FeeList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] $FeeList_array,...
      * @return $this
      */
     public function withFeeList(...$FeeList_array)

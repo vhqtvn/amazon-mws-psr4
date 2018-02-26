@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResponse extends 
     /**
      * Add values for GetMatchingProductForIdResult, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMatchingProductForIdResult $GetMatchingProductForIdResult_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMatchingProductForIdResult[] $GetMatchingProductForIdResult_array,...
      * @return $this
      */
     public function withGetMatchingProductForIdResult(...$GetMatchingProductForIdResult_array)

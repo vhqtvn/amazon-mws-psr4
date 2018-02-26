@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetailList extends MarketplaceW
     /**
      * Add values for Offer, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINOfferDetail $Offer_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINOfferDetail[] $Offer_array,...
      * @return $this
      */
     public function withOffer(...$Offer_array)

@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelASINPrepInstructionsList extends FbaInboundServic
     /**
      * Add values for ASINPrepInstructions, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINPrepInstructions $ASINPrepInstructions_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINPrepInstructions[] $ASINPrepInstructions_array,...
      * @return $this
      */
     public function withASINPrepInstructions(...$ASINPrepInstructions_array)

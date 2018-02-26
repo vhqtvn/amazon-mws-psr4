@@ -77,7 +77,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
     /**
      * Add values for Error, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError $Error_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError[] $Error_array,...
      * @return $this
      */
     public function withError($errorArgs, ...$Error_array)

@@ -192,7 +192,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for OrderChargeList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $OrderChargeList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] $OrderChargeList_array,...
      * @return $this
      */
     public function withOrderChargeList(...$OrderChargeList_array)
@@ -247,7 +247,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for OrderChargeAdjustmentList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $OrderChargeAdjustmentList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] $OrderChargeAdjustmentList_array,...
      * @return $this
      */
     public function withOrderChargeAdjustmentList(...$OrderChargeAdjustmentList_array)
@@ -302,7 +302,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for ShipmentFeeList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $ShipmentFeeList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] $ShipmentFeeList_array,...
      * @return $this
      */
     public function withShipmentFeeList(...$ShipmentFeeList_array)
@@ -357,7 +357,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for ShipmentFeeAdjustmentList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $ShipmentFeeAdjustmentList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] $ShipmentFeeAdjustmentList_array,...
      * @return $this
      */
     public function withShipmentFeeAdjustmentList(...$ShipmentFeeAdjustmentList_array)
@@ -412,7 +412,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for OrderFeeList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $OrderFeeList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] $OrderFeeList_array,...
      * @return $this
      */
     public function withOrderFeeList(...$OrderFeeList_array)
@@ -467,7 +467,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for OrderFeeAdjustmentList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $OrderFeeAdjustmentList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[] $OrderFeeAdjustmentList_array,...
      * @return $this
      */
     public function withOrderFeeAdjustmentList(...$OrderFeeAdjustmentList_array)
@@ -522,7 +522,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for DirectPaymentList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDirectPayment $DirectPaymentList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDirectPayment[] $DirectPaymentList_array,...
      * @return $this
      */
     public function withDirectPaymentList(...$DirectPaymentList_array)
@@ -617,7 +617,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for ShipmentItemList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentItem $ShipmentItemList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentItem[] $ShipmentItemList_array,...
      * @return $this
      */
     public function withShipmentItemList(...$ShipmentItemList_array)
@@ -672,7 +672,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for ShipmentItemAdjustmentList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentItem $ShipmentItemAdjustmentList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentItem[] $ShipmentItemAdjustmentList_array,...
      * @return $this
      */
     public function withShipmentItemAdjustmentList(...$ShipmentItemAdjustmentList_array)

@@ -60,7 +60,7 @@ class FbaOutboundServiceMwsModelStringList extends FbaOutboundServiceMwsModel
     /**
      * Add values for member, return this.
      *
-     * @param \ $member_array,...
+     * @param \[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)

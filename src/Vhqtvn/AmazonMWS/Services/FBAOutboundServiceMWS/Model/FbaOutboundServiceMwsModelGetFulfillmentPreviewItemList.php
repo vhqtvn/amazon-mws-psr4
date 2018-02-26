@@ -60,7 +60,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewItemList extends FbaOutboun
     /**
      * Add values for member, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewItem $member_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewItem[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)

@@ -67,7 +67,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for InventoryRecommendations, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelInventoryRecommendation $InventoryRecommendations_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelInventoryRecommendation[] $InventoryRecommendations_array,...
      * @return $this
      */
     public function withInventoryRecommendations(...$InventoryRecommendations_array)
@@ -122,7 +122,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for SelectionRecommendations, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelSelectionRecommendation $SelectionRecommendations_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelSelectionRecommendation[] $SelectionRecommendations_array,...
      * @return $this
      */
     public function withSelectionRecommendations(...$SelectionRecommendations_array)
@@ -177,7 +177,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for PricingRecommendations, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPricingRecommendation $PricingRecommendations_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPricingRecommendation[] $PricingRecommendations_array,...
      * @return $this
      */
     public function withPricingRecommendations(...$PricingRecommendations_array)
@@ -232,7 +232,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for FulfillmentRecommendations, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelFulfillmentRecommendation $FulfillmentRecommendations_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelFulfillmentRecommendation[] $FulfillmentRecommendations_array,...
      * @return $this
      */
     public function withFulfillmentRecommendations(...$FulfillmentRecommendations_array)
@@ -287,7 +287,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for ListingQualityRecommendations, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListingQualityRecommendation $ListingQualityRecommendations_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListingQualityRecommendation[] $ListingQualityRecommendations_array,...
      * @return $this
      */
     public function withListingQualityRecommendations(...$ListingQualityRecommendations_array)
@@ -342,7 +342,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for GlobalSellingRecommendations, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGlobalSellingRecommendation $GlobalSellingRecommendations_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGlobalSellingRecommendation[] $GlobalSellingRecommendations_array,...
      * @return $this
      */
     public function withGlobalSellingRecommendations(...$GlobalSellingRecommendations_array)
@@ -397,7 +397,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for AdvertisingRecommendations, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelAdvertisingRecommendation $AdvertisingRecommendations_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelAdvertisingRecommendation[] $AdvertisingRecommendations_array,...
      * @return $this
      */
     public function withAdvertisingRecommendations(...$AdvertisingRecommendations_array)

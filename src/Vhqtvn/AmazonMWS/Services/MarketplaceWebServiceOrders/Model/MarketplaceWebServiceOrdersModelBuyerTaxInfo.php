@@ -142,7 +142,7 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
     /**
      * Add values for TaxClassifications, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxClassification $TaxClassifications_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxClassification[] $TaxClassifications_array,...
      * @return $this
      */
     public function withTaxClassifications(...$TaxClassifications_array)

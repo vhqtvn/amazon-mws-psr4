@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResultList extends Marketpla
     /**
      * Add values for FeesEstimateResult, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateResult $FeesEstimateResult_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateResult[] $FeesEstimateResult_array,...
      * @return $this
      */
     public function withFeesEstimateResult(...$FeesEstimateResult_array)

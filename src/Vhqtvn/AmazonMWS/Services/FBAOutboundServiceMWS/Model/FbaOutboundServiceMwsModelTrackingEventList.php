@@ -60,7 +60,7 @@ class FbaOutboundServiceMwsModelTrackingEventList extends FbaOutboundServiceMwsM
     /**
      * Add values for member, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEvent $member_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEvent[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)

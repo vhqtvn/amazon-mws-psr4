@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingList extends Marketpla
     /**
      * Add values for LowestOfferListing, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestOfferListingType $LowestOfferListing_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestOfferListingType[] $LowestOfferListing_array,...
      * @return $this
      */
     public function withLowestOfferListing(...$LowestOfferListing_array)

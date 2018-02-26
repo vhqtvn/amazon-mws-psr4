@@ -101,7 +101,7 @@ class MwsFinancesServiceModelTaxWithheldComponent extends MwsFinancesServiceMode
     /**
      * Add values for TaxesWithheld, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $TaxesWithheld_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] $TaxesWithheld_array,...
      * @return $this
      */
     public function withTaxesWithheld(...$TaxesWithheld_array)

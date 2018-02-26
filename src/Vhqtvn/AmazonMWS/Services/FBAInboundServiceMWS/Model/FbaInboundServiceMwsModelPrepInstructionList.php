@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelPrepInstructionList extends FbaInboundServiceMwsM
     /**
      * Add values for PrepInstruction, return this.
      *
-     * @param \ $PrepInstruction_array,...
+     * @param \[] $PrepInstruction_array,...
      * @return $this
      */
     public function withPrepInstruction(...$PrepInstruction_array)

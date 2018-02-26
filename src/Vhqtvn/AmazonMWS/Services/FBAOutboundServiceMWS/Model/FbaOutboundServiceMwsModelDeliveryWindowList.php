@@ -60,7 +60,7 @@ class FbaOutboundServiceMwsModelDeliveryWindowList extends FbaOutboundServiceMws
     /**
      * Add values for member, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindow $member_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindow[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)

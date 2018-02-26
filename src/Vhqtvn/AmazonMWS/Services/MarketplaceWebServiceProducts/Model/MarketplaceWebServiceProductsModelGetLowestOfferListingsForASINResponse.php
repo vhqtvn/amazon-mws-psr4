@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResponse ex
     /**
      * Add values for GetLowestOfferListingsForASINResult, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult $GetLowestOfferListingsForASINResult_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult[] $GetLowestOfferListingsForASINResult_array,...
      * @return $this
      */
     public function withGetLowestOfferListingsForASINResult(...$GetLowestOfferListingsForASINResult_array)

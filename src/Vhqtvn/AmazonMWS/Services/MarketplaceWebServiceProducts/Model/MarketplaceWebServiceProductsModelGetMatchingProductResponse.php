@@ -65,7 +65,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductResponse extends Marke
     /**
      * Add values for GetMatchingProductResult, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMatchingProductResult $GetMatchingProductResult_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMatchingProductResult[] $GetMatchingProductResult_array,...
      * @return $this
      */
     public function withGetMatchingProductResult(...$GetMatchingProductResult_array)

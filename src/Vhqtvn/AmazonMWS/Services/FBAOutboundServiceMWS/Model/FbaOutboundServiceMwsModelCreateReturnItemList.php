@@ -60,7 +60,7 @@ class FbaOutboundServiceMwsModelCreateReturnItemList extends FbaOutboundServiceM
     /**
      * Add values for member, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCreateReturnItem $member_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCreateReturnItem[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)

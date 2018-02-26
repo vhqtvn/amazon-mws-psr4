@@ -60,7 +60,7 @@ class MarketplaceWebServiceSellersModelMessageList extends MarketplaceWebService
     /**
      * Add values for Message, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMessage $Message_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelMessage[] $Message_array,...
      * @return $this
      */
     public function withMessage(...$Message_array)

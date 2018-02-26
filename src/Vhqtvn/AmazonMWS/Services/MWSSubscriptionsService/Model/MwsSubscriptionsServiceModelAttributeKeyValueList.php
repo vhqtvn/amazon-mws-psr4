@@ -60,7 +60,7 @@ class MwsSubscriptionsServiceModelAttributeKeyValueList extends MwsSubscriptions
     /**
      * Add values for member, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValue $member_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValue[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)

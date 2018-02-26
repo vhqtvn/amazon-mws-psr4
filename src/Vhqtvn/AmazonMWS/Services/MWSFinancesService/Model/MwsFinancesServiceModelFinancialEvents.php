@@ -79,7 +79,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ShipmentEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent $ShipmentEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[] $ShipmentEventList_array,...
      * @return $this
      */
     public function withShipmentEventList(...$ShipmentEventList_array)
@@ -134,7 +134,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for RefundEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent $RefundEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[] $RefundEventList_array,...
      * @return $this
      */
     public function withRefundEventList(...$RefundEventList_array)
@@ -189,7 +189,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for GuaranteeClaimEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent $GuaranteeClaimEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[] $GuaranteeClaimEventList_array,...
      * @return $this
      */
     public function withGuaranteeClaimEventList(...$GuaranteeClaimEventList_array)
@@ -244,7 +244,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ChargebackEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent $ChargebackEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[] $ChargebackEventList_array,...
      * @return $this
      */
     public function withChargebackEventList(...$ChargebackEventList_array)
@@ -299,7 +299,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for PayWithAmazonEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPayWithAmazonEvent $PayWithAmazonEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPayWithAmazonEvent[] $PayWithAmazonEventList_array,...
      * @return $this
      */
     public function withPayWithAmazonEventList(...$PayWithAmazonEventList_array)
@@ -354,7 +354,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ServiceProviderCreditEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSolutionProviderCreditEvent $ServiceProviderCreditEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSolutionProviderCreditEvent[] $ServiceProviderCreditEventList_array,...
      * @return $this
      */
     public function withServiceProviderCreditEventList(...$ServiceProviderCreditEventList_array)
@@ -409,7 +409,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for RetrochargeEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRetrochargeEvent $RetrochargeEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRetrochargeEvent[] $RetrochargeEventList_array,...
      * @return $this
      */
     public function withRetrochargeEventList(...$RetrochargeEventList_array)
@@ -464,7 +464,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for RentalTransactionEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRentalTransactionEvent $RentalTransactionEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRentalTransactionEvent[] $RentalTransactionEventList_array,...
      * @return $this
      */
     public function withRentalTransactionEventList(...$RentalTransactionEventList_array)
@@ -519,7 +519,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for PerformanceBondRefundEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPerformanceBondRefundEvent $PerformanceBondRefundEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPerformanceBondRefundEvent[] $PerformanceBondRefundEventList_array,...
      * @return $this
      */
     public function withPerformanceBondRefundEventList(...$PerformanceBondRefundEventList_array)
@@ -574,7 +574,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ProductAdsPaymentEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelProductAdsPaymentEvent $ProductAdsPaymentEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelProductAdsPaymentEvent[] $ProductAdsPaymentEventList_array,...
      * @return $this
      */
     public function withProductAdsPaymentEventList(...$ProductAdsPaymentEventList_array)
@@ -629,7 +629,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ServiceFeeEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelServiceFeeEvent $ServiceFeeEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelServiceFeeEvent[] $ServiceFeeEventList_array,...
      * @return $this
      */
     public function withServiceFeeEventList(...$ServiceFeeEventList_array)
@@ -684,7 +684,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for SellerDealPaymentEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerDealPaymentEvent $SellerDealPaymentEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerDealPaymentEvent[] $SellerDealPaymentEventList_array,...
      * @return $this
      */
     public function withSellerDealPaymentEventList(...$SellerDealPaymentEventList_array)
@@ -739,7 +739,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for DebtRecoveryEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryEvent $DebtRecoveryEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryEvent[] $DebtRecoveryEventList_array,...
      * @return $this
      */
     public function withDebtRecoveryEventList(...$DebtRecoveryEventList_array)
@@ -794,7 +794,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for LoanServicingEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelLoanServicingEvent $LoanServicingEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelLoanServicingEvent[] $LoanServicingEventList_array,...
      * @return $this
      */
     public function withLoanServicingEventList(...$LoanServicingEventList_array)
@@ -849,7 +849,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for AdjustmentEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentEvent $AdjustmentEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentEvent[] $AdjustmentEventList_array,...
      * @return $this
      */
     public function withAdjustmentEventList(...$AdjustmentEventList_array)
@@ -904,7 +904,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for SAFETReimbursementEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementEvent $SAFETReimbursementEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementEvent[] $SAFETReimbursementEventList_array,...
      * @return $this
      */
     public function withSAFETReimbursementEventList(...$SAFETReimbursementEventList_array)
@@ -959,7 +959,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for SellerReviewEnrollmentPaymentEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent $SellerReviewEnrollmentPaymentEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent[] $SellerReviewEnrollmentPaymentEventList_array,...
      * @return $this
      */
     public function withSellerReviewEnrollmentPaymentEventList(...$SellerReviewEnrollmentPaymentEventList_array)
@@ -1014,7 +1014,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for FBALiquidationEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFBALiquidationEvent $FBALiquidationEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFBALiquidationEvent[] $FBALiquidationEventList_array,...
      * @return $this
      */
     public function withFBALiquidationEventList(...$FBALiquidationEventList_array)
@@ -1069,7 +1069,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for CouponPaymentEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCouponPaymentEvent $CouponPaymentEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCouponPaymentEvent[] $CouponPaymentEventList_array,...
      * @return $this
      */
     public function withCouponPaymentEventList(...$CouponPaymentEventList_array)
@@ -1124,7 +1124,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ImagingServicesFeeEventList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelImagingServicesFeeEvent $ImagingServicesFeeEventList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelImagingServicesFeeEvent[] $ImagingServicesFeeEventList_array,...
      * @return $this
      */
     public function withImagingServicesFeeEventList(...$ImagingServicesFeeEventList_array)

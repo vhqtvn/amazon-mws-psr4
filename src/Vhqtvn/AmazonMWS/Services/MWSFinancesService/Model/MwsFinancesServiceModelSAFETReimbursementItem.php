@@ -62,7 +62,7 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
     /**
      * Add values for itemChargeList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $itemChargeList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[] $itemChargeList_array,...
      * @return $this
      */
     public function withitemChargeList(...$itemChargeList_array)

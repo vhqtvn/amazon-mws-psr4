@@ -53,7 +53,7 @@ class MarketplaceWebServiceModelTypeList extends MarketplaceWebServiceModel
     /**
      * Add values for Type, return this.
      *
-     * @param \ $Type_array,...
+     * @param \[] $Type_array,...
      * @return $this
      */
     public function withType($stringArgs, ...$Type_array)

@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidanceList extends FbaInboundServiceM
     /**
      * Add values for SKUInboundGuidance, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUInboundGuidance $SKUInboundGuidance_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUInboundGuidance[] $SKUInboundGuidance_array,...
      * @return $this
      */
     public function withSKUInboundGuidance(...$SKUInboundGuidance_array)

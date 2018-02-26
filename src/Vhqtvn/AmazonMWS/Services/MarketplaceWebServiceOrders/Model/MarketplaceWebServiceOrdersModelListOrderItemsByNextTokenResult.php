@@ -142,7 +142,7 @@ class MarketplaceWebServiceOrdersModelListOrderItemsByNextTokenResult extends Ma
     /**
      * Add values for OrderItems, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrderItem $OrderItems_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrderItem[] $OrderItems_array,...
      * @return $this
      */
     public function withOrderItems(...$OrderItems_array)

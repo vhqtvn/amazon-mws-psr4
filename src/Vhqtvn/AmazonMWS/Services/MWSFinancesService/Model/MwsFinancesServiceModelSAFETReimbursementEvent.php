@@ -224,7 +224,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Add values for SAFETReimbursementItemList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementItem $SAFETReimbursementItemList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementItem[] $SAFETReimbursementItemList_array,...
      * @return $this
      */
     public function withSAFETReimbursementItemList(...$SAFETReimbursementItemList_array)

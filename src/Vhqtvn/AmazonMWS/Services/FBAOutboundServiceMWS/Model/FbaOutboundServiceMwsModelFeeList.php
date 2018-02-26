@@ -60,7 +60,7 @@ class FbaOutboundServiceMwsModelFeeList extends FbaOutboundServiceMwsModel
     /**
      * Add values for member, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFee $member_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFee[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)

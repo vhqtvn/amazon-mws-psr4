@@ -101,7 +101,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsResult extends MwsFinancesS
     /**
      * Add values for FinancialEventGroupList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEventGroup $FinancialEventGroupList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEventGroup[] $FinancialEventGroupList_array,...
      * @return $this
      */
     public function withFinancialEventGroupList(...$FinancialEventGroupList_array)

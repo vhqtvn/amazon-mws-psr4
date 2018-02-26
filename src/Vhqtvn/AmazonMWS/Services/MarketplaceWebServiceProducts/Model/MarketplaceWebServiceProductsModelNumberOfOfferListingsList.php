@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelNumberOfOfferListingsList extends Market
     /**
      * Add values for OfferListingCount, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOfferListingCountType $OfferListingCount_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOfferListingCountType[] $OfferListingCount_array,...
      * @return $this
      */
     public function withOfferListingCount(...$OfferListingCount_array)

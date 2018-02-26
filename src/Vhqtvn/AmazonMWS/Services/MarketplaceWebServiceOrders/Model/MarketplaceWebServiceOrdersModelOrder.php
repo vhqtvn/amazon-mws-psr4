@@ -615,7 +615,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Add values for PaymentExecutionDetail, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem $PaymentExecutionDetail_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem[] $PaymentExecutionDetail_array,...
      * @return $this
      */
     public function withPaymentExecutionDetail(...$PaymentExecutionDetail_array)
@@ -710,7 +710,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Add values for PaymentMethodDetails, return this.
      *
-     * @param \ $PaymentMethodDetails_array,...
+     * @param \[] $PaymentMethodDetails_array,...
      * @return $this
      */
     public function withPaymentMethodDetails(...$PaymentMethodDetails_array)

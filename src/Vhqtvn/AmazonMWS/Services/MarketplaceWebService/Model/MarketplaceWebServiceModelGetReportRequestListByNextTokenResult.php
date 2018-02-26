@@ -137,7 +137,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenResult extends Ma
     /**
      * Add values for ReportRequestInfo, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo $ReportRequestInfo_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo[] $ReportRequestInfo_array,...
      * @return $this
      */
     public function withReportRequestInfo($reportRequestInfoArgs, ...$ReportRequestInfo_array)

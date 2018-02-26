@@ -224,7 +224,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Add values for CategoryQueryList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelCategoryQuery $CategoryQueryList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelCategoryQuery[] $CategoryQueryList_array,...
      * @return $this
      */
     public function withCategoryQueryList(...$CategoryQueryList_array)

@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelSKUOfferDetailList extends MarketplaceWe
     /**
      * Add values for Offer, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetail $Offer_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetail[] $Offer_array,...
      * @return $this
      */
     public function withOffer(...$Offer_array)

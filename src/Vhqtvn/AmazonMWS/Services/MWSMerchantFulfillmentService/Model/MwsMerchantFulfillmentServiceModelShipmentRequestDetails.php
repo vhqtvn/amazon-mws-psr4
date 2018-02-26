@@ -149,7 +149,7 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Add values for ItemList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelItem $ItemList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelItem[] $ItemList_array,...
      * @return $this
      */
     public function withItemList(...$ItemList_array)

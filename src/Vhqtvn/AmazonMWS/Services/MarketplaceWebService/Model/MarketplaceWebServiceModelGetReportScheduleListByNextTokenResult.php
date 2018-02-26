@@ -137,7 +137,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult extends M
     /**
      * Add values for ReportSchedule, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule $ReportSchedule_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule[] $ReportSchedule_array,...
      * @return $this
      */
     public function withReportSchedule($reportScheduleArgs, ...$ReportSchedule_array)

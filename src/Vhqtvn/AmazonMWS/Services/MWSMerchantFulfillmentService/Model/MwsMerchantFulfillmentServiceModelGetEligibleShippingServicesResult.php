@@ -62,7 +62,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
     /**
      * Add values for ShippingServiceList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService $ShippingServiceList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService[] $ShippingServiceList_array,...
      * @return $this
      */
     public function withShippingServiceList(...$ShippingServiceList_array)
@@ -117,7 +117,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
     /**
      * Add values for TemporarilyUnavailableCarrierList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTemporarilyUnavailableCarrier $TemporarilyUnavailableCarrierList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTemporarilyUnavailableCarrier[] $TemporarilyUnavailableCarrierList_array,...
      * @return $this
      */
     public function withTemporarilyUnavailableCarrierList(...$TemporarilyUnavailableCarrierList_array)
@@ -172,7 +172,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
     /**
      * Add values for TermsAndConditionsNotAcceptedCarrierList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTermsAndConditionsNotAcceptedCarrier $TermsAndConditionsNotAcceptedCarrierList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTermsAndConditionsNotAcceptedCarrier[] $TermsAndConditionsNotAcceptedCarrierList_array,...
      * @return $this
      */
     public function withTermsAndConditionsNotAcceptedCarrierList(...$TermsAndConditionsNotAcceptedCarrierList_array)

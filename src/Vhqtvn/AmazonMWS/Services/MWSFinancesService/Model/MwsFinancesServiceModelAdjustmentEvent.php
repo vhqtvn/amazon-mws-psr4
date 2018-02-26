@@ -183,7 +183,7 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for AdjustmentItemList, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentItem $AdjustmentItemList_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentItem[] $AdjustmentItemList_array,...
      * @return $this
      */
     public function withAdjustmentItemList(...$AdjustmentItemList_array)

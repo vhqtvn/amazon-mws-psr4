@@ -183,7 +183,7 @@ class MarketplaceWebServiceOrdersModelGetServiceStatusResult extends Marketplace
     /**
      * Add values for Messages, return this.
      *
-     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMessage $Messages_array,...
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMessage[] $Messages_array,...
      * @return $this
      */
     public function withMessages(...$Messages_array)
