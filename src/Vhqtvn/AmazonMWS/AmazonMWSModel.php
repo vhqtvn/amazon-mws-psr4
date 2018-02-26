@@ -19,7 +19,7 @@ abstract class AmazonMWSModel
 {
 
     /** @var array */
-    protected $_fields = array();
+    protected $_fields = [];
 
     /**
      * Construct new model class
@@ -51,6 +51,7 @@ abstract class AmazonMWSModel
      *   $action->getProperty()
      *
      * @param string $propertyName name of the property
+     *
      * @return mixed
      */
     public function __get($propertyName)
@@ -71,7 +72,7 @@ abstract class AmazonMWSModel
      *   $action->setProperty('ABC')
      *
      * @param string $propertyName name of the property
-     * @param mixed $propertyValue
+     * @param mixed  $propertyValue
      *
      * @return $this
      */
@@ -138,7 +139,6 @@ abstract class AmazonMWSModel
                 if ($this->_isComplexType($fieldType)) {
                     $elements = $xpath->query("./*[local-name()='$fieldName']", $dom);
                     if ($elements->length == 1) {
-                        require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . str_replace('_', DIRECTORY_SEPARATOR, $fieldType) . ".php");
                         $this->_fields[$fieldName]['FieldValue'] = new $fieldType($elements->item(0));
                     }
                 } else {
@@ -188,11 +188,9 @@ abstract class AmazonMWSModel
                     if (array_key_exists($fieldName, $array)) {
                         $elements = $array[$fieldName];
                         if (!$this->_isNumericArray($elements)) {
-                            $elements = array($elements);
+                            $elements = [$elements];
                         }
                         if (count($elements) >= 1) {
-                            require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . str_replace('_', DIRECTORY_SEPARATOR, $fieldType[0]) . ".php");
-
                             foreach ($elements as $element) {
                                 $this->_fields[$fieldName]['FieldValue'][] = new $fieldType[0]($element);
                             }
@@ -202,7 +200,7 @@ abstract class AmazonMWSModel
                     if (array_key_exists($fieldName, $array)) {
                         $elements = $array[$fieldName];
                         if (!$this->_isNumericArray($elements)) {
-                            $elements = array($elements);
+                            $elements = [$elements];
                         }
                         if (count($elements) >= 1) {
                             foreach ($elements as $element) {
@@ -214,7 +212,6 @@ abstract class AmazonMWSModel
             } else {
                 if ($this->_isComplexType($fieldType)) {
                     if (array_key_exists($fieldName, $array)) {
-                        require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . str_replace('_', DIRECTORY_SEPARATOR, $fieldType) . ".php");
                         $this->_fields[$fieldName]['FieldValue'] = new $fieldType($array[$fieldName]);
                     }
                 } else {
@@ -237,7 +234,7 @@ abstract class AmazonMWSModel
 
     protected function _toQueryParameterArray($prefix)
     {
-        $arr = array();
+        $arr = [];
         foreach ($this->_fields as $fieldName => $fieldAttrs) {
             $fieldType = $fieldAttrs['FieldType'];
             $fieldValue = $fieldAttrs['FieldValue'];
@@ -250,7 +247,7 @@ abstract class AmazonMWSModel
 
     private function __toQueryParameterArray($prefix, $fieldType, $fieldValue, $fieldAttrs)
     {
-        $arr = array();
+        $arr = [];
         if (is_array($fieldType)) {
             if (isset($fieldAttrs['ListMemberName'])) {
                 $listMemberName = $fieldAttrs['ListMemberName'];
@@ -383,8 +380,8 @@ abstract class AmazonMWSModel
      */
     private function _escapeXML($str)
     {
-        $from = array("&", "<", ">", "'", "\"");
-        $to = array("&amp;", "&lt;", "&gt;", "&#039;", "&quot;");
+        $from = ["&", "<", ">", "'", "\""];
+        $to = ["&amp;", "&lt;", "&gt;", "&#039;", "&quot;"];
         return str_replace($from, $to, $str);
     }
 
@@ -392,17 +389,19 @@ abstract class AmazonMWSModel
      * Determines if field is complex type
      *
      * @param string $fieldType field type name
+     *
      * @return false|int
      */
     private function _isComplexType($fieldType)
     {
-        return substr($fieldType, 0, 26) == "\\Vhqtvn\\AmazonMWS\\Services";
+        return substr(ltrim($fieldType, "\\"), 0, 25) == "Vhqtvn\\AmazonMWS\\Services";
     }
 
     /**
      * Checks  whether passed variable is an associative array
      *
      * @param mixed $var
+     *
      * @return TRUE if passed variable is an associative array
      */
     private function _isAssociativeArray($var)
@@ -414,6 +413,7 @@ abstract class AmazonMWSModel
      * Checks  whether passed variable is DOMElement
      *
      * @param mixed $var
+     *
      * @return TRUE if passed variable is DOMElement
      */
     private function _isDOMElement($var)
@@ -425,6 +425,7 @@ abstract class AmazonMWSModel
      * Checks  whether passed variable is numeric array
      *
      * @param mixed $var
+     *
      * @return TRUE if passed variable is an numeric array
      */
     protected function _isNumericArray($var)
