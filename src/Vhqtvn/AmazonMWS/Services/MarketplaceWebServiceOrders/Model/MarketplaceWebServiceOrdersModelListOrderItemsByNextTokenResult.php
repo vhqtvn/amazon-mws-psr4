@@ -8,7 +8,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * 
  * @property	string	$NextToken
  * @property	string	$AmazonOrderId
- * @property	array	$OrderItems
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrderItem[]	$OrderItems
  */
 class MarketplaceWebServiceOrdersModelListOrderItemsByNextTokenResult extends MarketplaceWebServiceOrdersModel
 {

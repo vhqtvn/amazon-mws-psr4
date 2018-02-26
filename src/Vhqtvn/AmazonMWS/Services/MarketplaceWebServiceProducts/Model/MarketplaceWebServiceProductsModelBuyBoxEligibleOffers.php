@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxEligibleOffers
  * 
- * @property	array	$OfferCount
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOfferCountType[]	$OfferCount
  */
 class MarketplaceWebServiceProductsModelBuyBoxEligibleOffers extends MarketplaceWebServiceProductsModel
 {

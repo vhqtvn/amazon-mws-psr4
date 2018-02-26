@@ -10,7 +10,7 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
  * @property	string	$MWSAuthToken
  * @property	string	$SellerId
  * @property	string	$RecommendationCategory
- * @property	array	$CategoryQueryList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelCategoryQuery[]	$CategoryQueryList
  */
 class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends MwsRecommendationsSectionServiceModel
 {

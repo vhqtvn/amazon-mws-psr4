@@ -7,7 +7,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResult
  * 
  * @property	string	$NextToken
- * @property	array	$FinancialEventGroupList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEventGroup[]	$FinancialEventGroupList
  */
 class MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResult extends MwsFinancesServiceModel
 {

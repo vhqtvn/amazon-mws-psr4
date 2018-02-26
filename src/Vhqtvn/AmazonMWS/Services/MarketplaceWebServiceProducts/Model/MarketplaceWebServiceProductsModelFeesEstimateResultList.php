@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateResultList
  * 
- * @property	array	$FeesEstimateResult
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateResult[]	$FeesEstimateResult
  */
 class MarketplaceWebServiceProductsModelFeesEstimateResultList extends MarketplaceWebServiceProductsModel
 {

@@ -6,9 +6,9 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult
  * 
- * @property	array	$ShippingServiceList
- * @property	array	$TemporarilyUnavailableCarrierList
- * @property	array	$TermsAndConditionsNotAcceptedCarrierList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService[]	$ShippingServiceList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTemporarilyUnavailableCarrier[]	$TemporarilyUnavailableCarrierList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTermsAndConditionsNotAcceptedCarrier[]	$TermsAndConditionsNotAcceptedCarrierList
  */
 class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extends MwsMerchantFulfillmentServiceModel
 {

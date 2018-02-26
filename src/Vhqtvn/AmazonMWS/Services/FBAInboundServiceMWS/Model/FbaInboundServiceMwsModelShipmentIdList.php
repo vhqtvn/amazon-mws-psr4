@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentIdList
  * 
- * @property	array	$member
+ * @property	\[]	$member
  */
 class FbaInboundServiceMwsModelShipmentIdList extends FbaInboundServiceMwsModel
 {

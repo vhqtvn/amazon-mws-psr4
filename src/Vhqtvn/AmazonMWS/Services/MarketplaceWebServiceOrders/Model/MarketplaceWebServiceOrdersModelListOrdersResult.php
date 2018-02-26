@@ -9,7 +9,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * @property	string	$NextToken
  * @property	string	$CreatedBefore
  * @property	string	$LastUpdatedBefore
- * @property	array	$Orders
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrder[]	$Orders
  */
 class MarketplaceWebServiceOrdersModelListOrdersResult extends MarketplaceWebServiceOrdersModel
 {

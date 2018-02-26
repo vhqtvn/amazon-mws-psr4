@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxPrices
  * 
- * @property	array	$BuyBoxPrice
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxPriceType[]	$BuyBoxPrice
  */
 class MarketplaceWebServiceProductsModelBuyBoxPrices extends MarketplaceWebServiceProductsModel
 {

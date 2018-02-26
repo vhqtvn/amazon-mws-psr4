@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINListType
  * 
- * @property	array	$ASIN
+ * @property	\[]	$ASIN
  */
 class MarketplaceWebServiceProductsModelASINListType extends MarketplaceWebServiceProductsModel
 {

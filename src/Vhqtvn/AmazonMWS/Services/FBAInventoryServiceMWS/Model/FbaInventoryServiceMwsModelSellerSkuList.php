@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelSellerSkuList
  * 
- * @property	array	$member
+ * @property	\[]	$member
  */
 class FbaInventoryServiceMwsModelSellerSkuList extends FbaInventoryServiceMwsModel
 {

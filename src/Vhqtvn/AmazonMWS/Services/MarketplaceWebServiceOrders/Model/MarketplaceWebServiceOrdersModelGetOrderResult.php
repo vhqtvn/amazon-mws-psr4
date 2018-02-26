@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelGetOrderResult
  * 
- * @property	array	$Orders
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrder[]	$Orders
  */
 class MarketplaceWebServiceOrdersModelGetOrderResult extends MarketplaceWebServiceOrdersModel
 {

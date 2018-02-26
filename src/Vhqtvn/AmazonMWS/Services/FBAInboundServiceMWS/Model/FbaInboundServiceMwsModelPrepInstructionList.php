@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList
  * 
- * @property	array	$PrepInstruction
+ * @property	\[]	$PrepInstruction
  */
 class FbaInboundServiceMwsModelPrepInstructionList extends FbaInboundServiceMwsModel
 {

@@ -10,13 +10,13 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * @property	string	$OrderItemId
  * @property	string	$OrderAdjustmentItemId
  * @property	int	$QuantityShipped
- * @property	array	$ItemChargeList
- * @property	array	$ItemChargeAdjustmentList
- * @property	array	$ItemFeeList
- * @property	array	$ItemFeeAdjustmentList
- * @property	array	$ItemTaxWithheldList
- * @property	array	$PromotionList
- * @property	array	$PromotionAdjustmentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[]	$ItemChargeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[]	$ItemChargeAdjustmentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$ItemFeeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$ItemFeeAdjustmentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelTaxWithheldComponent[]	$ItemTaxWithheldList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPromotion[]	$PromotionList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPromotion[]	$PromotionAdjustmentList
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$CostOfPointsGranted
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$CostOfPointsReturned
  */

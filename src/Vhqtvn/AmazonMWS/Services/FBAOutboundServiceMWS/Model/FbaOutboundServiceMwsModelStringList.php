@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelStringList
  * 
- * @property	array	$member
+ * @property	\[]	$member
  */
 class FbaOutboundServiceMwsModelStringList extends FbaOutboundServiceMwsModel
 {

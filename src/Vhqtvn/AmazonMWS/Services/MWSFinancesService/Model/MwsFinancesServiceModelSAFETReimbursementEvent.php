@@ -10,7 +10,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * @property	string	$SAFETClaimId
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$ReimbursedAmount
  * @property	string	$ReasonCode
- * @property	array	$SAFETReimbursementItemList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementItem[]	$SAFETReimbursementItemList
  */
 class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceModel
 {

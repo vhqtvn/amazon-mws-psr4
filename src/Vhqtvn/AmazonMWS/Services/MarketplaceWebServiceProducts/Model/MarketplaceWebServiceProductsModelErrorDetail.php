@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelErrorDetail
  * 
- * @property	array	$Any
+ * @property	\[]	$Any
  */
 class MarketplaceWebServiceProductsModelErrorDetail extends MarketplaceWebServiceProductsModel
 {

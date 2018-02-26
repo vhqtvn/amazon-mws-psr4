@@ -6,13 +6,13 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenResult
  * 
- * @property	array	$InventoryRecommendations
- * @property	array	$SelectionRecommendations
- * @property	array	$PricingRecommendations
- * @property	array	$FulfillmentRecommendations
- * @property	array	$ListingQualityRecommendations
- * @property	array	$GlobalSellingRecommendations
- * @property	array	$AdvertisingRecommendations
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelInventoryRecommendation[]	$InventoryRecommendations
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelSelectionRecommendation[]	$SelectionRecommendations
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPricingRecommendation[]	$PricingRecommendations
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelFulfillmentRecommendation[]	$FulfillmentRecommendations
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListingQualityRecommendation[]	$ListingQualityRecommendations
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGlobalSellingRecommendation[]	$GlobalSellingRecommendations
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelAdvertisingRecommendation[]	$AdvertisingRecommendations
  * @property	string	$NextToken
  */
 class MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenResult extends MwsRecommendationsSectionServiceModel

@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelIdListType
  * 
- * @property	array	$Id
+ * @property	\[]	$Id
  */
 class MarketplaceWebServiceProductsModelIdListType extends MarketplaceWebServiceProductsModel
 {

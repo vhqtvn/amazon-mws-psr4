@@ -9,7 +9,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * @property	string	$ImagingRequestBillingItemID
  * @property	string	$ASIN
  * @property	string	$PostedDate
- * @property	array	$FeeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$FeeList
  */
 class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceModel
 {

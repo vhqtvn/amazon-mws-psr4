@@ -10,8 +10,8 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * @property	string	$RentalEventType
  * @property	int	$ExtensionLength
  * @property	string	$PostedDate
- * @property	array	$RentalChargeList
- * @property	array	$RentalFeeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[]	$RentalChargeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$RentalFeeList
  * @property	string	$MarketplaceName
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$RentalInitialValue
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$RentalReimbursement

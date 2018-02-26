@@ -8,7 +8,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * 
  * @property	string	$SellerId
  * @property	string	$MWSAuthToken
- * @property	array	$AmazonOrderId
+ * @property	\[]	$AmazonOrderId
  */
 class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServiceOrdersModel
 {

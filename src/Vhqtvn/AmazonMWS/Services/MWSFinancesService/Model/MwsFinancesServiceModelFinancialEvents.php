@@ -6,26 +6,26 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEvents
  * 
- * @property	array	$ShipmentEventList
- * @property	array	$RefundEventList
- * @property	array	$GuaranteeClaimEventList
- * @property	array	$ChargebackEventList
- * @property	array	$PayWithAmazonEventList
- * @property	array	$ServiceProviderCreditEventList
- * @property	array	$RetrochargeEventList
- * @property	array	$RentalTransactionEventList
- * @property	array	$PerformanceBondRefundEventList
- * @property	array	$ProductAdsPaymentEventList
- * @property	array	$ServiceFeeEventList
- * @property	array	$SellerDealPaymentEventList
- * @property	array	$DebtRecoveryEventList
- * @property	array	$LoanServicingEventList
- * @property	array	$AdjustmentEventList
- * @property	array	$SAFETReimbursementEventList
- * @property	array	$SellerReviewEnrollmentPaymentEventList
- * @property	array	$FBALiquidationEventList
- * @property	array	$CouponPaymentEventList
- * @property	array	$ImagingServicesFeeEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[]	$ShipmentEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[]	$RefundEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[]	$GuaranteeClaimEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent[]	$ChargebackEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPayWithAmazonEvent[]	$PayWithAmazonEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSolutionProviderCreditEvent[]	$ServiceProviderCreditEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRetrochargeEvent[]	$RetrochargeEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRentalTransactionEvent[]	$RentalTransactionEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPerformanceBondRefundEvent[]	$PerformanceBondRefundEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelProductAdsPaymentEvent[]	$ProductAdsPaymentEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelServiceFeeEvent[]	$ServiceFeeEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerDealPaymentEvent[]	$SellerDealPaymentEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryEvent[]	$DebtRecoveryEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelLoanServicingEvent[]	$LoanServicingEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentEvent[]	$AdjustmentEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementEvent[]	$SAFETReimbursementEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent[]	$SellerReviewEnrollmentPaymentEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFBALiquidationEvent[]	$FBALiquidationEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCouponPaymentEvent[]	$CouponPaymentEventList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelImagingServicesFeeEvent[]	$ImagingServicesFeeEventList
  */
 class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
 {

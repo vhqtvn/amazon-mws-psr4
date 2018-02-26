@@ -147,7 +147,7 @@ function generate_from_global_base($depth, $global_base, $lib_name, $src_path, $
     $new_code = $prettyPrinter->prettyPrintFile($ast);
 //    $dumper = new NodeDumper;
 //    echo $dumper->dump($ast) . "\n";
-    $new_code = final_text_transform($new_code, $lib_name, $dst_ns, $base_ns);
+    $new_code = final_text_transform($src_path, $new_code, $lib_name, $dst_ns, $base_ns);
 
     file_put_contents(make_dst_path($dst_path, $class_name_transformer->lastDeclaredClassName()), $new_code);
 }
@@ -381,7 +381,7 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
 //    $dumper = new NodeDumper;
 //    echo $dumper->dump($ast) . "\n";
 
-    $new_code = final_text_transform($new_code, $lib_name, $dst_ns, $base_ns);
+    $new_code = final_text_transform($src_path, $new_code, $lib_name, $dst_ns, $base_ns);
 
     file_put_contents(make_dst_path($dst_path, $class_name_transformer->lastDeclaredClassName()), $new_code);
 
@@ -420,7 +420,7 @@ function special_name_transform($name)
     return $name;
 }
 
-function final_text_transform($code, $lib_name, $dst_ns, $base_ns)
+function final_text_transform($src_path, $code, $lib_name, $dst_ns, $base_ns)
 {
     // move license block to the top
     if (preg_match_all('@^/\*.*?\*/\n@ism', $code, $m)) {
@@ -462,14 +462,16 @@ function final_text_transform($code, $lib_name, $dst_ns, $base_ns)
     $ast = $parser->parse($code);
 
     $traverser = new NodeTraverser();
-    $traverser->addVisitor(new class($lib_name, $dst_ns, $base_ns) extends NodeVisitorAbstract
+    $traverser->addVisitor(new class($src_path, $lib_name, $dst_ns, $base_ns) extends NodeVisitorAbstract
     {
+        private $path;
         private $lib_name;
         private $dst_ns;
         private $base_ns;
 
-        function __construct($lib_name, $dst_ns, $base_ns)
+        function __construct($path, $lib_name, $dst_ns, $base_ns)
         {
+            $this->path = $path;
             $this->lib_name = $lib_name;
             $this->dst_ns = $dst_ns;
             $this->base_ns = $base_ns;
@@ -541,6 +543,24 @@ function final_text_transform($code, $lib_name, $dst_ns, $base_ns)
                                     $props[] = ['name' => $name, 'type' => $type];
                                 }
                                 return implode("\n", array_map(function ($prop) {
+                                    if ($prop['type'] === 'array') {
+                                        exec($cmd = 'php ' . implode(' ', array_map('escapeshellarg', [
+                                                base_path('/scripts/tools/get_field_type.php'),
+                                                $this->path,
+                                                $prop['name']
+                                            ])), $out, $res);
+                                        if ($res) {
+                                            var_dump($cmd, $out, $res);
+                                            exit;
+                                        }
+                                        $type = $out[0];
+                                        $type_transform = name_transform($type, $this->lib_name, $this->base_ns);
+                                        if ($type_transform === $type) {
+                                            var_dump($type_transform, $type);
+                                            exit;
+                                        }
+                                        $prop['type'] = '\\' . $type_transform . '[]';
+                                    }
                                     return " * @property\t{$prop['type']}\t\${$prop['name']}";
                                 }, $props));
                             }, $doc_text_new);

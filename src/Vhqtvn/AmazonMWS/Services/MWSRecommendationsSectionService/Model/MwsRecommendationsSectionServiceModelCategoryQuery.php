@@ -7,7 +7,7 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelCategoryQuery
  * 
  * @property	string	$RecommendationCategory
- * @property	array	$FilterOptions
+ * @property	\[]	$FilterOptions
  */
 class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendationsSectionServiceModel
 {

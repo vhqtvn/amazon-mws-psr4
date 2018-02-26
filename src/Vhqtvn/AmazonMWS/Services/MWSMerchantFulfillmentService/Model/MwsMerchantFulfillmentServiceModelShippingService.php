@@ -15,7 +15,7 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
  * @property	string	$LatestEstimatedDeliveryDate
  * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount	$Rate
  * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions	$ShippingServiceOptions
- * @property	array	$AvailableLabelFormats
+ * @property	\[]	$AvailableLabelFormats
  */
 class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfillmentServiceModel
 {

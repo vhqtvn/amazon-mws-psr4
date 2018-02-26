@@ -9,7 +9,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * @property	string	$Status
  * @property	string	$Timestamp
  * @property	string	$MessageId
- * @property	array	$Messages
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMessage[]	$Messages
  */
 class MarketplaceWebServiceOrdersModelGetServiceStatusResult extends MarketplaceWebServiceOrdersModel
 {

@@ -8,7 +8,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * 
  * @property	string	$MarketplaceCountryCode
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$Amount
- * @property	array	$ProductGroupList
+ * @property	\[]	$ProductGroupList
  */
 class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServiceModel
 {

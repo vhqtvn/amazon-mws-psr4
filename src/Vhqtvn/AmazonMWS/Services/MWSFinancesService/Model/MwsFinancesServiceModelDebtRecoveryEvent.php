@@ -9,8 +9,8 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * @property	string	$DebtRecoveryType
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$RecoveryAmount
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$OverPaymentCredit
- * @property	array	$DebtRecoveryItemList
- * @property	array	$ChargeInstrumentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryItem[]	$DebtRecoveryItemList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeInstrument[]	$ChargeInstrumentList
  */
 class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
 {

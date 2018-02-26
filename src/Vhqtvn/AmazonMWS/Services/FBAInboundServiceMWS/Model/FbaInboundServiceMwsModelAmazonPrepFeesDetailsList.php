@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetailsList
  * 
- * @property	array	$AmazonPrepFeesDetails
+ * @property	\Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetails[]	$AmazonPrepFeesDetails
  */
 class FbaInboundServiceMwsModelAmazonPrepFeesDetailsList extends FbaInboundServiceMwsModel
 {

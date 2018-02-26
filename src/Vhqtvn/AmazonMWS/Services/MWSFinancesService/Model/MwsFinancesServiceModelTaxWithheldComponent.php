@@ -7,7 +7,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelTaxWithheldComponent
  * 
  * @property	string	$TaxCollectionModel
- * @property	array	$TaxesWithheld
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[]	$TaxesWithheld
  */
 class MwsFinancesServiceModelTaxWithheldComponent extends MwsFinancesServiceModel
 {

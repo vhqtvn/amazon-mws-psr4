@@ -9,16 +9,16 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * @property	string	$AmazonOrderId
  * @property	string	$SellerOrderId
  * @property	string	$MarketplaceName
- * @property	array	$OrderChargeList
- * @property	array	$OrderChargeAdjustmentList
- * @property	array	$ShipmentFeeList
- * @property	array	$ShipmentFeeAdjustmentList
- * @property	array	$OrderFeeList
- * @property	array	$OrderFeeAdjustmentList
- * @property	array	$DirectPaymentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[]	$OrderChargeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent[]	$OrderChargeAdjustmentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$ShipmentFeeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$ShipmentFeeAdjustmentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$OrderFeeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$OrderFeeAdjustmentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDirectPayment[]	$DirectPaymentList
  * @property	string	$PostedDate
- * @property	array	$ShipmentItemList
- * @property	array	$ShipmentItemAdjustmentList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentItem[]	$ShipmentItemList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentItem[]	$ShipmentItemAdjustmentList
  */
 class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
 {

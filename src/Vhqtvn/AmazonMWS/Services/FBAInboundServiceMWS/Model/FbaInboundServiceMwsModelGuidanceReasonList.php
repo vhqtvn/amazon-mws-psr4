@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList
  * 
- * @property	array	$GuidanceReason
+ * @property	\[]	$GuidanceReason
  */
 class FbaInboundServiceMwsModelGuidanceReasonList extends FbaInboundServiceMwsModel
 {

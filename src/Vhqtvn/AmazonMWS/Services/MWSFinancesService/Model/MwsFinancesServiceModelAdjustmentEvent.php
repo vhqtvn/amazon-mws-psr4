@@ -9,7 +9,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * @property	string	$AdjustmentType
  * @property	string	$PostedDate
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$AdjustmentAmount
- * @property	array	$AdjustmentItemList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentItem[]	$AdjustmentItemList
  */
 class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
 {

@@ -12,14 +12,14 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * @property	string	$CreatedBefore
  * @property	string	$LastUpdatedAfter
  * @property	string	$LastUpdatedBefore
- * @property	array	$OrderStatus
- * @property	array	$MarketplaceId
- * @property	array	$FulfillmentChannel
- * @property	array	$PaymentMethod
+ * @property	\[]	$OrderStatus
+ * @property	\[]	$MarketplaceId
+ * @property	\[]	$FulfillmentChannel
+ * @property	\[]	$PaymentMethod
  * @property	string	$BuyerEmail
  * @property	string	$SellerOrderId
  * @property	int	$MaxResultsPerPage
- * @property	array	$TFMShipmentStatus
+ * @property	\[]	$TFMShipmentStatus
  */
 class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebServiceOrdersModel
 {

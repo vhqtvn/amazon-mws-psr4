@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelShippingSpeedCategoryList
  * 
- * @property	array	$member
+ * @property	\[]	$member
  */
 class FbaOutboundServiceMwsModelShippingSpeedCategoryList extends FbaOutboundServiceMwsModel
 {

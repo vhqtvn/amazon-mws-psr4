@@ -8,7 +8,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * 
  * @property	string	$AmazonOrderId
  * @property	string	$FeeReason
- * @property	array	$FeeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$FeeList
  * @property	string	$SellerSKU
  * @property	string	$FnSKU
  * @property	string	$FeeDescription

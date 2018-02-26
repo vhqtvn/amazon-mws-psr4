@@ -11,7 +11,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * @property	string	$BusinessObjectType
  * @property	string	$SalesChannel
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent	$Charge
- * @property	array	$FeeList
+ * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent[]	$FeeList
  * @property	string	$PaymentAmountType
  * @property	string	$AmountDescription
  * @property	string	$FulfillmentChannel

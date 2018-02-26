@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUListType
  * 
- * @property	array	$SellerSKU
+ * @property	\[]	$SellerSKU
  */
 class MarketplaceWebServiceProductsModelSellerSKUListType extends MarketplaceWebServiceProductsModel
 {

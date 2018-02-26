@@ -19,9 +19,9 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney	$OrderTotal
  * @property	int	$NumberOfItemsShipped
  * @property	int	$NumberOfItemsUnshipped
- * @property	array	$PaymentExecutionDetail
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem[]	$PaymentExecutionDetail
  * @property	string	$PaymentMethod
- * @property	array	$PaymentMethodDetails
+ * @property	\[]	$PaymentMethodDetails
  * @property	string	$MarketplaceId
  * @property	string	$BuyerEmail
  * @property	string	$BuyerName

@@ -8,7 +8,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * 
  * @property	string	$CompanyLegalName
  * @property	string	$TaxingRegion
- * @property	array	$TaxClassifications
+ * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxClassification[]	$TaxClassifications
  */
 class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebServiceOrdersModel
 {
