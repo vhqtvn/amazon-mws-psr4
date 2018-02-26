@@ -49,14 +49,12 @@ class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
     /**
      * Set the value of TransportStatus, return this.
      *
-     * @param transportStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TransportStatus
+     * @return $this
      */
-    public function withTransportStatus($value)
+    public function withTransportStatus($TransportStatus)
     {
-        $this->setTransportStatus($value);
+        $this->setTransportStatus($TransportStatus);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
     /**
      * Set the value of ErrorCode, return this.
      *
-     * @param errorCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ErrorCode
+     * @return $this
      */
-    public function withErrorCode($value)
+    public function withErrorCode($ErrorCode)
     {
-        $this->setErrorCode($value);
+        $this->setErrorCode($ErrorCode);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
     /**
      * Set the value of ErrorDescription, return this.
      *
-     * @param errorDescription
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ErrorDescription
+     * @return $this
      */
-    public function withErrorDescription($value)
+    public function withErrorDescription($ErrorDescription)
     {
-        $this->setErrorDescription($value);
+        $this->setErrorDescription($ErrorDescription);
         return $this;
     }
 }

@@ -60,14 +60,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -102,14 +100,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -144,14 +140,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Set the value of CreatedAfter, return this.
      *
-     * @param createdAfter
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CreatedAfter
+     * @return $this
      */
-    public function withCreatedAfter($value)
+    public function withCreatedAfter($CreatedAfter)
     {
-        $this->setCreatedAfter($value);
+        $this->setCreatedAfter($CreatedAfter);
         return $this;
     }
     /**
@@ -186,14 +180,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Set the value of CreatedBefore, return this.
      *
-     * @param createdBefore
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CreatedBefore
+     * @return $this
      */
-    public function withCreatedBefore($value)
+    public function withCreatedBefore($CreatedBefore)
     {
-        $this->setCreatedBefore($value);
+        $this->setCreatedBefore($CreatedBefore);
         return $this;
     }
     /**
@@ -228,14 +220,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Set the value of LastUpdatedAfter, return this.
      *
-     * @param lastUpdatedAfter
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LastUpdatedAfter
+     * @return $this
      */
-    public function withLastUpdatedAfter($value)
+    public function withLastUpdatedAfter($LastUpdatedAfter)
     {
-        $this->setLastUpdatedAfter($value);
+        $this->setLastUpdatedAfter($LastUpdatedAfter);
         return $this;
     }
     /**
@@ -270,14 +260,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Set the value of LastUpdatedBefore, return this.
      *
-     * @param lastUpdatedBefore
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LastUpdatedBefore
+     * @return $this
      */
-    public function withLastUpdatedBefore($value)
+    public function withLastUpdatedBefore($LastUpdatedBefore)
     {
-        $this->setLastUpdatedBefore($value);
+        $this->setLastUpdatedBefore($LastUpdatedBefore);
         return $this;
     }
     /**
@@ -325,14 +313,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for OrderStatus, return this.
      *
-     * @param orderStatus
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $OrderStatus_array,...
+     * @return $this
      */
-    public function withOrderStatus()
+    public function withOrderStatus(...$OrderStatus_array)
     {
-        foreach (func_get_args() as $OrderStatus) {
+        foreach ($OrderStatus_array as $OrderStatus) {
             $this->_fields['OrderStatus']['FieldValue'][] = $OrderStatus;
         }
         return $this;
@@ -382,14 +368,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $MarketplaceId_array,...
+     * @return $this
      */
-    public function withMarketplaceId()
+    public function withMarketplaceId(...$MarketplaceId_array)
     {
-        foreach (func_get_args() as $MarketplaceId) {
+        foreach ($MarketplaceId_array as $MarketplaceId) {
             $this->_fields['MarketplaceId']['FieldValue'][] = $MarketplaceId;
         }
         return $this;
@@ -439,14 +423,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for FulfillmentChannel, return this.
      *
-     * @param fulfillmentChannel
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $FulfillmentChannel_array,...
+     * @return $this
      */
-    public function withFulfillmentChannel()
+    public function withFulfillmentChannel(...$FulfillmentChannel_array)
     {
-        foreach (func_get_args() as $FulfillmentChannel) {
+        foreach ($FulfillmentChannel_array as $FulfillmentChannel) {
             $this->_fields['FulfillmentChannel']['FieldValue'][] = $FulfillmentChannel;
         }
         return $this;
@@ -496,14 +478,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for PaymentMethod, return this.
      *
-     * @param paymentMethod
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $PaymentMethod_array,...
+     * @return $this
      */
-    public function withPaymentMethod()
+    public function withPaymentMethod(...$PaymentMethod_array)
     {
-        foreach (func_get_args() as $PaymentMethod) {
+        foreach ($PaymentMethod_array as $PaymentMethod) {
             $this->_fields['PaymentMethod']['FieldValue'][] = $PaymentMethod;
         }
         return $this;
@@ -540,14 +520,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Set the value of BuyerEmail, return this.
      *
-     * @param buyerEmail
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $BuyerEmail
+     * @return $this
      */
-    public function withBuyerEmail($value)
+    public function withBuyerEmail($BuyerEmail)
     {
-        $this->setBuyerEmail($value);
+        $this->setBuyerEmail($BuyerEmail);
         return $this;
     }
     /**
@@ -582,14 +560,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Set the value of SellerOrderId, return this.
      *
-     * @param sellerOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerOrderId
+     * @return $this
      */
-    public function withSellerOrderId($value)
+    public function withSellerOrderId($SellerOrderId)
     {
-        $this->setSellerOrderId($value);
+        $this->setSellerOrderId($SellerOrderId);
         return $this;
     }
     /**
@@ -624,14 +600,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Set the value of MaxResultsPerPage, return this.
      *
-     * @param maxResultsPerPage
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $MaxResultsPerPage
+     * @return $this
      */
-    public function withMaxResultsPerPage($value)
+    public function withMaxResultsPerPage($MaxResultsPerPage)
     {
-        $this->setMaxResultsPerPage($value);
+        $this->setMaxResultsPerPage($MaxResultsPerPage);
         return $this;
     }
     /**
@@ -679,14 +653,12 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for TFMShipmentStatus, return this.
      *
-     * @param tfmShipmentStatus
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $TFMShipmentStatus_array,...
+     * @return $this
      */
-    public function withTFMShipmentStatus()
+    public function withTFMShipmentStatus(...$TFMShipmentStatus_array)
     {
-        foreach (func_get_args() as $TFMShipmentStatus) {
+        foreach ($TFMShipmentStatus_array as $TFMShipmentStatus) {
             $this->_fields['TFMShipmentStatus']['FieldValue'][] = $TFMShipmentStatus;
         }
         return $this;

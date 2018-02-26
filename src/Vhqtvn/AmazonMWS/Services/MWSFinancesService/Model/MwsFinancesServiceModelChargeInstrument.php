@@ -49,14 +49,12 @@ class MwsFinancesServiceModelChargeInstrument extends MwsFinancesServiceModel
     /**
      * Set the value of Description, return this.
      *
-     * @param description
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Description
+     * @return $this
      */
-    public function withDescription($value)
+    public function withDescription($Description)
     {
-        $this->setDescription($value);
+        $this->setDescription($Description);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MwsFinancesServiceModelChargeInstrument extends MwsFinancesServiceModel
     /**
      * Set the value of Tail, return this.
      *
-     * @param tail
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Tail
+     * @return $this
      */
-    public function withTail($value)
+    public function withTail($Tail)
     {
-        $this->setTail($value);
+        $this->setTail($Tail);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MwsFinancesServiceModelChargeInstrument extends MwsFinancesServiceModel
     /**
      * Set the value of Amount, return this.
      *
-     * @param amount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $Amount
+     * @return $this
      */
-    public function withAmount($value)
+    public function withAmount($Amount)
     {
-        $this->setAmount($value);
+        $this->setAmount($Amount);
         return $this;
     }
 }

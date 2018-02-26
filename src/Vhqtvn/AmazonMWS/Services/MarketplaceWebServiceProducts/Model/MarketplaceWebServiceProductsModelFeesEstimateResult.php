@@ -50,14 +50,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
     /**
      * Set the value of Status, return this.
      *
-     * @param status
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Status
+     * @return $this
      */
-    public function withStatus($value)
+    public function withStatus($Status)
     {
-        $this->setStatus($value);
+        $this->setStatus($Status);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
     /**
      * Set the value of FeesEstimateIdentifier, return this.
      *
-     * @param feesEstimateIdentifier
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateIdentifier $FeesEstimateIdentifier
+     * @return $this
      */
-    public function withFeesEstimateIdentifier($value)
+    public function withFeesEstimateIdentifier($FeesEstimateIdentifier)
     {
-        $this->setFeesEstimateIdentifier($value);
+        $this->setFeesEstimateIdentifier($FeesEstimateIdentifier);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
     /**
      * Set the value of FeesEstimate, return this.
      *
-     * @param feesEstimate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimate $FeesEstimate
+     * @return $this
      */
-    public function withFeesEstimate($value)
+    public function withFeesEstimate($FeesEstimate)
     {
-        $this->setFeesEstimate($value);
+        $this->setFeesEstimate($FeesEstimate);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
     /**
      * Set the value of Error, return this.
      *
-     * @param error
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError $Error
+     * @return $this
      */
-    public function withError($value)
+    public function withError($Error)
     {
-        $this->setError($value);
+        $this->setError($Error);
         return $this;
     }
 }

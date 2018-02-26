@@ -50,14 +50,12 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
     /**
      * Set the value of InvoiceRequirement, return this.
      *
-     * @param invoiceRequirement
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $InvoiceRequirement
+     * @return $this
      */
-    public function withInvoiceRequirement($value)
+    public function withInvoiceRequirement($InvoiceRequirement)
     {
-        $this->setInvoiceRequirement($value);
+        $this->setInvoiceRequirement($InvoiceRequirement);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
     /**
      * Set the value of BuyerSelectedInvoiceCategory, return this.
      *
-     * @param buyerSelectedInvoiceCategory
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $BuyerSelectedInvoiceCategory
+     * @return $this
      */
-    public function withBuyerSelectedInvoiceCategory($value)
+    public function withBuyerSelectedInvoiceCategory($BuyerSelectedInvoiceCategory)
     {
-        $this->setBuyerSelectedInvoiceCategory($value);
+        $this->setBuyerSelectedInvoiceCategory($BuyerSelectedInvoiceCategory);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
     /**
      * Set the value of InvoiceTitle, return this.
      *
-     * @param invoiceTitle
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $InvoiceTitle
+     * @return $this
      */
-    public function withInvoiceTitle($value)
+    public function withInvoiceTitle($InvoiceTitle)
     {
-        $this->setInvoiceTitle($value);
+        $this->setInvoiceTitle($InvoiceTitle);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
     /**
      * Set the value of InvoiceInformation, return this.
      *
-     * @param invoiceInformation
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $InvoiceInformation
+     * @return $this
      */
-    public function withInvoiceInformation($value)
+    public function withInvoiceInformation($InvoiceInformation)
     {
-        $this->setInvoiceInformation($value);
+        $this->setInvoiceInformation($InvoiceInformation);
         return $this;
     }
 }

@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelListInboundShipmentItemsByNextTokenResult extends
     /**
      * Set the value of ItemData, return this.
      *
-     * @param itemData
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentItemList $ItemData
+     * @return $this
      */
-    public function withItemData($value)
+    public function withItemData($ItemData)
     {
-        $this->setItemData($value);
+        $this->setItemData($ItemData);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelListInboundShipmentItemsByNextTokenResult extends
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
 }

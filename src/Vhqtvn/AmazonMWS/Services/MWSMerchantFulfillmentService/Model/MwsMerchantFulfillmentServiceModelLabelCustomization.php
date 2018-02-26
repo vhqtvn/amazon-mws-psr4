@@ -48,14 +48,12 @@ class MwsMerchantFulfillmentServiceModelLabelCustomization extends MwsMerchantFu
     /**
      * Set the value of CustomTextForLabel, return this.
      *
-     * @param customTextForLabel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CustomTextForLabel
+     * @return $this
      */
-    public function withCustomTextForLabel($value)
+    public function withCustomTextForLabel($CustomTextForLabel)
     {
-        $this->setCustomTextForLabel($value);
+        $this->setCustomTextForLabel($CustomTextForLabel);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsMerchantFulfillmentServiceModelLabelCustomization extends MwsMerchantFu
     /**
      * Set the value of StandardIdForLabel, return this.
      *
-     * @param standardIdForLabel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $StandardIdForLabel
+     * @return $this
      */
-    public function withStandardIdForLabel($value)
+    public function withStandardIdForLabel($StandardIdForLabel)
     {
-        $this->setStandardIdForLabel($value);
+        $this->setStandardIdForLabel($StandardIdForLabel);
         return $this;
     }
 }

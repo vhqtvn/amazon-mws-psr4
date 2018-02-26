@@ -52,14 +52,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenRespons
     /**
      * Set the value of ListRecommendationsByNextTokenResult, return this.
      *
-     * @param listRecommendationsByNextTokenResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenResult $ListRecommendationsByNextTokenResult
+     * @return $this
      */
-    public function withListRecommendationsByNextTokenResult($value)
+    public function withListRecommendationsByNextTokenResult($ListRecommendationsByNextTokenResult)
     {
-        $this->setListRecommendationsByNextTokenResult($value);
+        $this->setListRecommendationsByNextTokenResult($ListRecommendationsByNextTokenResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenRespons
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsByNextTokenRespons
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

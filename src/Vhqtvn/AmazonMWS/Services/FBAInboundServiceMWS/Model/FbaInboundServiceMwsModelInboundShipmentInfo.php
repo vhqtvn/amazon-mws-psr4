@@ -56,14 +56,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of ShipmentId, return this.
      *
-     * @param shipmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentId
+     * @return $this
      */
-    public function withShipmentId($value)
+    public function withShipmentId($ShipmentId)
     {
-        $this->setShipmentId($value);
+        $this->setShipmentId($ShipmentId);
         return $this;
     }
     /**
@@ -98,14 +96,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of ShipmentName, return this.
      *
-     * @param shipmentName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentName
+     * @return $this
      */
-    public function withShipmentName($value)
+    public function withShipmentName($ShipmentName)
     {
-        $this->setShipmentName($value);
+        $this->setShipmentName($ShipmentName);
         return $this;
     }
     /**
@@ -140,14 +136,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of ShipFromAddress, return this.
      *
-     * @param shipFromAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress $ShipFromAddress
+     * @return $this
      */
-    public function withShipFromAddress($value)
+    public function withShipFromAddress($ShipFromAddress)
     {
-        $this->setShipFromAddress($value);
+        $this->setShipFromAddress($ShipFromAddress);
         return $this;
     }
     /**
@@ -182,14 +176,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of DestinationFulfillmentCenterId, return this.
      *
-     * @param destinationFulfillmentCenterId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DestinationFulfillmentCenterId
+     * @return $this
      */
-    public function withDestinationFulfillmentCenterId($value)
+    public function withDestinationFulfillmentCenterId($DestinationFulfillmentCenterId)
     {
-        $this->setDestinationFulfillmentCenterId($value);
+        $this->setDestinationFulfillmentCenterId($DestinationFulfillmentCenterId);
         return $this;
     }
     /**
@@ -224,14 +216,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of ShipmentStatus, return this.
      *
-     * @param shipmentStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentStatus
+     * @return $this
      */
-    public function withShipmentStatus($value)
+    public function withShipmentStatus($ShipmentStatus)
     {
-        $this->setShipmentStatus($value);
+        $this->setShipmentStatus($ShipmentStatus);
         return $this;
     }
     /**
@@ -266,14 +256,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of LabelPrepType, return this.
      *
-     * @param labelPrepType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LabelPrepType
+     * @return $this
      */
-    public function withLabelPrepType($value)
+    public function withLabelPrepType($LabelPrepType)
     {
-        $this->setLabelPrepType($value);
+        $this->setLabelPrepType($LabelPrepType);
         return $this;
     }
     /**
@@ -317,14 +305,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of AreCasesRequired, return this.
      *
-     * @param areCasesRequired
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $AreCasesRequired
+     * @return $this
      */
-    public function withAreCasesRequired($value)
+    public function withAreCasesRequired($AreCasesRequired)
     {
-        $this->setAreCasesRequired($value);
+        $this->setAreCasesRequired($AreCasesRequired);
         return $this;
     }
     /**
@@ -359,14 +345,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of ConfirmedNeedByDate, return this.
      *
-     * @param confirmedNeedByDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ConfirmedNeedByDate
+     * @return $this
      */
-    public function withConfirmedNeedByDate($value)
+    public function withConfirmedNeedByDate($ConfirmedNeedByDate)
     {
-        $this->setConfirmedNeedByDate($value);
+        $this->setConfirmedNeedByDate($ConfirmedNeedByDate);
         return $this;
     }
     /**
@@ -401,14 +385,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of BoxContentsSource, return this.
      *
-     * @param boxContentsSource
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $BoxContentsSource
+     * @return $this
      */
-    public function withBoxContentsSource($value)
+    public function withBoxContentsSource($BoxContentsSource)
     {
-        $this->setBoxContentsSource($value);
+        $this->setBoxContentsSource($BoxContentsSource);
         return $this;
     }
     /**
@@ -443,14 +425,12 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Set the value of EstimatedBoxContentsFee, return this.
      *
-     * @param estimatedBoxContentsFee
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelBoxContentsFeeDetails $EstimatedBoxContentsFee
+     * @return $this
      */
-    public function withEstimatedBoxContentsFee($value)
+    public function withEstimatedBoxContentsFee($EstimatedBoxContentsFee)
     {
-        $this->setEstimatedBoxContentsFee($value);
+        $this->setEstimatedBoxContentsFee($EstimatedBoxContentsFee);
         return $this;
     }
 }

@@ -48,14 +48,12 @@ class MwsFinancesServiceModelTaxWithheldComponent extends MwsFinancesServiceMode
     /**
      * Set the value of TaxCollectionModel, return this.
      *
-     * @param taxCollectionModel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TaxCollectionModel
+     * @return $this
      */
-    public function withTaxCollectionModel($value)
+    public function withTaxCollectionModel($TaxCollectionModel)
     {
-        $this->setTaxCollectionModel($value);
+        $this->setTaxCollectionModel($TaxCollectionModel);
         return $this;
     }
     /**
@@ -103,14 +101,12 @@ class MwsFinancesServiceModelTaxWithheldComponent extends MwsFinancesServiceMode
     /**
      * Add values for TaxesWithheld, return this.
      *
-     * @param taxesWithheld
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $TaxesWithheld_array,...
+     * @return $this
      */
-    public function withTaxesWithheld()
+    public function withTaxesWithheld(...$TaxesWithheld_array)
     {
-        foreach (func_get_args() as $TaxesWithheld) {
+        foreach ($TaxesWithheld_array as $TaxesWithheld) {
             $this->_fields['TaxesWithheld']['FieldValue'][] = $TaxesWithheld;
         }
         return $this;

@@ -56,14 +56,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of SubCondition, return this.
      *
-     * @param subCondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SubCondition
+     * @return $this
      */
-    public function withSubCondition($value)
+    public function withSubCondition($SubCondition)
     {
-        $this->setSubCondition($value);
+        $this->setSubCondition($SubCondition);
         return $this;
     }
     /**
@@ -98,14 +96,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of SellerFeedbackRating, return this.
      *
-     * @param sellerFeedbackRating
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerFeedbackType $SellerFeedbackRating
+     * @return $this
      */
-    public function withSellerFeedbackRating($value)
+    public function withSellerFeedbackRating($SellerFeedbackRating)
     {
-        $this->setSellerFeedbackRating($value);
+        $this->setSellerFeedbackRating($SellerFeedbackRating);
         return $this;
     }
     /**
@@ -140,14 +136,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of ShippingTime, return this.
      *
-     * @param shippingTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelDetailedShippingTimeType $ShippingTime
+     * @return $this
      */
-    public function withShippingTime($value)
+    public function withShippingTime($ShippingTime)
     {
-        $this->setShippingTime($value);
+        $this->setShippingTime($ShippingTime);
         return $this;
     }
     /**
@@ -182,14 +176,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of ListingPrice, return this.
      *
-     * @param listingPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $ListingPrice
+     * @return $this
      */
-    public function withListingPrice($value)
+    public function withListingPrice($ListingPrice)
     {
-        $this->setListingPrice($value);
+        $this->setListingPrice($ListingPrice);
         return $this;
     }
     /**
@@ -224,14 +216,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of Points, return this.
      *
-     * @param points
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints $Points
+     * @return $this
      */
-    public function withPoints($value)
+    public function withPoints($Points)
     {
-        $this->setPoints($value);
+        $this->setPoints($Points);
         return $this;
     }
     /**
@@ -266,14 +256,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of Shipping, return this.
      *
-     * @param shipping
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $Shipping
+     * @return $this
      */
-    public function withShipping($value)
+    public function withShipping($Shipping)
     {
-        $this->setShipping($value);
+        $this->setShipping($Shipping);
         return $this;
     }
     /**
@@ -308,14 +296,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of ShipsFrom, return this.
      *
-     * @param shipsFrom
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShipsFromType $ShipsFrom
+     * @return $this
      */
-    public function withShipsFrom($value)
+    public function withShipsFrom($ShipsFrom)
     {
-        $this->setShipsFrom($value);
+        $this->setShipsFrom($ShipsFrom);
         return $this;
     }
     /**
@@ -359,14 +345,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of IsFulfilledByAmazon, return this.
      *
-     * @param isFulfilledByAmazon
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsFulfilledByAmazon
+     * @return $this
      */
-    public function withIsFulfilledByAmazon($value)
+    public function withIsFulfilledByAmazon($IsFulfilledByAmazon)
     {
-        $this->setIsFulfilledByAmazon($value);
+        $this->setIsFulfilledByAmazon($IsFulfilledByAmazon);
         return $this;
     }
     /**
@@ -410,14 +394,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of IsBuyBoxWinner, return this.
      *
-     * @param isBuyBoxWinner
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsBuyBoxWinner
+     * @return $this
      */
-    public function withIsBuyBoxWinner($value)
+    public function withIsBuyBoxWinner($IsBuyBoxWinner)
     {
-        $this->setIsBuyBoxWinner($value);
+        $this->setIsBuyBoxWinner($IsBuyBoxWinner);
         return $this;
     }
     /**
@@ -461,14 +443,12 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Set the value of IsFeaturedMerchant, return this.
      *
-     * @param isFeaturedMerchant
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsFeaturedMerchant
+     * @return $this
      */
-    public function withIsFeaturedMerchant($value)
+    public function withIsFeaturedMerchant($IsFeaturedMerchant)
     {
-        $this->setIsFeaturedMerchant($value);
+        $this->setIsFeaturedMerchant($IsFeaturedMerchant);
         return $this;
     }
 }

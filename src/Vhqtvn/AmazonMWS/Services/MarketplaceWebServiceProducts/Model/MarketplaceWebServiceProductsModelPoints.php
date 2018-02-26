@@ -48,14 +48,12 @@ class MarketplaceWebServiceProductsModelPoints extends MarketplaceWebServiceProd
     /**
      * Set the value of PointsNumber, return this.
      *
-     * @param pointsNumber
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $PointsNumber
+     * @return $this
      */
-    public function withPointsNumber($value)
+    public function withPointsNumber($PointsNumber)
     {
-        $this->setPointsNumber($value);
+        $this->setPointsNumber($PointsNumber);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceProductsModelPoints extends MarketplaceWebServiceProd
     /**
      * Set the value of PointsMonetaryValue, return this.
      *
-     * @param pointsMonetaryValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $PointsMonetaryValue
+     * @return $this
      */
-    public function withPointsMonetaryValue($value)
+    public function withPointsMonetaryValue($PointsMonetaryValue)
     {
-        $this->setPointsMonetaryValue($value);
+        $this->setPointsMonetaryValue($PointsMonetaryValue);
         return $this;
     }
 }

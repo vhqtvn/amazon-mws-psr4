@@ -47,14 +47,12 @@ class FbaInboundServiceMwsModelUpdateInboundShipmentResult extends FbaInboundSer
     /**
      * Set the value of ShipmentId, return this.
      *
-     * @param shipmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentId
+     * @return $this
      */
-    public function withShipmentId($value)
+    public function withShipmentId($ShipmentId)
     {
-        $this->setShipmentId($value);
+        $this->setShipmentId($ShipmentId);
         return $this;
     }
 }

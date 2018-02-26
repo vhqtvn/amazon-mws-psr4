@@ -58,14 +58,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of PackageNumber, return this.
      *
-     * @param packageNumber
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $PackageNumber
+     * @return $this
      */
-    public function withPackageNumber($value)
+    public function withPackageNumber($PackageNumber)
     {
-        $this->setPackageNumber($value);
+        $this->setPackageNumber($PackageNumber);
         return $this;
     }
     /**
@@ -100,14 +98,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of TrackingNumber, return this.
      *
-     * @param trackingNumber
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TrackingNumber
+     * @return $this
      */
-    public function withTrackingNumber($value)
+    public function withTrackingNumber($TrackingNumber)
     {
-        $this->setTrackingNumber($value);
+        $this->setTrackingNumber($TrackingNumber);
         return $this;
     }
     /**
@@ -142,14 +138,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of CarrierCode, return this.
      *
-     * @param carrierCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CarrierCode
+     * @return $this
      */
-    public function withCarrierCode($value)
+    public function withCarrierCode($CarrierCode)
     {
-        $this->setCarrierCode($value);
+        $this->setCarrierCode($CarrierCode);
         return $this;
     }
     /**
@@ -184,14 +178,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of CarrierPhoneNumber, return this.
      *
-     * @param carrierPhoneNumber
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CarrierPhoneNumber
+     * @return $this
      */
-    public function withCarrierPhoneNumber($value)
+    public function withCarrierPhoneNumber($CarrierPhoneNumber)
     {
-        $this->setCarrierPhoneNumber($value);
+        $this->setCarrierPhoneNumber($CarrierPhoneNumber);
         return $this;
     }
     /**
@@ -226,14 +218,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of CarrierURL, return this.
      *
-     * @param carrierURL
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CarrierURL
+     * @return $this
      */
-    public function withCarrierURL($value)
+    public function withCarrierURL($CarrierURL)
     {
-        $this->setCarrierURL($value);
+        $this->setCarrierURL($CarrierURL);
         return $this;
     }
     /**
@@ -268,14 +258,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of ShipDate, return this.
      *
-     * @param shipDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipDate
+     * @return $this
      */
-    public function withShipDate($value)
+    public function withShipDate($ShipDate)
     {
-        $this->setShipDate($value);
+        $this->setShipDate($ShipDate);
         return $this;
     }
     /**
@@ -310,14 +298,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of EstimatedArrivalDate, return this.
      *
-     * @param estimatedArrivalDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EstimatedArrivalDate
+     * @return $this
      */
-    public function withEstimatedArrivalDate($value)
+    public function withEstimatedArrivalDate($EstimatedArrivalDate)
     {
-        $this->setEstimatedArrivalDate($value);
+        $this->setEstimatedArrivalDate($EstimatedArrivalDate);
         return $this;
     }
     /**
@@ -352,14 +338,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of ShipToAddress, return this.
      *
-     * @param shipToAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress $ShipToAddress
+     * @return $this
      */
-    public function withShipToAddress($value)
+    public function withShipToAddress($ShipToAddress)
     {
-        $this->setShipToAddress($value);
+        $this->setShipToAddress($ShipToAddress);
         return $this;
     }
     /**
@@ -394,14 +378,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of CurrentStatus, return this.
      *
-     * @param currentStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CurrentStatus
+     * @return $this
      */
-    public function withCurrentStatus($value)
+    public function withCurrentStatus($CurrentStatus)
     {
-        $this->setCurrentStatus($value);
+        $this->setCurrentStatus($CurrentStatus);
         return $this;
     }
     /**
@@ -436,14 +418,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of SignedForBy, return this.
      *
-     * @param signedForBy
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SignedForBy
+     * @return $this
      */
-    public function withSignedForBy($value)
+    public function withSignedForBy($SignedForBy)
     {
-        $this->setSignedForBy($value);
+        $this->setSignedForBy($SignedForBy);
         return $this;
     }
     /**
@@ -478,14 +458,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of AdditionalLocationInfo, return this.
      *
-     * @param additionalLocationInfo
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AdditionalLocationInfo
+     * @return $this
      */
-    public function withAdditionalLocationInfo($value)
+    public function withAdditionalLocationInfo($AdditionalLocationInfo)
     {
-        $this->setAdditionalLocationInfo($value);
+        $this->setAdditionalLocationInfo($AdditionalLocationInfo);
         return $this;
     }
     /**
@@ -520,14 +498,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Set the value of TrackingEvents, return this.
      *
-     * @param trackingEvents
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEventList $TrackingEvents
+     * @return $this
      */
-    public function withTrackingEvents($value)
+    public function withTrackingEvents($TrackingEvents)
     {
-        $this->setTrackingEvents($value);
+        $this->setTrackingEvents($TrackingEvents);
         return $this;
     }
 }

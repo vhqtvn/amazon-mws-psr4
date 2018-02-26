@@ -58,14 +58,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
         return $this;
     }
     /**
-     * Sets the value of the Marketplace and returns this instance
-     * 
-     * @param string $value Marketplace
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountRequest instance
+     * Set the value of Marketplace, return this.
+     *
+     * @param string $Marketplace
+     * @return $this
      */
-    public function withMarketplace($value)
+    public function withMarketplace($Marketplace)
     {
-        $this->setMarketplace($value);
+        $this->setMarketplace($Marketplace);
         return $this;
     }
     /**
@@ -98,14 +98,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
         return $this;
     }
     /**
-     * Sets the value of the Merchant and returns this instance
-     * 
-     * @param string $value Merchant
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountRequest instance
+     * Set the value of Merchant, return this.
+     *
+     * @param string $Merchant
+     * @return $this
      */
-    public function withMerchant($value)
+    public function withMerchant($Merchant)
     {
-        $this->setMerchant($value);
+        $this->setMerchant($Merchant);
         return $this;
     }
     /**
@@ -138,14 +138,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
         return $this;
     }
     /**
-     * Sets the value of the MWSAuthToken and returns this instance
+     * Set the value of MWSAuthToken, return this.
      *
-     * @param string $value MWSAuthToken
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountRequest instance
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -178,14 +178,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
         return;
     }
     /**
-     * Sets the value of the FeedTypeList  and returns this instance
-     * 
-     * @param TypeList $value FeedTypeList
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountRequest instance
+     * Set the value of FeedTypeList, return this.
+     *
+     * @param TypeList $FeedTypeList
+     * @return $this
      */
-    public function withFeedTypeList($value)
+    public function withFeedTypeList($FeedTypeList)
     {
-        $this->setFeedTypeList($value);
+        $this->setFeedTypeList($FeedTypeList);
         return $this;
     }
     /**
@@ -218,14 +218,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
         return;
     }
     /**
-     * Sets the value of the FeedProcessingStatusList  and returns this instance
-     * 
-     * @param StatusList $value FeedProcessingStatusList
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountRequest instance
+     * Set the value of FeedProcessingStatusList, return this.
+     *
+     * @param StatusList $FeedProcessingStatusList
+     * @return $this
      */
-    public function withFeedProcessingStatusList($value)
+    public function withFeedProcessingStatusList($FeedProcessingStatusList)
     {
-        $this->setFeedProcessingStatusList($value);
+        $this->setFeedProcessingStatusList($FeedProcessingStatusList);
         return $this;
     }
     /**
@@ -258,14 +258,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
         return $this;
     }
     /**
-     * Sets the value of the SubmittedFromDate and returns this instance
-     * 
-     * @param string $value SubmittedFromDate
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountRequest instance
+     * Set the value of SubmittedFromDate, return this.
+     *
+     * @param string $SubmittedFromDate
+     * @return $this
      */
-    public function withSubmittedFromDate($value)
+    public function withSubmittedFromDate($SubmittedFromDate)
     {
-        $this->setSubmittedFromDate($value);
+        $this->setSubmittedFromDate($SubmittedFromDate);
         return $this;
     }
     /**
@@ -298,14 +298,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
         return $this;
     }
     /**
-     * Sets the value of the SubmittedToDate and returns this instance
-     * 
-     * @param string $value SubmittedToDate
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountRequest instance
+     * Set the value of SubmittedToDate, return this.
+     *
+     * @param string $SubmittedToDate
+     * @return $this
      */
-    public function withSubmittedToDate($value)
+    public function withSubmittedToDate($SubmittedToDate)
     {
-        $this->setSubmittedToDate($value);
+        $this->setSubmittedToDate($SubmittedToDate);
         return $this;
     }
     /**

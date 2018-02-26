@@ -60,14 +60,12 @@ class MarketplaceWebServiceOrdersModelGetOrderResult extends MarketplaceWebServi
     /**
      * Add values for Orders, return this.
      *
-     * @param orders
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrder $Orders_array,...
+     * @return $this
      */
-    public function withOrders()
+    public function withOrders(...$Orders_array)
     {
-        foreach (func_get_args() as $Orders) {
+        foreach ($Orders_array as $Orders) {
             $this->_fields['Orders']['FieldValue'][] = $Orders;
         }
         return $this;

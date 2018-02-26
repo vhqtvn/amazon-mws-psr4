@@ -51,14 +51,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Set the value of EarliestShipDate, return this.
      *
-     * @param earliestShipDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EarliestShipDate
+     * @return $this
      */
-    public function withEarliestShipDate($value)
+    public function withEarliestShipDate($EarliestShipDate)
     {
-        $this->setEarliestShipDate($value);
+        $this->setEarliestShipDate($EarliestShipDate);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Set the value of LatestShipDate, return this.
      *
-     * @param latestShipDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LatestShipDate
+     * @return $this
      */
-    public function withLatestShipDate($value)
+    public function withLatestShipDate($LatestShipDate)
     {
-        $this->setLatestShipDate($value);
+        $this->setLatestShipDate($LatestShipDate);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Set the value of EarliestArrivalDate, return this.
      *
-     * @param earliestArrivalDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EarliestArrivalDate
+     * @return $this
      */
-    public function withEarliestArrivalDate($value)
+    public function withEarliestArrivalDate($EarliestArrivalDate)
     {
-        $this->setEarliestArrivalDate($value);
+        $this->setEarliestArrivalDate($EarliestArrivalDate);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Set the value of LatestArrivalDate, return this.
      *
-     * @param latestArrivalDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LatestArrivalDate
+     * @return $this
      */
-    public function withLatestArrivalDate($value)
+    public function withLatestArrivalDate($LatestArrivalDate)
     {
-        $this->setLatestArrivalDate($value);
+        $this->setLatestArrivalDate($LatestArrivalDate);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Set the value of FulfillmentPreviewItems, return this.
      *
-     * @param fulfillmentPreviewItems
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewItemList $FulfillmentPreviewItems
+     * @return $this
      */
-    public function withFulfillmentPreviewItems($value)
+    public function withFulfillmentPreviewItems($FulfillmentPreviewItems)
     {
-        $this->setFulfillmentPreviewItems($value);
+        $this->setFulfillmentPreviewItems($FulfillmentPreviewItems);
         return $this;
     }
 }

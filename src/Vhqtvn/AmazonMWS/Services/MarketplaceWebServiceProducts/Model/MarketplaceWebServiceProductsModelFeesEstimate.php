@@ -49,14 +49,12 @@ class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServi
     /**
      * Set the value of TimeOfFeesEstimation, return this.
      *
-     * @param timeOfFeesEstimation
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TimeOfFeesEstimation
+     * @return $this
      */
-    public function withTimeOfFeesEstimation($value)
+    public function withTimeOfFeesEstimation($TimeOfFeesEstimation)
     {
-        $this->setTimeOfFeesEstimation($value);
+        $this->setTimeOfFeesEstimation($TimeOfFeesEstimation);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServi
     /**
      * Set the value of TotalFeesEstimate, return this.
      *
-     * @param totalFeesEstimate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $TotalFeesEstimate
+     * @return $this
      */
-    public function withTotalFeesEstimate($value)
+    public function withTotalFeesEstimate($TotalFeesEstimate)
     {
-        $this->setTotalFeesEstimate($value);
+        $this->setTotalFeesEstimate($TotalFeesEstimate);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServi
     /**
      * Set the value of FeeDetailList, return this.
      *
-     * @param feeDetailList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetailList $FeeDetailList
+     * @return $this
      */
-    public function withFeeDetailList($value)
+    public function withFeeDetailList($FeeDetailList)
     {
-        $this->setFeeDetailList($value);
+        $this->setFeeDetailList($FeeDetailList);
         return $this;
     }
 }

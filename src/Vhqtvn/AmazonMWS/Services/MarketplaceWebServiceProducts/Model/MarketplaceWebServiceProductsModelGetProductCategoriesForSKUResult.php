@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelGetProductCategoriesForSKUResult extends
     /**
      * Add values for Self, return this.
      *
-     * @param self
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories $Self_array,...
+     * @return $this
      */
-    public function withSelf()
+    public function withSelf(...$Self_array)
     {
-        foreach (func_get_args() as $Self) {
+        foreach ($Self_array as $Self) {
             $this->_fields['Self']['FieldValue'][] = $Self;
         }
         return $this;

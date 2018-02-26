@@ -50,14 +50,14 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
         return $this;
     }
     /**
-     * Sets the value of the Count and returns this instance
-     * 
-     * @param int $value Count
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelFeedSubmissionsResult instance
+     * Set the value of Count, return this.
+     *
+     * @param int $Count
+     * @return $this
      */
-    public function withCount($value)
+    public function withCount($Count)
     {
-        $this->setCount($value);
+        $this->setCount($Count);
         return $this;
     }
     /**
@@ -93,16 +93,14 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
         return $this;
     }
     /**
-     * Sets single or multiple values of FeedSubmissionInfo list via variable number of arguments. 
-     * For example, to set the list with two elements, simply pass two values as arguments to this function
-     * <code>withFeedSubmissionInfo($feedSubmissionInfo1, $feedSubmissionInfo2)</code>
-     * 
-     * @param FeedSubmissionInfo  $feedSubmissionInfoArgs one or more FeedSubmissionInfo
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelFeedSubmissionsResult  instance
+     * Add values for FeedSubmissionInfo, return this.
+     *
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo $FeedSubmissionInfo_array,...
+     * @return $this
      */
-    public function withFeedSubmissionInfo($feedSubmissionInfoArgs)
+    public function withFeedSubmissionInfo($feedSubmissionInfoArgs, ...$FeedSubmissionInfo_array)
     {
-        foreach (func_get_args() as $feedSubmissionInfo) {
+        foreach ($FeedSubmissionInfo_array as $feedSubmissionInfo) {
             $this->fields['FeedSubmissionInfo']['FieldValue'][] = $feedSubmissionInfo;
         }
         return $this;

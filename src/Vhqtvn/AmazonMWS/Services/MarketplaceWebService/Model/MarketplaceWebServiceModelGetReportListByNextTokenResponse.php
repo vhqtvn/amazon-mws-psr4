@@ -72,14 +72,14 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
         return;
     }
     /**
-     * Sets the value of the GetReportListByNextTokenResult  and returns this instance
-     * 
-     * @param GetReportListByNextTokenResult $value GetReportListByNextTokenResult
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListByNextTokenResponse instance
+     * Set the value of GetReportListByNextTokenResult, return this.
+     *
+     * @param GetReportListByNextTokenResult $GetReportListByNextTokenResult
+     * @return $this
      */
-    public function withGetReportListByNextTokenResult($value)
+    public function withGetReportListByNextTokenResult($GetReportListByNextTokenResult)
     {
-        $this->setGetReportListByNextTokenResult($value);
+        $this->setGetReportListByNextTokenResult($GetReportListByNextTokenResult);
         return $this;
     }
     /**
@@ -112,14 +112,14 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
         return;
     }
     /**
-     * Sets the value of the ResponseMetadata  and returns this instance
-     * 
-     * @param ResponseMetadata $value ResponseMetadata
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListByNextTokenResponse instance
+     * Set the value of ResponseMetadata, return this.
+     *
+     * @param ResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**

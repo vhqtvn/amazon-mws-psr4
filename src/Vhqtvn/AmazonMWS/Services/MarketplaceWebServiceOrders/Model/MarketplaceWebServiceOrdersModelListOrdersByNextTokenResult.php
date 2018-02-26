@@ -50,14 +50,12 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
     /**
      * Set the value of CreatedBefore, return this.
      *
-     * @param createdBefore
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CreatedBefore
+     * @return $this
      */
-    public function withCreatedBefore($value)
+    public function withCreatedBefore($CreatedBefore)
     {
-        $this->setCreatedBefore($value);
+        $this->setCreatedBefore($CreatedBefore);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
     /**
      * Set the value of LastUpdatedBefore, return this.
      *
-     * @param lastUpdatedBefore
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LastUpdatedBefore
+     * @return $this
      */
-    public function withLastUpdatedBefore($value)
+    public function withLastUpdatedBefore($LastUpdatedBefore)
     {
-        $this->setLastUpdatedBefore($value);
+        $this->setLastUpdatedBefore($LastUpdatedBefore);
         return $this;
     }
     /**
@@ -189,14 +183,12 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
     /**
      * Add values for Orders, return this.
      *
-     * @param orders
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrder $Orders_array,...
+     * @return $this
      */
-    public function withOrders()
+    public function withOrders(...$Orders_array)
     {
-        foreach (func_get_args() as $Orders) {
+        foreach ($Orders_array as $Orders) {
             $this->_fields['Orders']['FieldValue'][] = $Orders;
         }
         return $this;

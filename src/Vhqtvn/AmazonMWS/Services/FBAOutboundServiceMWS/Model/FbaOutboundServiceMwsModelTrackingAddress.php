@@ -49,14 +49,12 @@ class FbaOutboundServiceMwsModelTrackingAddress extends FbaOutboundServiceMwsMod
     /**
      * Set the value of City, return this.
      *
-     * @param city
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $City
+     * @return $this
      */
-    public function withCity($value)
+    public function withCity($City)
     {
-        $this->setCity($value);
+        $this->setCity($City);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaOutboundServiceMwsModelTrackingAddress extends FbaOutboundServiceMwsMod
     /**
      * Set the value of State, return this.
      *
-     * @param state
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $State
+     * @return $this
      */
-    public function withState($value)
+    public function withState($State)
     {
-        $this->setState($value);
+        $this->setState($State);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaOutboundServiceMwsModelTrackingAddress extends FbaOutboundServiceMwsMod
     /**
      * Set the value of Country, return this.
      *
-     * @param country
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Country
+     * @return $this
      */
-    public function withCountry($value)
+    public function withCountry($Country)
     {
-        $this->setCountry($value);
+        $this->setCountry($Country);
         return $this;
     }
 }

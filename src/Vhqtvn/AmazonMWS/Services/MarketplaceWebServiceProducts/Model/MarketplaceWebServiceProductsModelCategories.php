@@ -49,14 +49,12 @@ class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebService
     /**
      * Set the value of ProductCategoryId, return this.
      *
-     * @param productCategoryId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProductCategoryId
+     * @return $this
      */
-    public function withProductCategoryId($value)
+    public function withProductCategoryId($ProductCategoryId)
     {
-        $this->setProductCategoryId($value);
+        $this->setProductCategoryId($ProductCategoryId);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebService
     /**
      * Set the value of ProductCategoryName, return this.
      *
-     * @param productCategoryName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProductCategoryName
+     * @return $this
      */
-    public function withProductCategoryName($value)
+    public function withProductCategoryName($ProductCategoryName)
     {
-        $this->setProductCategoryName($value);
+        $this->setProductCategoryName($ProductCategoryName);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebService
     /**
      * Set the value of Parent, return this.
      *
-     * @param parent
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories $Parent
+     * @return $this
      */
-    public function withParent($value)
+    public function withParent($Parent)
     {
-        $this->setParent($value);
+        $this->setParent($Parent);
         return $this;
     }
 }

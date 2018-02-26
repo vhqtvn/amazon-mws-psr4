@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelTransportDocument extends FbaInboundServiceMwsMod
     /**
      * Set the value of PdfDocument, return this.
      *
-     * @param pdfDocument
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PdfDocument
+     * @return $this
      */
-    public function withPdfDocument($value)
+    public function withPdfDocument($PdfDocument)
     {
-        $this->setPdfDocument($value);
+        $this->setPdfDocument($PdfDocument);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelTransportDocument extends FbaInboundServiceMwsMod
     /**
      * Set the value of Checksum, return this.
      *
-     * @param checksum
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Checksum
+     * @return $this
      */
-    public function withChecksum($value)
+    public function withChecksum($Checksum)
     {
-        $this->setChecksum($value);
+        $this->setChecksum($Checksum);
         return $this;
     }
 }

@@ -47,14 +47,12 @@ class MarketplaceWebServiceOrdersModelBuyerCustomizedInfoDetail extends Marketpl
     /**
      * Set the value of CustomizedURL, return this.
      *
-     * @param customizedURL
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CustomizedURL
+     * @return $this
      */
-    public function withCustomizedURL($value)
+    public function withCustomizedURL($CustomizedURL)
     {
-        $this->setCustomizedURL($value);
+        $this->setCustomizedURL($CustomizedURL);
         return $this;
     }
 }

@@ -50,14 +50,12 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForSKURequest extends FbaInbou
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForSKURequest extends FbaInbou
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForSKURequest extends FbaInbou
     /**
      * Set the value of SellerSKUList, return this.
      *
-     * @param sellerSKUList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSellerSKUList $SellerSKUList
+     * @return $this
      */
-    public function withSellerSKUList($value)
+    public function withSellerSKUList($SellerSKUList)
     {
-        $this->setSellerSKUList($value);
+        $this->setSellerSKUList($SellerSKUList);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForSKURequest extends FbaInbou
     /**
      * Set the value of ShipToCountryCode, return this.
      *
-     * @param shipToCountryCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipToCountryCode
+     * @return $this
      */
-    public function withShipToCountryCode($value)
+    public function withShipToCountryCode($ShipToCountryCode)
     {
-        $this->setShipToCountryCode($value);
+        $this->setShipToCountryCode($ShipToCountryCode);
         return $this;
     }
 }

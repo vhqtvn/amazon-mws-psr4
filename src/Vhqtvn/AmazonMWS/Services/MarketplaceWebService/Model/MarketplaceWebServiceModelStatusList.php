@@ -51,16 +51,14 @@ class MarketplaceWebServiceModelStatusList extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets single or multiple values of Status list via variable number of arguments. 
-     * For example, to set the list with two elements, simply pass two values as arguments to this function
-     * <code>withStatus($status1, $status2)</code>
-     * 
-     * @param string  $stringArgs one or more Status
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList  instance
+     * Add values for Status, return this.
+     *
+     * @param \ $Status_array,...
+     * @return $this
      */
-    public function withStatus($stringArgs)
+    public function withStatus($stringArgs, ...$Status_array)
     {
-        foreach (func_get_args() as $status) {
+        foreach ($Status_array as $status) {
             $this->fields['Status']['FieldValue'][] = $status;
         }
         return $this;

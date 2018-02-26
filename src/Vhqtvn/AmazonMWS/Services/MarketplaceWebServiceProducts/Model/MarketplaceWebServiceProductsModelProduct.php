@@ -53,14 +53,12 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Set the value of Identifiers, return this.
      *
-     * @param identifiers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelIdentifierType $Identifiers
+     * @return $this
      */
-    public function withIdentifiers($value)
+    public function withIdentifiers($Identifiers)
     {
-        $this->setIdentifiers($value);
+        $this->setIdentifiers($Identifiers);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Set the value of AttributeSets, return this.
      *
-     * @param attributeSets
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelAttributeSetList $AttributeSets
+     * @return $this
      */
-    public function withAttributeSets($value)
+    public function withAttributeSets($AttributeSets)
     {
-        $this->setAttributeSets($value);
+        $this->setAttributeSets($AttributeSets);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Set the value of Relationships, return this.
      *
-     * @param relationships
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelRelationshipList $Relationships
+     * @return $this
      */
-    public function withRelationships($value)
+    public function withRelationships($Relationships)
     {
-        $this->setRelationships($value);
+        $this->setRelationships($Relationships);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Set the value of CompetitivePricing, return this.
      *
-     * @param competitivePricing
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCompetitivePricingType $CompetitivePricing
+     * @return $this
      */
-    public function withCompetitivePricing($value)
+    public function withCompetitivePricing($CompetitivePricing)
     {
-        $this->setCompetitivePricing($value);
+        $this->setCompetitivePricing($CompetitivePricing);
         return $this;
     }
     /**
@@ -221,14 +213,12 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Set the value of SalesRankings, return this.
      *
-     * @param salesRankings
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSalesRankList $SalesRankings
+     * @return $this
      */
-    public function withSalesRankings($value)
+    public function withSalesRankings($SalesRankings)
     {
-        $this->setSalesRankings($value);
+        $this->setSalesRankings($SalesRankings);
         return $this;
     }
     /**
@@ -263,14 +253,12 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Set the value of LowestOfferListings, return this.
      *
-     * @param lowestOfferListings
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestOfferListingList $LowestOfferListings
+     * @return $this
      */
-    public function withLowestOfferListings($value)
+    public function withLowestOfferListings($LowestOfferListings)
     {
-        $this->setLowestOfferListings($value);
+        $this->setLowestOfferListings($LowestOfferListings);
         return $this;
     }
     /**
@@ -305,14 +293,12 @@ class MarketplaceWebServiceProductsModelProduct extends MarketplaceWebServicePro
     /**
      * Set the value of Offers, return this.
      *
-     * @param offers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOffersList $Offers
+     * @return $this
      */
-    public function withOffers($value)
+    public function withOffers($Offers)
     {
-        $this->setOffers($value);
+        $this->setOffers($Offers);
         return $this;
     }
 }

@@ -56,14 +56,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -98,14 +96,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of SellerFulfillmentOrderItemId, return this.
      *
-     * @param sellerFulfillmentOrderItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerFulfillmentOrderItemId
+     * @return $this
      */
-    public function withSellerFulfillmentOrderItemId($value)
+    public function withSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId)
     {
-        $this->setSellerFulfillmentOrderItemId($value);
+        $this->setSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId);
         return $this;
     }
     /**
@@ -140,14 +136,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of Quantity, return this.
      *
-     * @param quantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $Quantity
+     * @return $this
      */
-    public function withQuantity($value)
+    public function withQuantity($Quantity)
     {
-        $this->setQuantity($value);
+        $this->setQuantity($Quantity);
         return $this;
     }
     /**
@@ -182,14 +176,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of GiftMessage, return this.
      *
-     * @param giftMessage
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $GiftMessage
+     * @return $this
      */
-    public function withGiftMessage($value)
+    public function withGiftMessage($GiftMessage)
     {
-        $this->setGiftMessage($value);
+        $this->setGiftMessage($GiftMessage);
         return $this;
     }
     /**
@@ -224,14 +216,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of DisplayableComment, return this.
      *
-     * @param displayableComment
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DisplayableComment
+     * @return $this
      */
-    public function withDisplayableComment($value)
+    public function withDisplayableComment($DisplayableComment)
     {
-        $this->setDisplayableComment($value);
+        $this->setDisplayableComment($DisplayableComment);
         return $this;
     }
     /**
@@ -266,14 +256,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of FulfillmentNetworkSKU, return this.
      *
-     * @param fulfillmentNetworkSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentNetworkSKU
+     * @return $this
      */
-    public function withFulfillmentNetworkSKU($value)
+    public function withFulfillmentNetworkSKU($FulfillmentNetworkSKU)
     {
-        $this->setFulfillmentNetworkSKU($value);
+        $this->setFulfillmentNetworkSKU($FulfillmentNetworkSKU);
         return $this;
     }
     /**
@@ -308,14 +296,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of OrderItemDisposition, return this.
      *
-     * @param orderItemDisposition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $OrderItemDisposition
+     * @return $this
      */
-    public function withOrderItemDisposition($value)
+    public function withOrderItemDisposition($OrderItemDisposition)
     {
-        $this->setOrderItemDisposition($value);
+        $this->setOrderItemDisposition($OrderItemDisposition);
         return $this;
     }
     /**
@@ -350,14 +336,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of PerUnitDeclaredValue, return this.
      *
-     * @param perUnitDeclaredValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency $PerUnitDeclaredValue
+     * @return $this
      */
-    public function withPerUnitDeclaredValue($value)
+    public function withPerUnitDeclaredValue($PerUnitDeclaredValue)
     {
-        $this->setPerUnitDeclaredValue($value);
+        $this->setPerUnitDeclaredValue($PerUnitDeclaredValue);
         return $this;
     }
     /**
@@ -392,14 +376,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of PerUnitPrice, return this.
      *
-     * @param perUnitPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency $PerUnitPrice
+     * @return $this
      */
-    public function withPerUnitPrice($value)
+    public function withPerUnitPrice($PerUnitPrice)
     {
-        $this->setPerUnitPrice($value);
+        $this->setPerUnitPrice($PerUnitPrice);
         return $this;
     }
     /**
@@ -434,14 +416,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Set the value of PerUnitTax, return this.
      *
-     * @param perUnitTax
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency $PerUnitTax
+     * @return $this
      */
-    public function withPerUnitTax($value)
+    public function withPerUnitTax($PerUnitTax)
     {
-        $this->setPerUnitTax($value);
+        $this->setPerUnitTax($PerUnitTax);
         return $this;
     }
 }

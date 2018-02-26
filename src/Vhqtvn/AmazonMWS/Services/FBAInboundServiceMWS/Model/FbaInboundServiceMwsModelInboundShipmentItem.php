@@ -54,14 +54,12 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Set the value of ShipmentId, return this.
      *
-     * @param shipmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentId
+     * @return $this
      */
-    public function withShipmentId($value)
+    public function withShipmentId($ShipmentId)
     {
-        $this->setShipmentId($value);
+        $this->setShipmentId($ShipmentId);
         return $this;
     }
     /**
@@ -96,14 +94,12 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -138,14 +134,12 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Set the value of FulfillmentNetworkSKU, return this.
      *
-     * @param fulfillmentNetworkSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentNetworkSKU
+     * @return $this
      */
-    public function withFulfillmentNetworkSKU($value)
+    public function withFulfillmentNetworkSKU($FulfillmentNetworkSKU)
     {
-        $this->setFulfillmentNetworkSKU($value);
+        $this->setFulfillmentNetworkSKU($FulfillmentNetworkSKU);
         return $this;
     }
     /**
@@ -180,14 +174,12 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Set the value of QuantityShipped, return this.
      *
-     * @param quantityShipped
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $QuantityShipped
+     * @return $this
      */
-    public function withQuantityShipped($value)
+    public function withQuantityShipped($QuantityShipped)
     {
-        $this->setQuantityShipped($value);
+        $this->setQuantityShipped($QuantityShipped);
         return $this;
     }
     /**
@@ -222,14 +214,12 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Set the value of QuantityReceived, return this.
      *
-     * @param quantityReceived
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $QuantityReceived
+     * @return $this
      */
-    public function withQuantityReceived($value)
+    public function withQuantityReceived($QuantityReceived)
     {
-        $this->setQuantityReceived($value);
+        $this->setQuantityReceived($QuantityReceived);
         return $this;
     }
     /**
@@ -264,14 +254,12 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Set the value of QuantityInCase, return this.
      *
-     * @param quantityInCase
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $QuantityInCase
+     * @return $this
      */
-    public function withQuantityInCase($value)
+    public function withQuantityInCase($QuantityInCase)
     {
-        $this->setQuantityInCase($value);
+        $this->setQuantityInCase($QuantityInCase);
         return $this;
     }
     /**
@@ -306,14 +294,12 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Set the value of ReleaseDate, return this.
      *
-     * @param releaseDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ReleaseDate
+     * @return $this
      */
-    public function withReleaseDate($value)
+    public function withReleaseDate($ReleaseDate)
     {
-        $this->setReleaseDate($value);
+        $this->setReleaseDate($ReleaseDate);
         return $this;
     }
     /**
@@ -348,14 +334,12 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Set the value of PrepDetailsList, return this.
      *
-     * @param prepDetailsList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList $PrepDetailsList
+     * @return $this
      */
-    public function withPrepDetailsList($value)
+    public function withPrepDetailsList($PrepDetailsList)
     {
-        $this->setPrepDetailsList($value);
+        $this->setPrepDetailsList($PrepDetailsList);
         return $this;
     }
 }

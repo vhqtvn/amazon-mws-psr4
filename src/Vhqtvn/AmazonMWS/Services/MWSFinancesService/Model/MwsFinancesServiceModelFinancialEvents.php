@@ -79,14 +79,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ShipmentEventList, return this.
      *
-     * @param shipmentEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent $ShipmentEventList_array,...
+     * @return $this
      */
-    public function withShipmentEventList()
+    public function withShipmentEventList(...$ShipmentEventList_array)
     {
-        foreach (func_get_args() as $ShipmentEventList) {
+        foreach ($ShipmentEventList_array as $ShipmentEventList) {
             $this->_fields['ShipmentEventList']['FieldValue'][] = $ShipmentEventList;
         }
         return $this;
@@ -136,14 +134,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for RefundEventList, return this.
      *
-     * @param refundEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent $RefundEventList_array,...
+     * @return $this
      */
-    public function withRefundEventList()
+    public function withRefundEventList(...$RefundEventList_array)
     {
-        foreach (func_get_args() as $RefundEventList) {
+        foreach ($RefundEventList_array as $RefundEventList) {
             $this->_fields['RefundEventList']['FieldValue'][] = $RefundEventList;
         }
         return $this;
@@ -193,14 +189,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for GuaranteeClaimEventList, return this.
      *
-     * @param guaranteeClaimEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent $GuaranteeClaimEventList_array,...
+     * @return $this
      */
-    public function withGuaranteeClaimEventList()
+    public function withGuaranteeClaimEventList(...$GuaranteeClaimEventList_array)
     {
-        foreach (func_get_args() as $GuaranteeClaimEventList) {
+        foreach ($GuaranteeClaimEventList_array as $GuaranteeClaimEventList) {
             $this->_fields['GuaranteeClaimEventList']['FieldValue'][] = $GuaranteeClaimEventList;
         }
         return $this;
@@ -250,14 +244,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ChargebackEventList, return this.
      *
-     * @param chargebackEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelShipmentEvent $ChargebackEventList_array,...
+     * @return $this
      */
-    public function withChargebackEventList()
+    public function withChargebackEventList(...$ChargebackEventList_array)
     {
-        foreach (func_get_args() as $ChargebackEventList) {
+        foreach ($ChargebackEventList_array as $ChargebackEventList) {
             $this->_fields['ChargebackEventList']['FieldValue'][] = $ChargebackEventList;
         }
         return $this;
@@ -307,14 +299,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for PayWithAmazonEventList, return this.
      *
-     * @param payWithAmazonEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPayWithAmazonEvent $PayWithAmazonEventList_array,...
+     * @return $this
      */
-    public function withPayWithAmazonEventList()
+    public function withPayWithAmazonEventList(...$PayWithAmazonEventList_array)
     {
-        foreach (func_get_args() as $PayWithAmazonEventList) {
+        foreach ($PayWithAmazonEventList_array as $PayWithAmazonEventList) {
             $this->_fields['PayWithAmazonEventList']['FieldValue'][] = $PayWithAmazonEventList;
         }
         return $this;
@@ -364,14 +354,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ServiceProviderCreditEventList, return this.
      *
-     * @param serviceProviderCreditEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSolutionProviderCreditEvent $ServiceProviderCreditEventList_array,...
+     * @return $this
      */
-    public function withServiceProviderCreditEventList()
+    public function withServiceProviderCreditEventList(...$ServiceProviderCreditEventList_array)
     {
-        foreach (func_get_args() as $ServiceProviderCreditEventList) {
+        foreach ($ServiceProviderCreditEventList_array as $ServiceProviderCreditEventList) {
             $this->_fields['ServiceProviderCreditEventList']['FieldValue'][] = $ServiceProviderCreditEventList;
         }
         return $this;
@@ -421,14 +409,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for RetrochargeEventList, return this.
      *
-     * @param retrochargeEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRetrochargeEvent $RetrochargeEventList_array,...
+     * @return $this
      */
-    public function withRetrochargeEventList()
+    public function withRetrochargeEventList(...$RetrochargeEventList_array)
     {
-        foreach (func_get_args() as $RetrochargeEventList) {
+        foreach ($RetrochargeEventList_array as $RetrochargeEventList) {
             $this->_fields['RetrochargeEventList']['FieldValue'][] = $RetrochargeEventList;
         }
         return $this;
@@ -478,14 +464,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for RentalTransactionEventList, return this.
      *
-     * @param rentalTransactionEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelRentalTransactionEvent $RentalTransactionEventList_array,...
+     * @return $this
      */
-    public function withRentalTransactionEventList()
+    public function withRentalTransactionEventList(...$RentalTransactionEventList_array)
     {
-        foreach (func_get_args() as $RentalTransactionEventList) {
+        foreach ($RentalTransactionEventList_array as $RentalTransactionEventList) {
             $this->_fields['RentalTransactionEventList']['FieldValue'][] = $RentalTransactionEventList;
         }
         return $this;
@@ -535,14 +519,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for PerformanceBondRefundEventList, return this.
      *
-     * @param performanceBondRefundEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPerformanceBondRefundEvent $PerformanceBondRefundEventList_array,...
+     * @return $this
      */
-    public function withPerformanceBondRefundEventList()
+    public function withPerformanceBondRefundEventList(...$PerformanceBondRefundEventList_array)
     {
-        foreach (func_get_args() as $PerformanceBondRefundEventList) {
+        foreach ($PerformanceBondRefundEventList_array as $PerformanceBondRefundEventList) {
             $this->_fields['PerformanceBondRefundEventList']['FieldValue'][] = $PerformanceBondRefundEventList;
         }
         return $this;
@@ -592,14 +574,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ProductAdsPaymentEventList, return this.
      *
-     * @param productAdsPaymentEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelProductAdsPaymentEvent $ProductAdsPaymentEventList_array,...
+     * @return $this
      */
-    public function withProductAdsPaymentEventList()
+    public function withProductAdsPaymentEventList(...$ProductAdsPaymentEventList_array)
     {
-        foreach (func_get_args() as $ProductAdsPaymentEventList) {
+        foreach ($ProductAdsPaymentEventList_array as $ProductAdsPaymentEventList) {
             $this->_fields['ProductAdsPaymentEventList']['FieldValue'][] = $ProductAdsPaymentEventList;
         }
         return $this;
@@ -649,14 +629,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ServiceFeeEventList, return this.
      *
-     * @param serviceFeeEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelServiceFeeEvent $ServiceFeeEventList_array,...
+     * @return $this
      */
-    public function withServiceFeeEventList()
+    public function withServiceFeeEventList(...$ServiceFeeEventList_array)
     {
-        foreach (func_get_args() as $ServiceFeeEventList) {
+        foreach ($ServiceFeeEventList_array as $ServiceFeeEventList) {
             $this->_fields['ServiceFeeEventList']['FieldValue'][] = $ServiceFeeEventList;
         }
         return $this;
@@ -706,14 +684,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for SellerDealPaymentEventList, return this.
      *
-     * @param sellerDealPaymentEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerDealPaymentEvent $SellerDealPaymentEventList_array,...
+     * @return $this
      */
-    public function withSellerDealPaymentEventList()
+    public function withSellerDealPaymentEventList(...$SellerDealPaymentEventList_array)
     {
-        foreach (func_get_args() as $SellerDealPaymentEventList) {
+        foreach ($SellerDealPaymentEventList_array as $SellerDealPaymentEventList) {
             $this->_fields['SellerDealPaymentEventList']['FieldValue'][] = $SellerDealPaymentEventList;
         }
         return $this;
@@ -763,14 +739,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for DebtRecoveryEventList, return this.
      *
-     * @param debtRecoveryEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryEvent $DebtRecoveryEventList_array,...
+     * @return $this
      */
-    public function withDebtRecoveryEventList()
+    public function withDebtRecoveryEventList(...$DebtRecoveryEventList_array)
     {
-        foreach (func_get_args() as $DebtRecoveryEventList) {
+        foreach ($DebtRecoveryEventList_array as $DebtRecoveryEventList) {
             $this->_fields['DebtRecoveryEventList']['FieldValue'][] = $DebtRecoveryEventList;
         }
         return $this;
@@ -820,14 +794,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for LoanServicingEventList, return this.
      *
-     * @param loanServicingEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelLoanServicingEvent $LoanServicingEventList_array,...
+     * @return $this
      */
-    public function withLoanServicingEventList()
+    public function withLoanServicingEventList(...$LoanServicingEventList_array)
     {
-        foreach (func_get_args() as $LoanServicingEventList) {
+        foreach ($LoanServicingEventList_array as $LoanServicingEventList) {
             $this->_fields['LoanServicingEventList']['FieldValue'][] = $LoanServicingEventList;
         }
         return $this;
@@ -877,14 +849,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for AdjustmentEventList, return this.
      *
-     * @param adjustmentEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentEvent $AdjustmentEventList_array,...
+     * @return $this
      */
-    public function withAdjustmentEventList()
+    public function withAdjustmentEventList(...$AdjustmentEventList_array)
     {
-        foreach (func_get_args() as $AdjustmentEventList) {
+        foreach ($AdjustmentEventList_array as $AdjustmentEventList) {
             $this->_fields['AdjustmentEventList']['FieldValue'][] = $AdjustmentEventList;
         }
         return $this;
@@ -934,14 +904,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for SAFETReimbursementEventList, return this.
      *
-     * @param safetReimbursementEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementEvent $SAFETReimbursementEventList_array,...
+     * @return $this
      */
-    public function withSAFETReimbursementEventList()
+    public function withSAFETReimbursementEventList(...$SAFETReimbursementEventList_array)
     {
-        foreach (func_get_args() as $SAFETReimbursementEventList) {
+        foreach ($SAFETReimbursementEventList_array as $SAFETReimbursementEventList) {
             $this->_fields['SAFETReimbursementEventList']['FieldValue'][] = $SAFETReimbursementEventList;
         }
         return $this;
@@ -991,14 +959,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for SellerReviewEnrollmentPaymentEventList, return this.
      *
-     * @param sellerReviewEnrollmentPaymentEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent $SellerReviewEnrollmentPaymentEventList_array,...
+     * @return $this
      */
-    public function withSellerReviewEnrollmentPaymentEventList()
+    public function withSellerReviewEnrollmentPaymentEventList(...$SellerReviewEnrollmentPaymentEventList_array)
     {
-        foreach (func_get_args() as $SellerReviewEnrollmentPaymentEventList) {
+        foreach ($SellerReviewEnrollmentPaymentEventList_array as $SellerReviewEnrollmentPaymentEventList) {
             $this->_fields['SellerReviewEnrollmentPaymentEventList']['FieldValue'][] = $SellerReviewEnrollmentPaymentEventList;
         }
         return $this;
@@ -1048,14 +1014,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for FBALiquidationEventList, return this.
      *
-     * @param fbaLiquidationEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFBALiquidationEvent $FBALiquidationEventList_array,...
+     * @return $this
      */
-    public function withFBALiquidationEventList()
+    public function withFBALiquidationEventList(...$FBALiquidationEventList_array)
     {
-        foreach (func_get_args() as $FBALiquidationEventList) {
+        foreach ($FBALiquidationEventList_array as $FBALiquidationEventList) {
             $this->_fields['FBALiquidationEventList']['FieldValue'][] = $FBALiquidationEventList;
         }
         return $this;
@@ -1105,14 +1069,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for CouponPaymentEventList, return this.
      *
-     * @param couponPaymentEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCouponPaymentEvent $CouponPaymentEventList_array,...
+     * @return $this
      */
-    public function withCouponPaymentEventList()
+    public function withCouponPaymentEventList(...$CouponPaymentEventList_array)
     {
-        foreach (func_get_args() as $CouponPaymentEventList) {
+        foreach ($CouponPaymentEventList_array as $CouponPaymentEventList) {
             $this->_fields['CouponPaymentEventList']['FieldValue'][] = $CouponPaymentEventList;
         }
         return $this;
@@ -1162,14 +1124,12 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
     /**
      * Add values for ImagingServicesFeeEventList, return this.
      *
-     * @param imagingServicesFeeEventList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelImagingServicesFeeEvent $ImagingServicesFeeEventList_array,...
+     * @return $this
      */
-    public function withImagingServicesFeeEventList()
+    public function withImagingServicesFeeEventList(...$ImagingServicesFeeEventList_array)
     {
-        foreach (func_get_args() as $ImagingServicesFeeEventList) {
+        foreach ($ImagingServicesFeeEventList_array as $ImagingServicesFeeEventList) {
             $this->_fields['ImagingServicesFeeEventList']['FieldValue'][] = $ImagingServicesFeeEventList;
         }
         return $this;

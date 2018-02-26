@@ -50,14 +50,12 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
     /**
      * Set the value of Name, return this.
      *
-     * @param name
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Name
+     * @return $this
      */
-    public function withName($value)
+    public function withName($Name)
     {
-        $this->setName($value);
+        $this->setName($Name);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
     /**
      * Set the value of Phone, return this.
      *
-     * @param phone
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Phone
+     * @return $this
      */
-    public function withPhone($value)
+    public function withPhone($Phone)
     {
-        $this->setPhone($value);
+        $this->setPhone($Phone);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
     /**
      * Set the value of Email, return this.
      *
-     * @param email
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Email
+     * @return $this
      */
-    public function withEmail($value)
+    public function withEmail($Email)
     {
-        $this->setEmail($value);
+        $this->setEmail($Email);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
     /**
      * Set the value of Fax, return this.
      *
-     * @param fax
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Fax
+     * @return $this
      */
-    public function withFax($value)
+    public function withFax($Fax)
     {
-        $this->setFax($value);
+        $this->setFax($Fax);
         return $this;
     }
 }

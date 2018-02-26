@@ -52,14 +52,12 @@ class FbaInboundServiceMwsModelGetPreorderInfoResponse extends FbaInboundService
     /**
      * Set the value of GetPreorderInfoResult, return this.
      *
-     * @param getPreorderInfoResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetPreorderInfoResult $GetPreorderInfoResult
+     * @return $this
      */
-    public function withGetPreorderInfoResult($value)
+    public function withGetPreorderInfoResult($GetPreorderInfoResult)
     {
-        $this->setGetPreorderInfoResult($value);
+        $this->setGetPreorderInfoResult($GetPreorderInfoResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaInboundServiceMwsModelGetPreorderInfoResponse extends FbaInboundService
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaInboundServiceMwsModelGetPreorderInfoResponse extends FbaInboundService
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

@@ -52,14 +52,12 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResponse exte
     /**
      * Set the value of GetEligibleShippingServicesResult, return this.
      *
-     * @param getEligibleShippingServicesResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult $GetEligibleShippingServicesResult
+     * @return $this
      */
-    public function withGetEligibleShippingServicesResult($value)
+    public function withGetEligibleShippingServicesResult($GetEligibleShippingServicesResult)
     {
-        $this->setGetEligibleShippingServicesResult($value);
+        $this->setGetEligibleShippingServicesResult($GetEligibleShippingServicesResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResponse exte
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResponse exte
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

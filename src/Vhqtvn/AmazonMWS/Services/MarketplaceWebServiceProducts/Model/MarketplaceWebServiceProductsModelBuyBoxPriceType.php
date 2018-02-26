@@ -51,14 +51,12 @@ class MarketplaceWebServiceProductsModelBuyBoxPriceType extends MarketplaceWebSe
     /**
      * Set the value of condition, return this.
      *
-     * @param condition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $condition
+     * @return $this
      */
-    public function withcondition($value)
+    public function withcondition($condition)
     {
-        $this->setcondition($value);
+        $this->setcondition($condition);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MarketplaceWebServiceProductsModelBuyBoxPriceType extends MarketplaceWebSe
     /**
      * Set the value of LandedPrice, return this.
      *
-     * @param landedPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $LandedPrice
+     * @return $this
      */
-    public function withLandedPrice($value)
+    public function withLandedPrice($LandedPrice)
     {
-        $this->setLandedPrice($value);
+        $this->setLandedPrice($LandedPrice);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MarketplaceWebServiceProductsModelBuyBoxPriceType extends MarketplaceWebSe
     /**
      * Set the value of ListingPrice, return this.
      *
-     * @param listingPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $ListingPrice
+     * @return $this
      */
-    public function withListingPrice($value)
+    public function withListingPrice($ListingPrice)
     {
-        $this->setListingPrice($value);
+        $this->setListingPrice($ListingPrice);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MarketplaceWebServiceProductsModelBuyBoxPriceType extends MarketplaceWebSe
     /**
      * Set the value of Shipping, return this.
      *
-     * @param shipping
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $Shipping
+     * @return $this
      */
-    public function withShipping($value)
+    public function withShipping($Shipping)
     {
-        $this->setShipping($value);
+        $this->setShipping($Shipping);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class MarketplaceWebServiceProductsModelBuyBoxPriceType extends MarketplaceWebSe
     /**
      * Set the value of Points, return this.
      *
-     * @param points
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints $Points
+     * @return $this
      */
-    public function withPoints($value)
+    public function withPoints($Points)
     {
-        $this->setPoints($value);
+        $this->setPoints($Points);
         return $this;
     }
 }

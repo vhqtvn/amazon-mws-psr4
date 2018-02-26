@@ -48,14 +48,12 @@ class MwsFinancesServiceModelListFinancialEventsByNextTokenResult extends MwsFin
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsFinancesServiceModelListFinancialEventsByNextTokenResult extends MwsFin
     /**
      * Set the value of FinancialEvents, return this.
      *
-     * @param financialEvents
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEvents $FinancialEvents
+     * @return $this
      */
-    public function withFinancialEvents($value)
+    public function withFinancialEvents($FinancialEvents)
     {
-        $this->setFinancialEvents($value);
+        $this->setFinancialEvents($FinancialEvents);
         return $this;
     }
 }

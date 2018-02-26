@@ -52,14 +52,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResponse exte
     /**
      * Set the value of GetLowestPricedOffersForSKUResult, return this.
      *
-     * @param getLowestPricedOffersForSKUResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult $GetLowestPricedOffersForSKUResult
+     * @return $this
      */
-    public function withGetLowestPricedOffersForSKUResult($value)
+    public function withGetLowestPricedOffersForSKUResult($GetLowestPricedOffersForSKUResult)
     {
-        $this->setGetLowestPricedOffersForSKUResult($value);
+        $this->setGetLowestPricedOffersForSKUResult($GetLowestPricedOffersForSKUResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResponse exte
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResponse exte
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

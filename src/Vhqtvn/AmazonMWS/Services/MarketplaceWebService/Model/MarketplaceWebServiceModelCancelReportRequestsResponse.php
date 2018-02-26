@@ -72,14 +72,14 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
         return;
     }
     /**
-     * Sets the value of the CancelReportRequestsResult  and returns this instance
-     * 
-     * @param CancelReportRequestsResult $value CancelReportRequestsResult
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelReportRequestsResponse instance
+     * Set the value of CancelReportRequestsResult, return this.
+     *
+     * @param CancelReportRequestsResult $CancelReportRequestsResult
+     * @return $this
      */
-    public function withCancelReportRequestsResult($value)
+    public function withCancelReportRequestsResult($CancelReportRequestsResult)
     {
-        $this->setCancelReportRequestsResult($value);
+        $this->setCancelReportRequestsResult($CancelReportRequestsResult);
         return $this;
     }
     /**
@@ -112,14 +112,14 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
         return;
     }
     /**
-     * Sets the value of the ResponseMetadata  and returns this instance
-     * 
-     * @param ResponseMetadata $value ResponseMetadata
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelReportRequestsResponse instance
+     * Set the value of ResponseMetadata, return this.
+     *
+     * @param ResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**

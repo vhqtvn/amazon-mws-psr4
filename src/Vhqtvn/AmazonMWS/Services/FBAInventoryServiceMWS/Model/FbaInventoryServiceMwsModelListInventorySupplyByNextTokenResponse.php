@@ -52,14 +52,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResponse extends 
     /**
      * Set the value of ListInventorySupplyByNextTokenResult, return this.
      *
-     * @param listInventorySupplyByNextTokenResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult $ListInventorySupplyByNextTokenResult
+     * @return $this
      */
-    public function withListInventorySupplyByNextTokenResult($value)
+    public function withListInventorySupplyByNextTokenResult($ListInventorySupplyByNextTokenResult)
     {
-        $this->setListInventorySupplyByNextTokenResult($value);
+        $this->setListInventorySupplyByNextTokenResult($ListInventorySupplyByNextTokenResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResponse extends 
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResponse extends 
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

@@ -56,14 +56,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of Name, return this.
      *
-     * @param name
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Name
+     * @return $this
      */
-    public function withName($value)
+    public function withName($Name)
     {
-        $this->setName($value);
+        $this->setName($Name);
         return $this;
     }
     /**
@@ -98,14 +96,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of Line1, return this.
      *
-     * @param line1
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Line1
+     * @return $this
      */
-    public function withLine1($value)
+    public function withLine1($Line1)
     {
-        $this->setLine1($value);
+        $this->setLine1($Line1);
         return $this;
     }
     /**
@@ -140,14 +136,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of Line2, return this.
      *
-     * @param line2
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Line2
+     * @return $this
      */
-    public function withLine2($value)
+    public function withLine2($Line2)
     {
-        $this->setLine2($value);
+        $this->setLine2($Line2);
         return $this;
     }
     /**
@@ -182,14 +176,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of Line3, return this.
      *
-     * @param line3
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Line3
+     * @return $this
      */
-    public function withLine3($value)
+    public function withLine3($Line3)
     {
-        $this->setLine3($value);
+        $this->setLine3($Line3);
         return $this;
     }
     /**
@@ -224,14 +216,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of DistrictOrCounty, return this.
      *
-     * @param districtOrCounty
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DistrictOrCounty
+     * @return $this
      */
-    public function withDistrictOrCounty($value)
+    public function withDistrictOrCounty($DistrictOrCounty)
     {
-        $this->setDistrictOrCounty($value);
+        $this->setDistrictOrCounty($DistrictOrCounty);
         return $this;
     }
     /**
@@ -266,14 +256,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of City, return this.
      *
-     * @param city
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $City
+     * @return $this
      */
-    public function withCity($value)
+    public function withCity($City)
     {
-        $this->setCity($value);
+        $this->setCity($City);
         return $this;
     }
     /**
@@ -308,14 +296,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of StateOrProvinceCode, return this.
      *
-     * @param stateOrProvinceCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $StateOrProvinceCode
+     * @return $this
      */
-    public function withStateOrProvinceCode($value)
+    public function withStateOrProvinceCode($StateOrProvinceCode)
     {
-        $this->setStateOrProvinceCode($value);
+        $this->setStateOrProvinceCode($StateOrProvinceCode);
         return $this;
     }
     /**
@@ -350,14 +336,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of CountryCode, return this.
      *
-     * @param countryCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CountryCode
+     * @return $this
      */
-    public function withCountryCode($value)
+    public function withCountryCode($CountryCode)
     {
-        $this->setCountryCode($value);
+        $this->setCountryCode($CountryCode);
         return $this;
     }
     /**
@@ -392,14 +376,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of PostalCode, return this.
      *
-     * @param postalCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostalCode
+     * @return $this
      */
-    public function withPostalCode($value)
+    public function withPostalCode($PostalCode)
     {
-        $this->setPostalCode($value);
+        $this->setPostalCode($PostalCode);
         return $this;
     }
     /**
@@ -434,14 +416,12 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Set the value of PhoneNumber, return this.
      *
-     * @param phoneNumber
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PhoneNumber
+     * @return $this
      */
-    public function withPhoneNumber($value)
+    public function withPhoneNumber($PhoneNumber)
     {
-        $this->setPhoneNumber($value);
+        $this->setPhoneNumber($PhoneNumber);
         return $this;
     }
 }

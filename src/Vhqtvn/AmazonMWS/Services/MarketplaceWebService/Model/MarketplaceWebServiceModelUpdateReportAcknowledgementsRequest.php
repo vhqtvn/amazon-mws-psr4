@@ -54,14 +54,14 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
         return $this;
     }
     /**
-     * Sets the value of the Marketplace and returns this instance
-     * 
-     * @param string $value Marketplace
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest instance
+     * Set the value of Marketplace, return this.
+     *
+     * @param string $Marketplace
+     * @return $this
      */
-    public function withMarketplace($value)
+    public function withMarketplace($Marketplace)
     {
-        $this->setMarketplace($value);
+        $this->setMarketplace($Marketplace);
         return $this;
     }
     /**
@@ -94,14 +94,14 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
         return $this;
     }
     /**
-     * Sets the value of the Merchant and returns this instance
-     * 
-     * @param string $value Merchant
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest instance
+     * Set the value of Merchant, return this.
+     *
+     * @param string $Merchant
+     * @return $this
      */
-    public function withMerchant($value)
+    public function withMerchant($Merchant)
     {
-        $this->setMerchant($value);
+        $this->setMerchant($Merchant);
         return $this;
     }
     /**
@@ -134,14 +134,14 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
         return $this;
     }
     /**
-     * Sets the value of the MWSAuthToken and returns this instance
+     * Set the value of MWSAuthToken, return this.
      *
-     * @param string $value MWSAuthToken
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest instance
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -174,14 +174,14 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
         return;
     }
     /**
-     * Sets the value of the ReportIdList  and returns this instance
-     * 
-     * @param IdList $value ReportIdList
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest instance
+     * Set the value of ReportIdList, return this.
+     *
+     * @param IdList $ReportIdList
+     * @return $this
      */
-    public function withReportIdList($value)
+    public function withReportIdList($ReportIdList)
     {
-        $this->setReportIdList($value);
+        $this->setReportIdList($ReportIdList);
         return $this;
     }
     /**
@@ -214,14 +214,14 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
         return $this;
     }
     /**
-     * Sets the value of the Acknowledged and returns this instance
-     * 
-     * @param bool $value Acknowledged
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest instance
+     * Set the value of Acknowledged, return this.
+     *
+     * @param bool $Acknowledged
+     * @return $this
      */
-    public function withAcknowledged($value)
+    public function withAcknowledged($Acknowledged)
     {
-        $this->setAcknowledged($value);
+        $this->setAcknowledged($Acknowledged);
         return $this;
     }
     /**

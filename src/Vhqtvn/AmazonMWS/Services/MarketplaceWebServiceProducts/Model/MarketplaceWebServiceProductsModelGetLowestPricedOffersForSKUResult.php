@@ -53,14 +53,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Set the value of MarketplaceID, return this.
      *
-     * @param marketplaceID
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceID
+     * @return $this
      */
-    public function withMarketplaceID($value)
+    public function withMarketplaceID($MarketplaceID)
     {
-        $this->setMarketplaceID($value);
+        $this->setMarketplaceID($MarketplaceID);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Set the value of SKU, return this.
      *
-     * @param sku
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SKU
+     * @return $this
      */
-    public function withSKU($value)
+    public function withSKU($SKU)
     {
-        $this->setSKU($value);
+        $this->setSKU($SKU);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Set the value of ItemCondition, return this.
      *
-     * @param itemCondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemCondition
+     * @return $this
      */
-    public function withItemCondition($value)
+    public function withItemCondition($ItemCondition)
     {
-        $this->setItemCondition($value);
+        $this->setItemCondition($ItemCondition);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Set the value of status, return this.
      *
-     * @param status
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $status
+     * @return $this
      */
-    public function withstatus($value)
+    public function withstatus($status)
     {
-        $this->setstatus($value);
+        $this->setstatus($status);
         return $this;
     }
     /**
@@ -221,14 +213,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Set the value of Identifier, return this.
      *
-     * @param identifier
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier $Identifier
+     * @return $this
      */
-    public function withIdentifier($value)
+    public function withIdentifier($Identifier)
     {
-        $this->setIdentifier($value);
+        $this->setIdentifier($Identifier);
         return $this;
     }
     /**
@@ -263,14 +253,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Set the value of Summary, return this.
      *
-     * @param summary
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSummary $Summary
+     * @return $this
      */
-    public function withSummary($value)
+    public function withSummary($Summary)
     {
-        $this->setSummary($value);
+        $this->setSummary($Summary);
         return $this;
     }
     /**
@@ -305,14 +293,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Set the value of Offers, return this.
      *
-     * @param offers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetailList $Offers
+     * @return $this
      */
-    public function withOffers($value)
+    public function withOffers($Offers)
     {
-        $this->setOffers($value);
+        $this->setOffers($Offers);
         return $this;
     }
 }

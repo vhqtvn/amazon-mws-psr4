@@ -58,14 +58,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of LastUpdated, return this.
      *
-     * @param lastUpdated
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LastUpdated
+     * @return $this
      */
-    public function withLastUpdated($value)
+    public function withLastUpdated($LastUpdated)
     {
-        $this->setLastUpdated($value);
+        $this->setLastUpdated($LastUpdated);
         return $this;
     }
     /**
@@ -100,14 +98,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of ItemIdentifier, return this.
      *
-     * @param itemIdentifier
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier $ItemIdentifier
+     * @return $this
      */
-    public function withItemIdentifier($value)
+    public function withItemIdentifier($ItemIdentifier)
     {
-        $this->setItemIdentifier($value);
+        $this->setItemIdentifier($ItemIdentifier);
         return $this;
     }
     /**
@@ -142,14 +138,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of ItemName, return this.
      *
-     * @param itemName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemName
+     * @return $this
      */
-    public function withItemName($value)
+    public function withItemName($ItemName)
     {
-        $this->setItemName($value);
+        $this->setItemName($ItemName);
         return $this;
     }
     /**
@@ -184,14 +178,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of BrandName, return this.
      *
-     * @param brandName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $BrandName
+     * @return $this
      */
-    public function withBrandName($value)
+    public function withBrandName($BrandName)
     {
-        $this->setBrandName($value);
+        $this->setBrandName($BrandName);
         return $this;
     }
     /**
@@ -226,14 +218,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of ProductCategory, return this.
      *
-     * @param productCategory
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProductCategory
+     * @return $this
      */
-    public function withProductCategory($value)
+    public function withProductCategory($ProductCategory)
     {
-        $this->setProductCategory($value);
+        $this->setProductCategory($ProductCategory);
         return $this;
     }
     /**
@@ -268,14 +258,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of SalesRank, return this.
      *
-     * @param salesRank
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $SalesRank
+     * @return $this
      */
-    public function withSalesRank($value)
+    public function withSalesRank($SalesRank)
     {
-        $this->setSalesRank($value);
+        $this->setSalesRank($SalesRank);
         return $this;
     }
     /**
@@ -310,14 +298,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of BuyboxPrice, return this.
      *
-     * @param buyboxPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice $BuyboxPrice
+     * @return $this
      */
-    public function withBuyboxPrice($value)
+    public function withBuyboxPrice($BuyboxPrice)
     {
-        $this->setBuyboxPrice($value);
+        $this->setBuyboxPrice($BuyboxPrice);
         return $this;
     }
     /**
@@ -352,14 +338,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of NumberOfOffers, return this.
      *
-     * @param numberOfOffers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $NumberOfOffers
+     * @return $this
      */
-    public function withNumberOfOffers($value)
+    public function withNumberOfOffers($NumberOfOffers)
     {
-        $this->setNumberOfOffers($value);
+        $this->setNumberOfOffers($NumberOfOffers);
         return $this;
     }
     /**
@@ -394,14 +378,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of AverageCustomerReview, return this.
      *
-     * @param averageCustomerReview
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param float $AverageCustomerReview
+     * @return $this
      */
-    public function withAverageCustomerReview($value)
+    public function withAverageCustomerReview($AverageCustomerReview)
     {
-        $this->setAverageCustomerReview($value);
+        $this->setAverageCustomerReview($AverageCustomerReview);
         return $this;
     }
     /**
@@ -436,14 +418,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of NumberOfCustomerReviews, return this.
      *
-     * @param numberOfCustomerReviews
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $NumberOfCustomerReviews
+     * @return $this
      */
-    public function withNumberOfCustomerReviews($value)
+    public function withNumberOfCustomerReviews($NumberOfCustomerReviews)
     {
-        $this->setNumberOfCustomerReviews($value);
+        $this->setNumberOfCustomerReviews($NumberOfCustomerReviews);
         return $this;
     }
     /**
@@ -478,14 +458,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of RecommendationId, return this.
      *
-     * @param recommendationId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationId
+     * @return $this
      */
-    public function withRecommendationId($value)
+    public function withRecommendationId($RecommendationId)
     {
-        $this->setRecommendationId($value);
+        $this->setRecommendationId($RecommendationId);
         return $this;
     }
     /**
@@ -520,14 +498,12 @@ class MwsRecommendationsSectionServiceModelSelectionRecommendation extends MwsRe
     /**
      * Set the value of RecommendationReason, return this.
      *
-     * @param recommendationReason
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationReason
+     * @return $this
      */
-    public function withRecommendationReason($value)
+    public function withRecommendationReason($RecommendationReason)
     {
-        $this->setRecommendationReason($value);
+        $this->setRecommendationReason($RecommendationReason);
         return $this;
     }
 }

@@ -60,14 +60,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of LastUpdated, return this.
      *
-     * @param lastUpdated
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LastUpdated
+     * @return $this
      */
-    public function withLastUpdated($value)
+    public function withLastUpdated($LastUpdated)
     {
-        $this->setLastUpdated($value);
+        $this->setLastUpdated($LastUpdated);
         return $this;
     }
     /**
@@ -102,14 +100,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of ItemIdentifier, return this.
      *
-     * @param itemIdentifier
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier $ItemIdentifier
+     * @return $this
      */
-    public function withItemIdentifier($value)
+    public function withItemIdentifier($ItemIdentifier)
     {
-        $this->setItemIdentifier($value);
+        $this->setItemIdentifier($ItemIdentifier);
         return $this;
     }
     /**
@@ -144,14 +140,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of ItemName, return this.
      *
-     * @param itemName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemName
+     * @return $this
      */
-    public function withItemName($value)
+    public function withItemName($ItemName)
     {
-        $this->setItemName($value);
+        $this->setItemName($ItemName);
         return $this;
     }
     /**
@@ -186,14 +180,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of FulfillmentChannel, return this.
      *
-     * @param fulfillmentChannel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentChannel
+     * @return $this
      */
-    public function withFulfillmentChannel($value)
+    public function withFulfillmentChannel($FulfillmentChannel)
     {
-        $this->setFulfillmentChannel($value);
+        $this->setFulfillmentChannel($FulfillmentChannel);
         return $this;
     }
     /**
@@ -228,14 +220,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of SalesForTheLast14Days, return this.
      *
-     * @param salesForTheLast14Days
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $SalesForTheLast14Days
+     * @return $this
      */
-    public function withSalesForTheLast14Days($value)
+    public function withSalesForTheLast14Days($SalesForTheLast14Days)
     {
-        $this->setSalesForTheLast14Days($value);
+        $this->setSalesForTheLast14Days($SalesForTheLast14Days);
         return $this;
     }
     /**
@@ -270,14 +260,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of SalesForTheLast30Days, return this.
      *
-     * @param salesForTheLast30Days
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $SalesForTheLast30Days
+     * @return $this
      */
-    public function withSalesForTheLast30Days($value)
+    public function withSalesForTheLast30Days($SalesForTheLast30Days)
     {
-        $this->setSalesForTheLast30Days($value);
+        $this->setSalesForTheLast30Days($SalesForTheLast30Days);
         return $this;
     }
     /**
@@ -312,14 +300,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of AvailableQuantity, return this.
      *
-     * @param availableQuantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $AvailableQuantity
+     * @return $this
      */
-    public function withAvailableQuantity($value)
+    public function withAvailableQuantity($AvailableQuantity)
     {
-        $this->setAvailableQuantity($value);
+        $this->setAvailableQuantity($AvailableQuantity);
         return $this;
     }
     /**
@@ -354,14 +340,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of DaysUntilStockRunsOut, return this.
      *
-     * @param daysUntilStockRunsOut
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $DaysUntilStockRunsOut
+     * @return $this
      */
-    public function withDaysUntilStockRunsOut($value)
+    public function withDaysUntilStockRunsOut($DaysUntilStockRunsOut)
     {
-        $this->setDaysUntilStockRunsOut($value);
+        $this->setDaysUntilStockRunsOut($DaysUntilStockRunsOut);
         return $this;
     }
     /**
@@ -396,14 +380,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of InboundQuantity, return this.
      *
-     * @param inboundQuantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $InboundQuantity
+     * @return $this
      */
-    public function withInboundQuantity($value)
+    public function withInboundQuantity($InboundQuantity)
     {
-        $this->setInboundQuantity($value);
+        $this->setInboundQuantity($InboundQuantity);
         return $this;
     }
     /**
@@ -438,14 +420,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of RecommendedInboundQuantity, return this.
      *
-     * @param recommendedInboundQuantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $RecommendedInboundQuantity
+     * @return $this
      */
-    public function withRecommendedInboundQuantity($value)
+    public function withRecommendedInboundQuantity($RecommendedInboundQuantity)
     {
-        $this->setRecommendedInboundQuantity($value);
+        $this->setRecommendedInboundQuantity($RecommendedInboundQuantity);
         return $this;
     }
     /**
@@ -480,14 +460,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of DaysOutOfStockLast30Days, return this.
      *
-     * @param daysOutOfStockLast30Days
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $DaysOutOfStockLast30Days
+     * @return $this
      */
-    public function withDaysOutOfStockLast30Days($value)
+    public function withDaysOutOfStockLast30Days($DaysOutOfStockLast30Days)
     {
-        $this->setDaysOutOfStockLast30Days($value);
+        $this->setDaysOutOfStockLast30Days($DaysOutOfStockLast30Days);
         return $this;
     }
     /**
@@ -522,14 +500,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of LostSalesInLast30Days, return this.
      *
-     * @param lostSalesInLast30Days
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $LostSalesInLast30Days
+     * @return $this
      */
-    public function withLostSalesInLast30Days($value)
+    public function withLostSalesInLast30Days($LostSalesInLast30Days)
     {
-        $this->setLostSalesInLast30Days($value);
+        $this->setLostSalesInLast30Days($LostSalesInLast30Days);
         return $this;
     }
     /**
@@ -564,14 +540,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of RecommendationId, return this.
      *
-     * @param recommendationId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationId
+     * @return $this
      */
-    public function withRecommendationId($value)
+    public function withRecommendationId($RecommendationId)
     {
-        $this->setRecommendationId($value);
+        $this->setRecommendationId($RecommendationId);
         return $this;
     }
     /**
@@ -606,14 +580,12 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Set the value of RecommendationReason, return this.
      *
-     * @param recommendationReason
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationReason
+     * @return $this
      */
-    public function withRecommendationReason($value)
+    public function withRecommendationReason($RecommendationReason)
     {
-        $this->setRecommendationReason($value);
+        $this->setRecommendationReason($RecommendationReason);
         return $this;
     }
 }

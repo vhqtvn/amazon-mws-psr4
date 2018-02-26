@@ -52,14 +52,12 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of postedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $postedDate
+     * @return $this
      */
-    public function withpostedDate($value)
+    public function withpostedDate($postedDate)
     {
-        $this->setpostedDate($value);
+        $this->setpostedDate($postedDate);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of transactionType, return this.
      *
-     * @param transactionType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $transactionType
+     * @return $this
      */
-    public function withtransactionType($value)
+    public function withtransactionType($transactionType)
     {
-        $this->settransactionType($value);
+        $this->settransactionType($transactionType);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of invoiceId, return this.
      *
-     * @param invoiceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $invoiceId
+     * @return $this
      */
-    public function withinvoiceId($value)
+    public function withinvoiceId($invoiceId)
     {
-        $this->setinvoiceId($value);
+        $this->setinvoiceId($invoiceId);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of baseValue, return this.
      *
-     * @param baseValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $baseValue
+     * @return $this
      */
-    public function withbaseValue($value)
+    public function withbaseValue($baseValue)
     {
-        $this->setbaseValue($value);
+        $this->setbaseValue($baseValue);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of taxValue, return this.
      *
-     * @param taxValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $taxValue
+     * @return $this
      */
-    public function withtaxValue($value)
+    public function withtaxValue($taxValue)
     {
-        $this->settaxValue($value);
+        $this->settaxValue($taxValue);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of transactionValue, return this.
      *
-     * @param transactionValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $transactionValue
+     * @return $this
      */
-    public function withtransactionValue($value)
+    public function withtransactionValue($transactionValue)
     {
-        $this->settransactionValue($value);
+        $this->settransactionValue($transactionValue);
         return $this;
     }
 }

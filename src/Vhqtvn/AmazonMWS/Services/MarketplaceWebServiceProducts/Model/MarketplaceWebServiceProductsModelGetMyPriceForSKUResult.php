@@ -50,14 +50,12 @@ class MarketplaceWebServiceProductsModelGetMyPriceForSKUResult extends Marketpla
     /**
      * Set the value of Product, return this.
      *
-     * @param product
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct $Product
+     * @return $this
      */
-    public function withProduct($value)
+    public function withProduct($Product)
     {
-        $this->setProduct($value);
+        $this->setProduct($Product);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MarketplaceWebServiceProductsModelGetMyPriceForSKUResult extends Marketpla
     /**
      * Set the value of Error, return this.
      *
-     * @param error
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError $Error
+     * @return $this
      */
-    public function withError($value)
+    public function withError($Error)
     {
-        $this->setError($value);
+        $this->setError($Error);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MarketplaceWebServiceProductsModelGetMyPriceForSKUResult extends Marketpla
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MarketplaceWebServiceProductsModelGetMyPriceForSKUResult extends Marketpla
     /**
      * Set the value of status, return this.
      *
-     * @param status
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $status
+     * @return $this
      */
-    public function withstatus($value)
+    public function withstatus($status)
     {
-        $this->setstatus($value);
+        $this->setstatus($status);
         return $this;
     }
 }

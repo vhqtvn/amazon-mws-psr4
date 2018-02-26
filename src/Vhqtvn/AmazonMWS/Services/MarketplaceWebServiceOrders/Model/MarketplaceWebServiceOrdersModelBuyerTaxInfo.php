@@ -49,14 +49,12 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
     /**
      * Set the value of CompanyLegalName, return this.
      *
-     * @param companyLegalName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CompanyLegalName
+     * @return $this
      */
-    public function withCompanyLegalName($value)
+    public function withCompanyLegalName($CompanyLegalName)
     {
-        $this->setCompanyLegalName($value);
+        $this->setCompanyLegalName($CompanyLegalName);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
     /**
      * Set the value of TaxingRegion, return this.
      *
-     * @param taxingRegion
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TaxingRegion
+     * @return $this
      */
-    public function withTaxingRegion($value)
+    public function withTaxingRegion($TaxingRegion)
     {
-        $this->setTaxingRegion($value);
+        $this->setTaxingRegion($TaxingRegion);
         return $this;
     }
     /**
@@ -146,14 +142,12 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
     /**
      * Add values for TaxClassifications, return this.
      *
-     * @param taxClassifications
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxClassification $TaxClassifications_array,...
+     * @return $this
      */
-    public function withTaxClassifications()
+    public function withTaxClassifications(...$TaxClassifications_array)
     {
-        foreach (func_get_args() as $TaxClassifications) {
+        foreach ($TaxClassifications_array as $TaxClassifications) {
             $this->_fields['TaxClassifications']['FieldValue'][] = $TaxClassifications;
         }
         return $this;

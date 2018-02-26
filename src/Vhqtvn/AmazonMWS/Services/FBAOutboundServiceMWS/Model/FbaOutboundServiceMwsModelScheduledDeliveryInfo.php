@@ -48,14 +48,12 @@ class FbaOutboundServiceMwsModelScheduledDeliveryInfo extends FbaOutboundService
     /**
      * Set the value of DeliveryTimeZone, return this.
      *
-     * @param deliveryTimeZone
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DeliveryTimeZone
+     * @return $this
      */
-    public function withDeliveryTimeZone($value)
+    public function withDeliveryTimeZone($DeliveryTimeZone)
     {
-        $this->setDeliveryTimeZone($value);
+        $this->setDeliveryTimeZone($DeliveryTimeZone);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaOutboundServiceMwsModelScheduledDeliveryInfo extends FbaOutboundService
     /**
      * Set the value of DeliveryWindows, return this.
      *
-     * @param deliveryWindows
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindowList $DeliveryWindows
+     * @return $this
      */
-    public function withDeliveryWindows($value)
+    public function withDeliveryWindows($DeliveryWindows)
     {
-        $this->setDeliveryWindows($value);
+        $this->setDeliveryWindows($DeliveryWindows);
         return $this;
     }
 }

@@ -48,14 +48,12 @@ class MarketplaceWebServiceProductsModelOfferListingCountType extends Marketplac
     /**
      * Set the value of Value, return this.
      *
-     * @param value
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $Value
+     * @return $this
      */
-    public function withValue($value)
+    public function withValue($Value)
     {
-        $this->setValue($value);
+        $this->setValue($Value);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceProductsModelOfferListingCountType extends Marketplac
     /**
      * Set the value of condition, return this.
      *
-     * @param condition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $condition
+     * @return $this
      */
-    public function withcondition($value)
+    public function withcondition($condition)
     {
-        $this->setcondition($value);
+        $this->setcondition($condition);
         return $this;
     }
 }

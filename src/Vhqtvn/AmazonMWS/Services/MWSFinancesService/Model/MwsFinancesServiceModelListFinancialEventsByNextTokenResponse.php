@@ -52,14 +52,12 @@ class MwsFinancesServiceModelListFinancialEventsByNextTokenResponse extends MwsF
     /**
      * Set the value of ListFinancialEventsByNextTokenResult, return this.
      *
-     * @param listFinancialEventsByNextTokenResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelListFinancialEventsByNextTokenResult $ListFinancialEventsByNextTokenResult
+     * @return $this
      */
-    public function withListFinancialEventsByNextTokenResult($value)
+    public function withListFinancialEventsByNextTokenResult($ListFinancialEventsByNextTokenResult)
     {
-        $this->setListFinancialEventsByNextTokenResult($value);
+        $this->setListFinancialEventsByNextTokenResult($ListFinancialEventsByNextTokenResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MwsFinancesServiceModelListFinancialEventsByNextTokenResponse extends MwsF
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MwsFinancesServiceModelListFinancialEventsByNextTokenResponse extends MwsF
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

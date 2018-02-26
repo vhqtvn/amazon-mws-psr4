@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForASINResult extends FbaInboun
     /**
      * Set the value of ASINInboundGuidanceList, return this.
      *
-     * @param asinInboundGuidanceList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINInboundGuidanceList $ASINInboundGuidanceList
+     * @return $this
      */
-    public function withASINInboundGuidanceList($value)
+    public function withASINInboundGuidanceList($ASINInboundGuidanceList)
     {
-        $this->setASINInboundGuidanceList($value);
+        $this->setASINInboundGuidanceList($ASINInboundGuidanceList);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForASINResult extends FbaInboun
     /**
      * Set the value of InvalidASINList, return this.
      *
-     * @param invalidASINList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASINList $InvalidASINList
+     * @return $this
      */
-    public function withInvalidASINList($value)
+    public function withInvalidASINList($InvalidASINList)
     {
-        $this->setInvalidASINList($value);
+        $this->setInvalidASINList($InvalidASINList);
         return $this;
     }
 }

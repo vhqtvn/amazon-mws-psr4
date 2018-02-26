@@ -50,14 +50,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanItem extends FbaInboundService
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanItem extends FbaInboundService
     /**
      * Set the value of FulfillmentNetworkSKU, return this.
      *
-     * @param fulfillmentNetworkSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentNetworkSKU
+     * @return $this
      */
-    public function withFulfillmentNetworkSKU($value)
+    public function withFulfillmentNetworkSKU($FulfillmentNetworkSKU)
     {
-        $this->setFulfillmentNetworkSKU($value);
+        $this->setFulfillmentNetworkSKU($FulfillmentNetworkSKU);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanItem extends FbaInboundService
     /**
      * Set the value of Quantity, return this.
      *
-     * @param quantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $Quantity
+     * @return $this
      */
-    public function withQuantity($value)
+    public function withQuantity($Quantity)
     {
-        $this->setQuantity($value);
+        $this->setQuantity($Quantity);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanItem extends FbaInboundService
     /**
      * Set the value of PrepDetailsList, return this.
      *
-     * @param prepDetailsList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList $PrepDetailsList
+     * @return $this
      */
-    public function withPrepDetailsList($value)
+    public function withPrepDetailsList($PrepDetailsList)
     {
-        $this->setPrepDetailsList($value);
+        $this->setPrepDetailsList($PrepDetailsList);
         return $this;
     }
 }

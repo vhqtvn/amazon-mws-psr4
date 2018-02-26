@@ -51,14 +51,12 @@ class FbaOutboundServiceMwsModelReturnAuthorization extends FbaOutboundServiceMw
     /**
      * Set the value of ReturnAuthorizationId, return this.
      *
-     * @param returnAuthorizationId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ReturnAuthorizationId
+     * @return $this
      */
-    public function withReturnAuthorizationId($value)
+    public function withReturnAuthorizationId($ReturnAuthorizationId)
     {
-        $this->setReturnAuthorizationId($value);
+        $this->setReturnAuthorizationId($ReturnAuthorizationId);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class FbaOutboundServiceMwsModelReturnAuthorization extends FbaOutboundServiceMw
     /**
      * Set the value of FulfillmentCenterId, return this.
      *
-     * @param fulfillmentCenterId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentCenterId
+     * @return $this
      */
-    public function withFulfillmentCenterId($value)
+    public function withFulfillmentCenterId($FulfillmentCenterId)
     {
-        $this->setFulfillmentCenterId($value);
+        $this->setFulfillmentCenterId($FulfillmentCenterId);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class FbaOutboundServiceMwsModelReturnAuthorization extends FbaOutboundServiceMw
     /**
      * Set the value of ReturnToAddress, return this.
      *
-     * @param returnToAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress $ReturnToAddress
+     * @return $this
      */
-    public function withReturnToAddress($value)
+    public function withReturnToAddress($ReturnToAddress)
     {
-        $this->setReturnToAddress($value);
+        $this->setReturnToAddress($ReturnToAddress);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class FbaOutboundServiceMwsModelReturnAuthorization extends FbaOutboundServiceMw
     /**
      * Set the value of AmazonRmaId, return this.
      *
-     * @param amazonRmaId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonRmaId
+     * @return $this
      */
-    public function withAmazonRmaId($value)
+    public function withAmazonRmaId($AmazonRmaId)
     {
-        $this->setAmazonRmaId($value);
+        $this->setAmazonRmaId($AmazonRmaId);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class FbaOutboundServiceMwsModelReturnAuthorization extends FbaOutboundServiceMw
     /**
      * Set the value of RmaPageURL, return this.
      *
-     * @param rmaPageURL
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RmaPageURL
+     * @return $this
      */
-    public function withRmaPageURL($value)
+    public function withRmaPageURL($RmaPageURL)
     {
-        $this->setRmaPageURL($value);
+        $this->setRmaPageURL($RmaPageURL);
         return $this;
     }
 }

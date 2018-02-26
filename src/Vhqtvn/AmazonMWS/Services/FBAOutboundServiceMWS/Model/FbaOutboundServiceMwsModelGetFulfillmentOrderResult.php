@@ -51,14 +51,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Set the value of FulfillmentOrder, return this.
      *
-     * @param fulfillmentOrder
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrder $FulfillmentOrder
+     * @return $this
      */
-    public function withFulfillmentOrder($value)
+    public function withFulfillmentOrder($FulfillmentOrder)
     {
-        $this->setFulfillmentOrder($value);
+        $this->setFulfillmentOrder($FulfillmentOrder);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Set the value of FulfillmentOrderItem, return this.
      *
-     * @param fulfillmentOrderItem
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrderItemList $FulfillmentOrderItem
+     * @return $this
      */
-    public function withFulfillmentOrderItem($value)
+    public function withFulfillmentOrderItem($FulfillmentOrderItem)
     {
-        $this->setFulfillmentOrderItem($value);
+        $this->setFulfillmentOrderItem($FulfillmentOrderItem);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Set the value of FulfillmentShipment, return this.
      *
-     * @param fulfillmentShipment
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentList $FulfillmentShipment
+     * @return $this
      */
-    public function withFulfillmentShipment($value)
+    public function withFulfillmentShipment($FulfillmentShipment)
     {
-        $this->setFulfillmentShipment($value);
+        $this->setFulfillmentShipment($FulfillmentShipment);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Set the value of ReturnItemList, return this.
      *
-     * @param returnItemList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnItemList $ReturnItemList
+     * @return $this
      */
-    public function withReturnItemList($value)
+    public function withReturnItemList($ReturnItemList)
     {
-        $this->setReturnItemList($value);
+        $this->setReturnItemList($ReturnItemList);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
     /**
      * Set the value of ReturnAuthorizationList, return this.
      *
-     * @param returnAuthorizationList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnAuthorizationList $ReturnAuthorizationList
+     * @return $this
      */
-    public function withReturnAuthorizationList($value)
+    public function withReturnAuthorizationList($ReturnAuthorizationList)
     {
-        $this->setReturnAuthorizationList($value);
+        $this->setReturnAuthorizationList($ReturnAuthorizationList);
         return $this;
     }
 }

@@ -52,14 +52,12 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Set the value of SellerFulfillmentOrderId, return this.
      *
-     * @param sellerFulfillmentOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerFulfillmentOrderId
+     * @return $this
      */
-    public function withSellerFulfillmentOrderId($value)
+    public function withSellerFulfillmentOrderId($SellerFulfillmentOrderId)
     {
-        $this->setSellerFulfillmentOrderId($value);
+        $this->setSellerFulfillmentOrderId($SellerFulfillmentOrderId);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Set the value of Language, return this.
      *
-     * @param language
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Language
+     * @return $this
      */
-    public function withLanguage($value)
+    public function withLanguage($Language)
     {
-        $this->setLanguage($value);
+        $this->setLanguage($Language);
         return $this;
     }
 }

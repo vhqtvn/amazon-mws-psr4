@@ -47,14 +47,12 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesResult extends FbaOutboundS
     /**
      * Set the value of ReasonCodeDetailsList, return this.
      *
-     * @param reasonCodeDetailsList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReasonCodeDetailsList $ReasonCodeDetailsList
+     * @return $this
      */
-    public function withReasonCodeDetailsList($value)
+    public function withReasonCodeDetailsList($ReasonCodeDetailsList)
     {
-        $this->setReasonCodeDetailsList($value);
+        $this->setReasonCodeDetailsList($ReasonCodeDetailsList);
         return $this;
     }
 }

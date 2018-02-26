@@ -60,14 +60,12 @@ class FbaInboundServiceMwsModelASINInboundGuidanceList extends FbaInboundService
     /**
      * Add values for ASINInboundGuidance, return this.
      *
-     * @param asinInboundGuidance
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINInboundGuidance $ASINInboundGuidance_array,...
+     * @return $this
      */
-    public function withASINInboundGuidance()
+    public function withASINInboundGuidance(...$ASINInboundGuidance_array)
     {
-        foreach (func_get_args() as $ASINInboundGuidance) {
+        foreach ($ASINInboundGuidance_array as $ASINInboundGuidance) {
             $this->_fields['ASINInboundGuidance']['FieldValue'][] = $ASINInboundGuidance;
         }
         return $this;

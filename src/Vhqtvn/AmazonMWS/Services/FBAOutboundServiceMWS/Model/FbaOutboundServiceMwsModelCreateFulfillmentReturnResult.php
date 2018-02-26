@@ -49,14 +49,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnResult extends FbaOutboun
     /**
      * Set the value of ReturnItemList, return this.
      *
-     * @param returnItemList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnItemList $ReturnItemList
+     * @return $this
      */
-    public function withReturnItemList($value)
+    public function withReturnItemList($ReturnItemList)
     {
-        $this->setReturnItemList($value);
+        $this->setReturnItemList($ReturnItemList);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnResult extends FbaOutboun
     /**
      * Set the value of InvalidReturnItemList, return this.
      *
-     * @param invalidReturnItemList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidReturnItemList $InvalidReturnItemList
+     * @return $this
      */
-    public function withInvalidReturnItemList($value)
+    public function withInvalidReturnItemList($InvalidReturnItemList)
     {
-        $this->setInvalidReturnItemList($value);
+        $this->setInvalidReturnItemList($InvalidReturnItemList);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnResult extends FbaOutboun
     /**
      * Set the value of ReturnAuthorizationList, return this.
      *
-     * @param returnAuthorizationList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnAuthorizationList $ReturnAuthorizationList
+     * @return $this
      */
-    public function withReturnAuthorizationList($value)
+    public function withReturnAuthorizationList($ReturnAuthorizationList)
     {
-        $this->setReturnAuthorizationList($value);
+        $this->setReturnAuthorizationList($ReturnAuthorizationList);
         return $this;
     }
 }

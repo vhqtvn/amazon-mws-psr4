@@ -77,14 +77,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
     /**
@@ -119,14 +117,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -161,14 +157,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of OrderItemId, return this.
      *
-     * @param orderItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $OrderItemId
+     * @return $this
      */
-    public function withOrderItemId($value)
+    public function withOrderItemId($OrderItemId)
     {
-        $this->setOrderItemId($value);
+        $this->setOrderItemId($OrderItemId);
         return $this;
     }
     /**
@@ -203,14 +197,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of Title, return this.
      *
-     * @param title
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Title
+     * @return $this
      */
-    public function withTitle($value)
+    public function withTitle($Title)
     {
-        $this->setTitle($value);
+        $this->setTitle($Title);
         return $this;
     }
     /**
@@ -245,14 +237,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of QuantityOrdered, return this.
      *
-     * @param quantityOrdered
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $QuantityOrdered
+     * @return $this
      */
-    public function withQuantityOrdered($value)
+    public function withQuantityOrdered($QuantityOrdered)
     {
-        $this->setQuantityOrdered($value);
+        $this->setQuantityOrdered($QuantityOrdered);
         return $this;
     }
     /**
@@ -287,14 +277,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of QuantityShipped, return this.
      *
-     * @param quantityShipped
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $QuantityShipped
+     * @return $this
      */
-    public function withQuantityShipped($value)
+    public function withQuantityShipped($QuantityShipped)
     {
-        $this->setQuantityShipped($value);
+        $this->setQuantityShipped($QuantityShipped);
         return $this;
     }
     /**
@@ -329,14 +317,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ProductInfo, return this.
      *
-     * @param productInfo
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelProductInfoDetail $ProductInfo
+     * @return $this
      */
-    public function withProductInfo($value)
+    public function withProductInfo($ProductInfo)
     {
-        $this->setProductInfo($value);
+        $this->setProductInfo($ProductInfo);
         return $this;
     }
     /**
@@ -371,14 +357,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of PointsGranted, return this.
      *
-     * @param pointsGranted
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPointsGrantedDetail $PointsGranted
+     * @return $this
      */
-    public function withPointsGranted($value)
+    public function withPointsGranted($PointsGranted)
     {
-        $this->setPointsGranted($value);
+        $this->setPointsGranted($PointsGranted);
         return $this;
     }
     /**
@@ -413,14 +397,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ItemPrice, return this.
      *
-     * @param itemPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $ItemPrice
+     * @return $this
      */
-    public function withItemPrice($value)
+    public function withItemPrice($ItemPrice)
     {
-        $this->setItemPrice($value);
+        $this->setItemPrice($ItemPrice);
         return $this;
     }
     /**
@@ -455,14 +437,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ShippingPrice, return this.
      *
-     * @param shippingPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $ShippingPrice
+     * @return $this
      */
-    public function withShippingPrice($value)
+    public function withShippingPrice($ShippingPrice)
     {
-        $this->setShippingPrice($value);
+        $this->setShippingPrice($ShippingPrice);
         return $this;
     }
     /**
@@ -497,14 +477,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of GiftWrapPrice, return this.
      *
-     * @param giftWrapPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $GiftWrapPrice
+     * @return $this
      */
-    public function withGiftWrapPrice($value)
+    public function withGiftWrapPrice($GiftWrapPrice)
     {
-        $this->setGiftWrapPrice($value);
+        $this->setGiftWrapPrice($GiftWrapPrice);
         return $this;
     }
     /**
@@ -539,14 +517,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ItemTax, return this.
      *
-     * @param itemTax
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $ItemTax
+     * @return $this
      */
-    public function withItemTax($value)
+    public function withItemTax($ItemTax)
     {
-        $this->setItemTax($value);
+        $this->setItemTax($ItemTax);
         return $this;
     }
     /**
@@ -581,14 +557,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ShippingTax, return this.
      *
-     * @param shippingTax
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $ShippingTax
+     * @return $this
      */
-    public function withShippingTax($value)
+    public function withShippingTax($ShippingTax)
     {
-        $this->setShippingTax($value);
+        $this->setShippingTax($ShippingTax);
         return $this;
     }
     /**
@@ -623,14 +597,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of GiftWrapTax, return this.
      *
-     * @param giftWrapTax
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $GiftWrapTax
+     * @return $this
      */
-    public function withGiftWrapTax($value)
+    public function withGiftWrapTax($GiftWrapTax)
     {
-        $this->setGiftWrapTax($value);
+        $this->setGiftWrapTax($GiftWrapTax);
         return $this;
     }
     /**
@@ -665,14 +637,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ShippingDiscount, return this.
      *
-     * @param shippingDiscount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $ShippingDiscount
+     * @return $this
      */
-    public function withShippingDiscount($value)
+    public function withShippingDiscount($ShippingDiscount)
     {
-        $this->setShippingDiscount($value);
+        $this->setShippingDiscount($ShippingDiscount);
         return $this;
     }
     /**
@@ -707,14 +677,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of PromotionDiscount, return this.
      *
-     * @param promotionDiscount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $PromotionDiscount
+     * @return $this
      */
-    public function withPromotionDiscount($value)
+    public function withPromotionDiscount($PromotionDiscount)
     {
-        $this->setPromotionDiscount($value);
+        $this->setPromotionDiscount($PromotionDiscount);
         return $this;
     }
     /**
@@ -762,14 +730,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Add values for PromotionIds, return this.
      *
-     * @param promotionIds
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $PromotionIds_array,...
+     * @return $this
      */
-    public function withPromotionIds()
+    public function withPromotionIds(...$PromotionIds_array)
     {
-        foreach (func_get_args() as $PromotionIds) {
+        foreach ($PromotionIds_array as $PromotionIds) {
             $this->_fields['PromotionIds']['FieldValue'][] = $PromotionIds;
         }
         return $this;
@@ -806,14 +772,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of CODFee, return this.
      *
-     * @param codFee
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $CODFee
+     * @return $this
      */
-    public function withCODFee($value)
+    public function withCODFee($CODFee)
     {
-        $this->setCODFee($value);
+        $this->setCODFee($CODFee);
         return $this;
     }
     /**
@@ -848,14 +812,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of CODFeeDiscount, return this.
      *
-     * @param codFeeDiscount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $CODFeeDiscount
+     * @return $this
      */
-    public function withCODFeeDiscount($value)
+    public function withCODFeeDiscount($CODFeeDiscount)
     {
-        $this->setCODFeeDiscount($value);
+        $this->setCODFeeDiscount($CODFeeDiscount);
         return $this;
     }
     /**
@@ -899,14 +861,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of IsGift, return this.
      *
-     * @param isGift
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsGift
+     * @return $this
      */
-    public function withIsGift($value)
+    public function withIsGift($IsGift)
     {
-        $this->setIsGift($value);
+        $this->setIsGift($IsGift);
         return $this;
     }
     /**
@@ -941,14 +901,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of GiftMessageText, return this.
      *
-     * @param giftMessageText
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $GiftMessageText
+     * @return $this
      */
-    public function withGiftMessageText($value)
+    public function withGiftMessageText($GiftMessageText)
     {
-        $this->setGiftMessageText($value);
+        $this->setGiftMessageText($GiftMessageText);
         return $this;
     }
     /**
@@ -983,14 +941,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of GiftWrapLevel, return this.
      *
-     * @param giftWrapLevel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $GiftWrapLevel
+     * @return $this
      */
-    public function withGiftWrapLevel($value)
+    public function withGiftWrapLevel($GiftWrapLevel)
     {
-        $this->setGiftWrapLevel($value);
+        $this->setGiftWrapLevel($GiftWrapLevel);
         return $this;
     }
     /**
@@ -1025,14 +981,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of InvoiceData, return this.
      *
-     * @param invoiceData
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelInvoiceData $InvoiceData
+     * @return $this
      */
-    public function withInvoiceData($value)
+    public function withInvoiceData($InvoiceData)
     {
-        $this->setInvoiceData($value);
+        $this->setInvoiceData($InvoiceData);
         return $this;
     }
     /**
@@ -1067,14 +1021,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ConditionNote, return this.
      *
-     * @param conditionNote
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ConditionNote
+     * @return $this
      */
-    public function withConditionNote($value)
+    public function withConditionNote($ConditionNote)
     {
-        $this->setConditionNote($value);
+        $this->setConditionNote($ConditionNote);
         return $this;
     }
     /**
@@ -1109,14 +1061,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ConditionId, return this.
      *
-     * @param conditionId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ConditionId
+     * @return $this
      */
-    public function withConditionId($value)
+    public function withConditionId($ConditionId)
     {
-        $this->setConditionId($value);
+        $this->setConditionId($ConditionId);
         return $this;
     }
     /**
@@ -1151,14 +1101,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ConditionSubtypeId, return this.
      *
-     * @param conditionSubtypeId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ConditionSubtypeId
+     * @return $this
      */
-    public function withConditionSubtypeId($value)
+    public function withConditionSubtypeId($ConditionSubtypeId)
     {
-        $this->setConditionSubtypeId($value);
+        $this->setConditionSubtypeId($ConditionSubtypeId);
         return $this;
     }
     /**
@@ -1193,14 +1141,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ScheduledDeliveryStartDate, return this.
      *
-     * @param scheduledDeliveryStartDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ScheduledDeliveryStartDate
+     * @return $this
      */
-    public function withScheduledDeliveryStartDate($value)
+    public function withScheduledDeliveryStartDate($ScheduledDeliveryStartDate)
     {
-        $this->setScheduledDeliveryStartDate($value);
+        $this->setScheduledDeliveryStartDate($ScheduledDeliveryStartDate);
         return $this;
     }
     /**
@@ -1235,14 +1181,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of ScheduledDeliveryEndDate, return this.
      *
-     * @param scheduledDeliveryEndDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ScheduledDeliveryEndDate
+     * @return $this
      */
-    public function withScheduledDeliveryEndDate($value)
+    public function withScheduledDeliveryEndDate($ScheduledDeliveryEndDate)
     {
-        $this->setScheduledDeliveryEndDate($value);
+        $this->setScheduledDeliveryEndDate($ScheduledDeliveryEndDate);
         return $this;
     }
     /**
@@ -1277,14 +1221,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of PriceDesignation, return this.
      *
-     * @param priceDesignation
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PriceDesignation
+     * @return $this
      */
-    public function withPriceDesignation($value)
+    public function withPriceDesignation($PriceDesignation)
     {
-        $this->setPriceDesignation($value);
+        $this->setPriceDesignation($PriceDesignation);
         return $this;
     }
     /**
@@ -1319,14 +1261,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of BuyerCustomizedInfo, return this.
      *
-     * @param buyerCustomizedInfo
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerCustomizedInfoDetail $BuyerCustomizedInfo
+     * @return $this
      */
-    public function withBuyerCustomizedInfo($value)
+    public function withBuyerCustomizedInfo($BuyerCustomizedInfo)
     {
-        $this->setBuyerCustomizedInfo($value);
+        $this->setBuyerCustomizedInfo($BuyerCustomizedInfo);
         return $this;
     }
     /**
@@ -1361,14 +1301,12 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Set the value of TaxCollection, return this.
      *
-     * @param taxCollection
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelTaxCollection $TaxCollection
+     * @return $this
      */
-    public function withTaxCollection($value)
+    public function withTaxCollection($TaxCollection)
     {
-        $this->setTaxCollection($value);
+        $this->setTaxCollection($TaxCollection);
         return $this;
     }
 }

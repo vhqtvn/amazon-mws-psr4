@@ -48,14 +48,12 @@ class MwsRecommendationsSectionServiceModelWeightMeasure extends MwsRecommendati
     /**
      * Set the value of Value, return this.
      *
-     * @param value
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param float $Value
+     * @return $this
      */
-    public function withValue($value)
+    public function withValue($Value)
     {
-        $this->setValue($value);
+        $this->setValue($Value);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsRecommendationsSectionServiceModelWeightMeasure extends MwsRecommendati
     /**
      * Set the value of Unit, return this.
      *
-     * @param unit
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Unit
+     * @return $this
      */
-    public function withUnit($value)
+    public function withUnit($Unit)
     {
-        $this->setUnit($value);
+        $this->setUnit($Unit);
         return $this;
     }
 }

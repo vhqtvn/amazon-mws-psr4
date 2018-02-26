@@ -52,14 +52,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
         return $this;
     }
     /**
-     * Sets the value of the Marketplace and returns this instance
-     * 
-     * @param string $value Marketplace
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionResultRequest instance
+     * Set the value of Marketplace, return this.
+     *
+     * @param string $Marketplace
+     * @return $this
      */
-    public function withMarketplace($value)
+    public function withMarketplace($Marketplace)
     {
-        $this->setMarketplace($value);
+        $this->setMarketplace($Marketplace);
         return $this;
     }
     /**
@@ -92,14 +92,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
         return $this;
     }
     /**
-     * Sets the value of the Merchant and returns this instance
-     * 
-     * @param string $value Merchant
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionResultRequest instance
+     * Set the value of Merchant, return this.
+     *
+     * @param string $Merchant
+     * @return $this
      */
-    public function withMerchant($value)
+    public function withMerchant($Merchant)
     {
-        $this->setMerchant($value);
+        $this->setMerchant($Merchant);
         return $this;
     }
     /**
@@ -132,14 +132,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
         return $this;
     }
     /**
-     * Sets the value of the MWSAuthToken and returns this instance
+     * Set the value of MWSAuthToken, return this.
      *
-     * @param string $value MWSAuthToken
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionResultRequest instance
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -172,14 +172,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
         return $this;
     }
     /**
-     * Sets the value of the FeedSubmissionId and returns this instance
-     * 
-     * @param string $value FeedSubmissionId
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionResultRequest instance
+     * Set the value of FeedSubmissionId, return this.
+     *
+     * @param string $FeedSubmissionId
+     * @return $this
      */
-    public function withFeedSubmissionId($value)
+    public function withFeedSubmissionId($FeedSubmissionId)
     {
-        $this->setFeedSubmissionId($value);
+        $this->setFeedSubmissionId($FeedSubmissionId);
         return $this;
     }
     /**
@@ -212,14 +212,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
         return $this;
     }
     /**
-     * Sets the value of the FeedSubmissionResult and returns this instance
-     * 
-     * @param string $value FeedSubmissionResult
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionResultRequest instance
+     * Set the value of FeedSubmissionResult, return this.
+     *
+     * @param string $FeedSubmissionResult
+     * @return $this
      */
-    public function withFeedSubmissionResult($value)
+    public function withFeedSubmissionResult($FeedSubmissionResult)
     {
-        $this->setFeedSubmissionResult($value);
+        $this->setFeedSubmissionResult($FeedSubmissionResult);
         return $this;
     }
     /**

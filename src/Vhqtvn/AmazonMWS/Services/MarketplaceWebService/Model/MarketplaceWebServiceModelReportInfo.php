@@ -58,14 +58,14 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the ReportId and returns this instance
-     * 
-     * @param string $value ReportId
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo instance
+     * Set the value of ReportId, return this.
+     *
+     * @param string $ReportId
+     * @return $this
      */
-    public function withReportId($value)
+    public function withReportId($ReportId)
     {
-        $this->setReportId($value);
+        $this->setReportId($ReportId);
         return $this;
     }
     /**
@@ -98,14 +98,14 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the ReportType and returns this instance
-     * 
-     * @param string $value ReportType
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo instance
+     * Set the value of ReportType, return this.
+     *
+     * @param string $ReportType
+     * @return $this
      */
-    public function withReportType($value)
+    public function withReportType($ReportType)
     {
-        $this->setReportType($value);
+        $this->setReportType($ReportType);
         return $this;
     }
     /**
@@ -138,14 +138,14 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the ReportRequestId and returns this instance
-     * 
-     * @param string $value ReportRequestId
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo instance
+     * Set the value of ReportRequestId, return this.
+     *
+     * @param string $ReportRequestId
+     * @return $this
      */
-    public function withReportRequestId($value)
+    public function withReportRequestId($ReportRequestId)
     {
-        $this->setReportRequestId($value);
+        $this->setReportRequestId($ReportRequestId);
         return $this;
     }
     /**
@@ -178,14 +178,14 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the AvailableDate and returns this instance
-     * 
-     * @param string $value AvailableDate
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo instance
+     * Set the value of AvailableDate, return this.
+     *
+     * @param string $AvailableDate
+     * @return $this
      */
-    public function withAvailableDate($value)
+    public function withAvailableDate($AvailableDate)
     {
-        $this->setAvailableDate($value);
+        $this->setAvailableDate($AvailableDate);
         return $this;
     }
     /**
@@ -218,14 +218,14 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the Acknowledged and returns this instance
-     * 
-     * @param bool $value Acknowledged
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo instance
+     * Set the value of Acknowledged, return this.
+     *
+     * @param bool $Acknowledged
+     * @return $this
      */
-    public function withAcknowledged($value)
+    public function withAcknowledged($Acknowledged)
     {
-        $this->setAcknowledged($value);
+        $this->setAcknowledged($Acknowledged);
         return $this;
     }
     /**
@@ -258,14 +258,14 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the AcknowledgedDate and returns this instance
-     * 
-     * @param string $value AcknowledgedDate
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo instance
+     * Set the value of AcknowledgedDate, return this.
+     *
+     * @param string $AcknowledgedDate
+     * @return $this
      */
-    public function withAcknowledgedDate($value)
+    public function withAcknowledgedDate($AcknowledgedDate)
     {
-        $this->setAcknowledgedDate($value);
+        $this->setAcknowledgedDate($AcknowledgedDate);
         return $this;
     }
     /**

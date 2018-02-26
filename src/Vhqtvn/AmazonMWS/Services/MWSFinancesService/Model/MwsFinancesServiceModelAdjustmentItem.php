@@ -53,14 +53,12 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of Quantity, return this.
      *
-     * @param quantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Quantity
+     * @return $this
      */
-    public function withQuantity($value)
+    public function withQuantity($Quantity)
     {
-        $this->setQuantity($value);
+        $this->setQuantity($Quantity);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of PerUnitAmount, return this.
      *
-     * @param perUnitAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $PerUnitAmount
+     * @return $this
      */
-    public function withPerUnitAmount($value)
+    public function withPerUnitAmount($PerUnitAmount)
     {
-        $this->setPerUnitAmount($value);
+        $this->setPerUnitAmount($PerUnitAmount);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of TotalAmount, return this.
      *
-     * @param totalAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $TotalAmount
+     * @return $this
      */
-    public function withTotalAmount($value)
+    public function withTotalAmount($TotalAmount)
     {
-        $this->setTotalAmount($value);
+        $this->setTotalAmount($TotalAmount);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -221,14 +213,12 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of FnSKU, return this.
      *
-     * @param fnSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FnSKU
+     * @return $this
      */
-    public function withFnSKU($value)
+    public function withFnSKU($FnSKU)
     {
-        $this->setFnSKU($value);
+        $this->setFnSKU($FnSKU);
         return $this;
     }
     /**
@@ -263,14 +253,12 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of ProductDescription, return this.
      *
-     * @param productDescription
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProductDescription
+     * @return $this
      */
-    public function withProductDescription($value)
+    public function withProductDescription($ProductDescription)
     {
-        $this->setProductDescription($value);
+        $this->setProductDescription($ProductDescription);
         return $this;
     }
     /**
@@ -305,14 +293,12 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
 }

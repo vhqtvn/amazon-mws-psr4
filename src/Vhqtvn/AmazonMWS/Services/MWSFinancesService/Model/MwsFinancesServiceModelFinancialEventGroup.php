@@ -57,14 +57,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of FinancialEventGroupId, return this.
      *
-     * @param financialEventGroupId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FinancialEventGroupId
+     * @return $this
      */
-    public function withFinancialEventGroupId($value)
+    public function withFinancialEventGroupId($FinancialEventGroupId)
     {
-        $this->setFinancialEventGroupId($value);
+        $this->setFinancialEventGroupId($FinancialEventGroupId);
         return $this;
     }
     /**
@@ -99,14 +97,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of ProcessingStatus, return this.
      *
-     * @param processingStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProcessingStatus
+     * @return $this
      */
-    public function withProcessingStatus($value)
+    public function withProcessingStatus($ProcessingStatus)
     {
-        $this->setProcessingStatus($value);
+        $this->setProcessingStatus($ProcessingStatus);
         return $this;
     }
     /**
@@ -141,14 +137,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of FundTransferStatus, return this.
      *
-     * @param fundTransferStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FundTransferStatus
+     * @return $this
      */
-    public function withFundTransferStatus($value)
+    public function withFundTransferStatus($FundTransferStatus)
     {
-        $this->setFundTransferStatus($value);
+        $this->setFundTransferStatus($FundTransferStatus);
         return $this;
     }
     /**
@@ -183,14 +177,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of OriginalTotal, return this.
      *
-     * @param originalTotal
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $OriginalTotal
+     * @return $this
      */
-    public function withOriginalTotal($value)
+    public function withOriginalTotal($OriginalTotal)
     {
-        $this->setOriginalTotal($value);
+        $this->setOriginalTotal($OriginalTotal);
         return $this;
     }
     /**
@@ -225,14 +217,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of ConvertedTotal, return this.
      *
-     * @param convertedTotal
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $ConvertedTotal
+     * @return $this
      */
-    public function withConvertedTotal($value)
+    public function withConvertedTotal($ConvertedTotal)
     {
-        $this->setConvertedTotal($value);
+        $this->setConvertedTotal($ConvertedTotal);
         return $this;
     }
     /**
@@ -267,14 +257,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of FundTransferDate, return this.
      *
-     * @param fundTransferDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FundTransferDate
+     * @return $this
      */
-    public function withFundTransferDate($value)
+    public function withFundTransferDate($FundTransferDate)
     {
-        $this->setFundTransferDate($value);
+        $this->setFundTransferDate($FundTransferDate);
         return $this;
     }
     /**
@@ -309,14 +297,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of TraceId, return this.
      *
-     * @param traceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TraceId
+     * @return $this
      */
-    public function withTraceId($value)
+    public function withTraceId($TraceId)
     {
-        $this->setTraceId($value);
+        $this->setTraceId($TraceId);
         return $this;
     }
     /**
@@ -351,14 +337,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of AccountTail, return this.
      *
-     * @param accountTail
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AccountTail
+     * @return $this
      */
-    public function withAccountTail($value)
+    public function withAccountTail($AccountTail)
     {
-        $this->setAccountTail($value);
+        $this->setAccountTail($AccountTail);
         return $this;
     }
     /**
@@ -393,14 +377,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of BeginningBalance, return this.
      *
-     * @param beginningBalance
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $BeginningBalance
+     * @return $this
      */
-    public function withBeginningBalance($value)
+    public function withBeginningBalance($BeginningBalance)
     {
-        $this->setBeginningBalance($value);
+        $this->setBeginningBalance($BeginningBalance);
         return $this;
     }
     /**
@@ -435,14 +417,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of FinancialEventGroupStart, return this.
      *
-     * @param financialEventGroupStart
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FinancialEventGroupStart
+     * @return $this
      */
-    public function withFinancialEventGroupStart($value)
+    public function withFinancialEventGroupStart($FinancialEventGroupStart)
     {
-        $this->setFinancialEventGroupStart($value);
+        $this->setFinancialEventGroupStart($FinancialEventGroupStart);
         return $this;
     }
     /**
@@ -477,14 +457,12 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Set the value of FinancialEventGroupEnd, return this.
      *
-     * @param financialEventGroupEnd
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FinancialEventGroupEnd
+     * @return $this
      */
-    public function withFinancialEventGroupEnd($value)
+    public function withFinancialEventGroupEnd($FinancialEventGroupEnd)
     {
-        $this->setFinancialEventGroupEnd($value);
+        $this->setFinancialEventGroupEnd($FinancialEventGroupEnd);
         return $this;
     }
 }

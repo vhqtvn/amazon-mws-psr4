@@ -50,14 +50,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersAsinIdentifier exte
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersAsinIdentifier exte
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersAsinIdentifier exte
     /**
      * Set the value of ItemCondition, return this.
      *
-     * @param itemCondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemCondition
+     * @return $this
      */
-    public function withItemCondition($value)
+    public function withItemCondition($ItemCondition)
     {
-        $this->setItemCondition($value);
+        $this->setItemCondition($ItemCondition);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersAsinIdentifier exte
     /**
      * Set the value of TimeOfOfferChange, return this.
      *
-     * @param timeOfOfferChange
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TimeOfOfferChange
+     * @return $this
      */
-    public function withTimeOfOfferChange($value)
+    public function withTimeOfOfferChange($TimeOfOfferChange)
     {
-        $this->setTimeOfOfferChange($value);
+        $this->setTimeOfOfferChange($TimeOfOfferChange);
         return $this;
     }
 }

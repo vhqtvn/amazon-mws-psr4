@@ -48,14 +48,12 @@ class FbaOutboundServiceMwsModelInvalidItemReason extends FbaOutboundServiceMwsM
     /**
      * Set the value of InvalidItemReasonCode, return this.
      *
-     * @param invalidItemReasonCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $InvalidItemReasonCode
+     * @return $this
      */
-    public function withInvalidItemReasonCode($value)
+    public function withInvalidItemReasonCode($InvalidItemReasonCode)
     {
-        $this->setInvalidItemReasonCode($value);
+        $this->setInvalidItemReasonCode($InvalidItemReasonCode);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaOutboundServiceMwsModelInvalidItemReason extends FbaOutboundServiceMwsM
     /**
      * Set the value of Description, return this.
      *
-     * @param description
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Description
+     * @return $this
      */
-    public function withDescription($value)
+    public function withDescription($Description)
     {
-        $this->setDescription($value);
+        $this->setDescription($Description);
         return $this;
     }
 }

@@ -49,14 +49,12 @@ class MwsSubscriptionsServiceModelSubscription extends MwsSubscriptionsServiceMo
     /**
      * Set the value of NotificationType, return this.
      *
-     * @param notificationType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NotificationType
+     * @return $this
      */
-    public function withNotificationType($value)
+    public function withNotificationType($NotificationType)
     {
-        $this->setNotificationType($value);
+        $this->setNotificationType($NotificationType);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MwsSubscriptionsServiceModelSubscription extends MwsSubscriptionsServiceMo
     /**
      * Set the value of Destination, return this.
      *
-     * @param destination
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestination $Destination
+     * @return $this
      */
-    public function withDestination($value)
+    public function withDestination($Destination)
     {
-        $this->setDestination($value);
+        $this->setDestination($Destination);
         return $this;
     }
     /**
@@ -142,14 +138,12 @@ class MwsSubscriptionsServiceModelSubscription extends MwsSubscriptionsServiceMo
     /**
      * Set the value of IsEnabled, return this.
      *
-     * @param isEnabled
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsEnabled
+     * @return $this
      */
-    public function withIsEnabled($value)
+    public function withIsEnabled($IsEnabled)
     {
-        $this->setIsEnabled($value);
+        $this->setIsEnabled($IsEnabled);
         return $this;
     }
 }

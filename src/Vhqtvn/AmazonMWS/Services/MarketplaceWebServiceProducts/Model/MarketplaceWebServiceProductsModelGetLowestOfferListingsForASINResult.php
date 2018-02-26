@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
     /**
      * Set the value of AllOfferListingsConsidered, return this.
      *
-     * @param allOfferListingsConsidered
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $AllOfferListingsConsidered
+     * @return $this
      */
-    public function withAllOfferListingsConsidered($value)
+    public function withAllOfferListingsConsidered($AllOfferListingsConsidered)
     {
-        $this->setAllOfferListingsConsidered($value);
+        $this->setAllOfferListingsConsidered($AllOfferListingsConsidered);
         return $this;
     }
     /**
@@ -102,14 +100,12 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
     /**
      * Set the value of Product, return this.
      *
-     * @param product
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct $Product
+     * @return $this
      */
-    public function withProduct($value)
+    public function withProduct($Product)
     {
-        $this->setProduct($value);
+        $this->setProduct($Product);
         return $this;
     }
     /**
@@ -144,14 +140,12 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
     /**
      * Set the value of Error, return this.
      *
-     * @param error
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError $Error
+     * @return $this
      */
-    public function withError($value)
+    public function withError($Error)
     {
-        $this->setError($value);
+        $this->setError($Error);
         return $this;
     }
     /**
@@ -186,14 +180,12 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
     /**
@@ -228,14 +220,12 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
     /**
      * Set the value of status, return this.
      *
-     * @param status
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $status
+     * @return $this
      */
-    public function withstatus($value)
+    public function withstatus($status)
     {
-        $this->setstatus($value);
+        $this->setstatus($status);
         return $this;
     }
 }

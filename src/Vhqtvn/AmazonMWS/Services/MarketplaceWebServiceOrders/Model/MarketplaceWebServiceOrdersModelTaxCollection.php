@@ -48,14 +48,12 @@ class MarketplaceWebServiceOrdersModelTaxCollection extends MarketplaceWebServic
     /**
      * Set the value of Model, return this.
      *
-     * @param model
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Model
+     * @return $this
      */
-    public function withModel($value)
+    public function withModel($Model)
     {
-        $this->setModel($value);
+        $this->setModel($Model);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceOrdersModelTaxCollection extends MarketplaceWebServic
     /**
      * Set the value of ResponsibleParty, return this.
      *
-     * @param responsibleParty
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ResponsibleParty
+     * @return $this
      */
-    public function withResponsibleParty($value)
+    public function withResponsibleParty($ResponsibleParty)
     {
-        $this->setResponsibleParty($value);
+        $this->setResponsibleParty($ResponsibleParty);
         return $this;
     }
 }

@@ -52,14 +52,14 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult extends M
         return $this;
     }
     /**
-     * Sets the value of the NextToken and returns this instance
-     * 
-     * @param string $value NextToken
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult instance
+     * Set the value of NextToken, return this.
+     *
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
     /**
@@ -92,14 +92,14 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult extends M
         return $this;
     }
     /**
-     * Sets the value of the HasNext and returns this instance
-     * 
-     * @param bool $value HasNext
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult instance
+     * Set the value of HasNext, return this.
+     *
+     * @param bool $HasNext
+     * @return $this
      */
-    public function withHasNext($value)
+    public function withHasNext($HasNext)
     {
-        $this->setHasNext($value);
+        $this->setHasNext($HasNext);
         return $this;
     }
     /**
@@ -135,16 +135,14 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult extends M
         return $this;
     }
     /**
-     * Sets single or multiple values of ReportSchedule list via variable number of arguments. 
-     * For example, to set the list with two elements, simply pass two values as arguments to this function
-     * <code>withReportSchedule($reportSchedule1, $reportSchedule2)</code>
-     * 
-     * @param ReportSchedule  $reportScheduleArgs one or more ReportSchedule
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult  instance
+     * Add values for ReportSchedule, return this.
+     *
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule $ReportSchedule_array,...
+     * @return $this
      */
-    public function withReportSchedule($reportScheduleArgs)
+    public function withReportSchedule($reportScheduleArgs, ...$ReportSchedule_array)
     {
-        foreach (func_get_args() as $reportSchedule) {
+        foreach ($ReportSchedule_array as $reportSchedule) {
             $this->fields['ReportSchedule']['FieldValue'][] = $reportSchedule;
         }
         return $this;

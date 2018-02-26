@@ -50,14 +50,12 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of AdjustmentType, return this.
      *
-     * @param adjustmentType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AdjustmentType
+     * @return $this
      */
-    public function withAdjustmentType($value)
+    public function withAdjustmentType($AdjustmentType)
     {
-        $this->setAdjustmentType($value);
+        $this->setAdjustmentType($AdjustmentType);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of PostedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedDate
+     * @return $this
      */
-    public function withPostedDate($value)
+    public function withPostedDate($PostedDate)
     {
-        $this->setPostedDate($value);
+        $this->setPostedDate($PostedDate);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of AdjustmentAmount, return this.
      *
-     * @param adjustmentAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $AdjustmentAmount
+     * @return $this
      */
-    public function withAdjustmentAmount($value)
+    public function withAdjustmentAmount($AdjustmentAmount)
     {
-        $this->setAdjustmentAmount($value);
+        $this->setAdjustmentAmount($AdjustmentAmount);
         return $this;
     }
     /**
@@ -189,14 +183,12 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
     /**
      * Add values for AdjustmentItemList, return this.
      *
-     * @param adjustmentItemList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelAdjustmentItem $AdjustmentItemList_array,...
+     * @return $this
      */
-    public function withAdjustmentItemList()
+    public function withAdjustmentItemList(...$AdjustmentItemList_array)
     {
-        foreach (func_get_args() as $AdjustmentItemList) {
+        foreach ($AdjustmentItemList_array as $AdjustmentItemList) {
             $this->_fields['AdjustmentItemList']['FieldValue'][] = $AdjustmentItemList;
         }
         return $this;

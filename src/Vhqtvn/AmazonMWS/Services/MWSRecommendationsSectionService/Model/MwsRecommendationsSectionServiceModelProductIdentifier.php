@@ -49,14 +49,12 @@ class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommen
     /**
      * Set the value of Asin, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Asin
+     * @return $this
      */
-    public function withAsin($value)
+    public function withAsin($Asin)
     {
-        $this->setAsin($value);
+        $this->setAsin($Asin);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommen
     /**
      * Set the value of Sku, return this.
      *
-     * @param sku
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Sku
+     * @return $this
      */
-    public function withSku($value)
+    public function withSku($Sku)
     {
-        $this->setSku($value);
+        $this->setSku($Sku);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommen
     /**
      * Set the value of Upc, return this.
      *
-     * @param upc
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Upc
+     * @return $this
      */
-    public function withUpc($value)
+    public function withUpc($Upc)
     {
-        $this->setUpc($value);
+        $this->setUpc($Upc);
         return $this;
     }
 }

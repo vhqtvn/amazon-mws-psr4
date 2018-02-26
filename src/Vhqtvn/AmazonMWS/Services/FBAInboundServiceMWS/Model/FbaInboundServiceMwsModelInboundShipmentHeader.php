@@ -53,14 +53,12 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Set the value of ShipmentName, return this.
      *
-     * @param shipmentName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentName
+     * @return $this
      */
-    public function withShipmentName($value)
+    public function withShipmentName($ShipmentName)
     {
-        $this->setShipmentName($value);
+        $this->setShipmentName($ShipmentName);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Set the value of ShipFromAddress, return this.
      *
-     * @param shipFromAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress $ShipFromAddress
+     * @return $this
      */
-    public function withShipFromAddress($value)
+    public function withShipFromAddress($ShipFromAddress)
     {
-        $this->setShipFromAddress($value);
+        $this->setShipFromAddress($ShipFromAddress);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Set the value of DestinationFulfillmentCenterId, return this.
      *
-     * @param destinationFulfillmentCenterId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DestinationFulfillmentCenterId
+     * @return $this
      */
-    public function withDestinationFulfillmentCenterId($value)
+    public function withDestinationFulfillmentCenterId($DestinationFulfillmentCenterId)
     {
-        $this->setDestinationFulfillmentCenterId($value);
+        $this->setDestinationFulfillmentCenterId($DestinationFulfillmentCenterId);
         return $this;
     }
     /**
@@ -188,14 +182,12 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Set the value of AreCasesRequired, return this.
      *
-     * @param areCasesRequired
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $AreCasesRequired
+     * @return $this
      */
-    public function withAreCasesRequired($value)
+    public function withAreCasesRequired($AreCasesRequired)
     {
-        $this->setAreCasesRequired($value);
+        $this->setAreCasesRequired($AreCasesRequired);
         return $this;
     }
     /**
@@ -230,14 +222,12 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Set the value of ShipmentStatus, return this.
      *
-     * @param shipmentStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentStatus
+     * @return $this
      */
-    public function withShipmentStatus($value)
+    public function withShipmentStatus($ShipmentStatus)
     {
-        $this->setShipmentStatus($value);
+        $this->setShipmentStatus($ShipmentStatus);
         return $this;
     }
     /**
@@ -272,14 +262,12 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Set the value of LabelPrepPreference, return this.
      *
-     * @param labelPrepPreference
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LabelPrepPreference
+     * @return $this
      */
-    public function withLabelPrepPreference($value)
+    public function withLabelPrepPreference($LabelPrepPreference)
     {
-        $this->setLabelPrepPreference($value);
+        $this->setLabelPrepPreference($LabelPrepPreference);
         return $this;
     }
     /**
@@ -314,14 +302,12 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Set the value of IntendedBoxContentsSource, return this.
      *
-     * @param intendedBoxContentsSource
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $IntendedBoxContentsSource
+     * @return $this
      */
-    public function withIntendedBoxContentsSource($value)
+    public function withIntendedBoxContentsSource($IntendedBoxContentsSource)
     {
-        $this->setIntendedBoxContentsSource($value);
+        $this->setIntendedBoxContentsSource($IntendedBoxContentsSource);
         return $this;
     }
 }

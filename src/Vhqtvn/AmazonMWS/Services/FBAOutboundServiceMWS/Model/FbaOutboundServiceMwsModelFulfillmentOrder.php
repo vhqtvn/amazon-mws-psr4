@@ -62,14 +62,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of SellerFulfillmentOrderId, return this.
      *
-     * @param sellerFulfillmentOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerFulfillmentOrderId
+     * @return $this
      */
-    public function withSellerFulfillmentOrderId($value)
+    public function withSellerFulfillmentOrderId($SellerFulfillmentOrderId)
     {
-        $this->setSellerFulfillmentOrderId($value);
+        $this->setSellerFulfillmentOrderId($SellerFulfillmentOrderId);
         return $this;
     }
     /**
@@ -104,14 +102,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -146,14 +142,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of DisplayableOrderId, return this.
      *
-     * @param displayableOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DisplayableOrderId
+     * @return $this
      */
-    public function withDisplayableOrderId($value)
+    public function withDisplayableOrderId($DisplayableOrderId)
     {
-        $this->setDisplayableOrderId($value);
+        $this->setDisplayableOrderId($DisplayableOrderId);
         return $this;
     }
     /**
@@ -188,14 +182,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of DisplayableOrderDateTime, return this.
      *
-     * @param displayableOrderDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DisplayableOrderDateTime
+     * @return $this
      */
-    public function withDisplayableOrderDateTime($value)
+    public function withDisplayableOrderDateTime($DisplayableOrderDateTime)
     {
-        $this->setDisplayableOrderDateTime($value);
+        $this->setDisplayableOrderDateTime($DisplayableOrderDateTime);
         return $this;
     }
     /**
@@ -230,14 +222,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of DisplayableOrderComment, return this.
      *
-     * @param displayableOrderComment
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DisplayableOrderComment
+     * @return $this
      */
-    public function withDisplayableOrderComment($value)
+    public function withDisplayableOrderComment($DisplayableOrderComment)
     {
-        $this->setDisplayableOrderComment($value);
+        $this->setDisplayableOrderComment($DisplayableOrderComment);
         return $this;
     }
     /**
@@ -272,14 +262,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of ShippingSpeedCategory, return this.
      *
-     * @param shippingSpeedCategory
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShippingSpeedCategory
+     * @return $this
      */
-    public function withShippingSpeedCategory($value)
+    public function withShippingSpeedCategory($ShippingSpeedCategory)
     {
-        $this->setShippingSpeedCategory($value);
+        $this->setShippingSpeedCategory($ShippingSpeedCategory);
         return $this;
     }
     /**
@@ -314,14 +302,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of DeliveryWindow, return this.
      *
-     * @param deliveryWindow
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindow $DeliveryWindow
+     * @return $this
      */
-    public function withDeliveryWindow($value)
+    public function withDeliveryWindow($DeliveryWindow)
     {
-        $this->setDeliveryWindow($value);
+        $this->setDeliveryWindow($DeliveryWindow);
         return $this;
     }
     /**
@@ -356,14 +342,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of DestinationAddress, return this.
      *
-     * @param destinationAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress $DestinationAddress
+     * @return $this
      */
-    public function withDestinationAddress($value)
+    public function withDestinationAddress($DestinationAddress)
     {
-        $this->setDestinationAddress($value);
+        $this->setDestinationAddress($DestinationAddress);
         return $this;
     }
     /**
@@ -398,14 +382,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of FulfillmentAction, return this.
      *
-     * @param fulfillmentAction
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentAction
+     * @return $this
      */
-    public function withFulfillmentAction($value)
+    public function withFulfillmentAction($FulfillmentAction)
     {
-        $this->setFulfillmentAction($value);
+        $this->setFulfillmentAction($FulfillmentAction);
         return $this;
     }
     /**
@@ -440,14 +422,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of FulfillmentPolicy, return this.
      *
-     * @param fulfillmentPolicy
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentPolicy
+     * @return $this
      */
-    public function withFulfillmentPolicy($value)
+    public function withFulfillmentPolicy($FulfillmentPolicy)
     {
-        $this->setFulfillmentPolicy($value);
+        $this->setFulfillmentPolicy($FulfillmentPolicy);
         return $this;
     }
     /**
@@ -482,14 +462,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of FulfillmentMethod, return this.
      *
-     * @param fulfillmentMethod
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentMethod
+     * @return $this
      */
-    public function withFulfillmentMethod($value)
+    public function withFulfillmentMethod($FulfillmentMethod)
     {
-        $this->setFulfillmentMethod($value);
+        $this->setFulfillmentMethod($FulfillmentMethod);
         return $this;
     }
     /**
@@ -524,14 +502,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of CODSettings, return this.
      *
-     * @param codSettings
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCODSettings $CODSettings
+     * @return $this
      */
-    public function withCODSettings($value)
+    public function withCODSettings($CODSettings)
     {
-        $this->setCODSettings($value);
+        $this->setCODSettings($CODSettings);
         return $this;
     }
     /**
@@ -566,14 +542,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of ReceivedDateTime, return this.
      *
-     * @param receivedDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ReceivedDateTime
+     * @return $this
      */
-    public function withReceivedDateTime($value)
+    public function withReceivedDateTime($ReceivedDateTime)
     {
-        $this->setReceivedDateTime($value);
+        $this->setReceivedDateTime($ReceivedDateTime);
         return $this;
     }
     /**
@@ -608,14 +582,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of FulfillmentOrderStatus, return this.
      *
-     * @param fulfillmentOrderStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentOrderStatus
+     * @return $this
      */
-    public function withFulfillmentOrderStatus($value)
+    public function withFulfillmentOrderStatus($FulfillmentOrderStatus)
     {
-        $this->setFulfillmentOrderStatus($value);
+        $this->setFulfillmentOrderStatus($FulfillmentOrderStatus);
         return $this;
     }
     /**
@@ -650,14 +622,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of StatusUpdatedDateTime, return this.
      *
-     * @param statusUpdatedDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $StatusUpdatedDateTime
+     * @return $this
      */
-    public function withStatusUpdatedDateTime($value)
+    public function withStatusUpdatedDateTime($StatusUpdatedDateTime)
     {
-        $this->setStatusUpdatedDateTime($value);
+        $this->setStatusUpdatedDateTime($StatusUpdatedDateTime);
         return $this;
     }
     /**
@@ -692,14 +662,12 @@ class FbaOutboundServiceMwsModelFulfillmentOrder extends FbaOutboundServiceMwsMo
     /**
      * Set the value of NotificationEmailList, return this.
      *
-     * @param notificationEmailList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelNotificationEmailList $NotificationEmailList
+     * @return $this
      */
-    public function withNotificationEmailList($value)
+    public function withNotificationEmailList($NotificationEmailList)
     {
-        $this->setNotificationEmailList($value);
+        $this->setNotificationEmailList($NotificationEmailList);
         return $this;
     }
 }

@@ -51,16 +51,14 @@ class MarketplaceWebServiceModelIdList extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets single or multiple values of Id list via variable number of arguments. 
-     * For example, to set the list with two elements, simply pass two values as arguments to this function
-     * <code>withId($id1, $id2)</code>
-     * 
-     * @param string  $stringArgs one or more Id
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList  instance
+     * Add values for Id, return this.
+     *
+     * @param \ $Id_array,...
+     * @return $this
      */
-    public function withId($stringArgs)
+    public function withId($stringArgs, ...$Id_array)
     {
-        foreach (func_get_args() as $id) {
+        foreach ($Id_array as $id) {
             $this->fields['Id']['FieldValue'][] = $id;
         }
         return $this;

@@ -54,14 +54,12 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of postedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $postedDate
+     * @return $this
      */
-    public function withpostedDate($value)
+    public function withpostedDate($postedDate)
     {
-        $this->setpostedDate($value);
+        $this->setpostedDate($postedDate);
         return $this;
     }
     /**
@@ -96,14 +94,12 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of dealId, return this.
      *
-     * @param dealId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $dealId
+     * @return $this
      */
-    public function withdealId($value)
+    public function withdealId($dealId)
     {
-        $this->setdealId($value);
+        $this->setdealId($dealId);
         return $this;
     }
     /**
@@ -138,14 +134,12 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of dealDescription, return this.
      *
-     * @param dealDescription
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $dealDescription
+     * @return $this
      */
-    public function withdealDescription($value)
+    public function withdealDescription($dealDescription)
     {
-        $this->setdealDescription($value);
+        $this->setdealDescription($dealDescription);
         return $this;
     }
     /**
@@ -180,14 +174,12 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of eventType, return this.
      *
-     * @param eventType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $eventType
+     * @return $this
      */
-    public function witheventType($value)
+    public function witheventType($eventType)
     {
-        $this->seteventType($value);
+        $this->seteventType($eventType);
         return $this;
     }
     /**
@@ -222,14 +214,12 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of feeType, return this.
      *
-     * @param feeType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $feeType
+     * @return $this
      */
-    public function withfeeType($value)
+    public function withfeeType($feeType)
     {
-        $this->setfeeType($value);
+        $this->setfeeType($feeType);
         return $this;
     }
     /**
@@ -264,14 +254,12 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of feeAmount, return this.
      *
-     * @param feeAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $feeAmount
+     * @return $this
      */
-    public function withfeeAmount($value)
+    public function withfeeAmount($feeAmount)
     {
-        $this->setfeeAmount($value);
+        $this->setfeeAmount($feeAmount);
         return $this;
     }
     /**
@@ -306,14 +294,12 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of taxAmount, return this.
      *
-     * @param taxAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $taxAmount
+     * @return $this
      */
-    public function withtaxAmount($value)
+    public function withtaxAmount($taxAmount)
     {
-        $this->settaxAmount($value);
+        $this->settaxAmount($taxAmount);
         return $this;
     }
     /**
@@ -348,14 +334,12 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Set the value of totalAmount, return this.
      *
-     * @param totalAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $totalAmount
+     * @return $this
      */
-    public function withtotalAmount($value)
+    public function withtotalAmount($totalAmount)
     {
-        $this->settotalAmount($value);
+        $this->settotalAmount($totalAmount);
         return $this;
     }
 }

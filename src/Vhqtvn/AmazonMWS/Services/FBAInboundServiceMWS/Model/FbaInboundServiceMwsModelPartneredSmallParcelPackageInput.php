@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageInput extends FbaInbou
     /**
      * Set the value of Dimensions, return this.
      *
-     * @param dimensions
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelDimensions $Dimensions
+     * @return $this
      */
-    public function withDimensions($value)
+    public function withDimensions($Dimensions)
     {
-        $this->setDimensions($value);
+        $this->setDimensions($Dimensions);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageInput extends FbaInbou
     /**
      * Set the value of Weight, return this.
      *
-     * @param weight
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight $Weight
+     * @return $this
      */
-    public function withWeight($value)
+    public function withWeight($Weight)
     {
-        $this->setWeight($value);
+        $this->setWeight($Weight);
         return $this;
     }
 }

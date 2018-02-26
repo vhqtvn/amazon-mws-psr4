@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelAmount extends FbaInboundServiceMwsModel
     /**
      * Set the value of CurrencyCode, return this.
      *
-     * @param currencyCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CurrencyCode
+     * @return $this
      */
-    public function withCurrencyCode($value)
+    public function withCurrencyCode($CurrencyCode)
     {
-        $this->setCurrencyCode($value);
+        $this->setCurrencyCode($CurrencyCode);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelAmount extends FbaInboundServiceMwsModel
     /**
      * Set the value of Value, return this.
      *
-     * @param value
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param float $Value
+     * @return $this
      */
-    public function withValue($value)
+    public function withValue($Value)
     {
-        $this->setValue($value);
+        $this->setValue($Value);
         return $this;
     }
 }

@@ -51,14 +51,12 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Set the value of Query, return this.
      *
-     * @param query
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Query
+     * @return $this
      */
-    public function withQuery($value)
+    public function withQuery($Query)
     {
-        $this->setQuery($value);
+        $this->setQuery($Query);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Set the value of QueryContextId, return this.
      *
-     * @param queryContextId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $QueryContextId
+     * @return $this
      */
-    public function withQueryContextId($value)
+    public function withQueryContextId($QueryContextId)
     {
-        $this->setQueryContextId($value);
+        $this->setQueryContextId($QueryContextId);
         return $this;
     }
 }

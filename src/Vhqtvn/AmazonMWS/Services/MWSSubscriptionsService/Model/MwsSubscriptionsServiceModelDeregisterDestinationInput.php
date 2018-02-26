@@ -50,14 +50,12 @@ class MwsSubscriptionsServiceModelDeregisterDestinationInput extends MwsSubscrip
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MwsSubscriptionsServiceModelDeregisterDestinationInput extends MwsSubscrip
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MwsSubscriptionsServiceModelDeregisterDestinationInput extends MwsSubscrip
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MwsSubscriptionsServiceModelDeregisterDestinationInput extends MwsSubscrip
     /**
      * Set the value of Destination, return this.
      *
-     * @param destination
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestination $Destination
+     * @return $this
      */
-    public function withDestination($value)
+    public function withDestination($Destination)
     {
-        $this->setDestination($value);
+        $this->setDestination($Destination);
         return $this;
     }
 }

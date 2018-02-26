@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelBuyBoxPrices extends MarketplaceWebServi
     /**
      * Add values for BuyBoxPrice, return this.
      *
-     * @param buyBoxPrice
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxPriceType $BuyBoxPrice_array,...
+     * @return $this
      */
-    public function withBuyBoxPrice()
+    public function withBuyBoxPrice(...$BuyBoxPrice_array)
     {
-        foreach (func_get_args() as $BuyBoxPrice) {
+        foreach ($BuyBoxPrice_array as $BuyBoxPrice) {
             $this->_fields['BuyBoxPrice']['FieldValue'][] = $BuyBoxPrice;
         }
         return $this;

@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelLowestPrices extends MarketplaceWebServi
     /**
      * Add values for LowestPrice, return this.
      *
-     * @param lowestPrice
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestPriceType $LowestPrice_array,...
+     * @return $this
      */
-    public function withLowestPrice()
+    public function withLowestPrice(...$LowestPrice_array)
     {
-        foreach (func_get_args() as $LowestPrice) {
+        foreach ($LowestPrice_array as $LowestPrice) {
             $this->_fields['LowestPrice']['FieldValue'][] = $LowestPrice;
         }
         return $this;

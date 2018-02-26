@@ -50,14 +50,12 @@ class FbaInboundServiceMwsModelTransportHeader extends FbaInboundServiceMwsModel
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class FbaInboundServiceMwsModelTransportHeader extends FbaInboundServiceMwsModel
     /**
      * Set the value of ShipmentId, return this.
      *
-     * @param shipmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentId
+     * @return $this
      */
-    public function withShipmentId($value)
+    public function withShipmentId($ShipmentId)
     {
-        $this->setShipmentId($value);
+        $this->setShipmentId($ShipmentId);
         return $this;
     }
     /**
@@ -143,14 +139,12 @@ class FbaInboundServiceMwsModelTransportHeader extends FbaInboundServiceMwsModel
     /**
      * Set the value of IsPartnered, return this.
      *
-     * @param isPartnered
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsPartnered
+     * @return $this
      */
-    public function withIsPartnered($value)
+    public function withIsPartnered($IsPartnered)
     {
-        $this->setIsPartnered($value);
+        $this->setIsPartnered($IsPartnered);
         return $this;
     }
     /**
@@ -185,14 +179,12 @@ class FbaInboundServiceMwsModelTransportHeader extends FbaInboundServiceMwsModel
     /**
      * Set the value of ShipmentType, return this.
      *
-     * @param shipmentType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentType
+     * @return $this
      */
-    public function withShipmentType($value)
+    public function withShipmentType($ShipmentType)
     {
-        $this->setShipmentType($value);
+        $this->setShipmentType($ShipmentType);
         return $this;
     }
 }

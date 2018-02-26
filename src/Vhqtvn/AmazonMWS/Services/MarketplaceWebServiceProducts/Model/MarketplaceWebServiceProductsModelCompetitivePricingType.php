@@ -49,14 +49,12 @@ class MarketplaceWebServiceProductsModelCompetitivePricingType extends Marketpla
     /**
      * Set the value of CompetitivePrices, return this.
      *
-     * @param competitivePrices
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCompetitivePriceList $CompetitivePrices
+     * @return $this
      */
-    public function withCompetitivePrices($value)
+    public function withCompetitivePrices($CompetitivePrices)
     {
-        $this->setCompetitivePrices($value);
+        $this->setCompetitivePrices($CompetitivePrices);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceProductsModelCompetitivePricingType extends Marketpla
     /**
      * Set the value of NumberOfOfferListings, return this.
      *
-     * @param numberOfOfferListings
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelNumberOfOfferListingsList $NumberOfOfferListings
+     * @return $this
      */
-    public function withNumberOfOfferListings($value)
+    public function withNumberOfOfferListings($NumberOfOfferListings)
     {
-        $this->setNumberOfOfferListings($value);
+        $this->setNumberOfOfferListings($NumberOfOfferListings);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MarketplaceWebServiceProductsModelCompetitivePricingType extends Marketpla
     /**
      * Set the value of TradeInValue, return this.
      *
-     * @param tradeInValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $TradeInValue
+     * @return $this
      */
-    public function withTradeInValue($value)
+    public function withTradeInValue($TradeInValue)
     {
-        $this->setTradeInValue($value);
+        $this->setTradeInValue($TradeInValue);
         return $this;
     }
 }

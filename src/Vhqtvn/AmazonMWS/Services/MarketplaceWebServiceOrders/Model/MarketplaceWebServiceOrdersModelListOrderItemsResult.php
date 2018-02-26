@@ -49,14 +49,12 @@ class MarketplaceWebServiceOrdersModelListOrderItemsResult extends MarketplaceWe
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceOrdersModelListOrderItemsResult extends MarketplaceWe
     /**
      * Set the value of AmazonOrderId, return this.
      *
-     * @param amazonOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonOrderId
+     * @return $this
      */
-    public function withAmazonOrderId($value)
+    public function withAmazonOrderId($AmazonOrderId)
     {
-        $this->setAmazonOrderId($value);
+        $this->setAmazonOrderId($AmazonOrderId);
         return $this;
     }
     /**
@@ -146,14 +142,12 @@ class MarketplaceWebServiceOrdersModelListOrderItemsResult extends MarketplaceWe
     /**
      * Add values for OrderItems, return this.
      *
-     * @param orderItems
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelOrderItem $OrderItems_array,...
+     * @return $this
      */
-    public function withOrderItems()
+    public function withOrderItems(...$OrderItems_array)
     {
-        foreach (func_get_args() as $OrderItems) {
+        foreach ($OrderItems_array as $OrderItems) {
             $this->_fields['OrderItems']['FieldValue'][] = $OrderItems;
         }
         return $this;

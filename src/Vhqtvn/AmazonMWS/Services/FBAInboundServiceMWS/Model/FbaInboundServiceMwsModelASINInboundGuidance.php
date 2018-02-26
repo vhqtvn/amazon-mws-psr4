@@ -49,14 +49,12 @@ class FbaInboundServiceMwsModelASINInboundGuidance extends FbaInboundServiceMwsM
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaInboundServiceMwsModelASINInboundGuidance extends FbaInboundServiceMwsM
     /**
      * Set the value of InboundGuidance, return this.
      *
-     * @param inboundGuidance
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $InboundGuidance
+     * @return $this
      */
-    public function withInboundGuidance($value)
+    public function withInboundGuidance($InboundGuidance)
     {
-        $this->setInboundGuidance($value);
+        $this->setInboundGuidance($InboundGuidance);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaInboundServiceMwsModelASINInboundGuidance extends FbaInboundServiceMwsM
     /**
      * Set the value of GuidanceReasonList, return this.
      *
-     * @param guidanceReasonList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList $GuidanceReasonList
+     * @return $this
      */
-    public function withGuidanceReasonList($value)
+    public function withGuidanceReasonList($GuidanceReasonList)
     {
-        $this->setGuidanceReasonList($value);
+        $this->setGuidanceReasonList($GuidanceReasonList);
         return $this;
     }
 }

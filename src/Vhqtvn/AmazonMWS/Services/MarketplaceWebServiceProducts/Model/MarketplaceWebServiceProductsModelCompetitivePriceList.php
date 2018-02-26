@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelCompetitivePriceList extends Marketplace
     /**
      * Add values for CompetitivePrice, return this.
      *
-     * @param competitivePrice
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCompetitivePriceType $CompetitivePrice_array,...
+     * @return $this
      */
-    public function withCompetitivePrice()
+    public function withCompetitivePrice(...$CompetitivePrice_array)
     {
-        foreach (func_get_args() as $CompetitivePrice) {
+        foreach ($CompetitivePrice_array as $CompetitivePrice) {
             $this->_fields['CompetitivePrice']['FieldValue'][] = $CompetitivePrice;
         }
         return $this;

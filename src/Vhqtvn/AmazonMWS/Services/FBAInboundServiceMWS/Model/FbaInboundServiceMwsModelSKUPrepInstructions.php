@@ -52,14 +52,12 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Set the value of BarcodeInstruction, return this.
      *
-     * @param barcodeInstruction
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $BarcodeInstruction
+     * @return $this
      */
-    public function withBarcodeInstruction($value)
+    public function withBarcodeInstruction($BarcodeInstruction)
     {
-        $this->setBarcodeInstruction($value);
+        $this->setBarcodeInstruction($BarcodeInstruction);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Set the value of PrepGuidance, return this.
      *
-     * @param prepGuidance
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PrepGuidance
+     * @return $this
      */
-    public function withPrepGuidance($value)
+    public function withPrepGuidance($PrepGuidance)
     {
-        $this->setPrepGuidance($value);
+        $this->setPrepGuidance($PrepGuidance);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Set the value of PrepInstructionList, return this.
      *
-     * @param prepInstructionList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList $PrepInstructionList
+     * @return $this
      */
-    public function withPrepInstructionList($value)
+    public function withPrepInstructionList($PrepInstructionList)
     {
-        $this->setPrepInstructionList($value);
+        $this->setPrepInstructionList($PrepInstructionList);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Set the value of AmazonPrepFeesDetailsList, return this.
      *
-     * @param amazonPrepFeesDetailsList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetailsList $AmazonPrepFeesDetailsList
+     * @return $this
      */
-    public function withAmazonPrepFeesDetailsList($value)
+    public function withAmazonPrepFeesDetailsList($AmazonPrepFeesDetailsList)
     {
-        $this->setAmazonPrepFeesDetailsList($value);
+        $this->setAmazonPrepFeesDetailsList($AmazonPrepFeesDetailsList);
         return $this;
     }
 }

@@ -50,14 +50,12 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
     /**
      * Set the value of minimumHours, return this.
      *
-     * @param minimumHours
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $minimumHours
+     * @return $this
      */
-    public function withminimumHours($value)
+    public function withminimumHours($minimumHours)
     {
-        $this->setminimumHours($value);
+        $this->setminimumHours($minimumHours);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
     /**
      * Set the value of maximumHours, return this.
      *
-     * @param maximumHours
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $maximumHours
+     * @return $this
      */
-    public function withmaximumHours($value)
+    public function withmaximumHours($maximumHours)
     {
-        $this->setmaximumHours($value);
+        $this->setmaximumHours($maximumHours);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
     /**
      * Set the value of availableDate, return this.
      *
-     * @param availableDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $availableDate
+     * @return $this
      */
-    public function withavailableDate($value)
+    public function withavailableDate($availableDate)
     {
-        $this->setavailableDate($value);
+        $this->setavailableDate($availableDate);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
     /**
      * Set the value of availabilityType, return this.
      *
-     * @param availabilityType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $availabilityType
+     * @return $this
      */
-    public function withavailabilityType($value)
+    public function withavailabilityType($availabilityType)
     {
-        $this->setavailabilityType($value);
+        $this->setavailabilityType($availabilityType);
         return $this;
     }
 }

@@ -57,14 +57,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of SellerReturnItemId, return this.
      *
-     * @param sellerReturnItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerReturnItemId
+     * @return $this
      */
-    public function withSellerReturnItemId($value)
+    public function withSellerReturnItemId($SellerReturnItemId)
     {
-        $this->setSellerReturnItemId($value);
+        $this->setSellerReturnItemId($SellerReturnItemId);
         return $this;
     }
     /**
@@ -99,14 +97,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of SellerFulfillmentOrderItemId, return this.
      *
-     * @param sellerFulfillmentOrderItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerFulfillmentOrderItemId
+     * @return $this
      */
-    public function withSellerFulfillmentOrderItemId($value)
+    public function withSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId)
     {
-        $this->setSellerFulfillmentOrderItemId($value);
+        $this->setSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId);
         return $this;
     }
     /**
@@ -141,14 +137,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of AmazonShipmentId, return this.
      *
-     * @param amazonShipmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonShipmentId
+     * @return $this
      */
-    public function withAmazonShipmentId($value)
+    public function withAmazonShipmentId($AmazonShipmentId)
     {
-        $this->setAmazonShipmentId($value);
+        $this->setAmazonShipmentId($AmazonShipmentId);
         return $this;
     }
     /**
@@ -183,14 +177,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of SellerReturnReasonCode, return this.
      *
-     * @param sellerReturnReasonCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerReturnReasonCode
+     * @return $this
      */
-    public function withSellerReturnReasonCode($value)
+    public function withSellerReturnReasonCode($SellerReturnReasonCode)
     {
-        $this->setSellerReturnReasonCode($value);
+        $this->setSellerReturnReasonCode($SellerReturnReasonCode);
         return $this;
     }
     /**
@@ -225,14 +217,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of ReturnComment, return this.
      *
-     * @param returnComment
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ReturnComment
+     * @return $this
      */
-    public function withReturnComment($value)
+    public function withReturnComment($ReturnComment)
     {
-        $this->setReturnComment($value);
+        $this->setReturnComment($ReturnComment);
         return $this;
     }
     /**
@@ -267,14 +257,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of AmazonReturnReasonCode, return this.
      *
-     * @param amazonReturnReasonCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonReturnReasonCode
+     * @return $this
      */
-    public function withAmazonReturnReasonCode($value)
+    public function withAmazonReturnReasonCode($AmazonReturnReasonCode)
     {
-        $this->setAmazonReturnReasonCode($value);
+        $this->setAmazonReturnReasonCode($AmazonReturnReasonCode);
         return $this;
     }
     /**
@@ -309,14 +297,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of Status, return this.
      *
-     * @param status
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Status
+     * @return $this
      */
-    public function withStatus($value)
+    public function withStatus($Status)
     {
-        $this->setStatus($value);
+        $this->setStatus($Status);
         return $this;
     }
     /**
@@ -351,14 +337,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of StatusChangedDate, return this.
      *
-     * @param statusChangedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $StatusChangedDate
+     * @return $this
      */
-    public function withStatusChangedDate($value)
+    public function withStatusChangedDate($StatusChangedDate)
     {
-        $this->setStatusChangedDate($value);
+        $this->setStatusChangedDate($StatusChangedDate);
         return $this;
     }
     /**
@@ -393,14 +377,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of ReturnAuthorizationId, return this.
      *
-     * @param returnAuthorizationId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ReturnAuthorizationId
+     * @return $this
      */
-    public function withReturnAuthorizationId($value)
+    public function withReturnAuthorizationId($ReturnAuthorizationId)
     {
-        $this->setReturnAuthorizationId($value);
+        $this->setReturnAuthorizationId($ReturnAuthorizationId);
         return $this;
     }
     /**
@@ -435,14 +417,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of ReturnReceivedCondition, return this.
      *
-     * @param returnReceivedCondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ReturnReceivedCondition
+     * @return $this
      */
-    public function withReturnReceivedCondition($value)
+    public function withReturnReceivedCondition($ReturnReceivedCondition)
     {
-        $this->setReturnReceivedCondition($value);
+        $this->setReturnReceivedCondition($ReturnReceivedCondition);
         return $this;
     }
     /**
@@ -477,14 +457,12 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Set the value of FulfillmentCenterId, return this.
      *
-     * @param fulfillmentCenterId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentCenterId
+     * @return $this
      */
-    public function withFulfillmentCenterId($value)
+    public function withFulfillmentCenterId($FulfillmentCenterId)
     {
-        $this->setFulfillmentCenterId($value);
+        $this->setFulfillmentCenterId($FulfillmentCenterId);
         return $this;
     }
 }

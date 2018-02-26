@@ -55,14 +55,12 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Set the value of AmazonOrderId, return this.
      *
-     * @param amazonOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonOrderId
+     * @return $this
      */
-    public function withAmazonOrderId($value)
+    public function withAmazonOrderId($AmazonOrderId)
     {
-        $this->setAmazonOrderId($value);
+        $this->setAmazonOrderId($AmazonOrderId);
         return $this;
     }
     /**
@@ -97,14 +95,12 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Set the value of RentalEventType, return this.
      *
-     * @param rentalEventType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RentalEventType
+     * @return $this
      */
-    public function withRentalEventType($value)
+    public function withRentalEventType($RentalEventType)
     {
-        $this->setRentalEventType($value);
+        $this->setRentalEventType($RentalEventType);
         return $this;
     }
     /**
@@ -139,14 +135,12 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Set the value of ExtensionLength, return this.
      *
-     * @param extensionLength
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $ExtensionLength
+     * @return $this
      */
-    public function withExtensionLength($value)
+    public function withExtensionLength($ExtensionLength)
     {
-        $this->setExtensionLength($value);
+        $this->setExtensionLength($ExtensionLength);
         return $this;
     }
     /**
@@ -181,14 +175,12 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Set the value of PostedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedDate
+     * @return $this
      */
-    public function withPostedDate($value)
+    public function withPostedDate($PostedDate)
     {
-        $this->setPostedDate($value);
+        $this->setPostedDate($PostedDate);
         return $this;
     }
     /**
@@ -236,14 +228,12 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Add values for RentalChargeList, return this.
      *
-     * @param rentalChargeList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $RentalChargeList_array,...
+     * @return $this
      */
-    public function withRentalChargeList()
+    public function withRentalChargeList(...$RentalChargeList_array)
     {
-        foreach (func_get_args() as $RentalChargeList) {
+        foreach ($RentalChargeList_array as $RentalChargeList) {
             $this->_fields['RentalChargeList']['FieldValue'][] = $RentalChargeList;
         }
         return $this;
@@ -293,14 +283,12 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Add values for RentalFeeList, return this.
      *
-     * @param rentalFeeList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $RentalFeeList_array,...
+     * @return $this
      */
-    public function withRentalFeeList()
+    public function withRentalFeeList(...$RentalFeeList_array)
     {
-        foreach (func_get_args() as $RentalFeeList) {
+        foreach ($RentalFeeList_array as $RentalFeeList) {
             $this->_fields['RentalFeeList']['FieldValue'][] = $RentalFeeList;
         }
         return $this;
@@ -337,14 +325,12 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Set the value of MarketplaceName, return this.
      *
-     * @param marketplaceName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceName
+     * @return $this
      */
-    public function withMarketplaceName($value)
+    public function withMarketplaceName($MarketplaceName)
     {
-        $this->setMarketplaceName($value);
+        $this->setMarketplaceName($MarketplaceName);
         return $this;
     }
     /**
@@ -379,14 +365,12 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Set the value of RentalInitialValue, return this.
      *
-     * @param rentalInitialValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $RentalInitialValue
+     * @return $this
      */
-    public function withRentalInitialValue($value)
+    public function withRentalInitialValue($RentalInitialValue)
     {
-        $this->setRentalInitialValue($value);
+        $this->setRentalInitialValue($RentalInitialValue);
         return $this;
     }
     /**
@@ -421,14 +405,12 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Set the value of RentalReimbursement, return this.
      *
-     * @param rentalReimbursement
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $RentalReimbursement
+     * @return $this
      */
-    public function withRentalReimbursement($value)
+    public function withRentalReimbursement($RentalReimbursement)
     {
-        $this->setRentalReimbursement($value);
+        $this->setRentalReimbursement($RentalReimbursement);
         return $this;
     }
 }

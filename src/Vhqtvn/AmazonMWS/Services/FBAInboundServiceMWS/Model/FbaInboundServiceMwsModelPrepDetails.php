@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelPrepDetails extends FbaInboundServiceMwsModel
     /**
      * Set the value of PrepInstruction, return this.
      *
-     * @param prepInstruction
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PrepInstruction
+     * @return $this
      */
-    public function withPrepInstruction($value)
+    public function withPrepInstruction($PrepInstruction)
     {
-        $this->setPrepInstruction($value);
+        $this->setPrepInstruction($PrepInstruction);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelPrepDetails extends FbaInboundServiceMwsModel
     /**
      * Set the value of PrepOwner, return this.
      *
-     * @param prepOwner
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PrepOwner
+     * @return $this
      */
-    public function withPrepOwner($value)
+    public function withPrepOwner($PrepOwner)
     {
-        $this->setPrepOwner($value);
+        $this->setPrepOwner($PrepOwner);
         return $this;
     }
 }

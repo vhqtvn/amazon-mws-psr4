@@ -54,14 +54,12 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of PostedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedDate
+     * @return $this
      */
-    public function withPostedDate($value)
+    public function withPostedDate($PostedDate)
     {
-        $this->setPostedDate($value);
+        $this->setPostedDate($PostedDate);
         return $this;
     }
     /**
@@ -96,14 +94,12 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of CouponId, return this.
      *
-     * @param couponId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CouponId
+     * @return $this
      */
-    public function withCouponId($value)
+    public function withCouponId($CouponId)
     {
-        $this->setCouponId($value);
+        $this->setCouponId($CouponId);
         return $this;
     }
     /**
@@ -138,14 +134,12 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of SellerCouponDescription, return this.
      *
-     * @param sellerCouponDescription
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerCouponDescription
+     * @return $this
      */
-    public function withSellerCouponDescription($value)
+    public function withSellerCouponDescription($SellerCouponDescription)
     {
-        $this->setSellerCouponDescription($value);
+        $this->setSellerCouponDescription($SellerCouponDescription);
         return $this;
     }
     /**
@@ -180,14 +174,12 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of ClipOrRedemptionCount, return this.
      *
-     * @param clipOrRedemptionCount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $ClipOrRedemptionCount
+     * @return $this
      */
-    public function withClipOrRedemptionCount($value)
+    public function withClipOrRedemptionCount($ClipOrRedemptionCount)
     {
-        $this->setClipOrRedemptionCount($value);
+        $this->setClipOrRedemptionCount($ClipOrRedemptionCount);
         return $this;
     }
     /**
@@ -222,14 +214,12 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of PaymentEventId, return this.
      *
-     * @param paymentEventId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PaymentEventId
+     * @return $this
      */
-    public function withPaymentEventId($value)
+    public function withPaymentEventId($PaymentEventId)
     {
-        $this->setPaymentEventId($value);
+        $this->setPaymentEventId($PaymentEventId);
         return $this;
     }
     /**
@@ -264,14 +254,12 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of FeeComponent, return this.
      *
-     * @param feeComponent
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $FeeComponent
+     * @return $this
      */
-    public function withFeeComponent($value)
+    public function withFeeComponent($FeeComponent)
     {
-        $this->setFeeComponent($value);
+        $this->setFeeComponent($FeeComponent);
         return $this;
     }
     /**
@@ -306,14 +294,12 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of ChargeComponent, return this.
      *
-     * @param chargeComponent
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $ChargeComponent
+     * @return $this
      */
-    public function withChargeComponent($value)
+    public function withChargeComponent($ChargeComponent)
     {
-        $this->setChargeComponent($value);
+        $this->setChargeComponent($ChargeComponent);
         return $this;
     }
     /**
@@ -348,14 +334,12 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Set the value of TotalAmount, return this.
      *
-     * @param totalAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $TotalAmount
+     * @return $this
      */
-    public function withTotalAmount($value)
+    public function withTotalAmount($TotalAmount)
     {
-        $this->setTotalAmount($value);
+        $this->setTotalAmount($TotalAmount);
         return $this;
     }
 }

@@ -62,14 +62,12 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
     /**
      * Add values for ShippingServiceList, return this.
      *
-     * @param shippingServiceList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService $ShippingServiceList_array,...
+     * @return $this
      */
-    public function withShippingServiceList()
+    public function withShippingServiceList(...$ShippingServiceList_array)
     {
-        foreach (func_get_args() as $ShippingServiceList) {
+        foreach ($ShippingServiceList_array as $ShippingServiceList) {
             $this->_fields['ShippingServiceList']['FieldValue'][] = $ShippingServiceList;
         }
         return $this;
@@ -119,14 +117,12 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
     /**
      * Add values for TemporarilyUnavailableCarrierList, return this.
      *
-     * @param temporarilyUnavailableCarrierList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTemporarilyUnavailableCarrier $TemporarilyUnavailableCarrierList_array,...
+     * @return $this
      */
-    public function withTemporarilyUnavailableCarrierList()
+    public function withTemporarilyUnavailableCarrierList(...$TemporarilyUnavailableCarrierList_array)
     {
-        foreach (func_get_args() as $TemporarilyUnavailableCarrierList) {
+        foreach ($TemporarilyUnavailableCarrierList_array as $TemporarilyUnavailableCarrierList) {
             $this->_fields['TemporarilyUnavailableCarrierList']['FieldValue'][] = $TemporarilyUnavailableCarrierList;
         }
         return $this;
@@ -176,14 +172,12 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
     /**
      * Add values for TermsAndConditionsNotAcceptedCarrierList, return this.
      *
-     * @param termsAndConditionsNotAcceptedCarrierList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelTermsAndConditionsNotAcceptedCarrier $TermsAndConditionsNotAcceptedCarrierList_array,...
+     * @return $this
      */
-    public function withTermsAndConditionsNotAcceptedCarrierList()
+    public function withTermsAndConditionsNotAcceptedCarrierList(...$TermsAndConditionsNotAcceptedCarrierList_array)
     {
-        foreach (func_get_args() as $TermsAndConditionsNotAcceptedCarrierList) {
+        foreach ($TermsAndConditionsNotAcceptedCarrierList_array as $TermsAndConditionsNotAcceptedCarrierList) {
             $this->_fields['TermsAndConditionsNotAcceptedCarrierList']['FieldValue'][] = $TermsAndConditionsNotAcceptedCarrierList;
         }
         return $this;

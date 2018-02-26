@@ -49,14 +49,12 @@ class MarketplaceWebServiceProductsModelPriceToEstimateFees extends MarketplaceW
     /**
      * Set the value of ListingPrice, return this.
      *
-     * @param listingPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $ListingPrice
+     * @return $this
      */
-    public function withListingPrice($value)
+    public function withListingPrice($ListingPrice)
     {
-        $this->setListingPrice($value);
+        $this->setListingPrice($ListingPrice);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceProductsModelPriceToEstimateFees extends MarketplaceW
     /**
      * Set the value of Shipping, return this.
      *
-     * @param shipping
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $Shipping
+     * @return $this
      */
-    public function withShipping($value)
+    public function withShipping($Shipping)
     {
-        $this->setShipping($value);
+        $this->setShipping($Shipping);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MarketplaceWebServiceProductsModelPriceToEstimateFees extends MarketplaceW
     /**
      * Set the value of Points, return this.
      *
-     * @param points
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints $Points
+     * @return $this
      */
-    public function withPoints($value)
+    public function withPoints($Points)
     {
-        $this->setPoints($value);
+        $this->setPoints($Points);
         return $this;
     }
 }

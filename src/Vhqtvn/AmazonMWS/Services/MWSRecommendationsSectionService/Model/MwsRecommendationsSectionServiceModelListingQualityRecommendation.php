@@ -53,14 +53,12 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Set the value of QualitySet, return this.
      *
-     * @param qualitySet
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $QualitySet
+     * @return $this
      */
-    public function withQualitySet($value)
+    public function withQualitySet($QualitySet)
     {
-        $this->setQualitySet($value);
+        $this->setQualitySet($QualitySet);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Set the value of DefectGroup, return this.
      *
-     * @param defectGroup
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DefectGroup
+     * @return $this
      */
-    public function withDefectGroup($value)
+    public function withDefectGroup($DefectGroup)
     {
-        $this->setDefectGroup($value);
+        $this->setDefectGroup($DefectGroup);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Set the value of DefectAttribute, return this.
      *
-     * @param defectAttribute
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DefectAttribute
+     * @return $this
      */
-    public function withDefectAttribute($value)
+    public function withDefectAttribute($DefectAttribute)
     {
-        $this->setDefectAttribute($value);
+        $this->setDefectAttribute($DefectAttribute);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Set the value of ItemIdentifier, return this.
      *
-     * @param itemIdentifier
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier $ItemIdentifier
+     * @return $this
      */
-    public function withItemIdentifier($value)
+    public function withItemIdentifier($ItemIdentifier)
     {
-        $this->setItemIdentifier($value);
+        $this->setItemIdentifier($ItemIdentifier);
         return $this;
     }
     /**
@@ -221,14 +213,12 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Set the value of ItemName, return this.
      *
-     * @param itemName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemName
+     * @return $this
      */
-    public function withItemName($value)
+    public function withItemName($ItemName)
     {
-        $this->setItemName($value);
+        $this->setItemName($ItemName);
         return $this;
     }
     /**
@@ -263,14 +253,12 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Set the value of RecommendationId, return this.
      *
-     * @param recommendationId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationId
+     * @return $this
      */
-    public function withRecommendationId($value)
+    public function withRecommendationId($RecommendationId)
     {
-        $this->setRecommendationId($value);
+        $this->setRecommendationId($RecommendationId);
         return $this;
     }
     /**
@@ -305,14 +293,12 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Set the value of RecommendationReason, return this.
      *
-     * @param recommendationReason
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationReason
+     * @return $this
      */
-    public function withRecommendationReason($value)
+    public function withRecommendationReason($RecommendationReason)
     {
-        $this->setRecommendationReason($value);
+        $this->setRecommendationReason($RecommendationReason);
         return $this;
     }
 }

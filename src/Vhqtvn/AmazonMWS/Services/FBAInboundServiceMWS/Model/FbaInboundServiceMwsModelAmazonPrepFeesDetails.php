@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelAmazonPrepFeesDetails extends FbaInboundServiceMw
     /**
      * Set the value of PrepInstruction, return this.
      *
-     * @param prepInstruction
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PrepInstruction
+     * @return $this
      */
-    public function withPrepInstruction($value)
+    public function withPrepInstruction($PrepInstruction)
     {
-        $this->setPrepInstruction($value);
+        $this->setPrepInstruction($PrepInstruction);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelAmazonPrepFeesDetails extends FbaInboundServiceMw
     /**
      * Set the value of FeePerUnit, return this.
      *
-     * @param feePerUnit
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount $FeePerUnit
+     * @return $this
      */
-    public function withFeePerUnit($value)
+    public function withFeePerUnit($FeePerUnit)
     {
-        $this->setFeePerUnit($value);
+        $this->setFeePerUnit($FeePerUnit);
         return $this;
     }
 }

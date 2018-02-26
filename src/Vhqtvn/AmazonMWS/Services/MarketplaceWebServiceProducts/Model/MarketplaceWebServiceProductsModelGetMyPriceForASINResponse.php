@@ -65,14 +65,12 @@ class MarketplaceWebServiceProductsModelGetMyPriceForASINResponse extends Market
     /**
      * Add values for GetMyPriceForASINResult, return this.
      *
-     * @param getMyPriceForASINResult
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetMyPriceForASINResult $GetMyPriceForASINResult_array,...
+     * @return $this
      */
-    public function withGetMyPriceForASINResult()
+    public function withGetMyPriceForASINResult(...$GetMyPriceForASINResult_array)
     {
-        foreach (func_get_args() as $GetMyPriceForASINResult) {
+        foreach ($GetMyPriceForASINResult_array as $GetMyPriceForASINResult) {
             $this->_fields['GetMyPriceForASINResult']['FieldValue'][] = $GetMyPriceForASINResult;
         }
         return $this;
@@ -109,14 +107,12 @@ class MarketplaceWebServiceProductsModelGetMyPriceForASINResponse extends Market
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -151,14 +147,12 @@ class MarketplaceWebServiceProductsModelGetMyPriceForASINResponse extends Market
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

@@ -52,14 +52,12 @@ class FbaInboundServiceMwsModelPutTransportContentResponse extends FbaInboundSer
     /**
      * Set the value of PutTransportContentResult, return this.
      *
-     * @param putTransportContentResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPutTransportContentResult $PutTransportContentResult
+     * @return $this
      */
-    public function withPutTransportContentResult($value)
+    public function withPutTransportContentResult($PutTransportContentResult)
     {
-        $this->setPutTransportContentResult($value);
+        $this->setPutTransportContentResult($PutTransportContentResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaInboundServiceMwsModelPutTransportContentResponse extends FbaInboundSer
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaInboundServiceMwsModelPutTransportContentResponse extends FbaInboundSer
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

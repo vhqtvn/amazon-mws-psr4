@@ -50,14 +50,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderRequest extends FbaOutboundSe
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderRequest extends FbaOutboundSe
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderRequest extends FbaOutboundSe
     /**
      * Set the value of Marketplace, return this.
      *
-     * @param marketplace
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Marketplace
+     * @return $this
      */
-    public function withMarketplace($value)
+    public function withMarketplace($Marketplace)
     {
-        $this->setMarketplace($value);
+        $this->setMarketplace($Marketplace);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderRequest extends FbaOutboundSe
     /**
      * Set the value of SellerFulfillmentOrderId, return this.
      *
-     * @param sellerFulfillmentOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerFulfillmentOrderId
+     * @return $this
      */
-    public function withSellerFulfillmentOrderId($value)
+    public function withSellerFulfillmentOrderId($SellerFulfillmentOrderId)
     {
-        $this->setSellerFulfillmentOrderId($value);
+        $this->setSellerFulfillmentOrderId($SellerFulfillmentOrderId);
         return $this;
     }
 }

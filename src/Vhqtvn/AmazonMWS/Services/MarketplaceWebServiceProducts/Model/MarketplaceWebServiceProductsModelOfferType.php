@@ -53,14 +53,12 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Set the value of BuyingPrice, return this.
      *
-     * @param buyingPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType $BuyingPrice
+     * @return $this
      */
-    public function withBuyingPrice($value)
+    public function withBuyingPrice($BuyingPrice)
     {
-        $this->setBuyingPrice($value);
+        $this->setBuyingPrice($BuyingPrice);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Set the value of RegularPrice, return this.
      *
-     * @param regularPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $RegularPrice
+     * @return $this
      */
-    public function withRegularPrice($value)
+    public function withRegularPrice($RegularPrice)
     {
-        $this->setRegularPrice($value);
+        $this->setRegularPrice($RegularPrice);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Set the value of FulfillmentChannel, return this.
      *
-     * @param fulfillmentChannel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentChannel
+     * @return $this
      */
-    public function withFulfillmentChannel($value)
+    public function withFulfillmentChannel($FulfillmentChannel)
     {
-        $this->setFulfillmentChannel($value);
+        $this->setFulfillmentChannel($FulfillmentChannel);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Set the value of ItemCondition, return this.
      *
-     * @param itemCondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemCondition
+     * @return $this
      */
-    public function withItemCondition($value)
+    public function withItemCondition($ItemCondition)
     {
-        $this->setItemCondition($value);
+        $this->setItemCondition($ItemCondition);
         return $this;
     }
     /**
@@ -221,14 +213,12 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Set the value of ItemSubCondition, return this.
      *
-     * @param itemSubCondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemSubCondition
+     * @return $this
      */
-    public function withItemSubCondition($value)
+    public function withItemSubCondition($ItemSubCondition)
     {
-        $this->setItemSubCondition($value);
+        $this->setItemSubCondition($ItemSubCondition);
         return $this;
     }
     /**
@@ -263,14 +253,12 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -305,14 +293,12 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
 }

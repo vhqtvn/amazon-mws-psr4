@@ -54,14 +54,12 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Set the value of TotalOfferCount, return this.
      *
-     * @param totalOfferCount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $TotalOfferCount
+     * @return $this
      */
-    public function withTotalOfferCount($value)
+    public function withTotalOfferCount($TotalOfferCount)
     {
-        $this->setTotalOfferCount($value);
+        $this->setTotalOfferCount($TotalOfferCount);
         return $this;
     }
     /**
@@ -96,14 +94,12 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Set the value of NumberOfOffers, return this.
      *
-     * @param numberOfOffers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelNumberOfOffers $NumberOfOffers
+     * @return $this
      */
-    public function withNumberOfOffers($value)
+    public function withNumberOfOffers($NumberOfOffers)
     {
-        $this->setNumberOfOffers($value);
+        $this->setNumberOfOffers($NumberOfOffers);
         return $this;
     }
     /**
@@ -138,14 +134,12 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Set the value of LowestPrices, return this.
      *
-     * @param lowestPrices
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestPrices $LowestPrices
+     * @return $this
      */
-    public function withLowestPrices($value)
+    public function withLowestPrices($LowestPrices)
     {
-        $this->setLowestPrices($value);
+        $this->setLowestPrices($LowestPrices);
         return $this;
     }
     /**
@@ -180,14 +174,12 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Set the value of BuyBoxPrices, return this.
      *
-     * @param buyBoxPrices
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxPrices $BuyBoxPrices
+     * @return $this
      */
-    public function withBuyBoxPrices($value)
+    public function withBuyBoxPrices($BuyBoxPrices)
     {
-        $this->setBuyBoxPrices($value);
+        $this->setBuyBoxPrices($BuyBoxPrices);
         return $this;
     }
     /**
@@ -222,14 +214,12 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Set the value of ListPrice, return this.
      *
-     * @param listPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $ListPrice
+     * @return $this
      */
-    public function withListPrice($value)
+    public function withListPrice($ListPrice)
     {
-        $this->setListPrice($value);
+        $this->setListPrice($ListPrice);
         return $this;
     }
     /**
@@ -264,14 +254,12 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Set the value of SuggestedLowerPricePlusShipping, return this.
      *
-     * @param suggestedLowerPricePlusShipping
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $SuggestedLowerPricePlusShipping
+     * @return $this
      */
-    public function withSuggestedLowerPricePlusShipping($value)
+    public function withSuggestedLowerPricePlusShipping($SuggestedLowerPricePlusShipping)
     {
-        $this->setSuggestedLowerPricePlusShipping($value);
+        $this->setSuggestedLowerPricePlusShipping($SuggestedLowerPricePlusShipping);
         return $this;
     }
     /**
@@ -306,14 +294,12 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Set the value of BuyBoxEligibleOffers, return this.
      *
-     * @param buyBoxEligibleOffers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxEligibleOffers $BuyBoxEligibleOffers
+     * @return $this
      */
-    public function withBuyBoxEligibleOffers($value)
+    public function withBuyBoxEligibleOffers($BuyBoxEligibleOffers)
     {
-        $this->setBuyBoxEligibleOffers($value);
+        $this->setBuyBoxEligibleOffers($BuyBoxEligibleOffers);
         return $this;
     }
     /**
@@ -348,14 +334,12 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Set the value of OffersAvailableTime, return this.
      *
-     * @param offersAvailableTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $OffersAvailableTime
+     * @return $this
      */
-    public function withOffersAvailableTime($value)
+    public function withOffersAvailableTime($OffersAvailableTime)
     {
-        $this->setOffersAvailableTime($value);
+        $this->setOffersAvailableTime($OffersAvailableTime);
         return $this;
     }
 }

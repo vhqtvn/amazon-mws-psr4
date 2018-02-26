@@ -50,14 +50,12 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
     /**
      * Set the value of RecoveryAmount, return this.
      *
-     * @param recoveryAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $RecoveryAmount
+     * @return $this
      */
-    public function withRecoveryAmount($value)
+    public function withRecoveryAmount($RecoveryAmount)
     {
-        $this->setRecoveryAmount($value);
+        $this->setRecoveryAmount($RecoveryAmount);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
     /**
      * Set the value of OriginalAmount, return this.
      *
-     * @param originalAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $OriginalAmount
+     * @return $this
      */
-    public function withOriginalAmount($value)
+    public function withOriginalAmount($OriginalAmount)
     {
-        $this->setOriginalAmount($value);
+        $this->setOriginalAmount($OriginalAmount);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
     /**
      * Set the value of GroupBeginDate, return this.
      *
-     * @param groupBeginDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $GroupBeginDate
+     * @return $this
      */
-    public function withGroupBeginDate($value)
+    public function withGroupBeginDate($GroupBeginDate)
     {
-        $this->setGroupBeginDate($value);
+        $this->setGroupBeginDate($GroupBeginDate);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
     /**
      * Set the value of GroupEndDate, return this.
      *
-     * @param groupEndDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $GroupEndDate
+     * @return $this
      */
-    public function withGroupEndDate($value)
+    public function withGroupEndDate($GroupEndDate)
     {
-        $this->setGroupEndDate($value);
+        $this->setGroupEndDate($GroupEndDate);
         return $this;
     }
 }

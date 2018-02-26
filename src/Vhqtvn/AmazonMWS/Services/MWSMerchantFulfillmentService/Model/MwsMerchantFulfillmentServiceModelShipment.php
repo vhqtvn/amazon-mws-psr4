@@ -61,14 +61,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of ShipmentId, return this.
      *
-     * @param shipmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentId
+     * @return $this
      */
-    public function withShipmentId($value)
+    public function withShipmentId($ShipmentId)
     {
-        $this->setShipmentId($value);
+        $this->setShipmentId($ShipmentId);
         return $this;
     }
     /**
@@ -103,14 +101,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of AmazonOrderId, return this.
      *
-     * @param amazonOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonOrderId
+     * @return $this
      */
-    public function withAmazonOrderId($value)
+    public function withAmazonOrderId($AmazonOrderId)
     {
-        $this->setAmazonOrderId($value);
+        $this->setAmazonOrderId($AmazonOrderId);
         return $this;
     }
     /**
@@ -145,14 +141,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of SellerOrderId, return this.
      *
-     * @param sellerOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerOrderId
+     * @return $this
      */
-    public function withSellerOrderId($value)
+    public function withSellerOrderId($SellerOrderId)
     {
-        $this->setSellerOrderId($value);
+        $this->setSellerOrderId($SellerOrderId);
         return $this;
     }
     /**
@@ -200,14 +194,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Add values for ItemList, return this.
      *
-     * @param itemList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelItem $ItemList_array,...
+     * @return $this
      */
-    public function withItemList()
+    public function withItemList(...$ItemList_array)
     {
-        foreach (func_get_args() as $ItemList) {
+        foreach ($ItemList_array as $ItemList) {
             $this->_fields['ItemList']['FieldValue'][] = $ItemList;
         }
         return $this;
@@ -244,14 +236,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of ShipFromAddress, return this.
      *
-     * @param shipFromAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress $ShipFromAddress
+     * @return $this
      */
-    public function withShipFromAddress($value)
+    public function withShipFromAddress($ShipFromAddress)
     {
-        $this->setShipFromAddress($value);
+        $this->setShipFromAddress($ShipFromAddress);
         return $this;
     }
     /**
@@ -286,14 +276,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of ShipToAddress, return this.
      *
-     * @param shipToAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress $ShipToAddress
+     * @return $this
      */
-    public function withShipToAddress($value)
+    public function withShipToAddress($ShipToAddress)
     {
-        $this->setShipToAddress($value);
+        $this->setShipToAddress($ShipToAddress);
         return $this;
     }
     /**
@@ -328,14 +316,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of PackageDimensions, return this.
      *
-     * @param packageDimensions
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions $PackageDimensions
+     * @return $this
      */
-    public function withPackageDimensions($value)
+    public function withPackageDimensions($PackageDimensions)
     {
-        $this->setPackageDimensions($value);
+        $this->setPackageDimensions($PackageDimensions);
         return $this;
     }
     /**
@@ -370,14 +356,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of Weight, return this.
      *
-     * @param weight
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight $Weight
+     * @return $this
      */
-    public function withWeight($value)
+    public function withWeight($Weight)
     {
-        $this->setWeight($value);
+        $this->setWeight($Weight);
         return $this;
     }
     /**
@@ -412,14 +396,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of Insurance, return this.
      *
-     * @param insurance
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount $Insurance
+     * @return $this
      */
-    public function withInsurance($value)
+    public function withInsurance($Insurance)
     {
-        $this->setInsurance($value);
+        $this->setInsurance($Insurance);
         return $this;
     }
     /**
@@ -454,14 +436,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of ShippingService, return this.
      *
-     * @param shippingService
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService $ShippingService
+     * @return $this
      */
-    public function withShippingService($value)
+    public function withShippingService($ShippingService)
     {
-        $this->setShippingService($value);
+        $this->setShippingService($ShippingService);
         return $this;
     }
     /**
@@ -496,14 +476,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of Label, return this.
      *
-     * @param label
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabel $Label
+     * @return $this
      */
-    public function withLabel($value)
+    public function withLabel($Label)
     {
-        $this->setLabel($value);
+        $this->setLabel($Label);
         return $this;
     }
     /**
@@ -538,14 +516,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of Status, return this.
      *
-     * @param status
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Status
+     * @return $this
      */
-    public function withStatus($value)
+    public function withStatus($Status)
     {
-        $this->setStatus($value);
+        $this->setStatus($Status);
         return $this;
     }
     /**
@@ -580,14 +556,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of TrackingId, return this.
      *
-     * @param trackingId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TrackingId
+     * @return $this
      */
-    public function withTrackingId($value)
+    public function withTrackingId($TrackingId)
     {
-        $this->setTrackingId($value);
+        $this->setTrackingId($TrackingId);
         return $this;
     }
     /**
@@ -622,14 +596,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of CreatedDate, return this.
      *
-     * @param createdDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CreatedDate
+     * @return $this
      */
-    public function withCreatedDate($value)
+    public function withCreatedDate($CreatedDate)
     {
-        $this->setCreatedDate($value);
+        $this->setCreatedDate($CreatedDate);
         return $this;
     }
     /**
@@ -664,14 +636,12 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Set the value of LastUpdatedDate, return this.
      *
-     * @param lastUpdatedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LastUpdatedDate
+     * @return $this
      */
-    public function withLastUpdatedDate($value)
+    public function withLastUpdatedDate($LastUpdatedDate)
     {
-        $this->setLastUpdatedDate($value);
+        $this->setLastUpdatedDate($LastUpdatedDate);
         return $this;
     }
 }

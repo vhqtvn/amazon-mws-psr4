@@ -60,14 +60,12 @@ class FbaInboundServiceMwsModelGuidanceReasonList extends FbaInboundServiceMwsMo
     /**
      * Add values for GuidanceReason, return this.
      *
-     * @param guidanceReason
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $GuidanceReason_array,...
+     * @return $this
      */
-    public function withGuidanceReason()
+    public function withGuidanceReason(...$GuidanceReason_array)
     {
-        foreach (func_get_args() as $GuidanceReason) {
+        foreach ($GuidanceReason_array as $GuidanceReason) {
             $this->_fields['GuidanceReason']['FieldValue'][] = $GuidanceReason;
         }
         return $this;

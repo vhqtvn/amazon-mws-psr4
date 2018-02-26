@@ -48,14 +48,14 @@ class MarketplaceWebServiceModelGetReportScheduleCountResult extends Marketplace
         return $this;
     }
     /**
-     * Sets the value of the Count and returns this instance
-     * 
-     * @param int $value Count
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleCountResult instance
+     * Set the value of Count, return this.
+     *
+     * @param int $Count
+     * @return $this
      */
-    public function withCount($value)
+    public function withCount($Count)
     {
-        $this->setCount($value);
+        $this->setCount($Count);
         return $this;
     }
     /**

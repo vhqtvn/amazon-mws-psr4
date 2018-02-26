@@ -72,14 +72,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
         return;
     }
     /**
-     * Sets the value of the GetFeedSubmissionListByNextTokenResult  and returns this instance
-     * 
-     * @param GetFeedSubmissionListByNextTokenResult $value GetFeedSubmissionListByNextTokenResult
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse instance
+     * Set the value of GetFeedSubmissionListByNextTokenResult, return this.
+     *
+     * @param GetFeedSubmissionListByNextTokenResult $GetFeedSubmissionListByNextTokenResult
+     * @return $this
      */
-    public function withGetFeedSubmissionListByNextTokenResult($value)
+    public function withGetFeedSubmissionListByNextTokenResult($GetFeedSubmissionListByNextTokenResult)
     {
-        $this->setGetFeedSubmissionListByNextTokenResult($value);
+        $this->setGetFeedSubmissionListByNextTokenResult($GetFeedSubmissionListByNextTokenResult);
         return $this;
     }
     /**
@@ -112,14 +112,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
         return;
     }
     /**
-     * Sets the value of the ResponseMetadata  and returns this instance
-     * 
-     * @param ResponseMetadata $value ResponseMetadata
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse instance
+     * Set the value of ResponseMetadata, return this.
+     *
+     * @param ResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**

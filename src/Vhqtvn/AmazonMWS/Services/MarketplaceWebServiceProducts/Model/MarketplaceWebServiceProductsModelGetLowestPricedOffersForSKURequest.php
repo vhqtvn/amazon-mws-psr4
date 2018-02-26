@@ -51,14 +51,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKURequest exten
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKURequest exten
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKURequest exten
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKURequest exten
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKURequest exten
     /**
      * Set the value of ItemCondition, return this.
      *
-     * @param itemCondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemCondition
+     * @return $this
      */
-    public function withItemCondition($value)
+    public function withItemCondition($ItemCondition)
     {
-        $this->setItemCondition($value);
+        $this->setItemCondition($ItemCondition);
         return $this;
     }
 }

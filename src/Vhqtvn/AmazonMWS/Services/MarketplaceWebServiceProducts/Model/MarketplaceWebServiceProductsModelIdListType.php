@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelIdListType extends MarketplaceWebService
     /**
      * Add values for Id, return this.
      *
-     * @param id
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $Id_array,...
+     * @return $this
      */
-    public function withId()
+    public function withId(...$Id_array)
     {
-        foreach (func_get_args() as $Id) {
+        foreach ($Id_array as $Id) {
             $this->_fields['Id']['FieldValue'][] = $Id;
         }
         return $this;

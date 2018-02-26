@@ -48,14 +48,12 @@ class MwsMerchantFulfillmentServiceModelItem extends MwsMerchantFulfillmentServi
     /**
      * Set the value of OrderItemId, return this.
      *
-     * @param orderItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $OrderItemId
+     * @return $this
      */
-    public function withOrderItemId($value)
+    public function withOrderItemId($OrderItemId)
     {
-        $this->setOrderItemId($value);
+        $this->setOrderItemId($OrderItemId);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsMerchantFulfillmentServiceModelItem extends MwsMerchantFulfillmentServi
     /**
      * Set the value of Quantity, return this.
      *
-     * @param quantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $Quantity
+     * @return $this
      */
-    public function withQuantity($value)
+    public function withQuantity($Quantity)
     {
-        $this->setQuantity($value);
+        $this->setQuantity($Quantity);
         return $this;
     }
 }

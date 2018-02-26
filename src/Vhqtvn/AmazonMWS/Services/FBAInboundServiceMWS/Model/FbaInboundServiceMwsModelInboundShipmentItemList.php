@@ -60,14 +60,12 @@ class FbaInboundServiceMwsModelInboundShipmentItemList extends FbaInboundService
     /**
      * Add values for member, return this.
      *
-     * @param member
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentItem $member_array,...
+     * @return $this
      */
-    public function withmember()
+    public function withmember(...$member_array)
     {
-        foreach (func_get_args() as $member) {
+        foreach ($member_array as $member) {
             $this->_fields['member']['FieldValue'][] = $member;
         }
         return $this;

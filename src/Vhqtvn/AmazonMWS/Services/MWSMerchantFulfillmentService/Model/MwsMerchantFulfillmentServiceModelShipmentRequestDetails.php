@@ -56,14 +56,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Set the value of AmazonOrderId, return this.
      *
-     * @param amazonOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonOrderId
+     * @return $this
      */
-    public function withAmazonOrderId($value)
+    public function withAmazonOrderId($AmazonOrderId)
     {
-        $this->setAmazonOrderId($value);
+        $this->setAmazonOrderId($AmazonOrderId);
         return $this;
     }
     /**
@@ -98,14 +96,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Set the value of SellerOrderId, return this.
      *
-     * @param sellerOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerOrderId
+     * @return $this
      */
-    public function withSellerOrderId($value)
+    public function withSellerOrderId($SellerOrderId)
     {
-        $this->setSellerOrderId($value);
+        $this->setSellerOrderId($SellerOrderId);
         return $this;
     }
     /**
@@ -153,14 +149,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Add values for ItemList, return this.
      *
-     * @param itemList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelItem $ItemList_array,...
+     * @return $this
      */
-    public function withItemList()
+    public function withItemList(...$ItemList_array)
     {
-        foreach (func_get_args() as $ItemList) {
+        foreach ($ItemList_array as $ItemList) {
             $this->_fields['ItemList']['FieldValue'][] = $ItemList;
         }
         return $this;
@@ -197,14 +191,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Set the value of ShipFromAddress, return this.
      *
-     * @param shipFromAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress $ShipFromAddress
+     * @return $this
      */
-    public function withShipFromAddress($value)
+    public function withShipFromAddress($ShipFromAddress)
     {
-        $this->setShipFromAddress($value);
+        $this->setShipFromAddress($ShipFromAddress);
         return $this;
     }
     /**
@@ -239,14 +231,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Set the value of PackageDimensions, return this.
      *
-     * @param packageDimensions
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions $PackageDimensions
+     * @return $this
      */
-    public function withPackageDimensions($value)
+    public function withPackageDimensions($PackageDimensions)
     {
-        $this->setPackageDimensions($value);
+        $this->setPackageDimensions($PackageDimensions);
         return $this;
     }
     /**
@@ -281,14 +271,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Set the value of Weight, return this.
      *
-     * @param weight
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight $Weight
+     * @return $this
      */
-    public function withWeight($value)
+    public function withWeight($Weight)
     {
-        $this->setWeight($value);
+        $this->setWeight($Weight);
         return $this;
     }
     /**
@@ -323,14 +311,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Set the value of MustArriveByDate, return this.
      *
-     * @param mustArriveByDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MustArriveByDate
+     * @return $this
      */
-    public function withMustArriveByDate($value)
+    public function withMustArriveByDate($MustArriveByDate)
     {
-        $this->setMustArriveByDate($value);
+        $this->setMustArriveByDate($MustArriveByDate);
         return $this;
     }
     /**
@@ -365,14 +351,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Set the value of ShipDate, return this.
      *
-     * @param shipDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipDate
+     * @return $this
      */
-    public function withShipDate($value)
+    public function withShipDate($ShipDate)
     {
-        $this->setShipDate($value);
+        $this->setShipDate($ShipDate);
         return $this;
     }
     /**
@@ -407,14 +391,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Set the value of ShippingServiceOptions, return this.
      *
-     * @param shippingServiceOptions
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions $ShippingServiceOptions
+     * @return $this
      */
-    public function withShippingServiceOptions($value)
+    public function withShippingServiceOptions($ShippingServiceOptions)
     {
-        $this->setShippingServiceOptions($value);
+        $this->setShippingServiceOptions($ShippingServiceOptions);
         return $this;
     }
     /**
@@ -449,14 +431,12 @@ class MwsMerchantFulfillmentServiceModelShipmentRequestDetails extends MwsMercha
     /**
      * Set the value of LabelCustomization, return this.
      *
-     * @param labelCustomization
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelCustomization $LabelCustomization
+     * @return $this
      */
-    public function withLabelCustomization($value)
+    public function withLabelCustomization($LabelCustomization)
     {
-        $this->setLabelCustomization($value);
+        $this->setLabelCustomization($LabelCustomization);
         return $this;
     }
 }

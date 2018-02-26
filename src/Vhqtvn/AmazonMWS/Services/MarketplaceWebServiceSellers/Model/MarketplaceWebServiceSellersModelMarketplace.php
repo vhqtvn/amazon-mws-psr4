@@ -52,14 +52,12 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Set the value of Name, return this.
      *
-     * @param name
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Name
+     * @return $this
      */
-    public function withName($value)
+    public function withName($Name)
     {
-        $this->setName($value);
+        $this->setName($Name);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Set the value of DefaultCountryCode, return this.
      *
-     * @param defaultCountryCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DefaultCountryCode
+     * @return $this
      */
-    public function withDefaultCountryCode($value)
+    public function withDefaultCountryCode($DefaultCountryCode)
     {
-        $this->setDefaultCountryCode($value);
+        $this->setDefaultCountryCode($DefaultCountryCode);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Set the value of DefaultCurrencyCode, return this.
      *
-     * @param defaultCurrencyCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DefaultCurrencyCode
+     * @return $this
      */
-    public function withDefaultCurrencyCode($value)
+    public function withDefaultCurrencyCode($DefaultCurrencyCode)
     {
-        $this->setDefaultCurrencyCode($value);
+        $this->setDefaultCurrencyCode($DefaultCurrencyCode);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Set the value of DefaultLanguageCode, return this.
      *
-     * @param defaultLanguageCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DefaultLanguageCode
+     * @return $this
      */
-    public function withDefaultLanguageCode($value)
+    public function withDefaultLanguageCode($DefaultLanguageCode)
     {
-        $this->setDefaultLanguageCode($value);
+        $this->setDefaultLanguageCode($DefaultLanguageCode);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Set the value of DomainName, return this.
      *
-     * @param domainName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DomainName
+     * @return $this
      */
-    public function withDomainName($value)
+    public function withDomainName($DomainName)
     {
-        $this->setDomainName($value);
+        $this->setDomainName($DomainName);
         return $this;
     }
 }

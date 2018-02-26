@@ -53,14 +53,12 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Set the value of MaxResultsPerPage, return this.
      *
-     * @param maxResultsPerPage
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $MaxResultsPerPage
+     * @return $this
      */
-    public function withMaxResultsPerPage($value)
+    public function withMaxResultsPerPage($MaxResultsPerPage)
     {
-        $this->setMaxResultsPerPage($value);
+        $this->setMaxResultsPerPage($MaxResultsPerPage);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Set the value of AmazonOrderId, return this.
      *
-     * @param amazonOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonOrderId
+     * @return $this
      */
-    public function withAmazonOrderId($value)
+    public function withAmazonOrderId($AmazonOrderId)
     {
-        $this->setAmazonOrderId($value);
+        $this->setAmazonOrderId($AmazonOrderId);
         return $this;
     }
     /**
@@ -221,14 +213,12 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Set the value of FinancialEventGroupId, return this.
      *
-     * @param financialEventGroupId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FinancialEventGroupId
+     * @return $this
      */
-    public function withFinancialEventGroupId($value)
+    public function withFinancialEventGroupId($FinancialEventGroupId)
     {
-        $this->setFinancialEventGroupId($value);
+        $this->setFinancialEventGroupId($FinancialEventGroupId);
         return $this;
     }
     /**
@@ -263,14 +253,12 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Set the value of PostedAfter, return this.
      *
-     * @param postedAfter
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedAfter
+     * @return $this
      */
-    public function withPostedAfter($value)
+    public function withPostedAfter($PostedAfter)
     {
-        $this->setPostedAfter($value);
+        $this->setPostedAfter($PostedAfter);
         return $this;
     }
     /**
@@ -305,14 +293,12 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Set the value of PostedBefore, return this.
      *
-     * @param postedBefore
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedBefore
+     * @return $this
      */
-    public function withPostedBefore($value)
+    public function withPostedBefore($PostedBefore)
     {
-        $this->setPostedBefore($value);
+        $this->setPostedBefore($PostedBefore);
         return $this;
     }
 }

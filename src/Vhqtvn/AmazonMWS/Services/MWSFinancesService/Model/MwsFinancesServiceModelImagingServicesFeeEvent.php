@@ -50,14 +50,12 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
     /**
      * Set the value of ImagingRequestBillingItemID, return this.
      *
-     * @param imagingRequestBillingItemID
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ImagingRequestBillingItemID
+     * @return $this
      */
-    public function withImagingRequestBillingItemID($value)
+    public function withImagingRequestBillingItemID($ImagingRequestBillingItemID)
     {
-        $this->setImagingRequestBillingItemID($value);
+        $this->setImagingRequestBillingItemID($ImagingRequestBillingItemID);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
     /**
      * Set the value of PostedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedDate
+     * @return $this
      */
-    public function withPostedDate($value)
+    public function withPostedDate($PostedDate)
     {
-        $this->setPostedDate($value);
+        $this->setPostedDate($PostedDate);
         return $this;
     }
     /**
@@ -189,14 +183,12 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
     /**
      * Add values for FeeList, return this.
      *
-     * @param feeList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $FeeList_array,...
+     * @return $this
      */
-    public function withFeeList()
+    public function withFeeList(...$FeeList_array)
     {
-        foreach (func_get_args() as $FeeList) {
+        foreach ($FeeList_array as $FeeList) {
             $this->_fields['FeeList']['FieldValue'][] = $FeeList;
         }
         return $this;

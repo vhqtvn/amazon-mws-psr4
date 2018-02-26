@@ -56,14 +56,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of ProviderTransactionType, return this.
      *
-     * @param providerTransactionType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProviderTransactionType
+     * @return $this
      */
-    public function withProviderTransactionType($value)
+    public function withProviderTransactionType($ProviderTransactionType)
     {
-        $this->setProviderTransactionType($value);
+        $this->setProviderTransactionType($ProviderTransactionType);
         return $this;
     }
     /**
@@ -98,14 +96,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of SellerOrderId, return this.
      *
-     * @param sellerOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerOrderId
+     * @return $this
      */
-    public function withSellerOrderId($value)
+    public function withSellerOrderId($SellerOrderId)
     {
-        $this->setSellerOrderId($value);
+        $this->setSellerOrderId($SellerOrderId);
         return $this;
     }
     /**
@@ -140,14 +136,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -182,14 +176,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of MarketplaceCountryCode, return this.
      *
-     * @param marketplaceCountryCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceCountryCode
+     * @return $this
      */
-    public function withMarketplaceCountryCode($value)
+    public function withMarketplaceCountryCode($MarketplaceCountryCode)
     {
-        $this->setMarketplaceCountryCode($value);
+        $this->setMarketplaceCountryCode($MarketplaceCountryCode);
         return $this;
     }
     /**
@@ -224,14 +216,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -266,14 +256,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of SellerStoreName, return this.
      *
-     * @param sellerStoreName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerStoreName
+     * @return $this
      */
-    public function withSellerStoreName($value)
+    public function withSellerStoreName($SellerStoreName)
     {
-        $this->setSellerStoreName($value);
+        $this->setSellerStoreName($SellerStoreName);
         return $this;
     }
     /**
@@ -308,14 +296,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of ProviderId, return this.
      *
-     * @param providerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProviderId
+     * @return $this
      */
-    public function withProviderId($value)
+    public function withProviderId($ProviderId)
     {
-        $this->setProviderId($value);
+        $this->setProviderId($ProviderId);
         return $this;
     }
     /**
@@ -350,14 +336,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of ProviderStoreName, return this.
      *
-     * @param providerStoreName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProviderStoreName
+     * @return $this
      */
-    public function withProviderStoreName($value)
+    public function withProviderStoreName($ProviderStoreName)
     {
-        $this->setProviderStoreName($value);
+        $this->setProviderStoreName($ProviderStoreName);
         return $this;
     }
     /**
@@ -392,14 +376,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of TransactionAmount, return this.
      *
-     * @param transactionAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $TransactionAmount
+     * @return $this
      */
-    public function withTransactionAmount($value)
+    public function withTransactionAmount($TransactionAmount)
     {
-        $this->setTransactionAmount($value);
+        $this->setTransactionAmount($TransactionAmount);
         return $this;
     }
     /**
@@ -434,14 +416,12 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Set the value of TransactionCreationDate, return this.
      *
-     * @param transactionCreationDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TransactionCreationDate
+     * @return $this
      */
-    public function withTransactionCreationDate($value)
+    public function withTransactionCreationDate($TransactionCreationDate)
     {
-        $this->setTransactionCreationDate($value);
+        $this->setTransactionCreationDate($TransactionCreationDate);
         return $this;
     }
 }

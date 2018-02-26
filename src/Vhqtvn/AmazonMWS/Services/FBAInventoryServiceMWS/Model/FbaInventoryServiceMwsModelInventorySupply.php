@@ -54,14 +54,12 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -96,14 +94,12 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Set the value of FNSKU, return this.
      *
-     * @param fnsku
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FNSKU
+     * @return $this
      */
-    public function withFNSKU($value)
+    public function withFNSKU($FNSKU)
     {
-        $this->setFNSKU($value);
+        $this->setFNSKU($FNSKU);
         return $this;
     }
     /**
@@ -138,14 +134,12 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
     /**
@@ -180,14 +174,12 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Set the value of Condition, return this.
      *
-     * @param condition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Condition
+     * @return $this
      */
-    public function withCondition($value)
+    public function withCondition($Condition)
     {
-        $this->setCondition($value);
+        $this->setCondition($Condition);
         return $this;
     }
     /**
@@ -222,14 +214,12 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Set the value of TotalSupplyQuantity, return this.
      *
-     * @param totalSupplyQuantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $TotalSupplyQuantity
+     * @return $this
      */
-    public function withTotalSupplyQuantity($value)
+    public function withTotalSupplyQuantity($TotalSupplyQuantity)
     {
-        $this->setTotalSupplyQuantity($value);
+        $this->setTotalSupplyQuantity($TotalSupplyQuantity);
         return $this;
     }
     /**
@@ -264,14 +254,12 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Set the value of InStockSupplyQuantity, return this.
      *
-     * @param inStockSupplyQuantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $InStockSupplyQuantity
+     * @return $this
      */
-    public function withInStockSupplyQuantity($value)
+    public function withInStockSupplyQuantity($InStockSupplyQuantity)
     {
-        $this->setInStockSupplyQuantity($value);
+        $this->setInStockSupplyQuantity($InStockSupplyQuantity);
         return $this;
     }
     /**
@@ -306,14 +294,12 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Set the value of EarliestAvailability, return this.
      *
-     * @param earliestAvailability
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint $EarliestAvailability
+     * @return $this
      */
-    public function withEarliestAvailability($value)
+    public function withEarliestAvailability($EarliestAvailability)
     {
-        $this->setEarliestAvailability($value);
+        $this->setEarliestAvailability($EarliestAvailability);
         return $this;
     }
     /**
@@ -348,14 +334,12 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Set the value of SupplyDetail, return this.
      *
-     * @param supplyDetail
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyDetailList $SupplyDetail
+     * @return $this
      */
-    public function withSupplyDetail($value)
+    public function withSupplyDetail($SupplyDetail)
     {
-        $this->setSupplyDetail($value);
+        $this->setSupplyDetail($SupplyDetail);
         return $this;
     }
 }

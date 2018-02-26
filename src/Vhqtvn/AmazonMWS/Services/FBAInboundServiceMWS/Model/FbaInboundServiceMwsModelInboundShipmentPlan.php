@@ -52,14 +52,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
     /**
      * Set the value of ShipmentId, return this.
      *
-     * @param shipmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentId
+     * @return $this
      */
-    public function withShipmentId($value)
+    public function withShipmentId($ShipmentId)
     {
-        $this->setShipmentId($value);
+        $this->setShipmentId($ShipmentId);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
     /**
      * Set the value of DestinationFulfillmentCenterId, return this.
      *
-     * @param destinationFulfillmentCenterId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DestinationFulfillmentCenterId
+     * @return $this
      */
-    public function withDestinationFulfillmentCenterId($value)
+    public function withDestinationFulfillmentCenterId($DestinationFulfillmentCenterId)
     {
-        $this->setDestinationFulfillmentCenterId($value);
+        $this->setDestinationFulfillmentCenterId($DestinationFulfillmentCenterId);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
     /**
      * Set the value of ShipToAddress, return this.
      *
-     * @param shipToAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress $ShipToAddress
+     * @return $this
      */
-    public function withShipToAddress($value)
+    public function withShipToAddress($ShipToAddress)
     {
-        $this->setShipToAddress($value);
+        $this->setShipToAddress($ShipToAddress);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
     /**
      * Set the value of LabelPrepType, return this.
      *
-     * @param labelPrepType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LabelPrepType
+     * @return $this
      */
-    public function withLabelPrepType($value)
+    public function withLabelPrepType($LabelPrepType)
     {
-        $this->setLabelPrepType($value);
+        $this->setLabelPrepType($LabelPrepType);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
     /**
      * Set the value of Items, return this.
      *
-     * @param items
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanItemList $Items
+     * @return $this
      */
-    public function withItems($value)
+    public function withItems($Items)
     {
-        $this->setItems($value);
+        $this->setItems($Items);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
     /**
      * Set the value of EstimatedBoxContentsFee, return this.
      *
-     * @param estimatedBoxContentsFee
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelBoxContentsFeeDetails $EstimatedBoxContentsFee
+     * @return $this
      */
-    public function withEstimatedBoxContentsFee($value)
+    public function withEstimatedBoxContentsFee($EstimatedBoxContentsFee)
     {
-        $this->setEstimatedBoxContentsFee($value);
+        $this->setEstimatedBoxContentsFee($EstimatedBoxContentsFee);
         return $this;
     }
 }

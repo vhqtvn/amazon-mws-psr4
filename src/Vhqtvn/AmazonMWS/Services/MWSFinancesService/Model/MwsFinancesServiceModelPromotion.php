@@ -49,14 +49,12 @@ class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
     /**
      * Set the value of PromotionType, return this.
      *
-     * @param promotionType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PromotionType
+     * @return $this
      */
-    public function withPromotionType($value)
+    public function withPromotionType($PromotionType)
     {
-        $this->setPromotionType($value);
+        $this->setPromotionType($PromotionType);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
     /**
      * Set the value of PromotionId, return this.
      *
-     * @param promotionId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PromotionId
+     * @return $this
      */
-    public function withPromotionId($value)
+    public function withPromotionId($PromotionId)
     {
-        $this->setPromotionId($value);
+        $this->setPromotionId($PromotionId);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
     /**
      * Set the value of PromotionAmount, return this.
      *
-     * @param promotionAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $PromotionAmount
+     * @return $this
      */
-    public function withPromotionAmount($value)
+    public function withPromotionAmount($PromotionAmount)
     {
-        $this->setPromotionAmount($value);
+        $this->setPromotionAmount($PromotionAmount);
         return $this;
     }
 }

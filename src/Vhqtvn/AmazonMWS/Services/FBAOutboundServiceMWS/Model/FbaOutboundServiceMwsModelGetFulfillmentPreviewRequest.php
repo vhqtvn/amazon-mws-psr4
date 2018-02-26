@@ -55,14 +55,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -97,14 +95,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -139,14 +135,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Set the value of Marketplace, return this.
      *
-     * @param marketplace
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Marketplace
+     * @return $this
      */
-    public function withMarketplace($value)
+    public function withMarketplace($Marketplace)
     {
-        $this->setMarketplace($value);
+        $this->setMarketplace($Marketplace);
         return $this;
     }
     /**
@@ -181,14 +175,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -223,14 +215,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Set the value of Address, return this.
      *
-     * @param address
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress $Address
+     * @return $this
      */
-    public function withAddress($value)
+    public function withAddress($Address)
     {
-        $this->setAddress($value);
+        $this->setAddress($Address);
         return $this;
     }
     /**
@@ -265,14 +255,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Set the value of Items, return this.
      *
-     * @param items
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewItemList $Items
+     * @return $this
      */
-    public function withItems($value)
+    public function withItems($Items)
     {
-        $this->setItems($value);
+        $this->setItems($Items);
         return $this;
     }
     /**
@@ -307,14 +295,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Set the value of ShippingSpeedCategories, return this.
      *
-     * @param shippingSpeedCategories
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelShippingSpeedCategoryList $ShippingSpeedCategories
+     * @return $this
      */
-    public function withShippingSpeedCategories($value)
+    public function withShippingSpeedCategories($ShippingSpeedCategories)
     {
-        $this->setShippingSpeedCategories($value);
+        $this->setShippingSpeedCategories($ShippingSpeedCategories);
         return $this;
     }
     /**
@@ -358,14 +344,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Set the value of IncludeCODFulfillmentPreview, return this.
      *
-     * @param includeCODFulfillmentPreview
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IncludeCODFulfillmentPreview
+     * @return $this
      */
-    public function withIncludeCODFulfillmentPreview($value)
+    public function withIncludeCODFulfillmentPreview($IncludeCODFulfillmentPreview)
     {
-        $this->setIncludeCODFulfillmentPreview($value);
+        $this->setIncludeCODFulfillmentPreview($IncludeCODFulfillmentPreview);
         return $this;
     }
     /**
@@ -409,14 +393,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Set the value of IncludeDeliveryWindows, return this.
      *
-     * @param includeDeliveryWindows
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IncludeDeliveryWindows
+     * @return $this
      */
-    public function withIncludeDeliveryWindows($value)
+    public function withIncludeDeliveryWindows($IncludeDeliveryWindows)
     {
-        $this->setIncludeDeliveryWindows($value);
+        $this->setIncludeDeliveryWindows($IncludeDeliveryWindows);
         return $this;
     }
 }

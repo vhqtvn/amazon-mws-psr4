@@ -75,16 +75,14 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets single or multiple values of Error list via variable number of arguments. 
-     * For example, to set the list with two elements, simply pass two values as arguments to this function
-     * <code>withError($error1, $error2)</code>
-     * 
-     * @param Error  $errorArgs one or more Error
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelErrorResponse  instance
+     * Add values for Error, return this.
+     *
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError $Error_array,...
+     * @return $this
      */
-    public function withError($errorArgs)
+    public function withError($errorArgs, ...$Error_array)
     {
-        foreach (func_get_args() as $error) {
+        foreach ($Error_array as $error) {
             $this->fields['Error']['FieldValue'][] = $error;
         }
         return $this;
@@ -119,14 +117,14 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the RequestId and returns this instance
-     * 
-     * @param string $value RequestId
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelErrorResponse instance
+     * Set the value of RequestId, return this.
+     *
+     * @param string $RequestId
+     * @return $this
      */
-    public function withRequestId($value)
+    public function withRequestId($RequestId)
     {
-        $this->setRequestId($value);
+        $this->setRequestId($RequestId);
         return $this;
     }
     /**

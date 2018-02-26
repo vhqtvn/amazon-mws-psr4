@@ -72,14 +72,14 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
         return;
     }
     /**
-     * Sets the value of the CancelFeedSubmissionsResult  and returns this instance
-     * 
-     * @param CancelFeedSubmissionsResult $value CancelFeedSubmissionsResult
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelFeedSubmissionsResponse instance
+     * Set the value of CancelFeedSubmissionsResult, return this.
+     *
+     * @param CancelFeedSubmissionsResult $CancelFeedSubmissionsResult
+     * @return $this
      */
-    public function withCancelFeedSubmissionsResult($value)
+    public function withCancelFeedSubmissionsResult($CancelFeedSubmissionsResult)
     {
-        $this->setCancelFeedSubmissionsResult($value);
+        $this->setCancelFeedSubmissionsResult($CancelFeedSubmissionsResult);
         return $this;
     }
     /**
@@ -112,14 +112,14 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
         return;
     }
     /**
-     * Sets the value of the ResponseMetadata  and returns this instance
-     * 
-     * @param ResponseMetadata $value ResponseMetadata
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelFeedSubmissionsResponse instance
+     * Set the value of ResponseMetadata, return this.
+     *
+     * @param ResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**

@@ -48,14 +48,12 @@ class FbaInventoryServiceMwsModelTimepoint extends FbaInventoryServiceMwsModel
     /**
      * Set the value of TimepointType, return this.
      *
-     * @param timepointType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TimepointType
+     * @return $this
      */
-    public function withTimepointType($value)
+    public function withTimepointType($TimepointType)
     {
-        $this->setTimepointType($value);
+        $this->setTimepointType($TimepointType);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInventoryServiceMwsModelTimepoint extends FbaInventoryServiceMwsModel
     /**
      * Set the value of DateTime, return this.
      *
-     * @param dateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DateTime
+     * @return $this
      */
-    public function withDateTime($value)
+    public function withDateTime($DateTime)
     {
-        $this->setDateTime($value);
+        $this->setDateTime($DateTime);
         return $this;
     }
 }

@@ -60,14 +60,12 @@ class FbaInboundServiceMwsModelAmazonPrepFeesDetailsList extends FbaInboundServi
     /**
      * Add values for AmazonPrepFeesDetails, return this.
      *
-     * @param amazonPrepFeesDetails
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetails $AmazonPrepFeesDetails_array,...
+     * @return $this
      */
-    public function withAmazonPrepFeesDetails()
+    public function withAmazonPrepFeesDetails(...$AmazonPrepFeesDetails_array)
     {
-        foreach (func_get_args() as $AmazonPrepFeesDetails) {
+        foreach ($AmazonPrepFeesDetails_array as $AmazonPrepFeesDetails) {
             $this->_fields['AmazonPrepFeesDetails']['FieldValue'][] = $AmazonPrepFeesDetails;
         }
         return $this;

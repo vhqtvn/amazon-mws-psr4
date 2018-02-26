@@ -48,14 +48,12 @@ class MarketplaceWebServiceProductsModelSellerFeedbackType extends MarketplaceWe
     /**
      * Set the value of SellerPositiveFeedbackRating, return this.
      *
-     * @param sellerPositiveFeedbackRating
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param float $SellerPositiveFeedbackRating
+     * @return $this
      */
-    public function withSellerPositiveFeedbackRating($value)
+    public function withSellerPositiveFeedbackRating($SellerPositiveFeedbackRating)
     {
-        $this->setSellerPositiveFeedbackRating($value);
+        $this->setSellerPositiveFeedbackRating($SellerPositiveFeedbackRating);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceProductsModelSellerFeedbackType extends MarketplaceWe
     /**
      * Set the value of FeedbackCount, return this.
      *
-     * @param feedbackCount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $FeedbackCount
+     * @return $this
      */
-    public function withFeedbackCount($value)
+    public function withFeedbackCount($FeedbackCount)
     {
-        $this->setFeedbackCount($value);
+        $this->setFeedbackCount($FeedbackCount);
         return $this;
     }
 }

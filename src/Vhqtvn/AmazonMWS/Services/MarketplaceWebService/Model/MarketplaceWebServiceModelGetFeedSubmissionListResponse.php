@@ -72,14 +72,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionListResponse extends Marketplac
         return;
     }
     /**
-     * Sets the value of the GetFeedSubmissionListResult  and returns this instance
-     * 
-     * @param GetFeedSubmissionListResult $value GetFeedSubmissionListResult
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListResponse instance
+     * Set the value of GetFeedSubmissionListResult, return this.
+     *
+     * @param GetFeedSubmissionListResult $GetFeedSubmissionListResult
+     * @return $this
      */
-    public function withGetFeedSubmissionListResult($value)
+    public function withGetFeedSubmissionListResult($GetFeedSubmissionListResult)
     {
-        $this->setGetFeedSubmissionListResult($value);
+        $this->setGetFeedSubmissionListResult($GetFeedSubmissionListResult);
         return $this;
     }
     /**
@@ -112,14 +112,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionListResponse extends Marketplac
         return;
     }
     /**
-     * Sets the value of the ResponseMetadata  and returns this instance
-     * 
-     * @param ResponseMetadata $value ResponseMetadata
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListResponse instance
+     * Set the value of ResponseMetadata, return this.
+     *
+     * @param ResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**

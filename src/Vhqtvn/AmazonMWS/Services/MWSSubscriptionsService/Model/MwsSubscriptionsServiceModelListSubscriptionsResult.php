@@ -47,14 +47,12 @@ class MwsSubscriptionsServiceModelListSubscriptionsResult extends MwsSubscriptio
     /**
      * Set the value of SubscriptionList, return this.
      *
-     * @param subscriptionList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSubscriptionList $SubscriptionList
+     * @return $this
      */
-    public function withSubscriptionList($value)
+    public function withSubscriptionList($SubscriptionList)
     {
-        $this->setSubscriptionList($value);
+        $this->setSubscriptionList($SubscriptionList);
         return $this;
     }
 }

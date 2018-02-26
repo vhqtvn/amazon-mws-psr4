@@ -56,14 +56,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Set the value of ShippingServiceName, return this.
      *
-     * @param shippingServiceName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShippingServiceName
+     * @return $this
      */
-    public function withShippingServiceName($value)
+    public function withShippingServiceName($ShippingServiceName)
     {
-        $this->setShippingServiceName($value);
+        $this->setShippingServiceName($ShippingServiceName);
         return $this;
     }
     /**
@@ -98,14 +96,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Set the value of CarrierName, return this.
      *
-     * @param carrierName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CarrierName
+     * @return $this
      */
-    public function withCarrierName($value)
+    public function withCarrierName($CarrierName)
     {
-        $this->setCarrierName($value);
+        $this->setCarrierName($CarrierName);
         return $this;
     }
     /**
@@ -140,14 +136,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Set the value of ShippingServiceId, return this.
      *
-     * @param shippingServiceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShippingServiceId
+     * @return $this
      */
-    public function withShippingServiceId($value)
+    public function withShippingServiceId($ShippingServiceId)
     {
-        $this->setShippingServiceId($value);
+        $this->setShippingServiceId($ShippingServiceId);
         return $this;
     }
     /**
@@ -182,14 +176,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Set the value of ShippingServiceOfferId, return this.
      *
-     * @param shippingServiceOfferId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShippingServiceOfferId
+     * @return $this
      */
-    public function withShippingServiceOfferId($value)
+    public function withShippingServiceOfferId($ShippingServiceOfferId)
     {
-        $this->setShippingServiceOfferId($value);
+        $this->setShippingServiceOfferId($ShippingServiceOfferId);
         return $this;
     }
     /**
@@ -224,14 +216,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Set the value of ShipDate, return this.
      *
-     * @param shipDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipDate
+     * @return $this
      */
-    public function withShipDate($value)
+    public function withShipDate($ShipDate)
     {
-        $this->setShipDate($value);
+        $this->setShipDate($ShipDate);
         return $this;
     }
     /**
@@ -266,14 +256,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Set the value of EarliestEstimatedDeliveryDate, return this.
      *
-     * @param earliestEstimatedDeliveryDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EarliestEstimatedDeliveryDate
+     * @return $this
      */
-    public function withEarliestEstimatedDeliveryDate($value)
+    public function withEarliestEstimatedDeliveryDate($EarliestEstimatedDeliveryDate)
     {
-        $this->setEarliestEstimatedDeliveryDate($value);
+        $this->setEarliestEstimatedDeliveryDate($EarliestEstimatedDeliveryDate);
         return $this;
     }
     /**
@@ -308,14 +296,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Set the value of LatestEstimatedDeliveryDate, return this.
      *
-     * @param latestEstimatedDeliveryDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LatestEstimatedDeliveryDate
+     * @return $this
      */
-    public function withLatestEstimatedDeliveryDate($value)
+    public function withLatestEstimatedDeliveryDate($LatestEstimatedDeliveryDate)
     {
-        $this->setLatestEstimatedDeliveryDate($value);
+        $this->setLatestEstimatedDeliveryDate($LatestEstimatedDeliveryDate);
         return $this;
     }
     /**
@@ -350,14 +336,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Set the value of Rate, return this.
      *
-     * @param rate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount $Rate
+     * @return $this
      */
-    public function withRate($value)
+    public function withRate($Rate)
     {
-        $this->setRate($value);
+        $this->setRate($Rate);
         return $this;
     }
     /**
@@ -392,14 +376,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Set the value of ShippingServiceOptions, return this.
      *
-     * @param shippingServiceOptions
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions $ShippingServiceOptions
+     * @return $this
      */
-    public function withShippingServiceOptions($value)
+    public function withShippingServiceOptions($ShippingServiceOptions)
     {
-        $this->setShippingServiceOptions($value);
+        $this->setShippingServiceOptions($ShippingServiceOptions);
         return $this;
     }
     /**
@@ -447,14 +429,12 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Add values for AvailableLabelFormats, return this.
      *
-     * @param availableLabelFormats
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $AvailableLabelFormats_array,...
+     * @return $this
      */
-    public function withAvailableLabelFormats()
+    public function withAvailableLabelFormats(...$AvailableLabelFormats_array)
     {
-        foreach (func_get_args() as $AvailableLabelFormats) {
+        foreach ($AvailableLabelFormats_array as $AvailableLabelFormats) {
             $this->_fields['AvailableLabelFormats']['FieldValue'][] = $AvailableLabelFormats;
         }
         return $this;

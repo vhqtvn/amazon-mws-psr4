@@ -47,14 +47,12 @@ class MarketplaceWebServiceProductsModelGetMyFeesEstimateResult extends Marketpl
     /**
      * Set the value of FeesEstimateResultList, return this.
      *
-     * @param feesEstimateResultList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateResultList $FeesEstimateResultList
+     * @return $this
      */
-    public function withFeesEstimateResultList($value)
+    public function withFeesEstimateResultList($FeesEstimateResultList)
     {
-        $this->setFeesEstimateResultList($value);
+        $this->setFeesEstimateResultList($FeesEstimateResultList);
         return $this;
     }
 }

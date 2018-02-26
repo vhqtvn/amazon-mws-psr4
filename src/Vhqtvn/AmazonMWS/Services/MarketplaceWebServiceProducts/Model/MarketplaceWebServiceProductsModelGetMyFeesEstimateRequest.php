@@ -49,14 +49,12 @@ class MarketplaceWebServiceProductsModelGetMyFeesEstimateRequest extends Marketp
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceProductsModelGetMyFeesEstimateRequest extends Marketp
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MarketplaceWebServiceProductsModelGetMyFeesEstimateRequest extends Marketp
     /**
      * Set the value of FeesEstimateRequestList, return this.
      *
-     * @param feesEstimateRequestList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateRequestList $FeesEstimateRequestList
+     * @return $this
      */
-    public function withFeesEstimateRequestList($value)
+    public function withFeesEstimateRequestList($FeesEstimateRequestList)
     {
-        $this->setFeesEstimateRequestList($value);
+        $this->setFeesEstimateRequestList($FeesEstimateRequestList);
         return $this;
     }
 }

@@ -47,14 +47,12 @@ class MwsRecommendationsSectionServiceModelResponseMetadata extends MwsRecommend
     /**
      * Set the value of RequestId, return this.
      *
-     * @param requestId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RequestId
+     * @return $this
      */
-    public function withRequestId($value)
+    public function withRequestId($RequestId)
     {
-        $this->setRequestId($value);
+        $this->setRequestId($RequestId);
         return $this;
     }
 }

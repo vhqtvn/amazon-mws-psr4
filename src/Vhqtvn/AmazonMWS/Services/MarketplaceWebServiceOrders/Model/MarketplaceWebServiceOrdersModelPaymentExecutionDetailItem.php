@@ -48,14 +48,12 @@ class MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem extends Marketp
     /**
      * Set the value of Payment, return this.
      *
-     * @param payment
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney $Payment
+     * @return $this
      */
-    public function withPayment($value)
+    public function withPayment($Payment)
     {
-        $this->setPayment($value);
+        $this->setPayment($Payment);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem extends Marketp
     /**
      * Set the value of PaymentMethod, return this.
      *
-     * @param paymentMethod
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PaymentMethod
+     * @return $this
      */
-    public function withPaymentMethod($value)
+    public function withPaymentMethod($PaymentMethod)
     {
-        $this->setPaymentMethod($value);
+        $this->setPaymentMethod($PaymentMethod);
         return $this;
     }
 }

@@ -53,14 +53,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Set the value of IdType, return this.
      *
-     * @param idType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $IdType
+     * @return $this
      */
-    public function withIdType($value)
+    public function withIdType($IdType)
     {
-        $this->setIdType($value);
+        $this->setIdType($IdType);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Set the value of IdValue, return this.
      *
-     * @param idValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $IdValue
+     * @return $this
      */
-    public function withIdValue($value)
+    public function withIdValue($IdValue)
     {
-        $this->setIdValue($value);
+        $this->setIdValue($IdValue);
         return $this;
     }
     /**
@@ -230,14 +222,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Set the value of IsAmazonFulfilled, return this.
      *
-     * @param isAmazonFulfilled
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsAmazonFulfilled
+     * @return $this
      */
-    public function withIsAmazonFulfilled($value)
+    public function withIsAmazonFulfilled($IsAmazonFulfilled)
     {
-        $this->setIsAmazonFulfilled($value);
+        $this->setIsAmazonFulfilled($IsAmazonFulfilled);
         return $this;
     }
     /**
@@ -272,14 +262,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Set the value of PriceToEstimateFees, return this.
      *
-     * @param priceToEstimateFees
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceToEstimateFees $PriceToEstimateFees
+     * @return $this
      */
-    public function withPriceToEstimateFees($value)
+    public function withPriceToEstimateFees($PriceToEstimateFees)
     {
-        $this->setPriceToEstimateFees($value);
+        $this->setPriceToEstimateFees($PriceToEstimateFees);
         return $this;
     }
     /**
@@ -314,14 +302,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Set the value of SellerInputIdentifier, return this.
      *
-     * @param sellerInputIdentifier
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerInputIdentifier
+     * @return $this
      */
-    public function withSellerInputIdentifier($value)
+    public function withSellerInputIdentifier($SellerInputIdentifier)
     {
-        $this->setSellerInputIdentifier($value);
+        $this->setSellerInputIdentifier($SellerInputIdentifier);
         return $this;
     }
 }

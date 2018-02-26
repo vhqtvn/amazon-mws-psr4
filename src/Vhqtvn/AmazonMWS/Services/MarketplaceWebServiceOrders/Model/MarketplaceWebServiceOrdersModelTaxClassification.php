@@ -48,14 +48,12 @@ class MarketplaceWebServiceOrdersModelTaxClassification extends MarketplaceWebSe
     /**
      * Set the value of Name, return this.
      *
-     * @param name
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Name
+     * @return $this
      */
-    public function withName($value)
+    public function withName($Name)
     {
-        $this->setName($value);
+        $this->setName($Name);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceOrdersModelTaxClassification extends MarketplaceWebSe
     /**
      * Set the value of Value, return this.
      *
-     * @param value
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Value
+     * @return $this
      */
-    public function withValue($value)
+    public function withValue($Value)
     {
-        $this->setValue($value);
+        $this->setValue($Value);
         return $this;
     }
 }

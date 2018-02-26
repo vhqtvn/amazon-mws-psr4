@@ -51,16 +51,14 @@ class MarketplaceWebServiceModelTypeList extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets single or multiple values of Type list via variable number of arguments. 
-     * For example, to set the list with two elements, simply pass two values as arguments to this function
-     * <code>withType($type1, $type2)</code>
-     * 
-     * @param string  $stringArgs one or more Type
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList  instance
+     * Add values for Type, return this.
+     *
+     * @param \ $Type_array,...
+     * @return $this
      */
-    public function withType($stringArgs)
+    public function withType($stringArgs, ...$Type_array)
     {
-        foreach (func_get_args() as $type) {
+        foreach ($Type_array as $type) {
             $this->fields['Type']['FieldValue'][] = $type;
         }
         return $this;

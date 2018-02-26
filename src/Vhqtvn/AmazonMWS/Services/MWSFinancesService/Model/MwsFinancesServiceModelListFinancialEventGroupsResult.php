@@ -48,14 +48,12 @@ class MwsFinancesServiceModelListFinancialEventGroupsResult extends MwsFinancesS
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
     /**
@@ -103,14 +101,12 @@ class MwsFinancesServiceModelListFinancialEventGroupsResult extends MwsFinancesS
     /**
      * Add values for FinancialEventGroupList, return this.
      *
-     * @param financialEventGroupList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEventGroup $FinancialEventGroupList_array,...
+     * @return $this
      */
-    public function withFinancialEventGroupList()
+    public function withFinancialEventGroupList(...$FinancialEventGroupList_array)
     {
-        foreach (func_get_args() as $FinancialEventGroupList) {
+        foreach ($FinancialEventGroupList_array as $FinancialEventGroupList) {
             $this->_fields['FinancialEventGroupList']['FieldValue'][] = $FinancialEventGroupList;
         }
         return $this;

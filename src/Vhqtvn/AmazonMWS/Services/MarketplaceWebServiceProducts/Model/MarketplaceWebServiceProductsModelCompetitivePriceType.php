@@ -51,14 +51,12 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Set the value of CompetitivePriceId, return this.
      *
-     * @param competitivePriceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CompetitivePriceId
+     * @return $this
      */
-    public function withCompetitivePriceId($value)
+    public function withCompetitivePriceId($CompetitivePriceId)
     {
-        $this->setCompetitivePriceId($value);
+        $this->setCompetitivePriceId($CompetitivePriceId);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Set the value of Price, return this.
      *
-     * @param price
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType $Price
+     * @return $this
      */
-    public function withPrice($value)
+    public function withPrice($Price)
     {
-        $this->setPrice($value);
+        $this->setPrice($Price);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Set the value of condition, return this.
      *
-     * @param condition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $condition
+     * @return $this
      */
-    public function withcondition($value)
+    public function withcondition($condition)
     {
-        $this->setcondition($value);
+        $this->setcondition($condition);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Set the value of subcondition, return this.
      *
-     * @param subcondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $subcondition
+     * @return $this
      */
-    public function withsubcondition($value)
+    public function withsubcondition($subcondition)
     {
-        $this->setsubcondition($value);
+        $this->setsubcondition($subcondition);
         return $this;
     }
     /**
@@ -228,14 +220,12 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Set the value of belongsToRequester, return this.
      *
-     * @param belongsToRequester
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $belongsToRequester
+     * @return $this
      */
-    public function withbelongsToRequester($value)
+    public function withbelongsToRequester($belongsToRequester)
     {
-        $this->setbelongsToRequester($value);
+        $this->setbelongsToRequester($belongsToRequester);
         return $this;
     }
 }

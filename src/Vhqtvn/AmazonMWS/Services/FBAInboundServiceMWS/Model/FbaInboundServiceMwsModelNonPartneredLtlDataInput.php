@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelNonPartneredLtlDataInput extends FbaInboundServic
     /**
      * Set the value of CarrierName, return this.
      *
-     * @param carrierName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CarrierName
+     * @return $this
      */
-    public function withCarrierName($value)
+    public function withCarrierName($CarrierName)
     {
-        $this->setCarrierName($value);
+        $this->setCarrierName($CarrierName);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelNonPartneredLtlDataInput extends FbaInboundServic
     /**
      * Set the value of ProNumber, return this.
      *
-     * @param proNumber
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProNumber
+     * @return $this
      */
-    public function withProNumber($value)
+    public function withProNumber($ProNumber)
     {
-        $this->setProNumber($value);
+        $this->setProNumber($ProNumber);
         return $this;
     }
 }

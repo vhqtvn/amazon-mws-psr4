@@ -49,14 +49,12 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaI
     /**
      * Set the value of CarrierName, return this.
      *
-     * @param carrierName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CarrierName
+     * @return $this
      */
-    public function withCarrierName($value)
+    public function withCarrierName($CarrierName)
     {
-        $this->setCarrierName($value);
+        $this->setCarrierName($CarrierName);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaI
     /**
      * Set the value of TrackingId, return this.
      *
-     * @param trackingId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TrackingId
+     * @return $this
      */
-    public function withTrackingId($value)
+    public function withTrackingId($TrackingId)
     {
-        $this->setTrackingId($value);
+        $this->setTrackingId($TrackingId);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaI
     /**
      * Set the value of PackageStatus, return this.
      *
-     * @param packageStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PackageStatus
+     * @return $this
      */
-    public function withPackageStatus($value)
+    public function withPackageStatus($PackageStatus)
     {
-        $this->setPackageStatus($value);
+        $this->setPackageStatus($PackageStatus);
         return $this;
     }
 }

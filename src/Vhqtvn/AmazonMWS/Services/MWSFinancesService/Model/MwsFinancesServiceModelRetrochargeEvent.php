@@ -52,14 +52,12 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of RetrochargeEventType, return this.
      *
-     * @param retrochargeEventType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RetrochargeEventType
+     * @return $this
      */
-    public function withRetrochargeEventType($value)
+    public function withRetrochargeEventType($RetrochargeEventType)
     {
-        $this->setRetrochargeEventType($value);
+        $this->setRetrochargeEventType($RetrochargeEventType);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of AmazonOrderId, return this.
      *
-     * @param amazonOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonOrderId
+     * @return $this
      */
-    public function withAmazonOrderId($value)
+    public function withAmazonOrderId($AmazonOrderId)
     {
-        $this->setAmazonOrderId($value);
+        $this->setAmazonOrderId($AmazonOrderId);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of PostedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedDate
+     * @return $this
      */
-    public function withPostedDate($value)
+    public function withPostedDate($PostedDate)
     {
-        $this->setPostedDate($value);
+        $this->setPostedDate($PostedDate);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of BaseTax, return this.
      *
-     * @param baseTax
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $BaseTax
+     * @return $this
      */
-    public function withBaseTax($value)
+    public function withBaseTax($BaseTax)
     {
-        $this->setBaseTax($value);
+        $this->setBaseTax($BaseTax);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of ShippingTax, return this.
      *
-     * @param shippingTax
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $ShippingTax
+     * @return $this
      */
-    public function withShippingTax($value)
+    public function withShippingTax($ShippingTax)
     {
-        $this->setShippingTax($value);
+        $this->setShippingTax($ShippingTax);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of MarketplaceName, return this.
      *
-     * @param marketplaceName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceName
+     * @return $this
      */
-    public function withMarketplaceName($value)
+    public function withMarketplaceName($MarketplaceName)
     {
-        $this->setMarketplaceName($value);
+        $this->setMarketplaceName($MarketplaceName);
         return $this;
     }
 }

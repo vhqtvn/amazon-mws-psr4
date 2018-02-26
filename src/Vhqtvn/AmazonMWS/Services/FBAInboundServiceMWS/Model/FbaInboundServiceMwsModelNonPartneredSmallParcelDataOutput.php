@@ -47,14 +47,12 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelDataOutput extends FbaInbo
     /**
      * Set the value of PackageList, return this.
      *
-     * @param packageList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutputList $PackageList
+     * @return $this
      */
-    public function withPackageList($value)
+    public function withPackageList($PackageList)
     {
-        $this->setPackageList($value);
+        $this->setPackageList($PackageList);
         return $this;
     }
 }

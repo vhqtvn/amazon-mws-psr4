@@ -49,14 +49,12 @@ class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebSer
     /**
      * Set the value of condition, return this.
      *
-     * @param condition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $condition
+     * @return $this
      */
-    public function withcondition($value)
+    public function withcondition($condition)
     {
-        $this->setcondition($value);
+        $this->setcondition($condition);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebSer
     /**
      * Set the value of fulfillmentChannel, return this.
      *
-     * @param fulfillmentChannel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $fulfillmentChannel
+     * @return $this
      */
-    public function withfulfillmentChannel($value)
+    public function withfulfillmentChannel($fulfillmentChannel)
     {
-        $this->setfulfillmentChannel($value);
+        $this->setfulfillmentChannel($fulfillmentChannel);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebSer
     /**
      * Set the value of OfferCount, return this.
      *
-     * @param offerCount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $OfferCount
+     * @return $this
      */
-    public function withOfferCount($value)
+    public function withOfferCount($OfferCount)
     {
-        $this->setOfferCount($value);
+        $this->setOfferCount($OfferCount);
         return $this;
     }
 }

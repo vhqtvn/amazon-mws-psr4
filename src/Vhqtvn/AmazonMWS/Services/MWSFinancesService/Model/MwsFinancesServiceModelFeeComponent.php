@@ -48,14 +48,12 @@ class MwsFinancesServiceModelFeeComponent extends MwsFinancesServiceModel
     /**
      * Set the value of FeeType, return this.
      *
-     * @param feeType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FeeType
+     * @return $this
      */
-    public function withFeeType($value)
+    public function withFeeType($FeeType)
     {
-        $this->setFeeType($value);
+        $this->setFeeType($FeeType);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsFinancesServiceModelFeeComponent extends MwsFinancesServiceModel
     /**
      * Set the value of FeeAmount, return this.
      *
-     * @param feeAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $FeeAmount
+     * @return $this
      */
-    public function withFeeAmount($value)
+    public function withFeeAmount($FeeAmount)
     {
-        $this->setFeeAmount($value);
+        $this->setFeeAmount($FeeAmount);
         return $this;
     }
 }

@@ -50,14 +50,12 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
     /**
      * Set the value of DeliveryExperience, return this.
      *
-     * @param deliveryExperience
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DeliveryExperience
+     * @return $this
      */
-    public function withDeliveryExperience($value)
+    public function withDeliveryExperience($DeliveryExperience)
     {
-        $this->setDeliveryExperience($value);
+        $this->setDeliveryExperience($DeliveryExperience);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
     /**
      * Set the value of DeclaredValue, return this.
      *
-     * @param declaredValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount $DeclaredValue
+     * @return $this
      */
-    public function withDeclaredValue($value)
+    public function withDeclaredValue($DeclaredValue)
     {
-        $this->setDeclaredValue($value);
+        $this->setDeclaredValue($DeclaredValue);
         return $this;
     }
     /**
@@ -143,14 +139,12 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
     /**
      * Set the value of CarrierWillPickUp, return this.
      *
-     * @param carrierWillPickUp
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $CarrierWillPickUp
+     * @return $this
      */
-    public function withCarrierWillPickUp($value)
+    public function withCarrierWillPickUp($CarrierWillPickUp)
     {
-        $this->setCarrierWillPickUp($value);
+        $this->setCarrierWillPickUp($CarrierWillPickUp);
         return $this;
     }
     /**
@@ -185,14 +179,12 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
     /**
      * Set the value of LabelFormat, return this.
      *
-     * @param labelFormat
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LabelFormat
+     * @return $this
      */
-    public function withLabelFormat($value)
+    public function withLabelFormat($LabelFormat)
     {
-        $this->setLabelFormat($value);
+        $this->setLabelFormat($LabelFormat);
         return $this;
     }
 }

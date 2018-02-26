@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForSKUResult extends FbaInbound
     /**
      * Set the value of SKUInboundGuidanceList, return this.
      *
-     * @param skuInboundGuidanceList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelSKUInboundGuidanceList $SKUInboundGuidanceList
+     * @return $this
      */
-    public function withSKUInboundGuidanceList($value)
+    public function withSKUInboundGuidanceList($SKUInboundGuidanceList)
     {
-        $this->setSKUInboundGuidanceList($value);
+        $this->setSKUInboundGuidanceList($SKUInboundGuidanceList);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForSKUResult extends FbaInbound
     /**
      * Set the value of InvalidSKUList, return this.
      *
-     * @param invalidSKUList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidSKUList $InvalidSKUList
+     * @return $this
      */
-    public function withInvalidSKUList($value)
+    public function withInvalidSKUList($InvalidSKUList)
     {
-        $this->setInvalidSKUList($value);
+        $this->setInvalidSKUList($InvalidSKUList);
         return $this;
     }
 }

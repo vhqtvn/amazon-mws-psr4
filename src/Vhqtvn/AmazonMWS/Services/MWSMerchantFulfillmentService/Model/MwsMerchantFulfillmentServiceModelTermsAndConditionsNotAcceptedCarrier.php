@@ -47,14 +47,12 @@ class MwsMerchantFulfillmentServiceModelTermsAndConditionsNotAcceptedCarrier ext
     /**
      * Set the value of CarrierName, return this.
      *
-     * @param carrierName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CarrierName
+     * @return $this
      */
-    public function withCarrierName($value)
+    public function withCarrierName($CarrierName)
     {
-        $this->setCarrierName($value);
+        $this->setCarrierName($CarrierName);
         return $this;
     }
 }

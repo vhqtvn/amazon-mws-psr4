@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelInvalidASIN extends FbaInboundServiceMwsModel
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelInvalidASIN extends FbaInboundServiceMwsModel
     /**
      * Set the value of ErrorReason, return this.
      *
-     * @param errorReason
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ErrorReason
+     * @return $this
      */
-    public function withErrorReason($value)
+    public function withErrorReason($ErrorReason)
     {
-        $this->setErrorReason($value);
+        $this->setErrorReason($ErrorReason);
         return $this;
     }
 }

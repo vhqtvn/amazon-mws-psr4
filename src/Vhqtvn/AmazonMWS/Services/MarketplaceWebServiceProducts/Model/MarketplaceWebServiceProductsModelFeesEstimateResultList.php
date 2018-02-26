@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelFeesEstimateResultList extends Marketpla
     /**
      * Add values for FeesEstimateResult, return this.
      *
-     * @param feesEstimateResult
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateResult $FeesEstimateResult_array,...
+     * @return $this
      */
-    public function withFeesEstimateResult()
+    public function withFeesEstimateResult(...$FeesEstimateResult_array)
     {
-        foreach (func_get_args() as $FeesEstimateResult) {
+        foreach ($FeesEstimateResult_array as $FeesEstimateResult) {
             $this->_fields['FeesEstimateResult']['FieldValue'][] = $FeesEstimateResult;
         }
         return $this;

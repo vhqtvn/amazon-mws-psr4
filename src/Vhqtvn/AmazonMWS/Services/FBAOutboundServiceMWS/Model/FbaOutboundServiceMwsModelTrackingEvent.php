@@ -49,14 +49,12 @@ class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
     /**
      * Set the value of EventDate, return this.
      *
-     * @param eventDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EventDate
+     * @return $this
      */
-    public function withEventDate($value)
+    public function withEventDate($EventDate)
     {
-        $this->setEventDate($value);
+        $this->setEventDate($EventDate);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
     /**
      * Set the value of EventAddress, return this.
      *
-     * @param eventAddress
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress $EventAddress
+     * @return $this
      */
-    public function withEventAddress($value)
+    public function withEventAddress($EventAddress)
     {
-        $this->setEventAddress($value);
+        $this->setEventAddress($EventAddress);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
     /**
      * Set the value of EventCode, return this.
      *
-     * @param eventCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EventCode
+     * @return $this
      */
-    public function withEventCode($value)
+    public function withEventCode($EventCode)
     {
-        $this->setEventCode($value);
+        $this->setEventCode($EventCode);
         return $this;
     }
 }

@@ -49,14 +49,12 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -146,14 +142,12 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
     /**
      * Add values for AmazonOrderId, return this.
      *
-     * @param amazonOrderId
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $AmazonOrderId_array,...
+     * @return $this
      */
-    public function withAmazonOrderId()
+    public function withAmazonOrderId(...$AmazonOrderId_array)
     {
-        foreach (func_get_args() as $AmazonOrderId) {
+        foreach ($AmazonOrderId_array as $AmazonOrderId) {
             $this->_fields['AmazonOrderId']['FieldValue'][] = $AmazonOrderId;
         }
         return $this;

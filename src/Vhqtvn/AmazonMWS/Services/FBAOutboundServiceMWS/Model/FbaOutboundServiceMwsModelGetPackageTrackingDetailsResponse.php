@@ -52,14 +52,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResponse extends FbaOut
     /**
      * Set the value of GetPackageTrackingDetailsResult, return this.
      *
-     * @param getPackageTrackingDetailsResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult $GetPackageTrackingDetailsResult
+     * @return $this
      */
-    public function withGetPackageTrackingDetailsResult($value)
+    public function withGetPackageTrackingDetailsResult($GetPackageTrackingDetailsResult)
     {
-        $this->setGetPackageTrackingDetailsResult($value);
+        $this->setGetPackageTrackingDetailsResult($GetPackageTrackingDetailsResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResponse extends FbaOut
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResponse extends FbaOut
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

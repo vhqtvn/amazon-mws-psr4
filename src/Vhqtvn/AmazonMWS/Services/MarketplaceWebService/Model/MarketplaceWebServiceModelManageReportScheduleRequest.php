@@ -56,14 +56,14 @@ class MarketplaceWebServiceModelManageReportScheduleRequest extends MarketplaceW
         return $this;
     }
     /**
-     * Sets the value of the Marketplace and returns this instance
-     * 
-     * @param string $value Marketplace
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleRequest instance
+     * Set the value of Marketplace, return this.
+     *
+     * @param string $Marketplace
+     * @return $this
      */
-    public function withMarketplace($value)
+    public function withMarketplace($Marketplace)
     {
-        $this->setMarketplace($value);
+        $this->setMarketplace($Marketplace);
         return $this;
     }
     /**
@@ -96,14 +96,14 @@ class MarketplaceWebServiceModelManageReportScheduleRequest extends MarketplaceW
         return $this;
     }
     /**
-     * Sets the value of the Merchant and returns this instance
-     * 
-     * @param string $value Merchant
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleRequest instance
+     * Set the value of Merchant, return this.
+     *
+     * @param string $Merchant
+     * @return $this
      */
-    public function withMerchant($value)
+    public function withMerchant($Merchant)
     {
-        $this->setMerchant($value);
+        $this->setMerchant($Merchant);
         return $this;
     }
     /**
@@ -136,14 +136,14 @@ class MarketplaceWebServiceModelManageReportScheduleRequest extends MarketplaceW
         return $this;
     }
     /**
-     * Sets the value of the MWSAuthToken and returns this instance
+     * Set the value of MWSAuthToken, return this.
      *
-     * @param string $value MWSAuthToken
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleRequest instance
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -176,14 +176,14 @@ class MarketplaceWebServiceModelManageReportScheduleRequest extends MarketplaceW
         return $this;
     }
     /**
-     * Sets the value of the ReportType and returns this instance
-     * 
-     * @param string $value ReportType
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleRequest instance
+     * Set the value of ReportType, return this.
+     *
+     * @param string $ReportType
+     * @return $this
      */
-    public function withReportType($value)
+    public function withReportType($ReportType)
     {
-        $this->setReportType($value);
+        $this->setReportType($ReportType);
         return $this;
     }
     /**
@@ -216,14 +216,14 @@ class MarketplaceWebServiceModelManageReportScheduleRequest extends MarketplaceW
         return $this;
     }
     /**
-     * Sets the value of the Schedule and returns this instance
-     * 
-     * @param string $value Schedule
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleRequest instance
+     * Set the value of Schedule, return this.
+     *
+     * @param string $Schedule
+     * @return $this
      */
-    public function withSchedule($value)
+    public function withSchedule($Schedule)
     {
-        $this->setSchedule($value);
+        $this->setSchedule($Schedule);
         return $this;
     }
     /**
@@ -256,14 +256,14 @@ class MarketplaceWebServiceModelManageReportScheduleRequest extends MarketplaceW
         return $this;
     }
     /**
-     * Sets the value of the ScheduleDate and returns this instance
-     * 
-     * @param string $value ScheduleDate
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleRequest instance
+     * Set the value of ScheduleDate, return this.
+     *
+     * @param string $ScheduleDate
+     * @return $this
      */
-    public function withScheduleDate($value)
+    public function withScheduleDate($ScheduleDate)
     {
-        $this->setScheduleDate($value);
+        $this->setScheduleDate($ScheduleDate);
         return $this;
     }
     /**

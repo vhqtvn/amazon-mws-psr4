@@ -50,14 +50,14 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
         return $this;
     }
     /**
-     * Sets the value of the Count and returns this instance
-     * 
-     * @param int $value Count
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleResult instance
+     * Set the value of Count, return this.
+     *
+     * @param int $Count
+     * @return $this
      */
-    public function withCount($value)
+    public function withCount($Count)
     {
-        $this->setCount($value);
+        $this->setCount($Count);
         return $this;
     }
     /**
@@ -93,16 +93,14 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
         return $this;
     }
     /**
-     * Sets single or multiple values of ReportSchedule list via variable number of arguments. 
-     * For example, to set the list with two elements, simply pass two values as arguments to this function
-     * <code>withReportSchedule($reportSchedule1, $reportSchedule2)</code>
-     * 
-     * @param ReportSchedule  $reportScheduleArgs one or more ReportSchedule
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleResult  instance
+     * Add values for ReportSchedule, return this.
+     *
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule $ReportSchedule_array,...
+     * @return $this
      */
-    public function withReportSchedule($reportScheduleArgs)
+    public function withReportSchedule($reportScheduleArgs, ...$ReportSchedule_array)
     {
-        foreach (func_get_args() as $reportSchedule) {
+        foreach ($ReportSchedule_array as $reportSchedule) {
             $this->fields['ReportSchedule']['FieldValue'][] = $reportSchedule;
         }
         return $this;

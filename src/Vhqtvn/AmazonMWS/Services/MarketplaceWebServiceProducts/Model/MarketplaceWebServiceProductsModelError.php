@@ -50,14 +50,12 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
     /**
      * Set the value of Type, return this.
      *
-     * @param type
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Type
+     * @return $this
      */
-    public function withType($value)
+    public function withType($Type)
     {
-        $this->setType($value);
+        $this->setType($Type);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
     /**
      * Set the value of Code, return this.
      *
-     * @param code
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Code
+     * @return $this
      */
-    public function withCode($value)
+    public function withCode($Code)
     {
-        $this->setCode($value);
+        $this->setCode($Code);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
     /**
      * Set the value of Message, return this.
      *
-     * @param message
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Message
+     * @return $this
      */
-    public function withMessage($value)
+    public function withMessage($Message)
     {
-        $this->setMessage($value);
+        $this->setMessage($Message);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
     /**
      * Set the value of Detail, return this.
      *
-     * @param detail
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelErrorDetail $Detail
+     * @return $this
      */
-    public function withDetail($value)
+    public function withDetail($Detail)
     {
-        $this->setDetail($value);
+        $this->setDetail($Detail);
         return $this;
     }
 }

@@ -52,14 +52,12 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Set the value of ItemCondition, return this.
      *
-     * @param itemCondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemCondition
+     * @return $this
      */
-    public function withItemCondition($value)
+    public function withItemCondition($ItemCondition)
     {
-        $this->setItemCondition($value);
+        $this->setItemCondition($ItemCondition);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Set the value of ItemSubcondition, return this.
      *
-     * @param itemSubcondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemSubcondition
+     * @return $this
      */
-    public function withItemSubcondition($value)
+    public function withItemSubcondition($ItemSubcondition)
     {
-        $this->setItemSubcondition($value);
+        $this->setItemSubcondition($ItemSubcondition);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Set the value of FulfillmentChannel, return this.
      *
-     * @param fulfillmentChannel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentChannel
+     * @return $this
      */
-    public function withFulfillmentChannel($value)
+    public function withFulfillmentChannel($FulfillmentChannel)
     {
-        $this->setFulfillmentChannel($value);
+        $this->setFulfillmentChannel($FulfillmentChannel);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Set the value of ShipsDomestically, return this.
      *
-     * @param shipsDomestically
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipsDomestically
+     * @return $this
      */
-    public function withShipsDomestically($value)
+    public function withShipsDomestically($ShipsDomestically)
     {
-        $this->setShipsDomestically($value);
+        $this->setShipsDomestically($ShipsDomestically);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Set the value of ShippingTime, return this.
      *
-     * @param shippingTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShippingTimeType $ShippingTime
+     * @return $this
      */
-    public function withShippingTime($value)
+    public function withShippingTime($ShippingTime)
     {
-        $this->setShippingTime($value);
+        $this->setShippingTime($ShippingTime);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Set the value of SellerPositiveFeedbackRating, return this.
      *
-     * @param sellerPositiveFeedbackRating
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerPositiveFeedbackRating
+     * @return $this
      */
-    public function withSellerPositiveFeedbackRating($value)
+    public function withSellerPositiveFeedbackRating($SellerPositiveFeedbackRating)
     {
-        $this->setSellerPositiveFeedbackRating($value);
+        $this->setSellerPositiveFeedbackRating($SellerPositiveFeedbackRating);
         return $this;
     }
 }

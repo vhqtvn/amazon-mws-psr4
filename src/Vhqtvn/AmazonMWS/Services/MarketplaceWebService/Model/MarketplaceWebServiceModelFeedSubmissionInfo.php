@@ -58,14 +58,14 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
         return $this;
     }
     /**
-     * Sets the value of the FeedSubmissionId and returns this instance
-     * 
-     * @param string $value FeedSubmissionId
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo instance
+     * Set the value of FeedSubmissionId, return this.
+     *
+     * @param string $FeedSubmissionId
+     * @return $this
      */
-    public function withFeedSubmissionId($value)
+    public function withFeedSubmissionId($FeedSubmissionId)
     {
-        $this->setFeedSubmissionId($value);
+        $this->setFeedSubmissionId($FeedSubmissionId);
         return $this;
     }
     /**
@@ -98,14 +98,14 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
         return $this;
     }
     /**
-     * Sets the value of the FeedType and returns this instance
-     * 
-     * @param string $value FeedType
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo instance
+     * Set the value of FeedType, return this.
+     *
+     * @param string $FeedType
+     * @return $this
      */
-    public function withFeedType($value)
+    public function withFeedType($FeedType)
     {
-        $this->setFeedType($value);
+        $this->setFeedType($FeedType);
         return $this;
     }
     /**
@@ -138,14 +138,14 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
         return $this;
     }
     /**
-     * Sets the value of the SubmittedDate and returns this instance
-     * 
-     * @param string $value SubmittedDate
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo instance
+     * Set the value of SubmittedDate, return this.
+     *
+     * @param string $SubmittedDate
+     * @return $this
      */
-    public function withSubmittedDate($value)
+    public function withSubmittedDate($SubmittedDate)
     {
-        $this->setSubmittedDate($value);
+        $this->setSubmittedDate($SubmittedDate);
         return $this;
     }
     /**
@@ -178,14 +178,14 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
         return $this;
     }
     /**
-     * Sets the value of the FeedProcessingStatus and returns this instance
-     * 
-     * @param string $value FeedProcessingStatus
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo instance
+     * Set the value of FeedProcessingStatus, return this.
+     *
+     * @param string $FeedProcessingStatus
+     * @return $this
      */
-    public function withFeedProcessingStatus($value)
+    public function withFeedProcessingStatus($FeedProcessingStatus)
     {
-        $this->setFeedProcessingStatus($value);
+        $this->setFeedProcessingStatus($FeedProcessingStatus);
         return $this;
     }
     /**
@@ -218,14 +218,14 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
         return $this;
     }
     /**
-     * Sets the value of the StartedProcessingDate and returns this instance
-     * 
-     * @param string $value StartedProcessingDate
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo instance
+     * Set the value of StartedProcessingDate, return this.
+     *
+     * @param string $StartedProcessingDate
+     * @return $this
      */
-    public function withStartedProcessingDate($value)
+    public function withStartedProcessingDate($StartedProcessingDate)
     {
-        $this->setStartedProcessingDate($value);
+        $this->setStartedProcessingDate($StartedProcessingDate);
         return $this;
     }
     /**
@@ -258,14 +258,14 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
         return $this;
     }
     /**
-     * Sets the value of the CompletedProcessingDate and returns this instance
-     * 
-     * @param string $value CompletedProcessingDate
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo instance
+     * Set the value of CompletedProcessingDate, return this.
+     *
+     * @param string $CompletedProcessingDate
+     * @return $this
      */
-    public function withCompletedProcessingDate($value)
+    public function withCompletedProcessingDate($CompletedProcessingDate)
     {
-        $this->setCompletedProcessingDate($value);
+        $this->setCompletedProcessingDate($CompletedProcessingDate);
         return $this;
     }
     /**

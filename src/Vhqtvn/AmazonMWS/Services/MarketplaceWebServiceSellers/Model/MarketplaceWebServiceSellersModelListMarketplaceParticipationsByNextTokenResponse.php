@@ -52,14 +52,12 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsByNextTokenR
     /**
      * Set the value of ListMarketplaceParticipationsByNextTokenResult, return this.
      *
-     * @param listMarketplaceParticipationsByNextTokenResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListMarketplaceParticipationsByNextTokenResult $ListMarketplaceParticipationsByNextTokenResult
+     * @return $this
      */
-    public function withListMarketplaceParticipationsByNextTokenResult($value)
+    public function withListMarketplaceParticipationsByNextTokenResult($ListMarketplaceParticipationsByNextTokenResult)
     {
-        $this->setListMarketplaceParticipationsByNextTokenResult($value);
+        $this->setListMarketplaceParticipationsByNextTokenResult($ListMarketplaceParticipationsByNextTokenResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsByNextTokenR
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsByNextTokenR
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

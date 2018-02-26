@@ -52,14 +52,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Set the value of Condition, return this.
      *
-     * @param condition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Condition
+     * @return $this
      */
-    public function withCondition($value)
+    public function withCondition($Condition)
     {
-        $this->setCondition($value);
+        $this->setCondition($Condition);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Set the value of Quantity, return this.
      *
-     * @param quantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $Quantity
+     * @return $this
      */
-    public function withQuantity($value)
+    public function withQuantity($Quantity)
     {
-        $this->setQuantity($value);
+        $this->setQuantity($Quantity);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Set the value of QuantityInCase, return this.
      *
-     * @param quantityInCase
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $QuantityInCase
+     * @return $this
      */
-    public function withQuantityInCase($value)
+    public function withQuantityInCase($QuantityInCase)
     {
-        $this->setQuantityInCase($value);
+        $this->setQuantityInCase($QuantityInCase);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Set the value of PrepDetailsList, return this.
      *
-     * @param prepDetailsList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList $PrepDetailsList
+     * @return $this
      */
-    public function withPrepDetailsList($value)
+    public function withPrepDetailsList($PrepDetailsList)
     {
-        $this->setPrepDetailsList($value);
+        $this->setPrepDetailsList($PrepDetailsList);
         return $this;
     }
 }

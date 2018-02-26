@@ -48,14 +48,12 @@ class MwsSubscriptionsServiceModelDestination extends MwsSubscriptionsServiceMod
     /**
      * Set the value of DeliveryChannel, return this.
      *
-     * @param deliveryChannel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DeliveryChannel
+     * @return $this
      */
-    public function withDeliveryChannel($value)
+    public function withDeliveryChannel($DeliveryChannel)
     {
-        $this->setDeliveryChannel($value);
+        $this->setDeliveryChannel($DeliveryChannel);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsSubscriptionsServiceModelDestination extends MwsSubscriptionsServiceMod
     /**
      * Set the value of AttributeList, return this.
      *
-     * @param attributeList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValueList $AttributeList
+     * @return $this
      */
-    public function withAttributeList($value)
+    public function withAttributeList($AttributeList)
     {
-        $this->setAttributeList($value);
+        $this->setAttributeList($AttributeList);
         return $this;
     }
 }

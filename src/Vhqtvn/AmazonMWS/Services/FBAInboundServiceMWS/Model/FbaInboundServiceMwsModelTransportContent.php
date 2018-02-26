@@ -49,14 +49,12 @@ class FbaInboundServiceMwsModelTransportContent extends FbaInboundServiceMwsMode
     /**
      * Set the value of TransportHeader, return this.
      *
-     * @param transportHeader
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportHeader $TransportHeader
+     * @return $this
      */
-    public function withTransportHeader($value)
+    public function withTransportHeader($TransportHeader)
     {
-        $this->setTransportHeader($value);
+        $this->setTransportHeader($TransportHeader);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaInboundServiceMwsModelTransportContent extends FbaInboundServiceMwsMode
     /**
      * Set the value of TransportDetails, return this.
      *
-     * @param transportDetails
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDetailOutput $TransportDetails
+     * @return $this
      */
-    public function withTransportDetails($value)
+    public function withTransportDetails($TransportDetails)
     {
-        $this->setTransportDetails($value);
+        $this->setTransportDetails($TransportDetails);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaInboundServiceMwsModelTransportContent extends FbaInboundServiceMwsMode
     /**
      * Set the value of TransportResult, return this.
      *
-     * @param transportResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportResult $TransportResult
+     * @return $this
      */
-    public function withTransportResult($value)
+    public function withTransportResult($TransportResult)
     {
-        $this->setTransportResult($value);
+        $this->setTransportResult($TransportResult);
         return $this;
     }
 }

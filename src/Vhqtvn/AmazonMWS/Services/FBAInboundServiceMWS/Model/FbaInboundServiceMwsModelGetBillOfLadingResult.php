@@ -47,14 +47,12 @@ class FbaInboundServiceMwsModelGetBillOfLadingResult extends FbaInboundServiceMw
     /**
      * Set the value of TransportDocument, return this.
      *
-     * @param transportDocument
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDocument $TransportDocument
+     * @return $this
      */
-    public function withTransportDocument($value)
+    public function withTransportDocument($TransportDocument)
     {
-        $this->setTransportDocument($value);
+        $this->setTransportDocument($TransportDocument);
         return $this;
     }
 }

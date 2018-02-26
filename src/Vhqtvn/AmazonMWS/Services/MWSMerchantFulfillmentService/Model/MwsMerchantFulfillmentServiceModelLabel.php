@@ -51,14 +51,12 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Set the value of CustomTextForLabel, return this.
      *
-     * @param customTextForLabel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CustomTextForLabel
+     * @return $this
      */
-    public function withCustomTextForLabel($value)
+    public function withCustomTextForLabel($CustomTextForLabel)
     {
-        $this->setCustomTextForLabel($value);
+        $this->setCustomTextForLabel($CustomTextForLabel);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Set the value of Dimensions, return this.
      *
-     * @param dimensions
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelDimensions $Dimensions
+     * @return $this
      */
-    public function withDimensions($value)
+    public function withDimensions($Dimensions)
     {
-        $this->setDimensions($value);
+        $this->setDimensions($Dimensions);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Set the value of FileContents, return this.
      *
-     * @param fileContents
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelFileContents $FileContents
+     * @return $this
      */
-    public function withFileContents($value)
+    public function withFileContents($FileContents)
     {
-        $this->setFileContents($value);
+        $this->setFileContents($FileContents);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Set the value of LabelFormat, return this.
      *
-     * @param labelFormat
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LabelFormat
+     * @return $this
      */
-    public function withLabelFormat($value)
+    public function withLabelFormat($LabelFormat)
     {
-        $this->setLabelFormat($value);
+        $this->setLabelFormat($LabelFormat);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Set the value of StandardIdForLabel, return this.
      *
-     * @param standardIdForLabel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $StandardIdForLabel
+     * @return $this
      */
-    public function withStandardIdForLabel($value)
+    public function withStandardIdForLabel($StandardIdForLabel)
     {
-        $this->setStandardIdForLabel($value);
+        $this->setStandardIdForLabel($StandardIdForLabel);
         return $this;
     }
 }

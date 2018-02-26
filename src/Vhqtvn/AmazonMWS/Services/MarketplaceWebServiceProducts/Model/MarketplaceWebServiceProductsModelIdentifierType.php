@@ -48,14 +48,12 @@ class MarketplaceWebServiceProductsModelIdentifierType extends MarketplaceWebSer
     /**
      * Set the value of MarketplaceASIN, return this.
      *
-     * @param marketplaceASIN
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINIdentifier $MarketplaceASIN
+     * @return $this
      */
-    public function withMarketplaceASIN($value)
+    public function withMarketplaceASIN($MarketplaceASIN)
     {
-        $this->setMarketplaceASIN($value);
+        $this->setMarketplaceASIN($MarketplaceASIN);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceProductsModelIdentifierType extends MarketplaceWebSer
     /**
      * Set the value of SKUIdentifier, return this.
      *
-     * @param skuIdentifier
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUIdentifier $SKUIdentifier
+     * @return $this
      */
-    public function withSKUIdentifier($value)
+    public function withSKUIdentifier($SKUIdentifier)
     {
-        $this->setSKUIdentifier($value);
+        $this->setSKUIdentifier($SKUIdentifier);
         return $this;
     }
 }

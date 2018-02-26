@@ -50,14 +50,12 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
     /**
      * Set the value of PostedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedDate
+     * @return $this
      */
-    public function withPostedDate($value)
+    public function withPostedDate($PostedDate)
     {
-        $this->setPostedDate($value);
+        $this->setPostedDate($PostedDate);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
     /**
      * Set the value of OriginalRemovalOrderId, return this.
      *
-     * @param originalRemovalOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $OriginalRemovalOrderId
+     * @return $this
      */
-    public function withOriginalRemovalOrderId($value)
+    public function withOriginalRemovalOrderId($OriginalRemovalOrderId)
     {
-        $this->setOriginalRemovalOrderId($value);
+        $this->setOriginalRemovalOrderId($OriginalRemovalOrderId);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
     /**
      * Set the value of LiquidationProceedsAmount, return this.
      *
-     * @param liquidationProceedsAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $LiquidationProceedsAmount
+     * @return $this
      */
-    public function withLiquidationProceedsAmount($value)
+    public function withLiquidationProceedsAmount($LiquidationProceedsAmount)
     {
-        $this->setLiquidationProceedsAmount($value);
+        $this->setLiquidationProceedsAmount($LiquidationProceedsAmount);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
     /**
      * Set the value of LiquidationFeeAmount, return this.
      *
-     * @param liquidationFeeAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $LiquidationFeeAmount
+     * @return $this
      */
-    public function withLiquidationFeeAmount($value)
+    public function withLiquidationFeeAmount($LiquidationFeeAmount)
     {
-        $this->setLiquidationFeeAmount($value);
+        $this->setLiquidationFeeAmount($LiquidationFeeAmount);
         return $this;
     }
 }

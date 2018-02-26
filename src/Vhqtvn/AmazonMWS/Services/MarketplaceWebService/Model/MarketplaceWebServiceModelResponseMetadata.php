@@ -48,14 +48,14 @@ class MarketplaceWebServiceModelResponseMetadata extends MarketplaceWebServiceMo
         return $this;
     }
     /**
-     * Sets the value of the RequestId and returns this instance
-     * 
-     * @param string $value RequestId
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata instance
+     * Set the value of RequestId, return this.
+     *
+     * @param string $RequestId
+     * @return $this
      */
-    public function withRequestId($value)
+    public function withRequestId($RequestId)
     {
-        $this->setRequestId($value);
+        $this->setRequestId($RequestId);
         return $this;
     }
     /**

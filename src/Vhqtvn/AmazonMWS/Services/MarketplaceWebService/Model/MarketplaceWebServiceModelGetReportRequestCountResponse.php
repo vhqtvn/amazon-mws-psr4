@@ -72,14 +72,14 @@ class MarketplaceWebServiceModelGetReportRequestCountResponse extends Marketplac
         return;
     }
     /**
-     * Sets the value of the GetReportRequestCountResult  and returns this instance
-     * 
-     * @param GetReportRequestCountResult $value GetReportRequestCountResult
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequestCountResponse instance
+     * Set the value of GetReportRequestCountResult, return this.
+     *
+     * @param GetReportRequestCountResult $GetReportRequestCountResult
+     * @return $this
      */
-    public function withGetReportRequestCountResult($value)
+    public function withGetReportRequestCountResult($GetReportRequestCountResult)
     {
-        $this->setGetReportRequestCountResult($value);
+        $this->setGetReportRequestCountResult($GetReportRequestCountResult);
         return $this;
     }
     /**
@@ -112,14 +112,14 @@ class MarketplaceWebServiceModelGetReportRequestCountResponse extends Marketplac
         return;
     }
     /**
-     * Sets the value of the ResponseMetadata  and returns this instance
-     * 
-     * @param ResponseMetadata $value ResponseMetadata
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequestCountResponse instance
+     * Set the value of ResponseMetadata, return this.
+     *
+     * @param ResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**

@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelPartneredSmallParcelDataOutput extends FbaInbound
     /**
      * Set the value of PackageList, return this.
      *
-     * @param packageList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelPackageOutputList $PackageList
+     * @return $this
      */
-    public function withPackageList($value)
+    public function withPackageList($PackageList)
     {
-        $this->setPackageList($value);
+        $this->setPackageList($PackageList);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelPartneredSmallParcelDataOutput extends FbaInbound
     /**
      * Set the value of PartneredEstimate, return this.
      *
-     * @param partneredEstimate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredEstimate $PartneredEstimate
+     * @return $this
      */
-    public function withPartneredEstimate($value)
+    public function withPartneredEstimate($PartneredEstimate)
     {
-        $this->setPartneredEstimate($value);
+        $this->setPartneredEstimate($PartneredEstimate);
         return $this;
     }
 }

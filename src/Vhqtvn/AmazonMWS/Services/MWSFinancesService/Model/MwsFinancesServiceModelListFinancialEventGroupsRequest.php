@@ -51,14 +51,12 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Set the value of MaxResultsPerPage, return this.
      *
-     * @param maxResultsPerPage
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $MaxResultsPerPage
+     * @return $this
      */
-    public function withMaxResultsPerPage($value)
+    public function withMaxResultsPerPage($MaxResultsPerPage)
     {
-        $this->setMaxResultsPerPage($value);
+        $this->setMaxResultsPerPage($MaxResultsPerPage);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Set the value of FinancialEventGroupStartedAfter, return this.
      *
-     * @param financialEventGroupStartedAfter
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FinancialEventGroupStartedAfter
+     * @return $this
      */
-    public function withFinancialEventGroupStartedAfter($value)
+    public function withFinancialEventGroupStartedAfter($FinancialEventGroupStartedAfter)
     {
-        $this->setFinancialEventGroupStartedAfter($value);
+        $this->setFinancialEventGroupStartedAfter($FinancialEventGroupStartedAfter);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Set the value of FinancialEventGroupStartedBefore, return this.
      *
-     * @param financialEventGroupStartedBefore
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FinancialEventGroupStartedBefore
+     * @return $this
      */
-    public function withFinancialEventGroupStartedBefore($value)
+    public function withFinancialEventGroupStartedBefore($FinancialEventGroupStartedBefore)
     {
-        $this->setFinancialEventGroupStartedBefore($value);
+        $this->setFinancialEventGroupStartedBefore($FinancialEventGroupStartedBefore);
         return $this;
     }
 }

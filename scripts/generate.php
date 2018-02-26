@@ -2,6 +2,7 @@
 require(dirname(__FILE__) . '/../vendor/autoload.php');
 error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE & ~E_DEPRECATED);
 
+use PhpParser\NodeDumper;
 use PhpParser\NodeTraverser;
 use PhpParser\Comment;
 use PhpParser\NodeVisitorAbstract;
@@ -186,6 +187,182 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
     $traverser->addVisitor($class_name_transformer);
     $ast = $traverser->traverse($ast);
 
+    if (in_array("Model", $dst_ns)) {
+        $traverser = new NodeTraverser();
+        $traverser->addVisitor(new class($src_path, $lib_name, $base_ns) extends NodeVisitorAbstract
+        {
+            private $in_class;
+            private $current_class;
+            private $src_path;
+            private $lib_name;
+            private $base_ns;
+
+            public function __construct($src_path, $lib_name, $base_ns)
+            {
+                $this->in_class = 0;
+                $this->src_path = $src_path;
+                $this->lib_name = $lib_name;
+                $this->base_ns = $base_ns;
+            }
+
+            public function enterNode(Node $node)
+            {
+                if ($node instanceof Node\Stmt\Class_) {
+                    $this->in_class++;
+                    $this->current_class = $node;
+                } else if ($node instanceof Node\Stmt\ClassMethod) {
+                    if (substr($node->name, 0, 4) === "with") {
+                        $prop = substr($node->name, 4);
+                        //region with... setter methods
+                        if ($match = \Scripts\Matcher\Matcher::match($node, [
+                            Node\Stmt\ClassMethod::class,
+                            'sub' => [
+                                'params' => [
+                                    [Node\Param::class, 'var' => ['name' => 'param_name_1']]
+                                ],
+                                'stmts' => [
+                                    [Node\Expr\MethodCall::class, 'var' => ['name' => 'setter_name'],
+                                        'sub' => [
+                                            'var' => [Node\Expr\Variable::class,
+                                                'sub' => ['name' => 'this'],
+                                            ],
+                                            'args' => [
+                                                [Node\Arg::class,
+                                                    'sub' => [
+                                                        'value' => [Node\Expr\Variable::class, 'var' => ['name' => 'param_name_2']]
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ],
+                                    [Node\Stmt\Return_::class,
+                                        'sub' => [
+                                            'expr' => [Node\Expr\Variable::class,
+                                                'sub' => [
+                                                    'name' => 'this'
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ])) {
+                            $doc = $node->getDocComment();
+                            if (is_null($doc)) return;
+                            $set_doc = null;
+                            foreach ($this->current_class->stmts as $stmt) {
+                                if ($stmt instanceof Node\Stmt\ClassMethod && $stmt->name === "set$prop") {
+                                    $set_doc = $stmt->getDocComment();
+                                }
+                            }
+                            if (!isset($set_doc)) die("set_doc " . $doc->getText());
+                            if (!preg_match('/@param ([^\s]+) ' . preg_quote($prop, '/') . '/i', $set_doc->getText(), $set_doc_match)) {
+                                die('set_doc_2 ' . $set_doc->getText() . ' ' . $prop);
+                            }
+                            $type = $set_doc_match[1];
+                            $node->setDocComment(new PhpParser\Comment\Doc(
+                                "/**\n" .
+                                " * Set the value of $prop, return this.\n" .
+                                " *\n" .
+                                " * @param $type \$$prop\n" .
+                                " * @return \$this\n" .
+                                " */"
+                                ,
+                                $doc->getLine(),
+                                $doc->getFilePos()
+                            ));
+                            $match['param_name_1'] = $prop;
+                            $match['param_name_2'] = $prop;
+                            return;
+                        };
+                        //endregion
+                        //region with... array methods
+                        if ($match = \Scripts\Matcher\Matcher::match($node, [
+                            Node\Stmt\ClassMethod::class, 'var' => ['params'],
+                            'sub' => [
+                                'stmts' => [
+                                    [Node\Stmt\Foreach_::class, 'var' => ['expr'],
+                                        'sub' => [
+                                            'expr' => [Node\Expr\FuncCall::class,
+                                                'sub' => [
+                                                    'name' => [Node\Name::class,
+                                                        'sub' => [
+                                                            'parts' => ['func_get_args']
+                                                        ]
+                                                    ]
+                                                ]
+                                            ],
+                                            'valueVar' => ['type' => Node\Expr\Variable::class,],
+                                            'stmts' => [
+                                                ['type' => Node\Expr\Assign::class]
+                                            ],
+                                        ]
+                                    ],
+                                    [Node\Stmt\Return_::class,
+                                        'sub' => [
+                                            'expr' => [Node\Expr\Variable::class,
+                                                'sub' => [
+                                                    'name' => 'this'
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ])) {
+                            $doc = $node->getDocComment();
+                            exec($cmd = 'php ' . implode(' ', array_map('escapeshellarg', [
+                                    base_path('/scripts/tools/get_field_type.php'),
+                                    $this->src_path,
+                                    $prop
+                                ])), $out, $res);
+                            if ($res) {
+                                var_dump($cmd, $out, $res);
+                                exit;
+                            }
+                            $type = $out[0];
+                            $type_transform = name_transform($type, $this->lib_name, $this->base_ns);
+                            if ($type_transform === $type) {
+                                var_dump($type_transform, $type);
+                                exit;
+                            }
+                            $node->setDocComment(new PhpParser\Comment\Doc(
+                                "/**\n" .
+                                " * Add values for $prop, return this.\n" .
+                                " *\n" .
+                                " * @param \\$type_transform \$${prop}_array,...\n" .
+                                " * @return \$this\n" .
+                                " */"
+                                ,
+                                $doc->getLine(),
+                                $doc->getFilePos()
+                            ));
+                            $match['params'] [] = new Node\Param($prop . '_array', null, null, false, true);
+                            $match['expr'] = new Node\Expr\Variable($prop . '_array');
+                            return;
+                        };
+                        // endregion
+                        $prop = substr($node->name, 4);
+                        var_dump($node->getDocComment());
+                        $dumper = new NodeDumper;
+                        echo $dumper->dump($node) . "\n";
+                        $prettyPrinter = new PrettyPrinter\Standard(['shortArraySyntax' => true]);
+                        echo $prettyPrinter->prettyPrintFile([$node]);
+                        exit;
+                    }
+                }
+            }
+
+            public function leaveNode(Node $node)
+            {
+                if ($node instanceof Node\Stmt\Class_) {
+                    $this->in_class--;
+                }
+            }
+        });
+        $ast = $traverser->traverse($ast);
+    }
+
     array_unshift($ast,
         new Stmt\Namespace_(
             new Node\Name($dst_ns)
@@ -324,7 +501,6 @@ function final_text_transform($code, $lib_name, $dst_ns, $base_ns)
                             $class = $m[1];
                             assert(strpos($class, '_') === false);
                             $old_name = array_slice($this->dst_ns, count($this->base_ns));
-//                            var_dump(base_path('/amazon-srcs/src/' . implode('/', $old_name) . "/$class.php"));exit;
                             if (!file_exists(base_path('/amazon-srcs/src/' . implode('/', $old_name) . "/$class.php"))) {
                                 return $m[0];
                             }

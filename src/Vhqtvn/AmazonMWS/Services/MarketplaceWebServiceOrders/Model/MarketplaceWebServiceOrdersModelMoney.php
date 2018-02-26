@@ -48,14 +48,12 @@ class MarketplaceWebServiceOrdersModelMoney extends MarketplaceWebServiceOrdersM
     /**
      * Set the value of CurrencyCode, return this.
      *
-     * @param currencyCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CurrencyCode
+     * @return $this
      */
-    public function withCurrencyCode($value)
+    public function withCurrencyCode($CurrencyCode)
     {
-        $this->setCurrencyCode($value);
+        $this->setCurrencyCode($CurrencyCode);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceOrdersModelMoney extends MarketplaceWebServiceOrdersM
     /**
      * Set the value of Amount, return this.
      *
-     * @param amount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Amount
+     * @return $this
      */
-    public function withAmount($value)
+    public function withAmount($Amount)
     {
-        $this->setAmount($value);
+        $this->setAmount($Amount);
         return $this;
     }
 }

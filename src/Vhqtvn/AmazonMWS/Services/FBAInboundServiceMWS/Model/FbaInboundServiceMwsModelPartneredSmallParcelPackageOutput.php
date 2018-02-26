@@ -51,14 +51,12 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
     /**
      * Set the value of Dimensions, return this.
      *
-     * @param dimensions
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelDimensions $Dimensions
+     * @return $this
      */
-    public function withDimensions($value)
+    public function withDimensions($Dimensions)
     {
-        $this->setDimensions($value);
+        $this->setDimensions($Dimensions);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
     /**
      * Set the value of Weight, return this.
      *
-     * @param weight
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight $Weight
+     * @return $this
      */
-    public function withWeight($value)
+    public function withWeight($Weight)
     {
-        $this->setWeight($value);
+        $this->setWeight($Weight);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
     /**
      * Set the value of CarrierName, return this.
      *
-     * @param carrierName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CarrierName
+     * @return $this
      */
-    public function withCarrierName($value)
+    public function withCarrierName($CarrierName)
     {
-        $this->setCarrierName($value);
+        $this->setCarrierName($CarrierName);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
     /**
      * Set the value of TrackingId, return this.
      *
-     * @param trackingId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TrackingId
+     * @return $this
      */
-    public function withTrackingId($value)
+    public function withTrackingId($TrackingId)
     {
-        $this->setTrackingId($value);
+        $this->setTrackingId($TrackingId);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
     /**
      * Set the value of PackageStatus, return this.
      *
-     * @param packageStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PackageStatus
+     * @return $this
      */
-    public function withPackageStatus($value)
+    public function withPackageStatus($PackageStatus)
     {
-        $this->setPackageStatus($value);
+        $this->setPackageStatus($PackageStatus);
         return $this;
     }
 }

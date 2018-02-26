@@ -53,14 +53,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Set the value of AmazonShipmentId, return this.
      *
-     * @param amazonShipmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonShipmentId
+     * @return $this
      */
-    public function withAmazonShipmentId($value)
+    public function withAmazonShipmentId($AmazonShipmentId)
     {
-        $this->setAmazonShipmentId($value);
+        $this->setAmazonShipmentId($AmazonShipmentId);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Set the value of FulfillmentCenterId, return this.
      *
-     * @param fulfillmentCenterId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentCenterId
+     * @return $this
      */
-    public function withFulfillmentCenterId($value)
+    public function withFulfillmentCenterId($FulfillmentCenterId)
     {
-        $this->setFulfillmentCenterId($value);
+        $this->setFulfillmentCenterId($FulfillmentCenterId);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Set the value of FulfillmentShipmentStatus, return this.
      *
-     * @param fulfillmentShipmentStatus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentShipmentStatus
+     * @return $this
      */
-    public function withFulfillmentShipmentStatus($value)
+    public function withFulfillmentShipmentStatus($FulfillmentShipmentStatus)
     {
-        $this->setFulfillmentShipmentStatus($value);
+        $this->setFulfillmentShipmentStatus($FulfillmentShipmentStatus);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Set the value of ShippingDateTime, return this.
      *
-     * @param shippingDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShippingDateTime
+     * @return $this
      */
-    public function withShippingDateTime($value)
+    public function withShippingDateTime($ShippingDateTime)
     {
-        $this->setShippingDateTime($value);
+        $this->setShippingDateTime($ShippingDateTime);
         return $this;
     }
     /**
@@ -221,14 +213,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Set the value of EstimatedArrivalDateTime, return this.
      *
-     * @param estimatedArrivalDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EstimatedArrivalDateTime
+     * @return $this
      */
-    public function withEstimatedArrivalDateTime($value)
+    public function withEstimatedArrivalDateTime($EstimatedArrivalDateTime)
     {
-        $this->setEstimatedArrivalDateTime($value);
+        $this->setEstimatedArrivalDateTime($EstimatedArrivalDateTime);
         return $this;
     }
     /**
@@ -263,14 +253,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Set the value of FulfillmentShipmentItem, return this.
      *
-     * @param fulfillmentShipmentItem
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentItemList $FulfillmentShipmentItem
+     * @return $this
      */
-    public function withFulfillmentShipmentItem($value)
+    public function withFulfillmentShipmentItem($FulfillmentShipmentItem)
     {
-        $this->setFulfillmentShipmentItem($value);
+        $this->setFulfillmentShipmentItem($FulfillmentShipmentItem);
         return $this;
     }
     /**
@@ -305,14 +293,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Set the value of FulfillmentShipmentPackage, return this.
      *
-     * @param fulfillmentShipmentPackage
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentPackageList $FulfillmentShipmentPackage
+     * @return $this
      */
-    public function withFulfillmentShipmentPackage($value)
+    public function withFulfillmentShipmentPackage($FulfillmentShipmentPackage)
     {
-        $this->setFulfillmentShipmentPackage($value);
+        $this->setFulfillmentShipmentPackage($FulfillmentShipmentPackage);
         return $this;
     }
 }

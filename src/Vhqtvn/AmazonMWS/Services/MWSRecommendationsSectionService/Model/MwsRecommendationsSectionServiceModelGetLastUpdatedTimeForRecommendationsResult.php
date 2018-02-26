@@ -52,14 +52,12 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Set the value of InventoryRecommendationsLastUpdated, return this.
      *
-     * @param inventoryRecommendationsLastUpdated
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $InventoryRecommendationsLastUpdated
+     * @return $this
      */
-    public function withInventoryRecommendationsLastUpdated($value)
+    public function withInventoryRecommendationsLastUpdated($InventoryRecommendationsLastUpdated)
     {
-        $this->setInventoryRecommendationsLastUpdated($value);
+        $this->setInventoryRecommendationsLastUpdated($InventoryRecommendationsLastUpdated);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Set the value of SelectionRecommendationsLastUpdated, return this.
      *
-     * @param selectionRecommendationsLastUpdated
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SelectionRecommendationsLastUpdated
+     * @return $this
      */
-    public function withSelectionRecommendationsLastUpdated($value)
+    public function withSelectionRecommendationsLastUpdated($SelectionRecommendationsLastUpdated)
     {
-        $this->setSelectionRecommendationsLastUpdated($value);
+        $this->setSelectionRecommendationsLastUpdated($SelectionRecommendationsLastUpdated);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Set the value of FulfillmentRecommendationsLastUpdated, return this.
      *
-     * @param fulfillmentRecommendationsLastUpdated
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentRecommendationsLastUpdated
+     * @return $this
      */
-    public function withFulfillmentRecommendationsLastUpdated($value)
+    public function withFulfillmentRecommendationsLastUpdated($FulfillmentRecommendationsLastUpdated)
     {
-        $this->setFulfillmentRecommendationsLastUpdated($value);
+        $this->setFulfillmentRecommendationsLastUpdated($FulfillmentRecommendationsLastUpdated);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Set the value of PricingRecommendationsLastUpdated, return this.
      *
-     * @param pricingRecommendationsLastUpdated
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PricingRecommendationsLastUpdated
+     * @return $this
      */
-    public function withPricingRecommendationsLastUpdated($value)
+    public function withPricingRecommendationsLastUpdated($PricingRecommendationsLastUpdated)
     {
-        $this->setPricingRecommendationsLastUpdated($value);
+        $this->setPricingRecommendationsLastUpdated($PricingRecommendationsLastUpdated);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Set the value of GlobalSellingRecommendationsLastUpdated, return this.
      *
-     * @param globalSellingRecommendationsLastUpdated
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $GlobalSellingRecommendationsLastUpdated
+     * @return $this
      */
-    public function withGlobalSellingRecommendationsLastUpdated($value)
+    public function withGlobalSellingRecommendationsLastUpdated($GlobalSellingRecommendationsLastUpdated)
     {
-        $this->setGlobalSellingRecommendationsLastUpdated($value);
+        $this->setGlobalSellingRecommendationsLastUpdated($GlobalSellingRecommendationsLastUpdated);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Set the value of AdvertisingRecommendationsLastUpdated, return this.
      *
-     * @param advertisingRecommendationsLastUpdated
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AdvertisingRecommendationsLastUpdated
+     * @return $this
      */
-    public function withAdvertisingRecommendationsLastUpdated($value)
+    public function withAdvertisingRecommendationsLastUpdated($AdvertisingRecommendationsLastUpdated)
     {
-        $this->setAdvertisingRecommendationsLastUpdated($value);
+        $this->setAdvertisingRecommendationsLastUpdated($AdvertisingRecommendationsLastUpdated);
         return $this;
     }
 }

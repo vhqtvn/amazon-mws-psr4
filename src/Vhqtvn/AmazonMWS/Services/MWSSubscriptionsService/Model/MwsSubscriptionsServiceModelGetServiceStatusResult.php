@@ -48,14 +48,12 @@ class MwsSubscriptionsServiceModelGetServiceStatusResult extends MwsSubscription
     /**
      * Set the value of Status, return this.
      *
-     * @param status
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Status
+     * @return $this
      */
-    public function withStatus($value)
+    public function withStatus($Status)
     {
-        $this->setStatus($value);
+        $this->setStatus($Status);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsSubscriptionsServiceModelGetServiceStatusResult extends MwsSubscription
     /**
      * Set the value of Timestamp, return this.
      *
-     * @param timestamp
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Timestamp
+     * @return $this
      */
-    public function withTimestamp($value)
+    public function withTimestamp($Timestamp)
     {
-        $this->setTimestamp($value);
+        $this->setTimestamp($Timestamp);
         return $this;
     }
 }

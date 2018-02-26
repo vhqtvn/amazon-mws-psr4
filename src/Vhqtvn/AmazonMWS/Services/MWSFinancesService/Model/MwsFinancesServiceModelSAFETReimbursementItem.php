@@ -62,14 +62,12 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
     /**
      * Add values for itemChargeList, return this.
      *
-     * @param itemChargeList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $itemChargeList_array,...
+     * @return $this
      */
-    public function withitemChargeList()
+    public function withitemChargeList(...$itemChargeList_array)
     {
-        foreach (func_get_args() as $itemChargeList) {
+        foreach ($itemChargeList_array as $itemChargeList) {
             $this->_fields['itemChargeList']['FieldValue'][] = $itemChargeList;
         }
         return $this;
@@ -106,14 +104,12 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
     /**
      * Set the value of productDescription, return this.
      *
-     * @param productDescription
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $productDescription
+     * @return $this
      */
-    public function withproductDescription($value)
+    public function withproductDescription($productDescription)
     {
-        $this->setproductDescription($value);
+        $this->setproductDescription($productDescription);
         return $this;
     }
     /**
@@ -148,14 +144,12 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
     /**
      * Set the value of quantity, return this.
      *
-     * @param quantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $quantity
+     * @return $this
      */
-    public function withquantity($value)
+    public function withquantity($quantity)
     {
-        $this->setquantity($value);
+        $this->setquantity($quantity);
         return $this;
     }
 }

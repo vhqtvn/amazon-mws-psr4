@@ -50,14 +50,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
     /**
      * Set the value of PackageNumber, return this.
      *
-     * @param packageNumber
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $PackageNumber
+     * @return $this
      */
-    public function withPackageNumber($value)
+    public function withPackageNumber($PackageNumber)
     {
-        $this->setPackageNumber($value);
+        $this->setPackageNumber($PackageNumber);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
     /**
      * Set the value of CarrierCode, return this.
      *
-     * @param carrierCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CarrierCode
+     * @return $this
      */
-    public function withCarrierCode($value)
+    public function withCarrierCode($CarrierCode)
     {
-        $this->setCarrierCode($value);
+        $this->setCarrierCode($CarrierCode);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
     /**
      * Set the value of TrackingNumber, return this.
      *
-     * @param trackingNumber
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TrackingNumber
+     * @return $this
      */
-    public function withTrackingNumber($value)
+    public function withTrackingNumber($TrackingNumber)
     {
-        $this->setTrackingNumber($value);
+        $this->setTrackingNumber($TrackingNumber);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
     /**
      * Set the value of EstimatedArrivalDateTime, return this.
      *
-     * @param estimatedArrivalDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EstimatedArrivalDateTime
+     * @return $this
      */
-    public function withEstimatedArrivalDateTime($value)
+    public function withEstimatedArrivalDateTime($EstimatedArrivalDateTime)
     {
-        $this->setEstimatedArrivalDateTime($value);
+        $this->setEstimatedArrivalDateTime($EstimatedArrivalDateTime);
         return $this;
     }
 }

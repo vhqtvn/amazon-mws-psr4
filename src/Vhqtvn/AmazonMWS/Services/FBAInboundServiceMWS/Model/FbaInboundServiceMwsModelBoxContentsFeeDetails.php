@@ -49,14 +49,12 @@ class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMw
     /**
      * Set the value of TotalUnits, return this.
      *
-     * @param totalUnits
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $TotalUnits
+     * @return $this
      */
-    public function withTotalUnits($value)
+    public function withTotalUnits($TotalUnits)
     {
-        $this->setTotalUnits($value);
+        $this->setTotalUnits($TotalUnits);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMw
     /**
      * Set the value of FeePerUnit, return this.
      *
-     * @param feePerUnit
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount $FeePerUnit
+     * @return $this
      */
-    public function withFeePerUnit($value)
+    public function withFeePerUnit($FeePerUnit)
     {
-        $this->setFeePerUnit($value);
+        $this->setFeePerUnit($FeePerUnit);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMw
     /**
      * Set the value of TotalFee, return this.
      *
-     * @param totalFee
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount $TotalFee
+     * @return $this
      */
-    public function withTotalFee($value)
+    public function withTotalFee($TotalFee)
     {
-        $this->setTotalFee($value);
+        $this->setTotalFee($TotalFee);
         return $this;
     }
 }

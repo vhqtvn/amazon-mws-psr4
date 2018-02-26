@@ -51,14 +51,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Set the value of RecommendationCategory, return this.
      *
-     * @param recommendationCategory
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationCategory
+     * @return $this
      */
-    public function withRecommendationCategory($value)
+    public function withRecommendationCategory($RecommendationCategory)
     {
-        $this->setRecommendationCategory($value);
+        $this->setRecommendationCategory($RecommendationCategory);
         return $this;
     }
     /**
@@ -232,14 +224,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Add values for CategoryQueryList, return this.
      *
-     * @param categoryQueryList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelCategoryQuery $CategoryQueryList_array,...
+     * @return $this
      */
-    public function withCategoryQueryList()
+    public function withCategoryQueryList(...$CategoryQueryList_array)
     {
-        foreach (func_get_args() as $CategoryQueryList) {
+        foreach ($CategoryQueryList_array as $CategoryQueryList) {
             $this->_fields['CategoryQueryList']['FieldValue'][] = $CategoryQueryList;
         }
         return $this;

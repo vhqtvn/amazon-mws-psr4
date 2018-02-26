@@ -48,14 +48,12 @@ class MarketplaceWebServiceProductsModelSalesRankType extends MarketplaceWebServ
     /**
      * Set the value of ProductCategoryId, return this.
      *
-     * @param productCategoryId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ProductCategoryId
+     * @return $this
      */
-    public function withProductCategoryId($value)
+    public function withProductCategoryId($ProductCategoryId)
     {
-        $this->setProductCategoryId($value);
+        $this->setProductCategoryId($ProductCategoryId);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceProductsModelSalesRankType extends MarketplaceWebServ
     /**
      * Set the value of Rank, return this.
      *
-     * @param rank
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $Rank
+     * @return $this
      */
-    public function withRank($value)
+    public function withRank($Rank)
     {
-        $this->setRank($value);
+        $this->setRank($Rank);
         return $this;
     }
 }

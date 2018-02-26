@@ -52,14 +52,12 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
     /**
      * Set the value of PostedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedDate
+     * @return $this
      */
-    public function withPostedDate($value)
+    public function withPostedDate($PostedDate)
     {
-        $this->setPostedDate($value);
+        $this->setPostedDate($PostedDate);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
     /**
      * Set the value of EnrollmentId, return this.
      *
-     * @param enrollmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EnrollmentId
+     * @return $this
      */
-    public function withEnrollmentId($value)
+    public function withEnrollmentId($EnrollmentId)
     {
-        $this->setEnrollmentId($value);
+        $this->setEnrollmentId($EnrollmentId);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
     /**
      * Set the value of ParentASIN, return this.
      *
-     * @param parentASIN
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ParentASIN
+     * @return $this
      */
-    public function withParentASIN($value)
+    public function withParentASIN($ParentASIN)
     {
-        $this->setParentASIN($value);
+        $this->setParentASIN($ParentASIN);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
     /**
      * Set the value of FeeComponent, return this.
      *
-     * @param feeComponent
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $FeeComponent
+     * @return $this
      */
-    public function withFeeComponent($value)
+    public function withFeeComponent($FeeComponent)
     {
-        $this->setFeeComponent($value);
+        $this->setFeeComponent($FeeComponent);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
     /**
      * Set the value of ChargeComponent, return this.
      *
-     * @param chargeComponent
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $ChargeComponent
+     * @return $this
      */
-    public function withChargeComponent($value)
+    public function withChargeComponent($ChargeComponent)
     {
-        $this->setChargeComponent($value);
+        $this->setChargeComponent($ChargeComponent);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
     /**
      * Set the value of TotalAmount, return this.
      *
-     * @param totalAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $TotalAmount
+     * @return $this
      */
-    public function withTotalAmount($value)
+    public function withTotalAmount($TotalAmount)
     {
-        $this->setTotalAmount($value);
+        $this->setTotalAmount($TotalAmount);
         return $this;
     }
 }

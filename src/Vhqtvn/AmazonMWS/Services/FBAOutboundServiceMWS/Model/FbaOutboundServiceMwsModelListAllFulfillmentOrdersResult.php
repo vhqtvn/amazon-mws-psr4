@@ -48,14 +48,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersResult extends FbaOutbou
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersResult extends FbaOutbou
     /**
      * Set the value of FulfillmentOrders, return this.
      *
-     * @param fulfillmentOrders
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrderList $FulfillmentOrders
+     * @return $this
      */
-    public function withFulfillmentOrders($value)
+    public function withFulfillmentOrders($FulfillmentOrders)
     {
-        $this->setFulfillmentOrders($value);
+        $this->setFulfillmentOrders($FulfillmentOrders);
         return $this;
     }
 }

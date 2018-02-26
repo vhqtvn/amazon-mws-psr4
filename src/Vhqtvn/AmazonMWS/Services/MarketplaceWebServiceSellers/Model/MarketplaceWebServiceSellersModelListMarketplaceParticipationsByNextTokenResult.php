@@ -49,14 +49,12 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsByNextTokenR
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsByNextTokenR
     /**
      * Set the value of ListParticipations, return this.
      *
-     * @param listParticipations
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListParticipations $ListParticipations
+     * @return $this
      */
-    public function withListParticipations($value)
+    public function withListParticipations($ListParticipations)
     {
-        $this->setListParticipations($value);
+        $this->setListParticipations($ListParticipations);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsByNextTokenR
     /**
      * Set the value of ListMarketplaces, return this.
      *
-     * @param listMarketplaces
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListMarketplaces $ListMarketplaces
+     * @return $this
      */
-    public function withListMarketplaces($value)
+    public function withListMarketplaces($ListMarketplaces)
     {
-        $this->setListMarketplaces($value);
+        $this->setListMarketplaces($ListMarketplaces);
         return $this;
     }
 }

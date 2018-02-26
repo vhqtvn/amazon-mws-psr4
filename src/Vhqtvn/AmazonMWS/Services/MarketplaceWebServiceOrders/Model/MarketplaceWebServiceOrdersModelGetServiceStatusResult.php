@@ -50,14 +50,12 @@ class MarketplaceWebServiceOrdersModelGetServiceStatusResult extends Marketplace
     /**
      * Set the value of Status, return this.
      *
-     * @param status
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Status
+     * @return $this
      */
-    public function withStatus($value)
+    public function withStatus($Status)
     {
-        $this->setStatus($value);
+        $this->setStatus($Status);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MarketplaceWebServiceOrdersModelGetServiceStatusResult extends Marketplace
     /**
      * Set the value of Timestamp, return this.
      *
-     * @param timestamp
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Timestamp
+     * @return $this
      */
-    public function withTimestamp($value)
+    public function withTimestamp($Timestamp)
     {
-        $this->setTimestamp($value);
+        $this->setTimestamp($Timestamp);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MarketplaceWebServiceOrdersModelGetServiceStatusResult extends Marketplace
     /**
      * Set the value of MessageId, return this.
      *
-     * @param messageId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MessageId
+     * @return $this
      */
-    public function withMessageId($value)
+    public function withMessageId($MessageId)
     {
-        $this->setMessageId($value);
+        $this->setMessageId($MessageId);
         return $this;
     }
     /**
@@ -189,14 +183,12 @@ class MarketplaceWebServiceOrdersModelGetServiceStatusResult extends Marketplace
     /**
      * Add values for Messages, return this.
      *
-     * @param messages
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMessage $Messages_array,...
+     * @return $this
      */
-    public function withMessages()
+    public function withMessages(...$Messages_array)
     {
-        foreach (func_get_args() as $Messages) {
+        foreach ($Messages_array as $Messages) {
             $this->_fields['Messages']['FieldValue'][] = $Messages;
         }
         return $this;

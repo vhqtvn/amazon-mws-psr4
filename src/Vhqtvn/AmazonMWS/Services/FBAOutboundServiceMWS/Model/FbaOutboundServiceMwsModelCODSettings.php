@@ -60,14 +60,12 @@ class FbaOutboundServiceMwsModelCODSettings extends FbaOutboundServiceMwsModel
     /**
      * Set the value of IsCODRequired, return this.
      *
-     * @param isCODRequired
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsCODRequired
+     * @return $this
      */
-    public function withIsCODRequired($value)
+    public function withIsCODRequired($IsCODRequired)
     {
-        $this->setIsCODRequired($value);
+        $this->setIsCODRequired($IsCODRequired);
         return $this;
     }
     /**
@@ -102,14 +100,12 @@ class FbaOutboundServiceMwsModelCODSettings extends FbaOutboundServiceMwsModel
     /**
      * Set the value of CODCharge, return this.
      *
-     * @param codCharge
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency $CODCharge
+     * @return $this
      */
-    public function withCODCharge($value)
+    public function withCODCharge($CODCharge)
     {
-        $this->setCODCharge($value);
+        $this->setCODCharge($CODCharge);
         return $this;
     }
     /**
@@ -144,14 +140,12 @@ class FbaOutboundServiceMwsModelCODSettings extends FbaOutboundServiceMwsModel
     /**
      * Set the value of CODChargeTax, return this.
      *
-     * @param codChargeTax
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency $CODChargeTax
+     * @return $this
      */
-    public function withCODChargeTax($value)
+    public function withCODChargeTax($CODChargeTax)
     {
-        $this->setCODChargeTax($value);
+        $this->setCODChargeTax($CODChargeTax);
         return $this;
     }
     /**
@@ -186,14 +180,12 @@ class FbaOutboundServiceMwsModelCODSettings extends FbaOutboundServiceMwsModel
     /**
      * Set the value of ShippingCharge, return this.
      *
-     * @param shippingCharge
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency $ShippingCharge
+     * @return $this
      */
-    public function withShippingCharge($value)
+    public function withShippingCharge($ShippingCharge)
     {
-        $this->setShippingCharge($value);
+        $this->setShippingCharge($ShippingCharge);
         return $this;
     }
     /**
@@ -228,14 +220,12 @@ class FbaOutboundServiceMwsModelCODSettings extends FbaOutboundServiceMwsModel
     /**
      * Set the value of ShippingChargeTax, return this.
      *
-     * @param shippingChargeTax
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency $ShippingChargeTax
+     * @return $this
      */
-    public function withShippingChargeTax($value)
+    public function withShippingChargeTax($ShippingChargeTax)
     {
-        $this->setShippingChargeTax($value);
+        $this->setShippingChargeTax($ShippingChargeTax);
         return $this;
     }
 }

@@ -52,14 +52,14 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
         return $this;
     }
     /**
-     * Sets the value of the ReportType and returns this instance
-     * 
-     * @param string $value ReportType
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule instance
+     * Set the value of ReportType, return this.
+     *
+     * @param string $ReportType
+     * @return $this
      */
-    public function withReportType($value)
+    public function withReportType($ReportType)
     {
-        $this->setReportType($value);
+        $this->setReportType($ReportType);
         return $this;
     }
     /**
@@ -92,14 +92,14 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
         return $this;
     }
     /**
-     * Sets the value of the Schedule and returns this instance
-     * 
-     * @param string $value Schedule
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule instance
+     * Set the value of Schedule, return this.
+     *
+     * @param string $Schedule
+     * @return $this
      */
-    public function withSchedule($value)
+    public function withSchedule($Schedule)
     {
-        $this->setSchedule($value);
+        $this->setSchedule($Schedule);
         return $this;
     }
     /**
@@ -132,14 +132,14 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
         return $this;
     }
     /**
-     * Sets the value of the ScheduledDate and returns this instance
-     * 
-     * @param string $value ScheduledDate
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule instance
+     * Set the value of ScheduledDate, return this.
+     *
+     * @param string $ScheduledDate
+     * @return $this
      */
-    public function withScheduledDate($value)
+    public function withScheduledDate($ScheduledDate)
     {
-        $this->setScheduledDate($value);
+        $this->setScheduledDate($ScheduledDate);
         return $this;
     }
     /**

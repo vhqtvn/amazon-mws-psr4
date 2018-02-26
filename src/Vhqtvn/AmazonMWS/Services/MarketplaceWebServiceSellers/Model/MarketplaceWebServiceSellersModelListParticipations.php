@@ -60,14 +60,12 @@ class MarketplaceWebServiceSellersModelListParticipations extends MarketplaceWeb
     /**
      * Add values for Participation, return this.
      *
-     * @param participation
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelParticipation $Participation_array,...
+     * @return $this
      */
-    public function withParticipation()
+    public function withParticipation(...$Participation_array)
     {
-        foreach (func_get_args() as $Participation) {
+        foreach ($Participation_array as $Participation) {
             $this->_fields['Participation']['FieldValue'][] = $Participation;
         }
         return $this;

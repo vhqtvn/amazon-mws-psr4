@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelInvalidSKU extends FbaInboundServiceMwsModel
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelInvalidSKU extends FbaInboundServiceMwsModel
     /**
      * Set the value of ErrorReason, return this.
      *
-     * @param errorReason
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ErrorReason
+     * @return $this
      */
-    public function withErrorReason($value)
+    public function withErrorReason($ErrorReason)
     {
-        $this->setErrorReason($value);
+        $this->setErrorReason($ErrorReason);
         return $this;
     }
 }

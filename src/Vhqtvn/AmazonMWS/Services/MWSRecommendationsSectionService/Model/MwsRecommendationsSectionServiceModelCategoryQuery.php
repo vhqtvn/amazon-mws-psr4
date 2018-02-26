@@ -48,14 +48,12 @@ class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendati
     /**
      * Set the value of RecommendationCategory, return this.
      *
-     * @param recommendationCategory
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationCategory
+     * @return $this
      */
-    public function withRecommendationCategory($value)
+    public function withRecommendationCategory($RecommendationCategory)
     {
-        $this->setRecommendationCategory($value);
+        $this->setRecommendationCategory($RecommendationCategory);
         return $this;
     }
     /**
@@ -103,14 +101,12 @@ class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendati
     /**
      * Add values for FilterOptions, return this.
      *
-     * @param filterOptions
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $FilterOptions_array,...
+     * @return $this
      */
-    public function withFilterOptions()
+    public function withFilterOptions(...$FilterOptions_array)
     {
-        foreach (func_get_args() as $FilterOptions) {
+        foreach ($FilterOptions_array as $FilterOptions) {
             $this->_fields['FilterOptions']['FieldValue'][] = $FilterOptions;
         }
         return $this;

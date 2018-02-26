@@ -47,14 +47,12 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewResult extends FbaOutboundS
     /**
      * Set the value of FulfillmentPreviews, return this.
      *
-     * @param fulfillmentPreviews
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewList $FulfillmentPreviews
+     * @return $this
      */
-    public function withFulfillmentPreviews($value)
+    public function withFulfillmentPreviews($FulfillmentPreviews)
     {
-        $this->setFulfillmentPreviews($value);
+        $this->setFulfillmentPreviews($FulfillmentPreviews);
         return $this;
     }
 }

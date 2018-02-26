@@ -59,14 +59,12 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
     /**
      * Set the value of ShipmentContainsPreorderableItems, return this.
      *
-     * @param shipmentContainsPreorderableItems
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $ShipmentContainsPreorderableItems
+     * @return $this
      */
-    public function withShipmentContainsPreorderableItems($value)
+    public function withShipmentContainsPreorderableItems($ShipmentContainsPreorderableItems)
     {
-        $this->setShipmentContainsPreorderableItems($value);
+        $this->setShipmentContainsPreorderableItems($ShipmentContainsPreorderableItems);
         return $this;
     }
     /**
@@ -110,14 +108,12 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
     /**
      * Set the value of ShipmentConfirmedForPreorder, return this.
      *
-     * @param shipmentConfirmedForPreorder
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $ShipmentConfirmedForPreorder
+     * @return $this
      */
-    public function withShipmentConfirmedForPreorder($value)
+    public function withShipmentConfirmedForPreorder($ShipmentConfirmedForPreorder)
     {
-        $this->setShipmentConfirmedForPreorder($value);
+        $this->setShipmentConfirmedForPreorder($ShipmentConfirmedForPreorder);
         return $this;
     }
     /**
@@ -152,14 +148,12 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
     /**
      * Set the value of NeedByDate, return this.
      *
-     * @param needByDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NeedByDate
+     * @return $this
      */
-    public function withNeedByDate($value)
+    public function withNeedByDate($NeedByDate)
     {
-        $this->setNeedByDate($value);
+        $this->setNeedByDate($NeedByDate);
         return $this;
     }
     /**
@@ -194,14 +188,12 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
     /**
      * Set the value of ConfirmedFulfillableDate, return this.
      *
-     * @param confirmedFulfillableDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ConfirmedFulfillableDate
+     * @return $this
      */
-    public function withConfirmedFulfillableDate($value)
+    public function withConfirmedFulfillableDate($ConfirmedFulfillableDate)
     {
-        $this->setConfirmedFulfillableDate($value);
+        $this->setConfirmedFulfillableDate($ConfirmedFulfillableDate);
         return $this;
     }
 }

@@ -49,14 +49,12 @@ class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServi
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServi
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServi
     /**
      * Set the value of HasSellerSuspendedListings, return this.
      *
-     * @param hasSellerSuspendedListings
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $HasSellerSuspendedListings
+     * @return $this
      */
-    public function withHasSellerSuspendedListings($value)
+    public function withHasSellerSuspendedListings($HasSellerSuspendedListings)
     {
-        $this->setHasSellerSuspendedListings($value);
+        $this->setHasSellerSuspendedListings($HasSellerSuspendedListings);
         return $this;
     }
 }

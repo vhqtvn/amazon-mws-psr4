@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelOffersList extends MarketplaceWebService
     /**
      * Add values for Offer, return this.
      *
-     * @param offer
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelOfferType $Offer_array,...
+     * @return $this
      */
-    public function withOffer()
+    public function withOffer(...$Offer_array)
     {
-        foreach (func_get_args() as $Offer) {
+        foreach ($Offer_array as $Offer) {
             $this->_fields['Offer']['FieldValue'][] = $Offer;
         }
         return $this;

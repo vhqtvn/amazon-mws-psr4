@@ -50,14 +50,12 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
     /**
      * Set the value of Quantity, return this.
      *
-     * @param quantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $Quantity
+     * @return $this
      */
-    public function withQuantity($value)
+    public function withQuantity($Quantity)
     {
-        $this->setQuantity($value);
+        $this->setQuantity($Quantity);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
     /**
      * Set the value of SupplyType, return this.
      *
-     * @param supplyType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SupplyType
+     * @return $this
      */
-    public function withSupplyType($value)
+    public function withSupplyType($SupplyType)
     {
-        $this->setSupplyType($value);
+        $this->setSupplyType($SupplyType);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
     /**
      * Set the value of EarliestAvailableToPick, return this.
      *
-     * @param earliestAvailableToPick
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint $EarliestAvailableToPick
+     * @return $this
      */
-    public function withEarliestAvailableToPick($value)
+    public function withEarliestAvailableToPick($EarliestAvailableToPick)
     {
-        $this->setEarliestAvailableToPick($value);
+        $this->setEarliestAvailableToPick($EarliestAvailableToPick);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
     /**
      * Set the value of LatestAvailableToPick, return this.
      *
-     * @param latestAvailableToPick
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint $LatestAvailableToPick
+     * @return $this
      */
-    public function withLatestAvailableToPick($value)
+    public function withLatestAvailableToPick($LatestAvailableToPick)
     {
-        $this->setLatestAvailableToPick($value);
+        $this->setLatestAvailableToPick($LatestAvailableToPick);
         return $this;
     }
 }

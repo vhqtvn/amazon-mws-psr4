@@ -51,14 +51,12 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
     /**
      * Set the value of Qualifiers, return this.
      *
-     * @param qualifiers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelQualifiersType $Qualifiers
+     * @return $this
      */
-    public function withQualifiers($value)
+    public function withQualifiers($Qualifiers)
     {
-        $this->setQualifiers($value);
+        $this->setQualifiers($Qualifiers);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
     /**
      * Set the value of NumberOfOfferListingsConsidered, return this.
      *
-     * @param numberOfOfferListingsConsidered
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $NumberOfOfferListingsConsidered
+     * @return $this
      */
-    public function withNumberOfOfferListingsConsidered($value)
+    public function withNumberOfOfferListingsConsidered($NumberOfOfferListingsConsidered)
     {
-        $this->setNumberOfOfferListingsConsidered($value);
+        $this->setNumberOfOfferListingsConsidered($NumberOfOfferListingsConsidered);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
     /**
      * Set the value of SellerFeedbackCount, return this.
      *
-     * @param sellerFeedbackCount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $SellerFeedbackCount
+     * @return $this
      */
-    public function withSellerFeedbackCount($value)
+    public function withSellerFeedbackCount($SellerFeedbackCount)
     {
-        $this->setSellerFeedbackCount($value);
+        $this->setSellerFeedbackCount($SellerFeedbackCount);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
     /**
      * Set the value of Price, return this.
      *
-     * @param price
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType $Price
+     * @return $this
      */
-    public function withPrice($value)
+    public function withPrice($Price)
     {
-        $this->setPrice($value);
+        $this->setPrice($Price);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
     /**
      * Set the value of MultipleOffersAtLowestPrice, return this.
      *
-     * @param multipleOffersAtLowestPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MultipleOffersAtLowestPrice
+     * @return $this
      */
-    public function withMultipleOffersAtLowestPrice($value)
+    public function withMultipleOffersAtLowestPrice($MultipleOffersAtLowestPrice)
     {
-        $this->setMultipleOffersAtLowestPrice($value);
+        $this->setMultipleOffersAtLowestPrice($MultipleOffersAtLowestPrice);
         return $this;
     }
 }

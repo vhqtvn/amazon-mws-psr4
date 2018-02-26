@@ -53,14 +53,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Set the value of Marketplace, return this.
      *
-     * @param marketplace
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Marketplace
+     * @return $this
      */
-    public function withMarketplace($value)
+    public function withMarketplace($Marketplace)
     {
-        $this->setMarketplace($value);
+        $this->setMarketplace($Marketplace);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -221,14 +213,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Set the value of SellerSkus, return this.
      *
-     * @param sellerSkus
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelSellerSkuList $SellerSkus
+     * @return $this
      */
-    public function withSellerSkus($value)
+    public function withSellerSkus($SellerSkus)
     {
-        $this->setSellerSkus($value);
+        $this->setSellerSkus($SellerSkus);
         return $this;
     }
     /**
@@ -263,14 +253,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Set the value of QueryStartDateTime, return this.
      *
-     * @param queryStartDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $QueryStartDateTime
+     * @return $this
      */
-    public function withQueryStartDateTime($value)
+    public function withQueryStartDateTime($QueryStartDateTime)
     {
-        $this->setQueryStartDateTime($value);
+        $this->setQueryStartDateTime($QueryStartDateTime);
         return $this;
     }
     /**
@@ -305,14 +293,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Set the value of ResponseGroup, return this.
      *
-     * @param responseGroup
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ResponseGroup
+     * @return $this
      */
-    public function withResponseGroup($value)
+    public function withResponseGroup($ResponseGroup)
     {
-        $this->setResponseGroup($value);
+        $this->setResponseGroup($ResponseGroup);
         return $this;
     }
 }

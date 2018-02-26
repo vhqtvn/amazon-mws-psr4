@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelSalesRankList extends MarketplaceWebServ
     /**
      * Add values for SalesRank, return this.
      *
-     * @param salesRank
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSalesRankType $SalesRank_array,...
+     * @return $this
      */
-    public function withSalesRank()
+    public function withSalesRank(...$SalesRank_array)
     {
-        foreach (func_get_args() as $SalesRank) {
+        foreach ($SalesRank_array as $SalesRank) {
             $this->_fields['SalesRank']['FieldValue'][] = $SalesRank;
         }
         return $this;

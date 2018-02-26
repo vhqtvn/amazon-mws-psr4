@@ -52,14 +52,14 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
         return $this;
     }
     /**
-     * Sets the value of the Marketplace and returns this instance
-     * 
-     * @param string $value Marketplace
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequest instance
+     * Set the value of Marketplace, return this.
+     *
+     * @param string $Marketplace
+     * @return $this
      */
-    public function withMarketplace($value)
+    public function withMarketplace($Marketplace)
     {
-        $this->setMarketplace($value);
+        $this->setMarketplace($Marketplace);
         return $this;
     }
     /**
@@ -92,14 +92,14 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
         return $this;
     }
     /**
-     * Sets the value of the Merchant and returns this instance
-     * 
-     * @param string $value Merchant
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequest instance
+     * Set the value of Merchant, return this.
+     *
+     * @param string $Merchant
+     * @return $this
      */
-    public function withMerchant($value)
+    public function withMerchant($Merchant)
     {
-        $this->setMerchant($value);
+        $this->setMerchant($Merchant);
         return $this;
     }
     /**
@@ -132,14 +132,14 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
         return $this;
     }
     /**
-     * Sets the value of the MWSAuthToken and returns this instance
+     * Set the value of MWSAuthToken, return this.
      *
-     * @param string $value MWSAuthToken
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequest instance
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -172,14 +172,14 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
         return $this;
     }
     /**
-     * Sets the value of the ReportId and returns this instance
-     * 
-     * @param string $value ReportId
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequest instance
+     * Set the value of ReportId, return this.
+     *
+     * @param string $ReportId
+     * @return $this
      */
-    public function withReportId($value)
+    public function withReportId($ReportId)
     {
-        $this->setReportId($value);
+        $this->setReportId($ReportId);
         return $this;
     }
     /**
@@ -213,14 +213,14 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
         return $this;
     }
     /**
-     * Sets the value of the Report and returns this instance
-     * 
-     * @param string $value Report
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequest instance
+     * Set the value of Report, return this.
+     *
+     * @param string $Report
+     * @return $this
      */
-    public function withReport($value)
+    public function withReport($Report)
     {
-        $this->setReport($value);
+        $this->setReport($Report);
         return $this;
     }
     /**

@@ -50,14 +50,14 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
         return $this;
     }
     /**
-     * Sets the value of the Count and returns this instance
-     * 
-     * @param int $value Count
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsResult instance
+     * Set the value of Count, return this.
+     *
+     * @param int $Count
+     * @return $this
      */
-    public function withCount($value)
+    public function withCount($Count)
     {
-        $this->setCount($value);
+        $this->setCount($Count);
         return $this;
     }
     /**
@@ -93,16 +93,14 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
         return $this;
     }
     /**
-     * Sets single or multiple values of ReportInfo list via variable number of arguments. 
-     * For example, to set the list with two elements, simply pass two values as arguments to this function
-     * <code>withReportInfo($reportInfo1, $reportInfo2)</code>
-     * 
-     * @param ReportInfo  $reportInfoArgs one or more ReportInfo
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsResult  instance
+     * Add values for ReportInfo, return this.
+     *
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo $ReportInfo_array,...
+     * @return $this
      */
-    public function withReportInfo($reportInfoArgs)
+    public function withReportInfo($reportInfoArgs, ...$ReportInfo_array)
     {
-        foreach (func_get_args() as $reportInfo) {
+        foreach ($ReportInfo_array as $reportInfo) {
             $this->fields['ReportInfo']['FieldValue'][] = $reportInfo;
         }
         return $this;

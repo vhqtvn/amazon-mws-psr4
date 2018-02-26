@@ -51,14 +51,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
     /**
      * Set the value of Quantity, return this.
      *
-     * @param quantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $Quantity
+     * @return $this
      */
-    public function withQuantity($value)
+    public function withQuantity($Quantity)
     {
-        $this->setQuantity($value);
+        $this->setQuantity($Quantity);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
     /**
      * Set the value of SellerFulfillmentOrderItemId, return this.
      *
-     * @param sellerFulfillmentOrderItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerFulfillmentOrderItemId
+     * @return $this
      */
-    public function withSellerFulfillmentOrderItemId($value)
+    public function withSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId)
     {
-        $this->setSellerFulfillmentOrderItemId($value);
+        $this->setSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
     /**
      * Set the value of EstimatedShippingWeight, return this.
      *
-     * @param estimatedShippingWeight
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelWeight $EstimatedShippingWeight
+     * @return $this
      */
-    public function withEstimatedShippingWeight($value)
+    public function withEstimatedShippingWeight($EstimatedShippingWeight)
     {
-        $this->setEstimatedShippingWeight($value);
+        $this->setEstimatedShippingWeight($EstimatedShippingWeight);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
     /**
      * Set the value of ShippingWeightCalculationMethod, return this.
      *
-     * @param shippingWeightCalculationMethod
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShippingWeightCalculationMethod
+     * @return $this
      */
-    public function withShippingWeightCalculationMethod($value)
+    public function withShippingWeightCalculationMethod($ShippingWeightCalculationMethod)
     {
-        $this->setShippingWeightCalculationMethod($value);
+        $this->setShippingWeightCalculationMethod($ShippingWeightCalculationMethod);
         return $this;
     }
 }

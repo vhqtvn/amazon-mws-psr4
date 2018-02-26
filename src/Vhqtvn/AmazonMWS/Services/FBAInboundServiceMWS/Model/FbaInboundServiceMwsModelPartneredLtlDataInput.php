@@ -53,14 +53,12 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Set the value of Contact, return this.
      *
-     * @param contact
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelContact $Contact
+     * @return $this
      */
-    public function withContact($value)
+    public function withContact($Contact)
     {
-        $this->setContact($value);
+        $this->setContact($Contact);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Set the value of BoxCount, return this.
      *
-     * @param boxCount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $BoxCount
+     * @return $this
      */
-    public function withBoxCount($value)
+    public function withBoxCount($BoxCount)
     {
-        $this->setBoxCount($value);
+        $this->setBoxCount($BoxCount);
         return $this;
     }
     /**
@@ -137,14 +133,12 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Set the value of SellerFreightClass, return this.
      *
-     * @param sellerFreightClass
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerFreightClass
+     * @return $this
      */
-    public function withSellerFreightClass($value)
+    public function withSellerFreightClass($SellerFreightClass)
     {
-        $this->setSellerFreightClass($value);
+        $this->setSellerFreightClass($SellerFreightClass);
         return $this;
     }
     /**
@@ -179,14 +173,12 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Set the value of FreightReadyDate, return this.
      *
-     * @param freightReadyDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FreightReadyDate
+     * @return $this
      */
-    public function withFreightReadyDate($value)
+    public function withFreightReadyDate($FreightReadyDate)
     {
-        $this->setFreightReadyDate($value);
+        $this->setFreightReadyDate($FreightReadyDate);
         return $this;
     }
     /**
@@ -221,14 +213,12 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Set the value of PalletList, return this.
      *
-     * @param palletList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPalletList $PalletList
+     * @return $this
      */
-    public function withPalletList($value)
+    public function withPalletList($PalletList)
     {
-        $this->setPalletList($value);
+        $this->setPalletList($PalletList);
         return $this;
     }
     /**
@@ -263,14 +253,12 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Set the value of TotalWeight, return this.
      *
-     * @param totalWeight
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight $TotalWeight
+     * @return $this
      */
-    public function withTotalWeight($value)
+    public function withTotalWeight($TotalWeight)
     {
-        $this->setTotalWeight($value);
+        $this->setTotalWeight($TotalWeight);
         return $this;
     }
     /**
@@ -305,14 +293,12 @@ class FbaInboundServiceMwsModelPartneredLtlDataInput extends FbaInboundServiceMw
     /**
      * Set the value of SellerDeclaredValue, return this.
      *
-     * @param sellerDeclaredValue
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount $SellerDeclaredValue
+     * @return $this
      */
-    public function withSellerDeclaredValue($value)
+    public function withSellerDeclaredValue($SellerDeclaredValue)
     {
-        $this->setSellerDeclaredValue($value);
+        $this->setSellerDeclaredValue($SellerDeclaredValue);
         return $this;
     }
 }

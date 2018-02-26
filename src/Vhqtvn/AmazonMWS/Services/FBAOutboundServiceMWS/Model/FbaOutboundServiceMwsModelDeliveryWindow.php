@@ -48,14 +48,12 @@ class FbaOutboundServiceMwsModelDeliveryWindow extends FbaOutboundServiceMwsMode
     /**
      * Set the value of StartDateTime, return this.
      *
-     * @param startDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $StartDateTime
+     * @return $this
      */
-    public function withStartDateTime($value)
+    public function withStartDateTime($StartDateTime)
     {
-        $this->setStartDateTime($value);
+        $this->setStartDateTime($StartDateTime);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaOutboundServiceMwsModelDeliveryWindow extends FbaOutboundServiceMwsMode
     /**
      * Set the value of EndDateTime, return this.
      *
-     * @param endDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $EndDateTime
+     * @return $this
      */
-    public function withEndDateTime($value)
+    public function withEndDateTime($EndDateTime)
     {
-        $this->setEndDateTime($value);
+        $this->setEndDateTime($EndDateTime);
         return $this;
     }
 }

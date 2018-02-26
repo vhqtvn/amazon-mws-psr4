@@ -47,14 +47,12 @@ class FbaInboundServiceMwsModelPutTransportContentResult extends FbaInboundServi
     /**
      * Set the value of TransportResult, return this.
      *
-     * @param transportResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportResult $TransportResult
+     * @return $this
      */
-    public function withTransportResult($value)
+    public function withTransportResult($TransportResult)
     {
-        $this->setTransportResult($value);
+        $this->setTransportResult($TransportResult);
         return $this;
     }
 }

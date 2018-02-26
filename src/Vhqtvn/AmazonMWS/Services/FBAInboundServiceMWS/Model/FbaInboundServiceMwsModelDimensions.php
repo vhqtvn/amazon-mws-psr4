@@ -50,14 +50,12 @@ class FbaInboundServiceMwsModelDimensions extends FbaInboundServiceMwsModel
     /**
      * Set the value of Length, return this.
      *
-     * @param length
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param float $Length
+     * @return $this
      */
-    public function withLength($value)
+    public function withLength($Length)
     {
-        $this->setLength($value);
+        $this->setLength($Length);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class FbaInboundServiceMwsModelDimensions extends FbaInboundServiceMwsModel
     /**
      * Set the value of Width, return this.
      *
-     * @param width
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param float $Width
+     * @return $this
      */
-    public function withWidth($value)
+    public function withWidth($Width)
     {
-        $this->setWidth($value);
+        $this->setWidth($Width);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class FbaInboundServiceMwsModelDimensions extends FbaInboundServiceMwsModel
     /**
      * Set the value of Height, return this.
      *
-     * @param height
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param float $Height
+     * @return $this
      */
-    public function withHeight($value)
+    public function withHeight($Height)
     {
-        $this->setHeight($value);
+        $this->setHeight($Height);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class FbaInboundServiceMwsModelDimensions extends FbaInboundServiceMwsModel
     /**
      * Set the value of Unit, return this.
      *
-     * @param unit
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Unit
+     * @return $this
      */
-    public function withUnit($value)
+    public function withUnit($Unit)
     {
-        $this->setUnit($value);
+        $this->setUnit($Unit);
         return $this;
     }
 }

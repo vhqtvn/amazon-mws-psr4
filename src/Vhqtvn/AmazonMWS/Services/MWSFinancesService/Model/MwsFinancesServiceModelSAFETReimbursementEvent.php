@@ -51,14 +51,12 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Set the value of PostedDate, return this.
      *
-     * @param postedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PostedDate
+     * @return $this
      */
-    public function withPostedDate($value)
+    public function withPostedDate($PostedDate)
     {
-        $this->setPostedDate($value);
+        $this->setPostedDate($PostedDate);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Set the value of SAFETClaimId, return this.
      *
-     * @param safetClaimId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SAFETClaimId
+     * @return $this
      */
-    public function withSAFETClaimId($value)
+    public function withSAFETClaimId($SAFETClaimId)
     {
-        $this->setSAFETClaimId($value);
+        $this->setSAFETClaimId($SAFETClaimId);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Set the value of ReimbursedAmount, return this.
      *
-     * @param reimbursedAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $ReimbursedAmount
+     * @return $this
      */
-    public function withReimbursedAmount($value)
+    public function withReimbursedAmount($ReimbursedAmount)
     {
-        $this->setReimbursedAmount($value);
+        $this->setReimbursedAmount($ReimbursedAmount);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Set the value of ReasonCode, return this.
      *
-     * @param reasonCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ReasonCode
+     * @return $this
      */
-    public function withReasonCode($value)
+    public function withReasonCode($ReasonCode)
     {
-        $this->setReasonCode($value);
+        $this->setReasonCode($ReasonCode);
         return $this;
     }
     /**
@@ -232,14 +224,12 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Add values for SAFETReimbursementItemList, return this.
      *
-     * @param safetReimbursementItemList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelSAFETReimbursementItem $SAFETReimbursementItemList_array,...
+     * @return $this
      */
-    public function withSAFETReimbursementItemList()
+    public function withSAFETReimbursementItemList(...$SAFETReimbursementItemList_array)
     {
-        foreach (func_get_args() as $SAFETReimbursementItemList) {
+        foreach ($SAFETReimbursementItemList_array as $SAFETReimbursementItemList) {
             $this->_fields['SAFETReimbursementItemList']['FieldValue'][] = $SAFETReimbursementItemList;
         }
         return $this;

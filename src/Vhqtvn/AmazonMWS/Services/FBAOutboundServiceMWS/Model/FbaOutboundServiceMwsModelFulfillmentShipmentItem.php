@@ -50,14 +50,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
     /**
      * Set the value of SellerFulfillmentOrderItemId, return this.
      *
-     * @param sellerFulfillmentOrderItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerFulfillmentOrderItemId
+     * @return $this
      */
-    public function withSellerFulfillmentOrderItemId($value)
+    public function withSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId)
     {
-        $this->setSellerFulfillmentOrderItemId($value);
+        $this->setSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
     /**
      * Set the value of Quantity, return this.
      *
-     * @param quantity
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $Quantity
+     * @return $this
      */
-    public function withQuantity($value)
+    public function withQuantity($Quantity)
     {
-        $this->setQuantity($value);
+        $this->setQuantity($Quantity);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
     /**
      * Set the value of PackageNumber, return this.
      *
-     * @param packageNumber
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $PackageNumber
+     * @return $this
      */
-    public function withPackageNumber($value)
+    public function withPackageNumber($PackageNumber)
     {
-        $this->setPackageNumber($value);
+        $this->setPackageNumber($PackageNumber);
         return $this;
     }
 }

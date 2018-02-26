@@ -47,14 +47,12 @@ class MarketplaceWebServiceProductsModelShippingTimeType extends MarketplaceWebS
     /**
      * Set the value of Max, return this.
      *
-     * @param max
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Max
+     * @return $this
      */
-    public function withMax($value)
+    public function withMax($Max)
     {
-        $this->setMax($value);
+        $this->setMax($Max);
         return $this;
     }
 }

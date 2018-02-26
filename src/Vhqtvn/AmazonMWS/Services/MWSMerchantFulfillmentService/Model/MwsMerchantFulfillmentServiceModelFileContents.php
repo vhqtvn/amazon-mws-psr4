@@ -49,14 +49,12 @@ class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillm
     /**
      * Set the value of Contents, return this.
      *
-     * @param contents
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Contents
+     * @return $this
      */
-    public function withContents($value)
+    public function withContents($Contents)
     {
-        $this->setContents($value);
+        $this->setContents($Contents);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillm
     /**
      * Set the value of FileType, return this.
      *
-     * @param fileType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FileType
+     * @return $this
      */
-    public function withFileType($value)
+    public function withFileType($FileType)
     {
-        $this->setFileType($value);
+        $this->setFileType($FileType);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillm
     /**
      * Set the value of Checksum, return this.
      *
-     * @param checksum
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Checksum
+     * @return $this
      */
-    public function withChecksum($value)
+    public function withChecksum($Checksum)
     {
-        $this->setChecksum($value);
+        $this->setChecksum($Checksum);
         return $this;
     }
 }

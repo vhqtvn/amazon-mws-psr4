@@ -60,14 +60,12 @@ class FbaInboundServiceMwsModelInvalidASINList extends FbaInboundServiceMwsModel
     /**
      * Add values for InvalidASIN, return this.
      *
-     * @param invalidASIN
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASIN $InvalidASIN_array,...
+     * @return $this
      */
-    public function withInvalidASIN()
+    public function withInvalidASIN(...$InvalidASIN_array)
     {
-        foreach (func_get_args() as $InvalidASIN) {
+        foreach ($InvalidASIN_array as $InvalidASIN) {
             $this->_fields['InvalidASIN']['FieldValue'][] = $InvalidASIN;
         }
         return $this;

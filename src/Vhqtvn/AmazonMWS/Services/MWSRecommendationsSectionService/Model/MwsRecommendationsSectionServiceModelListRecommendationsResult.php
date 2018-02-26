@@ -67,14 +67,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for InventoryRecommendations, return this.
      *
-     * @param inventoryRecommendations
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelInventoryRecommendation $InventoryRecommendations_array,...
+     * @return $this
      */
-    public function withInventoryRecommendations()
+    public function withInventoryRecommendations(...$InventoryRecommendations_array)
     {
-        foreach (func_get_args() as $InventoryRecommendations) {
+        foreach ($InventoryRecommendations_array as $InventoryRecommendations) {
             $this->_fields['InventoryRecommendations']['FieldValue'][] = $InventoryRecommendations;
         }
         return $this;
@@ -124,14 +122,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for SelectionRecommendations, return this.
      *
-     * @param selectionRecommendations
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelSelectionRecommendation $SelectionRecommendations_array,...
+     * @return $this
      */
-    public function withSelectionRecommendations()
+    public function withSelectionRecommendations(...$SelectionRecommendations_array)
     {
-        foreach (func_get_args() as $SelectionRecommendations) {
+        foreach ($SelectionRecommendations_array as $SelectionRecommendations) {
             $this->_fields['SelectionRecommendations']['FieldValue'][] = $SelectionRecommendations;
         }
         return $this;
@@ -181,14 +177,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for PricingRecommendations, return this.
      *
-     * @param pricingRecommendations
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPricingRecommendation $PricingRecommendations_array,...
+     * @return $this
      */
-    public function withPricingRecommendations()
+    public function withPricingRecommendations(...$PricingRecommendations_array)
     {
-        foreach (func_get_args() as $PricingRecommendations) {
+        foreach ($PricingRecommendations_array as $PricingRecommendations) {
             $this->_fields['PricingRecommendations']['FieldValue'][] = $PricingRecommendations;
         }
         return $this;
@@ -238,14 +232,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for FulfillmentRecommendations, return this.
      *
-     * @param fulfillmentRecommendations
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelFulfillmentRecommendation $FulfillmentRecommendations_array,...
+     * @return $this
      */
-    public function withFulfillmentRecommendations()
+    public function withFulfillmentRecommendations(...$FulfillmentRecommendations_array)
     {
-        foreach (func_get_args() as $FulfillmentRecommendations) {
+        foreach ($FulfillmentRecommendations_array as $FulfillmentRecommendations) {
             $this->_fields['FulfillmentRecommendations']['FieldValue'][] = $FulfillmentRecommendations;
         }
         return $this;
@@ -295,14 +287,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for ListingQualityRecommendations, return this.
      *
-     * @param listingQualityRecommendations
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListingQualityRecommendation $ListingQualityRecommendations_array,...
+     * @return $this
      */
-    public function withListingQualityRecommendations()
+    public function withListingQualityRecommendations(...$ListingQualityRecommendations_array)
     {
-        foreach (func_get_args() as $ListingQualityRecommendations) {
+        foreach ($ListingQualityRecommendations_array as $ListingQualityRecommendations) {
             $this->_fields['ListingQualityRecommendations']['FieldValue'][] = $ListingQualityRecommendations;
         }
         return $this;
@@ -352,14 +342,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for GlobalSellingRecommendations, return this.
      *
-     * @param globalSellingRecommendations
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGlobalSellingRecommendation $GlobalSellingRecommendations_array,...
+     * @return $this
      */
-    public function withGlobalSellingRecommendations()
+    public function withGlobalSellingRecommendations(...$GlobalSellingRecommendations_array)
     {
-        foreach (func_get_args() as $GlobalSellingRecommendations) {
+        foreach ($GlobalSellingRecommendations_array as $GlobalSellingRecommendations) {
             $this->_fields['GlobalSellingRecommendations']['FieldValue'][] = $GlobalSellingRecommendations;
         }
         return $this;
@@ -409,14 +397,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Add values for AdvertisingRecommendations, return this.
      *
-     * @param advertisingRecommendations
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelAdvertisingRecommendation $AdvertisingRecommendations_array,...
+     * @return $this
      */
-    public function withAdvertisingRecommendations()
+    public function withAdvertisingRecommendations(...$AdvertisingRecommendations_array)
     {
-        foreach (func_get_args() as $AdvertisingRecommendations) {
+        foreach ($AdvertisingRecommendations_array as $AdvertisingRecommendations) {
             $this->_fields['AdvertisingRecommendations']['FieldValue'][] = $AdvertisingRecommendations;
         }
         return $this;
@@ -453,14 +439,12 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
 }

@@ -60,14 +60,12 @@ class FbaInboundServiceMwsModelInvalidSKUList extends FbaInboundServiceMwsModel
     /**
      * Add values for InvalidSKU, return this.
      *
-     * @param invalidSKU
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidSKU $InvalidSKU_array,...
+     * @return $this
      */
-    public function withInvalidSKU()
+    public function withInvalidSKU(...$InvalidSKU_array)
     {
-        foreach (func_get_args() as $InvalidSKU) {
+        foreach ($InvalidSKU_array as $InvalidSKU) {
             $this->_fields['InvalidSKU']['FieldValue'][] = $InvalidSKU;
         }
         return $this;

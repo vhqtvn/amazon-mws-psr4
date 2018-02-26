@@ -59,14 +59,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -101,14 +99,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of OrderItemId, return this.
      *
-     * @param orderItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $OrderItemId
+     * @return $this
      */
-    public function withOrderItemId($value)
+    public function withOrderItemId($OrderItemId)
     {
-        $this->setOrderItemId($value);
+        $this->setOrderItemId($OrderItemId);
         return $this;
     }
     /**
@@ -143,14 +139,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of OrderAdjustmentItemId, return this.
      *
-     * @param orderAdjustmentItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $OrderAdjustmentItemId
+     * @return $this
      */
-    public function withOrderAdjustmentItemId($value)
+    public function withOrderAdjustmentItemId($OrderAdjustmentItemId)
     {
-        $this->setOrderAdjustmentItemId($value);
+        $this->setOrderAdjustmentItemId($OrderAdjustmentItemId);
         return $this;
     }
     /**
@@ -185,14 +179,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of QuantityShipped, return this.
      *
-     * @param quantityShipped
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $QuantityShipped
+     * @return $this
      */
-    public function withQuantityShipped($value)
+    public function withQuantityShipped($QuantityShipped)
     {
-        $this->setQuantityShipped($value);
+        $this->setQuantityShipped($QuantityShipped);
         return $this;
     }
     /**
@@ -240,14 +232,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Add values for ItemChargeList, return this.
      *
-     * @param itemChargeList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $ItemChargeList_array,...
+     * @return $this
      */
-    public function withItemChargeList()
+    public function withItemChargeList(...$ItemChargeList_array)
     {
-        foreach (func_get_args() as $ItemChargeList) {
+        foreach ($ItemChargeList_array as $ItemChargeList) {
             $this->_fields['ItemChargeList']['FieldValue'][] = $ItemChargeList;
         }
         return $this;
@@ -297,14 +287,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Add values for ItemChargeAdjustmentList, return this.
      *
-     * @param itemChargeAdjustmentList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $ItemChargeAdjustmentList_array,...
+     * @return $this
      */
-    public function withItemChargeAdjustmentList()
+    public function withItemChargeAdjustmentList(...$ItemChargeAdjustmentList_array)
     {
-        foreach (func_get_args() as $ItemChargeAdjustmentList) {
+        foreach ($ItemChargeAdjustmentList_array as $ItemChargeAdjustmentList) {
             $this->_fields['ItemChargeAdjustmentList']['FieldValue'][] = $ItemChargeAdjustmentList;
         }
         return $this;
@@ -354,14 +342,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Add values for ItemFeeList, return this.
      *
-     * @param itemFeeList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $ItemFeeList_array,...
+     * @return $this
      */
-    public function withItemFeeList()
+    public function withItemFeeList(...$ItemFeeList_array)
     {
-        foreach (func_get_args() as $ItemFeeList) {
+        foreach ($ItemFeeList_array as $ItemFeeList) {
             $this->_fields['ItemFeeList']['FieldValue'][] = $ItemFeeList;
         }
         return $this;
@@ -411,14 +397,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Add values for ItemFeeAdjustmentList, return this.
      *
-     * @param itemFeeAdjustmentList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $ItemFeeAdjustmentList_array,...
+     * @return $this
      */
-    public function withItemFeeAdjustmentList()
+    public function withItemFeeAdjustmentList(...$ItemFeeAdjustmentList_array)
     {
-        foreach (func_get_args() as $ItemFeeAdjustmentList) {
+        foreach ($ItemFeeAdjustmentList_array as $ItemFeeAdjustmentList) {
             $this->_fields['ItemFeeAdjustmentList']['FieldValue'][] = $ItemFeeAdjustmentList;
         }
         return $this;
@@ -468,14 +452,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Add values for ItemTaxWithheldList, return this.
      *
-     * @param itemTaxWithheldList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelTaxWithheldComponent $ItemTaxWithheldList_array,...
+     * @return $this
      */
-    public function withItemTaxWithheldList()
+    public function withItemTaxWithheldList(...$ItemTaxWithheldList_array)
     {
-        foreach (func_get_args() as $ItemTaxWithheldList) {
+        foreach ($ItemTaxWithheldList_array as $ItemTaxWithheldList) {
             $this->_fields['ItemTaxWithheldList']['FieldValue'][] = $ItemTaxWithheldList;
         }
         return $this;
@@ -525,14 +507,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Add values for PromotionList, return this.
      *
-     * @param promotionList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPromotion $PromotionList_array,...
+     * @return $this
      */
-    public function withPromotionList()
+    public function withPromotionList(...$PromotionList_array)
     {
-        foreach (func_get_args() as $PromotionList) {
+        foreach ($PromotionList_array as $PromotionList) {
             $this->_fields['PromotionList']['FieldValue'][] = $PromotionList;
         }
         return $this;
@@ -582,14 +562,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Add values for PromotionAdjustmentList, return this.
      *
-     * @param promotionAdjustmentList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelPromotion $PromotionAdjustmentList_array,...
+     * @return $this
      */
-    public function withPromotionAdjustmentList()
+    public function withPromotionAdjustmentList(...$PromotionAdjustmentList_array)
     {
-        foreach (func_get_args() as $PromotionAdjustmentList) {
+        foreach ($PromotionAdjustmentList_array as $PromotionAdjustmentList) {
             $this->_fields['PromotionAdjustmentList']['FieldValue'][] = $PromotionAdjustmentList;
         }
         return $this;
@@ -626,14 +604,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of CostOfPointsGranted, return this.
      *
-     * @param costOfPointsGranted
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $CostOfPointsGranted
+     * @return $this
      */
-    public function withCostOfPointsGranted($value)
+    public function withCostOfPointsGranted($CostOfPointsGranted)
     {
-        $this->setCostOfPointsGranted($value);
+        $this->setCostOfPointsGranted($CostOfPointsGranted);
         return $this;
     }
     /**
@@ -668,14 +644,12 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Set the value of CostOfPointsReturned, return this.
      *
-     * @param costOfPointsReturned
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $CostOfPointsReturned
+     * @return $this
      */
-    public function withCostOfPointsReturned($value)
+    public function withCostOfPointsReturned($CostOfPointsReturned)
     {
-        $this->setCostOfPointsReturned($value);
+        $this->setCostOfPointsReturned($CostOfPointsReturned);
         return $this;
     }
 }

@@ -51,14 +51,12 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Set the value of Products, return this.
      *
-     * @param products
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProductList $Products
+     * @return $this
      */
-    public function withProducts($value)
+    public function withProducts($Products)
     {
-        $this->setProducts($value);
+        $this->setProducts($Products);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Set the value of Error, return this.
      *
-     * @param error
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError $Error
+     * @return $this
      */
-    public function withError($value)
+    public function withError($Error)
     {
-        $this->setError($value);
+        $this->setError($Error);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Set the value of Id, return this.
      *
-     * @param id
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Id
+     * @return $this
      */
-    public function withId($value)
+    public function withId($Id)
     {
-        $this->setId($value);
+        $this->setId($Id);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Set the value of IdType, return this.
      *
-     * @param idType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $IdType
+     * @return $this
      */
-    public function withIdType($value)
+    public function withIdType($IdType)
     {
-        $this->setIdType($value);
+        $this->setIdType($IdType);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Set the value of status, return this.
      *
-     * @param status
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $status
+     * @return $this
      */
-    public function withstatus($value)
+    public function withstatus($status)
     {
-        $this->setstatus($value);
+        $this->setstatus($status);
         return $this;
     }
 }

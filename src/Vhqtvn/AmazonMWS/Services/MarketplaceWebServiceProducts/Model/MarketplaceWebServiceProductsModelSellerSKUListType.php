@@ -60,14 +60,12 @@ class MarketplaceWebServiceProductsModelSellerSKUListType extends MarketplaceWeb
     /**
      * Add values for SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $SellerSKU_array,...
+     * @return $this
      */
-    public function withSellerSKU()
+    public function withSellerSKU(...$SellerSKU_array)
     {
-        foreach (func_get_args() as $SellerSKU) {
+        foreach ($SellerSKU_array as $SellerSKU) {
             $this->_fields['SellerSKU']['FieldValue'][] = $SellerSKU;
         }
         return $this;

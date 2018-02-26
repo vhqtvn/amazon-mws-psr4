@@ -72,14 +72,14 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
         return;
     }
     /**
-     * Sets the value of the GetReportScheduleListByNextTokenResult  and returns this instance
-     * 
-     * @param GetReportScheduleListByNextTokenResult $value GetReportScheduleListByNextTokenResult
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse instance
+     * Set the value of GetReportScheduleListByNextTokenResult, return this.
+     *
+     * @param GetReportScheduleListByNextTokenResult $GetReportScheduleListByNextTokenResult
+     * @return $this
      */
-    public function withGetReportScheduleListByNextTokenResult($value)
+    public function withGetReportScheduleListByNextTokenResult($GetReportScheduleListByNextTokenResult)
     {
-        $this->setGetReportScheduleListByNextTokenResult($value);
+        $this->setGetReportScheduleListByNextTokenResult($GetReportScheduleListByNextTokenResult);
         return $this;
     }
     /**
@@ -112,14 +112,14 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
         return;
     }
     /**
-     * Sets the value of the ResponseMetadata  and returns this instance
-     * 
-     * @param ResponseMetadata $value ResponseMetadata
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse instance
+     * Set the value of ResponseMetadata, return this.
+     *
+     * @param ResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**

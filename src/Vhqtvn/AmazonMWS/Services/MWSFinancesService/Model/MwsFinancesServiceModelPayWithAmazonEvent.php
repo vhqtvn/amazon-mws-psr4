@@ -56,14 +56,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Set the value of SellerOrderId, return this.
      *
-     * @param sellerOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerOrderId
+     * @return $this
      */
-    public function withSellerOrderId($value)
+    public function withSellerOrderId($SellerOrderId)
     {
-        $this->setSellerOrderId($value);
+        $this->setSellerOrderId($SellerOrderId);
         return $this;
     }
     /**
@@ -98,14 +96,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Set the value of TransactionPostedDate, return this.
      *
-     * @param transactionPostedDate
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TransactionPostedDate
+     * @return $this
      */
-    public function withTransactionPostedDate($value)
+    public function withTransactionPostedDate($TransactionPostedDate)
     {
-        $this->setTransactionPostedDate($value);
+        $this->setTransactionPostedDate($TransactionPostedDate);
         return $this;
     }
     /**
@@ -140,14 +136,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Set the value of BusinessObjectType, return this.
      *
-     * @param businessObjectType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $BusinessObjectType
+     * @return $this
      */
-    public function withBusinessObjectType($value)
+    public function withBusinessObjectType($BusinessObjectType)
     {
-        $this->setBusinessObjectType($value);
+        $this->setBusinessObjectType($BusinessObjectType);
         return $this;
     }
     /**
@@ -182,14 +176,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Set the value of SalesChannel, return this.
      *
-     * @param salesChannel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SalesChannel
+     * @return $this
      */
-    public function withSalesChannel($value)
+    public function withSalesChannel($SalesChannel)
     {
-        $this->setSalesChannel($value);
+        $this->setSalesChannel($SalesChannel);
         return $this;
     }
     /**
@@ -224,14 +216,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Set the value of Charge, return this.
      *
-     * @param charge
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent $Charge
+     * @return $this
      */
-    public function withCharge($value)
+    public function withCharge($Charge)
     {
-        $this->setCharge($value);
+        $this->setCharge($Charge);
         return $this;
     }
     /**
@@ -279,14 +269,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Add values for FeeList, return this.
      *
-     * @param feeList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $FeeList_array,...
+     * @return $this
      */
-    public function withFeeList()
+    public function withFeeList(...$FeeList_array)
     {
-        foreach (func_get_args() as $FeeList) {
+        foreach ($FeeList_array as $FeeList) {
             $this->_fields['FeeList']['FieldValue'][] = $FeeList;
         }
         return $this;
@@ -323,14 +311,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Set the value of PaymentAmountType, return this.
      *
-     * @param paymentAmountType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PaymentAmountType
+     * @return $this
      */
-    public function withPaymentAmountType($value)
+    public function withPaymentAmountType($PaymentAmountType)
     {
-        $this->setPaymentAmountType($value);
+        $this->setPaymentAmountType($PaymentAmountType);
         return $this;
     }
     /**
@@ -365,14 +351,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Set the value of AmountDescription, return this.
      *
-     * @param amountDescription
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmountDescription
+     * @return $this
      */
-    public function withAmountDescription($value)
+    public function withAmountDescription($AmountDescription)
     {
-        $this->setAmountDescription($value);
+        $this->setAmountDescription($AmountDescription);
         return $this;
     }
     /**
@@ -407,14 +391,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Set the value of FulfillmentChannel, return this.
      *
-     * @param fulfillmentChannel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentChannel
+     * @return $this
      */
-    public function withFulfillmentChannel($value)
+    public function withFulfillmentChannel($FulfillmentChannel)
     {
-        $this->setFulfillmentChannel($value);
+        $this->setFulfillmentChannel($FulfillmentChannel);
         return $this;
     }
     /**
@@ -449,14 +431,12 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Set the value of StoreName, return this.
      *
-     * @param storeName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $StoreName
+     * @return $this
      */
-    public function withStoreName($value)
+    public function withStoreName($StoreName)
     {
-        $this->setStoreName($value);
+        $this->setStoreName($StoreName);
         return $this;
     }
 }

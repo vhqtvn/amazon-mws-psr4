@@ -48,14 +48,12 @@ class MwsSubscriptionsServiceModelAttributeKeyValue extends MwsSubscriptionsServ
     /**
      * Set the value of Key, return this.
      *
-     * @param key
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Key
+     * @return $this
      */
-    public function withKey($value)
+    public function withKey($Key)
     {
-        $this->setKey($value);
+        $this->setKey($Key);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsSubscriptionsServiceModelAttributeKeyValue extends MwsSubscriptionsServ
     /**
      * Set the value of Value, return this.
      *
-     * @param value
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Value
+     * @return $this
      */
-    public function withValue($value)
+    public function withValue($Value)
     {
-        $this->setValue($value);
+        $this->setValue($Value);
         return $this;
     }
 }

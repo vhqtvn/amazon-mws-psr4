@@ -47,14 +47,12 @@ class MarketplaceWebServiceOrdersModelProductInfoDetail extends MarketplaceWebSe
     /**
      * Set the value of NumberOfItems, return this.
      *
-     * @param numberOfItems
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $NumberOfItems
+     * @return $this
      */
-    public function withNumberOfItems($value)
+    public function withNumberOfItems($NumberOfItems)
     {
-        $this->setNumberOfItems($value);
+        $this->setNumberOfItems($NumberOfItems);
         return $this;
     }
 }

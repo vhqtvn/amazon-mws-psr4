@@ -52,14 +52,12 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Set the value of ShipmentRequestDetails, return this.
      *
-     * @param shipmentRequestDetails
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipmentRequestDetails $ShipmentRequestDetails
+     * @return $this
      */
-    public function withShipmentRequestDetails($value)
+    public function withShipmentRequestDetails($ShipmentRequestDetails)
     {
-        $this->setShipmentRequestDetails($value);
+        $this->setShipmentRequestDetails($ShipmentRequestDetails);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Set the value of ShippingServiceId, return this.
      *
-     * @param shippingServiceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShippingServiceId
+     * @return $this
      */
-    public function withShippingServiceId($value)
+    public function withShippingServiceId($ShippingServiceId)
     {
-        $this->setShippingServiceId($value);
+        $this->setShippingServiceId($ShippingServiceId);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Set the value of ShippingServiceOfferId, return this.
      *
-     * @param shippingServiceOfferId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShippingServiceOfferId
+     * @return $this
      */
-    public function withShippingServiceOfferId($value)
+    public function withShippingServiceOfferId($ShippingServiceOfferId)
     {
-        $this->setShippingServiceOfferId($value);
+        $this->setShippingServiceOfferId($ShippingServiceOfferId);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Set the value of HazmatType, return this.
      *
-     * @param hazmatType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $HazmatType
+     * @return $this
      */
-    public function withHazmatType($value)
+    public function withHazmatType($HazmatType)
     {
-        $this->setHazmatType($value);
+        $this->setHazmatType($HazmatType);
         return $this;
     }
 }

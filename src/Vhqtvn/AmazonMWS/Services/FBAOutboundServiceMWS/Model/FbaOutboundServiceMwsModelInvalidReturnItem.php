@@ -49,14 +49,12 @@ class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsM
     /**
      * Set the value of SellerReturnItemId, return this.
      *
-     * @param sellerReturnItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerReturnItemId
+     * @return $this
      */
-    public function withSellerReturnItemId($value)
+    public function withSellerReturnItemId($SellerReturnItemId)
     {
-        $this->setSellerReturnItemId($value);
+        $this->setSellerReturnItemId($SellerReturnItemId);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsM
     /**
      * Set the value of SellerFulfillmentOrderItemId, return this.
      *
-     * @param sellerFulfillmentOrderItemId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerFulfillmentOrderItemId
+     * @return $this
      */
-    public function withSellerFulfillmentOrderItemId($value)
+    public function withSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId)
     {
-        $this->setSellerFulfillmentOrderItemId($value);
+        $this->setSellerFulfillmentOrderItemId($SellerFulfillmentOrderItemId);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsM
     /**
      * Set the value of InvalidItemReason, return this.
      *
-     * @param invalidItemReason
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidItemReason $InvalidItemReason
+     * @return $this
      */
-    public function withInvalidItemReason($value)
+    public function withInvalidItemReason($InvalidItemReason)
     {
-        $this->setInvalidItemReason($value);
+        $this->setInvalidItemReason($InvalidItemReason);
         return $this;
     }
 }

@@ -56,14 +56,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of ShippingSpeedCategory, return this.
      *
-     * @param shippingSpeedCategory
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShippingSpeedCategory
+     * @return $this
      */
-    public function withShippingSpeedCategory($value)
+    public function withShippingSpeedCategory($ShippingSpeedCategory)
     {
-        $this->setShippingSpeedCategory($value);
+        $this->setShippingSpeedCategory($ShippingSpeedCategory);
         return $this;
     }
     /**
@@ -98,14 +96,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of ScheduledDeliveryInfo, return this.
      *
-     * @param scheduledDeliveryInfo
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelScheduledDeliveryInfo $ScheduledDeliveryInfo
+     * @return $this
      */
-    public function withScheduledDeliveryInfo($value)
+    public function withScheduledDeliveryInfo($ScheduledDeliveryInfo)
     {
-        $this->setScheduledDeliveryInfo($value);
+        $this->setScheduledDeliveryInfo($ScheduledDeliveryInfo);
         return $this;
     }
     /**
@@ -149,14 +145,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of IsFulfillable, return this.
      *
-     * @param isFulfillable
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsFulfillable
+     * @return $this
      */
-    public function withIsFulfillable($value)
+    public function withIsFulfillable($IsFulfillable)
     {
-        $this->setIsFulfillable($value);
+        $this->setIsFulfillable($IsFulfillable);
         return $this;
     }
     /**
@@ -200,14 +194,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of IsCODCapable, return this.
      *
-     * @param isCODCapable
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param bool $IsCODCapable
+     * @return $this
      */
-    public function withIsCODCapable($value)
+    public function withIsCODCapable($IsCODCapable)
     {
-        $this->setIsCODCapable($value);
+        $this->setIsCODCapable($IsCODCapable);
         return $this;
     }
     /**
@@ -242,14 +234,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of EstimatedShippingWeight, return this.
      *
-     * @param estimatedShippingWeight
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelWeight $EstimatedShippingWeight
+     * @return $this
      */
-    public function withEstimatedShippingWeight($value)
+    public function withEstimatedShippingWeight($EstimatedShippingWeight)
     {
-        $this->setEstimatedShippingWeight($value);
+        $this->setEstimatedShippingWeight($EstimatedShippingWeight);
         return $this;
     }
     /**
@@ -284,14 +274,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of EstimatedFees, return this.
      *
-     * @param estimatedFees
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFeeList $EstimatedFees
+     * @return $this
      */
-    public function withEstimatedFees($value)
+    public function withEstimatedFees($EstimatedFees)
     {
-        $this->setEstimatedFees($value);
+        $this->setEstimatedFees($EstimatedFees);
         return $this;
     }
     /**
@@ -326,14 +314,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of FulfillmentPreviewShipments, return this.
      *
-     * @param fulfillmentPreviewShipments
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewShipmentList $FulfillmentPreviewShipments
+     * @return $this
      */
-    public function withFulfillmentPreviewShipments($value)
+    public function withFulfillmentPreviewShipments($FulfillmentPreviewShipments)
     {
-        $this->setFulfillmentPreviewShipments($value);
+        $this->setFulfillmentPreviewShipments($FulfillmentPreviewShipments);
         return $this;
     }
     /**
@@ -368,14 +354,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of UnfulfillablePreviewItems, return this.
      *
-     * @param unfulfillablePreviewItems
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUnfulfillablePreviewItemList $UnfulfillablePreviewItems
+     * @return $this
      */
-    public function withUnfulfillablePreviewItems($value)
+    public function withUnfulfillablePreviewItems($UnfulfillablePreviewItems)
     {
-        $this->setUnfulfillablePreviewItems($value);
+        $this->setUnfulfillablePreviewItems($UnfulfillablePreviewItems);
         return $this;
     }
     /**
@@ -410,14 +394,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of OrderUnfulfillableReasons, return this.
      *
-     * @param orderUnfulfillableReasons
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelStringList $OrderUnfulfillableReasons
+     * @return $this
      */
-    public function withOrderUnfulfillableReasons($value)
+    public function withOrderUnfulfillableReasons($OrderUnfulfillableReasons)
     {
-        $this->setOrderUnfulfillableReasons($value);
+        $this->setOrderUnfulfillableReasons($OrderUnfulfillableReasons);
         return $this;
     }
     /**
@@ -452,14 +434,12 @@ class FbaOutboundServiceMwsModelFulfillmentPreview extends FbaOutboundServiceMws
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
 }

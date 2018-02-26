@@ -49,14 +49,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyResult extends FbaInventoryS
     /**
      * Set the value of MarketplaceId, return this.
      *
-     * @param marketplaceId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceId
+     * @return $this
      */
-    public function withMarketplaceId($value)
+    public function withMarketplaceId($MarketplaceId)
     {
-        $this->setMarketplaceId($value);
+        $this->setMarketplaceId($MarketplaceId);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyResult extends FbaInventoryS
     /**
      * Set the value of InventorySupplyList, return this.
      *
-     * @param inventorySupplyList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyList $InventorySupplyList
+     * @return $this
      */
-    public function withInventorySupplyList($value)
+    public function withInventorySupplyList($InventorySupplyList)
     {
-        $this->setInventorySupplyList($value);
+        $this->setInventorySupplyList($InventorySupplyList);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaInventoryServiceMwsModelListInventorySupplyResult extends FbaInventoryS
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
 }

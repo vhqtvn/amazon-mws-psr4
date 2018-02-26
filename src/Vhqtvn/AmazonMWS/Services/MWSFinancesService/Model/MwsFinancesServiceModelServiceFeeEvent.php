@@ -53,14 +53,12 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of AmazonOrderId, return this.
      *
-     * @param amazonOrderId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $AmazonOrderId
+     * @return $this
      */
-    public function withAmazonOrderId($value)
+    public function withAmazonOrderId($AmazonOrderId)
     {
-        $this->setAmazonOrderId($value);
+        $this->setAmazonOrderId($AmazonOrderId);
         return $this;
     }
     /**
@@ -95,14 +93,12 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of FeeReason, return this.
      *
-     * @param feeReason
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FeeReason
+     * @return $this
      */
-    public function withFeeReason($value)
+    public function withFeeReason($FeeReason)
     {
-        $this->setFeeReason($value);
+        $this->setFeeReason($FeeReason);
         return $this;
     }
     /**
@@ -150,14 +146,12 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Add values for FeeList, return this.
      *
-     * @param feeList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent $FeeList_array,...
+     * @return $this
      */
-    public function withFeeList()
+    public function withFeeList(...$FeeList_array)
     {
-        foreach (func_get_args() as $FeeList) {
+        foreach ($FeeList_array as $FeeList) {
             $this->_fields['FeeList']['FieldValue'][] = $FeeList;
         }
         return $this;
@@ -194,14 +188,12 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of SellerSKU, return this.
      *
-     * @param sellerSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerSKU
+     * @return $this
      */
-    public function withSellerSKU($value)
+    public function withSellerSKU($SellerSKU)
     {
-        $this->setSellerSKU($value);
+        $this->setSellerSKU($SellerSKU);
         return $this;
     }
     /**
@@ -236,14 +228,12 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of FnSKU, return this.
      *
-     * @param fnSKU
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FnSKU
+     * @return $this
      */
-    public function withFnSKU($value)
+    public function withFnSKU($FnSKU)
     {
-        $this->setFnSKU($value);
+        $this->setFnSKU($FnSKU);
         return $this;
     }
     /**
@@ -278,14 +268,12 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of FeeDescription, return this.
      *
-     * @param feeDescription
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FeeDescription
+     * @return $this
      */
-    public function withFeeDescription($value)
+    public function withFeeDescription($FeeDescription)
     {
-        $this->setFeeDescription($value);
+        $this->setFeeDescription($FeeDescription);
         return $this;
     }
     /**
@@ -320,14 +308,12 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Set the value of ASIN, return this.
      *
-     * @param asin
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ASIN
+     * @return $this
      */
-    public function withASIN($value)
+    public function withASIN($ASIN)
     {
-        $this->setASIN($value);
+        $this->setASIN($ASIN);
         return $this;
     }
 }

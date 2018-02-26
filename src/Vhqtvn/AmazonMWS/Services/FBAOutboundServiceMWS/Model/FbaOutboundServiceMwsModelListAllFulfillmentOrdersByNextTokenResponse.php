@@ -52,14 +52,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersByNextTokenResponse exte
     /**
      * Set the value of ListAllFulfillmentOrdersByNextTokenResult, return this.
      *
-     * @param listAllFulfillmentOrdersByNextTokenResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelListAllFulfillmentOrdersByNextTokenResult $ListAllFulfillmentOrdersByNextTokenResult
+     * @return $this
      */
-    public function withListAllFulfillmentOrdersByNextTokenResult($value)
+    public function withListAllFulfillmentOrdersByNextTokenResult($ListAllFulfillmentOrdersByNextTokenResult)
     {
-        $this->setListAllFulfillmentOrdersByNextTokenResult($value);
+        $this->setListAllFulfillmentOrdersByNextTokenResult($ListAllFulfillmentOrdersByNextTokenResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersByNextTokenResponse exte
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersByNextTokenResponse exte
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

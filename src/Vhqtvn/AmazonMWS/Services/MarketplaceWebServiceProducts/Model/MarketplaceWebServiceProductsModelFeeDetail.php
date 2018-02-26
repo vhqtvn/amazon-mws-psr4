@@ -52,14 +52,12 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Set the value of FeeType, return this.
      *
-     * @param feeType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FeeType
+     * @return $this
      */
-    public function withFeeType($value)
+    public function withFeeType($FeeType)
     {
-        $this->setFeeType($value);
+        $this->setFeeType($FeeType);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Set the value of FeeAmount, return this.
      *
-     * @param feeAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $FeeAmount
+     * @return $this
      */
-    public function withFeeAmount($value)
+    public function withFeeAmount($FeeAmount)
     {
-        $this->setFeeAmount($value);
+        $this->setFeeAmount($FeeAmount);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Set the value of FeePromotion, return this.
      *
-     * @param feePromotion
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $FeePromotion
+     * @return $this
      */
-    public function withFeePromotion($value)
+    public function withFeePromotion($FeePromotion)
     {
-        $this->setFeePromotion($value);
+        $this->setFeePromotion($FeePromotion);
         return $this;
     }
     /**
@@ -178,14 +172,12 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Set the value of TaxAmount, return this.
      *
-     * @param taxAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $TaxAmount
+     * @return $this
      */
-    public function withTaxAmount($value)
+    public function withTaxAmount($TaxAmount)
     {
-        $this->setTaxAmount($value);
+        $this->setTaxAmount($TaxAmount);
         return $this;
     }
     /**
@@ -220,14 +212,12 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Set the value of FinalFee, return this.
      *
-     * @param finalFee
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType $FinalFee
+     * @return $this
      */
-    public function withFinalFee($value)
+    public function withFinalFee($FinalFee)
     {
-        $this->setFinalFee($value);
+        $this->setFinalFee($FinalFee);
         return $this;
     }
     /**
@@ -262,14 +252,12 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Set the value of IncludedFeeDetailList, return this.
      *
-     * @param includedFeeDetailList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetailList $IncludedFeeDetailList
+     * @return $this
      */
-    public function withIncludedFeeDetailList($value)
+    public function withIncludedFeeDetailList($IncludedFeeDetailList)
     {
-        $this->setIncludedFeeDetailList($value);
+        $this->setIncludedFeeDetailList($IncludedFeeDetailList);
         return $this;
     }
 }

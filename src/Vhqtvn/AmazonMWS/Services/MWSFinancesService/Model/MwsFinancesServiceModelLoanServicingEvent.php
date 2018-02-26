@@ -48,14 +48,12 @@ class MwsFinancesServiceModelLoanServicingEvent extends MwsFinancesServiceModel
     /**
      * Set the value of LoanAmount, return this.
      *
-     * @param loanAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $LoanAmount
+     * @return $this
      */
-    public function withLoanAmount($value)
+    public function withLoanAmount($LoanAmount)
     {
-        $this->setLoanAmount($value);
+        $this->setLoanAmount($LoanAmount);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsFinancesServiceModelLoanServicingEvent extends MwsFinancesServiceModel
     /**
      * Set the value of SourceBusinessEventType, return this.
      *
-     * @param sourceBusinessEventType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SourceBusinessEventType
+     * @return $this
      */
-    public function withSourceBusinessEventType($value)
+    public function withSourceBusinessEventType($SourceBusinessEventType)
     {
-        $this->setSourceBusinessEventType($value);
+        $this->setSourceBusinessEventType($SourceBusinessEventType);
         return $this;
     }
 }

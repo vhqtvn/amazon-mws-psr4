@@ -51,14 +51,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Set the value of Marketplace, return this.
      *
-     * @param marketplace
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Marketplace
+     * @return $this
      */
-    public function withMarketplace($value)
+    public function withMarketplace($Marketplace)
     {
-        $this->setMarketplace($value);
+        $this->setMarketplace($Marketplace);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Set the value of QueryStartDateTime, return this.
      *
-     * @param queryStartDateTime
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $QueryStartDateTime
+     * @return $this
      */
-    public function withQueryStartDateTime($value)
+    public function withQueryStartDateTime($QueryStartDateTime)
     {
-        $this->setQueryStartDateTime($value);
+        $this->setQueryStartDateTime($QueryStartDateTime);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Set the value of FulfillmentMethod, return this.
      *
-     * @param fulfillmentMethod
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentMethodList $FulfillmentMethod
+     * @return $this
      */
-    public function withFulfillmentMethod($value)
+    public function withFulfillmentMethod($FulfillmentMethod)
     {
-        $this->setFulfillmentMethod($value);
+        $this->setFulfillmentMethod($FulfillmentMethod);
         return $this;
     }
 }

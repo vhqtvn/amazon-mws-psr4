@@ -50,14 +50,12 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
     /**
      * Set the value of Height, return this.
      *
-     * @param height
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure $Height
+     * @return $this
      */
-    public function withHeight($value)
+    public function withHeight($Height)
     {
-        $this->setHeight($value);
+        $this->setHeight($Height);
         return $this;
     }
     /**
@@ -92,14 +90,12 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
     /**
      * Set the value of Width, return this.
      *
-     * @param width
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure $Width
+     * @return $this
      */
-    public function withWidth($value)
+    public function withWidth($Width)
     {
-        $this->setWidth($value);
+        $this->setWidth($Width);
         return $this;
     }
     /**
@@ -134,14 +130,12 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
     /**
      * Set the value of Length, return this.
      *
-     * @param length
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure $Length
+     * @return $this
      */
-    public function withLength($value)
+    public function withLength($Length)
     {
-        $this->setLength($value);
+        $this->setLength($Length);
         return $this;
     }
     /**
@@ -176,14 +170,12 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
     /**
      * Set the value of Weight, return this.
      *
-     * @param weight
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelWeightMeasure $Weight
+     * @return $this
      */
-    public function withWeight($value)
+    public function withWeight($Weight)
     {
-        $this->setWeight($value);
+        $this->setWeight($Weight);
         return $this;
     }
 }

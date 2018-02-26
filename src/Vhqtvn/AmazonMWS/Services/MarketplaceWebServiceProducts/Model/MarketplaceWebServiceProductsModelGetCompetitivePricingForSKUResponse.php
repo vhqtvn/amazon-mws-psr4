@@ -65,14 +65,12 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResponse exte
     /**
      * Add values for GetCompetitivePricingForSKUResult, return this.
      *
-     * @param getCompetitivePricingForSKUResult
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResult $GetCompetitivePricingForSKUResult_array,...
+     * @return $this
      */
-    public function withGetCompetitivePricingForSKUResult()
+    public function withGetCompetitivePricingForSKUResult(...$GetCompetitivePricingForSKUResult_array)
     {
-        foreach (func_get_args() as $GetCompetitivePricingForSKUResult) {
+        foreach ($GetCompetitivePricingForSKUResult_array as $GetCompetitivePricingForSKUResult) {
             $this->_fields['GetCompetitivePricingForSKUResult']['FieldValue'][] = $GetCompetitivePricingForSKUResult;
         }
         return $this;
@@ -109,14 +107,12 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResponse exte
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -151,14 +147,12 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResponse exte
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

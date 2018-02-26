@@ -48,14 +48,12 @@ class MarketplaceWebServiceSellersModelMessage extends MarketplaceWebServiceSell
     /**
      * Set the value of Locale, return this.
      *
-     * @param locale
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Locale
+     * @return $this
      */
-    public function withLocale($value)
+    public function withLocale($Locale)
     {
-        $this->setLocale($value);
+        $this->setLocale($Locale);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MarketplaceWebServiceSellersModelMessage extends MarketplaceWebServiceSell
     /**
      * Set the value of Text, return this.
      *
-     * @param text
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Text
+     * @return $this
      */
-    public function withText($value)
+    public function withText($Text)
     {
-        $this->setText($value);
+        $this->setText($Text);
         return $this;
     }
 }

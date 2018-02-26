@@ -49,14 +49,12 @@ class FbaOutboundServiceMwsModelReasonCodeDetails extends FbaOutboundServiceMwsM
     /**
      * Set the value of ReturnReasonCode, return this.
      *
-     * @param returnReasonCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ReturnReasonCode
+     * @return $this
      */
-    public function withReturnReasonCode($value)
+    public function withReturnReasonCode($ReturnReasonCode)
     {
-        $this->setReturnReasonCode($value);
+        $this->setReturnReasonCode($ReturnReasonCode);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class FbaOutboundServiceMwsModelReasonCodeDetails extends FbaOutboundServiceMwsM
     /**
      * Set the value of Description, return this.
      *
-     * @param description
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Description
+     * @return $this
      */
-    public function withDescription($value)
+    public function withDescription($Description)
     {
-        $this->setDescription($value);
+        $this->setDescription($Description);
         return $this;
     }
     /**
@@ -133,14 +129,12 @@ class FbaOutboundServiceMwsModelReasonCodeDetails extends FbaOutboundServiceMwsM
     /**
      * Set the value of TranslatedDescription, return this.
      *
-     * @param translatedDescription
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $TranslatedDescription
+     * @return $this
      */
-    public function withTranslatedDescription($value)
+    public function withTranslatedDescription($TranslatedDescription)
     {
-        $this->setTranslatedDescription($value);
+        $this->setTranslatedDescription($TranslatedDescription);
         return $this;
     }
 }

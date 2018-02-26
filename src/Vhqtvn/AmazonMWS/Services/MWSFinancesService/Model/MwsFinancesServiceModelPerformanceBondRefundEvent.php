@@ -49,14 +49,12 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
     /**
      * Set the value of MarketplaceCountryCode, return this.
      *
-     * @param marketplaceCountryCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MarketplaceCountryCode
+     * @return $this
      */
-    public function withMarketplaceCountryCode($value)
+    public function withMarketplaceCountryCode($MarketplaceCountryCode)
     {
-        $this->setMarketplaceCountryCode($value);
+        $this->setMarketplaceCountryCode($MarketplaceCountryCode);
         return $this;
     }
     /**
@@ -91,14 +89,12 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
     /**
      * Set the value of Amount, return this.
      *
-     * @param amount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $Amount
+     * @return $this
      */
-    public function withAmount($value)
+    public function withAmount($Amount)
     {
-        $this->setAmount($value);
+        $this->setAmount($Amount);
         return $this;
     }
     /**
@@ -146,14 +142,12 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
     /**
      * Add values for ProductGroupList, return this.
      *
-     * @param productGroupList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \ $ProductGroupList_array,...
+     * @return $this
      */
-    public function withProductGroupList()
+    public function withProductGroupList(...$ProductGroupList_array)
     {
-        foreach (func_get_args() as $ProductGroupList) {
+        foreach ($ProductGroupList_array as $ProductGroupList) {
             $this->_fields['ProductGroupList']['FieldValue'][] = $ProductGroupList;
         }
         return $this;

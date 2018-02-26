@@ -48,14 +48,12 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResult extends FbaInbou
     /**
      * Set the value of ASINPrepInstructionsList, return this.
      *
-     * @param asinPrepInstructionsList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINPrepInstructionsList $ASINPrepInstructionsList
+     * @return $this
      */
-    public function withASINPrepInstructionsList($value)
+    public function withASINPrepInstructionsList($ASINPrepInstructionsList)
     {
-        $this->setASINPrepInstructionsList($value);
+        $this->setASINPrepInstructionsList($ASINPrepInstructionsList);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResult extends FbaInbou
     /**
      * Set the value of InvalidASINList, return this.
      *
-     * @param invalidASINList
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASINList $InvalidASINList
+     * @return $this
      */
-    public function withInvalidASINList($value)
+    public function withInvalidASINList($InvalidASINList)
     {
-        $this->setInvalidASINList($value);
+        $this->setInvalidASINList($InvalidASINList);
         return $this;
     }
 }

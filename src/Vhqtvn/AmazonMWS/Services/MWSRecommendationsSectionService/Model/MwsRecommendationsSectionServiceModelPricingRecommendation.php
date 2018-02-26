@@ -63,14 +63,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of LastUpdated, return this.
      *
-     * @param lastUpdated
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $LastUpdated
+     * @return $this
      */
-    public function withLastUpdated($value)
+    public function withLastUpdated($LastUpdated)
     {
-        $this->setLastUpdated($value);
+        $this->setLastUpdated($LastUpdated);
         return $this;
     }
     /**
@@ -105,14 +103,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of ItemIdentifier, return this.
      *
-     * @param itemIdentifier
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier $ItemIdentifier
+     * @return $this
      */
-    public function withItemIdentifier($value)
+    public function withItemIdentifier($ItemIdentifier)
     {
-        $this->setItemIdentifier($value);
+        $this->setItemIdentifier($ItemIdentifier);
         return $this;
     }
     /**
@@ -147,14 +143,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of ItemName, return this.
      *
-     * @param itemName
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ItemName
+     * @return $this
      */
-    public function withItemName($value)
+    public function withItemName($ItemName)
     {
-        $this->setItemName($value);
+        $this->setItemName($ItemName);
         return $this;
     }
     /**
@@ -189,14 +183,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of Condition, return this.
      *
-     * @param condition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Condition
+     * @return $this
      */
-    public function withCondition($value)
+    public function withCondition($Condition)
     {
-        $this->setCondition($value);
+        $this->setCondition($Condition);
         return $this;
     }
     /**
@@ -231,14 +223,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of SubCondition, return this.
      *
-     * @param subCondition
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SubCondition
+     * @return $this
      */
-    public function withSubCondition($value)
+    public function withSubCondition($SubCondition)
     {
-        $this->setSubCondition($value);
+        $this->setSubCondition($SubCondition);
         return $this;
     }
     /**
@@ -273,14 +263,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of FulfillmentChannel, return this.
      *
-     * @param fulfillmentChannel
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $FulfillmentChannel
+     * @return $this
      */
-    public function withFulfillmentChannel($value)
+    public function withFulfillmentChannel($FulfillmentChannel)
     {
-        $this->setFulfillmentChannel($value);
+        $this->setFulfillmentChannel($FulfillmentChannel);
         return $this;
     }
     /**
@@ -315,14 +303,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of YourPricePlusShipping, return this.
      *
-     * @param yourPricePlusShipping
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice $YourPricePlusShipping
+     * @return $this
      */
-    public function withYourPricePlusShipping($value)
+    public function withYourPricePlusShipping($YourPricePlusShipping)
     {
-        $this->setYourPricePlusShipping($value);
+        $this->setYourPricePlusShipping($YourPricePlusShipping);
         return $this;
     }
     /**
@@ -357,14 +343,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of LowestPricePlusShipping, return this.
      *
-     * @param lowestPricePlusShipping
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice $LowestPricePlusShipping
+     * @return $this
      */
-    public function withLowestPricePlusShipping($value)
+    public function withLowestPricePlusShipping($LowestPricePlusShipping)
     {
-        $this->setLowestPricePlusShipping($value);
+        $this->setLowestPricePlusShipping($LowestPricePlusShipping);
         return $this;
     }
     /**
@@ -399,14 +383,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of PriceDifferenceToLowPrice, return this.
      *
-     * @param priceDifferenceToLowPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice $PriceDifferenceToLowPrice
+     * @return $this
      */
-    public function withPriceDifferenceToLowPrice($value)
+    public function withPriceDifferenceToLowPrice($PriceDifferenceToLowPrice)
     {
-        $this->setPriceDifferenceToLowPrice($value);
+        $this->setPriceDifferenceToLowPrice($PriceDifferenceToLowPrice);
         return $this;
     }
     /**
@@ -441,14 +423,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of MedianPricePlusShipping, return this.
      *
-     * @param medianPricePlusShipping
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice $MedianPricePlusShipping
+     * @return $this
      */
-    public function withMedianPricePlusShipping($value)
+    public function withMedianPricePlusShipping($MedianPricePlusShipping)
     {
-        $this->setMedianPricePlusShipping($value);
+        $this->setMedianPricePlusShipping($MedianPricePlusShipping);
         return $this;
     }
     /**
@@ -483,14 +463,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of LowestMerchantFulfilledOfferPrice, return this.
      *
-     * @param lowestMerchantFulfilledOfferPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice $LowestMerchantFulfilledOfferPrice
+     * @return $this
      */
-    public function withLowestMerchantFulfilledOfferPrice($value)
+    public function withLowestMerchantFulfilledOfferPrice($LowestMerchantFulfilledOfferPrice)
     {
-        $this->setLowestMerchantFulfilledOfferPrice($value);
+        $this->setLowestMerchantFulfilledOfferPrice($LowestMerchantFulfilledOfferPrice);
         return $this;
     }
     /**
@@ -525,14 +503,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of LowestAmazonFulfilledOfferPrice, return this.
      *
-     * @param lowestAmazonFulfilledOfferPrice
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice $LowestAmazonFulfilledOfferPrice
+     * @return $this
      */
-    public function withLowestAmazonFulfilledOfferPrice($value)
+    public function withLowestAmazonFulfilledOfferPrice($LowestAmazonFulfilledOfferPrice)
     {
-        $this->setLowestAmazonFulfilledOfferPrice($value);
+        $this->setLowestAmazonFulfilledOfferPrice($LowestAmazonFulfilledOfferPrice);
         return $this;
     }
     /**
@@ -567,14 +543,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of NumberOfOffers, return this.
      *
-     * @param numberOfOffers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $NumberOfOffers
+     * @return $this
      */
-    public function withNumberOfOffers($value)
+    public function withNumberOfOffers($NumberOfOffers)
     {
-        $this->setNumberOfOffers($value);
+        $this->setNumberOfOffers($NumberOfOffers);
         return $this;
     }
     /**
@@ -609,14 +583,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of NumberOfMerchantFulfilledOffers, return this.
      *
-     * @param numberOfMerchantFulfilledOffers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $NumberOfMerchantFulfilledOffers
+     * @return $this
      */
-    public function withNumberOfMerchantFulfilledOffers($value)
+    public function withNumberOfMerchantFulfilledOffers($NumberOfMerchantFulfilledOffers)
     {
-        $this->setNumberOfMerchantFulfilledOffers($value);
+        $this->setNumberOfMerchantFulfilledOffers($NumberOfMerchantFulfilledOffers);
         return $this;
     }
     /**
@@ -651,14 +623,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of NumberOfAmazonFulfilledOffers, return this.
      *
-     * @param numberOfAmazonFulfilledOffers
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $NumberOfAmazonFulfilledOffers
+     * @return $this
      */
-    public function withNumberOfAmazonFulfilledOffers($value)
+    public function withNumberOfAmazonFulfilledOffers($NumberOfAmazonFulfilledOffers)
     {
-        $this->setNumberOfAmazonFulfilledOffers($value);
+        $this->setNumberOfAmazonFulfilledOffers($NumberOfAmazonFulfilledOffers);
         return $this;
     }
     /**
@@ -693,14 +663,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of RecommendationId, return this.
      *
-     * @param recommendationId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationId
+     * @return $this
      */
-    public function withRecommendationId($value)
+    public function withRecommendationId($RecommendationId)
     {
-        $this->setRecommendationId($value);
+        $this->setRecommendationId($RecommendationId);
         return $this;
     }
     /**
@@ -735,14 +703,12 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Set the value of RecommendationReason, return this.
      *
-     * @param recommendationReason
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $RecommendationReason
+     * @return $this
      */
-    public function withRecommendationReason($value)
+    public function withRecommendationReason($RecommendationReason)
     {
-        $this->setRecommendationReason($value);
+        $this->setRecommendationReason($RecommendationReason);
         return $this;
     }
 }

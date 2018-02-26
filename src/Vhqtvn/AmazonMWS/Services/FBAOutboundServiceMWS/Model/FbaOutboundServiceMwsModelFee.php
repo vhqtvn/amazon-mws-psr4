@@ -48,14 +48,12 @@ class FbaOutboundServiceMwsModelFee extends FbaOutboundServiceMwsModel
     /**
      * Set the value of Name, return this.
      *
-     * @param name
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $Name
+     * @return $this
      */
-    public function withName($value)
+    public function withName($Name)
     {
-        $this->setName($value);
+        $this->setName($Name);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class FbaOutboundServiceMwsModelFee extends FbaOutboundServiceMwsModel
     /**
      * Set the value of Amount, return this.
      *
-     * @param amount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency $Amount
+     * @return $this
      */
-    public function withAmount($value)
+    public function withAmount($Amount)
     {
-        $this->setAmount($value);
+        $this->setAmount($Amount);
         return $this;
     }
 }

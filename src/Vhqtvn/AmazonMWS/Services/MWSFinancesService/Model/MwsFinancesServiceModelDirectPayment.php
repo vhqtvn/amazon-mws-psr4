@@ -48,14 +48,12 @@ class MwsFinancesServiceModelDirectPayment extends MwsFinancesServiceModel
     /**
      * Set the value of DirectPaymentType, return this.
      *
-     * @param directPaymentType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DirectPaymentType
+     * @return $this
      */
-    public function withDirectPaymentType($value)
+    public function withDirectPaymentType($DirectPaymentType)
     {
-        $this->setDirectPaymentType($value);
+        $this->setDirectPaymentType($DirectPaymentType);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsFinancesServiceModelDirectPayment extends MwsFinancesServiceModel
     /**
      * Set the value of DirectPaymentAmount, return this.
      *
-     * @param directPaymentAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $DirectPaymentAmount
+     * @return $this
      */
-    public function withDirectPaymentAmount($value)
+    public function withDirectPaymentAmount($DirectPaymentAmount)
     {
-        $this->setDirectPaymentAmount($value);
+        $this->setDirectPaymentAmount($DirectPaymentAmount);
         return $this;
     }
 }

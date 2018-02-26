@@ -52,14 +52,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionListResult extends MarketplaceW
         return $this;
     }
     /**
-     * Sets the value of the NextToken and returns this instance
-     * 
-     * @param string $value NextToken
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListResult instance
+     * Set the value of NextToken, return this.
+     *
+     * @param string $NextToken
+     * @return $this
      */
-    public function withNextToken($value)
+    public function withNextToken($NextToken)
     {
-        $this->setNextToken($value);
+        $this->setNextToken($NextToken);
         return $this;
     }
     /**
@@ -92,14 +92,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionListResult extends MarketplaceW
         return $this;
     }
     /**
-     * Sets the value of the HasNext and returns this instance
-     * 
-     * @param bool $value HasNext
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListResult instance
+     * Set the value of HasNext, return this.
+     *
+     * @param bool $HasNext
+     * @return $this
      */
-    public function withHasNext($value)
+    public function withHasNext($HasNext)
     {
-        $this->setHasNext($value);
+        $this->setHasNext($HasNext);
         return $this;
     }
     /**
@@ -135,16 +135,14 @@ class MarketplaceWebServiceModelGetFeedSubmissionListResult extends MarketplaceW
         return $this;
     }
     /**
-     * Sets single or multiple values of FeedSubmissionInfo list via variable number of arguments. 
-     * For example, to set the list with two elements, simply pass two values as arguments to this function
-     * <code>withFeedSubmissionInfo($feedSubmissionInfo1, $feedSubmissionInfo2)</code>
-     * 
-     * @param FeedSubmissionInfo  $feedSubmissionInfoArgs one or more FeedSubmissionInfo
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListResult  instance
+     * Add values for FeedSubmissionInfo, return this.
+     *
+     * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo $FeedSubmissionInfo_array,...
+     * @return $this
      */
-    public function withFeedSubmissionInfo($feedSubmissionInfoArgs)
+    public function withFeedSubmissionInfo($feedSubmissionInfoArgs, ...$FeedSubmissionInfo_array)
     {
-        foreach (func_get_args() as $feedSubmissionInfo) {
+        foreach ($FeedSubmissionInfo_array as $feedSubmissionInfo) {
             $this->fields['FeedSubmissionInfo']['FieldValue'][] = $feedSubmissionInfo;
         }
         return $this;

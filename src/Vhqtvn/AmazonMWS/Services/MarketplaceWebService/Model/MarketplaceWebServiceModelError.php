@@ -54,14 +54,14 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the Type and returns this instance
-     * 
-     * @param string $value Type
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError instance
+     * Set the value of Type, return this.
+     *
+     * @param string $Type
+     * @return $this
      */
-    public function withType($value)
+    public function withType($Type)
     {
-        $this->setType($value);
+        $this->setType($Type);
         return $this;
     }
     /**
@@ -94,14 +94,14 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the Code and returns this instance
-     * 
-     * @param string $value Code
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError instance
+     * Set the value of Code, return this.
+     *
+     * @param string $Code
+     * @return $this
      */
-    public function withCode($value)
+    public function withCode($Code)
     {
-        $this->setCode($value);
+        $this->setCode($Code);
         return $this;
     }
     /**
@@ -134,14 +134,14 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
         return $this;
     }
     /**
-     * Sets the value of the Message and returns this instance
-     * 
-     * @param string $value Message
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError instance
+     * Set the value of Message, return this.
+     *
+     * @param string $Message
+     * @return $this
      */
-    public function withMessage($value)
+    public function withMessage($Message)
     {
-        $this->setMessage($value);
+        $this->setMessage($Message);
         return $this;
     }
     /**
@@ -174,14 +174,14 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
         return;
     }
     /**
-     * Sets the value of the Detail  and returns this instance
-     * 
-     * @param Object $value Detail
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError instance
+     * Set the value of Detail, return this.
+     *
+     * @param Error.Detail $Detail
+     * @return $this
      */
-    public function withDetail($value)
+    public function withDetail($Detail)
     {
-        $this->setDetail($value);
+        $this->setDetail($Detail);
         return $this;
     }
     /**

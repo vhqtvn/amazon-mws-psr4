@@ -51,14 +51,12 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Set the value of SellerId, return this.
      *
-     * @param sellerId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $SellerId
+     * @return $this
      */
-    public function withSellerId($value)
+    public function withSellerId($SellerId)
     {
-        $this->setSellerId($value);
+        $this->setSellerId($SellerId);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Set the value of MWSAuthToken, return this.
      *
-     * @param mwsAuthToken
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $MWSAuthToken
+     * @return $this
      */
-    public function withMWSAuthToken($value)
+    public function withMWSAuthToken($MWSAuthToken)
     {
-        $this->setMWSAuthToken($value);
+        $this->setMWSAuthToken($MWSAuthToken);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Set the value of ShipmentId, return this.
      *
-     * @param shipmentId
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $ShipmentId
+     * @return $this
      */
-    public function withShipmentId($value)
+    public function withShipmentId($ShipmentId)
     {
-        $this->setShipmentId($value);
+        $this->setShipmentId($ShipmentId);
         return $this;
     }
     /**
@@ -177,14 +171,12 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Set the value of PageType, return this.
      *
-     * @param pageType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $PageType
+     * @return $this
      */
-    public function withPageType($value)
+    public function withPageType($PageType)
     {
-        $this->setPageType($value);
+        $this->setPageType($PageType);
         return $this;
     }
     /**
@@ -219,14 +211,12 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Set the value of NumberOfPackages, return this.
      *
-     * @param numberOfPackages
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param int $NumberOfPackages
+     * @return $this
      */
-    public function withNumberOfPackages($value)
+    public function withNumberOfPackages($NumberOfPackages)
     {
-        $this->setNumberOfPackages($value);
+        $this->setNumberOfPackages($NumberOfPackages);
         return $this;
     }
 }

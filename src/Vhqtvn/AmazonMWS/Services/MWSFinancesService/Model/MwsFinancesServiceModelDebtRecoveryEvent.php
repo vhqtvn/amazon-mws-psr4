@@ -51,14 +51,12 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Set the value of DebtRecoveryType, return this.
      *
-     * @param debtRecoveryType
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $DebtRecoveryType
+     * @return $this
      */
-    public function withDebtRecoveryType($value)
+    public function withDebtRecoveryType($DebtRecoveryType)
     {
-        $this->setDebtRecoveryType($value);
+        $this->setDebtRecoveryType($DebtRecoveryType);
         return $this;
     }
     /**
@@ -93,14 +91,12 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Set the value of RecoveryAmount, return this.
      *
-     * @param recoveryAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $RecoveryAmount
+     * @return $this
      */
-    public function withRecoveryAmount($value)
+    public function withRecoveryAmount($RecoveryAmount)
     {
-        $this->setRecoveryAmount($value);
+        $this->setRecoveryAmount($RecoveryAmount);
         return $this;
     }
     /**
@@ -135,14 +131,12 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Set the value of OverPaymentCredit, return this.
      *
-     * @param overPaymentCredit
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency $OverPaymentCredit
+     * @return $this
      */
-    public function withOverPaymentCredit($value)
+    public function withOverPaymentCredit($OverPaymentCredit)
     {
-        $this->setOverPaymentCredit($value);
+        $this->setOverPaymentCredit($OverPaymentCredit);
         return $this;
     }
     /**
@@ -190,14 +184,12 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Add values for DebtRecoveryItemList, return this.
      *
-     * @param debtRecoveryItemList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelDebtRecoveryItem $DebtRecoveryItemList_array,...
+     * @return $this
      */
-    public function withDebtRecoveryItemList()
+    public function withDebtRecoveryItemList(...$DebtRecoveryItemList_array)
     {
-        foreach (func_get_args() as $DebtRecoveryItemList) {
+        foreach ($DebtRecoveryItemList_array as $DebtRecoveryItemList) {
             $this->_fields['DebtRecoveryItemList']['FieldValue'][] = $DebtRecoveryItemList;
         }
         return $this;
@@ -247,14 +239,12 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Add values for ChargeInstrumentList, return this.
      *
-     * @param chargeInstrumentList
-     *             New values to add.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeInstrument $ChargeInstrumentList_array,...
+     * @return $this
      */
-    public function withChargeInstrumentList()
+    public function withChargeInstrumentList(...$ChargeInstrumentList_array)
     {
-        foreach (func_get_args() as $ChargeInstrumentList) {
+        foreach ($ChargeInstrumentList_array as $ChargeInstrumentList) {
             $this->_fields['ChargeInstrumentList']['FieldValue'][] = $ChargeInstrumentList;
         }
         return $this;

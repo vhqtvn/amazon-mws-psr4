@@ -52,14 +52,12 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResponse extends FbaInb
     /**
      * Set the value of GetPrepInstructionsForASINResult, return this.
      *
-     * @param getPrepInstructionsForASINResult
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetPrepInstructionsForASINResult $GetPrepInstructionsForASINResult
+     * @return $this
      */
-    public function withGetPrepInstructionsForASINResult($value)
+    public function withGetPrepInstructionsForASINResult($GetPrepInstructionsForASINResult)
     {
-        $this->setGetPrepInstructionsForASINResult($value);
+        $this->setGetPrepInstructionsForASINResult($GetPrepInstructionsForASINResult);
         return $this;
     }
     /**
@@ -94,14 +92,12 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResponse extends FbaInb
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata $ResponseMetadata
+     * @return $this
      */
-    public function withResponseMetadata($value)
+    public function withResponseMetadata($ResponseMetadata)
     {
-        $this->setResponseMetadata($value);
+        $this->setResponseMetadata($ResponseMetadata);
         return $this;
     }
     /**
@@ -136,14 +132,12 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResponse extends FbaInb
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata $ResponseHeaderMetadata
+     * @return $this
      */
-    public function withResponseHeaderMetadata($value)
+    public function withResponseHeaderMetadata($ResponseHeaderMetadata)
     {
-        $this->setResponseHeaderMetadata($value);
+        $this->setResponseHeaderMetadata($ResponseHeaderMetadata);
         return $this;
     }
     /**

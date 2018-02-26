@@ -48,14 +48,12 @@ class MwsFinancesServiceModelCurrency extends MwsFinancesServiceModel
     /**
      * Set the value of CurrencyCode, return this.
      *
-     * @param currencyCode
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param string $CurrencyCode
+     * @return $this
      */
-    public function withCurrencyCode($value)
+    public function withCurrencyCode($CurrencyCode)
     {
-        $this->setCurrencyCode($value);
+        $this->setCurrencyCode($CurrencyCode);
         return $this;
     }
     /**
@@ -90,14 +88,12 @@ class MwsFinancesServiceModelCurrency extends MwsFinancesServiceModel
     /**
      * Set the value of CurrencyAmount, return this.
      *
-     * @param currencyAmount
-     *             The new value to set.
-     *
-     * @return $this .
+     * @param float $CurrencyAmount
+     * @return $this
      */
-    public function withCurrencyAmount($value)
+    public function withCurrencyAmount($CurrencyAmount)
     {
-        $this->setCurrencyAmount($value);
+        $this->setCurrencyAmount($CurrencyAmount);
         return $this;
     }
 }
