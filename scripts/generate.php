@@ -171,6 +171,11 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
                     return NodeTraverser::REMOVE_NODE;
                 }
             }
+            if ($node instanceof Node\Expr\FuncCall) {
+                if (((string)$node->name) == 'iconv_set_encoding') {
+                    return NodeTraverser::REMOVE_NODE;
+                }
+            }
         }
     });
     $ast = $traverser->traverse($ast);
