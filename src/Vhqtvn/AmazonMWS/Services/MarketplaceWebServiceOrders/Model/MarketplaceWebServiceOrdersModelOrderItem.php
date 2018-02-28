@@ -730,7 +730,7 @@ class MarketplaceWebServiceOrdersModelOrderItem extends MarketplaceWebServiceOrd
     /**
      * Add values for PromotionIds, return this.
      *
-     * @param \[] $PromotionIds_array,...
+     * @param \string[] $PromotionIds_array,...
      * @return $this
      */
     public function withPromotionIds(...$PromotionIds_array)

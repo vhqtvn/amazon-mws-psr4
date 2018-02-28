@@ -313,7 +313,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for OrderStatus, return this.
      *
-     * @param \[] $OrderStatus_array,...
+     * @param \string[] $OrderStatus_array,...
      * @return $this
      */
     public function withOrderStatus(...$OrderStatus_array)
@@ -368,7 +368,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for MarketplaceId, return this.
      *
-     * @param \[] $MarketplaceId_array,...
+     * @param \string[] $MarketplaceId_array,...
      * @return $this
      */
     public function withMarketplaceId(...$MarketplaceId_array)
@@ -423,7 +423,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for FulfillmentChannel, return this.
      *
-     * @param \[] $FulfillmentChannel_array,...
+     * @param \string[] $FulfillmentChannel_array,...
      * @return $this
      */
     public function withFulfillmentChannel(...$FulfillmentChannel_array)
@@ -478,7 +478,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for PaymentMethod, return this.
      *
-     * @param \[] $PaymentMethod_array,...
+     * @param \string[] $PaymentMethod_array,...
      * @return $this
      */
     public function withPaymentMethod(...$PaymentMethod_array)
@@ -653,7 +653,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Add values for TFMShipmentStatus, return this.
      *
-     * @param \[] $TFMShipmentStatus_array,...
+     * @param \string[] $TFMShipmentStatus_array,...
      * @return $this
      */
     public function withTFMShipmentStatus(...$TFMShipmentStatus_array)

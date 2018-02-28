@@ -429,7 +429,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Add values for AvailableLabelFormats, return this.
      *
-     * @param \[] $AvailableLabelFormats_array,...
+     * @param \string[] $AvailableLabelFormats_array,...
      * @return $this
      */
     public function withAvailableLabelFormats(...$AvailableLabelFormats_array)

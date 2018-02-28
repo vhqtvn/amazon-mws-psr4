@@ -710,7 +710,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Add values for PaymentMethodDetails, return this.
      *
-     * @param \[] $PaymentMethodDetails_array,...
+     * @param \string[] $PaymentMethodDetails_array,...
      * @return $this
      */
     public function withPaymentMethodDetails(...$PaymentMethodDetails_array)

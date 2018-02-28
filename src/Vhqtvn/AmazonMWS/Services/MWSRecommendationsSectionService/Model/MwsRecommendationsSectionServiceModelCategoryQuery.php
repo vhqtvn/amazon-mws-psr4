@@ -101,7 +101,7 @@ class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendati
     /**
      * Add values for FilterOptions, return this.
      *
-     * @param \[] $FilterOptions_array,...
+     * @param \string[] $FilterOptions_array,...
      * @return $this
      */
     public function withFilterOptions(...$FilterOptions_array)

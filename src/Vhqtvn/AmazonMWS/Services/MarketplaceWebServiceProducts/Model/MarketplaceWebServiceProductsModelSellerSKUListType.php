@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelSellerSKUListType extends MarketplaceWeb
     /**
      * Add values for SellerSKU, return this.
      *
-     * @param \[] $SellerSKU_array,...
+     * @param \string[] $SellerSKU_array,...
      * @return $this
      */
     public function withSellerSKU(...$SellerSKU_array)

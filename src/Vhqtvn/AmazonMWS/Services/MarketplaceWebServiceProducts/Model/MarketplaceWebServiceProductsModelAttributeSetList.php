@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelAttributeSetList extends MarketplaceWebS
     /**
      * Add values for Any, return this.
      *
-     * @param \[] $Any_array,...
+     * @param \object[] $Any_array,...
      * @return $this
      */
     public function withAny(...$Any_array)

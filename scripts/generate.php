@@ -330,6 +330,13 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
                             if ($type_transform === $type) {
                                 var_dump($type_transform, $type);
                                 exit;
+                            } else if ($type_transform === false) {
+                                if(in_array($type, ['string', 'object'])) {
+                                    $type_transform = $type;
+                                } else {
+                                    var_dump($type_transform, $type);
+                                    exit;
+                                }
                             }
                             $node->setDocComment(new PhpParser\Comment\Doc(
                                 "/**\n" .

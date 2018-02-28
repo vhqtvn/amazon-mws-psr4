@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelIdListType extends MarketplaceWebService
     /**
      * Add values for Id, return this.
      *
-     * @param \[] $Id_array,...
+     * @param \string[] $Id_array,...
      * @return $this
      */
     public function withId(...$Id_array)

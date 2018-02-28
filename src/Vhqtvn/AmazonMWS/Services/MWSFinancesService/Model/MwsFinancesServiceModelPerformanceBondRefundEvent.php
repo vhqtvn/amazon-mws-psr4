@@ -142,7 +142,7 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
     /**
      * Add values for ProductGroupList, return this.
      *
-     * @param \[] $ProductGroupList_array,...
+     * @param \string[] $ProductGroupList_array,...
      * @return $this
      */
     public function withProductGroupList(...$ProductGroupList_array)

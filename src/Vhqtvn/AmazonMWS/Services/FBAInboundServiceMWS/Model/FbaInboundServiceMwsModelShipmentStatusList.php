@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelShipmentStatusList extends FbaInboundServiceMwsMo
     /**
      * Add values for member, return this.
      *
-     * @param \[] $member_array,...
+     * @param \string[] $member_array,...
      * @return $this
      */
     public function withmember(...$member_array)
