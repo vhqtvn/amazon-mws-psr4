@@ -15,7 +15,7 @@ namespace Vhqtvn\AmazonMWS;
 /**
  * AmazonMWSModel - base class for all model classes
  */
-abstract class AmazonMWSModel
+abstract class __AmazonMWSModelBase
 {
 
     /** @var array */
@@ -72,7 +72,7 @@ abstract class AmazonMWSModel
      *   $action->setProperty('ABC')
      *
      * @param string $propertyName name of the property
-     * @param mixed  $propertyValue
+     * @param mixed $propertyValue
      *
      * @return $this
      */
@@ -192,7 +192,7 @@ abstract class AmazonMWSModel
                         }
                         if (count($elements) >= 1) {
                             foreach ($elements as $element) {
-                                $this->_fields[$fieldName]['FieldValue'][] = new $fieldType[0]($element);
+                                $this->_fields[$fieldName]['FieldValue'][] = $fieldType[0]::fromArray($element);
                             }
                         }
                     }
@@ -212,7 +212,7 @@ abstract class AmazonMWSModel
             } else {
                 if ($this->_isComplexType($fieldType)) {
                     if (array_key_exists($fieldName, $array)) {
-                        $this->_fields[$fieldName]['FieldValue'] = new $fieldType($array[$fieldName]);
+                        $this->_fields[$fieldName]['FieldValue'] = $fieldType::fromArray($array[$fieldName]);
                     }
                 } else {
                     if (array_key_exists($fieldName, $array)) {
@@ -437,4 +437,63 @@ abstract class AmazonMWSModel
         return ($sz === 0 || array_keys($var) === range(0, sizeof($var) - 1));
     }
 
+    /**
+     * Create a new model instance from given associative array
+     * @param array|static $array
+     * @return static
+     */
+    public static function fromArray($array)
+    {
+        if ($array instanceof static) return $array;
+        return new static($array);
+    }
+
+    /**
+     * Convert current model to associative array
+     * @param bool $with_null include the null properties or not
+     * @return array
+     */
+    public function toArray($with_null = false)
+    {
+        $array = [];
+        foreach ($this->_fields as $fieldName => $field) {
+            $fieldValue = $field['FieldValue'];
+            if (!is_null($fieldValue)) {
+                $fieldType = $field['FieldType'];
+                if (is_array($fieldType)) {
+                    $array_values = [];
+                    foreach ($fieldValue as $item) {
+                        $array_values [] = self::_toArray($item);
+                    }
+                    $array[$fieldName] = $array_values;
+                } else {
+                    $array[$fieldName] = self::_toArray($fieldValue);
+                }
+            } else if ($with_null) {
+                $array[$fieldName] = null;
+            }
+        }
+        return $array;
+    }
+
+    private static function _toArray($item)
+    {
+        if ($item instanceof self) {
+            return $item->toArray();
+        } else {
+            return $item;
+        }
+    }
+}
+
+if(class_exists(\Illuminate\Contracts\Support\Arrayable::class)) {
+    abstract class AmazonMWSModel extends __AmazonMWSModelBase implements \Illuminate\Contracts\Support\Arrayable
+    {
+
+    }
+} else {
+    abstract class AmazonMWSModel
+    {
+
+    }
 }
