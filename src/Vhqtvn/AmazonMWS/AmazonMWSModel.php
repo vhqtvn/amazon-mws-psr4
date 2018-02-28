@@ -486,13 +486,13 @@ abstract class __AmazonMWSModelBase
     }
 }
 
-if(class_exists(\Illuminate\Contracts\Support\Arrayable::class)) {
+if(interface_exists(\Illuminate\Contracts\Support\Arrayable::class)) {
     abstract class AmazonMWSModel extends __AmazonMWSModelBase implements \Illuminate\Contracts\Support\Arrayable
     {
 
     }
 } else {
-    abstract class AmazonMWSModel
+    abstract class AmazonMWSModel extends __AmazonMWSModelBase
     {
 
     }
