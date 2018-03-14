@@ -28,7 +28,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'NextToken' => array('FieldValue' => null, 'FieldType' => 'string'));
+        $this->_fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'NextToken' => array('FieldValue' => null, 'FieldType' => 'string'));
         parent::__construct($data);
     }
     /**
@@ -38,7 +38,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function getMarketplace()
     {
-        return $this->fields['Marketplace']['FieldValue'];
+        return $this->_fields['Marketplace']['FieldValue'];
     }
     /**
      * Sets the value of the Marketplace property.
@@ -48,7 +48,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function setMarketplace($value)
     {
-        $this->fields['Marketplace']['FieldValue'] = $value;
+        $this->_fields['Marketplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -69,7 +69,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function isSetMarketplace()
     {
-        return !is_null($this->fields['Marketplace']['FieldValue']);
+        return !is_null($this->_fields['Marketplace']['FieldValue']);
     }
     /**
      * Gets the value of the Merchant property.
@@ -78,7 +78,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function getMerchant()
     {
-        return $this->fields['Merchant']['FieldValue'];
+        return $this->_fields['Merchant']['FieldValue'];
     }
     /**
      * Sets the value of the Merchant property.
@@ -88,7 +88,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function setMerchant($value)
     {
-        $this->fields['Merchant']['FieldValue'] = $value;
+        $this->_fields['Merchant']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -109,7 +109,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function isSetMerchant()
     {
-        return !is_null($this->fields['Merchant']['FieldValue']);
+        return !is_null($this->_fields['Merchant']['FieldValue']);
     }
     /**
      * Gets the value of the MWSAuthToken property.
@@ -118,7 +118,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function getMWSAuthToken()
     {
-        return $this->fields['MWSAuthToken']['FieldValue'];
+        return $this->_fields['MWSAuthToken']['FieldValue'];
     }
     /**
      * Sets the value of the MWSAuthToken property.
@@ -128,7 +128,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function setMWSAuthToken($value)
     {
-        $this->fields['MWSAuthToken']['FieldValue'] = $value;
+        $this->_fields['MWSAuthToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -149,7 +149,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function isSetMWSAuthToken()
     {
-        return !is_null($this->fields['MWSAuthToken']['FieldValue']);
+        return !is_null($this->_fields['MWSAuthToken']['FieldValue']);
     }
     /**
      * Gets the value of the NextToken property.
@@ -158,7 +158,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function getNextToken()
     {
-        return $this->fields['NextToken']['FieldValue'];
+        return $this->_fields['NextToken']['FieldValue'];
     }
     /**
      * Sets the value of the NextToken property.
@@ -168,7 +168,7 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function setNextToken($value)
     {
-        $this->fields['NextToken']['FieldValue'] = $value;
+        $this->_fields['NextToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -189,6 +189,6 @@ class MarketplaceWebServiceModelGetReportRequestListByNextTokenRequest extends M
      */
     public function isSetNextToken()
     {
-        return !is_null($this->fields['NextToken']['FieldValue']);
+        return !is_null($this->_fields['NextToken']['FieldValue']);
     }
 }

@@ -28,7 +28,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      */
     public function __construct($data = null)
     {
-        $this->fields = array('NextToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'HasNext' => array('FieldValue' => null, 'FieldType' => 'bool'), 'ReportInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo::class)));
+        $this->_fields = array('NextToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'HasNext' => array('FieldValue' => null, 'FieldType' => 'bool'), 'ReportInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo::class)));
         parent::__construct($data);
     }
     /**
@@ -38,7 +38,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      */
     public function getNextToken()
     {
-        return $this->fields['NextToken']['FieldValue'];
+        return $this->_fields['NextToken']['FieldValue'];
     }
     /**
      * Sets the value of the NextToken property.
@@ -48,7 +48,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      */
     public function setNextToken($value)
     {
-        $this->fields['NextToken']['FieldValue'] = $value;
+        $this->_fields['NextToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -69,7 +69,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      */
     public function isSetNextToken()
     {
-        return !is_null($this->fields['NextToken']['FieldValue']);
+        return !is_null($this->_fields['NextToken']['FieldValue']);
     }
     /**
      * Gets the value of the HasNext property.
@@ -78,7 +78,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      */
     public function getHasNext()
     {
-        return $this->fields['HasNext']['FieldValue'];
+        return $this->_fields['HasNext']['FieldValue'];
     }
     /**
      * Sets the value of the HasNext property.
@@ -88,7 +88,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      */
     public function setHasNext($value)
     {
-        $this->fields['HasNext']['FieldValue'] = $value;
+        $this->_fields['HasNext']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -109,7 +109,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      */
     public function isSetHasNext()
     {
-        return !is_null($this->fields['HasNext']['FieldValue']);
+        return !is_null($this->_fields['HasNext']['FieldValue']);
     }
     /**
      * Gets the value of the ReportInfo.
@@ -118,7 +118,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      */
     public function getReportInfoList()
     {
-        return $this->fields['ReportInfo']['FieldValue'];
+        return $this->_fields['ReportInfo']['FieldValue'];
     }
     /**
      * Sets the value of the ReportInfo.
@@ -131,7 +131,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
         if (!$this->_isNumericArray($reportInfo)) {
             $reportInfo = array($reportInfo);
         }
-        $this->fields['ReportInfo']['FieldValue'] = $reportInfo;
+        $this->_fields['ReportInfo']['FieldValue'] = $reportInfo;
         return $this;
     }
     /**
@@ -140,10 +140,10 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo[] $ReportInfo_array,...
      * @return $this
      */
-    public function withReportInfo($reportInfoArgs, ...$ReportInfo_array)
+    public function withReportInfo(...$ReportInfo_array)
     {
         foreach ($ReportInfo_array as $reportInfo) {
-            $this->fields['ReportInfo']['FieldValue'][] = $reportInfo;
+            $this->_fields['ReportInfo']['FieldValue'][] = $reportInfo;
         }
         return $this;
     }
@@ -154,6 +154,6 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      */
     public function isSetReportInfo()
     {
-        return count($this->fields['ReportInfo']['FieldValue']) > 0;
+        return count($this->_fields['ReportInfo']['FieldValue']) > 0;
     }
 }

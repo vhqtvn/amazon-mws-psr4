@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function __construct($data = null)
     {
-        $this->fields = array('FeedSubmissionId' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedType' => array('FieldValue' => null, 'FieldType' => 'string'), 'SubmittedDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'FeedProcessingStatus' => array('FieldValue' => null, 'FieldType' => 'string'), 'StartedProcessingDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'CompletedProcessingDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
+        $this->_fields = array('FeedSubmissionId' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedType' => array('FieldValue' => null, 'FieldType' => 'string'), 'SubmittedDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'FeedProcessingStatus' => array('FieldValue' => null, 'FieldType' => 'string'), 'StartedProcessingDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'CompletedProcessingDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
         parent::__construct($data);
     }
     /**
@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function getFeedSubmissionId()
     {
-        return $this->fields['FeedSubmissionId']['FieldValue'];
+        return $this->_fields['FeedSubmissionId']['FieldValue'];
     }
     /**
      * Sets the value of the FeedSubmissionId property.
@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function setFeedSubmissionId($value)
     {
-        $this->fields['FeedSubmissionId']['FieldValue'] = $value;
+        $this->_fields['FeedSubmissionId']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -75,7 +75,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function isSetFeedSubmissionId()
     {
-        return !is_null($this->fields['FeedSubmissionId']['FieldValue']);
+        return !is_null($this->_fields['FeedSubmissionId']['FieldValue']);
     }
     /**
      * Gets the value of the FeedType property.
@@ -84,7 +84,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function getFeedType()
     {
-        return $this->fields['FeedType']['FieldValue'];
+        return $this->_fields['FeedType']['FieldValue'];
     }
     /**
      * Sets the value of the FeedType property.
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function setFeedType($value)
     {
-        $this->fields['FeedType']['FieldValue'] = $value;
+        $this->_fields['FeedType']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -115,7 +115,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function isSetFeedType()
     {
-        return !is_null($this->fields['FeedType']['FieldValue']);
+        return !is_null($this->_fields['FeedType']['FieldValue']);
     }
     /**
      * Gets the value of the SubmittedDate property.
@@ -124,7 +124,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function getSubmittedDate()
     {
-        return $this->fields['SubmittedDate']['FieldValue'];
+        return $this->_fields['SubmittedDate']['FieldValue'];
     }
     /**
      * Sets the value of the SubmittedDate property.
@@ -134,7 +134,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function setSubmittedDate($value)
     {
-        $this->fields['SubmittedDate']['FieldValue'] = $value;
+        $this->_fields['SubmittedDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -155,7 +155,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function isSetSubmittedDate()
     {
-        return !is_null($this->fields['SubmittedDate']['FieldValue']);
+        return !is_null($this->_fields['SubmittedDate']['FieldValue']);
     }
     /**
      * Gets the value of the FeedProcessingStatus property.
@@ -164,7 +164,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function getFeedProcessingStatus()
     {
-        return $this->fields['FeedProcessingStatus']['FieldValue'];
+        return $this->_fields['FeedProcessingStatus']['FieldValue'];
     }
     /**
      * Sets the value of the FeedProcessingStatus property.
@@ -174,7 +174,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function setFeedProcessingStatus($value)
     {
-        $this->fields['FeedProcessingStatus']['FieldValue'] = $value;
+        $this->_fields['FeedProcessingStatus']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -195,7 +195,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function isSetFeedProcessingStatus()
     {
-        return !is_null($this->fields['FeedProcessingStatus']['FieldValue']);
+        return !is_null($this->_fields['FeedProcessingStatus']['FieldValue']);
     }
     /**
      * Gets the value of the StartedProcessingDate property.
@@ -204,7 +204,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function getStartedProcessingDate()
     {
-        return $this->fields['StartedProcessingDate']['FieldValue'];
+        return $this->_fields['StartedProcessingDate']['FieldValue'];
     }
     /**
      * Sets the value of the StartedProcessingDate property.
@@ -214,7 +214,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function setStartedProcessingDate($value)
     {
-        $this->fields['StartedProcessingDate']['FieldValue'] = $value;
+        $this->_fields['StartedProcessingDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -235,7 +235,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function isSetStartedProcessingDate()
     {
-        return !is_null($this->fields['StartedProcessingDate']['FieldValue']);
+        return !is_null($this->_fields['StartedProcessingDate']['FieldValue']);
     }
     /**
      * Gets the value of the CompletedProcessingDate property.
@@ -244,7 +244,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function getCompletedProcessingDate()
     {
-        return $this->fields['CompletedProcessingDate']['FieldValue'];
+        return $this->_fields['CompletedProcessingDate']['FieldValue'];
     }
     /**
      * Sets the value of the CompletedProcessingDate property.
@@ -254,7 +254,7 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function setCompletedProcessingDate($value)
     {
-        $this->fields['CompletedProcessingDate']['FieldValue'] = $value;
+        $this->_fields['CompletedProcessingDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -275,6 +275,6 @@ class MarketplaceWebServiceModelFeedSubmissionInfo extends MarketplaceWebService
      */
     public function isSetCompletedProcessingDate()
     {
-        return !is_null($this->fields['CompletedProcessingDate']['FieldValue']);
+        return !is_null($this->_fields['CompletedProcessingDate']['FieldValue']);
     }
 }

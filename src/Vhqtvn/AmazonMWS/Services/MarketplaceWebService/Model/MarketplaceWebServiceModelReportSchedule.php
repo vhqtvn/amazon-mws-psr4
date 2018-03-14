@@ -28,7 +28,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function __construct($data = null)
     {
-        $this->fields = array('ReportType' => array('FieldValue' => null, 'FieldType' => 'string'), 'Schedule' => array('FieldValue' => null, 'FieldType' => 'string'), 'ScheduledDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
+        $this->_fields = array('ReportType' => array('FieldValue' => null, 'FieldType' => 'string'), 'Schedule' => array('FieldValue' => null, 'FieldType' => 'string'), 'ScheduledDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
         parent::__construct($data);
     }
     /**
@@ -38,7 +38,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function getReportType()
     {
-        return $this->fields['ReportType']['FieldValue'];
+        return $this->_fields['ReportType']['FieldValue'];
     }
     /**
      * Sets the value of the ReportType property.
@@ -48,7 +48,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function setReportType($value)
     {
-        $this->fields['ReportType']['FieldValue'] = $value;
+        $this->_fields['ReportType']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -69,7 +69,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function isSetReportType()
     {
-        return !is_null($this->fields['ReportType']['FieldValue']);
+        return !is_null($this->_fields['ReportType']['FieldValue']);
     }
     /**
      * Gets the value of the Schedule property.
@@ -78,7 +78,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function getSchedule()
     {
-        return $this->fields['Schedule']['FieldValue'];
+        return $this->_fields['Schedule']['FieldValue'];
     }
     /**
      * Sets the value of the Schedule property.
@@ -88,7 +88,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function setSchedule($value)
     {
-        $this->fields['Schedule']['FieldValue'] = $value;
+        $this->_fields['Schedule']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -109,7 +109,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function isSetSchedule()
     {
-        return !is_null($this->fields['Schedule']['FieldValue']);
+        return !is_null($this->_fields['Schedule']['FieldValue']);
     }
     /**
      * Gets the value of the ScheduledDate property.
@@ -118,7 +118,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function getScheduledDate()
     {
-        return $this->fields['ScheduledDate']['FieldValue'];
+        return $this->_fields['ScheduledDate']['FieldValue'];
     }
     /**
      * Sets the value of the ScheduledDate property.
@@ -128,7 +128,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function setScheduledDate($value)
     {
-        $this->fields['ScheduledDate']['FieldValue'] = $value;
+        $this->_fields['ScheduledDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -149,6 +149,6 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      */
     public function isSetScheduledDate()
     {
-        return !is_null($this->fields['ScheduledDate']['FieldValue']);
+        return !is_null($this->_fields['ScheduledDate']['FieldValue']);
     }
 }

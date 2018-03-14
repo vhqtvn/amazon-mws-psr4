@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
      */
     public function __construct($data = null)
     {
-        $this->fields = array('CancelFeedSubmissionsResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelFeedSubmissionsResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
+        $this->_fields = array('CancelFeedSubmissionsResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelFeedSubmissionsResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
      */
     public function getCancelFeedSubmissionsResult()
     {
-        return $this->fields['CancelFeedSubmissionsResult']['FieldValue'];
+        return $this->_fields['CancelFeedSubmissionsResult']['FieldValue'];
     }
     /**
      * Sets the value of the CancelFeedSubmissionsResult.
@@ -68,7 +68,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
      */
     public function setCancelFeedSubmissionsResult($value)
     {
-        $this->fields['CancelFeedSubmissionsResult']['FieldValue'] = $value;
+        $this->_fields['CancelFeedSubmissionsResult']['FieldValue'] = $value;
         return;
     }
     /**
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
      */
     public function isSetCancelFeedSubmissionsResult()
     {
-        return !is_null($this->fields['CancelFeedSubmissionsResult']['FieldValue']);
+        return !is_null($this->_fields['CancelFeedSubmissionsResult']['FieldValue']);
     }
     /**
      * Gets the value of the ResponseMetadata.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
      */
     public function getResponseMetadata()
     {
-        return $this->fields['ResponseMetadata']['FieldValue'];
+        return $this->_fields['ResponseMetadata']['FieldValue'];
     }
     /**
      * Sets the value of the ResponseMetadata.
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
      */
     public function setResponseMetadata($value)
     {
-        $this->fields['ResponseMetadata']['FieldValue'] = $value;
+        $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
     }
     /**
@@ -129,7 +129,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResponse extends Marketplac
      */
     public function isSetResponseMetadata()
     {
-        return !is_null($this->fields['ResponseMetadata']['FieldValue']);
+        return !is_null($this->_fields['ResponseMetadata']['FieldValue']);
     }
     /**
      * XML Representation for this object

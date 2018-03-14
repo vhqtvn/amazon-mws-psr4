@@ -30,7 +30,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportIdList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList::class), 'Acknowledged' => array('FieldValue' => null, 'FieldType' => 'bool'));
+        $this->_fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportIdList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList::class), 'Acknowledged' => array('FieldValue' => null, 'FieldType' => 'bool'));
         parent::__construct($data);
     }
     /**
@@ -40,7 +40,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function getMarketplace()
     {
-        return $this->fields['Marketplace']['FieldValue'];
+        return $this->_fields['Marketplace']['FieldValue'];
     }
     /**
      * Sets the value of the Marketplace property.
@@ -50,7 +50,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function setMarketplace($value)
     {
-        $this->fields['Marketplace']['FieldValue'] = $value;
+        $this->_fields['Marketplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -71,7 +71,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function isSetMarketplace()
     {
-        return !is_null($this->fields['Marketplace']['FieldValue']);
+        return !is_null($this->_fields['Marketplace']['FieldValue']);
     }
     /**
      * Gets the value of the Merchant property.
@@ -80,7 +80,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function getMerchant()
     {
-        return $this->fields['Merchant']['FieldValue'];
+        return $this->_fields['Merchant']['FieldValue'];
     }
     /**
      * Sets the value of the Merchant property.
@@ -90,7 +90,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function setMerchant($value)
     {
-        $this->fields['Merchant']['FieldValue'] = $value;
+        $this->_fields['Merchant']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -111,7 +111,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function isSetMerchant()
     {
-        return !is_null($this->fields['Merchant']['FieldValue']);
+        return !is_null($this->_fields['Merchant']['FieldValue']);
     }
     /**
      * Gets the value of the MWSAuthToken property.
@@ -120,7 +120,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function getMWSAuthToken()
     {
-        return $this->fields['MWSAuthToken']['FieldValue'];
+        return $this->_fields['MWSAuthToken']['FieldValue'];
     }
     /**
      * Sets the value of the MWSAuthToken property.
@@ -130,7 +130,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function setMWSAuthToken($value)
     {
-        $this->fields['MWSAuthToken']['FieldValue'] = $value;
+        $this->_fields['MWSAuthToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -151,7 +151,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function isSetMWSAuthToken()
     {
-        return !is_null($this->fields['MWSAuthToken']['FieldValue']);
+        return !is_null($this->_fields['MWSAuthToken']['FieldValue']);
     }
     /**
      * Gets the value of the ReportIdList.
@@ -160,7 +160,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function getReportIdList()
     {
-        return $this->fields['ReportIdList']['FieldValue'];
+        return $this->_fields['ReportIdList']['FieldValue'];
     }
     /**
      * Sets the value of the ReportIdList.
@@ -170,7 +170,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function setReportIdList($value)
     {
-        $this->fields['ReportIdList']['FieldValue'] = $value;
+        $this->_fields['ReportIdList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -191,7 +191,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function isSetReportIdList()
     {
-        return !is_null($this->fields['ReportIdList']['FieldValue']);
+        return !is_null($this->_fields['ReportIdList']['FieldValue']);
     }
     /**
      * Gets the value of the Acknowledged property.
@@ -200,7 +200,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function getAcknowledged()
     {
-        return $this->fields['Acknowledged']['FieldValue'];
+        return $this->_fields['Acknowledged']['FieldValue'];
     }
     /**
      * Sets the value of the Acknowledged property.
@@ -210,7 +210,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function setAcknowledged($value)
     {
-        $this->fields['Acknowledged']['FieldValue'] = $value;
+        $this->_fields['Acknowledged']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -231,6 +231,6 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      */
     public function isSetAcknowledged()
     {
-        return !is_null($this->fields['Acknowledged']['FieldValue']);
+        return !is_null($this->_fields['Acknowledged']['FieldValue']);
     }
 }

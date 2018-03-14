@@ -22,20 +22,20 @@ class MarketplaceWebServiceModelGetReportResult extends MarketplaceWebServiceMod
      */
     public function __construct($data = null)
     {
-        $this->fields = array('ContentMd5' => array('FieldValue' => null, 'FieldType' => 'string'));
+        $this->_fields = array('ContentMd5' => array('FieldValue' => null, 'FieldType' => 'string'));
         parent::__construct($data);
     }
     public function getContentMd5()
     {
-        return $this->fields['ContentMd5']['FieldValue'];
+        return $this->_fields['ContentMd5']['FieldValue'];
     }
     public function setContentMd5($value)
     {
-        $this->fields['ContentMd5']['FieldValue'] = $value;
+        $this->_fields['ContentMd5']['FieldValue'] = $value;
     }
     public function isSetContentMd5()
     {
-        return !is_null($this->fields['ContentMd5']['FieldValue']);
+        return !is_null($this->_fields['ContentMd5']['FieldValue']);
     }
     public function withContentMd5($value)
     {

@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function __construct($data = null)
     {
-        $this->fields = array('ReportId' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportType' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportRequestId' => array('FieldValue' => null, 'FieldType' => 'string'), 'AvailableDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'Acknowledged' => array('FieldValue' => null, 'FieldType' => 'bool'), 'AcknowledgedDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
+        $this->_fields = array('ReportId' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportType' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportRequestId' => array('FieldValue' => null, 'FieldType' => 'string'), 'AvailableDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'Acknowledged' => array('FieldValue' => null, 'FieldType' => 'bool'), 'AcknowledgedDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
         parent::__construct($data);
     }
     /**
@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function getReportId()
     {
-        return $this->fields['ReportId']['FieldValue'];
+        return $this->_fields['ReportId']['FieldValue'];
     }
     /**
      * Sets the value of the ReportId property.
@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function setReportId($value)
     {
-        $this->fields['ReportId']['FieldValue'] = $value;
+        $this->_fields['ReportId']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -75,7 +75,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function isSetReportId()
     {
-        return !is_null($this->fields['ReportId']['FieldValue']);
+        return !is_null($this->_fields['ReportId']['FieldValue']);
     }
     /**
      * Gets the value of the ReportType property.
@@ -84,7 +84,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function getReportType()
     {
-        return $this->fields['ReportType']['FieldValue'];
+        return $this->_fields['ReportType']['FieldValue'];
     }
     /**
      * Sets the value of the ReportType property.
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function setReportType($value)
     {
-        $this->fields['ReportType']['FieldValue'] = $value;
+        $this->_fields['ReportType']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -115,7 +115,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function isSetReportType()
     {
-        return !is_null($this->fields['ReportType']['FieldValue']);
+        return !is_null($this->_fields['ReportType']['FieldValue']);
     }
     /**
      * Gets the value of the ReportRequestId property.
@@ -124,7 +124,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function getReportRequestId()
     {
-        return $this->fields['ReportRequestId']['FieldValue'];
+        return $this->_fields['ReportRequestId']['FieldValue'];
     }
     /**
      * Sets the value of the ReportRequestId property.
@@ -134,7 +134,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function setReportRequestId($value)
     {
-        $this->fields['ReportRequestId']['FieldValue'] = $value;
+        $this->_fields['ReportRequestId']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -155,7 +155,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function isSetReportRequestId()
     {
-        return !is_null($this->fields['ReportRequestId']['FieldValue']);
+        return !is_null($this->_fields['ReportRequestId']['FieldValue']);
     }
     /**
      * Gets the value of the AvailableDate property.
@@ -164,7 +164,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function getAvailableDate()
     {
-        return $this->fields['AvailableDate']['FieldValue'];
+        return $this->_fields['AvailableDate']['FieldValue'];
     }
     /**
      * Sets the value of the AvailableDate property.
@@ -174,7 +174,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function setAvailableDate($value)
     {
-        $this->fields['AvailableDate']['FieldValue'] = $value;
+        $this->_fields['AvailableDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -195,7 +195,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function isSetAvailableDate()
     {
-        return !is_null($this->fields['AvailableDate']['FieldValue']);
+        return !is_null($this->_fields['AvailableDate']['FieldValue']);
     }
     /**
      * Gets the value of the Acknowledged property.
@@ -204,7 +204,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function getAcknowledged()
     {
-        return $this->fields['Acknowledged']['FieldValue'];
+        return $this->_fields['Acknowledged']['FieldValue'];
     }
     /**
      * Sets the value of the Acknowledged property.
@@ -214,7 +214,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function setAcknowledged($value)
     {
-        $this->fields['Acknowledged']['FieldValue'] = $value;
+        $this->_fields['Acknowledged']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -235,7 +235,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function isSetAcknowledged()
     {
-        return !is_null($this->fields['Acknowledged']['FieldValue']);
+        return !is_null($this->_fields['Acknowledged']['FieldValue']);
     }
     /**
      * Gets the value of the AcknowledgedDate property.
@@ -244,7 +244,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function getAcknowledgedDate()
     {
-        return $this->fields['AcknowledgedDate']['FieldValue'];
+        return $this->_fields['AcknowledgedDate']['FieldValue'];
     }
     /**
      * Sets the value of the AcknowledgedDate property.
@@ -254,7 +254,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function setAcknowledgedDate($value)
     {
-        $this->fields['AcknowledgedDate']['FieldValue'] = $value;
+        $this->_fields['AcknowledgedDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -275,6 +275,6 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      */
     public function isSetAcknowledgedDate()
     {
-        return !is_null($this->fields['AcknowledgedDate']['FieldValue']);
+        return !is_null($this->_fields['AcknowledgedDate']['FieldValue']);
     }
 }

@@ -28,7 +28,7 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      */
     public function __construct($data = null)
     {
-        $this->fields = array('NextToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'HasNext' => array('FieldValue' => null, 'FieldType' => 'bool'), 'ReportSchedule' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule::class)));
+        $this->_fields = array('NextToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'HasNext' => array('FieldValue' => null, 'FieldType' => 'bool'), 'ReportSchedule' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule::class)));
         parent::__construct($data);
     }
     /**
@@ -38,7 +38,7 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      */
     public function getNextToken()
     {
-        return $this->fields['NextToken']['FieldValue'];
+        return $this->_fields['NextToken']['FieldValue'];
     }
     /**
      * Sets the value of the NextToken property.
@@ -48,7 +48,7 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      */
     public function setNextToken($value)
     {
-        $this->fields['NextToken']['FieldValue'] = $value;
+        $this->_fields['NextToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -69,7 +69,7 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      */
     public function isSetNextToken()
     {
-        return !is_null($this->fields['NextToken']['FieldValue']);
+        return !is_null($this->_fields['NextToken']['FieldValue']);
     }
     /**
      * Gets the value of the HasNext property.
@@ -78,7 +78,7 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      */
     public function getHasNext()
     {
-        return $this->fields['HasNext']['FieldValue'];
+        return $this->_fields['HasNext']['FieldValue'];
     }
     /**
      * Sets the value of the HasNext property.
@@ -88,7 +88,7 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      */
     public function setHasNext($value)
     {
-        $this->fields['HasNext']['FieldValue'] = $value;
+        $this->_fields['HasNext']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -109,7 +109,7 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      */
     public function isSetHasNext()
     {
-        return !is_null($this->fields['HasNext']['FieldValue']);
+        return !is_null($this->_fields['HasNext']['FieldValue']);
     }
     /**
      * Gets the value of the ReportSchedule.
@@ -118,7 +118,7 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      */
     public function getReportScheduleList()
     {
-        return $this->fields['ReportSchedule']['FieldValue'];
+        return $this->_fields['ReportSchedule']['FieldValue'];
     }
     /**
      * Sets the value of the ReportSchedule.
@@ -131,7 +131,7 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
         if (!$this->_isNumericArray($reportSchedule)) {
             $reportSchedule = array($reportSchedule);
         }
-        $this->fields['ReportSchedule']['FieldValue'] = $reportSchedule;
+        $this->_fields['ReportSchedule']['FieldValue'] = $reportSchedule;
         return $this;
     }
     /**
@@ -140,10 +140,10 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule[] $ReportSchedule_array,...
      * @return $this
      */
-    public function withReportSchedule($reportScheduleArgs, ...$ReportSchedule_array)
+    public function withReportSchedule(...$ReportSchedule_array)
     {
         foreach ($ReportSchedule_array as $reportSchedule) {
-            $this->fields['ReportSchedule']['FieldValue'][] = $reportSchedule;
+            $this->_fields['ReportSchedule']['FieldValue'][] = $reportSchedule;
         }
         return $this;
     }
@@ -154,6 +154,6 @@ class MarketplaceWebServiceModelGetReportScheduleListResult extends MarketplaceW
      */
     public function isSetReportSchedule()
     {
-        return count($this->fields['ReportSchedule']['FieldValue']) > 0;
+        return count($this->_fields['ReportSchedule']['FieldValue']) > 0;
     }
 }

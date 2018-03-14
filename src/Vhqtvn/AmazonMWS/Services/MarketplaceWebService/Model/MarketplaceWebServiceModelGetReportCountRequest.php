@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportTypeList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList::class), 'Acknowledged' => array('FieldValue' => null, 'FieldType' => 'bool'), 'AvailableFromDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'AvailableToDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
+        $this->_fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportTypeList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList::class), 'Acknowledged' => array('FieldValue' => null, 'FieldType' => 'bool'), 'AvailableFromDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'AvailableToDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
         parent::__construct($data);
     }
     /**
@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function getMarketplace()
     {
-        return $this->fields['Marketplace']['FieldValue'];
+        return $this->_fields['Marketplace']['FieldValue'];
     }
     /**
      * Sets the value of the Marketplace property.
@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function setMarketplace($value)
     {
-        $this->fields['Marketplace']['FieldValue'] = $value;
+        $this->_fields['Marketplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -75,7 +75,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function isSetMarketplace()
     {
-        return !is_null($this->fields['Marketplace']['FieldValue']);
+        return !is_null($this->_fields['Marketplace']['FieldValue']);
     }
     /**
      * Gets the value of the Merchant property.
@@ -84,7 +84,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function getMerchant()
     {
-        return $this->fields['Merchant']['FieldValue'];
+        return $this->_fields['Merchant']['FieldValue'];
     }
     /**
      * Sets the value of the Merchant property.
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function setMerchant($value)
     {
-        $this->fields['Merchant']['FieldValue'] = $value;
+        $this->_fields['Merchant']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -115,7 +115,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function isSetMerchant()
     {
-        return !is_null($this->fields['Merchant']['FieldValue']);
+        return !is_null($this->_fields['Merchant']['FieldValue']);
     }
     /**
      * Gets the value of the MWSAuthToken property.
@@ -124,7 +124,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function getMWSAuthToken()
     {
-        return $this->fields['MWSAuthToken']['FieldValue'];
+        return $this->_fields['MWSAuthToken']['FieldValue'];
     }
     /**
      * Sets the value of the MWSAuthToken property.
@@ -134,7 +134,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function setMWSAuthToken($value)
     {
-        $this->fields['MWSAuthToken']['FieldValue'] = $value;
+        $this->_fields['MWSAuthToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -155,7 +155,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function isSetMWSAuthToken()
     {
-        return !is_null($this->fields['MWSAuthToken']['FieldValue']);
+        return !is_null($this->_fields['MWSAuthToken']['FieldValue']);
     }
     /**
      * Gets the value of the ReportTypeList.
@@ -164,7 +164,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function getReportTypeList()
     {
-        return $this->fields['ReportTypeList']['FieldValue'];
+        return $this->_fields['ReportTypeList']['FieldValue'];
     }
     /**
      * Sets the value of the ReportTypeList.
@@ -174,7 +174,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function setReportTypeList($value)
     {
-        $this->fields['ReportTypeList']['FieldValue'] = $value;
+        $this->_fields['ReportTypeList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -195,7 +195,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function isSetReportTypeList()
     {
-        return !is_null($this->fields['ReportTypeList']['FieldValue']);
+        return !is_null($this->_fields['ReportTypeList']['FieldValue']);
     }
     /**
      * Gets the value of the Acknowledged property.
@@ -204,7 +204,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function getAcknowledged()
     {
-        return $this->fields['Acknowledged']['FieldValue'];
+        return $this->_fields['Acknowledged']['FieldValue'];
     }
     /**
      * Sets the value of the Acknowledged property.
@@ -214,7 +214,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function setAcknowledged($value)
     {
-        $this->fields['Acknowledged']['FieldValue'] = $value;
+        $this->_fields['Acknowledged']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -235,7 +235,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function isSetAcknowledged()
     {
-        return !is_null($this->fields['Acknowledged']['FieldValue']);
+        return !is_null($this->_fields['Acknowledged']['FieldValue']);
     }
     /**
      * Gets the value of the AvailableFromDate property.
@@ -244,7 +244,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function getAvailableFromDate()
     {
-        return $this->fields['AvailableFromDate']['FieldValue'];
+        return $this->_fields['AvailableFromDate']['FieldValue'];
     }
     /**
      * Sets the value of the AvailableFromDate property.
@@ -254,7 +254,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function setAvailableFromDate($value)
     {
-        $this->fields['AvailableFromDate']['FieldValue'] = $value;
+        $this->_fields['AvailableFromDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -275,7 +275,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function isSetAvailableFromDate()
     {
-        return !is_null($this->fields['AvailableFromDate']['FieldValue']);
+        return !is_null($this->_fields['AvailableFromDate']['FieldValue']);
     }
     /**
      * Gets the value of the AvailableToDate property.
@@ -284,7 +284,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function getAvailableToDate()
     {
-        return $this->fields['AvailableToDate']['FieldValue'];
+        return $this->_fields['AvailableToDate']['FieldValue'];
     }
     /**
      * Sets the value of the AvailableToDate property.
@@ -294,7 +294,7 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function setAvailableToDate($value)
     {
-        $this->fields['AvailableToDate']['FieldValue'] = $value;
+        $this->_fields['AvailableToDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -315,6 +315,6 @@ class MarketplaceWebServiceModelGetReportCountRequest extends MarketplaceWebServ
      */
     public function isSetAvailableToDate()
     {
-        return !is_null($this->fields['AvailableToDate']['FieldValue']);
+        return !is_null($this->_fields['AvailableToDate']['FieldValue']);
     }
 }

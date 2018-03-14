@@ -328,6 +328,7 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
                                 ]
                             ]
                         ])) {
+                            $node->params = [];
                             $doc = $node->getDocComment();
                             exec($cmd = 'php ' . implode(' ', array_map('escapeshellarg', [
                                     base_path('/scripts/tools/get_field_type.php'),
@@ -605,6 +606,9 @@ function final_text_transform($src_path, $code, $lib_name, $dst_ns, $base_ns)
 
     $prettyPrinter = new PrettyPrinter\Standard(['shortArraySyntax' => true]);
     $code = $prettyPrinter->prettyPrintFile($ast);
+
+    $code = str_replace('->isNumericArray', '->_isNumericArray', $code);
+    $code = str_replace('this->fields', 'this->_fields', $code);
 
     $code = str_replace('$quotaMax = null, $quotaMax = null, ', '$quotaMax = null, $quotaRemaining = null, ', $code);
     $code = str_replace('$this->metadata[self::QUOTA_REMAINING] = $quotaMax;', '$this->metadata[self::QUOTA_REMAINING] = $quotaRemaining;', $code);

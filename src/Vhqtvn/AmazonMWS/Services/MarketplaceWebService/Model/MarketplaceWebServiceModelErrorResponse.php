@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Error' => array('FieldValue' => array(), 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError::class), 'RequestId' => array('FieldValue' => null, 'FieldType' => 'string'));
+        $this->_fields = array('Error' => array('FieldValue' => array(), 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError::class), 'RequestId' => array('FieldValue' => null, 'FieldType' => 'string'));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
      */
     public function getError()
     {
-        return $this->fields['Error']['FieldValue'];
+        return $this->_fields['Error']['FieldValue'];
     }
     /**
      * Sets the value of the Error.
@@ -71,7 +71,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
         if (!$this->_isNumericArray($error)) {
             $error = array($error);
         }
-        $this->fields['Error']['FieldValue'] = $error;
+        $this->_fields['Error']['FieldValue'] = $error;
         return $this;
     }
     /**
@@ -80,10 +80,10 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelError[] $Error_array,...
      * @return $this
      */
-    public function withError($errorArgs, ...$Error_array)
+    public function withError(...$Error_array)
     {
         foreach ($Error_array as $error) {
-            $this->fields['Error']['FieldValue'][] = $error;
+            $this->_fields['Error']['FieldValue'][] = $error;
         }
         return $this;
     }
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
      */
     public function isSetError()
     {
-        return count($this->fields['Error']['FieldValue']) > 0;
+        return count($this->_fields['Error']['FieldValue']) > 0;
     }
     /**
      * Gets the value of the RequestId property.
@@ -103,7 +103,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
      */
     public function getRequestId()
     {
-        return $this->fields['RequestId']['FieldValue'];
+        return $this->_fields['RequestId']['FieldValue'];
     }
     /**
      * Sets the value of the RequestId property.
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
      */
     public function setRequestId($value)
     {
-        $this->fields['RequestId']['FieldValue'] = $value;
+        $this->_fields['RequestId']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -134,7 +134,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
      */
     public function isSetRequestId()
     {
-        return !is_null($this->fields['RequestId']['FieldValue']);
+        return !is_null($this->_fields['RequestId']['FieldValue']);
     }
     /**
      * XML Representation for this object

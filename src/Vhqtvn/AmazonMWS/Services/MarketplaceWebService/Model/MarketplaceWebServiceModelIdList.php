@@ -24,7 +24,7 @@ class MarketplaceWebServiceModelIdList extends MarketplaceWebServiceModel
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Id' => array('FieldValue' => array(), 'FieldType' => array('string')));
+        $this->_fields = array('Id' => array('FieldValue' => array(), 'FieldType' => array('string')));
         parent::__construct($data);
     }
     /**
@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelIdList extends MarketplaceWebServiceModel
      */
     public function getId()
     {
-        return $this->fields['Id']['FieldValue'];
+        return $this->_fields['Id']['FieldValue'];
     }
     /**
      * Sets the value of the Id.
@@ -44,10 +44,10 @@ class MarketplaceWebServiceModelIdList extends MarketplaceWebServiceModel
      */
     public function setId($id)
     {
-        if (!$this->isNumericArray($id)) {
+        if (!$this->_isNumericArray($id)) {
             $id = array($id);
         }
-        $this->fields['Id']['FieldValue'] = $id;
+        $this->_fields['Id']['FieldValue'] = $id;
         return $this;
     }
     /**
@@ -56,10 +56,10 @@ class MarketplaceWebServiceModelIdList extends MarketplaceWebServiceModel
      * @param \string[] $Id_array,...
      * @return $this
      */
-    public function withId($stringArgs, ...$Id_array)
+    public function withId(...$Id_array)
     {
         foreach ($Id_array as $id) {
-            $this->fields['Id']['FieldValue'][] = $id;
+            $this->_fields['Id']['FieldValue'][] = $id;
         }
         return $this;
     }
@@ -70,6 +70,6 @@ class MarketplaceWebServiceModelIdList extends MarketplaceWebServiceModel
      */
     public function isSetId()
     {
-        return count($this->fields['Id']['FieldValue']) > 0;
+        return count($this->_fields['Id']['FieldValue']) > 0;
     }
 }

@@ -26,7 +26,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'), 'FeedSubmissionInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo::class)));
+        $this->_fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'), 'FeedSubmissionInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo::class)));
         parent::__construct($data);
     }
     /**
@@ -36,7 +36,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
      */
     public function getCount()
     {
-        return $this->fields['Count']['FieldValue'];
+        return $this->_fields['Count']['FieldValue'];
     }
     /**
      * Sets the value of the Count property.
@@ -46,7 +46,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
      */
     public function setCount($value)
     {
-        $this->fields['Count']['FieldValue'] = $value;
+        $this->_fields['Count']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -67,7 +67,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
      */
     public function isSetCount()
     {
-        return !is_null($this->fields['Count']['FieldValue']);
+        return !is_null($this->_fields['Count']['FieldValue']);
     }
     /**
      * Gets the value of the FeedSubmissionInfo.
@@ -76,7 +76,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
      */
     public function getFeedSubmissionInfoList()
     {
-        return $this->fields['FeedSubmissionInfo']['FieldValue'];
+        return $this->_fields['FeedSubmissionInfo']['FieldValue'];
     }
     /**
      * Sets the value of the FeedSubmissionInfo.
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
         if (!$this->_isNumericArray($feedSubmissionInfo)) {
             $feedSubmissionInfo = array($feedSubmissionInfo);
         }
-        $this->fields['FeedSubmissionInfo']['FieldValue'] = $feedSubmissionInfo;
+        $this->_fields['FeedSubmissionInfo']['FieldValue'] = $feedSubmissionInfo;
         return $this;
     }
     /**
@@ -98,10 +98,10 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo[] $FeedSubmissionInfo_array,...
      * @return $this
      */
-    public function withFeedSubmissionInfo($feedSubmissionInfoArgs, ...$FeedSubmissionInfo_array)
+    public function withFeedSubmissionInfo(...$FeedSubmissionInfo_array)
     {
         foreach ($FeedSubmissionInfo_array as $feedSubmissionInfo) {
-            $this->fields['FeedSubmissionInfo']['FieldValue'][] = $feedSubmissionInfo;
+            $this->_fields['FeedSubmissionInfo']['FieldValue'][] = $feedSubmissionInfo;
         }
         return $this;
     }
@@ -112,6 +112,6 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsResult extends MarketplaceW
      */
     public function isSetFeedSubmissionInfo()
     {
-        return count($this->fields['FeedSubmissionInfo']['FieldValue']) > 0;
+        return count($this->_fields['FeedSubmissionInfo']['FieldValue']) > 0;
     }
 }

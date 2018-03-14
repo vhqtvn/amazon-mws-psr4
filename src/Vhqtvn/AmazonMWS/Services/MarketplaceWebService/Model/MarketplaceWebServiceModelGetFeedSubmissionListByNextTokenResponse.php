@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
      */
     public function __construct($data = null)
     {
-        $this->fields = array('GetFeedSubmissionListByNextTokenResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
+        $this->_fields = array('GetFeedSubmissionListByNextTokenResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
      */
     public function getGetFeedSubmissionListByNextTokenResult()
     {
-        return $this->fields['GetFeedSubmissionListByNextTokenResult']['FieldValue'];
+        return $this->_fields['GetFeedSubmissionListByNextTokenResult']['FieldValue'];
     }
     /**
      * Sets the value of the GetFeedSubmissionListByNextTokenResult.
@@ -68,7 +68,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
      */
     public function setGetFeedSubmissionListByNextTokenResult($value)
     {
-        $this->fields['GetFeedSubmissionListByNextTokenResult']['FieldValue'] = $value;
+        $this->_fields['GetFeedSubmissionListByNextTokenResult']['FieldValue'] = $value;
         return;
     }
     /**
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
      */
     public function isSetGetFeedSubmissionListByNextTokenResult()
     {
-        return !is_null($this->fields['GetFeedSubmissionListByNextTokenResult']['FieldValue']);
+        return !is_null($this->_fields['GetFeedSubmissionListByNextTokenResult']['FieldValue']);
     }
     /**
      * Gets the value of the ResponseMetadata.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
      */
     public function getResponseMetadata()
     {
-        return $this->fields['ResponseMetadata']['FieldValue'];
+        return $this->_fields['ResponseMetadata']['FieldValue'];
     }
     /**
      * Sets the value of the ResponseMetadata.
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
      */
     public function setResponseMetadata($value)
     {
-        $this->fields['ResponseMetadata']['FieldValue'] = $value;
+        $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
     }
     /**
@@ -129,7 +129,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListByNextTokenResponse extends
      */
     public function isSetResponseMetadata()
     {
-        return !is_null($this->fields['ResponseMetadata']['FieldValue']);
+        return !is_null($this->_fields['ResponseMetadata']['FieldValue']);
     }
     /**
      * XML Representation for this object

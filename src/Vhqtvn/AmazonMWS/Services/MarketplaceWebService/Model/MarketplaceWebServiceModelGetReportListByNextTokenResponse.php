@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
      */
     public function __construct($data = null)
     {
-        $this->fields = array('GetReportListByNextTokenResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListByNextTokenResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
+        $this->_fields = array('GetReportListByNextTokenResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListByNextTokenResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
      */
     public function getGetReportListByNextTokenResult()
     {
-        return $this->fields['GetReportListByNextTokenResult']['FieldValue'];
+        return $this->_fields['GetReportListByNextTokenResult']['FieldValue'];
     }
     /**
      * Sets the value of the GetReportListByNextTokenResult.
@@ -68,7 +68,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
      */
     public function setGetReportListByNextTokenResult($value)
     {
-        $this->fields['GetReportListByNextTokenResult']['FieldValue'] = $value;
+        $this->_fields['GetReportListByNextTokenResult']['FieldValue'] = $value;
         return;
     }
     /**
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
      */
     public function isSetGetReportListByNextTokenResult()
     {
-        return !is_null($this->fields['GetReportListByNextTokenResult']['FieldValue']);
+        return !is_null($this->_fields['GetReportListByNextTokenResult']['FieldValue']);
     }
     /**
      * Gets the value of the ResponseMetadata.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
      */
     public function getResponseMetadata()
     {
-        return $this->fields['ResponseMetadata']['FieldValue'];
+        return $this->_fields['ResponseMetadata']['FieldValue'];
     }
     /**
      * Sets the value of the ResponseMetadata.
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
      */
     public function setResponseMetadata($value)
     {
-        $this->fields['ResponseMetadata']['FieldValue'] = $value;
+        $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
     }
     /**
@@ -129,7 +129,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
      */
     public function isSetResponseMetadata()
     {
-        return !is_null($this->fields['ResponseMetadata']['FieldValue']);
+        return !is_null($this->_fields['ResponseMetadata']['FieldValue']);
     }
     /**
      * XML Representation for this object

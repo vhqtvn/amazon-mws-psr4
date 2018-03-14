@@ -28,7 +28,7 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      */
     public function __construct($data = null)
     {
-        $this->fields = array('NextToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'HasNext' => array('FieldValue' => null, 'FieldType' => 'bool'), 'ReportRequestInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo::class)));
+        $this->_fields = array('NextToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'HasNext' => array('FieldValue' => null, 'FieldType' => 'bool'), 'ReportRequestInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo::class)));
         parent::__construct($data);
     }
     /**
@@ -38,7 +38,7 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      */
     public function getNextToken()
     {
-        return $this->fields['NextToken']['FieldValue'];
+        return $this->_fields['NextToken']['FieldValue'];
     }
     /**
      * Sets the value of the NextToken property.
@@ -48,7 +48,7 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      */
     public function setNextToken($value)
     {
-        $this->fields['NextToken']['FieldValue'] = $value;
+        $this->_fields['NextToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -69,7 +69,7 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      */
     public function isSetNextToken()
     {
-        return !is_null($this->fields['NextToken']['FieldValue']);
+        return !is_null($this->_fields['NextToken']['FieldValue']);
     }
     /**
      * Gets the value of the HasNext property.
@@ -78,7 +78,7 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      */
     public function getHasNext()
     {
-        return $this->fields['HasNext']['FieldValue'];
+        return $this->_fields['HasNext']['FieldValue'];
     }
     /**
      * Sets the value of the HasNext property.
@@ -88,7 +88,7 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      */
     public function setHasNext($value)
     {
-        $this->fields['HasNext']['FieldValue'] = $value;
+        $this->_fields['HasNext']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -109,7 +109,7 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      */
     public function isSetHasNext()
     {
-        return !is_null($this->fields['HasNext']['FieldValue']);
+        return !is_null($this->_fields['HasNext']['FieldValue']);
     }
     /**
      * Gets the value of the ReportRequestInfo.
@@ -118,7 +118,7 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      */
     public function getReportRequestInfoList()
     {
-        return $this->fields['ReportRequestInfo']['FieldValue'];
+        return $this->_fields['ReportRequestInfo']['FieldValue'];
     }
     /**
      * Sets the value of the ReportRequestInfo.
@@ -131,7 +131,7 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
         if (!$this->_isNumericArray($reportRequestInfo)) {
             $reportRequestInfo = array($reportRequestInfo);
         }
-        $this->fields['ReportRequestInfo']['FieldValue'] = $reportRequestInfo;
+        $this->_fields['ReportRequestInfo']['FieldValue'] = $reportRequestInfo;
         return $this;
     }
     /**
@@ -140,10 +140,10 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo[] $ReportRequestInfo_array,...
      * @return $this
      */
-    public function withReportRequestInfo($reportRequestInfoArgs, ...$ReportRequestInfo_array)
+    public function withReportRequestInfo(...$ReportRequestInfo_array)
     {
         foreach ($ReportRequestInfo_array as $reportRequestInfo) {
-            $this->fields['ReportRequestInfo']['FieldValue'][] = $reportRequestInfo;
+            $this->_fields['ReportRequestInfo']['FieldValue'][] = $reportRequestInfo;
         }
         return $this;
     }
@@ -154,6 +154,6 @@ class MarketplaceWebServiceModelGetReportRequestListResult extends MarketplaceWe
      */
     public function isSetReportRequestInfo()
     {
-        return count($this->fields['ReportRequestInfo']['FieldValue']) > 0;
+        return count($this->_fields['ReportRequestInfo']['FieldValue']) > 0;
     }
 }

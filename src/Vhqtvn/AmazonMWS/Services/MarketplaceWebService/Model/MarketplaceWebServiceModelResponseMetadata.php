@@ -24,7 +24,7 @@ class MarketplaceWebServiceModelResponseMetadata extends MarketplaceWebServiceMo
      */
     public function __construct($data = null)
     {
-        $this->fields = array('RequestId' => array('FieldValue' => null, 'FieldType' => 'string'));
+        $this->_fields = array('RequestId' => array('FieldValue' => null, 'FieldType' => 'string'));
         parent::__construct($data);
     }
     /**
@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelResponseMetadata extends MarketplaceWebServiceMo
      */
     public function getRequestId()
     {
-        return $this->fields['RequestId']['FieldValue'];
+        return $this->_fields['RequestId']['FieldValue'];
     }
     /**
      * Sets the value of the RequestId property.
@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelResponseMetadata extends MarketplaceWebServiceMo
      */
     public function setRequestId($value)
     {
-        $this->fields['RequestId']['FieldValue'] = $value;
+        $this->_fields['RequestId']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -65,6 +65,6 @@ class MarketplaceWebServiceModelResponseMetadata extends MarketplaceWebServiceMo
      */
     public function isSetRequestId()
     {
-        return !is_null($this->fields['RequestId']['FieldValue']);
+        return !is_null($this->_fields['RequestId']['FieldValue']);
     }
 }

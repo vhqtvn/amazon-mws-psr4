@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
      */
     public function __construct($data = null)
     {
-        $this->fields = array('SubmitFeedResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelSubmitFeedResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
+        $this->_fields = array('SubmitFeedResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelSubmitFeedResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
      */
     public function getSubmitFeedResult()
     {
-        return $this->fields['SubmitFeedResult']['FieldValue'];
+        return $this->_fields['SubmitFeedResult']['FieldValue'];
     }
     /**
      * Sets the value of the SubmitFeedResult.
@@ -68,7 +68,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
      */
     public function setSubmitFeedResult($value)
     {
-        $this->fields['SubmitFeedResult']['FieldValue'] = $value;
+        $this->_fields['SubmitFeedResult']['FieldValue'] = $value;
         return;
     }
     /**
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
      */
     public function isSetSubmitFeedResult()
     {
-        return !is_null($this->fields['SubmitFeedResult']['FieldValue']);
+        return !is_null($this->_fields['SubmitFeedResult']['FieldValue']);
     }
     /**
      * Gets the value of the ResponseMetadata.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
      */
     public function getResponseMetadata()
     {
-        return $this->fields['ResponseMetadata']['FieldValue'];
+        return $this->_fields['ResponseMetadata']['FieldValue'];
     }
     /**
      * Sets the value of the ResponseMetadata.
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
      */
     public function setResponseMetadata($value)
     {
-        $this->fields['ResponseMetadata']['FieldValue'] = $value;
+        $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
     }
     /**
@@ -129,7 +129,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
      */
     public function isSetResponseMetadata()
     {
-        return !is_null($this->fields['ResponseMetadata']['FieldValue']);
+        return !is_null($this->_fields['ResponseMetadata']['FieldValue']);
     }
     /**
      * XML Representation for this object

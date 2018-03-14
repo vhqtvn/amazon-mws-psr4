@@ -24,7 +24,7 @@ class MarketplaceWebServiceModelSubmitFeedResult extends MarketplaceWebServiceMo
      */
     public function __construct($data = null)
     {
-        $this->fields = array('FeedSubmissionInfo' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo::class));
+        $this->_fields = array('FeedSubmissionInfo' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo::class));
         parent::__construct($data);
     }
     /**
@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelSubmitFeedResult extends MarketplaceWebServiceMo
      */
     public function getFeedSubmissionInfo()
     {
-        return $this->fields['FeedSubmissionInfo']['FieldValue'];
+        return $this->_fields['FeedSubmissionInfo']['FieldValue'];
     }
     /**
      * Sets the value of the FeedSubmissionInfo.
@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelSubmitFeedResult extends MarketplaceWebServiceMo
      */
     public function setFeedSubmissionInfo($value)
     {
-        $this->fields['FeedSubmissionInfo']['FieldValue'] = $value;
+        $this->_fields['FeedSubmissionInfo']['FieldValue'] = $value;
         return;
     }
     /**
@@ -65,6 +65,6 @@ class MarketplaceWebServiceModelSubmitFeedResult extends MarketplaceWebServiceMo
      */
     public function isSetFeedSubmissionInfo()
     {
-        return !is_null($this->fields['FeedSubmissionInfo']['FieldValue']);
+        return !is_null($this->_fields['FeedSubmissionInfo']['FieldValue']);
     }
 }

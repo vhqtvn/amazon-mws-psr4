@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
      */
     public function __construct($data = null)
     {
-        $this->fields = array('GetReportScheduleListByNextTokenResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
+        $this->_fields = array('GetReportScheduleListByNextTokenResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
      */
     public function getGetReportScheduleListByNextTokenResult()
     {
-        return $this->fields['GetReportScheduleListByNextTokenResult']['FieldValue'];
+        return $this->_fields['GetReportScheduleListByNextTokenResult']['FieldValue'];
     }
     /**
      * Sets the value of the GetReportScheduleListByNextTokenResult.
@@ -68,7 +68,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
      */
     public function setGetReportScheduleListByNextTokenResult($value)
     {
-        $this->fields['GetReportScheduleListByNextTokenResult']['FieldValue'] = $value;
+        $this->_fields['GetReportScheduleListByNextTokenResult']['FieldValue'] = $value;
         return;
     }
     /**
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
      */
     public function isSetGetReportScheduleListByNextTokenResult()
     {
-        return !is_null($this->fields['GetReportScheduleListByNextTokenResult']['FieldValue']);
+        return !is_null($this->_fields['GetReportScheduleListByNextTokenResult']['FieldValue']);
     }
     /**
      * Gets the value of the ResponseMetadata.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
      */
     public function getResponseMetadata()
     {
-        return $this->fields['ResponseMetadata']['FieldValue'];
+        return $this->_fields['ResponseMetadata']['FieldValue'];
     }
     /**
      * Sets the value of the ResponseMetadata.
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
      */
     public function setResponseMetadata($value)
     {
-        $this->fields['ResponseMetadata']['FieldValue'] = $value;
+        $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
     }
     /**
@@ -129,7 +129,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
      */
     public function isSetResponseMetadata()
     {
-        return !is_null($this->fields['ResponseMetadata']['FieldValue']);
+        return !is_null($this->_fields['ResponseMetadata']['FieldValue']);
     }
     /**
      * XML Representation for this object

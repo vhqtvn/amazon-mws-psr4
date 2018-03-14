@@ -24,7 +24,7 @@ class MarketplaceWebServiceModelStatusList extends MarketplaceWebServiceModel
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Status' => array('FieldValue' => array(), 'FieldType' => array('string')));
+        $this->_fields = array('Status' => array('FieldValue' => array(), 'FieldType' => array('string')));
         parent::__construct($data);
     }
     /**
@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelStatusList extends MarketplaceWebServiceModel
      */
     public function getStatus()
     {
-        return $this->fields['Status']['FieldValue'];
+        return $this->_fields['Status']['FieldValue'];
     }
     /**
      * Sets the value of the Status.
@@ -44,10 +44,10 @@ class MarketplaceWebServiceModelStatusList extends MarketplaceWebServiceModel
      */
     public function setStatus($status)
     {
-        if (!$this->isNumericArray($status)) {
+        if (!$this->_isNumericArray($status)) {
             $status = array($status);
         }
-        $this->fields['Status']['FieldValue'] = $status;
+        $this->_fields['Status']['FieldValue'] = $status;
         return $this;
     }
     /**
@@ -56,10 +56,10 @@ class MarketplaceWebServiceModelStatusList extends MarketplaceWebServiceModel
      * @param \string[] $Status_array,...
      * @return $this
      */
-    public function withStatus($stringArgs, ...$Status_array)
+    public function withStatus(...$Status_array)
     {
         foreach ($Status_array as $status) {
-            $this->fields['Status']['FieldValue'][] = $status;
+            $this->_fields['Status']['FieldValue'][] = $status;
         }
         return $this;
     }
@@ -70,6 +70,6 @@ class MarketplaceWebServiceModelStatusList extends MarketplaceWebServiceModel
      */
     public function isSetStatus()
     {
-        return count($this->fields['Status']['FieldValue']) > 0;
+        return count($this->_fields['Status']['FieldValue']) > 0;
     }
 }

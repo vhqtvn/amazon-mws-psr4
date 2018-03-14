@@ -38,7 +38,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function __construct($data = null)
     {
-        $this->fields = array('ReportRequestId' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportType' => array('FieldValue' => null, 'FieldType' => 'string'), 'StartDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'EndDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'Scheduled' => array('FieldValue' => null, 'FieldType' => 'bool'), 'SubmittedDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'ReportProcessingStatus' => array('FieldValue' => null, 'FieldType' => 'string'), 'GeneratedReportId' => array('FieldValue' => null, 'FieldType' => 'string'), 'StartedProcessingDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'CompletedDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
+        $this->_fields = array('ReportRequestId' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportType' => array('FieldValue' => null, 'FieldType' => 'string'), 'StartDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'EndDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'Scheduled' => array('FieldValue' => null, 'FieldType' => 'bool'), 'SubmittedDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'ReportProcessingStatus' => array('FieldValue' => null, 'FieldType' => 'string'), 'GeneratedReportId' => array('FieldValue' => null, 'FieldType' => 'string'), 'StartedProcessingDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'CompletedDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
         parent::__construct($data);
     }
     /**
@@ -48,7 +48,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getReportRequestId()
     {
-        return $this->fields['ReportRequestId']['FieldValue'];
+        return $this->_fields['ReportRequestId']['FieldValue'];
     }
     /**
      * Sets the value of the ReportRequestId property.
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setReportRequestId($value)
     {
-        $this->fields['ReportRequestId']['FieldValue'] = $value;
+        $this->_fields['ReportRequestId']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -79,7 +79,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetReportRequestId()
     {
-        return !is_null($this->fields['ReportRequestId']['FieldValue']);
+        return !is_null($this->_fields['ReportRequestId']['FieldValue']);
     }
     /**
      * Gets the value of the ReportType property.
@@ -88,7 +88,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getReportType()
     {
-        return $this->fields['ReportType']['FieldValue'];
+        return $this->_fields['ReportType']['FieldValue'];
     }
     /**
      * Sets the value of the ReportType property.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setReportType($value)
     {
-        $this->fields['ReportType']['FieldValue'] = $value;
+        $this->_fields['ReportType']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -119,7 +119,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetReportType()
     {
-        return !is_null($this->fields['ReportType']['FieldValue']);
+        return !is_null($this->_fields['ReportType']['FieldValue']);
     }
     /**
      * Gets the value of the StartDate property.
@@ -128,7 +128,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getStartDate()
     {
-        return $this->fields['StartDate']['FieldValue'];
+        return $this->_fields['StartDate']['FieldValue'];
     }
     /**
      * Sets the value of the StartDate property.
@@ -138,7 +138,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setStartDate($value)
     {
-        $this->fields['StartDate']['FieldValue'] = $value;
+        $this->_fields['StartDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -159,7 +159,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetStartDate()
     {
-        return !is_null($this->fields['StartDate']['FieldValue']);
+        return !is_null($this->_fields['StartDate']['FieldValue']);
     }
     /**
      * Gets the value of the EndDate property.
@@ -168,7 +168,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getEndDate()
     {
-        return $this->fields['EndDate']['FieldValue'];
+        return $this->_fields['EndDate']['FieldValue'];
     }
     /**
      * Sets the value of the EndDate property.
@@ -178,7 +178,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setEndDate($value)
     {
-        $this->fields['EndDate']['FieldValue'] = $value;
+        $this->_fields['EndDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -199,7 +199,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetEndDate()
     {
-        return !is_null($this->fields['EndDate']['FieldValue']);
+        return !is_null($this->_fields['EndDate']['FieldValue']);
     }
     /**
      * Gets the value of the Scheduled property.
@@ -208,7 +208,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getScheduled()
     {
-        return $this->fields['Scheduled']['FieldValue'];
+        return $this->_fields['Scheduled']['FieldValue'];
     }
     /**
      * Sets the value of the Scheduled property.
@@ -218,7 +218,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setScheduled($value)
     {
-        $this->fields['Scheduled']['FieldValue'] = $value;
+        $this->_fields['Scheduled']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -239,7 +239,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetScheduled()
     {
-        return !is_null($this->fields['Scheduled']['FieldValue']);
+        return !is_null($this->_fields['Scheduled']['FieldValue']);
     }
     /**
      * Gets the value of the SubmittedDate property.
@@ -248,7 +248,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getSubmittedDate()
     {
-        return $this->fields['SubmittedDate']['FieldValue'];
+        return $this->_fields['SubmittedDate']['FieldValue'];
     }
     /**
      * Sets the value of the SubmittedDate property.
@@ -258,7 +258,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setSubmittedDate($value)
     {
-        $this->fields['SubmittedDate']['FieldValue'] = $value;
+        $this->_fields['SubmittedDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -279,7 +279,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetSubmittedDate()
     {
-        return !is_null($this->fields['SubmittedDate']['FieldValue']);
+        return !is_null($this->_fields['SubmittedDate']['FieldValue']);
     }
     /**
      * Gets the value of the ReportProcessingStatus property.
@@ -288,7 +288,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getReportProcessingStatus()
     {
-        return $this->fields['ReportProcessingStatus']['FieldValue'];
+        return $this->_fields['ReportProcessingStatus']['FieldValue'];
     }
     /**
      * Sets the value of the ReportProcessingStatus property.
@@ -298,7 +298,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setReportProcessingStatus($value)
     {
-        $this->fields['ReportProcessingStatus']['FieldValue'] = $value;
+        $this->_fields['ReportProcessingStatus']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -319,7 +319,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetReportProcessingStatus()
     {
-        return !is_null($this->fields['ReportProcessingStatus']['FieldValue']);
+        return !is_null($this->_fields['ReportProcessingStatus']['FieldValue']);
     }
     /**
      * Gets the value of the GeneratedReportId property.
@@ -328,7 +328,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getGeneratedReportId()
     {
-        return $this->fields['GeneratedReportId']['FieldValue'];
+        return $this->_fields['GeneratedReportId']['FieldValue'];
     }
     /**
      * Sets the value of the GeneratedReportId property.
@@ -338,7 +338,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setGeneratedReportId($value)
     {
-        $this->fields['GeneratedReportId']['FieldValue'] = $value;
+        $this->_fields['GeneratedReportId']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -359,7 +359,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetGeneratedReportId()
     {
-        return !is_null($this->fields['GeneratedReportId']['FieldValue']);
+        return !is_null($this->_fields['GeneratedReportId']['FieldValue']);
     }
     /**
      * Gets the value of the StartedProcessingDate property.
@@ -368,7 +368,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getStartedProcessingDate()
     {
-        return $this->fields['StartedProcessingDate']['FieldValue'];
+        return $this->_fields['StartedProcessingDate']['FieldValue'];
     }
     /**
      * Sets the value of the StartedProcessingDate property.
@@ -378,7 +378,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setStartedProcessingDate($value)
     {
-        $this->fields['StartedProcessingDate']['FieldValue'] = $value;
+        $this->_fields['StartedProcessingDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -399,7 +399,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetStartedProcessingDate()
     {
-        return !is_null($this->fields['StartedProcessingDate']['FieldValue']);
+        return !is_null($this->_fields['StartedProcessingDate']['FieldValue']);
     }
     /**
      * Gets the value of the CompletedDate property.
@@ -408,7 +408,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function getCompletedDate()
     {
-        return $this->fields['CompletedDate']['FieldValue'];
+        return $this->_fields['CompletedDate']['FieldValue'];
     }
     /**
      * Sets the value of the CompletedDate property.
@@ -418,7 +418,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function setCompletedDate($value)
     {
-        $this->fields['CompletedDate']['FieldValue'] = $value;
+        $this->_fields['CompletedDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -439,6 +439,6 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      */
     public function isSetCompletedDate()
     {
-        return !is_null($this->fields['CompletedDate']['FieldValue']);
+        return !is_null($this->_fields['CompletedDate']['FieldValue']);
     }
 }

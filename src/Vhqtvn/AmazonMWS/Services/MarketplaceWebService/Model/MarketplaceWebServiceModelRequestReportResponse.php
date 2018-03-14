@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
      */
     public function __construct($data = null)
     {
-        $this->fields = array('RequestReportResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelRequestReportResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
+        $this->_fields = array('RequestReportResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelRequestReportResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
      */
     public function getRequestReportResult()
     {
-        return $this->fields['RequestReportResult']['FieldValue'];
+        return $this->_fields['RequestReportResult']['FieldValue'];
     }
     /**
      * Sets the value of the RequestReportResult.
@@ -68,7 +68,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
      */
     public function setRequestReportResult($value)
     {
-        $this->fields['RequestReportResult']['FieldValue'] = $value;
+        $this->_fields['RequestReportResult']['FieldValue'] = $value;
         return;
     }
     /**
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
      */
     public function isSetRequestReportResult()
     {
-        return !is_null($this->fields['RequestReportResult']['FieldValue']);
+        return !is_null($this->_fields['RequestReportResult']['FieldValue']);
     }
     /**
      * Gets the value of the ResponseMetadata.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
      */
     public function getResponseMetadata()
     {
-        return $this->fields['ResponseMetadata']['FieldValue'];
+        return $this->_fields['ResponseMetadata']['FieldValue'];
     }
     /**
      * Sets the value of the ResponseMetadata.
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
      */
     public function setResponseMetadata($value)
     {
-        $this->fields['ResponseMetadata']['FieldValue'] = $value;
+        $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
     }
     /**
@@ -129,7 +129,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
      */
     public function isSetResponseMetadata()
     {
-        return !is_null($this->fields['ResponseMetadata']['FieldValue']);
+        return !is_null($this->_fields['ResponseMetadata']['FieldValue']);
     }
     /**
      * XML Representation for this object

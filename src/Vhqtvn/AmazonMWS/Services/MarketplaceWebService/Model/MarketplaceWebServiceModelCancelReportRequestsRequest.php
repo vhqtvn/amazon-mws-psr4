@@ -36,7 +36,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportRequestIdList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList::class), 'ReportTypeList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList::class), 'ReportProcessingStatusList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList::class), 'RequestedFromDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'RequestedToDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
+        $this->_fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportRequestIdList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList::class), 'ReportTypeList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList::class), 'ReportProcessingStatusList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList::class), 'RequestedFromDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'RequestedToDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
         parent::__construct($data);
     }
     /**
@@ -46,7 +46,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function getMarketplace()
     {
-        return $this->fields['Marketplace']['FieldValue'];
+        return $this->_fields['Marketplace']['FieldValue'];
     }
     /**
      * Sets the value of the Marketplace property.
@@ -56,7 +56,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function setMarketplace($value)
     {
-        $this->fields['Marketplace']['FieldValue'] = $value;
+        $this->_fields['Marketplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -77,7 +77,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function isSetMarketplace()
     {
-        return !is_null($this->fields['Marketplace']['FieldValue']);
+        return !is_null($this->_fields['Marketplace']['FieldValue']);
     }
     /**
      * Gets the value of the Merchant property.
@@ -86,7 +86,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function getMerchant()
     {
-        return $this->fields['Merchant']['FieldValue'];
+        return $this->_fields['Merchant']['FieldValue'];
     }
     /**
      * Sets the value of the Merchant property.
@@ -96,7 +96,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function setMerchant($value)
     {
-        $this->fields['Merchant']['FieldValue'] = $value;
+        $this->_fields['Merchant']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -117,7 +117,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function isSetMerchant()
     {
-        return !is_null($this->fields['Merchant']['FieldValue']);
+        return !is_null($this->_fields['Merchant']['FieldValue']);
     }
     /**
      * Gets the value of the MWSAuthToken property.
@@ -126,7 +126,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function getMWSAuthToken()
     {
-        return $this->fields['MWSAuthToken']['FieldValue'];
+        return $this->_fields['MWSAuthToken']['FieldValue'];
     }
     /**
      * Sets the value of the MWSAuthToken property.
@@ -136,7 +136,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function setMWSAuthToken($value)
     {
-        $this->fields['MWSAuthToken']['FieldValue'] = $value;
+        $this->_fields['MWSAuthToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -157,7 +157,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function isSetMWSAuthToken()
     {
-        return !is_null($this->fields['MWSAuthToken']['FieldValue']);
+        return !is_null($this->_fields['MWSAuthToken']['FieldValue']);
     }
     /**
      * Gets the value of the ReportRequestIdList.
@@ -166,7 +166,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function getReportRequestIdList()
     {
-        return $this->fields['ReportRequestIdList']['FieldValue'];
+        return $this->_fields['ReportRequestIdList']['FieldValue'];
     }
     /**
      * Sets the value of the ReportRequestIdList.
@@ -176,7 +176,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function setReportRequestIdList($value)
     {
-        $this->fields['ReportRequestIdList']['FieldValue'] = $value;
+        $this->_fields['ReportRequestIdList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -197,7 +197,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function isSetReportRequestIdList()
     {
-        return !is_null($this->fields['ReportRequestIdList']['FieldValue']);
+        return !is_null($this->_fields['ReportRequestIdList']['FieldValue']);
     }
     /**
      * Gets the value of the ReportTypeList.
@@ -206,7 +206,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function getReportTypeList()
     {
-        return $this->fields['ReportTypeList']['FieldValue'];
+        return $this->_fields['ReportTypeList']['FieldValue'];
     }
     /**
      * Sets the value of the ReportTypeList.
@@ -216,7 +216,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function setReportTypeList($value)
     {
-        $this->fields['ReportTypeList']['FieldValue'] = $value;
+        $this->_fields['ReportTypeList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -237,7 +237,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function isSetReportTypeList()
     {
-        return !is_null($this->fields['ReportTypeList']['FieldValue']);
+        return !is_null($this->_fields['ReportTypeList']['FieldValue']);
     }
     /**
      * Gets the value of the ReportProcessingStatusList.
@@ -246,7 +246,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function getReportProcessingStatusList()
     {
-        return $this->fields['ReportProcessingStatusList']['FieldValue'];
+        return $this->_fields['ReportProcessingStatusList']['FieldValue'];
     }
     /**
      * Sets the value of the ReportProcessingStatusList.
@@ -256,7 +256,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function setReportProcessingStatusList($value)
     {
-        $this->fields['ReportProcessingStatusList']['FieldValue'] = $value;
+        $this->_fields['ReportProcessingStatusList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -277,7 +277,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function isSetReportProcessingStatusList()
     {
-        return !is_null($this->fields['ReportProcessingStatusList']['FieldValue']);
+        return !is_null($this->_fields['ReportProcessingStatusList']['FieldValue']);
     }
     /**
      * Gets the value of the RequestedFromDate property.
@@ -286,7 +286,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function getRequestedFromDate()
     {
-        return $this->fields['RequestedFromDate']['FieldValue'];
+        return $this->_fields['RequestedFromDate']['FieldValue'];
     }
     /**
      * Sets the value of the RequestedFromDate property.
@@ -296,7 +296,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function setRequestedFromDate($value)
     {
-        $this->fields['RequestedFromDate']['FieldValue'] = $value;
+        $this->_fields['RequestedFromDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -317,7 +317,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function isSetRequestedFromDate()
     {
-        return !is_null($this->fields['RequestedFromDate']['FieldValue']);
+        return !is_null($this->_fields['RequestedFromDate']['FieldValue']);
     }
     /**
      * Gets the value of the RequestedToDate property.
@@ -326,7 +326,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function getRequestedToDate()
     {
-        return $this->fields['RequestedToDate']['FieldValue'];
+        return $this->_fields['RequestedToDate']['FieldValue'];
     }
     /**
      * Sets the value of the RequestedToDate property.
@@ -336,7 +336,7 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function setRequestedToDate($value)
     {
-        $this->fields['RequestedToDate']['FieldValue'] = $value;
+        $this->_fields['RequestedToDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -357,6 +357,6 @@ class MarketplaceWebServiceModelCancelReportRequestsRequest extends MarketplaceW
      */
     public function isSetRequestedToDate()
     {
-        return !is_null($this->fields['RequestedToDate']['FieldValue']);
+        return !is_null($this->_fields['RequestedToDate']['FieldValue']);
     }
 }

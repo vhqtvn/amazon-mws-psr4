@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedTypeList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList::class), 'FeedProcessingStatusList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList::class), 'SubmittedFromDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'SubmittedToDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
+        $this->_fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedTypeList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList::class), 'FeedProcessingStatusList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList::class), 'SubmittedFromDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'SubmittedToDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
         parent::__construct($data);
     }
     /**
@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function getMarketplace()
     {
-        return $this->fields['Marketplace']['FieldValue'];
+        return $this->_fields['Marketplace']['FieldValue'];
     }
     /**
      * Sets the value of the Marketplace property.
@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function setMarketplace($value)
     {
-        $this->fields['Marketplace']['FieldValue'] = $value;
+        $this->_fields['Marketplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -75,7 +75,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function isSetMarketplace()
     {
-        return !is_null($this->fields['Marketplace']['FieldValue']);
+        return !is_null($this->_fields['Marketplace']['FieldValue']);
     }
     /**
      * Gets the value of the Merchant property.
@@ -84,7 +84,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function getMerchant()
     {
-        return $this->fields['Merchant']['FieldValue'];
+        return $this->_fields['Merchant']['FieldValue'];
     }
     /**
      * Sets the value of the Merchant property.
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function setMerchant($value)
     {
-        $this->fields['Merchant']['FieldValue'] = $value;
+        $this->_fields['Merchant']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -115,7 +115,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function isSetMerchant()
     {
-        return !is_null($this->fields['Merchant']['FieldValue']);
+        return !is_null($this->_fields['Merchant']['FieldValue']);
     }
     /**
      * Gets the value of the MWSAuthToken property.
@@ -124,7 +124,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function getMWSAuthToken()
     {
-        return $this->fields['MWSAuthToken']['FieldValue'];
+        return $this->_fields['MWSAuthToken']['FieldValue'];
     }
     /**
      * Sets the value of the MWSAuthToken property.
@@ -134,7 +134,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function setMWSAuthToken($value)
     {
-        $this->fields['MWSAuthToken']['FieldValue'] = $value;
+        $this->_fields['MWSAuthToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -155,7 +155,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function isSetMWSAuthToken()
     {
-        return !is_null($this->fields['MWSAuthToken']['FieldValue']);
+        return !is_null($this->_fields['MWSAuthToken']['FieldValue']);
     }
     /**
      * Gets the value of the FeedTypeList.
@@ -164,7 +164,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function getFeedTypeList()
     {
-        return $this->fields['FeedTypeList']['FieldValue'];
+        return $this->_fields['FeedTypeList']['FieldValue'];
     }
     /**
      * Sets the value of the FeedTypeList.
@@ -174,7 +174,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function setFeedTypeList($value)
     {
-        $this->fields['FeedTypeList']['FieldValue'] = $value;
+        $this->_fields['FeedTypeList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -195,7 +195,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function isSetFeedTypeList()
     {
-        return !is_null($this->fields['FeedTypeList']['FieldValue']);
+        return !is_null($this->_fields['FeedTypeList']['FieldValue']);
     }
     /**
      * Gets the value of the FeedProcessingStatusList.
@@ -204,7 +204,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function getFeedProcessingStatusList()
     {
-        return $this->fields['FeedProcessingStatusList']['FieldValue'];
+        return $this->_fields['FeedProcessingStatusList']['FieldValue'];
     }
     /**
      * Sets the value of the FeedProcessingStatusList.
@@ -214,7 +214,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function setFeedProcessingStatusList($value)
     {
-        $this->fields['FeedProcessingStatusList']['FieldValue'] = $value;
+        $this->_fields['FeedProcessingStatusList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -235,7 +235,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function isSetFeedProcessingStatusList()
     {
-        return !is_null($this->fields['FeedProcessingStatusList']['FieldValue']);
+        return !is_null($this->_fields['FeedProcessingStatusList']['FieldValue']);
     }
     /**
      * Gets the value of the SubmittedFromDate property.
@@ -244,7 +244,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function getSubmittedFromDate()
     {
-        return $this->fields['SubmittedFromDate']['FieldValue'];
+        return $this->_fields['SubmittedFromDate']['FieldValue'];
     }
     /**
      * Sets the value of the SubmittedFromDate property.
@@ -254,7 +254,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function setSubmittedFromDate($value)
     {
-        $this->fields['SubmittedFromDate']['FieldValue'] = $value;
+        $this->_fields['SubmittedFromDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -275,7 +275,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function isSetSubmittedFromDate()
     {
-        return !is_null($this->fields['SubmittedFromDate']['FieldValue']);
+        return !is_null($this->_fields['SubmittedFromDate']['FieldValue']);
     }
     /**
      * Gets the value of the SubmittedToDate property.
@@ -284,7 +284,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function getSubmittedToDate()
     {
-        return $this->fields['SubmittedToDate']['FieldValue'];
+        return $this->_fields['SubmittedToDate']['FieldValue'];
     }
     /**
      * Sets the value of the SubmittedToDate property.
@@ -294,7 +294,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function setSubmittedToDate($value)
     {
-        $this->fields['SubmittedToDate']['FieldValue'] = $value;
+        $this->_fields['SubmittedToDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -315,6 +315,6 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountRequest extends Marketplac
      */
     public function isSetSubmittedToDate()
     {
-        return !is_null($this->fields['SubmittedToDate']['FieldValue']);
+        return !is_null($this->_fields['SubmittedToDate']['FieldValue']);
     }
 }

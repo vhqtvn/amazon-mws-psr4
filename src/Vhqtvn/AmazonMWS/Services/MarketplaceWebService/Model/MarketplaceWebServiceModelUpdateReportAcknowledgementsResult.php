@@ -26,7 +26,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'), 'ReportInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo::class)));
+        $this->_fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'), 'ReportInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo::class)));
         parent::__construct($data);
     }
     /**
@@ -36,7 +36,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
      */
     public function getCount()
     {
-        return $this->fields['Count']['FieldValue'];
+        return $this->_fields['Count']['FieldValue'];
     }
     /**
      * Sets the value of the Count property.
@@ -46,7 +46,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
      */
     public function setCount($value)
     {
-        $this->fields['Count']['FieldValue'] = $value;
+        $this->_fields['Count']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -67,7 +67,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
      */
     public function isSetCount()
     {
-        return !is_null($this->fields['Count']['FieldValue']);
+        return !is_null($this->_fields['Count']['FieldValue']);
     }
     /**
      * Gets the value of the ReportInfo.
@@ -76,7 +76,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
      */
     public function getReportInfoList()
     {
-        return $this->fields['ReportInfo']['FieldValue'];
+        return $this->_fields['ReportInfo']['FieldValue'];
     }
     /**
      * Sets the value of the ReportInfo.
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
         if (!$this->_isNumericArray($reportInfo)) {
             $reportInfo = array($reportInfo);
         }
-        $this->fields['ReportInfo']['FieldValue'] = $reportInfo;
+        $this->_fields['ReportInfo']['FieldValue'] = $reportInfo;
         return $this;
     }
     /**
@@ -98,10 +98,10 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportInfo[] $ReportInfo_array,...
      * @return $this
      */
-    public function withReportInfo($reportInfoArgs, ...$ReportInfo_array)
+    public function withReportInfo(...$ReportInfo_array)
     {
         foreach ($ReportInfo_array as $reportInfo) {
-            $this->fields['ReportInfo']['FieldValue'][] = $reportInfo;
+            $this->_fields['ReportInfo']['FieldValue'][] = $reportInfo;
         }
         return $this;
     }
@@ -112,6 +112,6 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
      */
     public function isSetReportInfo()
     {
-        return count($this->fields['ReportInfo']['FieldValue']) > 0;
+        return count($this->_fields['ReportInfo']['FieldValue']) > 0;
     }
 }

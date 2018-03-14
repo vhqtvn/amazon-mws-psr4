@@ -36,34 +36,34 @@ class MarketplaceWebServiceModelContentType extends MarketplaceWebServiceModel
 {
     public function __construct($data = null)
     {
-        $this->fields = array('ContentType' => array('FieldValue' => null, 'FieldType' => 'string'), 'Parameters' => array('FieldValue' => null, 'FieldType' => array('string')));
+        $this->_fields = array('ContentType' => array('FieldValue' => null, 'FieldType' => 'string'), 'Parameters' => array('FieldValue' => null, 'FieldType' => array('string')));
         parent::__construct($data);
     }
     public function getContentType()
     {
-        return $this->fields['ContentType']['FieldValue'];
+        return $this->_fields['ContentType']['FieldValue'];
     }
     public function isSetContentType()
     {
-        return !is_null($this->fields['ContentType']['FieldValue']);
+        return !is_null($this->_fields['ContentType']['FieldValue']);
     }
     public function setContentType($value)
     {
-        $this->fields['ContentType']['FieldValue'] = $value;
+        $this->_fields['ContentType']['FieldValue'] = $value;
         return $this;
     }
     public function getParameters()
     {
-        return $this->fields['Parameters']['FieldValue'];
+        return $this->_fields['Parameters']['FieldValue'];
     }
     public function setParameters($parameters)
     {
-        $this->fields['Parameters']['FieldValue'] = $parameters;
+        $this->_fields['Parameters']['FieldValue'] = $parameters;
         return $this;
     }
     public function isSetParameters()
     {
-        return count($this->fields['Parameters']['FieldValue']) > 0;
+        return count($this->_fields['Parameters']['FieldValue']) > 0;
     }
     public function toString()
     {

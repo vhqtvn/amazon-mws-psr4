@@ -26,7 +26,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResult extends MarketplaceWe
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'), 'ReportRequestInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo::class)));
+        $this->_fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'), 'ReportRequestInfo' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo::class)));
         parent::__construct($data);
     }
     /**
@@ -36,7 +36,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResult extends MarketplaceWe
      */
     public function getCount()
     {
-        return $this->fields['Count']['FieldValue'];
+        return $this->_fields['Count']['FieldValue'];
     }
     /**
      * Sets the value of the Count property.
@@ -46,7 +46,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResult extends MarketplaceWe
      */
     public function setCount($value)
     {
-        $this->fields['Count']['FieldValue'] = $value;
+        $this->_fields['Count']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -67,7 +67,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResult extends MarketplaceWe
      */
     public function isSetCount()
     {
-        return !is_null($this->fields['Count']['FieldValue']);
+        return !is_null($this->_fields['Count']['FieldValue']);
     }
     /**
      * Gets the value of the ReportRequestInfo.
@@ -76,7 +76,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResult extends MarketplaceWe
      */
     public function getReportRequestInfoList()
     {
-        return $this->fields['ReportRequestInfo']['FieldValue'];
+        return $this->_fields['ReportRequestInfo']['FieldValue'];
     }
     /**
      * Sets the value of the ReportRequestInfo.
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResult extends MarketplaceWe
         if (!$this->_isNumericArray($reportRequestInfo)) {
             $reportRequestInfo = array($reportRequestInfo);
         }
-        $this->fields['ReportRequestInfo']['FieldValue'] = $reportRequestInfo;
+        $this->_fields['ReportRequestInfo']['FieldValue'] = $reportRequestInfo;
         return $this;
     }
     /**
@@ -98,10 +98,10 @@ class MarketplaceWebServiceModelCancelReportRequestsResult extends MarketplaceWe
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo[] $ReportRequestInfo_array,...
      * @return $this
      */
-    public function withReportRequestInfo($reportRequestInfoArgs, ...$ReportRequestInfo_array)
+    public function withReportRequestInfo(...$ReportRequestInfo_array)
     {
         foreach ($ReportRequestInfo_array as $reportRequestInfo) {
-            $this->fields['ReportRequestInfo']['FieldValue'][] = $reportRequestInfo;
+            $this->_fields['ReportRequestInfo']['FieldValue'][] = $reportRequestInfo;
         }
         return $this;
     }
@@ -112,6 +112,6 @@ class MarketplaceWebServiceModelCancelReportRequestsResult extends MarketplaceWe
      */
     public function isSetReportRequestInfo()
     {
-        return count($this->fields['ReportRequestInfo']['FieldValue']) > 0;
+        return count($this->_fields['ReportRequestInfo']['FieldValue']) > 0;
     }
 }

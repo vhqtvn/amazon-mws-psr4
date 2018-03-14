@@ -24,7 +24,7 @@ class MarketplaceWebServiceModelTypeList extends MarketplaceWebServiceModel
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Type' => array('FieldValue' => array(), 'FieldType' => array('string')));
+        $this->_fields = array('Type' => array('FieldValue' => array(), 'FieldType' => array('string')));
         parent::__construct($data);
     }
     /**
@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelTypeList extends MarketplaceWebServiceModel
      */
     public function getType()
     {
-        return $this->fields['Type']['FieldValue'];
+        return $this->_fields['Type']['FieldValue'];
     }
     /**
      * Sets the value of the Type.
@@ -44,10 +44,10 @@ class MarketplaceWebServiceModelTypeList extends MarketplaceWebServiceModel
      */
     public function setType($type)
     {
-        if (!$this->isNumericArray($type)) {
+        if (!$this->_isNumericArray($type)) {
             $type = array($type);
         }
-        $this->fields['Type']['FieldValue'] = $type;
+        $this->_fields['Type']['FieldValue'] = $type;
         return $this;
     }
     /**
@@ -56,10 +56,10 @@ class MarketplaceWebServiceModelTypeList extends MarketplaceWebServiceModel
      * @param \string[] $Type_array,...
      * @return $this
      */
-    public function withType($stringArgs, ...$Type_array)
+    public function withType(...$Type_array)
     {
         foreach ($Type_array as $type) {
-            $this->fields['Type']['FieldValue'][] = $type;
+            $this->_fields['Type']['FieldValue'][] = $type;
         }
         return $this;
     }
@@ -70,6 +70,6 @@ class MarketplaceWebServiceModelTypeList extends MarketplaceWebServiceModel
      */
     public function isSetType()
     {
-        return count($this->fields['Type']['FieldValue']) > 0;
+        return count($this->_fields['Type']['FieldValue']) > 0;
     }
 }

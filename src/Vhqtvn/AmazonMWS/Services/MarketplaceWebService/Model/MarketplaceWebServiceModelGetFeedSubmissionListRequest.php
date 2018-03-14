@@ -38,7 +38,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedSubmissionIdList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList::class), 'MaxCount' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedTypeList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList::class), 'FeedProcessingStatusList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList::class), 'SubmittedFromDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'SubmittedToDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
+        $this->_fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedSubmissionIdList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList::class), 'MaxCount' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedTypeList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList::class), 'FeedProcessingStatusList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList::class), 'SubmittedFromDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'), 'SubmittedToDate' => array('FieldValue' => null, 'FieldType' => 'DateTime'));
         parent::__construct($data);
     }
     /**
@@ -48,7 +48,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function getMarketplace()
     {
-        return $this->fields['Marketplace']['FieldValue'];
+        return $this->_fields['Marketplace']['FieldValue'];
     }
     /**
      * Sets the value of the Marketplace property.
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function setMarketplace($value)
     {
-        $this->fields['Marketplace']['FieldValue'] = $value;
+        $this->_fields['Marketplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -79,7 +79,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function isSetMarketplace()
     {
-        return !is_null($this->fields['Marketplace']['FieldValue']);
+        return !is_null($this->_fields['Marketplace']['FieldValue']);
     }
     /**
      * Gets the value of the Merchant property.
@@ -88,7 +88,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function getMerchant()
     {
-        return $this->fields['Merchant']['FieldValue'];
+        return $this->_fields['Merchant']['FieldValue'];
     }
     /**
      * Sets the value of the Merchant property.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function setMerchant($value)
     {
-        $this->fields['Merchant']['FieldValue'] = $value;
+        $this->_fields['Merchant']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -119,7 +119,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function isSetMerchant()
     {
-        return !is_null($this->fields['Merchant']['FieldValue']);
+        return !is_null($this->_fields['Merchant']['FieldValue']);
     }
     /**
      * Gets the value of the MWSAuthToken property.
@@ -128,7 +128,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function getMWSAuthToken()
     {
-        return $this->fields['MWSAuthToken']['FieldValue'];
+        return $this->_fields['MWSAuthToken']['FieldValue'];
     }
     /**
      * Sets the value of the MWSAuthToken property.
@@ -138,7 +138,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function setMWSAuthToken($value)
     {
-        $this->fields['MWSAuthToken']['FieldValue'] = $value;
+        $this->_fields['MWSAuthToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -159,7 +159,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function isSetMWSAuthToken()
     {
-        return !is_null($this->fields['MWSAuthToken']['FieldValue']);
+        return !is_null($this->_fields['MWSAuthToken']['FieldValue']);
     }
     /**
      * Gets the value of the FeedSubmissionIdList.
@@ -168,7 +168,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function getFeedSubmissionIdList()
     {
-        return $this->fields['FeedSubmissionIdList']['FieldValue'];
+        return $this->_fields['FeedSubmissionIdList']['FieldValue'];
     }
     /**
      * Sets the value of the FeedSubmissionIdList.
@@ -178,7 +178,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function setFeedSubmissionIdList($value)
     {
-        $this->fields['FeedSubmissionIdList']['FieldValue'] = $value;
+        $this->_fields['FeedSubmissionIdList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -199,7 +199,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function isSetFeedSubmissionIdList()
     {
-        return !is_null($this->fields['FeedSubmissionIdList']['FieldValue']);
+        return !is_null($this->_fields['FeedSubmissionIdList']['FieldValue']);
     }
     /**
      * Gets the value of the MaxCount property.
@@ -208,7 +208,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function getMaxCount()
     {
-        return $this->fields['MaxCount']['FieldValue'];
+        return $this->_fields['MaxCount']['FieldValue'];
     }
     /**
      * Sets the value of the MaxCount property.
@@ -218,7 +218,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function setMaxCount($value)
     {
-        $this->fields['MaxCount']['FieldValue'] = $value;
+        $this->_fields['MaxCount']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -239,7 +239,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function isSetMaxCount()
     {
-        return !is_null($this->fields['MaxCount']['FieldValue']);
+        return !is_null($this->_fields['MaxCount']['FieldValue']);
     }
     /**
      * Gets the value of the FeedTypeList.
@@ -248,7 +248,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function getFeedTypeList()
     {
-        return $this->fields['FeedTypeList']['FieldValue'];
+        return $this->_fields['FeedTypeList']['FieldValue'];
     }
     /**
      * Sets the value of the FeedTypeList.
@@ -258,7 +258,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function setFeedTypeList($value)
     {
-        $this->fields['FeedTypeList']['FieldValue'] = $value;
+        $this->_fields['FeedTypeList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -279,7 +279,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function isSetFeedTypeList()
     {
-        return !is_null($this->fields['FeedTypeList']['FieldValue']);
+        return !is_null($this->_fields['FeedTypeList']['FieldValue']);
     }
     /**
      * Gets the value of the FeedProcessingStatusList.
@@ -288,7 +288,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function getFeedProcessingStatusList()
     {
-        return $this->fields['FeedProcessingStatusList']['FieldValue'];
+        return $this->_fields['FeedProcessingStatusList']['FieldValue'];
     }
     /**
      * Sets the value of the FeedProcessingStatusList.
@@ -298,7 +298,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function setFeedProcessingStatusList($value)
     {
-        $this->fields['FeedProcessingStatusList']['FieldValue'] = $value;
+        $this->_fields['FeedProcessingStatusList']['FieldValue'] = $value;
         return;
     }
     /**
@@ -319,7 +319,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function isSetFeedProcessingStatusList()
     {
-        return !is_null($this->fields['FeedProcessingStatusList']['FieldValue']);
+        return !is_null($this->_fields['FeedProcessingStatusList']['FieldValue']);
     }
     /**
      * Gets the value of the SubmittedFromDate property.
@@ -328,7 +328,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function getSubmittedFromDate()
     {
-        return $this->fields['SubmittedFromDate']['FieldValue'];
+        return $this->_fields['SubmittedFromDate']['FieldValue'];
     }
     /**
      * Sets the value of the SubmittedFromDate property.
@@ -338,7 +338,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function setSubmittedFromDate($value)
     {
-        $this->fields['SubmittedFromDate']['FieldValue'] = $value;
+        $this->_fields['SubmittedFromDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -359,7 +359,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function isSetSubmittedFromDate()
     {
-        return !is_null($this->fields['SubmittedFromDate']['FieldValue']);
+        return !is_null($this->_fields['SubmittedFromDate']['FieldValue']);
     }
     /**
      * Gets the value of the SubmittedToDate property.
@@ -368,7 +368,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function getSubmittedToDate()
     {
-        return $this->fields['SubmittedToDate']['FieldValue'];
+        return $this->_fields['SubmittedToDate']['FieldValue'];
     }
     /**
      * Sets the value of the SubmittedToDate property.
@@ -378,7 +378,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function setSubmittedToDate($value)
     {
-        $this->fields['SubmittedToDate']['FieldValue'] = $value;
+        $this->_fields['SubmittedToDate']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -399,6 +399,6 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      */
     public function isSetSubmittedToDate()
     {
-        return !is_null($this->fields['SubmittedToDate']['FieldValue']);
+        return !is_null($this->_fields['SubmittedToDate']['FieldValue']);
     }
 }

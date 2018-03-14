@@ -26,7 +26,7 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'), 'ReportSchedule' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule::class)));
+        $this->_fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'), 'ReportSchedule' => array('FieldValue' => array(), 'FieldType' => array(\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule::class)));
         parent::__construct($data);
     }
     /**
@@ -36,7 +36,7 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
      */
     public function getCount()
     {
-        return $this->fields['Count']['FieldValue'];
+        return $this->_fields['Count']['FieldValue'];
     }
     /**
      * Sets the value of the Count property.
@@ -46,7 +46,7 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
      */
     public function setCount($value)
     {
-        $this->fields['Count']['FieldValue'] = $value;
+        $this->_fields['Count']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -67,7 +67,7 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
      */
     public function isSetCount()
     {
-        return !is_null($this->fields['Count']['FieldValue']);
+        return !is_null($this->_fields['Count']['FieldValue']);
     }
     /**
      * Gets the value of the ReportSchedule.
@@ -76,7 +76,7 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
      */
     public function getReportScheduleList()
     {
-        return $this->fields['ReportSchedule']['FieldValue'];
+        return $this->_fields['ReportSchedule']['FieldValue'];
     }
     /**
      * Sets the value of the ReportSchedule.
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
         if (!$this->_isNumericArray($reportSchedule)) {
             $reportSchedule = array($reportSchedule);
         }
-        $this->fields['ReportSchedule']['FieldValue'] = $reportSchedule;
+        $this->_fields['ReportSchedule']['FieldValue'] = $reportSchedule;
         return $this;
     }
     /**
@@ -98,10 +98,10 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportSchedule[] $ReportSchedule_array,...
      * @return $this
      */
-    public function withReportSchedule($reportScheduleArgs, ...$ReportSchedule_array)
+    public function withReportSchedule(...$ReportSchedule_array)
     {
         foreach ($ReportSchedule_array as $reportSchedule) {
-            $this->fields['ReportSchedule']['FieldValue'][] = $reportSchedule;
+            $this->_fields['ReportSchedule']['FieldValue'][] = $reportSchedule;
         }
         return $this;
     }
@@ -112,6 +112,6 @@ class MarketplaceWebServiceModelManageReportScheduleResult extends MarketplaceWe
      */
     public function isSetReportSchedule()
     {
-        return count($this->fields['ReportSchedule']['FieldValue']) > 0;
+        return count($this->_fields['ReportSchedule']['FieldValue']) > 0;
     }
 }

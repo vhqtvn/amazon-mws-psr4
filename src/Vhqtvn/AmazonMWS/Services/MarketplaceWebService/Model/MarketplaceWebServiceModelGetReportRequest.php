@@ -28,7 +28,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportId' => array('FieldValue' => null, 'FieldType' => 'string'), 'Report' => array('FieldValue' => null, 'FieldType' => 'string'));
+        $this->_fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'ReportId' => array('FieldValue' => null, 'FieldType' => 'string'), 'Report' => array('FieldValue' => null, 'FieldType' => 'string'));
         parent::__construct($data);
     }
     /**
@@ -38,7 +38,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function getMarketplace()
     {
-        return $this->fields['Marketplace']['FieldValue'];
+        return $this->_fields['Marketplace']['FieldValue'];
     }
     /**
      * Sets the value of the Marketplace property.
@@ -48,7 +48,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function setMarketplace($value)
     {
-        $this->fields['Marketplace']['FieldValue'] = $value;
+        $this->_fields['Marketplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -69,7 +69,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function isSetMarketplace()
     {
-        return !is_null($this->fields['Marketplace']['FieldValue']);
+        return !is_null($this->_fields['Marketplace']['FieldValue']);
     }
     /**
      * Gets the value of the Merchant property.
@@ -78,7 +78,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function getMerchant()
     {
-        return $this->fields['Merchant']['FieldValue'];
+        return $this->_fields['Merchant']['FieldValue'];
     }
     /**
      * Sets the value of the Merchant property.
@@ -88,7 +88,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function setMerchant($value)
     {
-        $this->fields['Merchant']['FieldValue'] = $value;
+        $this->_fields['Merchant']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -109,7 +109,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function isSetMerchant()
     {
-        return !is_null($this->fields['Merchant']['FieldValue']);
+        return !is_null($this->_fields['Merchant']['FieldValue']);
     }
     /**
      * Gets the value of the MWSAuthToken property.
@@ -118,7 +118,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function getMWSAuthToken()
     {
-        return $this->fields['MWSAuthToken']['FieldValue'];
+        return $this->_fields['MWSAuthToken']['FieldValue'];
     }
     /**
      * Sets the value of the MWSAuthToken property.
@@ -128,7 +128,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function setMWSAuthToken($value)
     {
-        $this->fields['MWSAuthToken']['FieldValue'] = $value;
+        $this->_fields['MWSAuthToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -149,7 +149,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function isSetMWSAuthToken()
     {
-        return !is_null($this->fields['MWSAuthToken']['FieldValue']);
+        return !is_null($this->_fields['MWSAuthToken']['FieldValue']);
     }
     /**
      * Gets the value of the ReportId property.
@@ -158,7 +158,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function getReportId()
     {
-        return $this->fields['ReportId']['FieldValue'];
+        return $this->_fields['ReportId']['FieldValue'];
     }
     /**
      * Sets the value of the ReportId property.
@@ -168,7 +168,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function setReportId($value)
     {
-        $this->fields['ReportId']['FieldValue'] = $value;
+        $this->_fields['ReportId']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -189,7 +189,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function isSetReportId()
     {
-        return !is_null($this->fields['ReportId']['FieldValue']);
+        return !is_null($this->_fields['ReportId']['FieldValue']);
     }
     /* -0------------------------------------------------- */
     /**
@@ -199,7 +199,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function getReport()
     {
-        return $this->fields['Report']['FieldValue'];
+        return $this->_fields['Report']['FieldValue'];
     }
     /**
      * Sets the value of the Report property.
@@ -209,7 +209,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function setReport($value)
     {
-        $this->fields['Report']['FieldValue'] = $value;
+        $this->_fields['Report']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -230,6 +230,6 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      */
     public function isSetReport()
     {
-        return !is_null($this->fields['Report']['FieldValue']);
+        return !is_null($this->_fields['Report']['FieldValue']);
     }
 }

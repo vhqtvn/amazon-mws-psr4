@@ -48,6 +48,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceExcepti
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelErrorResponse;
 use Exception;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseHeaderMetadata;
+use MarketplaceWebServiceRequestType;
 define('CONVERTED_PARAMETERS_KEY', 'PARAMETERS');
 define('CONVERTED_HEADERS_KEY', 'HEADERS');
 /**

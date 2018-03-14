@@ -28,7 +28,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedSubmissionId' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedSubmissionResult' => array('FieldValue' => null, 'FieldType' => 'string'));
+        $this->_fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedSubmissionId' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedSubmissionResult' => array('FieldValue' => null, 'FieldType' => 'string'));
         parent::__construct($data);
     }
     /**
@@ -38,7 +38,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function getMarketplace()
     {
-        return $this->fields['Marketplace']['FieldValue'];
+        return $this->_fields['Marketplace']['FieldValue'];
     }
     /**
      * Sets the value of the Marketplace property.
@@ -48,7 +48,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function setMarketplace($value)
     {
-        $this->fields['Marketplace']['FieldValue'] = $value;
+        $this->_fields['Marketplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -69,7 +69,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function isSetMarketplace()
     {
-        return !is_null($this->fields['Marketplace']['FieldValue']);
+        return !is_null($this->_fields['Marketplace']['FieldValue']);
     }
     /**
      * Gets the value of the Merchant property.
@@ -78,7 +78,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function getMerchant()
     {
-        return $this->fields['Merchant']['FieldValue'];
+        return $this->_fields['Merchant']['FieldValue'];
     }
     /**
      * Sets the value of the Merchant property.
@@ -88,7 +88,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function setMerchant($value)
     {
-        $this->fields['Merchant']['FieldValue'] = $value;
+        $this->_fields['Merchant']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -109,7 +109,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function isSetMerchant()
     {
-        return !is_null($this->fields['Merchant']['FieldValue']);
+        return !is_null($this->_fields['Merchant']['FieldValue']);
     }
     /**
      * Gets the value of the MWSAuthToken property.
@@ -118,7 +118,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function getMWSAuthToken()
     {
-        return $this->fields['MWSAuthToken']['FieldValue'];
+        return $this->_fields['MWSAuthToken']['FieldValue'];
     }
     /**
      * Sets the value of the MWSAuthToken property.
@@ -128,7 +128,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function setMWSAuthToken($value)
     {
-        $this->fields['MWSAuthToken']['FieldValue'] = $value;
+        $this->_fields['MWSAuthToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -149,7 +149,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function isSetMWSAuthToken()
     {
-        return !is_null($this->fields['MWSAuthToken']['FieldValue']);
+        return !is_null($this->_fields['MWSAuthToken']['FieldValue']);
     }
     /**
      * Gets the value of the FeedSubmissionId property.
@@ -158,7 +158,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function getFeedSubmissionId()
     {
-        return $this->fields['FeedSubmissionId']['FieldValue'];
+        return $this->_fields['FeedSubmissionId']['FieldValue'];
     }
     /**
      * Sets the value of the FeedSubmissionId property.
@@ -168,7 +168,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function setFeedSubmissionId($value)
     {
-        $this->fields['FeedSubmissionId']['FieldValue'] = $value;
+        $this->_fields['FeedSubmissionId']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -189,7 +189,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function isSetFeedSubmissionId()
     {
-        return !is_null($this->fields['FeedSubmissionId']['FieldValue']);
+        return !is_null($this->_fields['FeedSubmissionId']['FieldValue']);
     }
     /**
      * Gets the value of the FeedSubmissionResult property.
@@ -198,7 +198,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function getFeedSubmissionResult()
     {
-        return $this->fields['FeedSubmissionResult']['FieldValue'];
+        return $this->_fields['FeedSubmissionResult']['FieldValue'];
     }
     /**
      * Sets the value of the FeedSubmissionResult property.
@@ -208,7 +208,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function setFeedSubmissionResult($value)
     {
-        $this->fields['FeedSubmissionResult']['FieldValue'] = $value;
+        $this->_fields['FeedSubmissionResult']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -229,6 +229,6 @@ class MarketplaceWebServiceModelGetFeedSubmissionResultRequest extends Marketpla
      */
     public function isFeedSubmissionResult()
     {
-        return !is_null($this->fields['FeedSubmissionResult']['FieldValue']);
+        return !is_null($this->_fields['FeedSubmissionResult']['FieldValue']);
     }
 }

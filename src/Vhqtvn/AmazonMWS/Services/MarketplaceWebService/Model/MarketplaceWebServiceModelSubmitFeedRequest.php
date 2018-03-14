@@ -42,10 +42,10 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
         // Here we're setting the content-type field directly to the object, but beware the actual
         // method of construction from associative arrays from the client interface would do something like:
         // $parameters = array ('ContentType' => array('ContentType' => 'application/octet-stream'));
-        $this->fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'MarketplaceIdList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList::class), 'FeedContent' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedType' => array('FieldValue' => null, 'FieldType' => 'string'), 'PurgeAndReplace' => array('FieldValue' => null, 'FieldType' => 'bool'), 'ContentMd5' => array('FieldValue' => null, 'FieldType' => 'string'), 'ContentType' => array('FieldValue' => self::$DEFAULT_CONTENT_TYPE, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelContentType::class));
+        $this->_fields = array('Marketplace' => array('FieldValue' => null, 'FieldType' => 'string'), 'Merchant' => array('FieldValue' => null, 'FieldType' => 'string'), 'MWSAuthToken' => array('FieldValue' => null, 'FieldType' => 'string'), 'MarketplaceIdList' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList::class), 'FeedContent' => array('FieldValue' => null, 'FieldType' => 'string'), 'FeedType' => array('FieldValue' => null, 'FieldType' => 'string'), 'PurgeAndReplace' => array('FieldValue' => null, 'FieldType' => 'bool'), 'ContentMd5' => array('FieldValue' => null, 'FieldType' => 'string'), 'ContentType' => array('FieldValue' => self::$DEFAULT_CONTENT_TYPE, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelContentType::class));
         parent::__construct($data);
-        if (!is_null($this->fields['ContentType']['FieldValue'])) {
-            $this->verifySupportedContentType($this->fields['ContentType']['FieldValue']);
+        if (!is_null($this->_fields['ContentType']['FieldValue'])) {
+            $this->verifySupportedContentType($this->_fields['ContentType']['FieldValue']);
         }
     }
     private function verifySupportedContentType($supplied)
@@ -61,17 +61,17 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function getContentType()
     {
-        return $this->fields['ContentType']['FieldValue'];
+        return $this->_fields['ContentType']['FieldValue'];
     }
     public function setContentType($value)
     {
         $this->verifySupportedContentType($value);
-        $this->fields['ContentType']['FieldValue'] = $value;
+        $this->_fields['ContentType']['FieldValue'] = $value;
         return $this;
     }
     public function isSetContentType()
     {
-        return !is_null($this->fields['ContentType']['FieldValue']);
+        return !is_null($this->_fields['ContentType']['FieldValue']);
     }
     /**
      * Gets the value of the Marketplace property.
@@ -80,7 +80,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function getMarketplace()
     {
-        return $this->fields['Marketplace']['FieldValue'];
+        return $this->_fields['Marketplace']['FieldValue'];
     }
     /**
      * Sets the value of the Marketplace property.
@@ -90,7 +90,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function setMarketplace($value)
     {
-        $this->fields['Marketplace']['FieldValue'] = $value;
+        $this->_fields['Marketplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -111,7 +111,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function isSetMarketplace()
     {
-        return !is_null($this->fields['Marketplace']['FieldValue']);
+        return !is_null($this->_fields['Marketplace']['FieldValue']);
     }
     /**
      * Gets the value of the Merchant property.
@@ -120,7 +120,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function getMerchant()
     {
-        return $this->fields['Merchant']['FieldValue'];
+        return $this->_fields['Merchant']['FieldValue'];
     }
     /**
      * Sets the value of the Merchant property.
@@ -130,7 +130,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function setMerchant($value)
     {
-        $this->fields['Merchant']['FieldValue'] = $value;
+        $this->_fields['Merchant']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -151,7 +151,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function isSetMerchant()
     {
-        return !is_null($this->fields['Merchant']['FieldValue']);
+        return !is_null($this->_fields['Merchant']['FieldValue']);
     }
     /**
      * Gets the value of the MWSAuthToken property.
@@ -160,7 +160,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function getMWSAuthToken()
     {
-        return $this->fields['MWSAuthToken']['FieldValue'];
+        return $this->_fields['MWSAuthToken']['FieldValue'];
     }
     /**
      * Sets the value of the MWSAuthToken property.
@@ -170,7 +170,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function setMWSAuthToken($value)
     {
-        $this->fields['MWSAuthToken']['FieldValue'] = $value;
+        $this->_fields['MWSAuthToken']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -191,7 +191,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function isSetMWSAuthToken()
     {
-        return !is_null($this->fields['MWSAuthToken']['FieldValue']);
+        return !is_null($this->_fields['MWSAuthToken']['FieldValue']);
     }
     /**
      * Gets the value of the MarketplaceIdList.
@@ -200,7 +200,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function getMarketplaceIdList()
     {
-        return $this->fields['MarketplaceIdList']['FieldValue'];
+        return $this->_fields['MarketplaceIdList']['FieldValue'];
     }
     /**
      * Sets the value of the MarketplaceIdList.
@@ -212,7 +212,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
     {
         $marketplaceIdList = new MarketplaceWebServiceModelIdList();
         $marketplaceIdList->setId($value['Id']);
-        $this->fields['MarketplaceIdList']['FieldValue'] = $marketplaceIdList;
+        $this->_fields['MarketplaceIdList']['FieldValue'] = $marketplaceIdList;
         return;
     }
     /**
@@ -233,7 +233,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function isSetMarketplaceIdList()
     {
-        return !is_null($this->fields['MarketplaceIdList']['FieldValue']);
+        return !is_null($this->_fields['MarketplaceIdList']['FieldValue']);
     }
     /**
      * Gets the value of the FeedContent property.
@@ -242,7 +242,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function getFeedContent()
     {
-        return $this->fields['FeedContent']['FieldValue'];
+        return $this->_fields['FeedContent']['FieldValue'];
     }
     /**
      * Sets the value of the FeedContent property.
@@ -252,7 +252,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function setFeedContent($value)
     {
-        $this->fields['FeedContent']['FieldValue'] = $value;
+        $this->_fields['FeedContent']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -273,7 +273,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function isSetFeedContent()
     {
-        return !is_null($this->fields['FeedContent']['FieldValue']);
+        return !is_null($this->_fields['FeedContent']['FieldValue']);
     }
     /**
      * Gets the value of the FeedType property.
@@ -282,7 +282,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function getFeedType()
     {
-        return $this->fields['FeedType']['FieldValue'];
+        return $this->_fields['FeedType']['FieldValue'];
     }
     /**
      * Sets the value of the FeedType property.
@@ -292,7 +292,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function setFeedType($value)
     {
-        $this->fields['FeedType']['FieldValue'] = $value;
+        $this->_fields['FeedType']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -313,7 +313,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function isSetFeedType()
     {
-        return !is_null($this->fields['FeedType']['FieldValue']);
+        return !is_null($this->_fields['FeedType']['FieldValue']);
     }
     /**
      * Gets the value of the PurgeAndReplace property.
@@ -322,7 +322,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function getPurgeAndReplace()
     {
-        return $this->fields['PurgeAndReplace']['FieldValue'];
+        return $this->_fields['PurgeAndReplace']['FieldValue'];
     }
     /**
      * Sets the value of the PurgeAndReplace property.
@@ -332,7 +332,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function setPurgeAndReplace($value)
     {
-        $this->fields['PurgeAndReplace']['FieldValue'] = $value;
+        $this->_fields['PurgeAndReplace']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -353,7 +353,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function isSetPurgeAndReplace()
     {
-        return !is_null($this->fields['PurgeAndReplace']['FieldValue']);
+        return !is_null($this->_fields['PurgeAndReplace']['FieldValue']);
     }
     /**
      * Gets the value of the ContentMd5 property.
@@ -362,7 +362,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function getContentMd5()
     {
-        return $this->fields['ContentMd5']['FieldValue'];
+        return $this->_fields['ContentMd5']['FieldValue'];
     }
     /**
      * Sets the value of the ContentMd5 property.
@@ -372,7 +372,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function setContentMd5($value)
     {
-        $this->fields['ContentMd5']['FieldValue'] = $value;
+        $this->_fields['ContentMd5']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -393,6 +393,6 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      */
     public function isSetContentMd5()
     {
-        return !is_null($this->fields['ContentMd5']['FieldValue']);
+        return !is_null($this->_fields['ContentMd5']['FieldValue']);
     }
 }

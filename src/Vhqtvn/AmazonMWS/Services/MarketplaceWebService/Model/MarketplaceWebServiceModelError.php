@@ -30,7 +30,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Type' => array('FieldValue' => null, 'FieldType' => 'string'), 'Code' => array('FieldValue' => null, 'FieldType' => 'string'), 'Message' => array('FieldValue' => null, 'FieldType' => 'string'), 'Detail' => array('FieldValue' => null, 'FieldType' => 'string'));
+        $this->_fields = array('Type' => array('FieldValue' => null, 'FieldType' => 'string'), 'Code' => array('FieldValue' => null, 'FieldType' => 'string'), 'Message' => array('FieldValue' => null, 'FieldType' => 'string'), 'Detail' => array('FieldValue' => null, 'FieldType' => 'string'));
         parent::__construct($data);
     }
     /**
@@ -40,7 +40,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function getType()
     {
-        return $this->fields['Type']['FieldValue'];
+        return $this->_fields['Type']['FieldValue'];
     }
     /**
      * Sets the value of the Type property.
@@ -50,7 +50,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function setType($value)
     {
-        $this->fields['Type']['FieldValue'] = $value;
+        $this->_fields['Type']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -71,7 +71,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function isSetType()
     {
-        return !is_null($this->fields['Type']['FieldValue']);
+        return !is_null($this->_fields['Type']['FieldValue']);
     }
     /**
      * Gets the value of the Code property.
@@ -80,7 +80,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function getCode()
     {
-        return $this->fields['Code']['FieldValue'];
+        return $this->_fields['Code']['FieldValue'];
     }
     /**
      * Sets the value of the Code property.
@@ -90,7 +90,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function setCode($value)
     {
-        $this->fields['Code']['FieldValue'] = $value;
+        $this->_fields['Code']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -111,7 +111,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function isSetCode()
     {
-        return !is_null($this->fields['Code']['FieldValue']);
+        return !is_null($this->_fields['Code']['FieldValue']);
     }
     /**
      * Gets the value of the Message property.
@@ -120,7 +120,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function getMessage()
     {
-        return $this->fields['Message']['FieldValue'];
+        return $this->_fields['Message']['FieldValue'];
     }
     /**
      * Sets the value of the Message property.
@@ -130,7 +130,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function setMessage($value)
     {
-        $this->fields['Message']['FieldValue'] = $value;
+        $this->_fields['Message']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -151,7 +151,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function isSetMessage()
     {
-        return !is_null($this->fields['Message']['FieldValue']);
+        return !is_null($this->_fields['Message']['FieldValue']);
     }
     /**
      * Gets the value of the Detail.
@@ -160,7 +160,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function getDetail()
     {
-        return $this->fields['Detail']['FieldValue'];
+        return $this->_fields['Detail']['FieldValue'];
     }
     /**
      * Sets the value of the Detail.
@@ -170,7 +170,7 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function setDetail($value)
     {
-        $this->fields['Detail']['FieldValue'] = $value;
+        $this->_fields['Detail']['FieldValue'] = $value;
         return;
     }
     /**
@@ -191,6 +191,6 @@ class MarketplaceWebServiceModelError extends MarketplaceWebServiceModel
      */
     public function isSetDetail()
     {
-        return !is_null($this->fields['Detail']['FieldValue']);
+        return !is_null($this->_fields['Detail']['FieldValue']);
     }
 }

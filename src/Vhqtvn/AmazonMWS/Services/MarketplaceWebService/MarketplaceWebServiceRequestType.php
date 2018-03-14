@@ -1,5 +1,4 @@
 <?php
-
 namespace Vhqtvn\AmazonMWS\Services\MarketplaceWebService;
 /**
  * There are three types of requests to MWS to configure:

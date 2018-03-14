@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
      */
     public function __construct($data = null)
     {
-        $this->fields = array('CancelReportRequestsResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelReportRequestsResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
+        $this->_fields = array('CancelReportRequestsResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelReportRequestsResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
      */
     public function getCancelReportRequestsResult()
     {
-        return $this->fields['CancelReportRequestsResult']['FieldValue'];
+        return $this->_fields['CancelReportRequestsResult']['FieldValue'];
     }
     /**
      * Sets the value of the CancelReportRequestsResult.
@@ -68,7 +68,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
      */
     public function setCancelReportRequestsResult($value)
     {
-        $this->fields['CancelReportRequestsResult']['FieldValue'] = $value;
+        $this->_fields['CancelReportRequestsResult']['FieldValue'] = $value;
         return;
     }
     /**
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
      */
     public function isSetCancelReportRequestsResult()
     {
-        return !is_null($this->fields['CancelReportRequestsResult']['FieldValue']);
+        return !is_null($this->_fields['CancelReportRequestsResult']['FieldValue']);
     }
     /**
      * Gets the value of the ResponseMetadata.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
      */
     public function getResponseMetadata()
     {
-        return $this->fields['ResponseMetadata']['FieldValue'];
+        return $this->_fields['ResponseMetadata']['FieldValue'];
     }
     /**
      * Sets the value of the ResponseMetadata.
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
      */
     public function setResponseMetadata($value)
     {
-        $this->fields['ResponseMetadata']['FieldValue'] = $value;
+        $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
     }
     /**
@@ -129,7 +129,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
      */
     public function isSetResponseMetadata()
     {
-        return !is_null($this->fields['ResponseMetadata']['FieldValue']);
+        return !is_null($this->_fields['ResponseMetadata']['FieldValue']);
     }
     /**
      * XML Representation for this object

@@ -24,7 +24,7 @@ class MarketplaceWebServiceModelRequestReportResult extends MarketplaceWebServic
      */
     public function __construct($data = null)
     {
-        $this->fields = array('ReportRequestInfo' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo::class));
+        $this->_fields = array('ReportRequestInfo' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo::class));
         parent::__construct($data);
     }
     /**
@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelRequestReportResult extends MarketplaceWebServic
      */
     public function getReportRequestInfo()
     {
-        return $this->fields['ReportRequestInfo']['FieldValue'];
+        return $this->_fields['ReportRequestInfo']['FieldValue'];
     }
     /**
      * Sets the value of the ReportRequestInfo.
@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelRequestReportResult extends MarketplaceWebServic
      */
     public function setReportRequestInfo($value)
     {
-        $this->fields['ReportRequestInfo']['FieldValue'] = $value;
+        $this->_fields['ReportRequestInfo']['FieldValue'] = $value;
         return;
     }
     /**
@@ -65,6 +65,6 @@ class MarketplaceWebServiceModelRequestReportResult extends MarketplaceWebServic
      */
     public function isSetReportRequestInfo()
     {
-        return !is_null($this->fields['ReportRequestInfo']['FieldValue']);
+        return !is_null($this->_fields['ReportRequestInfo']['FieldValue']);
     }
 }

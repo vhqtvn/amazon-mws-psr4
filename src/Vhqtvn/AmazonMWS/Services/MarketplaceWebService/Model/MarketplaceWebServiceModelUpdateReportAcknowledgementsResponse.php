@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
      */
     public function __construct($data = null)
     {
-        $this->fields = array('UpdateReportAcknowledgementsResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
+        $this->_fields = array('UpdateReportAcknowledgementsResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
      */
     public function getUpdateReportAcknowledgementsResult()
     {
-        return $this->fields['UpdateReportAcknowledgementsResult']['FieldValue'];
+        return $this->_fields['UpdateReportAcknowledgementsResult']['FieldValue'];
     }
     /**
      * Sets the value of the UpdateReportAcknowledgementsResult.
@@ -68,7 +68,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
      */
     public function setUpdateReportAcknowledgementsResult($value)
     {
-        $this->fields['UpdateReportAcknowledgementsResult']['FieldValue'] = $value;
+        $this->_fields['UpdateReportAcknowledgementsResult']['FieldValue'] = $value;
         return;
     }
     /**
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
      */
     public function isSetUpdateReportAcknowledgementsResult()
     {
-        return !is_null($this->fields['UpdateReportAcknowledgementsResult']['FieldValue']);
+        return !is_null($this->_fields['UpdateReportAcknowledgementsResult']['FieldValue']);
     }
     /**
      * Gets the value of the ResponseMetadata.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
      */
     public function getResponseMetadata()
     {
-        return $this->fields['ResponseMetadata']['FieldValue'];
+        return $this->_fields['ResponseMetadata']['FieldValue'];
     }
     /**
      * Sets the value of the ResponseMetadata.
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
      */
     public function setResponseMetadata($value)
     {
-        $this->fields['ResponseMetadata']['FieldValue'] = $value;
+        $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
     }
     /**
@@ -129,7 +129,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
      */
     public function isSetResponseMetadata()
     {
-        return !is_null($this->fields['ResponseMetadata']['FieldValue']);
+        return !is_null($this->_fields['ResponseMetadata']['FieldValue']);
     }
     /**
      * XML Representation for this object

@@ -29,7 +29,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
      */
     public function __construct($data = null)
     {
-        $this->fields = array('ManageReportScheduleResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
+        $this->_fields = array('ManageReportScheduleResult' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleResult::class), 'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata::class));
         parent::__construct($data);
     }
     /**
@@ -58,7 +58,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
      */
     public function getManageReportScheduleResult()
     {
-        return $this->fields['ManageReportScheduleResult']['FieldValue'];
+        return $this->_fields['ManageReportScheduleResult']['FieldValue'];
     }
     /**
      * Sets the value of the ManageReportScheduleResult.
@@ -68,7 +68,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
      */
     public function setManageReportScheduleResult($value)
     {
-        $this->fields['ManageReportScheduleResult']['FieldValue'] = $value;
+        $this->_fields['ManageReportScheduleResult']['FieldValue'] = $value;
         return;
     }
     /**
@@ -89,7 +89,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
      */
     public function isSetManageReportScheduleResult()
     {
-        return !is_null($this->fields['ManageReportScheduleResult']['FieldValue']);
+        return !is_null($this->_fields['ManageReportScheduleResult']['FieldValue']);
     }
     /**
      * Gets the value of the ResponseMetadata.
@@ -98,7 +98,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
      */
     public function getResponseMetadata()
     {
-        return $this->fields['ResponseMetadata']['FieldValue'];
+        return $this->_fields['ResponseMetadata']['FieldValue'];
     }
     /**
      * Sets the value of the ResponseMetadata.
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
      */
     public function setResponseMetadata($value)
     {
-        $this->fields['ResponseMetadata']['FieldValue'] = $value;
+        $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
     }
     /**
@@ -129,7 +129,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
      */
     public function isSetResponseMetadata()
     {
-        return !is_null($this->fields['ResponseMetadata']['FieldValue']);
+        return !is_null($this->_fields['ResponseMetadata']['FieldValue']);
     }
     /**
      * XML Representation for this object

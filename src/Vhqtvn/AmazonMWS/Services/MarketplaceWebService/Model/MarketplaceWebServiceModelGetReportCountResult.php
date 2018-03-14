@@ -24,7 +24,7 @@ class MarketplaceWebServiceModelGetReportCountResult extends MarketplaceWebServi
      */
     public function __construct($data = null)
     {
-        $this->fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'));
+        $this->_fields = array('Count' => array('FieldValue' => null, 'FieldType' => 'int'));
         parent::__construct($data);
     }
     /**
@@ -34,7 +34,7 @@ class MarketplaceWebServiceModelGetReportCountResult extends MarketplaceWebServi
      */
     public function getCount()
     {
-        return $this->fields['Count']['FieldValue'];
+        return $this->_fields['Count']['FieldValue'];
     }
     /**
      * Sets the value of the Count property.
@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelGetReportCountResult extends MarketplaceWebServi
      */
     public function setCount($value)
     {
-        $this->fields['Count']['FieldValue'] = $value;
+        $this->_fields['Count']['FieldValue'] = $value;
         return $this;
     }
     /**
@@ -65,6 +65,6 @@ class MarketplaceWebServiceModelGetReportCountResult extends MarketplaceWebServi
      */
     public function isSetCount()
     {
-        return !is_null($this->fields['Count']['FieldValue']);
+        return !is_null($this->_fields['Count']['FieldValue']);
     }
 }

@@ -14,11 +14,16 @@ $s = file_get_contents("http://docs.developer.amazonservices.com/en_US/feeds/Fee
 
 preg_match_all('@<a class="xref" href="([^"]+\.xsd)" target="_blank">@ism', $s, $m);
 
-foreach($m[1] as $link) {
+foreach ($m[1] as $link) {
     $link = html_entity_decode($link);
     $target = BASE_PATH . '/amazon-libraries/xsd/' . basename($link);
-    echo "Download $link... to $target\n";
-    if(!@copy($link, $target)) {
-        die("Download failed");
+    if (!file_exists($target)) {
+        echo "Download $link... to $target\n";
+        if (!@copy($link, $target)) {
+            die("Download failed");
+        }
     }
 }
+
+@copy("https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-base.xsd",
+    BASE_PATH . '/amazon-libraries/xsd/amzn-base.xsd');
