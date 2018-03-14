@@ -90,9 +90,21 @@ function handle_php($depth, $lib_name, $src_path, $dst_path, $src_ns, $dst_ns, $
         generate_from_global_base($depth, "Vhqtvn\\AmazonMWS\\AmazonMWSModel", $lib_name, $src_path, $dst_path, $src_ns, $dst_ns, $base_ns);
     } else if (substr($src_path, -13) === "Exception.php") {
         generate_from_global_base($depth, "Vhqtvn\\AmazonMWS\\AmazonMWSException", $lib_name, $src_path, $dst_path, $src_ns, $dst_ns, $base_ns);
+    } else if (substr($src_path, -15) === "RequestType.php") {
+        generate_by_copy($depth, $lib_name, $src_path, $dst_path, $src_ns, $dst_ns, $base_ns);
     } else {
         generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $dst_ns, $base_ns);
     }
+}
+
+function generate_by_copy($depth, $lib_name, $src_path, $dst_path, $src_ns, $dst_ns, $base_ns)
+{
+    $code = file_get_contents($src_path);
+    $new_code = str_replace("<?php\n", "<?php\nnamespace " . implode("\\", $dst_ns) . ";\n", $code);
+    $class = substr(basename($src_path), 0, -4);
+    $new_class = name_transform($class, $lib_name, $base_ns);
+    $new_code = str_replace("class $class", "class $new_class", $new_code);
+    file_put_contents(make_dst_path($dst_path, $new_class), $new_code);
 }
 
 function generate_from_global_base($depth, $global_base, $lib_name, $src_path, $dst_path, $src_ns, $dst_ns, $base_ns)
@@ -155,6 +167,7 @@ function generate_from_global_base($depth, $global_base, $lib_name, $src_path, $
 function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $dst_ns, $base_ns)
 {
     global $class_name_transformer;
+    echo pad($depth + 1) . "AST\n";
     $pad = pad($depth);
     $code = file_get_contents($src_path);
 
@@ -182,7 +195,7 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
 
     $class_name_transformer->newPendingImportContext();
     $class_name_transformer->setCallback(function (string $ident) use (&$pending_imports, $lib_name, $dst_ns, $base_ns) {
-        if (strpos($ident, $lib_name) === 0) {
+        if (strpos($ident, $lib_name) === 0 || in_array($ident, ["RequestType"])) {
             $new_name = name_transform($ident, $lib_name, $base_ns);
             return $new_name;
         }
@@ -322,19 +335,19 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
                                     $prop
                                 ])), $out, $res);
                             if ($res) {
-                                var_dump($cmd, $out, $res);
+                                var_dump(__LINE__, $cmd, $out, $res);
                                 exit;
                             }
                             $type = $out[0];
                             $type_transform = name_transform($type, $this->lib_name, $this->base_ns);
                             if ($type_transform === $type) {
-                                var_dump($type_transform, $type);
+                                var_dump(__LINE__, $type_transform, $type);
                                 exit;
                             } else if ($type_transform === false) {
-                                if(in_array($type, ['string', 'object'])) {
+                                if (in_array($type, ['string', 'object'])) {
                                     $type_transform = $type;
                                 } else {
-                                    var_dump($type_transform, $type);
+                                    var_dump(__LINE__, $type_transform, $type, $out);
                                     exit;
                                 }
                             }
@@ -398,8 +411,12 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
 
 function name_transform($ident, $lib_name, $base_ns)
 {
-    if (strpos($ident, $lib_name) !== 0) return false;
-
+    if (strpos($ident, $lib_name) !== 0) {
+        if (in_array($ident, ["RequestType"])) {
+            return "$lib_name$ident";
+        }
+        return false;
+    }
     $parts = explode("_", $ident);
 
     assert(count($parts) >= 2);

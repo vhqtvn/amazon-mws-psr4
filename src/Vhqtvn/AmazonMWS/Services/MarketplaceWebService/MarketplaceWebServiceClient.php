@@ -808,7 +808,7 @@ class MarketplaceWebServiceClient implements MarketplaceWebServiceInterface
         $responseHeaderMetadata = new MarketplaceWebServiceModelResponseHeaderMetadata($parsedHeader['x-mws-request-id'], $parsedHeader['x-mws-response-context'], $parsedHeader['x-mws-timestamp']);
         $code = (int) curl_getinfo($this->curlClient, CURLINFO_HTTP_CODE);
         // Only attempt to verify the Content-MD5 value if the request was successful.
-        if (RequestType::getRequestType($action) === RequestType::POST_DOWNLOAD) {
+        if (MarketplaceWebServiceRequestType::getRequestType($action) === MarketplaceWebServiceRequestType::POST_DOWNLOAD) {
             if ($code != 200) {
                 rewind($this->errorResponseBody);
                 $httpResponse = stream_get_contents($this->errorResponseBody);
@@ -932,8 +932,8 @@ class MarketplaceWebServiceClient implements MarketplaceWebServiceInterface
         if (!(substr($serviceUrl, strlen($serviceUrl) - 1) === '/')) {
             $serviceUrl .= '/';
         }
-        $requestType = RequestType::getRequestType($action);
-        if ($requestType == RequestType::POST_UPLOAD) {
+        $requestType = MarketplaceWebServiceRequestType::getRequestType($action);
+        if ($requestType == MarketplaceWebServiceRequestType::POST_UPLOAD) {
             if (is_null($streamHandle) || !is_resource($streamHandle)) {
                 throw new MarketplaceWebServiceException(array('Message' => 'Missing stream resource.'));
             }
@@ -948,10 +948,10 @@ class MarketplaceWebServiceClient implements MarketplaceWebServiceInterface
             $curlOptions[CURLOPT_UPLOAD] = true;
             $curlOptions[CURLOPT_CUSTOMREQUEST] = self::REQUEST_TYPE;
         } else {
-            if (!($requestType === RequestType::UNKNOWN)) {
+            if (!($requestType === MarketplaceWebServiceRequestType::UNKNOWN)) {
                 $curlOptions[CURLOPT_URL] = $this->config['ServiceURL'];
                 $curlOptions[CURLOPT_POSTFIELDS] = $this->getParametersAsString($converted[CONVERTED_PARAMETERS_KEY]);
-                if ($requestType == RequestType::POST_DOWNLOAD) {
+                if ($requestType == MarketplaceWebServiceRequestType::POST_DOWNLOAD) {
                     $this->responseBodyContents = $streamHandle;
                     $curlOptions[CURLOPT_WRITEFUNCTION] = array($this, 'responseCallback');
                 }

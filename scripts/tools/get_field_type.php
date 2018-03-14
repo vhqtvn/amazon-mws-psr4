@@ -5,6 +5,7 @@
  * Date: 2/26/18
  * Time: 6:59 AM
  */
+error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE & ~E_DEPRECATED);
 $s = file_get_contents($argv[1]);
 if (!preg_match('@class ([^\s]+)@ism', $s, $m)) exit(-1);
 $path = $argv[1];
