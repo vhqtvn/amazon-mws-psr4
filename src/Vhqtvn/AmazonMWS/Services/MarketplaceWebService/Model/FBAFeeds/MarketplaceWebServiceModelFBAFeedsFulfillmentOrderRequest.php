@@ -477,4 +477,17 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequest extends Marketpl
     {
         return !is_null($this->_fields["Item"]["FieldValue"]);
     }
+    /**
+     * XML Representation for this object
+     *
+     * @return string XML for this object
+     */
+    public function toXML()
+    {
+        $xml = "";
+        $xml .= "<FulfillmentOrderRequest xmlns=\"http://mws.amazonaws.com/doc/2009-01-01/\">";
+        $xml .= $this->_toXMLFragment();
+        $xml .= "</FulfillmentOrderRequest>";
+        return $xml;
+    }
 }

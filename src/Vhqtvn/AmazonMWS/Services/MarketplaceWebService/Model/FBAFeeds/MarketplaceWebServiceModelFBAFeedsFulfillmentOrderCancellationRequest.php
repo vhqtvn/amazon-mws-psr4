@@ -99,4 +99,17 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequest exte
     {
         return !is_null($this->_fields["Item"]["FieldValue"]);
     }
+    /**
+     * XML Representation for this object
+     *
+     * @return string XML for this object
+     */
+    public function toXML()
+    {
+        $xml = "";
+        $xml .= "<FulfillmentOrderCancellationRequest xmlns=\"http://mws.amazonaws.com/doc/2009-01-01/\">";
+        $xml .= $this->_toXMLFragment();
+        $xml .= "</FulfillmentOrderCancellationRequest>";
+        return $xml;
+    }
 }

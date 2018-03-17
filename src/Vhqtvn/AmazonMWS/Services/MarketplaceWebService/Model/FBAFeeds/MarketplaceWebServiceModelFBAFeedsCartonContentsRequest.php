@@ -141,4 +141,17 @@ class MarketplaceWebServiceModelFBAFeedsCartonContentsRequest extends Marketplac
     {
         return !is_null($this->_fields["Carton"]["FieldValue"]);
     }
+    /**
+     * XML Representation for this object
+     *
+     * @return string XML for this object
+     */
+    public function toXML()
+    {
+        $xml = "";
+        $xml .= "<CartonContentsRequest xmlns=\"http://mws.amazonaws.com/doc/2009-01-01/\">";
+        $xml .= $this->_toXMLFragment();
+        $xml .= "</CartonContentsRequest>";
+        return $xml;
+    }
 }

@@ -302,6 +302,23 @@ function generate_child($type, $children)
         }
     }
 
+    if (substr($type, -7) == 'Request') {
+        echo "** Request $type\n";
+        $content .= '    /**' . "\n";
+        $content .= '     * XML Representation for this object' . "\n";
+        $content .= '     *' . "\n";
+        $content .= '     * @return string XML for this object' . "\n";
+        $content .= '     */' . "\n";
+        $content .= '    public function toXML()' . "\n";
+        $content .= '    {' . "\n";
+        $content .= '        $xml = "";' . "\n";
+        $content .= '        $xml .= "<' . $type . ' xmlns=\"http://mws.amazonaws.com/doc/2009-01-01/\">";' . "\n";
+        $content .= '        $xml .= $this->_toXMLFragment();' . "\n";
+        $content .= '        $xml .= "</' . $type . '>";' . "\n";
+        $content .= '        return $xml;' . "\n";
+        $content .= '    }' . "\n";
+    }
+
     $content .= "}\n";
 
     $type = PREFIX . $type . "";
