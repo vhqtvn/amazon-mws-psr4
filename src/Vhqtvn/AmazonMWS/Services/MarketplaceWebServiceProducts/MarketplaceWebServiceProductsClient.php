@@ -35,7 +35,6 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWeb
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelListMatchingProductsResponse;
 use InvalidArgumentException;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServiceProductsException;
-use Exception;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServiceProductsClient is an implementation of MarketplaceWebServiceProducts

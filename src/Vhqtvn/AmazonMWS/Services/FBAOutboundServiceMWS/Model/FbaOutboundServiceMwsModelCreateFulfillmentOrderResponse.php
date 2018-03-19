@@ -5,7 +5,6 @@ namespace Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model;
 use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 use DOMDocument;
 use DOMXPath;
-use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCreateFulfillmentOrderResponse
  * 

@@ -13,7 +13,6 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommen
 use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGetServiceStatusResponse;
 use InvalidArgumentException;
 use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendationsSectionServiceException;
-use Exception;
 use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseHeaderMetadata;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendationsSectionServiceClient is an implementation of MWSRecommendationsSectionService

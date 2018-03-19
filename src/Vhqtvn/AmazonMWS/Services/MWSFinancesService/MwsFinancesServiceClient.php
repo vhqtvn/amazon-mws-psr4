@@ -15,7 +15,6 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelGe
 use Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelGetServiceStatusResponse;
 use InvalidArgumentException;
 use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceException;
-use Exception;
 use Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseHeaderMetadata;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceClient is an implementation of MWSFinancesService

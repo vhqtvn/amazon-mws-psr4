@@ -5,7 +5,6 @@ namespace Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
 use DOMDocument;
 use DOMXPath;
-use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportRequestCountResponse
  * 

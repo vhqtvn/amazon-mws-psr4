@@ -607,6 +607,11 @@ function final_text_transform($src_path, $code, $lib_name, $dst_ns, $base_ns)
     $prettyPrinter = new PrettyPrinter\Standard(['shortArraySyntax' => true]);
     $code = $prettyPrinter->prettyPrintFile($ast);
 
+    $code = str_replace("use MarketplaceWebServiceRequestType;\n", '', $code);
+    $code = str_replace("use DateTime;\n", '', $code);
+    $code = str_replace("use DateTimeZone;\n", '', $code);
+    $code = str_replace("use Exception;\n", '', $code);
+
     $code = str_replace('->isNumericArray', '->_isNumericArray', $code);
     $code = str_replace('this->fields', 'this->_fields', $code);
 

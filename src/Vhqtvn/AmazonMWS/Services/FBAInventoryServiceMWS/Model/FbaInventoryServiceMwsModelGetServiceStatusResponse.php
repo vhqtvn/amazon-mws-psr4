@@ -5,7 +5,6 @@ namespace Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model;
 use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel;
 use DOMDocument;
 use DOMXPath;
-use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelGetServiceStatusResponse
  * 

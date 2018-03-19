@@ -5,7 +5,6 @@ namespace Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model;
 use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
 use DOMDocument;
 use DOMXPath;
-use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelListFinancialEventsByNextTokenResponse
  * 

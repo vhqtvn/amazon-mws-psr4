@@ -46,11 +46,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceM
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListResponse;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceException;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelErrorResponse;
-use Exception;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseHeaderMetadata;
-use MarketplaceWebServiceRequestType;
-use DateTime;
-use DateTimeZone;
 define('CONVERTED_PARAMETERS_KEY', 'PARAMETERS');
 define('CONVERTED_HEADERS_KEY', 'HEADERS');
 /**

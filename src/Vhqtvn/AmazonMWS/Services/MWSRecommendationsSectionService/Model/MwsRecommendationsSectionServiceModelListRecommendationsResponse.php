@@ -5,7 +5,6 @@ namespace Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model;
 use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendationsSectionServiceModel;
 use DOMDocument;
 use DOMXPath;
-use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelListRecommendationsResponse
  * 

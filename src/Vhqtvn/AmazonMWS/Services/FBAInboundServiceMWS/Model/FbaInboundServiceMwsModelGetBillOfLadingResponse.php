@@ -5,7 +5,6 @@ namespace Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model;
 use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 use DOMDocument;
 use DOMXPath;
-use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetBillOfLadingResponse
  * 

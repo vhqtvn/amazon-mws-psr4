@@ -5,7 +5,6 @@ namespace Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\MarketplaceWebServiceSellersModel;
 use DOMDocument;
 use DOMXPath;
-use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListMarketplaceParticipationsResponse
  * 

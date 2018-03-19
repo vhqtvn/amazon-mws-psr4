@@ -25,7 +25,6 @@ use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServ
 use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelGetServiceStatusResponse;
 use InvalidArgumentException;
 use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceException;
-use Exception;
 use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseHeaderMetadata;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceClient is an implementation of MWSSubscriptionsService

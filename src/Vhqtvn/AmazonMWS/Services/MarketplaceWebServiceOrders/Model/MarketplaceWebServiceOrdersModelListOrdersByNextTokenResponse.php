@@ -5,7 +5,6 @@ namespace Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceOrdersModel;
 use DOMDocument;
 use DOMXPath;
-use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelListOrdersByNextTokenResponse
  * 

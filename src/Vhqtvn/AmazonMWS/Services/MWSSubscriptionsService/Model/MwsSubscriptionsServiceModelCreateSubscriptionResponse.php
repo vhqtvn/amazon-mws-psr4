@@ -5,7 +5,6 @@ namespace Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model;
 use Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\MwsSubscriptionsServiceModel;
 use DOMDocument;
 use DOMXPath;
-use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelCreateSubscriptionResponse
  * 
