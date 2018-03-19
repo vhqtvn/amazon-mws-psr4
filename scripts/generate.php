@@ -439,7 +439,7 @@ function name_transform($ident, $lib_name, $base_ns)
 
 function special_name_transform($name)
 {
-    if (in_array($name, ["Exception", "InvalidArgumentException", "DOMDocument", "DOMXPath"])) {
+    if (in_array($name, ["Exception", "InvalidArgumentException", "DOMDocument", "DOMXPath", "DateTime", "DateTimeZone"])) {
         return "__vh_dummy_root__$name";
     }
     return $name;

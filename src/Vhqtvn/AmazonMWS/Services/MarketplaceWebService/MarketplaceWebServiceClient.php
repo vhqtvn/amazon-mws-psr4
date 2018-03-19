@@ -49,6 +49,8 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceM
 use Exception;
 use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseHeaderMetadata;
 use MarketplaceWebServiceRequestType;
+use DateTime;
+use DateTimeZone;
 define('CONVERTED_PARAMETERS_KEY', 'PARAMETERS');
 define('CONVERTED_HEADERS_KEY', 'HEADERS');
 /**
@@ -1003,7 +1005,7 @@ class MarketplaceWebServiceClient implements MarketplaceWebServiceInterface
     private function addRequiredParameters(array $parameters)
     {
         $parameters['AWSAccessKeyId'] = $this->awsAccessKeyId;
-        $parameters['Timestamp'] = $this->getFormattedTimestamp(new DateTime('now', new DateTimeZone('UTC')));
+        $parameters['Timestamp'] = $this->getFormattedTimestamp(new \DateTime('now', new \DateTimeZone('UTC')));
         $parameters['Version'] = self::SERVICE_VERSION;
         $parameters['SignatureVersion'] = $this->config['SignatureVersion'];
         if ($parameters['SignatureVersion'] > 1) {
@@ -1123,12 +1125,12 @@ class MarketplaceWebServiceClient implements MarketplaceWebServiceInterface
     {
         if (!is_object($dateTime)) {
             if (is_string($dateTime)) {
-                $dateTime = new DateTime($dateTime);
+                $dateTime = new \DateTime($dateTime);
             } else {
                 throw new \Exception("Invalid date value.");
             }
         } else {
-            if (!$dateTime instanceof DateTime) {
+            if (!$dateTime instanceof \DateTime) {
                 throw new \Exception("Invalid date value.");
             }
         }

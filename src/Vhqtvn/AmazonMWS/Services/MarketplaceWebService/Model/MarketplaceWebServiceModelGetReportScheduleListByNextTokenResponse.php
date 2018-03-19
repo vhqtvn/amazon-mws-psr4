@@ -8,7 +8,7 @@ use DOMXPath;
 use Exception;
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse
- * 
+ *
  * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult	$GetReportScheduleListByNextTokenResult
  * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata	$ResponseMetadata
  */
@@ -16,12 +16,12 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
 {
     /**
      * Construct new \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse
-     * 
-     * @param mixed $data DOMElement or Associative Array to construct from. 
-     * 
+     *
+     * @param mixed $data DOMElement or Associative Array to construct from.
+     *
      * Valid properties:
      * <ul>
-     * 
+     *
      * <li>GetReportScheduleListByNextTokenResult: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult</li>
      * <li>ResponseMetadata: \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata</li>
      *
@@ -34,9 +34,9 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     }
     /**
      * Construct \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse from XML string
-     * 
+     *
      * @param string $xml XML string to construct from
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse 
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse
      */
     public static function fromXML($xml)
     {
@@ -53,7 +53,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     }
     /**
      * Gets the value of the GetReportScheduleListByNextTokenResult.
-     * 
+     *
      * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult GetReportScheduleListByNextTokenResult
      */
     public function getGetReportScheduleListByNextTokenResult()
@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     }
     /**
      * Sets the value of the GetReportScheduleListByNextTokenResult.
-     * 
+     *
      * @param GetReportScheduleListByNextTokenResult GetReportScheduleListByNextTokenResult
      * @return void
      */
@@ -84,7 +84,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     }
     /**
      * Checks if GetReportScheduleListByNextTokenResult  is set
-     * 
+     *
      * @return bool true if GetReportScheduleListByNextTokenResult property is set
      */
     public function isSetGetReportScheduleListByNextTokenResult()
@@ -93,7 +93,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     }
     /**
      * Gets the value of the ResponseMetadata.
-     * 
+     *
      * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata()
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     }
     /**
      * Sets the value of the ResponseMetadata.
-     * 
+     *
      * @param ResponseMetadata ResponseMetadata
      * @return void
      */
@@ -124,7 +124,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     }
     /**
      * Checks if ResponseMetadata  is set
-     * 
+     *
      * @return bool true if ResponseMetadata property is set
      */
     public function isSetResponseMetadata()
@@ -133,7 +133,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     }
     /**
      * XML Representation for this object
-     * 
+     *
      * @return string XML for this object
      */
     public function toXML()
