@@ -9,13 +9,13 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
  *
  *
  * @prop	string	CartonId	Must match pattern [a-zA-Z0-9]+
- * @prop	MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList	Item	
+ * @prop	MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem[]	Item	
  */
 class MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCarton extends MarketplaceWebServiceModel{
     public function __construct($data = null){
         $this->_fields = array(
             "CartonId" => array('FieldValue' => null, 'FieldType' => 'string'),
-            "Item" => array('FieldValue' => null, 'FieldType' => MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList::class),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem::class)),
         );
         parent::__construct($data);
     }
@@ -60,43 +60,48 @@ class MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCarton extends Mark
         return !is_null($this->_fields["CartonId"]["FieldValue"]);
     }
     /**
-     * Gets the value of the Item property.
+     * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList Item
+     * @return MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem[] Item.
      */
     public function getItem()
     {
         return $this->_fields["Item"]["FieldValue"];
     }
     /**
-     * Sets the value of the Item property.
+     * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList Item 
+     * @param MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem|MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem[] Item
      * @return $this 
      */
-    public function setItem($value)
+    public function setItem($marketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem)
     {
-        $this->_fields["Item"]["FieldValue"] = $value;
+        if (!$this->_isNumericArray($marketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem)) {
+            $marketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem = array($marketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem);
+        }
+        $this->_fields["Item"]["FieldValue"] = $marketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem;
         return $this;
     }
     /**
-     * Set the value of Item, return this.
+     * Add values for Item, return this.
      *
-     * @param MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList $Item 
+     * @param MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem[] $Item_array,...
      * @return $this
      */
-    public function withItem($Item)
+    public function withItem(...$Item_array)
     {
-        $this->setItem($Item);
+        foreach ($Item_array as $marketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem) {
+            $this->_fields["Item"]["FieldValue"][] = $marketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem;
+        }
         return $this;
     }
     /**
-     * Checks if Item is set
+     * Checks if Item list is non-empty
      * 
-     * @return bool true if Item  is set
+     * @return bool true if Item list is non-empty
      */
     public function isSetItem()
     {
-        return !is_null($this->_fields["Item"]["FieldValue"]);
+        return count($this->_fields["Item"]["FieldValue"]) > 0;
     }
 }

@@ -12,7 +12,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
  * @prop	string	MerchantOrderID	
  * @prop	string	ActionType	one of MarketplaceWebServiceModelFBAFeedsOrderAdjustmentActionTypeEnum::K_*
  * @prop	string	CODCollectionMethod	one of MarketplaceWebServiceModelFBAFeedsOrderAdjustmentCODCollectionMethodEnum::K_*
- * @prop	MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList	AdjustedItem	
+ * @prop	MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem[]	AdjustedItem	
  */
 class MarketplaceWebServiceModelFBAFeedsOrderAdjustment extends MarketplaceWebServiceModel{
     public function __construct($data = null){
@@ -21,7 +21,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustment extends MarketplaceWebSe
             "MerchantOrderID" => array('FieldValue' => null, 'FieldType' => 'string'),
             "ActionType" => array('FieldValue' => null, 'FieldType' => 'string'),
             "CODCollectionMethod" => array('FieldValue' => null, 'FieldType' => 'string'),
-            "AdjustedItem" => array('FieldValue' => null, 'FieldType' => MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList::class),
+            "AdjustedItem" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem::class)),
         );
         parent::__construct($data);
     }
@@ -186,43 +186,48 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustment extends MarketplaceWebSe
         return !is_null($this->_fields["CODCollectionMethod"]["FieldValue"]);
     }
     /**
-     * Gets the value of the AdjustedItem property.
+     * Gets the value of the AdjustedItem .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList AdjustedItem
+     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem[] AdjustedItem.
      */
     public function getAdjustedItem()
     {
         return $this->_fields["AdjustedItem"]["FieldValue"];
     }
     /**
-     * Sets the value of the AdjustedItem property.
+     * Sets the value of the AdjustedItem.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList AdjustedItem 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem|MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem[] AdjustedItem
      * @return $this 
      */
-    public function setAdjustedItem($value)
+    public function setAdjustedItem($marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem)
     {
-        $this->_fields["AdjustedItem"]["FieldValue"] = $value;
+        if (!$this->_isNumericArray($marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem)) {
+            $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem = array($marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem);
+        }
+        $this->_fields["AdjustedItem"]["FieldValue"] = $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem;
         return $this;
     }
     /**
-     * Set the value of AdjustedItem, return this.
+     * Add values for AdjustedItem, return this.
      *
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList $AdjustedItem 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem[] $AdjustedItem_array,...
      * @return $this
      */
-    public function withAdjustedItem($AdjustedItem)
+    public function withAdjustedItem(...$AdjustedItem_array)
     {
-        $this->setAdjustedItem($AdjustedItem);
+        foreach ($AdjustedItem_array as $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem) {
+            $this->_fields["AdjustedItem"]["FieldValue"][] = $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem;
+        }
         return $this;
     }
     /**
-     * Checks if AdjustedItem is set
+     * Checks if AdjustedItem list is non-empty
      * 
-     * @return bool true if AdjustedItem  is set
+     * @return bool true if AdjustedItem list is non-empty
      */
     public function isSetAdjustedItem()
     {
-        return !is_null($this->_fields["AdjustedItem"]["FieldValue"]);
+        return count($this->_fields["AdjustedItem"]["FieldValue"]) > 0;
     }
 }

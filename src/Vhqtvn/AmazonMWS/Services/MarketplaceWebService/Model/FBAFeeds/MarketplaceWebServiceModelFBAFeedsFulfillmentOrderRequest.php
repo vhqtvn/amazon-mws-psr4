@@ -18,7 +18,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
  * @prop	string	FulfillmentAction	
  * @prop	string	NotificationEmail	Must match pattern [\w\._\-\+]+@([\w_\-]+\.)+\w+
  * @prop	MarketplaceWebServiceModelFBAFeedsAddressTypeSupportNonCity	DestinationAddress	
- * @prop	MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList	Item	
+ * @prop	MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem[]	Item	
  */
 class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequest extends MarketplaceWebServiceModel{
     public function __construct($data = null){
@@ -33,7 +33,7 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequest extends Marketpl
             "FulfillmentAction" => array('FieldValue' => null, 'FieldType' => 'string'),
             "NotificationEmail" => array('FieldValue' => null, 'FieldType' => 'string'),
             "DestinationAddress" => array('FieldValue' => null, 'FieldType' => 'MarketplaceWebServiceModelFBAFeedsAddressTypeSupportNonCity'),
-            "Item" => array('FieldValue' => null, 'FieldType' => MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList::class),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem::class)),
         );
         parent::__construct($data);
     }
@@ -438,44 +438,49 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequest extends Marketpl
         return !is_null($this->_fields["DestinationAddress"]["FieldValue"]);
     }
     /**
-     * Gets the value of the Item property.
+     * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList Item
+     * @return MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem[] Item.
      */
     public function getItem()
     {
         return $this->_fields["Item"]["FieldValue"];
     }
     /**
-     * Sets the value of the Item property.
+     * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList Item 
+     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem|MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem[] Item
      * @return $this 
      */
-    public function setItem($value)
+    public function setItem($marketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem)
     {
-        $this->_fields["Item"]["FieldValue"] = $value;
+        if (!$this->_isNumericArray($marketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem)) {
+            $marketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem = array($marketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem);
+        }
+        $this->_fields["Item"]["FieldValue"] = $marketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem;
         return $this;
     }
     /**
-     * Set the value of Item, return this.
+     * Add values for Item, return this.
      *
-     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList $Item 
+     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem[] $Item_array,...
      * @return $this
      */
-    public function withItem($Item)
+    public function withItem(...$Item_array)
     {
-        $this->setItem($Item);
+        foreach ($Item_array as $marketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem) {
+            $this->_fields["Item"]["FieldValue"][] = $marketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem;
+        }
         return $this;
     }
     /**
-     * Checks if Item is set
+     * Checks if Item list is non-empty
      * 
-     * @return bool true if Item  is set
+     * @return bool true if Item list is non-empty
      */
     public function isSetItem()
     {
-        return !is_null($this->_fields["Item"]["FieldValue"]);
+        return count($this->_fields["Item"]["FieldValue"]) > 0;
     }
     /**
      * XML Representation for this object

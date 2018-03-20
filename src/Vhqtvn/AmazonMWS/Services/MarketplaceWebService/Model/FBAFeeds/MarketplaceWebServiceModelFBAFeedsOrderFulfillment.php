@@ -13,7 +13,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
  * @prop	int	MerchantFulfillmentID	ID Number
  * @prop	string	FulfillmentDate	DateTime
  * @prop	MarketplaceWebServiceModelFBAFeedsOrderFulfillmentFulfillmentData	FulfillmentData	
- * @prop	MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList	Item	
+ * @prop	MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem[]	Item	
  */
 class MarketplaceWebServiceModelFBAFeedsOrderFulfillment extends MarketplaceWebServiceModel{
     public function __construct($data = null){
@@ -23,7 +23,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderFulfillment extends MarketplaceWebS
             "MerchantFulfillmentID" => array('FieldValue' => null, 'FieldType' => 'int'),
             "FulfillmentDate" => array('FieldValue' => null, 'FieldType' => 'string'),
             "FulfillmentData" => array('FieldValue' => null, 'FieldType' => MarketplaceWebServiceModelFBAFeedsOrderFulfillmentFulfillmentData::class),
-            "Item" => array('FieldValue' => null, 'FieldType' => MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList::class),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem::class)),
         );
         parent::__construct($data);
     }
@@ -228,43 +228,48 @@ class MarketplaceWebServiceModelFBAFeedsOrderFulfillment extends MarketplaceWebS
         return !is_null($this->_fields["FulfillmentData"]["FieldValue"]);
     }
     /**
-     * Gets the value of the Item property.
+     * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList Item
+     * @return MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem[] Item.
      */
     public function getItem()
     {
         return $this->_fields["Item"]["FieldValue"];
     }
     /**
-     * Sets the value of the Item property.
+     * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList Item 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem|MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem[] Item
      * @return $this 
      */
-    public function setItem($value)
+    public function setItem($marketplaceWebServiceModelFBAFeedsOrderFulfillmentItem)
     {
-        $this->_fields["Item"]["FieldValue"] = $value;
+        if (!$this->_isNumericArray($marketplaceWebServiceModelFBAFeedsOrderFulfillmentItem)) {
+            $marketplaceWebServiceModelFBAFeedsOrderFulfillmentItem = array($marketplaceWebServiceModelFBAFeedsOrderFulfillmentItem);
+        }
+        $this->_fields["Item"]["FieldValue"] = $marketplaceWebServiceModelFBAFeedsOrderFulfillmentItem;
         return $this;
     }
     /**
-     * Set the value of Item, return this.
+     * Add values for Item, return this.
      *
-     * @param MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList $Item 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem[] $Item_array,...
      * @return $this
      */
-    public function withItem($Item)
+    public function withItem(...$Item_array)
     {
-        $this->setItem($Item);
+        foreach ($Item_array as $marketplaceWebServiceModelFBAFeedsOrderFulfillmentItem) {
+            $this->_fields["Item"]["FieldValue"][] = $marketplaceWebServiceModelFBAFeedsOrderFulfillmentItem;
+        }
         return $this;
     }
     /**
-     * Checks if Item is set
+     * Checks if Item list is non-empty
      * 
-     * @return bool true if Item  is set
+     * @return bool true if Item list is non-empty
      */
     public function isSetItem()
     {
-        return !is_null($this->_fields["Item"]["FieldValue"]);
+        return count($this->_fields["Item"]["FieldValue"]) > 0;
     }
 }

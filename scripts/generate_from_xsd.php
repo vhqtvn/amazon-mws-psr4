@@ -256,7 +256,59 @@ function generate_child($type, $children)
     foreach ($props as $prop) {
         $xtype = $prop['spec']['type'];
         if (is_array($xtype)) {
-            die("????");
+            $elm_type = $xtype[0];
+            $name_low = lcfirst($elm_type);
+            $content .= '    /**' . "\n";
+            $content .= '     * Gets the value of the ' . $prop['name'] . ' .' . "\n";
+            $content .= '     * ' . "\n";
+            $content .= '     * @return ' . $elm_type . '[] ' . $prop['name'] . '.' . "\n";
+            $content .= '     */' . "\n";
+            $content .= '    public function get' . $prop['name'] . '()' . "\n";
+            $content .= '    {' . "\n";
+            $content .= '        return $this->_fields["' . $prop['name'] . '"]["FieldValue"];' . "\n";
+            $content .= '    }' . "\n";
+            $content .= '    /**' . "\n";
+            $content .= '     * Sets the value of the ' . $prop['name'] . '.' . "\n";
+            $content .= '     * ' . "\n";
+            $content .= '     * @param ' . $elm_type . '|' . $elm_type . '[] ' . $prop['name'] . '' . "\n";
+            $content .= '     * @return $this ' . "\n";
+            $content .= '     */' . "\n";
+            $content .= '    public function set' . $prop['name'] . '($' . $name_low . ')' . "\n";
+            $content .= '    {' . "\n";
+            $content .= '        if (!$this->_isNumericArray($' . $name_low . ')) {' . "\n";
+            $content .= '            $' . $name_low . ' = array($' . $name_low . ');' . "\n";
+            $content .= '        }' . "\n";
+            if (@$prop['max']) {
+                $content .= '        if(count($' . $name_low . ') > ' . $prop['max'] . ') throw new \InvalidArgumentException("Maximum number of ' . $prop['name'] . ' is ' . $prop['max'] . '");' . "\n";
+            }
+            $content .= '        $this->_fields["' . $prop['name'] . '"]["FieldValue"] = $' . $name_low . ';' . "\n";
+            $content .= '        return $this;' . "\n";
+            $content .= '    }' . "\n";
+            $content .= '    /**' . "\n";
+            $content .= '     * Add values for ' . $prop['name'] . ', return this.' . "\n";
+            $content .= '     *' . "\n";
+            $content .= '     * @param ' . $elm_type . '[] $' . $prop['name'] . '_array,...' . "\n";
+            $content .= '     * @return $this' . "\n";
+            $content .= '     */' . "\n";
+            $content .= '    public function with' . $prop['name'] . '(...$' . $prop['name'] . '_array)' . "\n";
+            $content .= '    {' . "\n";
+            $content .= '        foreach ($' . $prop['name'] . '_array as $' . $name_low . ') {' . "\n";
+            $content .= '            $this->_fields["' . $prop['name'] . '"]["FieldValue"][] = $' . $name_low . ';' . "\n";
+            $content .= '        }' . "\n";
+            if (@$prop['max']) {
+                $content .= '        if(count($' . $prop['name'] . '_array) > ' . $prop['max'] . ') throw new \InvalidArgumentException("Maximum number of ' . $prop['name'] . ' is ' . $max . '");' . "\n";
+            }
+            $content .= '        return $this;' . "\n";
+            $content .= '    }' . "\n";
+            $content .= '    /**' . "\n";
+            $content .= '     * Checks if ' . $prop['name'] . ' list is non-empty' . "\n";
+            $content .= '     * ' . "\n";
+            $content .= '     * @return bool true if ' . $prop['name'] . ' list is non-empty' . "\n";
+            $content .= '     */' . "\n";
+            $content .= '    public function isSet' . $prop['name'] . '()' . "\n";
+            $content .= '    {' . "\n";
+            $content .= '        return count($this->_fields["' . $prop['name'] . '"]["FieldValue"]) > 0;' . "\n";
+            $content .= '    }' . "\n";
         } else {
             $a = ($xtype);
             $content .= '    /**' . "\n";
@@ -333,98 +385,11 @@ function generate_child($type, $children)
 function generate_list_type($name, $org_type, $max)
 {
     $elm_type = $org_type['type'];
-    $type = $elm_type . 'List';
-
-    $name_low = lcfirst($name);
-
-    $content = "<?php\n\n";
-    $content .= "namespace Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\FBAFeeds;\n\n";
-    $content .= "use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;\n\n";
-    $content .= "/**\n";
-    $content .= " * $type\n";
-    $content .= " *\n";
-    $content .= " *\n";
-    $content .= " * @prop\t{$elm_type}[]\t{$elm_type}\t" . ($max ? "Max $max elements" : "") . "\n";
-    $content .= " */\n";
-    $content .= "class $type extends MarketplaceWebServiceModel{\n";
-    $content .= "    /**\n";
-    $content .= "     * Construct new $type\n";
-    $content .= "     *\n";
-    $content .= "     * @param mixed \$data DOMElement or Associative Array to construct from. \n";
-    $content .= "     *\n";
-    $content .= "     * Valid properties:\n";
-    $content .= "     * <ul>\n";
-    $content .= "     *\n";
-    $content .= "     * <li> $name: $type</li>\n";
-    $content .= "     *\n";
-    $content .= "     * </ul>\n";
-    $content .= "     */\n";
-    $content .= '    public function __construct($data = null){' . "\n";
-    $content .= '        $this->_fields = array(' . "\n";
-    $content .= '            ' . json_encode($name) . " => array('FieldValue' => array(), 'FieldType' => array(" . norm_type($elm_type) . ")),\n";
-    $content .= '        );' . "\n";
-    $content .= '        parent::__construct($data);' . "\n";
-    $content .= '    }' . "\n";
-    $content .= '    /**' . "\n";
-    $content .= '     * Gets the value of the ' . $name . ' .' . "\n";
-    $content .= '     * ' . "\n";
-    $content .= '     * @return ' . $elm_type . '[] ' . $name . '.' . "\n";
-    $content .= '     */' . "\n";
-    $content .= '    public function get' . $name . '()' . "\n";
-    $content .= '    {' . "\n";
-    $content .= '        return $this->_fields["' . $name . '"]["FieldValue"];' . "\n";
-    $content .= '    }' . "\n";
-    $content .= '    /**' . "\n";
-    $content .= '     * Sets the value of the ' . $name . '.' . "\n";
-    $content .= '     * ' . "\n";
-    $content .= '     * @param ' . $elm_type . '|' . $elm_type . '[] ' . $name . '' . "\n";
-    $content .= '     * @return $this ' . "\n";
-    $content .= '     */' . "\n";
-    $content .= '    public function set' . $name . '($' . $name_low . ')' . "\n";
-    $content .= '    {' . "\n";
-    $content .= '        if (!$this->_isNumericArray($' . $name_low . ')) {' . "\n";
-    $content .= '            $' . $name_low . ' = array($' . $name_low . ');' . "\n";
-    $content .= '        }' . "\n";
-    if ($max) {
-        $content .= '        if(count($' . $name_low . ') > ' . $max . ') throw new \InvalidArgumentException("Maximum number of ' . $name . ' is ' . $max . '");' . "\n";
-    }
-    $content .= '        $this->_fields["' . $name . '"]["FieldValue"] = $' . $name_low . ';' . "\n";
-    $content .= '        return $this;' . "\n";
-    $content .= '    }' . "\n";
-    $content .= '    /**' . "\n";
-    $content .= '     * Add values for ' . $name . ', return this.' . "\n";
-    $content .= '     *' . "\n";
-    $content .= '     * @param ' . $elm_type . '[] $' . $name . '_array,...' . "\n";
-    $content .= '     * @return $this' . "\n";
-    $content .= '     */' . "\n";
-    $content .= '    public function with' . $name . '(...$' . $name . '_array)' . "\n";
-    $content .= '    {' . "\n";
-    $content .= '        foreach ($' . $name . '_array as $' . $name_low . ') {' . "\n";
-    $content .= '            $this->_fields["' . $name . '"]["FieldValue"][] = $' . $name_low . ';' . "\n";
-    $content .= '        }' . "\n";
-    if ($max) {
-        $content .= '        if(count($' . $name . '_array) > ' . $max . ') throw new \InvalidArgumentException("Maximum number of ' . $name . ' is ' . $max . '");' . "\n";
-    }
-    $content .= '        return $this;' . "\n";
-    $content .= '    }' . "\n";
-    $content .= '    /**' . "\n";
-    $content .= '     * Checks if ' . $name . ' list is non-empty' . "\n";
-    $content .= '     * ' . "\n";
-    $content .= '     * @return bool true if ' . $name . ' list is non-empty' . "\n";
-    $content .= '     */' . "\n";
-    $content .= '    public function isSet' . $name . '()' . "\n";
-    $content .= '    {' . "\n";
-    $content .= '        return count($this->_fields["' . $name . '"]["FieldValue"]) > 0;' . "\n";
-    $content .= '    }' . "\n";
-    $content .= "\n";
-    $content .= "}\n";
-
-    $out = OUT_PATH . "/$type.php";
-    file_put_contents($out, $content);
 
     return [
-        'type' => $type,
-    ];
+            'type' => [$elm_type],
+            'max' => $max
+        ] + $org_type;
 }
 
 function check_type_ref($ref)

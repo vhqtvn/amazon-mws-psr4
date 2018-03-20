@@ -13,7 +13,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
  * @prop	string	MerchantAdjustmentItemID	required
  * @prop	string	AdjustmentReason	one of MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemAdjustmentReasonEnum::K_*
  * @prop	MarketplaceWebServiceModelFBAFeedsAdjustmentBuyerPrice	ItemPriceAdjustments	
- * @prop	MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsList	PromotionAdjustments	
+ * @prop	MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments[]	PromotionAdjustments	
  * @prop	MarketplaceWebServiceModelFBAFeedsAdjustmentDirectPaymentType	DirectPaymentAdjustments	
  * @prop	int	QuantityCancelled	positive number
  * @prop	int	Quantity	positive number
@@ -26,7 +26,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem extends Mark
             "MerchantAdjustmentItemID" => array('FieldValue' => null, 'FieldType' => 'string'),
             "AdjustmentReason" => array('FieldValue' => null, 'FieldType' => 'string'),
             "ItemPriceAdjustments" => array('FieldValue' => null, 'FieldType' => 'MarketplaceWebServiceModelFBAFeedsAdjustmentBuyerPrice'),
-            "PromotionAdjustments" => array('FieldValue' => null, 'FieldType' => MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsList::class),
+            "PromotionAdjustments" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments::class)),
             "DirectPaymentAdjustments" => array('FieldValue' => null, 'FieldType' => 'MarketplaceWebServiceModelFBAFeedsAdjustmentDirectPaymentType'),
             "QuantityCancelled" => array('FieldValue' => null, 'FieldType' => 'int'),
             "Quantity" => array('FieldValue' => null, 'FieldType' => 'int'),
@@ -234,44 +234,49 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem extends Mark
         return !is_null($this->_fields["ItemPriceAdjustments"]["FieldValue"]);
     }
     /**
-     * Gets the value of the PromotionAdjustments property.
+     * Gets the value of the PromotionAdjustments .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsList PromotionAdjustments
+     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments[] PromotionAdjustments.
      */
     public function getPromotionAdjustments()
     {
         return $this->_fields["PromotionAdjustments"]["FieldValue"];
     }
     /**
-     * Sets the value of the PromotionAdjustments property.
+     * Sets the value of the PromotionAdjustments.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsList PromotionAdjustments 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments|MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments[] PromotionAdjustments
      * @return $this 
      */
-    public function setPromotionAdjustments($value)
+    public function setPromotionAdjustments($marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments)
     {
-        $this->_fields["PromotionAdjustments"]["FieldValue"] = $value;
+        if (!$this->_isNumericArray($marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments)) {
+            $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments = array($marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments);
+        }
+        $this->_fields["PromotionAdjustments"]["FieldValue"] = $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments;
         return $this;
     }
     /**
-     * Set the value of PromotionAdjustments, return this.
+     * Add values for PromotionAdjustments, return this.
      *
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsList $PromotionAdjustments 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments[] $PromotionAdjustments_array,...
      * @return $this
      */
-    public function withPromotionAdjustments($PromotionAdjustments)
+    public function withPromotionAdjustments(...$PromotionAdjustments_array)
     {
-        $this->setPromotionAdjustments($PromotionAdjustments);
+        foreach ($PromotionAdjustments_array as $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments) {
+            $this->_fields["PromotionAdjustments"]["FieldValue"][] = $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments;
+        }
         return $this;
     }
     /**
-     * Checks if PromotionAdjustments is set
+     * Checks if PromotionAdjustments list is non-empty
      * 
-     * @return bool true if PromotionAdjustments  is set
+     * @return bool true if PromotionAdjustments list is non-empty
      */
     public function isSetPromotionAdjustments()
     {
-        return !is_null($this->_fields["PromotionAdjustments"]["FieldValue"]);
+        return count($this->_fields["PromotionAdjustments"]["FieldValue"]) > 0;
     }
     /**
      * Gets the value of the DirectPaymentAdjustments property.

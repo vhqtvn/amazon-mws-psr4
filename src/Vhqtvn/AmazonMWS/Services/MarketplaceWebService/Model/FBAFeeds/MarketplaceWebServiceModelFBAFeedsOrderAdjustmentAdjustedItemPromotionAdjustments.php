@@ -10,14 +10,14 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
  *
  * @prop	string	PromotionClaimCode	6-12 characters
  * @prop	string	MerchantPromotionID	max 80 characters
- * @prop	MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponentList	Component	
+ * @prop	MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent[]	Component	
  */
 class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments extends MarketplaceWebServiceModel{
     public function __construct($data = null){
         $this->_fields = array(
             "PromotionClaimCode" => array('FieldValue' => null, 'FieldType' => 'string'),
             "MerchantPromotionID" => array('FieldValue' => null, 'FieldType' => 'string'),
-            "Component" => array('FieldValue' => null, 'FieldType' => MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponentList::class),
+            "Component" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent::class)),
         );
         parent::__construct($data);
     }
@@ -102,43 +102,48 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdju
         return !is_null($this->_fields["MerchantPromotionID"]["FieldValue"]);
     }
     /**
-     * Gets the value of the Component property.
+     * Gets the value of the Component .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponentList Component
+     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent[] Component.
      */
     public function getComponent()
     {
         return $this->_fields["Component"]["FieldValue"];
     }
     /**
-     * Sets the value of the Component property.
+     * Sets the value of the Component.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponentList Component 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent|MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent[] Component
      * @return $this 
      */
-    public function setComponent($value)
+    public function setComponent($marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent)
     {
-        $this->_fields["Component"]["FieldValue"] = $value;
+        if (!$this->_isNumericArray($marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent)) {
+            $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent = array($marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent);
+        }
+        $this->_fields["Component"]["FieldValue"] = $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent;
         return $this;
     }
     /**
-     * Set the value of Component, return this.
+     * Add values for Component, return this.
      *
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponentList $Component 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent[] $Component_array,...
      * @return $this
      */
-    public function withComponent($Component)
+    public function withComponent(...$Component_array)
     {
-        $this->setComponent($Component);
+        foreach ($Component_array as $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent) {
+            $this->_fields["Component"]["FieldValue"][] = $marketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent;
+        }
         return $this;
     }
     /**
-     * Checks if Component is set
+     * Checks if Component list is non-empty
      * 
-     * @return bool true if Component  is set
+     * @return bool true if Component list is non-empty
      */
     public function isSetComponent()
     {
-        return !is_null($this->_fields["Component"]["FieldValue"]);
+        return count($this->_fields["Component"]["FieldValue"]) > 0;
     }
 }

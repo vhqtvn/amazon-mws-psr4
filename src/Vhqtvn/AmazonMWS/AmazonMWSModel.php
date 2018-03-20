@@ -11,6 +11,7 @@
  *******************************************************************************/
 
 namespace Vhqtvn\AmazonMWS;
+
 use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata;
 
 /**
@@ -293,7 +294,7 @@ abstract class __AmazonMWSModelBase
         $xml = "";
         foreach ($this->_fields as $fieldName => $field) {
             $fieldValue = $field['FieldValue'];
-            if (!is_null($fieldValue) && substr($field['FieldType'], -27) == 'ModelResponseHeaderMetadata') {
+            if (!is_null($fieldValue) && (!is_string($field['FieldType']) || substr($field['FieldType'], -27) != 'ModelResponseHeaderMetadata')) {
                 $fieldType = $field['FieldType'];
                 if (is_array($fieldType)) {
                     if ($fieldType[0] == "object") {
@@ -487,7 +488,7 @@ abstract class __AmazonMWSModelBase
     }
 }
 
-if(interface_exists(\Illuminate\Contracts\Support\Arrayable::class)) {
+if (interface_exists(\Illuminate\Contracts\Support\Arrayable::class)) {
     abstract class AmazonMWSModel extends __AmazonMWSModelBase implements \Illuminate\Contracts\Support\Arrayable
     {
 

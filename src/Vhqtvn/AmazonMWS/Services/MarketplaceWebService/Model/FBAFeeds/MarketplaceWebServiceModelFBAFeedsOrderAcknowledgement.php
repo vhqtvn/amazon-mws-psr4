@@ -11,7 +11,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
  * @prop	string	AmazonOrderID	
  * @prop	string	MerchantOrderID	
  * @prop	string	StatusCode	one of MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementStatusCodeEnum::K_*
- * @prop	MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList	Item	
+ * @prop	MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem[]	Item	
  */
 class MarketplaceWebServiceModelFBAFeedsOrderAcknowledgement extends MarketplaceWebServiceModel{
     public function __construct($data = null){
@@ -19,7 +19,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAcknowledgement extends Marketplace
             "AmazonOrderID" => array('FieldValue' => null, 'FieldType' => 'string'),
             "MerchantOrderID" => array('FieldValue' => null, 'FieldType' => 'string'),
             "StatusCode" => array('FieldValue' => null, 'FieldType' => 'string'),
-            "Item" => array('FieldValue' => null, 'FieldType' => MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList::class),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem::class)),
         );
         parent::__construct($data);
     }
@@ -144,43 +144,48 @@ class MarketplaceWebServiceModelFBAFeedsOrderAcknowledgement extends Marketplace
         return !is_null($this->_fields["StatusCode"]["FieldValue"]);
     }
     /**
-     * Gets the value of the Item property.
+     * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList Item
+     * @return MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem[] Item.
      */
     public function getItem()
     {
         return $this->_fields["Item"]["FieldValue"];
     }
     /**
-     * Sets the value of the Item property.
+     * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList Item 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem|MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem[] Item
      * @return $this 
      */
-    public function setItem($value)
+    public function setItem($marketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem)
     {
-        $this->_fields["Item"]["FieldValue"] = $value;
+        if (!$this->_isNumericArray($marketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem)) {
+            $marketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem = array($marketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem);
+        }
+        $this->_fields["Item"]["FieldValue"] = $marketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem;
         return $this;
     }
     /**
-     * Set the value of Item, return this.
+     * Add values for Item, return this.
      *
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList $Item 
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem[] $Item_array,...
      * @return $this
      */
-    public function withItem($Item)
+    public function withItem(...$Item_array)
     {
-        $this->setItem($Item);
+        foreach ($Item_array as $marketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem) {
+            $this->_fields["Item"]["FieldValue"][] = $marketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem;
+        }
         return $this;
     }
     /**
-     * Checks if Item is set
+     * Checks if Item list is non-empty
      * 
-     * @return bool true if Item  is set
+     * @return bool true if Item list is non-empty
      */
     public function isSetItem()
     {
-        return !is_null($this->_fields["Item"]["FieldValue"]);
+        return count($this->_fields["Item"]["FieldValue"]) > 0;
     }
 }

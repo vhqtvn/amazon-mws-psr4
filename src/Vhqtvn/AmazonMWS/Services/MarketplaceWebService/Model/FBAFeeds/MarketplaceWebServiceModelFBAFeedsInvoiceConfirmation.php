@@ -10,14 +10,14 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebService\MarketplaceWebServiceModel;
  *
  * @prop	string	AmazonOrderID	
  * @prop	string	InvoiceSentDate	DateTime
- * @prop	MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList	Item	
+ * @prop	MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem[]	Item	
  */
 class MarketplaceWebServiceModelFBAFeedsInvoiceConfirmation extends MarketplaceWebServiceModel{
     public function __construct($data = null){
         $this->_fields = array(
             "AmazonOrderID" => array('FieldValue' => null, 'FieldType' => 'string'),
             "InvoiceSentDate" => array('FieldValue' => null, 'FieldType' => 'string'),
-            "Item" => array('FieldValue' => null, 'FieldType' => MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList::class),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem::class)),
         );
         parent::__construct($data);
     }
@@ -102,43 +102,48 @@ class MarketplaceWebServiceModelFBAFeedsInvoiceConfirmation extends MarketplaceW
         return !is_null($this->_fields["InvoiceSentDate"]["FieldValue"]);
     }
     /**
-     * Gets the value of the Item property.
+     * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList Item
+     * @return MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem[] Item.
      */
     public function getItem()
     {
         return $this->_fields["Item"]["FieldValue"];
     }
     /**
-     * Sets the value of the Item property.
+     * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList Item 
+     * @param MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem|MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem[] Item
      * @return $this 
      */
-    public function setItem($value)
+    public function setItem($marketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem)
     {
-        $this->_fields["Item"]["FieldValue"] = $value;
+        if (!$this->_isNumericArray($marketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem)) {
+            $marketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem = array($marketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem);
+        }
+        $this->_fields["Item"]["FieldValue"] = $marketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem;
         return $this;
     }
     /**
-     * Set the value of Item, return this.
+     * Add values for Item, return this.
      *
-     * @param MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList $Item 
+     * @param MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem[] $Item_array,...
      * @return $this
      */
-    public function withItem($Item)
+    public function withItem(...$Item_array)
     {
-        $this->setItem($Item);
+        foreach ($Item_array as $marketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem) {
+            $this->_fields["Item"]["FieldValue"][] = $marketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem;
+        }
         return $this;
     }
     /**
-     * Checks if Item is set
+     * Checks if Item list is non-empty
      * 
-     * @return bool true if Item  is set
+     * @return bool true if Item list is non-empty
      */
     public function isSetItem()
     {
-        return !is_null($this->_fields["Item"]["FieldValue"]);
+        return count($this->_fields["Item"]["FieldValue"]) > 0;
     }
 }
