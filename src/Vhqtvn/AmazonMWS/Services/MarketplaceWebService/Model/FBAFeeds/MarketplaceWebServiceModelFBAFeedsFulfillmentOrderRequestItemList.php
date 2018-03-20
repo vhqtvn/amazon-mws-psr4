@@ -25,14 +25,14 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList extends 
      */
     public function __construct($data = null){
         $this->_fields = array(
-            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList::class)),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem::class)),
         );
         parent::__construct($data);
     }
     /**
      * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList[] Item.
+     * @return MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem[] Item.
      */
     public function getItem()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList extends 
     /**
      * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList|MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList[] Item
+     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem|MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem[] Item
      * @return $this 
      */
     public function setItem($item)
@@ -55,7 +55,7 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItemList extends 
     /**
      * Add values for Item, return this.
      *
-     * @param \string[] $Item_array,...
+     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderRequestItem[] $Item_array,...
      * @return $this
      */
     public function withItem(...$Item_array)

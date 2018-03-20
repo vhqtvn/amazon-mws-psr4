@@ -25,14 +25,14 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdju
      */
     public function __construct($data = null){
         $this->_fields = array(
-            "Component" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponentList::class)),
+            "Component" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent::class)),
         );
         parent::__construct($data);
     }
     /**
      * Gets the value of the Component .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponentList[] Component.
+     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent[] Component.
      */
     public function getComponent()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdju
     /**
      * Sets the value of the Component.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponentList|MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponentList[] Component
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent|MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent[] Component
      * @return $this 
      */
     public function setComponent($component)
@@ -55,7 +55,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdju
     /**
      * Add values for Component, return this.
      *
-     * @param \string[] $Component_array,...
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsComponent[] $Component_array,...
      * @return $this
      */
     public function withComponent(...$Component_array)

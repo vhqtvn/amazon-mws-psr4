@@ -25,14 +25,14 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItemL
      */
     public function __construct($data = null){
         $this->_fields = array(
-            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItemList::class)),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItem::class)),
         );
         parent::__construct($data);
     }
     /**
      * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItemList[] Item.
+     * @return MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItem[] Item.
      */
     public function getItem()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItemL
     /**
      * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItemList|MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItemList[] Item
+     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItem|MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItem[] Item
      * @return $this 
      */
     public function setItem($item)
@@ -55,7 +55,7 @@ class MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItemL
     /**
      * Add values for Item, return this.
      *
-     * @param \string[] $Item_array,...
+     * @param MarketplaceWebServiceModelFBAFeedsFulfillmentOrderCancellationRequestItem[] $Item_array,...
      * @return $this
      */
     public function withItem(...$Item_array)

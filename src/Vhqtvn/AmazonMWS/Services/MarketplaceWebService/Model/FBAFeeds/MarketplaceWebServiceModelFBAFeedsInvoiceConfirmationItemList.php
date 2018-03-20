@@ -25,14 +25,14 @@ class MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList extends Mark
      */
     public function __construct($data = null){
         $this->_fields = array(
-            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList::class)),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem::class)),
         );
         parent::__construct($data);
     }
     /**
      * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList[] Item.
+     * @return MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem[] Item.
      */
     public function getItem()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList extends Mark
     /**
      * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList|MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList[] Item
+     * @param MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem|MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem[] Item
      * @return $this 
      */
     public function setItem($item)
@@ -55,7 +55,7 @@ class MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItemList extends Mark
     /**
      * Add values for Item, return this.
      *
-     * @param \string[] $Item_array,...
+     * @param MarketplaceWebServiceModelFBAFeedsInvoiceConfirmationItem[] $Item_array,...
      * @return $this
      */
     public function withItem(...$Item_array)

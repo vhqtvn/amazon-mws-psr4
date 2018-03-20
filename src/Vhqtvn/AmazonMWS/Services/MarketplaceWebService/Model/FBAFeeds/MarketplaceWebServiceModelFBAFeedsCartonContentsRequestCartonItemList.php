@@ -25,14 +25,14 @@ class MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList exte
      */
     public function __construct($data = null){
         $this->_fields = array(
-            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList::class)),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem::class)),
         );
         parent::__construct($data);
     }
     /**
      * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList[] Item.
+     * @return MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem[] Item.
      */
     public function getItem()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList exte
     /**
      * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList|MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList[] Item
+     * @param MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem|MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem[] Item
      * @return $this 
      */
     public function setItem($item)
@@ -56,7 +56,7 @@ class MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItemList exte
     /**
      * Add values for Item, return this.
      *
-     * @param \string[] $Item_array,...
+     * @param MarketplaceWebServiceModelFBAFeedsCartonContentsRequestCartonItem[] $Item_array,...
      * @return $this
      */
     public function withItem(...$Item_array)

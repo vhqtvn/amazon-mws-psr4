@@ -11,6 +11,7 @@
  *******************************************************************************/
 
 namespace Vhqtvn\AmazonMWS;
+use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata;
 
 /**
  * AmazonMWSModel - base class for all model classes
@@ -292,7 +293,7 @@ abstract class __AmazonMWSModelBase
         $xml = "";
         foreach ($this->_fields as $fieldName => $field) {
             $fieldValue = $field['FieldValue'];
-            if (!is_null($fieldValue) && $field['FieldType'] != "MWSSubscriptionsService_Model_ResponseHeaderMetadata") {
+            if (!is_null($fieldValue) && substr($field['FieldType'], -27) == 'ModelResponseHeaderMetadata') {
                 $fieldType = $field['FieldType'];
                 if (is_array($fieldType)) {
                     if ($fieldType[0] == "object") {

@@ -25,14 +25,14 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList extends 
      */
     public function __construct($data = null){
         $this->_fields = array(
-            "AdjustedItem" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList::class)),
+            "AdjustedItem" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem::class)),
         );
         parent::__construct($data);
     }
     /**
      * Gets the value of the AdjustedItem .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList[] AdjustedItem.
+     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem[] AdjustedItem.
      */
     public function getAdjustedItem()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList extends 
     /**
      * Sets the value of the AdjustedItem.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList|MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList[] AdjustedItem
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem|MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem[] AdjustedItem
      * @return $this 
      */
     public function setAdjustedItem($adjustedItem)
@@ -55,7 +55,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemList extends 
     /**
      * Add values for AdjustedItem, return this.
      *
-     * @param \string[] $AdjustedItem_array,...
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItem[] $AdjustedItem_array,...
      * @return $this
      */
     public function withAdjustedItem(...$AdjustedItem_array)

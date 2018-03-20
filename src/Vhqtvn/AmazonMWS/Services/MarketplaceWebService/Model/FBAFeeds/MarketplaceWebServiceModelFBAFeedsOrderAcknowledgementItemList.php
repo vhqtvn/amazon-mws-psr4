@@ -25,14 +25,14 @@ class MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList extends Mar
      */
     public function __construct($data = null){
         $this->_fields = array(
-            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList::class)),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem::class)),
         );
         parent::__construct($data);
     }
     /**
      * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList[] Item.
+     * @return MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem[] Item.
      */
     public function getItem()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList extends Mar
     /**
      * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList|MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList[] Item
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem|MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem[] Item
      * @return $this 
      */
     public function setItem($item)
@@ -55,7 +55,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItemList extends Mar
     /**
      * Add values for Item, return this.
      *
-     * @param \string[] $Item_array,...
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAcknowledgementItem[] $Item_array,...
      * @return $this
      */
     public function withItem(...$Item_array)

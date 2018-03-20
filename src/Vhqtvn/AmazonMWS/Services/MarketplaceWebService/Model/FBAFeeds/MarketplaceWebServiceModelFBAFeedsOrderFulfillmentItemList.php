@@ -25,14 +25,14 @@ class MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList extends Marketp
      */
     public function __construct($data = null){
         $this->_fields = array(
-            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList::class)),
+            "Item" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem::class)),
         );
         parent::__construct($data);
     }
     /**
      * Gets the value of the Item .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList[] Item.
+     * @return MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem[] Item.
      */
     public function getItem()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList extends Marketp
     /**
      * Sets the value of the Item.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList|MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList[] Item
+     * @param MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem|MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem[] Item
      * @return $this 
      */
     public function setItem($item)
@@ -55,7 +55,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItemList extends Marketp
     /**
      * Add values for Item, return this.
      *
-     * @param \string[] $Item_array,...
+     * @param MarketplaceWebServiceModelFBAFeedsOrderFulfillmentItem[] $Item_array,...
      * @return $this
      */
     public function withItem(...$Item_array)

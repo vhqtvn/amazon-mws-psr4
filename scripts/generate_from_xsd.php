@@ -361,14 +361,14 @@ function generate_list_type($name, $org_type, $max)
     $content .= "     */\n";
     $content .= '    public function __construct($data = null){' . "\n";
     $content .= '        $this->_fields = array(' . "\n";
-    $content .= '            ' . json_encode($name) . " => array('FieldValue' => array(), 'FieldType' => array(" . norm_type($type) . ")),\n";
+    $content .= '            ' . json_encode($name) . " => array('FieldValue' => array(), 'FieldType' => array(" . norm_type($elm_type) . ")),\n";
     $content .= '        );' . "\n";
     $content .= '        parent::__construct($data);' . "\n";
     $content .= '    }' . "\n";
     $content .= '    /**' . "\n";
     $content .= '     * Gets the value of the ' . $name . ' .' . "\n";
     $content .= '     * ' . "\n";
-    $content .= '     * @return ' . $type . '[] ' . $name . '.' . "\n";
+    $content .= '     * @return ' . $elm_type . '[] ' . $name . '.' . "\n";
     $content .= '     */' . "\n";
     $content .= '    public function get' . $name . '()' . "\n";
     $content .= '    {' . "\n";
@@ -377,7 +377,7 @@ function generate_list_type($name, $org_type, $max)
     $content .= '    /**' . "\n";
     $content .= '     * Sets the value of the ' . $name . '.' . "\n";
     $content .= '     * ' . "\n";
-    $content .= '     * @param ' . $type . '|' . $type . '[] ' . $name . '' . "\n";
+    $content .= '     * @param ' . $elm_type . '|' . $elm_type . '[] ' . $name . '' . "\n";
     $content .= '     * @return $this ' . "\n";
     $content .= '     */' . "\n";
     $content .= '    public function set' . $name . '($' . $name_low . ')' . "\n";
@@ -394,7 +394,7 @@ function generate_list_type($name, $org_type, $max)
     $content .= '    /**' . "\n";
     $content .= '     * Add values for ' . $name . ', return this.' . "\n";
     $content .= '     *' . "\n";
-    $content .= '     * @param \string[] $' . $name . '_array,...' . "\n";
+    $content .= '     * @param ' . $elm_type . '[] $' . $name . '_array,...' . "\n";
     $content .= '     * @return $this' . "\n";
     $content .= '     */' . "\n";
     $content .= '    public function with' . $name . '(...$' . $name . '_array)' . "\n";

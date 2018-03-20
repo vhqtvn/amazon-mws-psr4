@@ -25,14 +25,14 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdju
      */
     public function __construct($data = null){
         $this->_fields = array(
-            "PromotionAdjustments" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsList::class)),
+            "PromotionAdjustments" => array('FieldValue' => array(), 'FieldType' => array(MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments::class)),
         );
         parent::__construct($data);
     }
     /**
      * Gets the value of the PromotionAdjustments .
      * 
-     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsList[] PromotionAdjustments.
+     * @return MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments[] PromotionAdjustments.
      */
     public function getPromotionAdjustments()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdju
     /**
      * Sets the value of the PromotionAdjustments.
      * 
-     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsList|MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustmentsList[] PromotionAdjustments
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments|MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments[] PromotionAdjustments
      * @return $this 
      */
     public function setPromotionAdjustments($promotionAdjustments)
@@ -55,7 +55,7 @@ class MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdju
     /**
      * Add values for PromotionAdjustments, return this.
      *
-     * @param \string[] $PromotionAdjustments_array,...
+     * @param MarketplaceWebServiceModelFBAFeedsOrderAdjustmentAdjustedItemPromotionAdjustments[] $PromotionAdjustments_array,...
      * @return $this
      */
     public function withPromotionAdjustments(...$PromotionAdjustments_array)
