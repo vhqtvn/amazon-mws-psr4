@@ -15,7 +15,7 @@ use Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\MwsMerchantFulfillme
  * @property	string	$LatestEstimatedDeliveryDate
  * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount	$Rate
  * @property	\Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions	$ShippingServiceOptions
- * @property	\[]	$AvailableLabelFormats
+ * @property	\string[]	$AvailableLabelFormats
  */
 class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfillmentServiceModel
 {
@@ -27,7 +27,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the ShippingServiceName property.
      *
-     * @return String ShippingServiceName.
+     * @return \string ShippingServiceName.
      */
     public function getShippingServiceName()
     {
@@ -37,7 +37,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the ShippingServiceName property.
      *
      * @param string shippingServiceName
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingServiceName($value)
     {
@@ -67,7 +67,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the CarrierName property.
      *
-     * @return String CarrierName.
+     * @return \string CarrierName.
      */
     public function getCarrierName()
     {
@@ -77,7 +77,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the CarrierName property.
      *
      * @param string carrierName
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierName($value)
     {
@@ -107,7 +107,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the ShippingServiceId property.
      *
-     * @return String ShippingServiceId.
+     * @return \string ShippingServiceId.
      */
     public function getShippingServiceId()
     {
@@ -117,7 +117,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the ShippingServiceId property.
      *
      * @param string shippingServiceId
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingServiceId($value)
     {
@@ -147,7 +147,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the ShippingServiceOfferId property.
      *
-     * @return String ShippingServiceOfferId.
+     * @return \string ShippingServiceOfferId.
      */
     public function getShippingServiceOfferId()
     {
@@ -157,7 +157,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the ShippingServiceOfferId property.
      *
      * @param string shippingServiceOfferId
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingServiceOfferId($value)
     {
@@ -187,7 +187,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the ShipDate property.
      *
-     * @return XMLGregorianCalendar ShipDate.
+     * @return \DateTime ShipDate.
      */
     public function getShipDate()
     {
@@ -197,7 +197,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the ShipDate property.
      *
      * @param string shipDate
-     * @return $this 
+     * @return $this instance
      */
     public function setShipDate($value)
     {
@@ -227,7 +227,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the EarliestEstimatedDeliveryDate property.
      *
-     * @return XMLGregorianCalendar EarliestEstimatedDeliveryDate.
+     * @return \DateTime EarliestEstimatedDeliveryDate.
      */
     public function getEarliestEstimatedDeliveryDate()
     {
@@ -237,7 +237,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the EarliestEstimatedDeliveryDate property.
      *
      * @param string earliestEstimatedDeliveryDate
-     * @return $this 
+     * @return $this instance
      */
     public function setEarliestEstimatedDeliveryDate($value)
     {
@@ -267,7 +267,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the LatestEstimatedDeliveryDate property.
      *
-     * @return XMLGregorianCalendar LatestEstimatedDeliveryDate.
+     * @return \DateTime LatestEstimatedDeliveryDate.
      */
     public function getLatestEstimatedDeliveryDate()
     {
@@ -277,7 +277,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the LatestEstimatedDeliveryDate property.
      *
      * @param string latestEstimatedDeliveryDate
-     * @return $this 
+     * @return $this instance
      */
     public function setLatestEstimatedDeliveryDate($value)
     {
@@ -317,7 +317,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the Rate property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount rate
-     * @return $this 
+     * @return $this instance
      */
     public function setRate($value)
     {
@@ -357,7 +357,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the ShippingServiceOptions property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingServiceOptions shippingServiceOptions
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingServiceOptions($value)
     {
@@ -387,7 +387,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
     /**
      * Get the value of the AvailableLabelFormats property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelString[] AvailableLabelFormats.
+     * @return \string[] AvailableLabelFormats.
      */
     public function getAvailableLabelFormats()
     {
@@ -400,7 +400,7 @@ class MwsMerchantFulfillmentServiceModelShippingService extends MwsMerchantFulfi
      * Set the value of the AvailableLabelFormats property.
      *
      * @param array availableLabelFormats
-     * @return $this 
+     * @return $this instance
      */
     public function setAvailableLabelFormats($value)
     {

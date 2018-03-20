@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelGetServiceStatusResult extends FbaInboundServiceM
     /**
      * Get the value of the Status property.
      *
-     * @return String Status.
+     * @return \string Status.
      */
     public function getStatus()
     {
@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelGetServiceStatusResult extends FbaInboundServiceM
      * Set the value of the Status property.
      *
      * @param string status
-     * @return $this 
+     * @return $this instance
      */
     public function setStatus($value)
     {
@@ -59,7 +59,7 @@ class FbaInboundServiceMwsModelGetServiceStatusResult extends FbaInboundServiceM
     /**
      * Get the value of the Timestamp property.
      *
-     * @return XMLGregorianCalendar Timestamp.
+     * @return \DateTime Timestamp.
      */
     public function getTimestamp()
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelGetServiceStatusResult extends FbaInboundServiceM
      * Set the value of the Timestamp property.
      *
      * @param string timestamp
-     * @return $this 
+     * @return $this instance
      */
     public function setTimestamp($value)
     {

@@ -32,7 +32,7 @@ class MwsRecommendationsSectionServiceModelGetServiceStatusResponse extends MwsR
      * Set the value of the GetServiceStatusResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelGetServiceStatusResult getServiceStatusResult
-     * @return $this 
+     * @return $this instance
      */
     public function setGetServiceStatusResult($value)
     {
@@ -72,7 +72,7 @@ class MwsRecommendationsSectionServiceModelGetServiceStatusResponse extends MwsR
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class MwsRecommendationsSectionServiceModelGetServiceStatusResponse extends MwsR
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

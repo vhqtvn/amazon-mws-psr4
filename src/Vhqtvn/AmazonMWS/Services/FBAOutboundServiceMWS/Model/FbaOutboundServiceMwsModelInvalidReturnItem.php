@@ -20,7 +20,7 @@ class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsM
     /**
      * Get the value of the SellerReturnItemId property.
      *
-     * @return String SellerReturnItemId.
+     * @return \string SellerReturnItemId.
      */
     public function getSellerReturnItemId()
     {
@@ -30,7 +30,7 @@ class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsM
      * Set the value of the SellerReturnItemId property.
      *
      * @param string sellerReturnItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerReturnItemId($value)
     {
@@ -60,7 +60,7 @@ class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsM
     /**
      * Get the value of the SellerFulfillmentOrderItemId property.
      *
-     * @return String SellerFulfillmentOrderItemId.
+     * @return \string SellerFulfillmentOrderItemId.
      */
     public function getSellerFulfillmentOrderItemId()
     {
@@ -70,7 +70,7 @@ class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsM
      * Set the value of the SellerFulfillmentOrderItemId property.
      *
      * @param string sellerFulfillmentOrderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderItemId($value)
     {
@@ -110,7 +110,7 @@ class FbaOutboundServiceMwsModelInvalidReturnItem extends FbaOutboundServiceMwsM
      * Set the value of the InvalidItemReason property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelInvalidItemReason invalidItemReason
-     * @return $this 
+     * @return $this instance
      */
     public function setInvalidItemReason($value)
     {

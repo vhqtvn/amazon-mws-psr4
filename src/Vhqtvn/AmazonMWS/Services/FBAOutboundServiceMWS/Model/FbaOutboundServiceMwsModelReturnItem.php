@@ -28,7 +28,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the SellerReturnItemId property.
      *
-     * @return String SellerReturnItemId.
+     * @return \string SellerReturnItemId.
      */
     public function getSellerReturnItemId()
     {
@@ -38,7 +38,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the SellerReturnItemId property.
      *
      * @param string sellerReturnItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerReturnItemId($value)
     {
@@ -68,7 +68,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the SellerFulfillmentOrderItemId property.
      *
-     * @return String SellerFulfillmentOrderItemId.
+     * @return \string SellerFulfillmentOrderItemId.
      */
     public function getSellerFulfillmentOrderItemId()
     {
@@ -78,7 +78,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the SellerFulfillmentOrderItemId property.
      *
      * @param string sellerFulfillmentOrderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderItemId($value)
     {
@@ -108,7 +108,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the AmazonShipmentId property.
      *
-     * @return String AmazonShipmentId.
+     * @return \string AmazonShipmentId.
      */
     public function getAmazonShipmentId()
     {
@@ -118,7 +118,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the AmazonShipmentId property.
      *
      * @param string amazonShipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonShipmentId($value)
     {
@@ -148,7 +148,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the SellerReturnReasonCode property.
      *
-     * @return String SellerReturnReasonCode.
+     * @return \string SellerReturnReasonCode.
      */
     public function getSellerReturnReasonCode()
     {
@@ -158,7 +158,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the SellerReturnReasonCode property.
      *
      * @param string sellerReturnReasonCode
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerReturnReasonCode($value)
     {
@@ -188,7 +188,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the ReturnComment property.
      *
-     * @return String ReturnComment.
+     * @return \string ReturnComment.
      */
     public function getReturnComment()
     {
@@ -198,7 +198,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the ReturnComment property.
      *
      * @param string returnComment
-     * @return $this 
+     * @return $this instance
      */
     public function setReturnComment($value)
     {
@@ -228,7 +228,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the AmazonReturnReasonCode property.
      *
-     * @return String AmazonReturnReasonCode.
+     * @return \string AmazonReturnReasonCode.
      */
     public function getAmazonReturnReasonCode()
     {
@@ -238,7 +238,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the AmazonReturnReasonCode property.
      *
      * @param string amazonReturnReasonCode
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonReturnReasonCode($value)
     {
@@ -268,7 +268,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the Status property.
      *
-     * @return String Status.
+     * @return \string Status.
      */
     public function getStatus()
     {
@@ -278,7 +278,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the Status property.
      *
      * @param string status
-     * @return $this 
+     * @return $this instance
      */
     public function setStatus($value)
     {
@@ -308,7 +308,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the StatusChangedDate property.
      *
-     * @return XMLGregorianCalendar StatusChangedDate.
+     * @return \DateTime StatusChangedDate.
      */
     public function getStatusChangedDate()
     {
@@ -318,7 +318,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the StatusChangedDate property.
      *
      * @param string statusChangedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setStatusChangedDate($value)
     {
@@ -348,7 +348,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the ReturnAuthorizationId property.
      *
-     * @return String ReturnAuthorizationId.
+     * @return \string ReturnAuthorizationId.
      */
     public function getReturnAuthorizationId()
     {
@@ -358,7 +358,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the ReturnAuthorizationId property.
      *
      * @param string returnAuthorizationId
-     * @return $this 
+     * @return $this instance
      */
     public function setReturnAuthorizationId($value)
     {
@@ -388,7 +388,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the ReturnReceivedCondition property.
      *
-     * @return String ReturnReceivedCondition.
+     * @return \string ReturnReceivedCondition.
      */
     public function getReturnReceivedCondition()
     {
@@ -398,7 +398,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the ReturnReceivedCondition property.
      *
      * @param string returnReceivedCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setReturnReceivedCondition($value)
     {
@@ -428,7 +428,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the FulfillmentCenterId property.
      *
-     * @return String FulfillmentCenterId.
+     * @return \string FulfillmentCenterId.
      */
     public function getFulfillmentCenterId()
     {
@@ -438,7 +438,7 @@ class FbaOutboundServiceMwsModelReturnItem extends FbaOutboundServiceMwsModel
      * Set the value of the FulfillmentCenterId property.
      *
      * @param string fulfillmentCenterId
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentCenterId($value)
     {

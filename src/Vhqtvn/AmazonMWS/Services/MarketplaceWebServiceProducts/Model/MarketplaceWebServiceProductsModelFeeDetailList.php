@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelFeeDetailList extends MarketplaceWebServ
      * Set the value of the FeeDetail property.
      *
      * @param array feeDetail
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeDetail($value)
     {

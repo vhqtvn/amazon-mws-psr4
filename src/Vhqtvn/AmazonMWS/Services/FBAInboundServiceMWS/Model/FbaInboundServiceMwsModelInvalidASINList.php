@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelInvalidASINList extends FbaInboundServiceMwsModel
      * Set the value of the InvalidASIN property.
      *
      * @param array invalidASIN
-     * @return $this 
+     * @return $this instance
      */
     public function setInvalidASIN($value)
     {

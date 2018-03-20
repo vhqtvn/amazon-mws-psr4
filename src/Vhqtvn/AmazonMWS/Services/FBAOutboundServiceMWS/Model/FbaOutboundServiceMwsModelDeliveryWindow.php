@@ -19,7 +19,7 @@ class FbaOutboundServiceMwsModelDeliveryWindow extends FbaOutboundServiceMwsMode
     /**
      * Get the value of the StartDateTime property.
      *
-     * @return XMLGregorianCalendar StartDateTime.
+     * @return \DateTime StartDateTime.
      */
     public function getStartDateTime()
     {
@@ -29,7 +29,7 @@ class FbaOutboundServiceMwsModelDeliveryWindow extends FbaOutboundServiceMwsMode
      * Set the value of the StartDateTime property.
      *
      * @param string startDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setStartDateTime($value)
     {
@@ -59,7 +59,7 @@ class FbaOutboundServiceMwsModelDeliveryWindow extends FbaOutboundServiceMwsMode
     /**
      * Get the value of the EndDateTime property.
      *
-     * @return XMLGregorianCalendar EndDateTime.
+     * @return \DateTime EndDateTime.
      */
     public function getEndDateTime()
     {
@@ -69,7 +69,7 @@ class FbaOutboundServiceMwsModelDeliveryWindow extends FbaOutboundServiceMwsMode
      * Set the value of the EndDateTime property.
      *
      * @param string endDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setEndDateTime($value)
     {

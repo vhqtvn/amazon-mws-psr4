@@ -378,6 +378,9 @@ abstract class __AmazonMWSModelBase
 
     /**
      * Escape special XML characters
+     *
+     * @param $str
+     *
      * @return string with escaped XML characters
      */
     private function _escapeXML($str)

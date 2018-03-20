@@ -31,7 +31,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the LastUpdated property.
      *
-     * @return XMLGregorianCalendar LastUpdated.
+     * @return \DateTime LastUpdated.
      */
     public function getLastUpdated()
     {
@@ -41,7 +41,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the LastUpdated property.
      *
      * @param string lastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdated($value)
     {
@@ -81,7 +81,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the ItemIdentifier property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier itemIdentifier
-     * @return $this 
+     * @return $this instance
      */
     public function setItemIdentifier($value)
     {
@@ -111,7 +111,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the ItemName property.
      *
-     * @return String ItemName.
+     * @return \string ItemName.
      */
     public function getItemName()
     {
@@ -121,7 +121,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the ItemName property.
      *
      * @param string itemName
-     * @return $this 
+     * @return $this instance
      */
     public function setItemName($value)
     {
@@ -151,7 +151,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the BrandName property.
      *
-     * @return String BrandName.
+     * @return \string BrandName.
      */
     public function getBrandName()
     {
@@ -161,7 +161,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the BrandName property.
      *
      * @param string brandName
-     * @return $this 
+     * @return $this instance
      */
     public function setBrandName($value)
     {
@@ -191,7 +191,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the ProductCategory property.
      *
-     * @return String ProductCategory.
+     * @return \string ProductCategory.
      */
     public function getProductCategory()
     {
@@ -201,7 +201,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the ProductCategory property.
      *
      * @param string productCategory
-     * @return $this 
+     * @return $this instance
      */
     public function setProductCategory($value)
     {
@@ -231,7 +231,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the SalesRank property.
      *
-     * @return Integer SalesRank.
+     * @return \int SalesRank.
      */
     public function getSalesRank()
     {
@@ -241,7 +241,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the SalesRank property.
      *
      * @param int salesRank
-     * @return $this 
+     * @return $this instance
      */
     public function setSalesRank($value)
     {
@@ -281,7 +281,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the BuyboxPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice buyboxPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyboxPrice($value)
     {
@@ -311,7 +311,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the NumberOfOffers property.
      *
-     * @return Integer NumberOfOffers.
+     * @return \int NumberOfOffers.
      */
     public function getNumberOfOffers()
     {
@@ -321,7 +321,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the NumberOfOffers property.
      *
      * @param int numberOfOffers
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfOffers($value)
     {
@@ -351,7 +351,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the NumberOfOffersFulfilledByAmazon property.
      *
-     * @return Integer NumberOfOffersFulfilledByAmazon.
+     * @return \int NumberOfOffersFulfilledByAmazon.
      */
     public function getNumberOfOffersFulfilledByAmazon()
     {
@@ -361,7 +361,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the NumberOfOffersFulfilledByAmazon property.
      *
      * @param int numberOfOffersFulfilledByAmazon
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfOffersFulfilledByAmazon($value)
     {
@@ -391,7 +391,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the AverageCustomerReview property.
      *
-     * @return BigDecimal AverageCustomerReview.
+     * @return \float AverageCustomerReview.
      */
     public function getAverageCustomerReview()
     {
@@ -401,7 +401,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the AverageCustomerReview property.
      *
      * @param float averageCustomerReview
-     * @return $this 
+     * @return $this instance
      */
     public function setAverageCustomerReview($value)
     {
@@ -431,7 +431,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the NumberOfCustomerReviews property.
      *
-     * @return Integer NumberOfCustomerReviews.
+     * @return \int NumberOfCustomerReviews.
      */
     public function getNumberOfCustomerReviews()
     {
@@ -441,7 +441,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the NumberOfCustomerReviews property.
      *
      * @param int numberOfCustomerReviews
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfCustomerReviews($value)
     {
@@ -481,7 +481,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the ItemDimensions property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelItemDimensions itemDimensions
-     * @return $this 
+     * @return $this instance
      */
     public function setItemDimensions($value)
     {
@@ -511,7 +511,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the RecommendationId property.
      *
-     * @return String RecommendationId.
+     * @return \string RecommendationId.
      */
     public function getRecommendationId()
     {
@@ -521,7 +521,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the RecommendationId property.
      *
      * @param string recommendationId
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationId($value)
     {
@@ -551,7 +551,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
     /**
      * Get the value of the RecommendationReason property.
      *
-     * @return String RecommendationReason.
+     * @return \string RecommendationReason.
      */
     public function getRecommendationReason()
     {
@@ -561,7 +561,7 @@ class MwsRecommendationsSectionServiceModelFulfillmentRecommendation extends Mws
      * Set the value of the RecommendationReason property.
      *
      * @param string recommendationReason
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationReason($value)
     {

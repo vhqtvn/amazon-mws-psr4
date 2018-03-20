@@ -29,7 +29,7 @@ class MwsFinancesServiceModelLoanServicingEvent extends MwsFinancesServiceModel
      * Set the value of the LoanAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency loanAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setLoanAmount($value)
     {
@@ -59,7 +59,7 @@ class MwsFinancesServiceModelLoanServicingEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the SourceBusinessEventType property.
      *
-     * @return String SourceBusinessEventType.
+     * @return \string SourceBusinessEventType.
      */
     public function getSourceBusinessEventType()
     {
@@ -69,7 +69,7 @@ class MwsFinancesServiceModelLoanServicingEvent extends MwsFinancesServiceModel
      * Set the value of the SourceBusinessEventType property.
      *
      * @param string sourceBusinessEventType
-     * @return $this 
+     * @return $this instance
      */
     public function setSourceBusinessEventType($value)
     {

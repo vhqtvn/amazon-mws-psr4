@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelAttributeSetList
  * 
- * @property	\[]	$Any
+ * @property	\object[]	$Any
  */
 class MarketplaceWebServiceProductsModelAttributeSetList extends MarketplaceWebServiceProductsModel
 {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelAttributeSetList extends MarketplaceWebS
      * Set the value of the Any property.
      *
      * @param array any
-     * @return $this 
+     * @return $this instance
      */
     public function setAny($value)
     {

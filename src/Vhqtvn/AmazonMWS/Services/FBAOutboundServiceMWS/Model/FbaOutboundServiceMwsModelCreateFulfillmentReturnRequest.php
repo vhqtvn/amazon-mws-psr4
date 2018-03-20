@@ -21,7 +21,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnRequest extends FbaOutbou
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -31,7 +31,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnRequest extends FbaOutbou
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -61,7 +61,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnRequest extends FbaOutbou
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -71,7 +71,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnRequest extends FbaOutbou
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -101,7 +101,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnRequest extends FbaOutbou
     /**
      * Get the value of the SellerFulfillmentOrderId property.
      *
-     * @return String SellerFulfillmentOrderId.
+     * @return \string SellerFulfillmentOrderId.
      */
     public function getSellerFulfillmentOrderId()
     {
@@ -111,7 +111,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnRequest extends FbaOutbou
      * Set the value of the SellerFulfillmentOrderId property.
      *
      * @param string sellerFulfillmentOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderId($value)
     {
@@ -151,7 +151,7 @@ class FbaOutboundServiceMwsModelCreateFulfillmentReturnRequest extends FbaOutbou
      * Set the value of the Items property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCreateReturnItemList items
-     * @return $this 
+     * @return $this instance
      */
     public function setItems($value)
     {

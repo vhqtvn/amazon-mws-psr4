@@ -27,7 +27,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the Name property.
      *
-     * @return String Name.
+     * @return \string Name.
      */
     public function getName()
     {
@@ -37,7 +37,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the Name property.
      *
      * @param string name
-     * @return $this 
+     * @return $this instance
      */
     public function setName($value)
     {
@@ -67,7 +67,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the Line1 property.
      *
-     * @return String Line1.
+     * @return \string Line1.
      */
     public function getLine1()
     {
@@ -77,7 +77,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the Line1 property.
      *
      * @param string line1
-     * @return $this 
+     * @return $this instance
      */
     public function setLine1($value)
     {
@@ -107,7 +107,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the Line2 property.
      *
-     * @return String Line2.
+     * @return \string Line2.
      */
     public function getLine2()
     {
@@ -117,7 +117,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the Line2 property.
      *
      * @param string line2
-     * @return $this 
+     * @return $this instance
      */
     public function setLine2($value)
     {
@@ -147,7 +147,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the Line3 property.
      *
-     * @return String Line3.
+     * @return \string Line3.
      */
     public function getLine3()
     {
@@ -157,7 +157,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the Line3 property.
      *
      * @param string line3
-     * @return $this 
+     * @return $this instance
      */
     public function setLine3($value)
     {
@@ -187,7 +187,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the DistrictOrCounty property.
      *
-     * @return String DistrictOrCounty.
+     * @return \string DistrictOrCounty.
      */
     public function getDistrictOrCounty()
     {
@@ -197,7 +197,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the DistrictOrCounty property.
      *
      * @param string districtOrCounty
-     * @return $this 
+     * @return $this instance
      */
     public function setDistrictOrCounty($value)
     {
@@ -227,7 +227,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the City property.
      *
-     * @return String City.
+     * @return \string City.
      */
     public function getCity()
     {
@@ -237,7 +237,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the City property.
      *
      * @param string city
-     * @return $this 
+     * @return $this instance
      */
     public function setCity($value)
     {
@@ -267,7 +267,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the StateOrProvinceCode property.
      *
-     * @return String StateOrProvinceCode.
+     * @return \string StateOrProvinceCode.
      */
     public function getStateOrProvinceCode()
     {
@@ -277,7 +277,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the StateOrProvinceCode property.
      *
      * @param string stateOrProvinceCode
-     * @return $this 
+     * @return $this instance
      */
     public function setStateOrProvinceCode($value)
     {
@@ -307,7 +307,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the CountryCode property.
      *
-     * @return String CountryCode.
+     * @return \string CountryCode.
      */
     public function getCountryCode()
     {
@@ -317,7 +317,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the CountryCode property.
      *
      * @param string countryCode
-     * @return $this 
+     * @return $this instance
      */
     public function setCountryCode($value)
     {
@@ -347,7 +347,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the PostalCode property.
      *
-     * @return String PostalCode.
+     * @return \string PostalCode.
      */
     public function getPostalCode()
     {
@@ -357,7 +357,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the PostalCode property.
      *
      * @param string postalCode
-     * @return $this 
+     * @return $this instance
      */
     public function setPostalCode($value)
     {
@@ -387,7 +387,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the PhoneNumber property.
      *
-     * @return String PhoneNumber.
+     * @return \string PhoneNumber.
      */
     public function getPhoneNumber()
     {
@@ -397,7 +397,7 @@ class FbaOutboundServiceMwsModelAddress extends FbaOutboundServiceMwsModel
      * Set the value of the PhoneNumber property.
      *
      * @param string phoneNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setPhoneNumber($value)
     {

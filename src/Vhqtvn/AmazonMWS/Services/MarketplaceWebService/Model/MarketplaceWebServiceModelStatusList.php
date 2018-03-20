@@ -40,7 +40,7 @@ class MarketplaceWebServiceModelStatusList extends MarketplaceWebServiceModel
      * Sets the value of the Status.
      * 
      * @param string or an array of string Status
-     * @return $this 
+     * @return $this instance
      */
     public function setStatus($status)
     {

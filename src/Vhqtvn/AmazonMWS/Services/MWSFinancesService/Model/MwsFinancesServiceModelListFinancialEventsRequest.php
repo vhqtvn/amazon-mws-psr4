@@ -24,7 +24,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -34,7 +34,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -64,7 +64,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -74,7 +74,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -104,7 +104,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Get the value of the MaxResultsPerPage property.
      *
-     * @return Integer MaxResultsPerPage.
+     * @return \int MaxResultsPerPage.
      */
     public function getMaxResultsPerPage()
     {
@@ -114,7 +114,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
      * Set the value of the MaxResultsPerPage property.
      *
      * @param int maxResultsPerPage
-     * @return $this 
+     * @return $this instance
      */
     public function setMaxResultsPerPage($value)
     {
@@ -144,7 +144,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Get the value of the AmazonOrderId property.
      *
-     * @return String AmazonOrderId.
+     * @return \string AmazonOrderId.
      */
     public function getAmazonOrderId()
     {
@@ -154,7 +154,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
      * Set the value of the AmazonOrderId property.
      *
      * @param string amazonOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonOrderId($value)
     {
@@ -184,7 +184,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Get the value of the FinancialEventGroupId property.
      *
-     * @return String FinancialEventGroupId.
+     * @return \string FinancialEventGroupId.
      */
     public function getFinancialEventGroupId()
     {
@@ -194,7 +194,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
      * Set the value of the FinancialEventGroupId property.
      *
      * @param string financialEventGroupId
-     * @return $this 
+     * @return $this instance
      */
     public function setFinancialEventGroupId($value)
     {
@@ -224,7 +224,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Get the value of the PostedAfter property.
      *
-     * @return XMLGregorianCalendar PostedAfter.
+     * @return \DateTime PostedAfter.
      */
     public function getPostedAfter()
     {
@@ -234,7 +234,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
      * Set the value of the PostedAfter property.
      *
      * @param string postedAfter
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedAfter($value)
     {
@@ -264,7 +264,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
     /**
      * Get the value of the PostedBefore property.
      *
-     * @return XMLGregorianCalendar PostedBefore.
+     * @return \DateTime PostedBefore.
      */
     public function getPostedBefore()
     {
@@ -274,7 +274,7 @@ class MwsFinancesServiceModelListFinancialEventsRequest extends MwsFinancesServi
      * Set the value of the PostedBefore property.
      *
      * @param string postedBefore
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedBefore($value)
     {

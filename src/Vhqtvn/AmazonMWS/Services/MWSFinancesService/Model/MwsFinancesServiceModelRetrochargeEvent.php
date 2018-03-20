@@ -23,7 +23,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the RetrochargeEventType property.
      *
-     * @return String RetrochargeEventType.
+     * @return \string RetrochargeEventType.
      */
     public function getRetrochargeEventType()
     {
@@ -33,7 +33,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
      * Set the value of the RetrochargeEventType property.
      *
      * @param string retrochargeEventType
-     * @return $this 
+     * @return $this instance
      */
     public function setRetrochargeEventType($value)
     {
@@ -63,7 +63,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the AmazonOrderId property.
      *
-     * @return String AmazonOrderId.
+     * @return \string AmazonOrderId.
      */
     public function getAmazonOrderId()
     {
@@ -73,7 +73,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
      * Set the value of the AmazonOrderId property.
      *
      * @param string amazonOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonOrderId($value)
     {
@@ -103,7 +103,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the PostedDate property.
      *
-     * @return XMLGregorianCalendar PostedDate.
+     * @return \DateTime PostedDate.
      */
     public function getPostedDate()
     {
@@ -113,7 +113,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedDate($value)
     {
@@ -153,7 +153,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
      * Set the value of the BaseTax property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency baseTax
-     * @return $this 
+     * @return $this instance
      */
     public function setBaseTax($value)
     {
@@ -193,7 +193,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
      * Set the value of the ShippingTax property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency shippingTax
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingTax($value)
     {
@@ -223,7 +223,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the MarketplaceName property.
      *
-     * @return String MarketplaceName.
+     * @return \string MarketplaceName.
      */
     public function getMarketplaceName()
     {
@@ -233,7 +233,7 @@ class MwsFinancesServiceModelRetrochargeEvent extends MwsFinancesServiceModel
      * Set the value of the MarketplaceName property.
      *
      * @param string marketplaceName
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceName($value)
     {

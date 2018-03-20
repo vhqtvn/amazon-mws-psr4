@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelOffersList extends MarketplaceWebService
      * Set the value of the Offer property.
      *
      * @param array offer
-     * @return $this 
+     * @return $this instance
      */
     public function setOffer($value)
     {

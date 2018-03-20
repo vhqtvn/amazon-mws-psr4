@@ -32,7 +32,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the ShipmentId property.
      *
-     * @return String ShipmentId.
+     * @return \string ShipmentId.
      */
     public function getShipmentId()
     {
@@ -42,7 +42,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the ShipmentId property.
      *
      * @param string shipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentId($value)
     {
@@ -72,7 +72,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the AmazonOrderId property.
      *
-     * @return String AmazonOrderId.
+     * @return \string AmazonOrderId.
      */
     public function getAmazonOrderId()
     {
@@ -82,7 +82,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the AmazonOrderId property.
      *
      * @param string amazonOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonOrderId($value)
     {
@@ -112,7 +112,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the SellerOrderId property.
      *
-     * @return String SellerOrderId.
+     * @return \string SellerOrderId.
      */
     public function getSellerOrderId()
     {
@@ -122,7 +122,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the SellerOrderId property.
      *
      * @param string sellerOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerOrderId($value)
     {
@@ -165,7 +165,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the ItemList property.
      *
      * @param array itemList
-     * @return $this 
+     * @return $this instance
      */
     public function setItemList($value)
     {
@@ -217,7 +217,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the ShipFromAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress shipFromAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setShipFromAddress($value)
     {
@@ -257,7 +257,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the ShipToAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelAddress shipToAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setShipToAddress($value)
     {
@@ -297,7 +297,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the PackageDimensions property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelPackageDimensions packageDimensions
-     * @return $this 
+     * @return $this instance
      */
     public function setPackageDimensions($value)
     {
@@ -337,7 +337,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the Weight property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelWeight weight
-     * @return $this 
+     * @return $this instance
      */
     public function setWeight($value)
     {
@@ -377,7 +377,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the Insurance property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount insurance
-     * @return $this 
+     * @return $this instance
      */
     public function setInsurance($value)
     {
@@ -417,7 +417,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the ShippingService property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShippingService shippingService
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingService($value)
     {
@@ -457,7 +457,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the Label property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabel label
-     * @return $this 
+     * @return $this instance
      */
     public function setLabel($value)
     {
@@ -487,7 +487,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the Status property.
      *
-     * @return String Status.
+     * @return \string Status.
      */
     public function getStatus()
     {
@@ -497,7 +497,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the Status property.
      *
      * @param string status
-     * @return $this 
+     * @return $this instance
      */
     public function setStatus($value)
     {
@@ -527,7 +527,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the TrackingId property.
      *
-     * @return String TrackingId.
+     * @return \string TrackingId.
      */
     public function getTrackingId()
     {
@@ -537,7 +537,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the TrackingId property.
      *
      * @param string trackingId
-     * @return $this 
+     * @return $this instance
      */
     public function setTrackingId($value)
     {
@@ -567,7 +567,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the CreatedDate property.
      *
-     * @return XMLGregorianCalendar CreatedDate.
+     * @return \DateTime CreatedDate.
      */
     public function getCreatedDate()
     {
@@ -577,7 +577,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the CreatedDate property.
      *
      * @param string createdDate
-     * @return $this 
+     * @return $this instance
      */
     public function setCreatedDate($value)
     {
@@ -607,7 +607,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
     /**
      * Get the value of the LastUpdatedDate property.
      *
-     * @return XMLGregorianCalendar LastUpdatedDate.
+     * @return \DateTime LastUpdatedDate.
      */
     public function getLastUpdatedDate()
     {
@@ -617,7 +617,7 @@ class MwsMerchantFulfillmentServiceModelShipment extends MwsMerchantFulfillmentS
      * Set the value of the LastUpdatedDate property.
      *
      * @param string lastUpdatedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdatedDate($value)
     {

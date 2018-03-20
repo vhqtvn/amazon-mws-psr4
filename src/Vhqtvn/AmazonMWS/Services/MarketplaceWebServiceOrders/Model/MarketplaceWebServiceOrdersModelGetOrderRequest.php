@@ -8,7 +8,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * 
  * @property	string	$SellerId
  * @property	string	$MWSAuthToken
- * @property	\[]	$AmazonOrderId
+ * @property	\string[]	$AmazonOrderId
  */
 class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServiceOrdersModel
 {
@@ -20,7 +20,7 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -30,7 +30,7 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -60,7 +60,7 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -100,7 +100,7 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
     /**
      * Get the value of the AmazonOrderId property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] AmazonOrderId.
+     * @return \string[] AmazonOrderId.
      */
     public function getAmazonOrderId()
     {
@@ -113,7 +113,7 @@ class MarketplaceWebServiceOrdersModelGetOrderRequest extends MarketplaceWebServ
      * Set the value of the AmazonOrderId property.
      *
      * @param array amazonOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonOrderId($value)
     {

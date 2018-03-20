@@ -20,7 +20,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaI
     /**
      * Get the value of the CarrierName property.
      *
-     * @return String CarrierName.
+     * @return \string CarrierName.
      */
     public function getCarrierName()
     {
@@ -30,7 +30,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaI
      * Set the value of the CarrierName property.
      *
      * @param string carrierName
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierName($value)
     {
@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaI
     /**
      * Get the value of the TrackingId property.
      *
-     * @return String TrackingId.
+     * @return \string TrackingId.
      */
     public function getTrackingId()
     {
@@ -70,7 +70,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaI
      * Set the value of the TrackingId property.
      *
      * @param string trackingId
-     * @return $this 
+     * @return $this instance
      */
     public function setTrackingId($value)
     {
@@ -100,7 +100,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaI
     /**
      * Get the value of the PackageStatus property.
      *
-     * @return String PackageStatus.
+     * @return \string PackageStatus.
      */
     public function getPackageStatus()
     {
@@ -110,7 +110,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageOutput extends FbaI
      * Set the value of the PackageStatus property.
      *
      * @param string packageStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setPackageStatus($value)
     {

@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelNonPartneredLtlDataInput extends FbaInboundServic
     /**
      * Get the value of the CarrierName property.
      *
-     * @return String CarrierName.
+     * @return \string CarrierName.
      */
     public function getCarrierName()
     {
@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelNonPartneredLtlDataInput extends FbaInboundServic
      * Set the value of the CarrierName property.
      *
      * @param string carrierName
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierName($value)
     {
@@ -59,7 +59,7 @@ class FbaInboundServiceMwsModelNonPartneredLtlDataInput extends FbaInboundServic
     /**
      * Get the value of the ProNumber property.
      *
-     * @return String ProNumber.
+     * @return \string ProNumber.
      */
     public function getProNumber()
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelNonPartneredLtlDataInput extends FbaInboundServic
      * Set the value of the ProNumber property.
      *
      * @param string proNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setProNumber($value)
     {

@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -33,7 +33,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -63,7 +63,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -73,7 +73,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -103,7 +103,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
     /**
      * Get the value of the ShipmentId property.
      *
-     * @return String ShipmentId.
+     * @return \string ShipmentId.
      */
     public function getShipmentId()
     {
@@ -113,7 +113,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
      * Set the value of the ShipmentId property.
      *
      * @param string shipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentId($value)
     {
@@ -162,7 +162,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
      * Set the value of the IsPartnered property.
      *
      * @param bool isPartnered
-     * @return $this 
+     * @return $this instance
      */
     public function setIsPartnered($value)
     {
@@ -192,7 +192,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
     /**
      * Get the value of the ShipmentType property.
      *
-     * @return String ShipmentType.
+     * @return \string ShipmentType.
      */
     public function getShipmentType()
     {
@@ -202,7 +202,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
      * Set the value of the ShipmentType property.
      *
      * @param string shipmentType
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentType($value)
     {
@@ -242,7 +242,7 @@ class FbaInboundServiceMwsModelPutTransportContentRequest extends FbaInboundServ
      * Set the value of the TransportDetails property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDetailInput transportDetails
-     * @return $this 
+     * @return $this instance
      */
     public function setTransportDetails($value)
     {

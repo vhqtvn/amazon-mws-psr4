@@ -21,7 +21,7 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
     /**
      * Get the value of the InvoiceRequirement property.
      *
-     * @return String InvoiceRequirement.
+     * @return \string InvoiceRequirement.
      */
     public function getInvoiceRequirement()
     {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
      * Set the value of the InvoiceRequirement property.
      *
      * @param string invoiceRequirement
-     * @return $this 
+     * @return $this instance
      */
     public function setInvoiceRequirement($value)
     {
@@ -61,7 +61,7 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
     /**
      * Get the value of the BuyerSelectedInvoiceCategory property.
      *
-     * @return String BuyerSelectedInvoiceCategory.
+     * @return \string BuyerSelectedInvoiceCategory.
      */
     public function getBuyerSelectedInvoiceCategory()
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
      * Set the value of the BuyerSelectedInvoiceCategory property.
      *
      * @param string buyerSelectedInvoiceCategory
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyerSelectedInvoiceCategory($value)
     {
@@ -101,7 +101,7 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
     /**
      * Get the value of the InvoiceTitle property.
      *
-     * @return String InvoiceTitle.
+     * @return \string InvoiceTitle.
      */
     public function getInvoiceTitle()
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
      * Set the value of the InvoiceTitle property.
      *
      * @param string invoiceTitle
-     * @return $this 
+     * @return $this instance
      */
     public function setInvoiceTitle($value)
     {
@@ -141,7 +141,7 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
     /**
      * Get the value of the InvoiceInformation property.
      *
-     * @return String InvoiceInformation.
+     * @return \string InvoiceInformation.
      */
     public function getInvoiceInformation()
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceOrdersModelInvoiceData extends MarketplaceWebServiceO
      * Set the value of the InvoiceInformation property.
      *
      * @param string invoiceInformation
-     * @return $this 
+     * @return $this instance
      */
     public function setInvoiceInformation($value)
     {

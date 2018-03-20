@@ -32,7 +32,7 @@ class MwsSubscriptionsServiceModelListRegisteredDestinationsResponse extends Mws
      * Set the value of the ListRegisteredDestinationsResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelListRegisteredDestinationsResult listRegisteredDestinationsResult
-     * @return $this 
+     * @return $this instance
      */
     public function setListRegisteredDestinationsResult($value)
     {
@@ -72,7 +72,7 @@ class MwsSubscriptionsServiceModelListRegisteredDestinationsResponse extends Mws
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class MwsSubscriptionsServiceModelListRegisteredDestinationsResponse extends Mws
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

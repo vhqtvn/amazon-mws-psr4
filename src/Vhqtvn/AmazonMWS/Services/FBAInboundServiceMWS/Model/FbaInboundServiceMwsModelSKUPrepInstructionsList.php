@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructionsList extends FbaInboundService
      * Set the value of the SKUPrepInstructions property.
      *
      * @param array skuPrepInstructions
-     * @return $this 
+     * @return $this instance
      */
     public function setSKUPrepInstructions($value)
     {

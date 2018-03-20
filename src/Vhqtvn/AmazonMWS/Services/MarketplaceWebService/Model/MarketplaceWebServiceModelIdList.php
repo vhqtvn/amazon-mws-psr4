@@ -40,7 +40,7 @@ class MarketplaceWebServiceModelIdList extends MarketplaceWebServiceModel
      * Sets the value of the Id.
      * 
      * @param string or an array of string Id
-     * @return $this 
+     * @return $this instance
      */
     public function setId($id)
     {

@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      * Sets the value of the ReportType property.
      * 
      * @param string ReportType
-     * @return $this 
+     * @return $this instance
      */
     public function setReportType($value)
     {
@@ -84,7 +84,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      * Sets the value of the Schedule property.
      * 
      * @param string Schedule
-     * @return $this 
+     * @return $this instance
      */
     public function setSchedule($value)
     {
@@ -124,7 +124,7 @@ class MarketplaceWebServiceModelReportSchedule extends MarketplaceWebServiceMode
      * Sets the value of the ScheduledDate property.
      * 
      * @param string ScheduledDate
-     * @return $this 
+     * @return $this instance
      */
     public function setScheduledDate($value)
     {

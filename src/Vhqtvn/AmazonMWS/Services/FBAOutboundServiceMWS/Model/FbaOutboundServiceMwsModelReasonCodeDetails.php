@@ -20,7 +20,7 @@ class FbaOutboundServiceMwsModelReasonCodeDetails extends FbaOutboundServiceMwsM
     /**
      * Get the value of the ReturnReasonCode property.
      *
-     * @return String ReturnReasonCode.
+     * @return \string ReturnReasonCode.
      */
     public function getReturnReasonCode()
     {
@@ -30,7 +30,7 @@ class FbaOutboundServiceMwsModelReasonCodeDetails extends FbaOutboundServiceMwsM
      * Set the value of the ReturnReasonCode property.
      *
      * @param string returnReasonCode
-     * @return $this 
+     * @return $this instance
      */
     public function setReturnReasonCode($value)
     {
@@ -60,7 +60,7 @@ class FbaOutboundServiceMwsModelReasonCodeDetails extends FbaOutboundServiceMwsM
     /**
      * Get the value of the Description property.
      *
-     * @return String Description.
+     * @return \string Description.
      */
     public function getDescription()
     {
@@ -70,7 +70,7 @@ class FbaOutboundServiceMwsModelReasonCodeDetails extends FbaOutboundServiceMwsM
      * Set the value of the Description property.
      *
      * @param string description
-     * @return $this 
+     * @return $this instance
      */
     public function setDescription($value)
     {
@@ -100,7 +100,7 @@ class FbaOutboundServiceMwsModelReasonCodeDetails extends FbaOutboundServiceMwsM
     /**
      * Get the value of the TranslatedDescription property.
      *
-     * @return String TranslatedDescription.
+     * @return \string TranslatedDescription.
      */
     public function getTranslatedDescription()
     {
@@ -110,7 +110,7 @@ class FbaOutboundServiceMwsModelReasonCodeDetails extends FbaOutboundServiceMwsM
      * Set the value of the TranslatedDescription property.
      *
      * @param string translatedDescription
-     * @return $this 
+     * @return $this instance
      */
     public function setTranslatedDescription($value)
     {

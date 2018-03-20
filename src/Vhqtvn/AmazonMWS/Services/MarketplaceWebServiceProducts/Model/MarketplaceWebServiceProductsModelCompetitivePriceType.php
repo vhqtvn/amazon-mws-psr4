@@ -22,7 +22,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Get the value of the CompetitivePriceId property.
      *
-     * @return String CompetitivePriceId.
+     * @return \string CompetitivePriceId.
      */
     public function getCompetitivePriceId()
     {
@@ -32,7 +32,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
      * Set the value of the CompetitivePriceId property.
      *
      * @param string competitivePriceId
-     * @return $this 
+     * @return $this instance
      */
     public function setCompetitivePriceId($value)
     {
@@ -72,7 +72,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
      * Set the value of the Price property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType price
-     * @return $this 
+     * @return $this instance
      */
     public function setPrice($value)
     {
@@ -102,7 +102,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Get the value of the condition property.
      *
-     * @return String condition.
+     * @return \string condition.
      */
     public function getcondition()
     {
@@ -112,7 +112,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
      * Set the value of the condition property.
      *
      * @param string condition
-     * @return $this 
+     * @return $this instance
      */
     public function setcondition($value)
     {
@@ -142,7 +142,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Get the value of the subcondition property.
      *
-     * @return String subcondition.
+     * @return \string subcondition.
      */
     public function getsubcondition()
     {
@@ -152,7 +152,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
      * Set the value of the subcondition property.
      *
      * @param string subcondition
-     * @return $this 
+     * @return $this instance
      */
     public function setsubcondition($value)
     {
@@ -191,7 +191,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
     /**
      * Get the value of the belongsToRequester property.
      *
-     * @return Boolean belongsToRequester.
+     * @return \bool belongsToRequester.
      */
     public function getbelongsToRequester()
     {
@@ -201,7 +201,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceType extends Marketplace
      * Set the value of the belongsToRequester property.
      *
      * @param bool belongsToRequester
-     * @return $this 
+     * @return $this instance
      */
     public function setbelongsToRequester($value)
     {

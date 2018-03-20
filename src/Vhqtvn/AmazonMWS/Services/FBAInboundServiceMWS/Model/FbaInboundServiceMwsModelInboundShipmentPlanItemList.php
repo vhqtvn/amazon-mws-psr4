@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanItemList extends FbaInboundSer
      * Set the value of the member property.
      *
      * @param array member
-     * @return $this 
+     * @return $this instance
      */
     public function setmember($value)
     {

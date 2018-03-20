@@ -24,7 +24,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Get the value of the MarketplaceID property.
      *
-     * @return String MarketplaceID.
+     * @return \string MarketplaceID.
      */
     public function getMarketplaceID()
     {
@@ -34,7 +34,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
      * Set the value of the MarketplaceID property.
      *
      * @param string marketplaceID
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceID($value)
     {
@@ -64,7 +64,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Get the value of the SKU property.
      *
-     * @return String SKU.
+     * @return \string SKU.
      */
     public function getSKU()
     {
@@ -74,7 +74,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
      * Set the value of the SKU property.
      *
      * @param string sku
-     * @return $this 
+     * @return $this instance
      */
     public function setSKU($value)
     {
@@ -104,7 +104,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Get the value of the ItemCondition property.
      *
-     * @return String ItemCondition.
+     * @return \string ItemCondition.
      */
     public function getItemCondition()
     {
@@ -114,7 +114,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setItemCondition($value)
     {
@@ -144,7 +144,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
     /**
      * Get the value of the status property.
      *
-     * @return String status.
+     * @return \string status.
      */
     public function getstatus()
     {
@@ -154,7 +154,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
      * Set the value of the status property.
      *
      * @param string status
-     * @return $this 
+     * @return $this instance
      */
     public function setstatus($value)
     {
@@ -194,7 +194,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
      * Set the value of the Identifier property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier identifier
-     * @return $this 
+     * @return $this instance
      */
     public function setIdentifier($value)
     {
@@ -234,7 +234,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
      * Set the value of the Summary property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSummary summary
-     * @return $this 
+     * @return $this instance
      */
     public function setSummary($value)
     {
@@ -274,7 +274,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForSKUResult extend
      * Set the value of the Offers property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSKUOfferDetailList offers
-     * @return $this 
+     * @return $this instance
      */
     public function setOffers($value)
     {

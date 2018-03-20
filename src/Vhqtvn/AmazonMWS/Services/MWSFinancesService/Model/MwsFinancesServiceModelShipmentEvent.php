@@ -30,7 +30,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the AmazonOrderId property.
      *
-     * @return String AmazonOrderId.
+     * @return \string AmazonOrderId.
      */
     public function getAmazonOrderId()
     {
@@ -40,7 +40,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the AmazonOrderId property.
      *
      * @param string amazonOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonOrderId($value)
     {
@@ -70,7 +70,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the SellerOrderId property.
      *
-     * @return String SellerOrderId.
+     * @return \string SellerOrderId.
      */
     public function getSellerOrderId()
     {
@@ -80,7 +80,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the SellerOrderId property.
      *
      * @param string sellerOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerOrderId($value)
     {
@@ -110,7 +110,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the MarketplaceName property.
      *
-     * @return String MarketplaceName.
+     * @return \string MarketplaceName.
      */
     public function getMarketplaceName()
     {
@@ -120,7 +120,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the MarketplaceName property.
      *
      * @param string marketplaceName
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceName($value)
     {
@@ -163,7 +163,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the OrderChargeList property.
      *
      * @param array orderChargeList
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderChargeList($value)
     {
@@ -218,7 +218,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the OrderChargeAdjustmentList property.
      *
      * @param array orderChargeAdjustmentList
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderChargeAdjustmentList($value)
     {
@@ -273,7 +273,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the ShipmentFeeList property.
      *
      * @param array shipmentFeeList
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentFeeList($value)
     {
@@ -328,7 +328,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the ShipmentFeeAdjustmentList property.
      *
      * @param array shipmentFeeAdjustmentList
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentFeeAdjustmentList($value)
     {
@@ -383,7 +383,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the OrderFeeList property.
      *
      * @param array orderFeeList
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderFeeList($value)
     {
@@ -438,7 +438,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the OrderFeeAdjustmentList property.
      *
      * @param array orderFeeAdjustmentList
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderFeeAdjustmentList($value)
     {
@@ -493,7 +493,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the DirectPaymentList property.
      *
      * @param array directPaymentList
-     * @return $this 
+     * @return $this instance
      */
     public function setDirectPaymentList($value)
     {
@@ -535,7 +535,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the PostedDate property.
      *
-     * @return XMLGregorianCalendar PostedDate.
+     * @return \DateTime PostedDate.
      */
     public function getPostedDate()
     {
@@ -545,7 +545,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedDate($value)
     {
@@ -588,7 +588,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the ShipmentItemList property.
      *
      * @param array shipmentItemList
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentItemList($value)
     {
@@ -643,7 +643,7 @@ class MwsFinancesServiceModelShipmentEvent extends MwsFinancesServiceModel
      * Set the value of the ShipmentItemAdjustmentList property.
      *
      * @param array shipmentItemAdjustmentList
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentItemAdjustmentList($value)
     {

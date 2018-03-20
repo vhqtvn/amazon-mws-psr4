@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
     /**
      * Sets the value of the CancelReportRequestsResult.
      * 
-     * @param CancelReportRequestsResult CancelReportRequestsResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelReportRequestsResult CancelReportRequestsResult
      * @return void
      */
     public function setCancelReportRequestsResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
     /**
      * Set the value of CancelReportRequestsResult, return this.
      *
-     * @param CancelReportRequestsResult $CancelReportRequestsResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelCancelReportRequestsResult $CancelReportRequestsResult
      * @return $this
      */
     public function withCancelReportRequestsResult($CancelReportRequestsResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelCancelReportRequestsResponse extends Marketplace
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

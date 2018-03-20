@@ -19,7 +19,7 @@ class MarketplaceWebServiceProductsModelMessage extends MarketplaceWebServicePro
     /**
      * Get the value of the Locale property.
      *
-     * @return String Locale.
+     * @return \string Locale.
      */
     public function getLocale()
     {
@@ -29,7 +29,7 @@ class MarketplaceWebServiceProductsModelMessage extends MarketplaceWebServicePro
      * Set the value of the Locale property.
      *
      * @param string locale
-     * @return $this 
+     * @return $this instance
      */
     public function setLocale($value)
     {
@@ -59,7 +59,7 @@ class MarketplaceWebServiceProductsModelMessage extends MarketplaceWebServicePro
     /**
      * Get the value of the Text property.
      *
-     * @return String Text.
+     * @return \string Text.
      */
     public function getText()
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceProductsModelMessage extends MarketplaceWebServicePro
      * Set the value of the Text property.
      *
      * @param string text
-     * @return $this 
+     * @return $this instance
      */
     public function setText($value)
     {

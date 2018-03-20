@@ -19,7 +19,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsResult extends MwsFinancesS
     /**
      * Get the value of the NextToken property.
      *
-     * @return String NextToken.
+     * @return \string NextToken.
      */
     public function getNextToken()
     {
@@ -29,7 +29,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsResult extends MwsFinancesS
      * Set the value of the NextToken property.
      *
      * @param string nextToken
-     * @return $this 
+     * @return $this instance
      */
     public function setNextToken($value)
     {
@@ -72,7 +72,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsResult extends MwsFinancesS
      * Set the value of the FinancialEventGroupList property.
      *
      * @param array financialEventGroupList
-     * @return $this 
+     * @return $this instance
      */
     public function setFinancialEventGroupList($value)
     {

@@ -35,7 +35,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
      * Set the value of the TotalOfferCount property.
      *
      * @param int totalOfferCount
-     * @return $this 
+     * @return $this instance
      */
     public function setTotalOfferCount($value)
     {
@@ -75,7 +75,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
      * Set the value of the NumberOfOffers property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelNumberOfOffers numberOfOffers
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfOffers($value)
     {
@@ -115,7 +115,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
      * Set the value of the LowestPrices property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelLowestPrices lowestPrices
-     * @return $this 
+     * @return $this instance
      */
     public function setLowestPrices($value)
     {
@@ -155,7 +155,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
      * Set the value of the BuyBoxPrices property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxPrices buyBoxPrices
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyBoxPrices($value)
     {
@@ -195,7 +195,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
      * Set the value of the ListPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType listPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setListPrice($value)
     {
@@ -235,7 +235,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
      * Set the value of the SuggestedLowerPricePlusShipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType suggestedLowerPricePlusShipping
-     * @return $this 
+     * @return $this instance
      */
     public function setSuggestedLowerPricePlusShipping($value)
     {
@@ -275,7 +275,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
      * Set the value of the BuyBoxEligibleOffers property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelBuyBoxEligibleOffers buyBoxEligibleOffers
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyBoxEligibleOffers($value)
     {
@@ -305,7 +305,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
     /**
      * Get the value of the OffersAvailableTime property.
      *
-     * @return XMLGregorianCalendar OffersAvailableTime.
+     * @return \DateTime OffersAvailableTime.
      */
     public function getOffersAvailableTime()
     {
@@ -315,7 +315,7 @@ class MarketplaceWebServiceProductsModelSummary extends MarketplaceWebServicePro
      * Set the value of the OffersAvailableTime property.
      *
      * @param string offersAvailableTime
-     * @return $this 
+     * @return $this instance
      */
     public function setOffersAvailableTime($value)
     {

@@ -22,7 +22,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
     /**
      * Get the value of the Length property.
      *
-     * @return BigDecimal Length.
+     * @return \float Length.
      */
     public function getLength()
     {
@@ -32,7 +32,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
      * Set the value of the Length property.
      *
      * @param float length
-     * @return $this 
+     * @return $this instance
      */
     public function setLength($value)
     {
@@ -62,7 +62,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
     /**
      * Get the value of the Width property.
      *
-     * @return BigDecimal Width.
+     * @return \float Width.
      */
     public function getWidth()
     {
@@ -72,7 +72,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
      * Set the value of the Width property.
      *
      * @param float width
-     * @return $this 
+     * @return $this instance
      */
     public function setWidth($value)
     {
@@ -102,7 +102,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
     /**
      * Get the value of the Height property.
      *
-     * @return BigDecimal Height.
+     * @return \float Height.
      */
     public function getHeight()
     {
@@ -112,7 +112,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
      * Set the value of the Height property.
      *
      * @param float height
-     * @return $this 
+     * @return $this instance
      */
     public function setHeight($value)
     {
@@ -142,7 +142,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
     /**
      * Get the value of the Unit property.
      *
-     * @return String Unit.
+     * @return \string Unit.
      */
     public function getUnit()
     {
@@ -152,7 +152,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
      * Set the value of the Unit property.
      *
      * @param string unit
-     * @return $this 
+     * @return $this instance
      */
     public function setUnit($value)
     {
@@ -182,7 +182,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
     /**
      * Get the value of the PredefinedPackageDimensions property.
      *
-     * @return String PredefinedPackageDimensions.
+     * @return \string PredefinedPackageDimensions.
      */
     public function getPredefinedPackageDimensions()
     {
@@ -192,7 +192,7 @@ class MwsMerchantFulfillmentServiceModelPackageDimensions extends MwsMerchantFul
      * Set the value of the PredefinedPackageDimensions property.
      *
      * @param string predefinedPackageDimensions
-     * @return $this 
+     * @return $this instance
      */
     public function setPredefinedPackageDimensions($value)
     {

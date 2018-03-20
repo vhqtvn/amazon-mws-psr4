@@ -22,7 +22,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Get the value of the PostedDate property.
      *
-     * @return XMLGregorianCalendar PostedDate.
+     * @return \DateTime PostedDate.
      */
     public function getPostedDate()
     {
@@ -32,7 +32,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedDate($value)
     {
@@ -62,7 +62,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Get the value of the SAFETClaimId property.
      *
-     * @return String SAFETClaimId.
+     * @return \string SAFETClaimId.
      */
     public function getSAFETClaimId()
     {
@@ -72,7 +72,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
      * Set the value of the SAFETClaimId property.
      *
      * @param string safetClaimId
-     * @return $this 
+     * @return $this instance
      */
     public function setSAFETClaimId($value)
     {
@@ -112,7 +112,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
      * Set the value of the ReimbursedAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency reimbursedAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setReimbursedAmount($value)
     {
@@ -142,7 +142,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
     /**
      * Get the value of the ReasonCode property.
      *
-     * @return String ReasonCode.
+     * @return \string ReasonCode.
      */
     public function getReasonCode()
     {
@@ -152,7 +152,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
      * Set the value of the ReasonCode property.
      *
      * @param string reasonCode
-     * @return $this 
+     * @return $this instance
      */
     public function setReasonCode($value)
     {
@@ -195,7 +195,7 @@ class MwsFinancesServiceModelSAFETReimbursementEvent extends MwsFinancesServiceM
      * Set the value of the SAFETReimbursementItemList property.
      *
      * @param array safetReimbursementItemList
-     * @return $this 
+     * @return $this instance
      */
     public function setSAFETReimbursementItemList($value)
     {

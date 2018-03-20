@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForASINResult extends FbaInboun
      * Set the value of the ASINInboundGuidanceList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINInboundGuidanceList asinInboundGuidanceList
-     * @return $this 
+     * @return $this instance
      */
     public function setASINInboundGuidanceList($value)
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelGetInboundGuidanceForASINResult extends FbaInboun
      * Set the value of the InvalidASINList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASINList invalidASINList
-     * @return $this 
+     * @return $this instance
      */
     public function setInvalidASINList($value)
     {

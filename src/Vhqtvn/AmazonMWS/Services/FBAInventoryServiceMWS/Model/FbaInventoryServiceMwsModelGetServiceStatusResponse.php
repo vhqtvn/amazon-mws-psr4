@@ -32,7 +32,7 @@ class FbaInventoryServiceMwsModelGetServiceStatusResponse extends FbaInventorySe
      * Set the value of the GetServiceStatusResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelGetServiceStatusResult getServiceStatusResult
-     * @return $this 
+     * @return $this instance
      */
     public function setGetServiceStatusResult($value)
     {
@@ -72,7 +72,7 @@ class FbaInventoryServiceMwsModelGetServiceStatusResponse extends FbaInventorySe
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class FbaInventoryServiceMwsModelGetServiceStatusResponse extends FbaInventorySe
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

@@ -31,7 +31,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -41,7 +41,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -71,7 +71,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
     /**
      * Get the value of the SellerFulfillmentOrderItemId property.
      *
-     * @return String SellerFulfillmentOrderItemId.
+     * @return \string SellerFulfillmentOrderItemId.
      */
     public function getSellerFulfillmentOrderItemId()
     {
@@ -81,7 +81,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the SellerFulfillmentOrderItemId property.
      *
      * @param string sellerFulfillmentOrderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderItemId($value)
     {
@@ -121,7 +121,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the Quantity property.
      *
      * @param int quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantity($value)
     {
@@ -151,7 +151,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
     /**
      * Get the value of the GiftMessage property.
      *
-     * @return String GiftMessage.
+     * @return \string GiftMessage.
      */
     public function getGiftMessage()
     {
@@ -161,7 +161,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the GiftMessage property.
      *
      * @param string giftMessage
-     * @return $this 
+     * @return $this instance
      */
     public function setGiftMessage($value)
     {
@@ -191,7 +191,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
     /**
      * Get the value of the DisplayableComment property.
      *
-     * @return String DisplayableComment.
+     * @return \string DisplayableComment.
      */
     public function getDisplayableComment()
     {
@@ -201,7 +201,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the DisplayableComment property.
      *
      * @param string displayableComment
-     * @return $this 
+     * @return $this instance
      */
     public function setDisplayableComment($value)
     {
@@ -231,7 +231,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
     /**
      * Get the value of the FulfillmentNetworkSKU property.
      *
-     * @return String FulfillmentNetworkSKU.
+     * @return \string FulfillmentNetworkSKU.
      */
     public function getFulfillmentNetworkSKU()
     {
@@ -241,7 +241,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the FulfillmentNetworkSKU property.
      *
      * @param string fulfillmentNetworkSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentNetworkSKU($value)
     {
@@ -271,7 +271,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
     /**
      * Get the value of the OrderItemDisposition property.
      *
-     * @return String OrderItemDisposition.
+     * @return \string OrderItemDisposition.
      */
     public function getOrderItemDisposition()
     {
@@ -281,7 +281,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the OrderItemDisposition property.
      *
      * @param string orderItemDisposition
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderItemDisposition($value)
     {
@@ -321,7 +321,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the CancelledQuantity property.
      *
      * @param int cancelledQuantity
-     * @return $this 
+     * @return $this instance
      */
     public function setCancelledQuantity($value)
     {
@@ -361,7 +361,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the UnfulfillableQuantity property.
      *
      * @param int unfulfillableQuantity
-     * @return $this 
+     * @return $this instance
      */
     public function setUnfulfillableQuantity($value)
     {
@@ -391,7 +391,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
     /**
      * Get the value of the EstimatedShipDateTime property.
      *
-     * @return XMLGregorianCalendar EstimatedShipDateTime.
+     * @return \DateTime EstimatedShipDateTime.
      */
     public function getEstimatedShipDateTime()
     {
@@ -401,7 +401,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the EstimatedShipDateTime property.
      *
      * @param string estimatedShipDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setEstimatedShipDateTime($value)
     {
@@ -431,7 +431,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
     /**
      * Get the value of the EstimatedArrivalDateTime property.
      *
-     * @return XMLGregorianCalendar EstimatedArrivalDateTime.
+     * @return \DateTime EstimatedArrivalDateTime.
      */
     public function getEstimatedArrivalDateTime()
     {
@@ -441,7 +441,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the EstimatedArrivalDateTime property.
      *
      * @param string estimatedArrivalDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setEstimatedArrivalDateTime($value)
     {
@@ -481,7 +481,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the PerUnitPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency perUnitPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setPerUnitPrice($value)
     {
@@ -521,7 +521,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the PerUnitTax property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency perUnitTax
-     * @return $this 
+     * @return $this instance
      */
     public function setPerUnitTax($value)
     {
@@ -561,7 +561,7 @@ class FbaOutboundServiceMwsModelFulfillmentOrderItem extends FbaOutboundServiceM
      * Set the value of the PerUnitDeclaredValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency perUnitDeclaredValue
-     * @return $this 
+     * @return $this instance
      */
     public function setPerUnitDeclaredValue($value)
     {

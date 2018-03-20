@@ -22,7 +22,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -32,7 +32,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -62,7 +62,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -72,7 +72,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -102,7 +102,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -112,7 +112,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -142,7 +142,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Get the value of the Query property.
      *
-     * @return String Query.
+     * @return \string Query.
      */
     public function getQuery()
     {
@@ -152,7 +152,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
      * Set the value of the Query property.
      *
      * @param string query
-     * @return $this 
+     * @return $this instance
      */
     public function setQuery($value)
     {
@@ -182,7 +182,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
     /**
      * Get the value of the QueryContextId property.
      *
-     * @return String QueryContextId.
+     * @return \string QueryContextId.
      */
     public function getQueryContextId()
     {
@@ -192,7 +192,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsRequest extends Mark
      * Set the value of the QueryContextId property.
      *
      * @param string queryContextId
-     * @return $this 
+     * @return $this instance
      */
     public function setQueryContextId($value)
     {

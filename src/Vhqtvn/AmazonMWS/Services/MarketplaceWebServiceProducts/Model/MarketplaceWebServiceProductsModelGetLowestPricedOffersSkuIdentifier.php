@@ -21,7 +21,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier exten
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier exten
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -61,7 +61,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier exten
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier exten
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -101,7 +101,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier exten
     /**
      * Get the value of the ItemCondition property.
      *
-     * @return String ItemCondition.
+     * @return \string ItemCondition.
      */
     public function getItemCondition()
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier exten
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setItemCondition($value)
     {
@@ -141,7 +141,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier exten
     /**
      * Get the value of the TimeOfOfferChange property.
      *
-     * @return XMLGregorianCalendar TimeOfOfferChange.
+     * @return \DateTime TimeOfOfferChange.
      */
     public function getTimeOfOfferChange()
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersSkuIdentifier exten
      * Set the value of the TimeOfOfferChange property.
      *
      * @param string timeOfOfferChange
-     * @return $this 
+     * @return $this instance
      */
     public function setTimeOfOfferChange($value)
     {

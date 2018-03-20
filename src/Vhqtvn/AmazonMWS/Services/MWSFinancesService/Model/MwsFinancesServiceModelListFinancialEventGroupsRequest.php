@@ -22,7 +22,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -32,7 +32,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -62,7 +62,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -72,7 +72,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -102,7 +102,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Get the value of the MaxResultsPerPage property.
      *
-     * @return Integer MaxResultsPerPage.
+     * @return \int MaxResultsPerPage.
      */
     public function getMaxResultsPerPage()
     {
@@ -112,7 +112,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
      * Set the value of the MaxResultsPerPage property.
      *
      * @param int maxResultsPerPage
-     * @return $this 
+     * @return $this instance
      */
     public function setMaxResultsPerPage($value)
     {
@@ -142,7 +142,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Get the value of the FinancialEventGroupStartedAfter property.
      *
-     * @return XMLGregorianCalendar FinancialEventGroupStartedAfter.
+     * @return \DateTime FinancialEventGroupStartedAfter.
      */
     public function getFinancialEventGroupStartedAfter()
     {
@@ -152,7 +152,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
      * Set the value of the FinancialEventGroupStartedAfter property.
      *
      * @param string financialEventGroupStartedAfter
-     * @return $this 
+     * @return $this instance
      */
     public function setFinancialEventGroupStartedAfter($value)
     {
@@ -182,7 +182,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
     /**
      * Get the value of the FinancialEventGroupStartedBefore property.
      *
-     * @return XMLGregorianCalendar FinancialEventGroupStartedBefore.
+     * @return \DateTime FinancialEventGroupStartedBefore.
      */
     public function getFinancialEventGroupStartedBefore()
     {
@@ -192,7 +192,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsRequest extends MwsFinances
      * Set the value of the FinancialEventGroupStartedBefore property.
      *
      * @param string financialEventGroupStartedBefore
-     * @return $this 
+     * @return $this instance
      */
     public function setFinancialEventGroupStartedBefore($value)
     {

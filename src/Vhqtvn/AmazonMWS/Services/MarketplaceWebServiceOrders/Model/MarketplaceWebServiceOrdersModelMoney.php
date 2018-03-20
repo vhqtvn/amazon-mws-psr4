@@ -19,7 +19,7 @@ class MarketplaceWebServiceOrdersModelMoney extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the CurrencyCode property.
      *
-     * @return String CurrencyCode.
+     * @return \string CurrencyCode.
      */
     public function getCurrencyCode()
     {
@@ -29,7 +29,7 @@ class MarketplaceWebServiceOrdersModelMoney extends MarketplaceWebServiceOrdersM
      * Set the value of the CurrencyCode property.
      *
      * @param string currencyCode
-     * @return $this 
+     * @return $this instance
      */
     public function setCurrencyCode($value)
     {
@@ -59,7 +59,7 @@ class MarketplaceWebServiceOrdersModelMoney extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the Amount property.
      *
-     * @return String Amount.
+     * @return \string Amount.
      */
     public function getAmount()
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceOrdersModelMoney extends MarketplaceWebServiceOrdersM
      * Set the value of the Amount property.
      *
      * @param string amount
-     * @return $this 
+     * @return $this instance
      */
     public function setAmount($value)
     {

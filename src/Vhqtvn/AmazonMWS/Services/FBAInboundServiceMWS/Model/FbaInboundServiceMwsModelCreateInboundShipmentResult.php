@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentResult extends FbaInboundSer
     /**
      * Get the value of the ShipmentId property.
      *
-     * @return String ShipmentId.
+     * @return \string ShipmentId.
      */
     public function getShipmentId()
     {
@@ -28,7 +28,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentResult extends FbaInboundSer
      * Set the value of the ShipmentId property.
      *
      * @param string shipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentId($value)
     {

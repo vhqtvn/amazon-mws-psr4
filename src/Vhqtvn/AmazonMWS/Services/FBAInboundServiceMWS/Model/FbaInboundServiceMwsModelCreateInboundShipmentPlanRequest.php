@@ -25,7 +25,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -35,7 +35,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -75,7 +75,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -105,7 +105,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
     /**
      * Get the value of the Marketplace property.
      *
-     * @return String Marketplace.
+     * @return \string Marketplace.
      */
     public function getMarketplace()
     {
@@ -115,7 +115,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
      * Set the value of the Marketplace property.
      *
      * @param string marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -155,7 +155,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
      * Set the value of the ShipFromAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress shipFromAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setShipFromAddress($value)
     {
@@ -185,7 +185,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
     /**
      * Get the value of the LabelPrepPreference property.
      *
-     * @return String LabelPrepPreference.
+     * @return \string LabelPrepPreference.
      */
     public function getLabelPrepPreference()
     {
@@ -195,7 +195,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
      * Set the value of the LabelPrepPreference property.
      *
      * @param string labelPrepPreference
-     * @return $this 
+     * @return $this instance
      */
     public function setLabelPrepPreference($value)
     {
@@ -225,7 +225,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
     /**
      * Get the value of the ShipToCountryCode property.
      *
-     * @return String ShipToCountryCode.
+     * @return \string ShipToCountryCode.
      */
     public function getShipToCountryCode()
     {
@@ -235,7 +235,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
      * Set the value of the ShipToCountryCode property.
      *
      * @param string shipToCountryCode
-     * @return $this 
+     * @return $this instance
      */
     public function setShipToCountryCode($value)
     {
@@ -265,7 +265,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
     /**
      * Get the value of the ShipToCountrySubdivisionCode property.
      *
-     * @return String ShipToCountrySubdivisionCode.
+     * @return \string ShipToCountrySubdivisionCode.
      */
     public function getShipToCountrySubdivisionCode()
     {
@@ -275,7 +275,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
      * Set the value of the ShipToCountrySubdivisionCode property.
      *
      * @param string shipToCountrySubdivisionCode
-     * @return $this 
+     * @return $this instance
      */
     public function setShipToCountrySubdivisionCode($value)
     {
@@ -315,7 +315,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanRequest extends FbaInbou
      * Set the value of the InboundShipmentPlanRequestItems property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanRequestItemList inboundShipmentPlanRequestItems
-     * @return $this 
+     * @return $this instance
      */
     public function setInboundShipmentPlanRequestItems($value)
     {

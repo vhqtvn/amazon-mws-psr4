@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -134,7 +134,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -173,7 +173,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Sets the value of the FeedSubmissionIdList.
      * 
-     * @param IdList FeedSubmissionIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList FeedSubmissionIdList
      * @return void
      */
     public function setFeedSubmissionIdList($value)
@@ -184,7 +184,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Set the value of FeedSubmissionIdList, return this.
      *
-     * @param IdList $FeedSubmissionIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList $FeedSubmissionIdList
      * @return $this
      */
     public function withFeedSubmissionIdList($FeedSubmissionIdList)
@@ -204,7 +204,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Gets the value of the MaxCount property.
      * 
-     * @return Count MaxCount
+     * @return \string MaxCount
      */
     public function getMaxCount()
     {
@@ -213,8 +213,8 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Sets the value of the MaxCount property.
      * 
-     * @param Count MaxCount
-     * @return $this 
+     * @return \string MaxCount
+     * @return $this instance
      */
     public function setMaxCount($value)
     {
@@ -224,7 +224,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Set the value of MaxCount, return this.
      *
-     * @param Count $MaxCount
+     * @return \string $MaxCount
      * @return $this
      */
     public function withMaxCount($MaxCount)
@@ -253,7 +253,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Sets the value of the FeedTypeList.
      * 
-     * @param TypeList FeedTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList FeedTypeList
      * @return void
      */
     public function setFeedTypeList($value)
@@ -264,7 +264,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Set the value of FeedTypeList, return this.
      *
-     * @param TypeList $FeedTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList $FeedTypeList
      * @return $this
      */
     public function withFeedTypeList($FeedTypeList)
@@ -293,7 +293,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Sets the value of the FeedProcessingStatusList.
      * 
-     * @param StatusList FeedProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList FeedProcessingStatusList
      * @return void
      */
     public function setFeedProcessingStatusList($value)
@@ -304,7 +304,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
     /**
      * Set the value of FeedProcessingStatusList, return this.
      *
-     * @param StatusList $FeedProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList $FeedProcessingStatusList
      * @return $this
      */
     public function withFeedProcessingStatusList($FeedProcessingStatusList)
@@ -334,7 +334,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      * Sets the value of the SubmittedFromDate property.
      * 
      * @param string SubmittedFromDate
-     * @return $this 
+     * @return $this instance
      */
     public function setSubmittedFromDate($value)
     {
@@ -374,7 +374,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionListRequest extends Marketplace
      * Sets the value of the SubmittedToDate property.
      * 
      * @param string SubmittedToDate
-     * @return $this 
+     * @return $this instance
      */
     public function setSubmittedToDate($value)
     {

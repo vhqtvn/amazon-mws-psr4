@@ -20,7 +20,7 @@ class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillm
     /**
      * Get the value of the Contents property.
      *
-     * @return String Contents.
+     * @return \string Contents.
      */
     public function getContents()
     {
@@ -30,7 +30,7 @@ class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillm
      * Set the value of the Contents property.
      *
      * @param string contents
-     * @return $this 
+     * @return $this instance
      */
     public function setContents($value)
     {
@@ -60,7 +60,7 @@ class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillm
     /**
      * Get the value of the FileType property.
      *
-     * @return String FileType.
+     * @return \string FileType.
      */
     public function getFileType()
     {
@@ -70,7 +70,7 @@ class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillm
      * Set the value of the FileType property.
      *
      * @param string fileType
-     * @return $this 
+     * @return $this instance
      */
     public function setFileType($value)
     {
@@ -100,7 +100,7 @@ class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillm
     /**
      * Get the value of the Checksum property.
      *
-     * @return String Checksum.
+     * @return \string Checksum.
      */
     public function getChecksum()
     {
@@ -110,7 +110,7 @@ class MwsMerchantFulfillmentServiceModelFileContents extends MwsMerchantFulfillm
      * Set the value of the Checksum property.
      *
      * @param string checksum
-     * @return $this 
+     * @return $this instance
      */
     public function setChecksum($value)
     {

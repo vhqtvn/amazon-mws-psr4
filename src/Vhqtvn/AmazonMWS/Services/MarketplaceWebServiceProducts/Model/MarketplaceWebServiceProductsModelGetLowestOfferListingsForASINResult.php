@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
     /**
      * Get the value of the AllOfferListingsConsidered property.
      *
-     * @return Boolean AllOfferListingsConsidered.
+     * @return \bool AllOfferListingsConsidered.
      */
     public function getAllOfferListingsConsidered()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
      * Set the value of the AllOfferListingsConsidered property.
      *
      * @param bool allOfferListingsConsidered
-     * @return $this 
+     * @return $this instance
      */
     public function setAllOfferListingsConsidered($value)
     {
@@ -81,7 +81,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
      * Set the value of the Product property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct product
-     * @return $this 
+     * @return $this instance
      */
     public function setProduct($value)
     {
@@ -121,7 +121,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
      * Set the value of the Error property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError error
-     * @return $this 
+     * @return $this instance
      */
     public function setError($value)
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -161,7 +161,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -191,7 +191,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
     /**
      * Get the value of the status property.
      *
-     * @return String status.
+     * @return \string status.
      */
     public function getstatus()
     {
@@ -201,7 +201,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResult exte
      * Set the value of the status property.
      *
      * @param string status
-     * @return $this 
+     * @return $this instance
      */
     public function setstatus($value)
     {

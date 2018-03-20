@@ -18,7 +18,7 @@ class MarketplaceWebServiceProductsModelShippingTimeType extends MarketplaceWebS
     /**
      * Get the value of the Max property.
      *
-     * @return String Max.
+     * @return \string Max.
      */
     public function getMax()
     {
@@ -28,7 +28,7 @@ class MarketplaceWebServiceProductsModelShippingTimeType extends MarketplaceWebS
      * Set the value of the Max property.
      *
      * @param string max
-     * @return $this 
+     * @return $this instance
      */
     public function setMax($value)
     {

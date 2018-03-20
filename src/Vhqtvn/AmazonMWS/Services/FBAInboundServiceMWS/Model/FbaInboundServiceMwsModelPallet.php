@@ -30,7 +30,7 @@ class FbaInboundServiceMwsModelPallet extends FbaInboundServiceMwsModel
      * Set the value of the Dimensions property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelDimensions dimensions
-     * @return $this 
+     * @return $this instance
      */
     public function setDimensions($value)
     {
@@ -70,7 +70,7 @@ class FbaInboundServiceMwsModelPallet extends FbaInboundServiceMwsModel
      * Set the value of the Weight property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight weight
-     * @return $this 
+     * @return $this instance
      */
     public function setWeight($value)
     {
@@ -119,7 +119,7 @@ class FbaInboundServiceMwsModelPallet extends FbaInboundServiceMwsModel
      * Set the value of the IsStacked property.
      *
      * @param bool isStacked
-     * @return $this 
+     * @return $this instance
      */
     public function setIsStacked($value)
     {

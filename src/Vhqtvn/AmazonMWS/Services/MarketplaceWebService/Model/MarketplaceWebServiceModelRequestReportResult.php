@@ -39,7 +39,7 @@ class MarketplaceWebServiceModelRequestReportResult extends MarketplaceWebServic
     /**
      * Sets the value of the ReportRequestInfo.
      * 
-     * @param ReportRequestInfo ReportRequestInfo
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo ReportRequestInfo
      * @return void
      */
     public function setReportRequestInfo($value)
@@ -50,7 +50,7 @@ class MarketplaceWebServiceModelRequestReportResult extends MarketplaceWebServic
     /**
      * Set the value of ReportRequestInfo, return this.
      *
-     * @param ReportRequestInfo $ReportRequestInfo
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelReportRequestInfo $ReportRequestInfo
      * @return $this
      */
     public function withReportRequestInfo($ReportRequestInfo)

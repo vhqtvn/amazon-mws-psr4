@@ -19,7 +19,7 @@ class FbaOutboundServiceMwsModelInvalidItemReason extends FbaOutboundServiceMwsM
     /**
      * Get the value of the InvalidItemReasonCode property.
      *
-     * @return String InvalidItemReasonCode.
+     * @return \string InvalidItemReasonCode.
      */
     public function getInvalidItemReasonCode()
     {
@@ -29,7 +29,7 @@ class FbaOutboundServiceMwsModelInvalidItemReason extends FbaOutboundServiceMwsM
      * Set the value of the InvalidItemReasonCode property.
      *
      * @param string invalidItemReasonCode
-     * @return $this 
+     * @return $this instance
      */
     public function setInvalidItemReasonCode($value)
     {
@@ -59,7 +59,7 @@ class FbaOutboundServiceMwsModelInvalidItemReason extends FbaOutboundServiceMwsM
     /**
      * Get the value of the Description property.
      *
-     * @return String Description.
+     * @return \string Description.
      */
     public function getDescription()
     {
@@ -69,7 +69,7 @@ class FbaOutboundServiceMwsModelInvalidItemReason extends FbaOutboundServiceMwsM
      * Set the value of the Description property.
      *
      * @param string description
-     * @return $this 
+     * @return $this instance
      */
     public function setDescription($value)
     {

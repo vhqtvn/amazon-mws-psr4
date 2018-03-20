@@ -30,7 +30,7 @@ class MarketplaceWebServiceProductsModelCompetitivePricingType extends Marketpla
      * Set the value of the CompetitivePrices property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCompetitivePriceList competitivePrices
-     * @return $this 
+     * @return $this instance
      */
     public function setCompetitivePrices($value)
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceProductsModelCompetitivePricingType extends Marketpla
      * Set the value of the NumberOfOfferListings property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelNumberOfOfferListingsList numberOfOfferListings
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfOfferListings($value)
     {
@@ -110,7 +110,7 @@ class MarketplaceWebServiceProductsModelCompetitivePricingType extends Marketpla
      * Set the value of the TradeInValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType tradeInValue
-     * @return $this 
+     * @return $this instance
      */
     public function setTradeInValue($value)
     {

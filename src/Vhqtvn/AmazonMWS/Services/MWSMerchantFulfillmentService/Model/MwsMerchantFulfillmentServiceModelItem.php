@@ -19,7 +19,7 @@ class MwsMerchantFulfillmentServiceModelItem extends MwsMerchantFulfillmentServi
     /**
      * Get the value of the OrderItemId property.
      *
-     * @return String OrderItemId.
+     * @return \string OrderItemId.
      */
     public function getOrderItemId()
     {
@@ -29,7 +29,7 @@ class MwsMerchantFulfillmentServiceModelItem extends MwsMerchantFulfillmentServi
      * Set the value of the OrderItemId property.
      *
      * @param string orderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderItemId($value)
     {
@@ -69,7 +69,7 @@ class MwsMerchantFulfillmentServiceModelItem extends MwsMerchantFulfillmentServi
      * Set the value of the Quantity property.
      *
      * @param int quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantity($value)
     {

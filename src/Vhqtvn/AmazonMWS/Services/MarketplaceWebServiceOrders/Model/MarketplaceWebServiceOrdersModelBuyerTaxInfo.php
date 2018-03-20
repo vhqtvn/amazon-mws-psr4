@@ -20,7 +20,7 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
     /**
      * Get the value of the CompanyLegalName property.
      *
-     * @return String CompanyLegalName.
+     * @return \string CompanyLegalName.
      */
     public function getCompanyLegalName()
     {
@@ -30,7 +30,7 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
      * Set the value of the CompanyLegalName property.
      *
      * @param string companyLegalName
-     * @return $this 
+     * @return $this instance
      */
     public function setCompanyLegalName($value)
     {
@@ -60,7 +60,7 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
     /**
      * Get the value of the TaxingRegion property.
      *
-     * @return String TaxingRegion.
+     * @return \string TaxingRegion.
      */
     public function getTaxingRegion()
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
      * Set the value of the TaxingRegion property.
      *
      * @param string taxingRegion
-     * @return $this 
+     * @return $this instance
      */
     public function setTaxingRegion($value)
     {
@@ -113,7 +113,7 @@ class MarketplaceWebServiceOrdersModelBuyerTaxInfo extends MarketplaceWebService
      * Set the value of the TaxClassifications property.
      *
      * @param array taxClassifications
-     * @return $this 
+     * @return $this instance
      */
     public function setTaxClassifications($value)
     {

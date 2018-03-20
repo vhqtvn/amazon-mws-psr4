@@ -19,7 +19,7 @@ class MarketplaceWebServiceProductsModelASINIdentifier extends MarketplaceWebSer
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -29,7 +29,7 @@ class MarketplaceWebServiceProductsModelASINIdentifier extends MarketplaceWebSer
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -59,7 +59,7 @@ class MarketplaceWebServiceProductsModelASINIdentifier extends MarketplaceWebSer
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceProductsModelASINIdentifier extends MarketplaceWebSer
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {

@@ -29,7 +29,7 @@ class MarketplaceWebServiceProductsModelSellerFeedbackType extends MarketplaceWe
      * Set the value of the SellerPositiveFeedbackRating property.
      *
      * @param float sellerPositiveFeedbackRating
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerPositiveFeedbackRating($value)
     {
@@ -59,7 +59,7 @@ class MarketplaceWebServiceProductsModelSellerFeedbackType extends MarketplaceWe
     /**
      * Get the value of the FeedbackCount property.
      *
-     * @return long FeedbackCount.
+     * @return int FeedbackCount.
      */
     public function getFeedbackCount()
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceProductsModelSellerFeedbackType extends MarketplaceWe
      * Set the value of the FeedbackCount property.
      *
      * @param int feedbackCount
-     * @return $this 
+     * @return $this instance
      */
     public function setFeedbackCount($value)
     {

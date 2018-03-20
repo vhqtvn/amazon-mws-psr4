@@ -25,7 +25,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Get the value of the ShipmentId property.
      *
-     * @return String ShipmentId.
+     * @return \string ShipmentId.
      */
     public function getShipmentId()
     {
@@ -35,7 +35,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
      * Set the value of the ShipmentId property.
      *
      * @param string shipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentId($value)
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -75,7 +75,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -105,7 +105,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Get the value of the FulfillmentNetworkSKU property.
      *
-     * @return String FulfillmentNetworkSKU.
+     * @return \string FulfillmentNetworkSKU.
      */
     public function getFulfillmentNetworkSKU()
     {
@@ -115,7 +115,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
      * Set the value of the FulfillmentNetworkSKU property.
      *
      * @param string fulfillmentNetworkSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentNetworkSKU($value)
     {
@@ -155,7 +155,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
      * Set the value of the QuantityShipped property.
      *
      * @param int quantityShipped
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantityShipped($value)
     {
@@ -185,7 +185,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Get the value of the QuantityReceived property.
      *
-     * @return Integer QuantityReceived.
+     * @return \int QuantityReceived.
      */
     public function getQuantityReceived()
     {
@@ -195,7 +195,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
      * Set the value of the QuantityReceived property.
      *
      * @param int quantityReceived
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantityReceived($value)
     {
@@ -225,7 +225,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Get the value of the QuantityInCase property.
      *
-     * @return Integer QuantityInCase.
+     * @return \int QuantityInCase.
      */
     public function getQuantityInCase()
     {
@@ -235,7 +235,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
      * Set the value of the QuantityInCase property.
      *
      * @param int quantityInCase
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantityInCase($value)
     {
@@ -265,7 +265,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
     /**
      * Get the value of the ReleaseDate property.
      *
-     * @return String ReleaseDate.
+     * @return \string ReleaseDate.
      */
     public function getReleaseDate()
     {
@@ -275,7 +275,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
      * Set the value of the ReleaseDate property.
      *
      * @param string releaseDate
-     * @return $this 
+     * @return $this instance
      */
     public function setReleaseDate($value)
     {
@@ -315,7 +315,7 @@ class FbaInboundServiceMwsModelInboundShipmentItem extends FbaInboundServiceMwsM
      * Set the value of the PrepDetailsList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList prepDetailsList
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepDetailsList($value)
     {

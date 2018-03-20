@@ -28,7 +28,7 @@ class MwsSubscriptionsServiceModelListRegisteredDestinationsResult extends MwsSu
      * Set the value of the DestinationList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestinationList destinationList
-     * @return $this 
+     * @return $this instance
      */
     public function setDestinationList($value)
     {

@@ -21,7 +21,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -31,7 +31,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -61,7 +61,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
     /**
      * Get the value of the SellerFulfillmentOrderItemId property.
      *
-     * @return String SellerFulfillmentOrderItemId.
+     * @return \string SellerFulfillmentOrderItemId.
      */
     public function getSellerFulfillmentOrderItemId()
     {
@@ -71,7 +71,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
      * Set the value of the SellerFulfillmentOrderItemId property.
      *
      * @param string sellerFulfillmentOrderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderItemId($value)
     {
@@ -111,7 +111,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
      * Set the value of the Quantity property.
      *
      * @param int quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantity($value)
     {
@@ -141,7 +141,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
     /**
      * Get the value of the PackageNumber property.
      *
-     * @return Integer PackageNumber.
+     * @return \int PackageNumber.
      */
     public function getPackageNumber()
     {
@@ -151,7 +151,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentItem extends FbaOutboundServi
      * Set the value of the PackageNumber property.
      *
      * @param int packageNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setPackageNumber($value)
     {

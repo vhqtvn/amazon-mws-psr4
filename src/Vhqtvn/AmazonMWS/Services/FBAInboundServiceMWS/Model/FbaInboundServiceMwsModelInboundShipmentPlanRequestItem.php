@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -33,7 +33,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -63,7 +63,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -73,7 +73,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -103,7 +103,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Get the value of the Condition property.
      *
-     * @return String Condition.
+     * @return \string Condition.
      */
     public function getCondition()
     {
@@ -113,7 +113,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
      * Set the value of the Condition property.
      *
      * @param string condition
-     * @return $this 
+     * @return $this instance
      */
     public function setCondition($value)
     {
@@ -143,7 +143,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Get the value of the Quantity property.
      *
-     * @return Integer Quantity.
+     * @return \int Quantity.
      */
     public function getQuantity()
     {
@@ -153,7 +153,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
      * Set the value of the Quantity property.
      *
      * @param int quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantity($value)
     {
@@ -183,7 +183,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
     /**
      * Get the value of the QuantityInCase property.
      *
-     * @return Integer QuantityInCase.
+     * @return \int QuantityInCase.
      */
     public function getQuantityInCase()
     {
@@ -193,7 +193,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
      * Set the value of the QuantityInCase property.
      *
      * @param int quantityInCase
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantityInCase($value)
     {
@@ -233,7 +233,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlanRequestItem extends FbaInbound
      * Set the value of the PrepDetailsList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepDetailsList prepDetailsList
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepDetailsList($value)
     {

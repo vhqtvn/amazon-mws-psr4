@@ -20,7 +20,7 @@ class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommen
     /**
      * Get the value of the Asin property.
      *
-     * @return String Asin.
+     * @return \string Asin.
      */
     public function getAsin()
     {
@@ -30,7 +30,7 @@ class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommen
      * Set the value of the Asin property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setAsin($value)
     {
@@ -60,7 +60,7 @@ class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommen
     /**
      * Get the value of the Sku property.
      *
-     * @return String Sku.
+     * @return \string Sku.
      */
     public function getSku()
     {
@@ -70,7 +70,7 @@ class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommen
      * Set the value of the Sku property.
      *
      * @param string sku
-     * @return $this 
+     * @return $this instance
      */
     public function setSku($value)
     {
@@ -100,7 +100,7 @@ class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommen
     /**
      * Get the value of the Upc property.
      *
-     * @return String Upc.
+     * @return \string Upc.
      */
     public function getUpc()
     {
@@ -110,7 +110,7 @@ class MwsRecommendationsSectionServiceModelProductIdentifier extends MwsRecommen
      * Set the value of the Upc property.
      *
      * @param string upc
-     * @return $this 
+     * @return $this instance
      */
     public function setUpc($value)
     {

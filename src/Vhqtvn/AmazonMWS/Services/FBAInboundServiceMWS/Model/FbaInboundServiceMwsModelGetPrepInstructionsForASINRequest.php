@@ -21,7 +21,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINRequest extends FbaInbo
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINRequest extends FbaInbo
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -61,7 +61,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINRequest extends FbaInbo
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -71,7 +71,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINRequest extends FbaInbo
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -111,7 +111,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINRequest extends FbaInbo
      * Set the value of the AsinList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAsinList asinList
-     * @return $this 
+     * @return $this instance
      */
     public function setAsinList($value)
     {
@@ -141,7 +141,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINRequest extends FbaInbo
     /**
      * Get the value of the ShipToCountryCode property.
      *
-     * @return String ShipToCountryCode.
+     * @return \string ShipToCountryCode.
      */
     public function getShipToCountryCode()
     {
@@ -151,7 +151,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINRequest extends FbaInbo
      * Set the value of the ShipToCountryCode property.
      *
      * @param string shipToCountryCode
-     * @return $this 
+     * @return $this instance
      */
     public function setShipToCountryCode($value)
     {

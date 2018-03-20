@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResult extend
      * Set the value of the Product property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProduct product
-     * @return $this 
+     * @return $this instance
      */
     public function setProduct($value)
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResult extend
      * Set the value of the Error property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError error
-     * @return $this 
+     * @return $this instance
      */
     public function setError($value)
     {
@@ -101,7 +101,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResult extend
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResult extend
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -141,7 +141,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResult extend
     /**
      * Get the value of the status property.
      *
-     * @return String status.
+     * @return \string status.
      */
     public function getstatus()
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKUResult extend
      * Set the value of the status property.
      *
      * @param string status
-     * @return $this 
+     * @return $this instance
      */
     public function setstatus($value)
     {

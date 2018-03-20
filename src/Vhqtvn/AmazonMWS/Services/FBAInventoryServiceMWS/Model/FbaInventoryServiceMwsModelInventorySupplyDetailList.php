@@ -8,7 +8,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
  * 
  * @property	\Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyDetail[]	$member
  *
- * @property array $member
+ * 
  */
 class FbaInventoryServiceMwsModelInventorySupplyDetailList extends FbaInventoryServiceMwsModel
 {
@@ -33,7 +33,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetailList extends FbaInventoryS
      * Set the value of the member property.
      *
      * @param array member
-     * @return $this 
+     * @return $this instance
      */
     public function setmember($value)
     {

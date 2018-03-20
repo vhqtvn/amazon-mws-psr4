@@ -30,7 +30,7 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
     /**
      * Get the value of the ShipmentContainsPreorderableItems property.
      *
-     * @return Boolean ShipmentContainsPreorderableItems.
+     * @return \bool ShipmentContainsPreorderableItems.
      */
     public function getShipmentContainsPreorderableItems()
     {
@@ -40,7 +40,7 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
      * Set the value of the ShipmentContainsPreorderableItems property.
      *
      * @param bool shipmentContainsPreorderableItems
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentContainsPreorderableItems($value)
     {
@@ -79,7 +79,7 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
     /**
      * Get the value of the ShipmentConfirmedForPreorder property.
      *
-     * @return Boolean ShipmentConfirmedForPreorder.
+     * @return \bool ShipmentConfirmedForPreorder.
      */
     public function getShipmentConfirmedForPreorder()
     {
@@ -89,7 +89,7 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
      * Set the value of the ShipmentConfirmedForPreorder property.
      *
      * @param bool shipmentConfirmedForPreorder
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentConfirmedForPreorder($value)
     {
@@ -119,7 +119,7 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
     /**
      * Get the value of the NeedByDate property.
      *
-     * @return String NeedByDate.
+     * @return \string NeedByDate.
      */
     public function getNeedByDate()
     {
@@ -129,7 +129,7 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
      * Set the value of the NeedByDate property.
      *
      * @param string needByDate
-     * @return $this 
+     * @return $this instance
      */
     public function setNeedByDate($value)
     {
@@ -159,7 +159,7 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
     /**
      * Get the value of the ConfirmedFulfillableDate property.
      *
-     * @return String ConfirmedFulfillableDate.
+     * @return \string ConfirmedFulfillableDate.
      */
     public function getConfirmedFulfillableDate()
     {
@@ -169,7 +169,7 @@ class FbaInboundServiceMwsModelGetPreorderInfoResult extends FbaInboundServiceMw
      * Set the value of the ConfirmedFulfillableDate property.
      *
      * @param string confirmedFulfillableDate
-     * @return $this 
+     * @return $this instance
      */
     public function setConfirmedFulfillableDate($value)
     {

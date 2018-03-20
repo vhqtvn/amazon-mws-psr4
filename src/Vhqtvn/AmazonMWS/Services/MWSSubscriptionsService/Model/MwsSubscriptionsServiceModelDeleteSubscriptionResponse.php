@@ -32,7 +32,7 @@ class MwsSubscriptionsServiceModelDeleteSubscriptionResponse extends MwsSubscrip
      * Set the value of the DeleteSubscriptionResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDeleteSubscriptionResult deleteSubscriptionResult
-     * @return $this 
+     * @return $this instance
      */
     public function setDeleteSubscriptionResult($value)
     {
@@ -72,7 +72,7 @@ class MwsSubscriptionsServiceModelDeleteSubscriptionResponse extends MwsSubscrip
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class MwsSubscriptionsServiceModelDeleteSubscriptionResponse extends MwsSubscrip
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

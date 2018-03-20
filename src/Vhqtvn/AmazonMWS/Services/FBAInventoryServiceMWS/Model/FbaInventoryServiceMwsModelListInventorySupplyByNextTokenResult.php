@@ -20,7 +20,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult extends Fb
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -30,7 +30,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult extends Fb
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -70,7 +70,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult extends Fb
      * Set the value of the InventorySupplyList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyList inventorySupplyList
-     * @return $this 
+     * @return $this instance
      */
     public function setInventorySupplyList($value)
     {
@@ -100,7 +100,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult extends Fb
     /**
      * Get the value of the NextToken property.
      *
-     * @return String NextToken.
+     * @return \string NextToken.
      */
     public function getNextToken()
     {
@@ -110,7 +110,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyByNextTokenResult extends Fb
      * Set the value of the NextToken property.
      *
      * @param string nextToken
-     * @return $this 
+     * @return $this instance
      */
     public function setNextToken($value)
     {

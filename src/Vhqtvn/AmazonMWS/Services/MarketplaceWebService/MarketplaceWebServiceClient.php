@@ -988,7 +988,7 @@ class MarketplaceWebServiceClient implements MarketplaceWebServiceInterface
     }
     /**
      * Exponential sleep on failed request
-     * @param retries current retry
+     * @param int retries current retry
      */
     private function pauseOnRetry($retries)
     {
@@ -1069,7 +1069,7 @@ class MarketplaceWebServiceClient implements MarketplaceWebServiceInterface
     /**
      * Calculate String to Sign for SignatureVersion 2
      * @param array $parameters request parameters
-     * @return String to Sign
+     * @return \string to Sign
      */
     private function calculateStringToSignV2(array $parameters, $queuepath = null)
     {

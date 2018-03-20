@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINListType
  * 
- * @property	\[]	$ASIN
+ * @property	\string[]	$ASIN
  */
 class MarketplaceWebServiceProductsModelASINListType extends MarketplaceWebServiceProductsModel
 {
@@ -18,7 +18,7 @@ class MarketplaceWebServiceProductsModelASINListType extends MarketplaceWebServi
     /**
      * Get the value of the ASIN property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelString[] ASIN.
+     * @return \string[] ASIN.
      */
     public function getASIN()
     {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelASINListType extends MarketplaceWebServi
      * Set the value of the ASIN property.
      *
      * @param array asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {

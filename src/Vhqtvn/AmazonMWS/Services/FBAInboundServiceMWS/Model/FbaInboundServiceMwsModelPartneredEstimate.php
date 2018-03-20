@@ -30,7 +30,7 @@ class FbaInboundServiceMwsModelPartneredEstimate extends FbaInboundServiceMwsMod
      * Set the value of the Amount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount amount
-     * @return $this 
+     * @return $this instance
      */
     public function setAmount($value)
     {
@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelPartneredEstimate extends FbaInboundServiceMwsMod
     /**
      * Get the value of the ConfirmDeadline property.
      *
-     * @return String ConfirmDeadline.
+     * @return \string ConfirmDeadline.
      */
     public function getConfirmDeadline()
     {
@@ -70,7 +70,7 @@ class FbaInboundServiceMwsModelPartneredEstimate extends FbaInboundServiceMwsMod
      * Set the value of the ConfirmDeadline property.
      *
      * @param string confirmDeadline
-     * @return $this 
+     * @return $this instance
      */
     public function setConfirmDeadline($value)
     {
@@ -100,7 +100,7 @@ class FbaInboundServiceMwsModelPartneredEstimate extends FbaInboundServiceMwsMod
     /**
      * Get the value of the VoidDeadline property.
      *
-     * @return String VoidDeadline.
+     * @return \string VoidDeadline.
      */
     public function getVoidDeadline()
     {
@@ -110,7 +110,7 @@ class FbaInboundServiceMwsModelPartneredEstimate extends FbaInboundServiceMwsMod
      * Set the value of the VoidDeadline property.
      *
      * @param string voidDeadline
-     * @return $this 
+     * @return $this instance
      */
     public function setVoidDeadline($value)
     {

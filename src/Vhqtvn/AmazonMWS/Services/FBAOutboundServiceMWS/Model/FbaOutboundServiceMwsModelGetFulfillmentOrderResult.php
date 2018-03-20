@@ -32,7 +32,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
      * Set the value of the FulfillmentOrder property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrder fulfillmentOrder
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentOrder($value)
     {
@@ -72,7 +72,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
      * Set the value of the FulfillmentOrderItem property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrderItemList fulfillmentOrderItem
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentOrderItem($value)
     {
@@ -112,7 +112,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
      * Set the value of the FulfillmentShipment property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentList fulfillmentShipment
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentShipment($value)
     {
@@ -152,7 +152,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
      * Set the value of the ReturnItemList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnItemList returnItemList
-     * @return $this 
+     * @return $this instance
      */
     public function setReturnItemList($value)
     {
@@ -192,7 +192,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentOrderResult extends FbaOutboundSer
      * Set the value of the ReturnAuthorizationList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReturnAuthorizationList returnAuthorizationList
-     * @return $this 
+     * @return $this instance
      */
     public function setReturnAuthorizationList($value)
     {

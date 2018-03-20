@@ -31,7 +31,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the LastUpdated property.
      *
-     * @return XMLGregorianCalendar LastUpdated.
+     * @return \DateTime LastUpdated.
      */
     public function getLastUpdated()
     {
@@ -41,7 +41,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the LastUpdated property.
      *
      * @param string lastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdated($value)
     {
@@ -81,7 +81,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the ItemIdentifier property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier itemIdentifier
-     * @return $this 
+     * @return $this instance
      */
     public function setItemIdentifier($value)
     {
@@ -111,7 +111,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the ItemName property.
      *
-     * @return String ItemName.
+     * @return \string ItemName.
      */
     public function getItemName()
     {
@@ -121,7 +121,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the ItemName property.
      *
      * @param string itemName
-     * @return $this 
+     * @return $this instance
      */
     public function setItemName($value)
     {
@@ -151,7 +151,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the FulfillmentChannel property.
      *
-     * @return String FulfillmentChannel.
+     * @return \string FulfillmentChannel.
      */
     public function getFulfillmentChannel()
     {
@@ -161,7 +161,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the FulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -191,7 +191,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the SalesForTheLast14Days property.
      *
-     * @return Integer SalesForTheLast14Days.
+     * @return \int SalesForTheLast14Days.
      */
     public function getSalesForTheLast14Days()
     {
@@ -201,7 +201,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the SalesForTheLast14Days property.
      *
      * @param int salesForTheLast14Days
-     * @return $this 
+     * @return $this instance
      */
     public function setSalesForTheLast14Days($value)
     {
@@ -231,7 +231,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the SalesForTheLast30Days property.
      *
-     * @return Integer SalesForTheLast30Days.
+     * @return \int SalesForTheLast30Days.
      */
     public function getSalesForTheLast30Days()
     {
@@ -241,7 +241,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the SalesForTheLast30Days property.
      *
      * @param int salesForTheLast30Days
-     * @return $this 
+     * @return $this instance
      */
     public function setSalesForTheLast30Days($value)
     {
@@ -271,7 +271,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the AvailableQuantity property.
      *
-     * @return Integer AvailableQuantity.
+     * @return \int AvailableQuantity.
      */
     public function getAvailableQuantity()
     {
@@ -281,7 +281,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the AvailableQuantity property.
      *
      * @param int availableQuantity
-     * @return $this 
+     * @return $this instance
      */
     public function setAvailableQuantity($value)
     {
@@ -311,7 +311,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the DaysUntilStockRunsOut property.
      *
-     * @return Integer DaysUntilStockRunsOut.
+     * @return \int DaysUntilStockRunsOut.
      */
     public function getDaysUntilStockRunsOut()
     {
@@ -321,7 +321,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the DaysUntilStockRunsOut property.
      *
      * @param int daysUntilStockRunsOut
-     * @return $this 
+     * @return $this instance
      */
     public function setDaysUntilStockRunsOut($value)
     {
@@ -351,7 +351,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the InboundQuantity property.
      *
-     * @return Integer InboundQuantity.
+     * @return \int InboundQuantity.
      */
     public function getInboundQuantity()
     {
@@ -361,7 +361,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the InboundQuantity property.
      *
      * @param int inboundQuantity
-     * @return $this 
+     * @return $this instance
      */
     public function setInboundQuantity($value)
     {
@@ -391,7 +391,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the RecommendedInboundQuantity property.
      *
-     * @return Integer RecommendedInboundQuantity.
+     * @return \int RecommendedInboundQuantity.
      */
     public function getRecommendedInboundQuantity()
     {
@@ -401,7 +401,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the RecommendedInboundQuantity property.
      *
      * @param int recommendedInboundQuantity
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendedInboundQuantity($value)
     {
@@ -431,7 +431,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the DaysOutOfStockLast30Days property.
      *
-     * @return Integer DaysOutOfStockLast30Days.
+     * @return \int DaysOutOfStockLast30Days.
      */
     public function getDaysOutOfStockLast30Days()
     {
@@ -441,7 +441,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the DaysOutOfStockLast30Days property.
      *
      * @param int daysOutOfStockLast30Days
-     * @return $this 
+     * @return $this instance
      */
     public function setDaysOutOfStockLast30Days($value)
     {
@@ -471,7 +471,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the LostSalesInLast30Days property.
      *
-     * @return Integer LostSalesInLast30Days.
+     * @return \int LostSalesInLast30Days.
      */
     public function getLostSalesInLast30Days()
     {
@@ -481,7 +481,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the LostSalesInLast30Days property.
      *
      * @param int lostSalesInLast30Days
-     * @return $this 
+     * @return $this instance
      */
     public function setLostSalesInLast30Days($value)
     {
@@ -511,7 +511,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the RecommendationId property.
      *
-     * @return String RecommendationId.
+     * @return \string RecommendationId.
      */
     public function getRecommendationId()
     {
@@ -521,7 +521,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the RecommendationId property.
      *
      * @param string recommendationId
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationId($value)
     {
@@ -551,7 +551,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
     /**
      * Get the value of the RecommendationReason property.
      *
-     * @return String RecommendationReason.
+     * @return \string RecommendationReason.
      */
     public function getRecommendationReason()
     {
@@ -561,7 +561,7 @@ class MwsRecommendationsSectionServiceModelInventoryRecommendation extends MwsRe
      * Set the value of the RecommendationReason property.
      *
      * @param string recommendationReason
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationReason($value)
     {

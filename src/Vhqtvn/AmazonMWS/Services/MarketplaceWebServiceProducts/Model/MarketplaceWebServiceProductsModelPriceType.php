@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelPriceType extends MarketplaceWebServiceP
      * Set the value of the LandedPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType landedPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setLandedPrice($value)
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceProductsModelPriceType extends MarketplaceWebServiceP
      * Set the value of the ListingPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType listingPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setListingPrice($value)
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceProductsModelPriceType extends MarketplaceWebServiceP
      * Set the value of the Shipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType shipping
-     * @return $this 
+     * @return $this instance
      */
     public function setShipping($value)
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceProductsModelPriceType extends MarketplaceWebServiceP
      * Set the value of the Points property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints points
-     * @return $this 
+     * @return $this instance
      */
     public function setPoints($value)
     {

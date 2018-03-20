@@ -22,7 +22,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Get the value of the CustomTextForLabel property.
      *
-     * @return String CustomTextForLabel.
+     * @return \string CustomTextForLabel.
      */
     public function getCustomTextForLabel()
     {
@@ -32,7 +32,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
      * Set the value of the CustomTextForLabel property.
      *
      * @param string customTextForLabel
-     * @return $this 
+     * @return $this instance
      */
     public function setCustomTextForLabel($value)
     {
@@ -72,7 +72,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
      * Set the value of the Dimensions property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelLabelDimensions dimensions
-     * @return $this 
+     * @return $this instance
      */
     public function setDimensions($value)
     {
@@ -112,7 +112,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
      * Set the value of the FileContents property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelFileContents fileContents
-     * @return $this 
+     * @return $this instance
      */
     public function setFileContents($value)
     {
@@ -142,7 +142,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Get the value of the LabelFormat property.
      *
-     * @return String LabelFormat.
+     * @return \string LabelFormat.
      */
     public function getLabelFormat()
     {
@@ -152,7 +152,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
      * Set the value of the LabelFormat property.
      *
      * @param string labelFormat
-     * @return $this 
+     * @return $this instance
      */
     public function setLabelFormat($value)
     {
@@ -182,7 +182,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
     /**
      * Get the value of the StandardIdForLabel property.
      *
-     * @return String StandardIdForLabel.
+     * @return \string StandardIdForLabel.
      */
     public function getStandardIdForLabel()
     {
@@ -192,7 +192,7 @@ class MwsMerchantFulfillmentServiceModelLabel extends MwsMerchantFulfillmentServ
      * Set the value of the StandardIdForLabel property.
      *
      * @param string standardIdForLabel
-     * @return $this 
+     * @return $this instance
      */
     public function setStandardIdForLabel($value)
     {

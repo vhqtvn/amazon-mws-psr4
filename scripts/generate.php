@@ -17,6 +17,9 @@ define('BASE_PATH', realpath(dirname(__FILE__) . '/..'));
 
 $C = new Color();
 
+$roottypes = [];
+$transtypes = [];
+
 function base_path($dir)
 {
     return BASE_PATH . "$dir";
@@ -40,6 +43,9 @@ passthru("rm -rf " . rtrim(escapeshellarg($output_base), "/") . "/*");
 foreach (files($root_base) as $lib) {
     handle_lib($lib, "$root_base/$lib", "$output_base/$lib");
 }
+
+var_dump(array_unique($roottypes));
+var_dump(array_unique(array_map('json_encode', $transtypes)));
 
 function handle_lib($name, $src_folder, $dst_folder)
 {
@@ -82,6 +88,7 @@ function handle_dir($depth, $lib_name, $src_dir, $dst_dir, $src_ns, $dst_ns, $ba
  * @param $dst_path
  * @param $src_ns
  * @param $dst_ns
+ *
  * @return mixed
  */
 function handle_php($depth, $lib_name, $src_path, $dst_path, $src_ns, $dst_ns, $base_ns)
@@ -152,7 +159,7 @@ function generate_from_global_base($depth, $global_base, $lib_name, $src_path, $
             [new Stmt\UseUse(
                 new Node\Name($global_base)
             )]
-        )
+        ),
     ]);
 
     $prettyPrinter = new PrettyPrinter\Standard(['shortArraySyntax' => true]);
@@ -199,7 +206,7 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
             $new_name = name_transform($ident, $lib_name, $base_ns);
             return $new_name;
         }
-        return special_name_transform($ident);
+        return special_name_transform($ident, true);
     });
     $traverser = new NodeTraverser();
     $traverser->addVisitor($class_name_transformer);
@@ -236,34 +243,34 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
                             Node\Stmt\ClassMethod::class,
                             'sub' => [
                                 'params' => [
-                                    [Node\Param::class, 'var' => ['name' => 'param_name_1']]
+                                    [Node\Param::class, 'var' => ['name' => 'param_name_1']],
                                 ],
-                                'stmts' => [
+                                'stmts'  => [
                                     [Node\Expr\MethodCall::class, 'var' => ['name' => 'setter_name'],
-                                        'sub' => [
-                                            'var' => [Node\Expr\Variable::class,
-                                                'sub' => ['name' => 'this'],
-                                            ],
-                                            'args' => [
-                                                [Node\Arg::class,
-                                                    'sub' => [
-                                                        'value' => [Node\Expr\Variable::class, 'var' => ['name' => 'param_name_2']]
-                                                    ]
-                                                ]
-                                            ]
-                                        ]
+                                                                  'sub' => [
+                                                                      'var'  => [Node\Expr\Variable::class,
+                                                                          'sub' => ['name' => 'this'],
+                                                                      ],
+                                                                      'args' => [
+                                                                          [Node\Arg::class,
+                                                                              'sub' => [
+                                                                                  'value' => [Node\Expr\Variable::class, 'var' => ['name' => 'param_name_2']],
+                                                                              ],
+                                                                          ],
+                                                                      ],
+                                                                  ],
                                     ],
                                     [Node\Stmt\Return_::class,
                                         'sub' => [
                                             'expr' => [Node\Expr\Variable::class,
                                                 'sub' => [
-                                                    'name' => 'this'
-                                                ]
-                                            ]
-                                        ]
-                                    ]
-                                ]
-                            ]
+                                                    'name' => 'this',
+                                                ],
+                                            ],
+                                        ],
+                                    ],
+                                ],
+                            ],
                         ])) {
                             $doc = $node->getDocComment();
                             if (is_null($doc)) return;
@@ -297,43 +304,43 @@ function generate_using_ast($depth, $lib_name, $src_path, $dst_path, $src_ns, $d
                         //region with... array methods
                         if ($match = \Scripts\Matcher\Matcher::match($node, [
                             Node\Stmt\ClassMethod::class, 'var' => ['params'],
-                            'sub' => [
-                                'stmts' => [
-                                    [Node\Stmt\Foreach_::class, 'var' => ['expr'],
-                                        'sub' => [
-                                            'expr' => [Node\Expr\FuncCall::class,
-                                                'sub' => [
-                                                    'name' => [Node\Name::class,
-                                                        'sub' => [
-                                                            'parts' => ['func_get_args']
-                                                        ]
-                                                    ]
-                                                ]
-                                            ],
-                                            'valueVar' => ['type' => Node\Expr\Variable::class,],
-                                            'stmts' => [
-                                                ['type' => Node\Expr\Assign::class]
-                                            ],
-                                        ]
-                                    ],
-                                    [Node\Stmt\Return_::class,
-                                        'sub' => [
-                                            'expr' => [Node\Expr\Variable::class,
-                                                'sub' => [
-                                                    'name' => 'this'
-                                                ]
-                                            ]
-                                        ]
-                                    ]
-                                ]
-                            ]
+                                                          'sub' => [
+                                                              'stmts' => [
+                                                                  [Node\Stmt\Foreach_::class, 'var' => ['expr'],
+                                                                                              'sub' => [
+                                                                                                  'expr'     => [Node\Expr\FuncCall::class,
+                                                                                                      'sub' => [
+                                                                                                          'name' => [Node\Name::class,
+                                                                                                              'sub' => [
+                                                                                                                  'parts' => ['func_get_args'],
+                                                                                                              ],
+                                                                                                          ],
+                                                                                                      ],
+                                                                                                  ],
+                                                                                                  'valueVar' => ['type' => Node\Expr\Variable::class,],
+                                                                                                  'stmts'    => [
+                                                                                                      ['type' => Node\Expr\Assign::class],
+                                                                                                  ],
+                                                                                              ],
+                                                                  ],
+                                                                  [Node\Stmt\Return_::class,
+                                                                      'sub' => [
+                                                                          'expr' => [Node\Expr\Variable::class,
+                                                                              'sub' => [
+                                                                                  'name' => 'this',
+                                                                              ],
+                                                                          ],
+                                                                      ],
+                                                                  ],
+                                                              ],
+                                                          ],
                         ])) {
                             $node->params = [];
                             $doc = $node->getDocComment();
                             exec($cmd = 'php ' . implode(' ', array_map('escapeshellarg', [
                                     base_path('/scripts/tools/get_field_type.php'),
                                     $this->src_path,
-                                    $prop
+                                    $prop,
                                 ])), $out, $res);
                             if ($res) {
                                 var_dump(__LINE__, $cmd, $out, $res);
@@ -437,12 +444,40 @@ function name_transform($ident, $lib_name, $base_ns)
     return implode("\\", array_merge($base_ns, $parts));
 }
 
-function special_name_transform($name)
+function special_name_transform_final($name)
 {
+    $r = special_name_transform($name);
+    if ($r === false) return $r;
+    $r = str_replace('__vh_dummy_root__', '\\', $r);
+    return $r;
+}
+
+function special_name_transform($name, $return_iden = false)
+{
+    if ($name === 'MarketplaceWebServiceModelObject') {
+        return "__vh_dummy_root__object";
+    }
+    if ($name === 'Count' || $name === 'ServiceStatusEnum') {
+        return "__vh_dummy_root__string";
+    }
+    if ($name === 'XMLGregorianCalendar') {
+        return "__vh_dummy_root__DateTime";
+    }
+    if ($name === 'BigDecimal') {
+        return '__vh_dummy_root__float';
+    }
+    if ($name === 'long' || $name === 'Long') {
+        return 'int';
+    }
     if (in_array($name, ["Exception", "InvalidArgumentException", "DOMDocument", "DOMXPath", "DateTime", "DateTimeZone"])) {
         return "__vh_dummy_root__$name";
     }
-    return $name;
+
+    if ($return_iden) {
+        return $name;
+    } else {
+        return false;
+    }
 }
 
 function final_text_transform($src_path, $code, $lib_name, $dst_ns, $base_ns)
@@ -461,6 +496,8 @@ function final_text_transform($src_path, $code, $lib_name, $dst_ns, $base_ns)
     // dummy root
 
     $code = str_replace('__vh_dummy_root__', '\\', $code);
+    $code = str_replace('$ch curl handle', 'resource $ch handle', $code);
+    $code = str_replace('@param retries current retry', '@param int retries current retry', $code);
 
     // model typing
 
@@ -520,6 +557,17 @@ function final_text_transform($src_path, $code, $lib_name, $dst_ns, $base_ns)
                         function ($m) {
                             $class = $m[1];
                             assert(strpos($class, '_') === false);
+                            global $transtypes;
+                            $transtypes[] = ['list', $class, $this->lib_name, $this->base_ns];
+                            if (in_array($class, ['String', 'Integer', 'Boolean'])) {
+                                return [
+                                    'String'  => '\\string[]',
+                                    'Integer' => '\\int[]',
+                                    'Boolean' => '\\bool[]',
+                                ][$class];
+                            } else if ($special_transform = special_name_transform_final($class)) {
+                                return $special_transform;
+                            }
                             $old_name = array_slice($this->dst_ns, count($this->base_ns));
                             $old_name[] = $class;
                             $old_name = implode("_", $old_name);
@@ -532,13 +580,55 @@ function final_text_transform($src_path, $code, $lib_name, $dst_ns, $base_ns)
                         function ($m) {
                             $class = $m[1];
                             assert(strpos($class, '_') === false);
-                            $old_name = array_slice($this->dst_ns, count($this->base_ns));
-                            if (!file_exists(base_path('/amazon-srcs/src/' . implode('/', $old_name) . "/$class.php"))) {
-                                return $m[0];
+                            if ($class === 'this') {
+                                $new_name = '$this';
+                            } else if (in_array($class, ['String', 'Integer', 'Boolean'])) {
+                                $new_name = [
+                                    'String'  => '\\string',
+                                    'Integer' => '\\int',
+                                    'Boolean' => '\\bool',
+                                ][$class];
+                            } else if ($special_transform = special_name_transform_final($class)) {
+                                $new_name = $special_transform;
+                            } else {
+                                global $transtypes;
+                                $transtypes[] = ['return', $class, $this->lib_name, $this->base_ns];
+                                $old_name = array_slice($this->dst_ns, count($this->base_ns));
+                                if (!file_exists(base_path('/amazon-srcs/src/' . implode('/', $old_name) . "/$class.php"))) {
+                                    return $m[0];
+                                }
+                                $old_name[] = $class;
+                                $old_name = implode("_", $old_name);
+                                $new_name = "\\" . name_transform($old_name, $this->lib_name, $this->base_ns);
                             }
-                            $old_name[] = $class;
-                            $old_name = implode("_", $old_name);
-                            $new_name = "\\" . name_transform($old_name, $this->lib_name, $this->base_ns);
+                            return "@return $new_name{$m[2]}";
+                        },
+                        $doc_text_new
+                    );
+                    $doc_text_new = preg_replace_callback(
+                        '/@param ([0-9a-zA-Z]+)(\s)/',
+                        function ($m) {
+                            $class = $m[1];
+                            assert(strpos($class, '_') === false);
+                            if (in_array($class, ['String', 'Integer', 'Boolean'])) {
+                                $new_name = [
+                                    'String'  => '\\string',
+                                    'Integer' => '\\int',
+                                    'Boolean' => '\\bool',
+                                ][$class];
+                            } else if ($special_transform = special_name_transform_final($class)) {
+                                $new_name = $special_transform;
+                            } else {
+                                global $transtypes;
+                                $transtypes[] = ['prop', $class, $this->lib_name, $this->base_ns];
+                                $old_name = array_slice($this->dst_ns, count($this->base_ns));
+                                if (!file_exists(base_path('/amazon-srcs/src/' . implode('/', $old_name) . "/$class.php"))) {
+                                    return $m[0];
+                                }
+                                $old_name[] = $class;
+                                $old_name = implode("_", $old_name);
+                                $new_name = "\\" . name_transform($old_name, $this->lib_name, $this->base_ns);
+                            }
                             return "@return $new_name{$m[2]}";
                         },
                         $doc_text_new
@@ -572,7 +662,7 @@ function final_text_transform($src_path, $code, $lib_name, $dst_ns, $base_ns)
                                         exec($cmd = 'php ' . implode(' ', array_map('escapeshellarg', [
                                                 base_path('/scripts/tools/get_field_type.php'),
                                                 $this->path,
-                                                $prop['name']
+                                                $prop['name'],
                                             ])), $out, $res);
                                         if ($res) {
                                             var_dump($cmd, $out, $res);
@@ -583,12 +673,19 @@ function final_text_transform($src_path, $code, $lib_name, $dst_ns, $base_ns)
                                         if ($type_transform === $type) {
                                             var_dump($type_transform, $type);
                                             exit;
+                                        } else if ($type_transform === false) {
+                                            global $roottypes;
+                                            $roottypes[] = $type;
+                                            $type_transform = $type;
                                         }
                                         $prop['type'] = '\\' . $type_transform . '[]';
                                     }
+                                    global $transtypes;
+                                    $transtypes[] = ['prop', $prop['type'], $this->lib_name, $this->base_ns];
                                     return " * @property\t{$prop['type']}\t\${$prop['name']}";
                                 }, $props));
                             }, $doc_text_new);
+                            $doc_text_new = str_replace('@property array $member', '', $doc_text_new);
                         }
                     }
                     if ($doc_text_new !== $doc_text) {

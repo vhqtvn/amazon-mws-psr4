@@ -34,7 +34,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
      * Set the value of the BuyingPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType buyingPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyingPrice($value)
     {
@@ -74,7 +74,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
      * Set the value of the RegularPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType regularPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setRegularPrice($value)
     {
@@ -104,7 +104,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Get the value of the FulfillmentChannel property.
      *
-     * @return String FulfillmentChannel.
+     * @return \string FulfillmentChannel.
      */
     public function getFulfillmentChannel()
     {
@@ -114,7 +114,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
      * Set the value of the FulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -144,7 +144,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Get the value of the ItemCondition property.
      *
-     * @return String ItemCondition.
+     * @return \string ItemCondition.
      */
     public function getItemCondition()
     {
@@ -154,7 +154,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setItemCondition($value)
     {
@@ -184,7 +184,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Get the value of the ItemSubCondition property.
      *
-     * @return String ItemSubCondition.
+     * @return \string ItemSubCondition.
      */
     public function getItemSubCondition()
     {
@@ -194,7 +194,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
      * Set the value of the ItemSubCondition property.
      *
      * @param string itemSubCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setItemSubCondition($value)
     {
@@ -224,7 +224,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -234,7 +234,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -264,7 +264,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -274,7 +274,7 @@ class MarketplaceWebServiceProductsModelOfferType extends MarketplaceWebServiceP
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {

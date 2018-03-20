@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
     /**
      * Sets the value of the ManageReportScheduleResult.
      * 
-     * @param ManageReportScheduleResult ManageReportScheduleResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleResult ManageReportScheduleResult
      * @return void
      */
     public function setManageReportScheduleResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
     /**
      * Set the value of ManageReportScheduleResult, return this.
      *
-     * @param ManageReportScheduleResult $ManageReportScheduleResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelManageReportScheduleResult $ManageReportScheduleResult
      * @return $this
      */
     public function withManageReportScheduleResult($ManageReportScheduleResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelManageReportScheduleResponse extends Marketplace
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

@@ -23,7 +23,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -33,7 +33,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -63,7 +63,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Get the value of the Name property.
      *
-     * @return String Name.
+     * @return \string Name.
      */
     public function getName()
     {
@@ -73,7 +73,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
      * Set the value of the Name property.
      *
      * @param string name
-     * @return $this 
+     * @return $this instance
      */
     public function setName($value)
     {
@@ -103,7 +103,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Get the value of the DefaultCountryCode property.
      *
-     * @return String DefaultCountryCode.
+     * @return \string DefaultCountryCode.
      */
     public function getDefaultCountryCode()
     {
@@ -113,7 +113,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
      * Set the value of the DefaultCountryCode property.
      *
      * @param string defaultCountryCode
-     * @return $this 
+     * @return $this instance
      */
     public function setDefaultCountryCode($value)
     {
@@ -143,7 +143,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Get the value of the DefaultCurrencyCode property.
      *
-     * @return String DefaultCurrencyCode.
+     * @return \string DefaultCurrencyCode.
      */
     public function getDefaultCurrencyCode()
     {
@@ -153,7 +153,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
      * Set the value of the DefaultCurrencyCode property.
      *
      * @param string defaultCurrencyCode
-     * @return $this 
+     * @return $this instance
      */
     public function setDefaultCurrencyCode($value)
     {
@@ -183,7 +183,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Get the value of the DefaultLanguageCode property.
      *
-     * @return String DefaultLanguageCode.
+     * @return \string DefaultLanguageCode.
      */
     public function getDefaultLanguageCode()
     {
@@ -193,7 +193,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
      * Set the value of the DefaultLanguageCode property.
      *
      * @param string defaultLanguageCode
-     * @return $this 
+     * @return $this instance
      */
     public function setDefaultLanguageCode($value)
     {
@@ -223,7 +223,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
     /**
      * Get the value of the DomainName property.
      *
-     * @return String DomainName.
+     * @return \string DomainName.
      */
     public function getDomainName()
     {
@@ -233,7 +233,7 @@ class MarketplaceWebServiceSellersModelMarketplace extends MarketplaceWebService
      * Set the value of the DomainName property.
      *
      * @param string domainName
-     * @return $this 
+     * @return $this instance
      */
     public function setDomainName($value)
     {

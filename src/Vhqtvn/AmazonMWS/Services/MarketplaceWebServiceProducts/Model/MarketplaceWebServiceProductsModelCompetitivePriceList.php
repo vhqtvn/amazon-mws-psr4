@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelCompetitivePriceList extends Marketplace
      * Set the value of the CompetitivePrice property.
      *
      * @param array competitivePrice
-     * @return $this 
+     * @return $this instance
      */
     public function setCompetitivePrice($value)
     {

@@ -20,7 +20,7 @@ class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
     /**
      * Get the value of the PromotionType property.
      *
-     * @return String PromotionType.
+     * @return \string PromotionType.
      */
     public function getPromotionType()
     {
@@ -30,7 +30,7 @@ class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
      * Set the value of the PromotionType property.
      *
      * @param string promotionType
-     * @return $this 
+     * @return $this instance
      */
     public function setPromotionType($value)
     {
@@ -60,7 +60,7 @@ class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
     /**
      * Get the value of the PromotionId property.
      *
-     * @return String PromotionId.
+     * @return \string PromotionId.
      */
     public function getPromotionId()
     {
@@ -70,7 +70,7 @@ class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
      * Set the value of the PromotionId property.
      *
      * @param string promotionId
-     * @return $this 
+     * @return $this instance
      */
     public function setPromotionId($value)
     {
@@ -110,7 +110,7 @@ class MwsFinancesServiceModelPromotion extends MwsFinancesServiceModel
      * Set the value of the PromotionAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency promotionAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setPromotionAmount($value)
     {

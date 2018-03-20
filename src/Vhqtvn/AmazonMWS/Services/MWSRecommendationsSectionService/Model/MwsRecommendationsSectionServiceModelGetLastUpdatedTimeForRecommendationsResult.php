@@ -23,7 +23,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Get the value of the InventoryRecommendationsLastUpdated property.
      *
-     * @return XMLGregorianCalendar InventoryRecommendationsLastUpdated.
+     * @return \DateTime InventoryRecommendationsLastUpdated.
      */
     public function getInventoryRecommendationsLastUpdated()
     {
@@ -33,7 +33,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
      * Set the value of the InventoryRecommendationsLastUpdated property.
      *
      * @param string inventoryRecommendationsLastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setInventoryRecommendationsLastUpdated($value)
     {
@@ -63,7 +63,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Get the value of the SelectionRecommendationsLastUpdated property.
      *
-     * @return XMLGregorianCalendar SelectionRecommendationsLastUpdated.
+     * @return \DateTime SelectionRecommendationsLastUpdated.
      */
     public function getSelectionRecommendationsLastUpdated()
     {
@@ -73,7 +73,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
      * Set the value of the SelectionRecommendationsLastUpdated property.
      *
      * @param string selectionRecommendationsLastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setSelectionRecommendationsLastUpdated($value)
     {
@@ -103,7 +103,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Get the value of the FulfillmentRecommendationsLastUpdated property.
      *
-     * @return XMLGregorianCalendar FulfillmentRecommendationsLastUpdated.
+     * @return \DateTime FulfillmentRecommendationsLastUpdated.
      */
     public function getFulfillmentRecommendationsLastUpdated()
     {
@@ -113,7 +113,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
      * Set the value of the FulfillmentRecommendationsLastUpdated property.
      *
      * @param string fulfillmentRecommendationsLastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentRecommendationsLastUpdated($value)
     {
@@ -143,7 +143,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Get the value of the PricingRecommendationsLastUpdated property.
      *
-     * @return XMLGregorianCalendar PricingRecommendationsLastUpdated.
+     * @return \DateTime PricingRecommendationsLastUpdated.
      */
     public function getPricingRecommendationsLastUpdated()
     {
@@ -153,7 +153,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
      * Set the value of the PricingRecommendationsLastUpdated property.
      *
      * @param string pricingRecommendationsLastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setPricingRecommendationsLastUpdated($value)
     {
@@ -183,7 +183,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Get the value of the GlobalSellingRecommendationsLastUpdated property.
      *
-     * @return XMLGregorianCalendar GlobalSellingRecommendationsLastUpdated.
+     * @return \DateTime GlobalSellingRecommendationsLastUpdated.
      */
     public function getGlobalSellingRecommendationsLastUpdated()
     {
@@ -193,7 +193,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
      * Set the value of the GlobalSellingRecommendationsLastUpdated property.
      *
      * @param string globalSellingRecommendationsLastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setGlobalSellingRecommendationsLastUpdated($value)
     {
@@ -223,7 +223,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
     /**
      * Get the value of the AdvertisingRecommendationsLastUpdated property.
      *
-     * @return XMLGregorianCalendar AdvertisingRecommendationsLastUpdated.
+     * @return \DateTime AdvertisingRecommendationsLastUpdated.
      */
     public function getAdvertisingRecommendationsLastUpdated()
     {
@@ -233,7 +233,7 @@ class MwsRecommendationsSectionServiceModelGetLastUpdatedTimeForRecommendationsR
      * Set the value of the AdvertisingRecommendationsLastUpdated property.
      *
      * @param string advertisingRecommendationsLastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setAdvertisingRecommendationsLastUpdated($value)
     {

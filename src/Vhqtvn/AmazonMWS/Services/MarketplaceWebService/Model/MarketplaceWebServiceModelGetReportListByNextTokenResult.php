@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      * Sets the value of the NextToken property.
      * 
      * @param string NextToken
-     * @return $this 
+     * @return $this instance
      */
     public function setNextToken($value)
     {
@@ -84,7 +84,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      * Sets the value of the HasNext property.
      * 
      * @param bool HasNext
-     * @return $this 
+     * @return $this instance
      */
     public function setHasNext($value)
     {
@@ -124,7 +124,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResult extends Marketpla
      * Sets the value of the ReportInfo.
      * 
      * @param mixed ReportInfo or an array of ReportInfo ReportInfo
-     * @return $this 
+     * @return $this instance
      */
     public function setReportInfoList($reportInfo)
     {

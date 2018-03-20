@@ -20,7 +20,7 @@ class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMw
     /**
      * Get the value of the TotalUnits property.
      *
-     * @return Integer TotalUnits.
+     * @return \int TotalUnits.
      */
     public function getTotalUnits()
     {
@@ -30,7 +30,7 @@ class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMw
      * Set the value of the TotalUnits property.
      *
      * @param int totalUnits
-     * @return $this 
+     * @return $this instance
      */
     public function setTotalUnits($value)
     {
@@ -70,7 +70,7 @@ class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMw
      * Set the value of the FeePerUnit property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount feePerUnit
-     * @return $this 
+     * @return $this instance
      */
     public function setFeePerUnit($value)
     {
@@ -110,7 +110,7 @@ class FbaInboundServiceMwsModelBoxContentsFeeDetails extends FbaInboundServiceMw
      * Set the value of the TotalFee property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount totalFee
-     * @return $this 
+     * @return $this instance
      */
     public function setTotalFee($value)
     {

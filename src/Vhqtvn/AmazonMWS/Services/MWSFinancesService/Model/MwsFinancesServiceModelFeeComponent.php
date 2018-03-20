@@ -19,7 +19,7 @@ class MwsFinancesServiceModelFeeComponent extends MwsFinancesServiceModel
     /**
      * Get the value of the FeeType property.
      *
-     * @return String FeeType.
+     * @return \string FeeType.
      */
     public function getFeeType()
     {
@@ -29,7 +29,7 @@ class MwsFinancesServiceModelFeeComponent extends MwsFinancesServiceModel
      * Set the value of the FeeType property.
      *
      * @param string feeType
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeType($value)
     {
@@ -69,7 +69,7 @@ class MwsFinancesServiceModelFeeComponent extends MwsFinancesServiceModel
      * Set the value of the FeeAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency feeAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeAmount($value)
     {

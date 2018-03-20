@@ -23,7 +23,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Get the value of the ItemCondition property.
      *
-     * @return String ItemCondition.
+     * @return \string ItemCondition.
      */
     public function getItemCondition()
     {
@@ -33,7 +33,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setItemCondition($value)
     {
@@ -63,7 +63,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Get the value of the ItemSubcondition property.
      *
-     * @return String ItemSubcondition.
+     * @return \string ItemSubcondition.
      */
     public function getItemSubcondition()
     {
@@ -73,7 +73,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
      * Set the value of the ItemSubcondition property.
      *
      * @param string itemSubcondition
-     * @return $this 
+     * @return $this instance
      */
     public function setItemSubcondition($value)
     {
@@ -103,7 +103,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Get the value of the FulfillmentChannel property.
      *
-     * @return String FulfillmentChannel.
+     * @return \string FulfillmentChannel.
      */
     public function getFulfillmentChannel()
     {
@@ -113,7 +113,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
      * Set the value of the FulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -143,7 +143,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Get the value of the ShipsDomestically property.
      *
-     * @return String ShipsDomestically.
+     * @return \string ShipsDomestically.
      */
     public function getShipsDomestically()
     {
@@ -153,7 +153,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
      * Set the value of the ShipsDomestically property.
      *
      * @param string shipsDomestically
-     * @return $this 
+     * @return $this instance
      */
     public function setShipsDomestically($value)
     {
@@ -193,7 +193,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
      * Set the value of the ShippingTime property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShippingTimeType shippingTime
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingTime($value)
     {
@@ -223,7 +223,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
     /**
      * Get the value of the SellerPositiveFeedbackRating property.
      *
-     * @return String SellerPositiveFeedbackRating.
+     * @return \string SellerPositiveFeedbackRating.
      */
     public function getSellerPositiveFeedbackRating()
     {
@@ -233,7 +233,7 @@ class MarketplaceWebServiceProductsModelQualifiersType extends MarketplaceWebSer
      * Set the value of the SellerPositiveFeedbackRating property.
      *
      * @param string sellerPositiveFeedbackRating
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerPositiveFeedbackRating($value)
     {

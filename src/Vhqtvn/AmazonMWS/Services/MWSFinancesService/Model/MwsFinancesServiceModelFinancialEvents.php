@@ -50,7 +50,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the ShipmentEventList property.
      *
      * @param array shipmentEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentEventList($value)
     {
@@ -105,7 +105,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the RefundEventList property.
      *
      * @param array refundEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setRefundEventList($value)
     {
@@ -160,7 +160,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the GuaranteeClaimEventList property.
      *
      * @param array guaranteeClaimEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setGuaranteeClaimEventList($value)
     {
@@ -215,7 +215,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the ChargebackEventList property.
      *
      * @param array chargebackEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setChargebackEventList($value)
     {
@@ -270,7 +270,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the PayWithAmazonEventList property.
      *
      * @param array payWithAmazonEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setPayWithAmazonEventList($value)
     {
@@ -325,7 +325,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the ServiceProviderCreditEventList property.
      *
      * @param array serviceProviderCreditEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setServiceProviderCreditEventList($value)
     {
@@ -380,7 +380,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the RetrochargeEventList property.
      *
      * @param array retrochargeEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setRetrochargeEventList($value)
     {
@@ -435,7 +435,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the RentalTransactionEventList property.
      *
      * @param array rentalTransactionEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setRentalTransactionEventList($value)
     {
@@ -490,7 +490,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the PerformanceBondRefundEventList property.
      *
      * @param array performanceBondRefundEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setPerformanceBondRefundEventList($value)
     {
@@ -545,7 +545,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the ProductAdsPaymentEventList property.
      *
      * @param array productAdsPaymentEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setProductAdsPaymentEventList($value)
     {
@@ -600,7 +600,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the ServiceFeeEventList property.
      *
      * @param array serviceFeeEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setServiceFeeEventList($value)
     {
@@ -655,7 +655,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the SellerDealPaymentEventList property.
      *
      * @param array sellerDealPaymentEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerDealPaymentEventList($value)
     {
@@ -710,7 +710,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the DebtRecoveryEventList property.
      *
      * @param array debtRecoveryEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setDebtRecoveryEventList($value)
     {
@@ -765,7 +765,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the LoanServicingEventList property.
      *
      * @param array loanServicingEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setLoanServicingEventList($value)
     {
@@ -820,7 +820,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the AdjustmentEventList property.
      *
      * @param array adjustmentEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setAdjustmentEventList($value)
     {
@@ -875,7 +875,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the SAFETReimbursementEventList property.
      *
      * @param array safetReimbursementEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setSAFETReimbursementEventList($value)
     {
@@ -930,7 +930,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the SellerReviewEnrollmentPaymentEventList property.
      *
      * @param array sellerReviewEnrollmentPaymentEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerReviewEnrollmentPaymentEventList($value)
     {
@@ -985,7 +985,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the FBALiquidationEventList property.
      *
      * @param array fbaLiquidationEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setFBALiquidationEventList($value)
     {
@@ -1040,7 +1040,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the CouponPaymentEventList property.
      *
      * @param array couponPaymentEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setCouponPaymentEventList($value)
     {
@@ -1095,7 +1095,7 @@ class MwsFinancesServiceModelFinancialEvents extends MwsFinancesServiceModel
      * Set the value of the ImagingServicesFeeEventList property.
      *
      * @param array imagingServicesFeeEventList
-     * @return $this 
+     * @return $this instance
      */
     public function setImagingServicesFeeEventList($value)
     {

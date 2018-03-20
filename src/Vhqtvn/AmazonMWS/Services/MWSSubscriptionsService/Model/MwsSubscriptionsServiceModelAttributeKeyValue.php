@@ -19,7 +19,7 @@ class MwsSubscriptionsServiceModelAttributeKeyValue extends MwsSubscriptionsServ
     /**
      * Get the value of the Key property.
      *
-     * @return String Key.
+     * @return \string Key.
      */
     public function getKey()
     {
@@ -29,7 +29,7 @@ class MwsSubscriptionsServiceModelAttributeKeyValue extends MwsSubscriptionsServ
      * Set the value of the Key property.
      *
      * @param string key
-     * @return $this 
+     * @return $this instance
      */
     public function setKey($value)
     {
@@ -59,7 +59,7 @@ class MwsSubscriptionsServiceModelAttributeKeyValue extends MwsSubscriptionsServ
     /**
      * Get the value of the Value property.
      *
-     * @return String Value.
+     * @return \string Value.
      */
     public function getValue()
     {
@@ -69,7 +69,7 @@ class MwsSubscriptionsServiceModelAttributeKeyValue extends MwsSubscriptionsServ
      * Set the value of the Value property.
      *
      * @param string value
-     * @return $this 
+     * @return $this instance
      */
     public function setValue($value)
     {

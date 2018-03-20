@@ -20,7 +20,7 @@ class MarketplaceWebServiceProductsModelSellerSKUIdentifier extends MarketplaceW
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -30,7 +30,7 @@ class MarketplaceWebServiceProductsModelSellerSKUIdentifier extends MarketplaceW
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelSellerSKUIdentifier extends MarketplaceW
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceProductsModelSellerSKUIdentifier extends MarketplaceW
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -100,7 +100,7 @@ class MarketplaceWebServiceProductsModelSellerSKUIdentifier extends MarketplaceW
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -110,7 +110,7 @@ class MarketplaceWebServiceProductsModelSellerSKUIdentifier extends MarketplaceW
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {

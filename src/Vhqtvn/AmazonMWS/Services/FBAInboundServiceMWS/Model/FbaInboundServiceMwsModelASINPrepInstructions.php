@@ -21,7 +21,7 @@ class FbaInboundServiceMwsModelASINPrepInstructions extends FbaInboundServiceMws
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelASINPrepInstructions extends FbaInboundServiceMws
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -61,7 +61,7 @@ class FbaInboundServiceMwsModelASINPrepInstructions extends FbaInboundServiceMws
     /**
      * Get the value of the BarcodeInstruction property.
      *
-     * @return String BarcodeInstruction.
+     * @return \string BarcodeInstruction.
      */
     public function getBarcodeInstruction()
     {
@@ -71,7 +71,7 @@ class FbaInboundServiceMwsModelASINPrepInstructions extends FbaInboundServiceMws
      * Set the value of the BarcodeInstruction property.
      *
      * @param string barcodeInstruction
-     * @return $this 
+     * @return $this instance
      */
     public function setBarcodeInstruction($value)
     {
@@ -101,7 +101,7 @@ class FbaInboundServiceMwsModelASINPrepInstructions extends FbaInboundServiceMws
     /**
      * Get the value of the PrepGuidance property.
      *
-     * @return String PrepGuidance.
+     * @return \string PrepGuidance.
      */
     public function getPrepGuidance()
     {
@@ -111,7 +111,7 @@ class FbaInboundServiceMwsModelASINPrepInstructions extends FbaInboundServiceMws
      * Set the value of the PrepGuidance property.
      *
      * @param string prepGuidance
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepGuidance($value)
     {
@@ -151,7 +151,7 @@ class FbaInboundServiceMwsModelASINPrepInstructions extends FbaInboundServiceMws
      * Set the value of the PrepInstructionList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList prepInstructionList
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepInstructionList($value)
     {

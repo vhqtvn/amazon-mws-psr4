@@ -32,7 +32,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
      * Set the value of the Dimensions property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelDimensions dimensions
-     * @return $this 
+     * @return $this instance
      */
     public function setDimensions($value)
     {
@@ -72,7 +72,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
      * Set the value of the Weight property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight weight
-     * @return $this 
+     * @return $this instance
      */
     public function setWeight($value)
     {
@@ -102,7 +102,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
     /**
      * Get the value of the CarrierName property.
      *
-     * @return String CarrierName.
+     * @return \string CarrierName.
      */
     public function getCarrierName()
     {
@@ -112,7 +112,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
      * Set the value of the CarrierName property.
      *
      * @param string carrierName
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierName($value)
     {
@@ -142,7 +142,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
     /**
      * Get the value of the TrackingId property.
      *
-     * @return String TrackingId.
+     * @return \string TrackingId.
      */
     public function getTrackingId()
     {
@@ -152,7 +152,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
      * Set the value of the TrackingId property.
      *
      * @param string trackingId
-     * @return $this 
+     * @return $this instance
      */
     public function setTrackingId($value)
     {
@@ -182,7 +182,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
     /**
      * Get the value of the PackageStatus property.
      *
-     * @return String PackageStatus.
+     * @return \string PackageStatus.
      */
     public function getPackageStatus()
     {
@@ -192,7 +192,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelPackageOutput extends FbaInbo
      * Set the value of the PackageStatus property.
      *
      * @param string packageStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setPackageStatus($value)
     {

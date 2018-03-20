@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     /**
      * Sets the value of the GetReportScheduleListByNextTokenResult.
      *
-     * @param GetReportScheduleListByNextTokenResult GetReportScheduleListByNextTokenResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult GetReportScheduleListByNextTokenResult
      * @return void
      */
     public function setGetReportScheduleListByNextTokenResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     /**
      * Set the value of GetReportScheduleListByNextTokenResult, return this.
      *
-     * @param GetReportScheduleListByNextTokenResult $GetReportScheduleListByNextTokenResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleListByNextTokenResult $GetReportScheduleListByNextTokenResult
      * @return $this
      */
     public function withGetReportScheduleListByNextTokenResult($GetReportScheduleListByNextTokenResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     /**
      * Sets the value of the ResponseMetadata.
      *
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelGetReportScheduleListByNextTokenResponse extends
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

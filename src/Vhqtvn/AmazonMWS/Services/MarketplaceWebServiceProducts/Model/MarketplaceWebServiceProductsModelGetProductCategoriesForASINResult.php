@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelGetProductCategoriesForASINResult extend
      * Set the value of the Self property.
      *
      * @param array self
-     * @return $this 
+     * @return $this instance
      */
     public function setSelf($value)
     {

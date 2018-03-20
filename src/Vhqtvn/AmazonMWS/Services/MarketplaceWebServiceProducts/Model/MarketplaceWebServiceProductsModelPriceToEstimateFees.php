@@ -30,7 +30,7 @@ class MarketplaceWebServiceProductsModelPriceToEstimateFees extends MarketplaceW
      * Set the value of the ListingPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType listingPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setListingPrice($value)
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceProductsModelPriceToEstimateFees extends MarketplaceW
      * Set the value of the Shipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType shipping
-     * @return $this 
+     * @return $this instance
      */
     public function setShipping($value)
     {
@@ -110,7 +110,7 @@ class MarketplaceWebServiceProductsModelPriceToEstimateFees extends MarketplaceW
      * Set the value of the Points property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints points
-     * @return $this 
+     * @return $this instance
      */
     public function setPoints($value)
     {

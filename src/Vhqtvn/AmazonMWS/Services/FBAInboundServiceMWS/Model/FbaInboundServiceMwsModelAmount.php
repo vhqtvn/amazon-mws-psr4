@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelAmount extends FbaInboundServiceMwsModel
     /**
      * Get the value of the CurrencyCode property.
      *
-     * @return String CurrencyCode.
+     * @return \string CurrencyCode.
      */
     public function getCurrencyCode()
     {
@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelAmount extends FbaInboundServiceMwsModel
      * Set the value of the CurrencyCode property.
      *
      * @param string currencyCode
-     * @return $this 
+     * @return $this instance
      */
     public function setCurrencyCode($value)
     {
@@ -59,7 +59,7 @@ class FbaInboundServiceMwsModelAmount extends FbaInboundServiceMwsModel
     /**
      * Get the value of the Value property.
      *
-     * @return BigDecimal Value.
+     * @return \float Value.
      */
     public function getValue()
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelAmount extends FbaInboundServiceMwsModel
      * Set the value of the Value property.
      *
      * @param float value
-     * @return $this 
+     * @return $this instance
      */
     public function setValue($value)
     {

@@ -21,7 +21,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKURequest exten
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKURequest exten
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -61,7 +61,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKURequest exten
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKURequest exten
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -101,7 +101,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKURequest exten
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKURequest exten
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceProductsModelGetCompetitivePricingForSKURequest exten
      * Set the value of the SellerSKUList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUListType sellerSKUList
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKUList($value)
     {

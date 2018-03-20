@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountResponse extends Marketpla
     /**
      * Sets the value of the GetFeedSubmissionCountResult.
      * 
-     * @param GetFeedSubmissionCountResult GetFeedSubmissionCountResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountResult GetFeedSubmissionCountResult
      * @return void
      */
     public function setGetFeedSubmissionCountResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountResponse extends Marketpla
     /**
      * Set the value of GetFeedSubmissionCountResult, return this.
      *
-     * @param GetFeedSubmissionCountResult $GetFeedSubmissionCountResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetFeedSubmissionCountResult $GetFeedSubmissionCountResult
      * @return $this
      */
     public function withGetFeedSubmissionCountResult($GetFeedSubmissionCountResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountResponse extends Marketpla
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelGetFeedSubmissionCountResponse extends Marketpla
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

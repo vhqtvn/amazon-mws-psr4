@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelASINPrepInstructionsList extends FbaInboundServic
      * Set the value of the ASINPrepInstructions property.
      *
      * @param array asinPrepInstructions
-     * @return $this 
+     * @return $this instance
      */
     public function setASINPrepInstructions($value)
     {

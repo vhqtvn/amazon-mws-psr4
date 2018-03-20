@@ -21,7 +21,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
     /**
      * Get the value of the Status property.
      *
-     * @return String Status.
+     * @return \string Status.
      */
     public function getStatus()
     {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
      * Set the value of the Status property.
      *
      * @param string status
-     * @return $this 
+     * @return $this instance
      */
     public function setStatus($value)
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
      * Set the value of the FeesEstimateIdentifier property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimateIdentifier feesEstimateIdentifier
-     * @return $this 
+     * @return $this instance
      */
     public function setFeesEstimateIdentifier($value)
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
      * Set the value of the FeesEstimate property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeesEstimate feesEstimate
-     * @return $this 
+     * @return $this instance
      */
     public function setFeesEstimate($value)
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResult extends MarketplaceWe
      * Set the value of the Error property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError error
-     * @return $this 
+     * @return $this instance
      */
     public function setError($value)
     {

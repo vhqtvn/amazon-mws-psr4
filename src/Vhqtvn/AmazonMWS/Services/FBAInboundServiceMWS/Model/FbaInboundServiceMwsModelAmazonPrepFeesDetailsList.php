@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelAmazonPrepFeesDetailsList extends FbaInboundServi
      * Set the value of the AmazonPrepFeesDetails property.
      *
      * @param array amazonPrepFeesDetails
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonPrepFeesDetails($value)
     {

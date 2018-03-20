@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
     /**
      * Sets the value of the GetReportListByNextTokenResult.
      * 
-     * @param GetReportListByNextTokenResult GetReportListByNextTokenResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListByNextTokenResult GetReportListByNextTokenResult
      * @return void
      */
     public function setGetReportListByNextTokenResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
     /**
      * Set the value of GetReportListByNextTokenResult, return this.
      *
-     * @param GetReportListByNextTokenResult $GetReportListByNextTokenResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListByNextTokenResult $GetReportListByNextTokenResult
      * @return $this
      */
     public function withGetReportListByNextTokenResult($GetReportListByNextTokenResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelGetReportListByNextTokenResponse extends Marketp
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

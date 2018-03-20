@@ -27,7 +27,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the ProviderTransactionType property.
      *
-     * @return String ProviderTransactionType.
+     * @return \string ProviderTransactionType.
      */
     public function getProviderTransactionType()
     {
@@ -37,7 +37,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the ProviderTransactionType property.
      *
      * @param string providerTransactionType
-     * @return $this 
+     * @return $this instance
      */
     public function setProviderTransactionType($value)
     {
@@ -67,7 +67,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the SellerOrderId property.
      *
-     * @return String SellerOrderId.
+     * @return \string SellerOrderId.
      */
     public function getSellerOrderId()
     {
@@ -77,7 +77,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the SellerOrderId property.
      *
      * @param string sellerOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerOrderId($value)
     {
@@ -107,7 +107,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -117,7 +117,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -147,7 +147,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the MarketplaceCountryCode property.
      *
-     * @return String MarketplaceCountryCode.
+     * @return \string MarketplaceCountryCode.
      */
     public function getMarketplaceCountryCode()
     {
@@ -157,7 +157,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the MarketplaceCountryCode property.
      *
      * @param string marketplaceCountryCode
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceCountryCode($value)
     {
@@ -187,7 +187,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -197,7 +197,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -227,7 +227,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the SellerStoreName property.
      *
-     * @return String SellerStoreName.
+     * @return \string SellerStoreName.
      */
     public function getSellerStoreName()
     {
@@ -237,7 +237,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the SellerStoreName property.
      *
      * @param string sellerStoreName
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerStoreName($value)
     {
@@ -267,7 +267,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the ProviderId property.
      *
-     * @return String ProviderId.
+     * @return \string ProviderId.
      */
     public function getProviderId()
     {
@@ -277,7 +277,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the ProviderId property.
      *
      * @param string providerId
-     * @return $this 
+     * @return $this instance
      */
     public function setProviderId($value)
     {
@@ -307,7 +307,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the ProviderStoreName property.
      *
-     * @return String ProviderStoreName.
+     * @return \string ProviderStoreName.
      */
     public function getProviderStoreName()
     {
@@ -317,7 +317,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the ProviderStoreName property.
      *
      * @param string providerStoreName
-     * @return $this 
+     * @return $this instance
      */
     public function setProviderStoreName($value)
     {
@@ -357,7 +357,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the TransactionAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency transactionAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setTransactionAmount($value)
     {
@@ -387,7 +387,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
     /**
      * Get the value of the TransactionCreationDate property.
      *
-     * @return XMLGregorianCalendar TransactionCreationDate.
+     * @return \DateTime TransactionCreationDate.
      */
     public function getTransactionCreationDate()
     {
@@ -397,7 +397,7 @@ class MwsFinancesServiceModelSolutionProviderCreditEvent extends MwsFinancesServ
      * Set the value of the TransactionCreationDate property.
      *
      * @param string transactionCreationDate
-     * @return $this 
+     * @return $this instance
      */
     public function setTransactionCreationDate($value)
     {

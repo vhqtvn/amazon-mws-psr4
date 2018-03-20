@@ -21,7 +21,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
     /**
      * Get the value of the Quantity property.
      *
-     * @return Integer Quantity.
+     * @return \int Quantity.
      */
     public function getQuantity()
     {
@@ -31,7 +31,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
      * Set the value of the Quantity property.
      *
      * @param int quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantity($value)
     {
@@ -61,7 +61,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
     /**
      * Get the value of the SupplyType property.
      *
-     * @return String SupplyType.
+     * @return \string SupplyType.
      */
     public function getSupplyType()
     {
@@ -71,7 +71,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
      * Set the value of the SupplyType property.
      *
      * @param string supplyType
-     * @return $this 
+     * @return $this instance
      */
     public function setSupplyType($value)
     {
@@ -111,7 +111,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
      * Set the value of the EarliestAvailableToPick property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint earliestAvailableToPick
-     * @return $this 
+     * @return $this instance
      */
     public function setEarliestAvailableToPick($value)
     {
@@ -151,7 +151,7 @@ class FbaInventoryServiceMwsModelInventorySupplyDetail extends FbaInventoryServi
      * Set the value of the LatestAvailableToPick property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint latestAvailableToPick
-     * @return $this 
+     * @return $this instance
      */
     public function setLatestAvailableToPick($value)
     {

@@ -24,7 +24,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the Quantity property.
      *
-     * @return String Quantity.
+     * @return \string Quantity.
      */
     public function getQuantity()
     {
@@ -34,7 +34,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
      * Set the value of the Quantity property.
      *
      * @param string quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantity($value)
     {
@@ -74,7 +74,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
      * Set the value of the PerUnitAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency perUnitAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setPerUnitAmount($value)
     {
@@ -114,7 +114,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
      * Set the value of the TotalAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency totalAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setTotalAmount($value)
     {
@@ -144,7 +144,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -154,7 +154,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -184,7 +184,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the FnSKU property.
      *
-     * @return String FnSKU.
+     * @return \string FnSKU.
      */
     public function getFnSKU()
     {
@@ -194,7 +194,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
      * Set the value of the FnSKU property.
      *
      * @param string fnSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setFnSKU($value)
     {
@@ -224,7 +224,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the ProductDescription property.
      *
-     * @return String ProductDescription.
+     * @return \string ProductDescription.
      */
     public function getProductDescription()
     {
@@ -234,7 +234,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
      * Set the value of the ProductDescription property.
      *
      * @param string productDescription
-     * @return $this 
+     * @return $this instance
      */
     public function setProductDescription($value)
     {
@@ -264,7 +264,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -274,7 +274,7 @@ class MwsFinancesServiceModelAdjustmentItem extends MwsFinancesServiceModel
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {

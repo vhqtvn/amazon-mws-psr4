@@ -21,7 +21,7 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
     /**
      * Get the value of the Type property.
      *
-     * @return String Type.
+     * @return \string Type.
      */
     public function getType()
     {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
      * Set the value of the Type property.
      *
      * @param string type
-     * @return $this 
+     * @return $this instance
      */
     public function setType($value)
     {
@@ -61,7 +61,7 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
     /**
      * Get the value of the Code property.
      *
-     * @return String Code.
+     * @return \string Code.
      */
     public function getCode()
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
      * Set the value of the Code property.
      *
      * @param string code
-     * @return $this 
+     * @return $this instance
      */
     public function setCode($value)
     {
@@ -101,7 +101,7 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
     /**
      * Get the value of the Message property.
      *
-     * @return String Message.
+     * @return \string Message.
      */
     public function getMessage()
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
      * Set the value of the Message property.
      *
      * @param string message
-     * @return $this 
+     * @return $this instance
      */
     public function setMessage($value)
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceProductsModelError extends MarketplaceWebServiceProdu
      * Set the value of the Detail property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelErrorDetail detail
-     * @return $this 
+     * @return $this instance
      */
     public function setDetail($value)
     {

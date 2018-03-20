@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateResultList extends Marketpla
      * Set the value of the FeesEstimateResult property.
      *
      * @param array feesEstimateResult
-     * @return $this 
+     * @return $this instance
      */
     public function setFeesEstimateResult($value)
     {

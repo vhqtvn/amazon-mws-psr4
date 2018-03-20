@@ -19,7 +19,7 @@ class MarketplaceWebServiceOrdersModelPointsGrantedDetail extends MarketplaceWeb
     /**
      * Get the value of the PointsNumber property.
      *
-     * @return Integer PointsNumber.
+     * @return \int PointsNumber.
      */
     public function getPointsNumber()
     {
@@ -29,7 +29,7 @@ class MarketplaceWebServiceOrdersModelPointsGrantedDetail extends MarketplaceWeb
      * Set the value of the PointsNumber property.
      *
      * @param int pointsNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setPointsNumber($value)
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceOrdersModelPointsGrantedDetail extends MarketplaceWeb
      * Set the value of the PointsMonetaryValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney pointsMonetaryValue
-     * @return $this 
+     * @return $this instance
      */
     public function setPointsMonetaryValue($value)
     {

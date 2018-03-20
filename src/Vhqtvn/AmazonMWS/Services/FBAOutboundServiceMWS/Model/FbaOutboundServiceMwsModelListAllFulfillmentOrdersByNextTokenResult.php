@@ -19,7 +19,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersByNextTokenResult extend
     /**
      * Get the value of the NextToken property.
      *
-     * @return String NextToken.
+     * @return \string NextToken.
      */
     public function getNextToken()
     {
@@ -29,7 +29,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersByNextTokenResult extend
      * Set the value of the NextToken property.
      *
      * @param string nextToken
-     * @return $this 
+     * @return $this instance
      */
     public function setNextToken($value)
     {
@@ -69,7 +69,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersByNextTokenResult extend
      * Set the value of the FulfillmentOrders property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentOrderList fulfillmentOrders
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentOrders($value)
     {

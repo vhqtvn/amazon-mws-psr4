@@ -50,7 +50,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      * Sets the value of the ReportId property.
      * 
      * @param string ReportId
-     * @return $this 
+     * @return $this instance
      */
     public function setReportId($value)
     {
@@ -90,7 +90,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      * Sets the value of the ReportType property.
      * 
      * @param string ReportType
-     * @return $this 
+     * @return $this instance
      */
     public function setReportType($value)
     {
@@ -130,7 +130,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      * Sets the value of the ReportRequestId property.
      * 
      * @param string ReportRequestId
-     * @return $this 
+     * @return $this instance
      */
     public function setReportRequestId($value)
     {
@@ -170,7 +170,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      * Sets the value of the AvailableDate property.
      * 
      * @param string AvailableDate
-     * @return $this 
+     * @return $this instance
      */
     public function setAvailableDate($value)
     {
@@ -210,7 +210,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      * Sets the value of the Acknowledged property.
      * 
      * @param bool Acknowledged
-     * @return $this 
+     * @return $this instance
      */
     public function setAcknowledged($value)
     {
@@ -250,7 +250,7 @@ class MarketplaceWebServiceModelReportInfo extends MarketplaceWebServiceModel
      * Sets the value of the AcknowledgedDate property.
      * 
      * @param string AcknowledgedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setAcknowledgedDate($value)
     {

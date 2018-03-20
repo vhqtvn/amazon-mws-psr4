@@ -38,7 +38,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
      * Set the value of the InventoryRecommendations property.
      *
      * @param array inventoryRecommendations
-     * @return $this 
+     * @return $this instance
      */
     public function setInventoryRecommendations($value)
     {
@@ -93,7 +93,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
      * Set the value of the SelectionRecommendations property.
      *
      * @param array selectionRecommendations
-     * @return $this 
+     * @return $this instance
      */
     public function setSelectionRecommendations($value)
     {
@@ -148,7 +148,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
      * Set the value of the PricingRecommendations property.
      *
      * @param array pricingRecommendations
-     * @return $this 
+     * @return $this instance
      */
     public function setPricingRecommendations($value)
     {
@@ -203,7 +203,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
      * Set the value of the FulfillmentRecommendations property.
      *
      * @param array fulfillmentRecommendations
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentRecommendations($value)
     {
@@ -258,7 +258,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
      * Set the value of the ListingQualityRecommendations property.
      *
      * @param array listingQualityRecommendations
-     * @return $this 
+     * @return $this instance
      */
     public function setListingQualityRecommendations($value)
     {
@@ -313,7 +313,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
      * Set the value of the GlobalSellingRecommendations property.
      *
      * @param array globalSellingRecommendations
-     * @return $this 
+     * @return $this instance
      */
     public function setGlobalSellingRecommendations($value)
     {
@@ -368,7 +368,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
      * Set the value of the AdvertisingRecommendations property.
      *
      * @param array advertisingRecommendations
-     * @return $this 
+     * @return $this instance
      */
     public function setAdvertisingRecommendations($value)
     {
@@ -410,7 +410,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
     /**
      * Get the value of the NextToken property.
      *
-     * @return String NextToken.
+     * @return \string NextToken.
      */
     public function getNextToken()
     {
@@ -420,7 +420,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsResult extends Mws
      * Set the value of the NextToken property.
      *
      * @param string nextToken
-     * @return $this 
+     * @return $this instance
      */
     public function setNextToken($value)
     {

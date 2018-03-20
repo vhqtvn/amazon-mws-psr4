@@ -26,7 +26,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -36,7 +36,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -66,7 +66,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -76,7 +76,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -106,7 +106,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Get the value of the Marketplace property.
      *
-     * @return String Marketplace.
+     * @return \string Marketplace.
      */
     public function getMarketplace()
     {
@@ -116,7 +116,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
      * Set the value of the Marketplace property.
      *
      * @param string marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -146,7 +146,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -156,7 +156,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -196,7 +196,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
      * Set the value of the Address property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress address
-     * @return $this 
+     * @return $this instance
      */
     public function setAddress($value)
     {
@@ -236,7 +236,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
      * Set the value of the Items property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelGetFulfillmentPreviewItemList items
-     * @return $this 
+     * @return $this instance
      */
     public function setItems($value)
     {
@@ -276,7 +276,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
      * Set the value of the ShippingSpeedCategories property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelShippingSpeedCategoryList shippingSpeedCategories
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingSpeedCategories($value)
     {
@@ -315,7 +315,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Get the value of the IncludeCODFulfillmentPreview property.
      *
-     * @return Boolean IncludeCODFulfillmentPreview.
+     * @return \bool IncludeCODFulfillmentPreview.
      */
     public function getIncludeCODFulfillmentPreview()
     {
@@ -325,7 +325,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
      * Set the value of the IncludeCODFulfillmentPreview property.
      *
      * @param bool includeCODFulfillmentPreview
-     * @return $this 
+     * @return $this instance
      */
     public function setIncludeCODFulfillmentPreview($value)
     {
@@ -364,7 +364,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
     /**
      * Get the value of the IncludeDeliveryWindows property.
      *
-     * @return Boolean IncludeDeliveryWindows.
+     * @return \bool IncludeDeliveryWindows.
      */
     public function getIncludeDeliveryWindows()
     {
@@ -374,7 +374,7 @@ class FbaOutboundServiceMwsModelGetFulfillmentPreviewRequest extends FbaOutbound
      * Set the value of the IncludeDeliveryWindows property.
      *
      * @param bool includeDeliveryWindows
-     * @return $this 
+     * @return $this instance
      */
     public function setIncludeDeliveryWindows($value)
     {

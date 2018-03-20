@@ -32,7 +32,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersResponse extends FbaOutb
      * Set the value of the ListAllFulfillmentOrdersResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelListAllFulfillmentOrdersResult listAllFulfillmentOrdersResult
-     * @return $this 
+     * @return $this instance
      */
     public function setListAllFulfillmentOrdersResult($value)
     {
@@ -72,7 +72,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersResponse extends FbaOutb
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersResponse extends FbaOutb
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

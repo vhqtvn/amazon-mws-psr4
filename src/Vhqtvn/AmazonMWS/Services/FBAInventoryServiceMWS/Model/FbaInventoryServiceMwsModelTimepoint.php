@@ -19,7 +19,7 @@ class FbaInventoryServiceMwsModelTimepoint extends FbaInventoryServiceMwsModel
     /**
      * Get the value of the TimepointType property.
      *
-     * @return String TimepointType.
+     * @return \string TimepointType.
      */
     public function getTimepointType()
     {
@@ -29,7 +29,7 @@ class FbaInventoryServiceMwsModelTimepoint extends FbaInventoryServiceMwsModel
      * Set the value of the TimepointType property.
      *
      * @param string timepointType
-     * @return $this 
+     * @return $this instance
      */
     public function setTimepointType($value)
     {
@@ -59,7 +59,7 @@ class FbaInventoryServiceMwsModelTimepoint extends FbaInventoryServiceMwsModel
     /**
      * Get the value of the DateTime property.
      *
-     * @return XMLGregorianCalendar DateTime.
+     * @return \DateTime DateTime.
      */
     public function getDateTime()
     {
@@ -69,7 +69,7 @@ class FbaInventoryServiceMwsModelTimepoint extends FbaInventoryServiceMwsModel
      * Set the value of the DateTime property.
      *
      * @param string dateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setDateTime($value)
     {

@@ -27,7 +27,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the ShipmentId property.
      *
-     * @return String ShipmentId.
+     * @return \string ShipmentId.
      */
     public function getShipmentId()
     {
@@ -37,7 +37,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the ShipmentId property.
      *
      * @param string shipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentId($value)
     {
@@ -67,7 +67,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the ShipmentName property.
      *
-     * @return String ShipmentName.
+     * @return \string ShipmentName.
      */
     public function getShipmentName()
     {
@@ -77,7 +77,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the ShipmentName property.
      *
      * @param string shipmentName
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentName($value)
     {
@@ -117,7 +117,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the ShipFromAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress shipFromAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setShipFromAddress($value)
     {
@@ -147,7 +147,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the DestinationFulfillmentCenterId property.
      *
-     * @return String DestinationFulfillmentCenterId.
+     * @return \string DestinationFulfillmentCenterId.
      */
     public function getDestinationFulfillmentCenterId()
     {
@@ -157,7 +157,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the DestinationFulfillmentCenterId property.
      *
      * @param string destinationFulfillmentCenterId
-     * @return $this 
+     * @return $this instance
      */
     public function setDestinationFulfillmentCenterId($value)
     {
@@ -187,7 +187,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the ShipmentStatus property.
      *
-     * @return String ShipmentStatus.
+     * @return \string ShipmentStatus.
      */
     public function getShipmentStatus()
     {
@@ -197,7 +197,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the ShipmentStatus property.
      *
      * @param string shipmentStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentStatus($value)
     {
@@ -227,7 +227,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the LabelPrepType property.
      *
-     * @return String LabelPrepType.
+     * @return \string LabelPrepType.
      */
     public function getLabelPrepType()
     {
@@ -237,7 +237,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the LabelPrepType property.
      *
      * @param string labelPrepType
-     * @return $this 
+     * @return $this instance
      */
     public function setLabelPrepType($value)
     {
@@ -276,7 +276,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the AreCasesRequired property.
      *
-     * @return Boolean AreCasesRequired.
+     * @return \bool AreCasesRequired.
      */
     public function getAreCasesRequired()
     {
@@ -286,7 +286,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the AreCasesRequired property.
      *
      * @param bool areCasesRequired
-     * @return $this 
+     * @return $this instance
      */
     public function setAreCasesRequired($value)
     {
@@ -316,7 +316,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the ConfirmedNeedByDate property.
      *
-     * @return String ConfirmedNeedByDate.
+     * @return \string ConfirmedNeedByDate.
      */
     public function getConfirmedNeedByDate()
     {
@@ -326,7 +326,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the ConfirmedNeedByDate property.
      *
      * @param string confirmedNeedByDate
-     * @return $this 
+     * @return $this instance
      */
     public function setConfirmedNeedByDate($value)
     {
@@ -356,7 +356,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
     /**
      * Get the value of the BoxContentsSource property.
      *
-     * @return String BoxContentsSource.
+     * @return \string BoxContentsSource.
      */
     public function getBoxContentsSource()
     {
@@ -366,7 +366,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the BoxContentsSource property.
      *
      * @param string boxContentsSource
-     * @return $this 
+     * @return $this instance
      */
     public function setBoxContentsSource($value)
     {
@@ -406,7 +406,7 @@ class FbaInboundServiceMwsModelInboundShipmentInfo extends FbaInboundServiceMwsM
      * Set the value of the EstimatedBoxContentsFee property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelBoxContentsFeeDetails estimatedBoxContentsFee
-     * @return $this 
+     * @return $this instance
      */
     public function setEstimatedBoxContentsFee($value)
     {

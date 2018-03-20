@@ -50,7 +50,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -90,7 +90,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -130,7 +130,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -169,7 +169,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
     /**
      * Sets the value of the ReportTypeList.
      * 
-     * @param TypeList ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList ReportTypeList
      * @return void
      */
     public function setReportTypeList($value)
@@ -180,7 +180,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
     /**
      * Set the value of ReportTypeList, return this.
      *
-     * @param TypeList $ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList $ReportTypeList
      * @return $this
      */
     public function withReportTypeList($ReportTypeList)
@@ -209,7 +209,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
     /**
      * Sets the value of the ReportProcessingStatusList.
      * 
-     * @param StatusList ReportProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList ReportProcessingStatusList
      * @return void
      */
     public function setReportProcessingStatusList($value)
@@ -220,7 +220,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
     /**
      * Set the value of ReportProcessingStatusList, return this.
      *
-     * @param StatusList $ReportProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList $ReportProcessingStatusList
      * @return $this
      */
     public function withReportProcessingStatusList($ReportProcessingStatusList)
@@ -250,7 +250,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
      * Sets the value of the RequestedFromDate property.
      * 
      * @param string RequestedFromDate
-     * @return $this 
+     * @return $this instance
      */
     public function setRequestedFromDate($value)
     {
@@ -290,7 +290,7 @@ class MarketplaceWebServiceModelGetReportRequestCountRequest extends Marketplace
      * Sets the value of the RequestedToDate property.
      * 
      * @param string RequestedToDate
-     * @return $this 
+     * @return $this instance
      */
     public function setRequestedToDate($value)
     {

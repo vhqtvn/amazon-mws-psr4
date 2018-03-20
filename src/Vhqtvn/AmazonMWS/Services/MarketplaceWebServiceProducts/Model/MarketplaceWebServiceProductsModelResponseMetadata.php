@@ -18,7 +18,7 @@ class MarketplaceWebServiceProductsModelResponseMetadata extends MarketplaceWebS
     /**
      * Get the value of the RequestId property.
      *
-     * @return String RequestId.
+     * @return \string RequestId.
      */
     public function getRequestId()
     {
@@ -28,7 +28,7 @@ class MarketplaceWebServiceProductsModelResponseMetadata extends MarketplaceWebS
      * Set the value of the RequestId property.
      *
      * @param string requestId
-     * @return $this 
+     * @return $this instance
      */
     public function setRequestId($value)
     {

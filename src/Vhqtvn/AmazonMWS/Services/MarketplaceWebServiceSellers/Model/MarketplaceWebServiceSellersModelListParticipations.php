@@ -31,7 +31,7 @@ class MarketplaceWebServiceSellersModelListParticipations extends MarketplaceWeb
      * Set the value of the Participation property.
      *
      * @param array participation
-     * @return $this 
+     * @return $this instance
      */
     public function setParticipation($value)
     {

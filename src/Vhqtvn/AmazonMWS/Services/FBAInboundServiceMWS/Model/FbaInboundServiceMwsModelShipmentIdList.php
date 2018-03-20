@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentIdList
  * 
- * @property	\[]	$member
+ * @property	\string[]	$member
  */
 class FbaInboundServiceMwsModelShipmentIdList extends FbaInboundServiceMwsModel
 {
@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelShipmentIdList extends FbaInboundServiceMwsModel
     /**
      * Get the value of the member property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelString[] member.
+     * @return \string[] member.
      */
     public function getmember()
     {
@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelShipmentIdList extends FbaInboundServiceMwsModel
      * Set the value of the member property.
      *
      * @param array member
-     * @return $this 
+     * @return $this instance
      */
     public function setmember($value)
     {

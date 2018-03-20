@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelLowestPrices extends MarketplaceWebServi
      * Set the value of the LowestPrice property.
      *
      * @param array lowestPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setLowestPrice($value)
     {

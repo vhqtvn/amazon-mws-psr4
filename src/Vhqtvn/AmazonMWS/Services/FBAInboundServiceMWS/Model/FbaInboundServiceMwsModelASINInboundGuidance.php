@@ -20,7 +20,7 @@ class FbaInboundServiceMwsModelASINInboundGuidance extends FbaInboundServiceMwsM
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -30,7 +30,7 @@ class FbaInboundServiceMwsModelASINInboundGuidance extends FbaInboundServiceMwsM
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelASINInboundGuidance extends FbaInboundServiceMwsM
     /**
      * Get the value of the InboundGuidance property.
      *
-     * @return String InboundGuidance.
+     * @return \string InboundGuidance.
      */
     public function getInboundGuidance()
     {
@@ -70,7 +70,7 @@ class FbaInboundServiceMwsModelASINInboundGuidance extends FbaInboundServiceMwsM
      * Set the value of the InboundGuidance property.
      *
      * @param string inboundGuidance
-     * @return $this 
+     * @return $this instance
      */
     public function setInboundGuidance($value)
     {
@@ -110,7 +110,7 @@ class FbaInboundServiceMwsModelASINInboundGuidance extends FbaInboundServiceMwsM
      * Set the value of the GuidanceReasonList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList guidanceReasonList
-     * @return $this 
+     * @return $this instance
      */
     public function setGuidanceReasonList($value)
     {

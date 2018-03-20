@@ -21,7 +21,7 @@ class FbaOutboundServiceMwsModelUnfulfillablePreviewItem extends FbaOutboundServ
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -31,7 +31,7 @@ class FbaOutboundServiceMwsModelUnfulfillablePreviewItem extends FbaOutboundServ
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -71,7 +71,7 @@ class FbaOutboundServiceMwsModelUnfulfillablePreviewItem extends FbaOutboundServ
      * Set the value of the Quantity property.
      *
      * @param int quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantity($value)
     {
@@ -101,7 +101,7 @@ class FbaOutboundServiceMwsModelUnfulfillablePreviewItem extends FbaOutboundServ
     /**
      * Get the value of the SellerFulfillmentOrderItemId property.
      *
-     * @return String SellerFulfillmentOrderItemId.
+     * @return \string SellerFulfillmentOrderItemId.
      */
     public function getSellerFulfillmentOrderItemId()
     {
@@ -111,7 +111,7 @@ class FbaOutboundServiceMwsModelUnfulfillablePreviewItem extends FbaOutboundServ
      * Set the value of the SellerFulfillmentOrderItemId property.
      *
      * @param string sellerFulfillmentOrderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderItemId($value)
     {
@@ -151,7 +151,7 @@ class FbaOutboundServiceMwsModelUnfulfillablePreviewItem extends FbaOutboundServ
      * Set the value of the ItemUnfulfillableReasons property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelStringList itemUnfulfillableReasons
-     * @return $this 
+     * @return $this instance
      */
     public function setItemUnfulfillableReasons($value)
     {

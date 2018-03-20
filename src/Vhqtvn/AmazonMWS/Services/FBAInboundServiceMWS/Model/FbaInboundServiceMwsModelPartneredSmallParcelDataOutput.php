@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelDataOutput extends FbaInbound
      * Set the value of the PackageList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredSmallParcelPackageOutputList packageList
-     * @return $this 
+     * @return $this instance
      */
     public function setPackageList($value)
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelPartneredSmallParcelDataOutput extends FbaInbound
      * Set the value of the PartneredEstimate property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredEstimate partneredEstimate
-     * @return $this 
+     * @return $this instance
      */
     public function setPartneredEstimate($value)
     {

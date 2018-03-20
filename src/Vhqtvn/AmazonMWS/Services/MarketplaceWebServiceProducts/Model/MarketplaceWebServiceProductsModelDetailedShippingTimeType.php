@@ -21,7 +21,7 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
     /**
      * Get the value of the minimumHours property.
      *
-     * @return Long minimumHours.
+     * @return int minimumHours.
      */
     public function getminimumHours()
     {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
      * Set the value of the minimumHours property.
      *
      * @param int minimumHours
-     * @return $this 
+     * @return $this instance
      */
     public function setminimumHours($value)
     {
@@ -61,7 +61,7 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
     /**
      * Get the value of the maximumHours property.
      *
-     * @return Long maximumHours.
+     * @return int maximumHours.
      */
     public function getmaximumHours()
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
      * Set the value of the maximumHours property.
      *
      * @param int maximumHours
-     * @return $this 
+     * @return $this instance
      */
     public function setmaximumHours($value)
     {
@@ -101,7 +101,7 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
     /**
      * Get the value of the availableDate property.
      *
-     * @return XMLGregorianCalendar availableDate.
+     * @return \DateTime availableDate.
      */
     public function getavailableDate()
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
      * Set the value of the availableDate property.
      *
      * @param string availableDate
-     * @return $this 
+     * @return $this instance
      */
     public function setavailableDate($value)
     {
@@ -141,7 +141,7 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
     /**
      * Get the value of the availabilityType property.
      *
-     * @return String availabilityType.
+     * @return \string availabilityType.
      */
     public function getavailabilityType()
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceProductsModelDetailedShippingTimeType extends Marketp
      * Set the value of the availabilityType property.
      *
      * @param string availabilityType
-     * @return $this 
+     * @return $this instance
      */
     public function setavailabilityType($value)
     {

@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
     /**
      * Sets the value of the UpdateReportAcknowledgementsResult.
      * 
-     * @param UpdateReportAcknowledgementsResult UpdateReportAcknowledgementsResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsResult UpdateReportAcknowledgementsResult
      * @return void
      */
     public function setUpdateReportAcknowledgementsResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
     /**
      * Set the value of UpdateReportAcknowledgementsResult, return this.
      *
-     * @param UpdateReportAcknowledgementsResult $UpdateReportAcknowledgementsResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelUpdateReportAcknowledgementsResult $UpdateReportAcknowledgementsResult
      * @return $this
      */
     public function withUpdateReportAcknowledgementsResult($UpdateReportAcknowledgementsResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResponse extends Mar
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

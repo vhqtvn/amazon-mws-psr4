@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelSalesRankList extends MarketplaceWebServ
      * Set the value of the SalesRank property.
      *
      * @param array salesRank
-     * @return $this 
+     * @return $this instance
      */
     public function setSalesRank($value)
     {

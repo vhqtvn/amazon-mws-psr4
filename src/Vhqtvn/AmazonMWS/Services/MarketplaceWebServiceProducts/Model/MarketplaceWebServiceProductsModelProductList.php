@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelProductList extends MarketplaceWebServic
      * Set the value of the Product property.
      *
      * @param array product
-     * @return $this 
+     * @return $this instance
      */
     public function setProduct($value)
     {

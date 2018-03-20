@@ -53,7 +53,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -93,7 +93,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -133,7 +133,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -172,7 +172,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
     /**
      * Sets the value of the MarketplaceIdList.
      * 
-     * @param IdList MarketplaceIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList MarketplaceIdList
      * @return void
      */
     public function setMarketplaceIdList($value)
@@ -185,7 +185,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
     /**
      * Set the value of MarketplaceIdList, return this.
      *
-     * @param IdList $MarketplaceIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList $MarketplaceIdList
      * @return $this
      */
     public function withMarketplaceIdList($MarketplaceIdList)
@@ -215,7 +215,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
      * Sets the value of the ReportType property.
      * 
      * @param string ReportType
-     * @return $this 
+     * @return $this instance
      */
     public function setReportType($value)
     {
@@ -255,7 +255,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
      * Sets the value of the StartDate property.
      * 
      * @param string StartDate
-     * @return $this 
+     * @return $this instance
      */
     public function setStartDate($value)
     {
@@ -295,7 +295,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
      * Sets the value of the EndDate property.
      * 
      * @param string EndDate
-     * @return $this 
+     * @return $this instance
      */
     public function setEndDate($value)
     {
@@ -335,7 +335,7 @@ class MarketplaceWebServiceModelRequestReportRequest extends MarketplaceWebServi
      * Sets the value of the ReportOptions property.
      * 
      * @param string ReportOptions
-     * @return $this 
+     * @return $this instance
      */
     public function setReportOptions($value)
     {

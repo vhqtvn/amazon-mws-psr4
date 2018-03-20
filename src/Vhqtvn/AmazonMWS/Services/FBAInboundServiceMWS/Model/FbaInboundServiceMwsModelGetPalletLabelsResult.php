@@ -28,7 +28,7 @@ class FbaInboundServiceMwsModelGetPalletLabelsResult extends FbaInboundServiceMw
      * Set the value of the TransportDocument property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelTransportDocument transportDocument
-     * @return $this 
+     * @return $this instance
      */
     public function setTransportDocument($value)
     {

@@ -29,7 +29,7 @@ class MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem extends Marketp
      * Set the value of the Payment property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney payment
-     * @return $this 
+     * @return $this instance
      */
     public function setPayment($value)
     {
@@ -59,7 +59,7 @@ class MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem extends Marketp
     /**
      * Get the value of the PaymentMethod property.
      *
-     * @return String PaymentMethod.
+     * @return \string PaymentMethod.
      */
     public function getPaymentMethod()
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem extends Marketp
      * Set the value of the PaymentMethod property.
      *
      * @param string paymentMethod
-     * @return $this 
+     * @return $this instance
      */
     public function setPaymentMethod($value)
     {

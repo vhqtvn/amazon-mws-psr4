@@ -27,3 +27,22 @@ foreach ($m[1] as $link) {
 
 @copy("https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-base.xsd",
     BASE_PATH . '/amazon-libraries/xsd/amzn-base.xsd');
+
+@copy("https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/amzn-envelope.xsd",
+    BASE_PATH . '/amazon-libraries/xsd/amzn-envelope.xsd');
+
+@copy("https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/amzn-header.xsd",
+    BASE_PATH . '/amazon-libraries/xsd/amzn-header.xsd');
+
+@copy("https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Listings.xsd",
+    BASE_PATH . '/amazon-libraries/xsd/Listings.xsd');
+
+@copy("https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/FulfillmentCenter.xsd",
+    BASE_PATH . '/amazon-libraries/xsd/FulfillmentCenter.xsd');
+
+@copy("https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/ProcessingReport.xsd",
+    BASE_PATH . '/amazon-libraries/xsd/ProcessingReport.xsd');
+
+@copy("https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/SettlementReport.xsd",
+    BASE_PATH . '/amazon-libraries/xsd/SettlementReport.xsd');
+

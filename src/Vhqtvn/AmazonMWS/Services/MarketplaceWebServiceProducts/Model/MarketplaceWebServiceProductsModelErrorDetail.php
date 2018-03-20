@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelErrorDetail
  * 
- * @property	\[]	$Any
+ * @property	\object[]	$Any
  */
 class MarketplaceWebServiceProductsModelErrorDetail extends MarketplaceWebServiceProductsModel
 {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelErrorDetail extends MarketplaceWebServic
      * Set the value of the Any property.
      *
      * @param array any
-     * @return $this 
+     * @return $this instance
      */
     public function setAny($value)
     {

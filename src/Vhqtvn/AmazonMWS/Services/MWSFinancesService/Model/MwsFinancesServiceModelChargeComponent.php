@@ -19,7 +19,7 @@ class MwsFinancesServiceModelChargeComponent extends MwsFinancesServiceModel
     /**
      * Get the value of the ChargeType property.
      *
-     * @return String ChargeType.
+     * @return \string ChargeType.
      */
     public function getChargeType()
     {
@@ -29,7 +29,7 @@ class MwsFinancesServiceModelChargeComponent extends MwsFinancesServiceModel
      * Set the value of the ChargeType property.
      *
      * @param string chargeType
-     * @return $this 
+     * @return $this instance
      */
     public function setChargeType($value)
     {
@@ -69,7 +69,7 @@ class MwsFinancesServiceModelChargeComponent extends MwsFinancesServiceModel
      * Set the value of the ChargeAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency chargeAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setChargeAmount($value)
     {

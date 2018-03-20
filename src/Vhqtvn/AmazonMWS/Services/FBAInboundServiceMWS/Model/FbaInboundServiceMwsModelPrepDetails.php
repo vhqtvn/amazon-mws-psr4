@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelPrepDetails extends FbaInboundServiceMwsModel
     /**
      * Get the value of the PrepInstruction property.
      *
-     * @return String PrepInstruction.
+     * @return \string PrepInstruction.
      */
     public function getPrepInstruction()
     {
@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelPrepDetails extends FbaInboundServiceMwsModel
      * Set the value of the PrepInstruction property.
      *
      * @param string prepInstruction
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepInstruction($value)
     {
@@ -59,7 +59,7 @@ class FbaInboundServiceMwsModelPrepDetails extends FbaInboundServiceMwsModel
     /**
      * Get the value of the PrepOwner property.
      *
-     * @return String PrepOwner.
+     * @return \string PrepOwner.
      */
     public function getPrepOwner()
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelPrepDetails extends FbaInboundServiceMwsModel
      * Set the value of the PrepOwner property.
      *
      * @param string prepOwner
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepOwner($value)
     {

@@ -8,7 +8,7 @@ use Vhqtvn\AmazonMWS\Services\MWSFinancesService\MwsFinancesServiceModel;
  * 
  * @property	string	$MarketplaceCountryCode
  * @property	\Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency	$Amount
- * @property	\[]	$ProductGroupList
+ * @property	\string[]	$ProductGroupList
  */
 class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServiceModel
 {
@@ -20,7 +20,7 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
     /**
      * Get the value of the MarketplaceCountryCode property.
      *
-     * @return String MarketplaceCountryCode.
+     * @return \string MarketplaceCountryCode.
      */
     public function getMarketplaceCountryCode()
     {
@@ -30,7 +30,7 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
      * Set the value of the MarketplaceCountryCode property.
      *
      * @param string marketplaceCountryCode
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceCountryCode($value)
     {
@@ -70,7 +70,7 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
      * Set the value of the Amount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency amount
-     * @return $this 
+     * @return $this instance
      */
     public function setAmount($value)
     {
@@ -100,7 +100,7 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
     /**
      * Get the value of the ProductGroupList property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelString[] ProductGroupList.
+     * @return \string[] ProductGroupList.
      */
     public function getProductGroupList()
     {
@@ -113,7 +113,7 @@ class MwsFinancesServiceModelPerformanceBondRefundEvent extends MwsFinancesServi
      * Set the value of the ProductGroupList property.
      *
      * @param array productGroupList
-     * @return $this 
+     * @return $this instance
      */
     public function setProductGroupList($value)
     {

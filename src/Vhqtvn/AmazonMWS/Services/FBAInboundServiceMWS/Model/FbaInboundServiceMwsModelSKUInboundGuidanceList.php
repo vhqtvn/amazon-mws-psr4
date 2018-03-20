@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidanceList extends FbaInboundServiceM
      * Set the value of the SKUInboundGuidance property.
      *
      * @param array skuInboundGuidance
-     * @return $this 
+     * @return $this instance
      */
     public function setSKUInboundGuidance($value)
     {

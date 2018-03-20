@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingList extends Marketpla
      * Set the value of the LowestOfferListing property.
      *
      * @param array lowestOfferListing
-     * @return $this 
+     * @return $this instance
      */
     public function setLowestOfferListing($value)
     {

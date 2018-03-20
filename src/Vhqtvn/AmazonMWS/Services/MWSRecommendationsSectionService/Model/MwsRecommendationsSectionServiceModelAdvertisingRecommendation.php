@@ -29,7 +29,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the LastUpdated property.
      *
-     * @return XMLGregorianCalendar LastUpdated.
+     * @return \DateTime LastUpdated.
      */
     public function getLastUpdated()
     {
@@ -39,7 +39,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the LastUpdated property.
      *
      * @param string lastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdated($value)
     {
@@ -79,7 +79,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the ItemIdentifier property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier itemIdentifier
-     * @return $this 
+     * @return $this instance
      */
     public function setItemIdentifier($value)
     {
@@ -109,7 +109,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the ItemName property.
      *
-     * @return String ItemName.
+     * @return \string ItemName.
      */
     public function getItemName()
     {
@@ -119,7 +119,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the ItemName property.
      *
      * @param string itemName
-     * @return $this 
+     * @return $this instance
      */
     public function setItemName($value)
     {
@@ -149,7 +149,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the BrandName property.
      *
-     * @return String BrandName.
+     * @return \string BrandName.
      */
     public function getBrandName()
     {
@@ -159,7 +159,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the BrandName property.
      *
      * @param string brandName
-     * @return $this 
+     * @return $this instance
      */
     public function setBrandName($value)
     {
@@ -189,7 +189,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the ProductCategory property.
      *
-     * @return String ProductCategory.
+     * @return \string ProductCategory.
      */
     public function getProductCategory()
     {
@@ -199,7 +199,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the ProductCategory property.
      *
      * @param string productCategory
-     * @return $this 
+     * @return $this instance
      */
     public function setProductCategory($value)
     {
@@ -229,7 +229,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the SalesRank property.
      *
-     * @return Integer SalesRank.
+     * @return \int SalesRank.
      */
     public function getSalesRank()
     {
@@ -239,7 +239,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the SalesRank property.
      *
      * @param int salesRank
-     * @return $this 
+     * @return $this instance
      */
     public function setSalesRank($value)
     {
@@ -279,7 +279,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the YourPricePlusShipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice yourPricePlusShipping
-     * @return $this 
+     * @return $this instance
      */
     public function setYourPricePlusShipping($value)
     {
@@ -319,7 +319,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the LowestPricePlusShipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice lowestPricePlusShipping
-     * @return $this 
+     * @return $this instance
      */
     public function setLowestPricePlusShipping($value)
     {
@@ -349,7 +349,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the AvailableQuantity property.
      *
-     * @return Integer AvailableQuantity.
+     * @return \int AvailableQuantity.
      */
     public function getAvailableQuantity()
     {
@@ -359,7 +359,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the AvailableQuantity property.
      *
      * @param int availableQuantity
-     * @return $this 
+     * @return $this instance
      */
     public function setAvailableQuantity($value)
     {
@@ -389,7 +389,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the SalesForTheLast30Days property.
      *
-     * @return Integer SalesForTheLast30Days.
+     * @return \int SalesForTheLast30Days.
      */
     public function getSalesForTheLast30Days()
     {
@@ -399,7 +399,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the SalesForTheLast30Days property.
      *
      * @param int salesForTheLast30Days
-     * @return $this 
+     * @return $this instance
      */
     public function setSalesForTheLast30Days($value)
     {
@@ -429,7 +429,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the RecommendationId property.
      *
-     * @return String RecommendationId.
+     * @return \string RecommendationId.
      */
     public function getRecommendationId()
     {
@@ -439,7 +439,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the RecommendationId property.
      *
      * @param string recommendationId
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationId($value)
     {
@@ -469,7 +469,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
     /**
      * Get the value of the RecommendationReason property.
      *
-     * @return String RecommendationReason.
+     * @return \string RecommendationReason.
      */
     public function getRecommendationReason()
     {
@@ -479,7 +479,7 @@ class MwsRecommendationsSectionServiceModelAdvertisingRecommendation extends Mws
      * Set the value of the RecommendationReason property.
      *
      * @param string recommendationReason
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationReason($value)
     {

@@ -23,7 +23,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the postedDate property.
      *
-     * @return XMLGregorianCalendar postedDate.
+     * @return \DateTime postedDate.
      */
     public function getpostedDate()
     {
@@ -33,7 +33,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the postedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setpostedDate($value)
     {
@@ -63,7 +63,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the transactionType property.
      *
-     * @return String transactionType.
+     * @return \string transactionType.
      */
     public function gettransactionType()
     {
@@ -73,7 +73,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the transactionType property.
      *
      * @param string transactionType
-     * @return $this 
+     * @return $this instance
      */
     public function settransactionType($value)
     {
@@ -103,7 +103,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the invoiceId property.
      *
-     * @return String invoiceId.
+     * @return \string invoiceId.
      */
     public function getinvoiceId()
     {
@@ -113,7 +113,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the invoiceId property.
      *
      * @param string invoiceId
-     * @return $this 
+     * @return $this instance
      */
     public function setinvoiceId($value)
     {
@@ -153,7 +153,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the baseValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency baseValue
-     * @return $this 
+     * @return $this instance
      */
     public function setbaseValue($value)
     {
@@ -193,7 +193,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the taxValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency taxValue
-     * @return $this 
+     * @return $this instance
      */
     public function settaxValue($value)
     {
@@ -233,7 +233,7 @@ class MwsFinancesServiceModelProductAdsPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the transactionValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency transactionValue
-     * @return $this 
+     * @return $this instance
      */
     public function settransactionValue($value)
     {

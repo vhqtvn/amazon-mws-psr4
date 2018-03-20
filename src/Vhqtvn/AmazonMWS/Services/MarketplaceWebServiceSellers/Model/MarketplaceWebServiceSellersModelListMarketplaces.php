@@ -31,7 +31,7 @@ class MarketplaceWebServiceSellersModelListMarketplaces extends MarketplaceWebSe
      * Set the value of the Marketplace property.
      *
      * @param array marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {

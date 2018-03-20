@@ -26,7 +26,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the AmazonOrderId property.
      *
-     * @return String AmazonOrderId.
+     * @return \string AmazonOrderId.
      */
     public function getAmazonOrderId()
     {
@@ -36,7 +36,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
      * Set the value of the AmazonOrderId property.
      *
      * @param string amazonOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonOrderId($value)
     {
@@ -66,7 +66,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the RentalEventType property.
      *
-     * @return String RentalEventType.
+     * @return \string RentalEventType.
      */
     public function getRentalEventType()
     {
@@ -76,7 +76,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
      * Set the value of the RentalEventType property.
      *
      * @param string rentalEventType
-     * @return $this 
+     * @return $this instance
      */
     public function setRentalEventType($value)
     {
@@ -106,7 +106,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the ExtensionLength property.
      *
-     * @return Integer ExtensionLength.
+     * @return \int ExtensionLength.
      */
     public function getExtensionLength()
     {
@@ -116,7 +116,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
      * Set the value of the ExtensionLength property.
      *
      * @param int extensionLength
-     * @return $this 
+     * @return $this instance
      */
     public function setExtensionLength($value)
     {
@@ -146,7 +146,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the PostedDate property.
      *
-     * @return XMLGregorianCalendar PostedDate.
+     * @return \DateTime PostedDate.
      */
     public function getPostedDate()
     {
@@ -156,7 +156,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedDate($value)
     {
@@ -199,7 +199,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
      * Set the value of the RentalChargeList property.
      *
      * @param array rentalChargeList
-     * @return $this 
+     * @return $this instance
      */
     public function setRentalChargeList($value)
     {
@@ -254,7 +254,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
      * Set the value of the RentalFeeList property.
      *
      * @param array rentalFeeList
-     * @return $this 
+     * @return $this instance
      */
     public function setRentalFeeList($value)
     {
@@ -296,7 +296,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the MarketplaceName property.
      *
-     * @return String MarketplaceName.
+     * @return \string MarketplaceName.
      */
     public function getMarketplaceName()
     {
@@ -306,7 +306,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
      * Set the value of the MarketplaceName property.
      *
      * @param string marketplaceName
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceName($value)
     {
@@ -346,7 +346,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
      * Set the value of the RentalInitialValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency rentalInitialValue
-     * @return $this 
+     * @return $this instance
      */
     public function setRentalInitialValue($value)
     {
@@ -386,7 +386,7 @@ class MwsFinancesServiceModelRentalTransactionEvent extends MwsFinancesServiceMo
      * Set the value of the RentalReimbursement property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency rentalReimbursement
-     * @return $this 
+     * @return $this instance
      */
     public function setRentalReimbursement($value)
     {

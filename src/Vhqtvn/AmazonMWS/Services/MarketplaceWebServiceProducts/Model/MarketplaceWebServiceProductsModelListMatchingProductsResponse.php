@@ -32,7 +32,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsResponse extends Mar
      * Set the value of the ListMatchingProductsResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelListMatchingProductsResult listMatchingProductsResult
-     * @return $this 
+     * @return $this instance
      */
     public function setListMatchingProductsResult($value)
     {
@@ -72,7 +72,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsResponse extends Mar
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsResponse extends Mar
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

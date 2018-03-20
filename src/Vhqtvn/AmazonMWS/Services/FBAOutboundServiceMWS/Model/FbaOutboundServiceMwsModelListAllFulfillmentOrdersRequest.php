@@ -22,7 +22,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -32,7 +32,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -62,7 +62,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -72,7 +72,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -102,7 +102,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Get the value of the Marketplace property.
      *
-     * @return String Marketplace.
+     * @return \string Marketplace.
      */
     public function getMarketplace()
     {
@@ -112,7 +112,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
      * Set the value of the Marketplace property.
      *
      * @param string marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -142,7 +142,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
     /**
      * Get the value of the QueryStartDateTime property.
      *
-     * @return XMLGregorianCalendar QueryStartDateTime.
+     * @return \DateTime QueryStartDateTime.
      */
     public function getQueryStartDateTime()
     {
@@ -152,7 +152,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
      * Set the value of the QueryStartDateTime property.
      *
      * @param string queryStartDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setQueryStartDateTime($value)
     {
@@ -192,7 +192,7 @@ class FbaOutboundServiceMwsModelListAllFulfillmentOrdersRequest extends FbaOutbo
      * Set the value of the FulfillmentMethod property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentMethodList fulfillmentMethod
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentMethod($value)
     {

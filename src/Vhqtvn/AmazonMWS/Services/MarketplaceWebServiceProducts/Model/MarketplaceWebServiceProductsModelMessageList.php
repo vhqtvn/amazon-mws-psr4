@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelMessageList extends MarketplaceWebServic
      * Set the value of the Message property.
      *
      * @param array message
-     * @return $this 
+     * @return $this instance
      */
     public function setMessage($value)
     {

@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelConfirmPreorderResult extends FbaInboundServiceMw
     /**
      * Get the value of the ConfirmedNeedByDate property.
      *
-     * @return String ConfirmedNeedByDate.
+     * @return \string ConfirmedNeedByDate.
      */
     public function getConfirmedNeedByDate()
     {
@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelConfirmPreorderResult extends FbaInboundServiceMw
      * Set the value of the ConfirmedNeedByDate property.
      *
      * @param string confirmedNeedByDate
-     * @return $this 
+     * @return $this instance
      */
     public function setConfirmedNeedByDate($value)
     {
@@ -59,7 +59,7 @@ class FbaInboundServiceMwsModelConfirmPreorderResult extends FbaInboundServiceMw
     /**
      * Get the value of the ConfirmedFulfillableDate property.
      *
-     * @return String ConfirmedFulfillableDate.
+     * @return \string ConfirmedFulfillableDate.
      */
     public function getConfirmedFulfillableDate()
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelConfirmPreorderResult extends FbaInboundServiceMw
      * Set the value of the ConfirmedFulfillableDate property.
      *
      * @param string confirmedFulfillableDate
-     * @return $this 
+     * @return $this instance
      */
     public function setConfirmedFulfillableDate($value)
     {

@@ -28,7 +28,7 @@ class FbaInboundServiceMwsModelCreateInboundShipmentPlanResult extends FbaInboun
      * Set the value of the InboundShipmentPlans property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanList inboundShipmentPlans
-     * @return $this 
+     * @return $this instance
      */
     public function setInboundShipmentPlans($value)
     {

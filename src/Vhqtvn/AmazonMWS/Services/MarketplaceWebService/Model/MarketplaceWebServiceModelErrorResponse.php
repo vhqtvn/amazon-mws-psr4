@@ -63,7 +63,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
      * Sets the value of the Error.
      * 
      * @param mixed Error or an array of Error Error
-     * @return $this 
+     * @return $this instance
      */
     public function setError($error)
     {
@@ -108,7 +108,7 @@ class MarketplaceWebServiceModelErrorResponse extends MarketplaceWebServiceModel
      * Sets the value of the RequestId property.
      * 
      * @param string RequestId
-     * @return $this 
+     * @return $this instance
      */
     public function setRequestId($value)
     {

@@ -24,7 +24,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -34,7 +34,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -64,7 +64,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -74,7 +74,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -104,7 +104,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Get the value of the Marketplace property.
      *
-     * @return String Marketplace.
+     * @return \string Marketplace.
      */
     public function getMarketplace()
     {
@@ -114,7 +114,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
      * Set the value of the Marketplace property.
      *
      * @param string marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -144,7 +144,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -154,7 +154,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -194,7 +194,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
      * Set the value of the SellerSkus property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelSellerSkuList sellerSkus
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSkus($value)
     {
@@ -224,7 +224,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Get the value of the QueryStartDateTime property.
      *
-     * @return XMLGregorianCalendar QueryStartDateTime.
+     * @return \DateTime QueryStartDateTime.
      */
     public function getQueryStartDateTime()
     {
@@ -234,7 +234,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
      * Set the value of the QueryStartDateTime property.
      *
      * @param string queryStartDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setQueryStartDateTime($value)
     {
@@ -264,7 +264,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
     /**
      * Get the value of the ResponseGroup property.
      *
-     * @return String ResponseGroup.
+     * @return \string ResponseGroup.
      */
     public function getResponseGroup()
     {
@@ -274,7 +274,7 @@ class FbaInventoryServiceMwsModelListInventorySupplyRequest extends FbaInventory
      * Set the value of the ResponseGroup property.
      *
      * @param string responseGroup
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseGroup($value)
     {

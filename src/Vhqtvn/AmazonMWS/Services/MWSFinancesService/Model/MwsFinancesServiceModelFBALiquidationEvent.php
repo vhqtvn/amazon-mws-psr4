@@ -21,7 +21,7 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the PostedDate property.
      *
-     * @return XMLGregorianCalendar PostedDate.
+     * @return \DateTime PostedDate.
      */
     public function getPostedDate()
     {
@@ -31,7 +31,7 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedDate($value)
     {
@@ -61,7 +61,7 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the OriginalRemovalOrderId property.
      *
-     * @return String OriginalRemovalOrderId.
+     * @return \string OriginalRemovalOrderId.
      */
     public function getOriginalRemovalOrderId()
     {
@@ -71,7 +71,7 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
      * Set the value of the OriginalRemovalOrderId property.
      *
      * @param string originalRemovalOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setOriginalRemovalOrderId($value)
     {
@@ -111,7 +111,7 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
      * Set the value of the LiquidationProceedsAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency liquidationProceedsAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setLiquidationProceedsAmount($value)
     {
@@ -151,7 +151,7 @@ class MwsFinancesServiceModelFBALiquidationEvent extends MwsFinancesServiceModel
      * Set the value of the LiquidationFeeAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency liquidationFeeAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setLiquidationFeeAmount($value)
     {

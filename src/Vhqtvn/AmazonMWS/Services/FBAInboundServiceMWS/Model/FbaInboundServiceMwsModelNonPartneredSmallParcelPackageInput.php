@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageInput extends FbaIn
     /**
      * Get the value of the TrackingId property.
      *
-     * @return String TrackingId.
+     * @return \string TrackingId.
      */
     public function getTrackingId()
     {
@@ -28,7 +28,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelPackageInput extends FbaIn
      * Set the value of the TrackingId property.
      *
      * @param string trackingId
-     * @return $this 
+     * @return $this instance
      */
     public function setTrackingId($value)
     {

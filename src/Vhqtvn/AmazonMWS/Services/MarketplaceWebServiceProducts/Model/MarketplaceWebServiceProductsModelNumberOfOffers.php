@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelNumberOfOffers extends MarketplaceWebSer
      * Set the value of the OfferCount property.
      *
      * @param array offerCount
-     * @return $this 
+     * @return $this instance
      */
     public function setOfferCount($value)
     {

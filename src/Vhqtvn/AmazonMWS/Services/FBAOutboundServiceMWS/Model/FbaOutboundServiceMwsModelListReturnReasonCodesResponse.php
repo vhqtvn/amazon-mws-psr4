@@ -32,7 +32,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesResponse extends FbaOutboun
      * Set the value of the ListReturnReasonCodesResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelListReturnReasonCodesResult listReturnReasonCodesResult
-     * @return $this 
+     * @return $this instance
      */
     public function setListReturnReasonCodesResult($value)
     {
@@ -72,7 +72,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesResponse extends FbaOutboun
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesResponse extends FbaOutboun
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

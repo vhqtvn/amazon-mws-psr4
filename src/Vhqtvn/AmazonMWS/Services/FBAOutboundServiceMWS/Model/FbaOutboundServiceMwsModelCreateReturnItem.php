@@ -22,7 +22,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
     /**
      * Get the value of the SellerReturnItemId property.
      *
-     * @return String SellerReturnItemId.
+     * @return \string SellerReturnItemId.
      */
     public function getSellerReturnItemId()
     {
@@ -32,7 +32,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
      * Set the value of the SellerReturnItemId property.
      *
      * @param string sellerReturnItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerReturnItemId($value)
     {
@@ -62,7 +62,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
     /**
      * Get the value of the SellerFulfillmentOrderItemId property.
      *
-     * @return String SellerFulfillmentOrderItemId.
+     * @return \string SellerFulfillmentOrderItemId.
      */
     public function getSellerFulfillmentOrderItemId()
     {
@@ -72,7 +72,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
      * Set the value of the SellerFulfillmentOrderItemId property.
      *
      * @param string sellerFulfillmentOrderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderItemId($value)
     {
@@ -102,7 +102,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
     /**
      * Get the value of the AmazonShipmentId property.
      *
-     * @return String AmazonShipmentId.
+     * @return \string AmazonShipmentId.
      */
     public function getAmazonShipmentId()
     {
@@ -112,7 +112,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
      * Set the value of the AmazonShipmentId property.
      *
      * @param string amazonShipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonShipmentId($value)
     {
@@ -142,7 +142,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
     /**
      * Get the value of the ReturnReasonCode property.
      *
-     * @return String ReturnReasonCode.
+     * @return \string ReturnReasonCode.
      */
     public function getReturnReasonCode()
     {
@@ -152,7 +152,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
      * Set the value of the ReturnReasonCode property.
      *
      * @param string returnReasonCode
-     * @return $this 
+     * @return $this instance
      */
     public function setReturnReasonCode($value)
     {
@@ -182,7 +182,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
     /**
      * Get the value of the ReturnComment property.
      *
-     * @return String ReturnComment.
+     * @return \string ReturnComment.
      */
     public function getReturnComment()
     {
@@ -192,7 +192,7 @@ class FbaOutboundServiceMwsModelCreateReturnItem extends FbaOutboundServiceMwsMo
      * Set the value of the ReturnComment property.
      *
      * @param string returnComment
-     * @return $this 
+     * @return $this instance
      */
     public function setReturnComment($value)
     {

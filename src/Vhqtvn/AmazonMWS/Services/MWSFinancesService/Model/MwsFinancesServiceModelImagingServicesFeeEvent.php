@@ -21,7 +21,7 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
     /**
      * Get the value of the ImagingRequestBillingItemID property.
      *
-     * @return String ImagingRequestBillingItemID.
+     * @return \string ImagingRequestBillingItemID.
      */
     public function getImagingRequestBillingItemID()
     {
@@ -31,7 +31,7 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
      * Set the value of the ImagingRequestBillingItemID property.
      *
      * @param string imagingRequestBillingItemID
-     * @return $this 
+     * @return $this instance
      */
     public function setImagingRequestBillingItemID($value)
     {
@@ -61,7 +61,7 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -71,7 +71,7 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -101,7 +101,7 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
     /**
      * Get the value of the PostedDate property.
      *
-     * @return XMLGregorianCalendar PostedDate.
+     * @return \DateTime PostedDate.
      */
     public function getPostedDate()
     {
@@ -111,7 +111,7 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedDate($value)
     {
@@ -154,7 +154,7 @@ class MwsFinancesServiceModelImagingServicesFeeEvent extends MwsFinancesServiceM
      * Set the value of the FeeList property.
      *
      * @param array feeList
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeList($value)
     {

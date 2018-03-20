@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelInvalidSKU extends FbaInboundServiceMwsModel
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelInvalidSKU extends FbaInboundServiceMwsModel
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -59,7 +59,7 @@ class FbaInboundServiceMwsModelInvalidSKU extends FbaInboundServiceMwsModel
     /**
      * Get the value of the ErrorReason property.
      *
-     * @return String ErrorReason.
+     * @return \string ErrorReason.
      */
     public function getErrorReason()
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelInvalidSKU extends FbaInboundServiceMwsModel
      * Set the value of the ErrorReason property.
      *
      * @param string errorReason
-     * @return $this 
+     * @return $this instance
      */
     public function setErrorReason($value)
     {

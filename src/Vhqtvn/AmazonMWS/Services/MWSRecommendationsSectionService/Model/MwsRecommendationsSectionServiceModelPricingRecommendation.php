@@ -34,7 +34,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the LastUpdated property.
      *
-     * @return XMLGregorianCalendar LastUpdated.
+     * @return \DateTime LastUpdated.
      */
     public function getLastUpdated()
     {
@@ -44,7 +44,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the LastUpdated property.
      *
      * @param string lastUpdated
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdated($value)
     {
@@ -84,7 +84,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the ItemIdentifier property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier itemIdentifier
-     * @return $this 
+     * @return $this instance
      */
     public function setItemIdentifier($value)
     {
@@ -114,7 +114,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the ItemName property.
      *
-     * @return String ItemName.
+     * @return \string ItemName.
      */
     public function getItemName()
     {
@@ -124,7 +124,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the ItemName property.
      *
      * @param string itemName
-     * @return $this 
+     * @return $this instance
      */
     public function setItemName($value)
     {
@@ -154,7 +154,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the Condition property.
      *
-     * @return String Condition.
+     * @return \string Condition.
      */
     public function getCondition()
     {
@@ -164,7 +164,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the Condition property.
      *
      * @param string condition
-     * @return $this 
+     * @return $this instance
      */
     public function setCondition($value)
     {
@@ -194,7 +194,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the SubCondition property.
      *
-     * @return String SubCondition.
+     * @return \string SubCondition.
      */
     public function getSubCondition()
     {
@@ -204,7 +204,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the SubCondition property.
      *
      * @param string subCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setSubCondition($value)
     {
@@ -234,7 +234,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the FulfillmentChannel property.
      *
-     * @return String FulfillmentChannel.
+     * @return \string FulfillmentChannel.
      */
     public function getFulfillmentChannel()
     {
@@ -244,7 +244,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the FulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -284,7 +284,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the YourPricePlusShipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice yourPricePlusShipping
-     * @return $this 
+     * @return $this instance
      */
     public function setYourPricePlusShipping($value)
     {
@@ -324,7 +324,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the LowestPricePlusShipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice lowestPricePlusShipping
-     * @return $this 
+     * @return $this instance
      */
     public function setLowestPricePlusShipping($value)
     {
@@ -364,7 +364,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the PriceDifferenceToLowPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice priceDifferenceToLowPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setPriceDifferenceToLowPrice($value)
     {
@@ -404,7 +404,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the MedianPricePlusShipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice medianPricePlusShipping
-     * @return $this 
+     * @return $this instance
      */
     public function setMedianPricePlusShipping($value)
     {
@@ -444,7 +444,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the LowestMerchantFulfilledOfferPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice lowestMerchantFulfilledOfferPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setLowestMerchantFulfilledOfferPrice($value)
     {
@@ -484,7 +484,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the LowestAmazonFulfilledOfferPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelPrice lowestAmazonFulfilledOfferPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setLowestAmazonFulfilledOfferPrice($value)
     {
@@ -514,7 +514,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the NumberOfOffers property.
      *
-     * @return Integer NumberOfOffers.
+     * @return \int NumberOfOffers.
      */
     public function getNumberOfOffers()
     {
@@ -524,7 +524,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the NumberOfOffers property.
      *
      * @param int numberOfOffers
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfOffers($value)
     {
@@ -554,7 +554,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the NumberOfMerchantFulfilledOffers property.
      *
-     * @return Integer NumberOfMerchantFulfilledOffers.
+     * @return \int NumberOfMerchantFulfilledOffers.
      */
     public function getNumberOfMerchantFulfilledOffers()
     {
@@ -564,7 +564,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the NumberOfMerchantFulfilledOffers property.
      *
      * @param int numberOfMerchantFulfilledOffers
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfMerchantFulfilledOffers($value)
     {
@@ -594,7 +594,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the NumberOfAmazonFulfilledOffers property.
      *
-     * @return Integer NumberOfAmazonFulfilledOffers.
+     * @return \int NumberOfAmazonFulfilledOffers.
      */
     public function getNumberOfAmazonFulfilledOffers()
     {
@@ -604,7 +604,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the NumberOfAmazonFulfilledOffers property.
      *
      * @param int numberOfAmazonFulfilledOffers
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfAmazonFulfilledOffers($value)
     {
@@ -634,7 +634,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the RecommendationId property.
      *
-     * @return String RecommendationId.
+     * @return \string RecommendationId.
      */
     public function getRecommendationId()
     {
@@ -644,7 +644,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the RecommendationId property.
      *
      * @param string recommendationId
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationId($value)
     {
@@ -674,7 +674,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
     /**
      * Get the value of the RecommendationReason property.
      *
-     * @return String RecommendationReason.
+     * @return \string RecommendationReason.
      */
     public function getRecommendationReason()
     {
@@ -684,7 +684,7 @@ class MwsRecommendationsSectionServiceModelPricingRecommendation extends MwsReco
      * Set the value of the RecommendationReason property.
      *
      * @param string recommendationReason
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationReason($value)
     {

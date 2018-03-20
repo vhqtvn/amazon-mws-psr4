@@ -22,7 +22,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -32,7 +32,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -62,7 +62,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -72,7 +72,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -102,7 +102,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
     /**
      * Get the value of the Marketplace property.
      *
-     * @return String Marketplace.
+     * @return \string Marketplace.
      */
     public function getMarketplace()
     {
@@ -112,7 +112,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
      * Set the value of the Marketplace property.
      *
      * @param string marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -142,7 +142,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
     /**
      * Get the value of the ShipmentId property.
      *
-     * @return String ShipmentId.
+     * @return \string ShipmentId.
      */
     public function getShipmentId()
     {
@@ -152,7 +152,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
      * Set the value of the ShipmentId property.
      *
      * @param string shipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentId($value)
     {
@@ -182,7 +182,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
     /**
      * Get the value of the NeedByDate property.
      *
-     * @return String NeedByDate.
+     * @return \string NeedByDate.
      */
     public function getNeedByDate()
     {
@@ -192,7 +192,7 @@ class FbaInboundServiceMwsModelConfirmPreorderRequest extends FbaInboundServiceM
      * Set the value of the NeedByDate property.
      *
      * @param string needByDate
-     * @return $this 
+     * @return $this instance
      */
     public function setNeedByDate($value)
     {

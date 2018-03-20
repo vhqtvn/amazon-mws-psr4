@@ -20,7 +20,7 @@ class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServi
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -30,7 +30,7 @@ class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServi
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -60,7 +60,7 @@ class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServi
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServi
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -100,7 +100,7 @@ class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServi
     /**
      * Get the value of the HasSellerSuspendedListings property.
      *
-     * @return String HasSellerSuspendedListings.
+     * @return \string HasSellerSuspendedListings.
      */
     public function getHasSellerSuspendedListings()
     {
@@ -110,7 +110,7 @@ class MarketplaceWebServiceSellersModelParticipation extends MarketplaceWebServi
      * Set the value of the HasSellerSuspendedListings property.
      *
      * @param string hasSellerSuspendedListings
-     * @return $this 
+     * @return $this instance
      */
     public function setHasSellerSuspendedListings($value)
     {

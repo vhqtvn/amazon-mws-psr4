@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -33,7 +33,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -63,7 +63,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -73,7 +73,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -103,7 +103,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Get the value of the BarcodeInstruction property.
      *
-     * @return String BarcodeInstruction.
+     * @return \string BarcodeInstruction.
      */
     public function getBarcodeInstruction()
     {
@@ -113,7 +113,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
      * Set the value of the BarcodeInstruction property.
      *
      * @param string barcodeInstruction
-     * @return $this 
+     * @return $this instance
      */
     public function setBarcodeInstruction($value)
     {
@@ -143,7 +143,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
     /**
      * Get the value of the PrepGuidance property.
      *
-     * @return String PrepGuidance.
+     * @return \string PrepGuidance.
      */
     public function getPrepGuidance()
     {
@@ -153,7 +153,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
      * Set the value of the PrepGuidance property.
      *
      * @param string prepGuidance
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepGuidance($value)
     {
@@ -193,7 +193,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
      * Set the value of the PrepInstructionList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList prepInstructionList
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepInstructionList($value)
     {
@@ -233,7 +233,7 @@ class FbaInboundServiceMwsModelSKUPrepInstructions extends FbaInboundServiceMwsM
      * Set the value of the AmazonPrepFeesDetailsList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmazonPrepFeesDetailsList amazonPrepFeesDetailsList
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonPrepFeesDetailsList($value)
     {

@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
     /**
      * Sets the value of the RequestReportResult.
      * 
-     * @param RequestReportResult RequestReportResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelRequestReportResult RequestReportResult
      * @return void
      */
     public function setRequestReportResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
     /**
      * Set the value of RequestReportResult, return this.
      *
-     * @param RequestReportResult $RequestReportResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelRequestReportResult $RequestReportResult
      * @return $this
      */
     public function withRequestReportResult($RequestReportResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelRequestReportResponse extends MarketplaceWebServ
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

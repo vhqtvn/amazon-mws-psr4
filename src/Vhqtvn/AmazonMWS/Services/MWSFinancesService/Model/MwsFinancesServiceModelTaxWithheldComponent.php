@@ -19,7 +19,7 @@ class MwsFinancesServiceModelTaxWithheldComponent extends MwsFinancesServiceMode
     /**
      * Get the value of the TaxCollectionModel property.
      *
-     * @return String TaxCollectionModel.
+     * @return \string TaxCollectionModel.
      */
     public function getTaxCollectionModel()
     {
@@ -29,7 +29,7 @@ class MwsFinancesServiceModelTaxWithheldComponent extends MwsFinancesServiceMode
      * Set the value of the TaxCollectionModel property.
      *
      * @param string taxCollectionModel
-     * @return $this 
+     * @return $this instance
      */
     public function setTaxCollectionModel($value)
     {
@@ -72,7 +72,7 @@ class MwsFinancesServiceModelTaxWithheldComponent extends MwsFinancesServiceMode
      * Set the value of the TaxesWithheld property.
      *
      * @param array taxesWithheld
-     * @return $this 
+     * @return $this instance
      */
     public function setTaxesWithheld($value)
     {

@@ -20,7 +20,7 @@ class MwsSubscriptionsServiceModelSubscription extends MwsSubscriptionsServiceMo
     /**
      * Get the value of the NotificationType property.
      *
-     * @return String NotificationType.
+     * @return \string NotificationType.
      */
     public function getNotificationType()
     {
@@ -30,7 +30,7 @@ class MwsSubscriptionsServiceModelSubscription extends MwsSubscriptionsServiceMo
      * Set the value of the NotificationType property.
      *
      * @param string notificationType
-     * @return $this 
+     * @return $this instance
      */
     public function setNotificationType($value)
     {
@@ -70,7 +70,7 @@ class MwsSubscriptionsServiceModelSubscription extends MwsSubscriptionsServiceMo
      * Set the value of the Destination property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelDestination destination
-     * @return $this 
+     * @return $this instance
      */
     public function setDestination($value)
     {
@@ -119,7 +119,7 @@ class MwsSubscriptionsServiceModelSubscription extends MwsSubscriptionsServiceMo
      * Set the value of the IsEnabled property.
      *
      * @param bool isEnabled
-     * @return $this 
+     * @return $this instance
      */
     public function setIsEnabled($value)
     {

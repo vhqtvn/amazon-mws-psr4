@@ -32,7 +32,7 @@ class MarketplaceWebServiceOrdersModelListOrdersResponse extends MarketplaceWebS
      * Set the value of the ListOrdersResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelListOrdersResult listOrdersResult
-     * @return $this 
+     * @return $this instance
      */
     public function setListOrdersResult($value)
     {
@@ -72,7 +72,7 @@ class MarketplaceWebServiceOrdersModelListOrdersResponse extends MarketplaceWebS
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class MarketplaceWebServiceOrdersModelListOrdersResponse extends MarketplaceWebS
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

@@ -27,7 +27,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -37,7 +37,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -67,7 +67,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Get the value of the SellerFulfillmentOrderItemId property.
      *
-     * @return String SellerFulfillmentOrderItemId.
+     * @return \string SellerFulfillmentOrderItemId.
      */
     public function getSellerFulfillmentOrderItemId()
     {
@@ -77,7 +77,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the SellerFulfillmentOrderItemId property.
      *
      * @param string sellerFulfillmentOrderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderItemId($value)
     {
@@ -117,7 +117,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the Quantity property.
      *
      * @param int quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantity($value)
     {
@@ -147,7 +147,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Get the value of the GiftMessage property.
      *
-     * @return String GiftMessage.
+     * @return \string GiftMessage.
      */
     public function getGiftMessage()
     {
@@ -157,7 +157,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the GiftMessage property.
      *
      * @param string giftMessage
-     * @return $this 
+     * @return $this instance
      */
     public function setGiftMessage($value)
     {
@@ -187,7 +187,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Get the value of the DisplayableComment property.
      *
-     * @return String DisplayableComment.
+     * @return \string DisplayableComment.
      */
     public function getDisplayableComment()
     {
@@ -197,7 +197,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the DisplayableComment property.
      *
      * @param string displayableComment
-     * @return $this 
+     * @return $this instance
      */
     public function setDisplayableComment($value)
     {
@@ -227,7 +227,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Get the value of the FulfillmentNetworkSKU property.
      *
-     * @return String FulfillmentNetworkSKU.
+     * @return \string FulfillmentNetworkSKU.
      */
     public function getFulfillmentNetworkSKU()
     {
@@ -237,7 +237,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the FulfillmentNetworkSKU property.
      *
      * @param string fulfillmentNetworkSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentNetworkSKU($value)
     {
@@ -267,7 +267,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
     /**
      * Get the value of the OrderItemDisposition property.
      *
-     * @return String OrderItemDisposition.
+     * @return \string OrderItemDisposition.
      */
     public function getOrderItemDisposition()
     {
@@ -277,7 +277,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the OrderItemDisposition property.
      *
      * @param string orderItemDisposition
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderItemDisposition($value)
     {
@@ -317,7 +317,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the PerUnitDeclaredValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency perUnitDeclaredValue
-     * @return $this 
+     * @return $this instance
      */
     public function setPerUnitDeclaredValue($value)
     {
@@ -357,7 +357,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the PerUnitPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency perUnitPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setPerUnitPrice($value)
     {
@@ -397,7 +397,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderItem extends FbaOutboundSe
      * Set the value of the PerUnitTax property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency perUnitTax
-     * @return $this 
+     * @return $this instance
      */
     public function setPerUnitTax($value)
     {

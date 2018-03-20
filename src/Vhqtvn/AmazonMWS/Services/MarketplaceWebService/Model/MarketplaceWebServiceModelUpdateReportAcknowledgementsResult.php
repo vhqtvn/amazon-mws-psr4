@@ -42,7 +42,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
      * Sets the value of the Count property.
      * 
      * @param int Count
-     * @return $this 
+     * @return $this instance
      */
     public function setCount($value)
     {
@@ -82,7 +82,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsResult extends Marke
      * Sets the value of the ReportInfo.
      * 
      * @param mixed ReportInfo or an array of ReportInfo ReportInfo
-     * @return $this 
+     * @return $this instance
      */
     public function setReportInfoList($reportInfo)
     {

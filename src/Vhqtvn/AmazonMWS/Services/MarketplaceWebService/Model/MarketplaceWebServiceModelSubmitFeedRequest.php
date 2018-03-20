@@ -86,7 +86,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -126,7 +126,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -166,7 +166,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -205,7 +205,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
     /**
      * Sets the value of the MarketplaceIdList.
      * 
-     * @param IdList MarketplaceIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList MarketplaceIdList
      * @return void
      */
     public function setMarketplaceIdList($value)
@@ -218,7 +218,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
     /**
      * Set the value of MarketplaceIdList, return this.
      *
-     * @param IdList $MarketplaceIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList $MarketplaceIdList
      * @return $this
      */
     public function withMarketplaceIdList($MarketplaceIdList)
@@ -248,7 +248,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      * Sets the value of the FeedContent property.
      * 
      * @param string FeedContent
-     * @return $this 
+     * @return $this instance
      */
     public function setFeedContent($value)
     {
@@ -288,7 +288,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      * Sets the value of the FeedType property.
      * 
      * @param string FeedType
-     * @return $this 
+     * @return $this instance
      */
     public function setFeedType($value)
     {
@@ -328,7 +328,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      * Sets the value of the PurgeAndReplace property.
      * 
      * @param bool PurgeAndReplace
-     * @return $this 
+     * @return $this instance
      */
     public function setPurgeAndReplace($value)
     {
@@ -368,7 +368,7 @@ class MarketplaceWebServiceModelSubmitFeedRequest extends MarketplaceWebServiceM
      * Sets the value of the ContentMd5 property.
      * 
      * @param bool ContentMd5
-     * @return $this 
+     * @return $this instance
      */
     public function setContentMd5($value)
     {

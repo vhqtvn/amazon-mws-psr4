@@ -19,7 +19,7 @@ class MarketplaceWebServiceProductsModelShipsFromType extends MarketplaceWebServ
     /**
      * Get the value of the State property.
      *
-     * @return String State.
+     * @return \string State.
      */
     public function getState()
     {
@@ -29,7 +29,7 @@ class MarketplaceWebServiceProductsModelShipsFromType extends MarketplaceWebServ
      * Set the value of the State property.
      *
      * @param string state
-     * @return $this 
+     * @return $this instance
      */
     public function setState($value)
     {
@@ -59,7 +59,7 @@ class MarketplaceWebServiceProductsModelShipsFromType extends MarketplaceWebServ
     /**
      * Get the value of the Country property.
      *
-     * @return String Country.
+     * @return \string Country.
      */
     public function getCountry()
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceProductsModelShipsFromType extends MarketplaceWebServ
      * Set the value of the Country property.
      *
      * @param string country
-     * @return $this 
+     * @return $this instance
      */
     public function setCountry($value)
     {

@@ -22,7 +22,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -32,7 +32,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -62,7 +62,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -72,7 +72,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -102,7 +102,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -112,7 +112,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -142,7 +142,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
     /**
      * Get the value of the IdType property.
      *
-     * @return String IdType.
+     * @return \string IdType.
      */
     public function getIdType()
     {
@@ -152,7 +152,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
      * Set the value of the IdType property.
      *
      * @param string idType
-     * @return $this 
+     * @return $this instance
      */
     public function setIdType($value)
     {
@@ -192,7 +192,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdRequest extends M
      * Set the value of the IdList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelIdListType idList
-     * @return $this 
+     * @return $this instance
      */
     public function setIdList($value)
     {

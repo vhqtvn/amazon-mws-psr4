@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelPrepDetailsList extends FbaInboundServiceMwsModel
      * Set the value of the PrepDetails property.
      *
      * @param array prepDetails
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepDetails($value)
     {

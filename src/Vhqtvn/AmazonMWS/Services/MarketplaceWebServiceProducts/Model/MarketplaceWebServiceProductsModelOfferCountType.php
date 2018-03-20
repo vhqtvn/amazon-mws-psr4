@@ -20,7 +20,7 @@ class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebSer
     /**
      * Get the value of the condition property.
      *
-     * @return String condition.
+     * @return \string condition.
      */
     public function getcondition()
     {
@@ -30,7 +30,7 @@ class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebSer
      * Set the value of the condition property.
      *
      * @param string condition
-     * @return $this 
+     * @return $this instance
      */
     public function setcondition($value)
     {
@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebSer
     /**
      * Get the value of the fulfillmentChannel property.
      *
-     * @return String fulfillmentChannel.
+     * @return \string fulfillmentChannel.
      */
     public function getfulfillmentChannel()
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebSer
      * Set the value of the fulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setfulfillmentChannel($value)
     {
@@ -100,7 +100,7 @@ class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebSer
     /**
      * Get the value of the OfferCount property.
      *
-     * @return Integer OfferCount.
+     * @return \int OfferCount.
      */
     public function getOfferCount()
     {
@@ -110,7 +110,7 @@ class MarketplaceWebServiceProductsModelOfferCountType extends MarketplaceWebSer
      * Set the value of the OfferCount property.
      *
      * @param int offerCount
-     * @return $this 
+     * @return $this instance
      */
     public function setOfferCount($value)
     {

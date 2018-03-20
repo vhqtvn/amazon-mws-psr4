@@ -22,7 +22,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the DebtRecoveryType property.
      *
-     * @return String DebtRecoveryType.
+     * @return \string DebtRecoveryType.
      */
     public function getDebtRecoveryType()
     {
@@ -32,7 +32,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
      * Set the value of the DebtRecoveryType property.
      *
      * @param string debtRecoveryType
-     * @return $this 
+     * @return $this instance
      */
     public function setDebtRecoveryType($value)
     {
@@ -72,7 +72,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
      * Set the value of the RecoveryAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency recoveryAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setRecoveryAmount($value)
     {
@@ -112,7 +112,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
      * Set the value of the OverPaymentCredit property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency overPaymentCredit
-     * @return $this 
+     * @return $this instance
      */
     public function setOverPaymentCredit($value)
     {
@@ -155,7 +155,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
      * Set the value of the DebtRecoveryItemList property.
      *
      * @param array debtRecoveryItemList
-     * @return $this 
+     * @return $this instance
      */
     public function setDebtRecoveryItemList($value)
     {
@@ -210,7 +210,7 @@ class MwsFinancesServiceModelDebtRecoveryEvent extends MwsFinancesServiceModel
      * Set the value of the ChargeInstrumentList property.
      *
      * @param array chargeInstrumentList
-     * @return $this 
+     * @return $this instance
      */
     public function setChargeInstrumentList($value)
     {

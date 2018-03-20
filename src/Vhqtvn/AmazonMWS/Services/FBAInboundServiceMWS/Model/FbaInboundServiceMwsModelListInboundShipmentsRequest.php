@@ -24,7 +24,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -34,7 +34,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -64,7 +64,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -74,7 +74,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -104,7 +104,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
     /**
      * Get the value of the Marketplace property.
      *
-     * @return String Marketplace.
+     * @return \string Marketplace.
      */
     public function getMarketplace()
     {
@@ -114,7 +114,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
      * Set the value of the Marketplace property.
      *
      * @param string marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -154,7 +154,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
      * Set the value of the ShipmentStatusList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentStatusList shipmentStatusList
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentStatusList($value)
     {
@@ -194,7 +194,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
      * Set the value of the ShipmentIdList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelShipmentIdList shipmentIdList
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentIdList($value)
     {
@@ -224,7 +224,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
     /**
      * Get the value of the LastUpdatedBefore property.
      *
-     * @return XMLGregorianCalendar LastUpdatedBefore.
+     * @return \DateTime LastUpdatedBefore.
      */
     public function getLastUpdatedBefore()
     {
@@ -234,7 +234,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
      * Set the value of the LastUpdatedBefore property.
      *
      * @param string lastUpdatedBefore
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdatedBefore($value)
     {
@@ -264,7 +264,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
     /**
      * Get the value of the LastUpdatedAfter property.
      *
-     * @return XMLGregorianCalendar LastUpdatedAfter.
+     * @return \DateTime LastUpdatedAfter.
      */
     public function getLastUpdatedAfter()
     {
@@ -274,7 +274,7 @@ class FbaInboundServiceMwsModelListInboundShipmentsRequest extends FbaInboundSer
      * Set the value of the LastUpdatedAfter property.
      *
      * @param string lastUpdatedAfter
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdatedAfter($value)
     {

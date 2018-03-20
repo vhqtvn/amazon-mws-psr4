@@ -19,7 +19,7 @@ class MarketplaceWebServiceOrdersModelTaxCollection extends MarketplaceWebServic
     /**
      * Get the value of the Model property.
      *
-     * @return String Model.
+     * @return \string Model.
      */
     public function getModel()
     {
@@ -29,7 +29,7 @@ class MarketplaceWebServiceOrdersModelTaxCollection extends MarketplaceWebServic
      * Set the value of the Model property.
      *
      * @param string model
-     * @return $this 
+     * @return $this instance
      */
     public function setModel($value)
     {
@@ -59,7 +59,7 @@ class MarketplaceWebServiceOrdersModelTaxCollection extends MarketplaceWebServic
     /**
      * Get the value of the ResponsibleParty property.
      *
-     * @return String ResponsibleParty.
+     * @return \string ResponsibleParty.
      */
     public function getResponsibleParty()
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceOrdersModelTaxCollection extends MarketplaceWebServic
      * Set the value of the ResponsibleParty property.
      *
      * @param string responsibleParty
-     * @return $this 
+     * @return $this instance
      */
     public function setResponsibleParty($value)
     {

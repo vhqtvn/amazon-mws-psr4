@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList
  * 
- * @property	\[]	$GuidanceReason
+ * @property	\string[]	$GuidanceReason
  */
 class FbaInboundServiceMwsModelGuidanceReasonList extends FbaInboundServiceMwsModel
 {
@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelGuidanceReasonList extends FbaInboundServiceMwsMo
     /**
      * Get the value of the GuidanceReason property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelString[] GuidanceReason.
+     * @return \string[] GuidanceReason.
      */
     public function getGuidanceReason()
     {
@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelGuidanceReasonList extends FbaInboundServiceMwsMo
      * Set the value of the GuidanceReason property.
      *
      * @param array guidanceReason
-     * @return $this 
+     * @return $this instance
      */
     public function setGuidanceReason($value)
     {

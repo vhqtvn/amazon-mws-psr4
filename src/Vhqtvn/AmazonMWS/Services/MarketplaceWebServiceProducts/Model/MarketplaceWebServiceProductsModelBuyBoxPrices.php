@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelBuyBoxPrices extends MarketplaceWebServi
      * Set the value of the BuyBoxPrice property.
      *
      * @param array buyBoxPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyBoxPrice($value)
     {

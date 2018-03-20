@@ -31,7 +31,7 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
      * Set the value of the RecoveryAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency recoveryAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setRecoveryAmount($value)
     {
@@ -71,7 +71,7 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
      * Set the value of the OriginalAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency originalAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setOriginalAmount($value)
     {
@@ -101,7 +101,7 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
     /**
      * Get the value of the GroupBeginDate property.
      *
-     * @return XMLGregorianCalendar GroupBeginDate.
+     * @return \DateTime GroupBeginDate.
      */
     public function getGroupBeginDate()
     {
@@ -111,7 +111,7 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
      * Set the value of the GroupBeginDate property.
      *
      * @param string groupBeginDate
-     * @return $this 
+     * @return $this instance
      */
     public function setGroupBeginDate($value)
     {
@@ -141,7 +141,7 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
     /**
      * Get the value of the GroupEndDate property.
      *
-     * @return XMLGregorianCalendar GroupEndDate.
+     * @return \DateTime GroupEndDate.
      */
     public function getGroupEndDate()
     {
@@ -151,7 +151,7 @@ class MwsFinancesServiceModelDebtRecoveryItem extends MwsFinancesServiceModel
      * Set the value of the GroupEndDate property.
      *
      * @param string groupEndDate
-     * @return $this 
+     * @return $this instance
      */
     public function setGroupEndDate($value)
     {

@@ -24,7 +24,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Get the value of the QualitySet property.
      *
-     * @return String QualitySet.
+     * @return \string QualitySet.
      */
     public function getQualitySet()
     {
@@ -34,7 +34,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
      * Set the value of the QualitySet property.
      *
      * @param string qualitySet
-     * @return $this 
+     * @return $this instance
      */
     public function setQualitySet($value)
     {
@@ -64,7 +64,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Get the value of the DefectGroup property.
      *
-     * @return String DefectGroup.
+     * @return \string DefectGroup.
      */
     public function getDefectGroup()
     {
@@ -74,7 +74,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
      * Set the value of the DefectGroup property.
      *
      * @param string defectGroup
-     * @return $this 
+     * @return $this instance
      */
     public function setDefectGroup($value)
     {
@@ -104,7 +104,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Get the value of the DefectAttribute property.
      *
-     * @return String DefectAttribute.
+     * @return \string DefectAttribute.
      */
     public function getDefectAttribute()
     {
@@ -114,7 +114,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
      * Set the value of the DefectAttribute property.
      *
      * @param string defectAttribute
-     * @return $this 
+     * @return $this instance
      */
     public function setDefectAttribute($value)
     {
@@ -154,7 +154,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
      * Set the value of the ItemIdentifier property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelProductIdentifier itemIdentifier
-     * @return $this 
+     * @return $this instance
      */
     public function setItemIdentifier($value)
     {
@@ -184,7 +184,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Get the value of the ItemName property.
      *
-     * @return String ItemName.
+     * @return \string ItemName.
      */
     public function getItemName()
     {
@@ -194,7 +194,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
      * Set the value of the ItemName property.
      *
      * @param string itemName
-     * @return $this 
+     * @return $this instance
      */
     public function setItemName($value)
     {
@@ -224,7 +224,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Get the value of the RecommendationId property.
      *
-     * @return String RecommendationId.
+     * @return \string RecommendationId.
      */
     public function getRecommendationId()
     {
@@ -234,7 +234,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
      * Set the value of the RecommendationId property.
      *
      * @param string recommendationId
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationId($value)
     {
@@ -264,7 +264,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
     /**
      * Get the value of the RecommendationReason property.
      *
-     * @return String RecommendationReason.
+     * @return \string RecommendationReason.
      */
     public function getRecommendationReason()
     {
@@ -274,7 +274,7 @@ class MwsRecommendationsSectionServiceModelListingQualityRecommendation extends 
      * Set the value of the RecommendationReason property.
      *
      * @param string recommendationReason
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationReason($value)
     {

@@ -20,7 +20,7 @@ class MwsMerchantFulfillmentServiceModelLabelDimensions extends MwsMerchantFulfi
     /**
      * Get the value of the Length property.
      *
-     * @return BigDecimal Length.
+     * @return \float Length.
      */
     public function getLength()
     {
@@ -30,7 +30,7 @@ class MwsMerchantFulfillmentServiceModelLabelDimensions extends MwsMerchantFulfi
      * Set the value of the Length property.
      *
      * @param float length
-     * @return $this 
+     * @return $this instance
      */
     public function setLength($value)
     {
@@ -60,7 +60,7 @@ class MwsMerchantFulfillmentServiceModelLabelDimensions extends MwsMerchantFulfi
     /**
      * Get the value of the Width property.
      *
-     * @return BigDecimal Width.
+     * @return \float Width.
      */
     public function getWidth()
     {
@@ -70,7 +70,7 @@ class MwsMerchantFulfillmentServiceModelLabelDimensions extends MwsMerchantFulfi
      * Set the value of the Width property.
      *
      * @param float width
-     * @return $this 
+     * @return $this instance
      */
     public function setWidth($value)
     {
@@ -100,7 +100,7 @@ class MwsMerchantFulfillmentServiceModelLabelDimensions extends MwsMerchantFulfi
     /**
      * Get the value of the Unit property.
      *
-     * @return String Unit.
+     * @return \string Unit.
      */
     public function getUnit()
     {
@@ -110,7 +110,7 @@ class MwsMerchantFulfillmentServiceModelLabelDimensions extends MwsMerchantFulfi
      * Set the value of the Unit property.
      *
      * @param string unit
-     * @return $this 
+     * @return $this instance
      */
     public function setUnit($value)
     {

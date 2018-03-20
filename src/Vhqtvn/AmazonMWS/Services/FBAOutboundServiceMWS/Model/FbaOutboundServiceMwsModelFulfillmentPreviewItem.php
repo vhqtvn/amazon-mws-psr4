@@ -22,7 +22,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -32,7 +32,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -72,7 +72,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
      * Set the value of the Quantity property.
      *
      * @param int quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantity($value)
     {
@@ -102,7 +102,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
     /**
      * Get the value of the SellerFulfillmentOrderItemId property.
      *
-     * @return String SellerFulfillmentOrderItemId.
+     * @return \string SellerFulfillmentOrderItemId.
      */
     public function getSellerFulfillmentOrderItemId()
     {
@@ -112,7 +112,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
      * Set the value of the SellerFulfillmentOrderItemId property.
      *
      * @param string sellerFulfillmentOrderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderItemId($value)
     {
@@ -152,7 +152,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
      * Set the value of the EstimatedShippingWeight property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelWeight estimatedShippingWeight
-     * @return $this 
+     * @return $this instance
      */
     public function setEstimatedShippingWeight($value)
     {
@@ -182,7 +182,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
     /**
      * Get the value of the ShippingWeightCalculationMethod property.
      *
-     * @return String ShippingWeightCalculationMethod.
+     * @return \string ShippingWeightCalculationMethod.
      */
     public function getShippingWeightCalculationMethod()
     {
@@ -192,7 +192,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewItem extends FbaOutboundServic
      * Set the value of the ShippingWeightCalculationMethod property.
      *
      * @param string shippingWeightCalculationMethod
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingWeightCalculationMethod($value)
     {

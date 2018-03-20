@@ -30,7 +30,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -40,7 +40,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -70,7 +70,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the OrderItemId property.
      *
-     * @return String OrderItemId.
+     * @return \string OrderItemId.
      */
     public function getOrderItemId()
     {
@@ -80,7 +80,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the OrderItemId property.
      *
      * @param string orderItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderItemId($value)
     {
@@ -110,7 +110,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the OrderAdjustmentItemId property.
      *
-     * @return String OrderAdjustmentItemId.
+     * @return \string OrderAdjustmentItemId.
      */
     public function getOrderAdjustmentItemId()
     {
@@ -120,7 +120,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the OrderAdjustmentItemId property.
      *
      * @param string orderAdjustmentItemId
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderAdjustmentItemId($value)
     {
@@ -150,7 +150,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
     /**
      * Get the value of the QuantityShipped property.
      *
-     * @return Integer QuantityShipped.
+     * @return \int QuantityShipped.
      */
     public function getQuantityShipped()
     {
@@ -160,7 +160,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the QuantityShipped property.
      *
      * @param int quantityShipped
-     * @return $this 
+     * @return $this instance
      */
     public function setQuantityShipped($value)
     {
@@ -203,7 +203,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the ItemChargeList property.
      *
      * @param array itemChargeList
-     * @return $this 
+     * @return $this instance
      */
     public function setItemChargeList($value)
     {
@@ -258,7 +258,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the ItemChargeAdjustmentList property.
      *
      * @param array itemChargeAdjustmentList
-     * @return $this 
+     * @return $this instance
      */
     public function setItemChargeAdjustmentList($value)
     {
@@ -313,7 +313,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the ItemFeeList property.
      *
      * @param array itemFeeList
-     * @return $this 
+     * @return $this instance
      */
     public function setItemFeeList($value)
     {
@@ -368,7 +368,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the ItemFeeAdjustmentList property.
      *
      * @param array itemFeeAdjustmentList
-     * @return $this 
+     * @return $this instance
      */
     public function setItemFeeAdjustmentList($value)
     {
@@ -423,7 +423,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the ItemTaxWithheldList property.
      *
      * @param array itemTaxWithheldList
-     * @return $this 
+     * @return $this instance
      */
     public function setItemTaxWithheldList($value)
     {
@@ -478,7 +478,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the PromotionList property.
      *
      * @param array promotionList
-     * @return $this 
+     * @return $this instance
      */
     public function setPromotionList($value)
     {
@@ -533,7 +533,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the PromotionAdjustmentList property.
      *
      * @param array promotionAdjustmentList
-     * @return $this 
+     * @return $this instance
      */
     public function setPromotionAdjustmentList($value)
     {
@@ -585,7 +585,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the CostOfPointsGranted property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency costOfPointsGranted
-     * @return $this 
+     * @return $this instance
      */
     public function setCostOfPointsGranted($value)
     {
@@ -625,7 +625,7 @@ class MwsFinancesServiceModelShipmentItem extends MwsFinancesServiceModel
      * Set the value of the CostOfPointsReturned property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency costOfPointsReturned
-     * @return $this 
+     * @return $this instance
      */
     public function setCostOfPointsReturned($value)
     {

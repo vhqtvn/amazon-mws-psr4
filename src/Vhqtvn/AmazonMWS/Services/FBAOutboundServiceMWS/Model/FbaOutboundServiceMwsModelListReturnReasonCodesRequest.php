@@ -23,7 +23,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -33,7 +33,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -63,7 +63,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -73,7 +73,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -103,7 +103,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -113,7 +113,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -143,7 +143,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Get the value of the SellerFulfillmentOrderId property.
      *
-     * @return String SellerFulfillmentOrderId.
+     * @return \string SellerFulfillmentOrderId.
      */
     public function getSellerFulfillmentOrderId()
     {
@@ -153,7 +153,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
      * Set the value of the SellerFulfillmentOrderId property.
      *
      * @param string sellerFulfillmentOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderId($value)
     {
@@ -183,7 +183,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -193,7 +193,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -223,7 +223,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
     /**
      * Get the value of the Language property.
      *
-     * @return String Language.
+     * @return \string Language.
      */
     public function getLanguage()
     {
@@ -233,7 +233,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesRequest extends FbaOutbound
      * Set the value of the Language property.
      *
      * @param string language
-     * @return $this 
+     * @return $this instance
      */
     public function setLanguage($value)
     {

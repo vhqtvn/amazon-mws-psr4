@@ -20,7 +20,7 @@ class MwsFinancesServiceModelChargeInstrument extends MwsFinancesServiceModel
     /**
      * Get the value of the Description property.
      *
-     * @return String Description.
+     * @return \string Description.
      */
     public function getDescription()
     {
@@ -30,7 +30,7 @@ class MwsFinancesServiceModelChargeInstrument extends MwsFinancesServiceModel
      * Set the value of the Description property.
      *
      * @param string description
-     * @return $this 
+     * @return $this instance
      */
     public function setDescription($value)
     {
@@ -60,7 +60,7 @@ class MwsFinancesServiceModelChargeInstrument extends MwsFinancesServiceModel
     /**
      * Get the value of the Tail property.
      *
-     * @return String Tail.
+     * @return \string Tail.
      */
     public function getTail()
     {
@@ -70,7 +70,7 @@ class MwsFinancesServiceModelChargeInstrument extends MwsFinancesServiceModel
      * Set the value of the Tail property.
      *
      * @param string tail
-     * @return $this 
+     * @return $this instance
      */
     public function setTail($value)
     {
@@ -110,7 +110,7 @@ class MwsFinancesServiceModelChargeInstrument extends MwsFinancesServiceModel
      * Set the value of the Amount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency amount
-     * @return $this 
+     * @return $this instance
      */
     public function setAmount($value)
     {

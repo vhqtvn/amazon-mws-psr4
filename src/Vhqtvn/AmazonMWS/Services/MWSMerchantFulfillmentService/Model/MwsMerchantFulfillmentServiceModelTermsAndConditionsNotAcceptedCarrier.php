@@ -18,7 +18,7 @@ class MwsMerchantFulfillmentServiceModelTermsAndConditionsNotAcceptedCarrier ext
     /**
      * Get the value of the CarrierName property.
      *
-     * @return String CarrierName.
+     * @return \string CarrierName.
      */
     public function getCarrierName()
     {
@@ -28,7 +28,7 @@ class MwsMerchantFulfillmentServiceModelTermsAndConditionsNotAcceptedCarrier ext
      * Set the value of the CarrierName property.
      *
      * @param string carrierName
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierName($value)
     {

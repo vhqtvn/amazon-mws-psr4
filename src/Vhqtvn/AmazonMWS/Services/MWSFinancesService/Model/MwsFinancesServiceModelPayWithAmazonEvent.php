@@ -27,7 +27,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the SellerOrderId property.
      *
-     * @return String SellerOrderId.
+     * @return \string SellerOrderId.
      */
     public function getSellerOrderId()
     {
@@ -37,7 +37,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the SellerOrderId property.
      *
      * @param string sellerOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerOrderId($value)
     {
@@ -67,7 +67,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the TransactionPostedDate property.
      *
-     * @return XMLGregorianCalendar TransactionPostedDate.
+     * @return \DateTime TransactionPostedDate.
      */
     public function getTransactionPostedDate()
     {
@@ -77,7 +77,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the TransactionPostedDate property.
      *
      * @param string transactionPostedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setTransactionPostedDate($value)
     {
@@ -107,7 +107,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the BusinessObjectType property.
      *
-     * @return String BusinessObjectType.
+     * @return \string BusinessObjectType.
      */
     public function getBusinessObjectType()
     {
@@ -117,7 +117,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the BusinessObjectType property.
      *
      * @param string businessObjectType
-     * @return $this 
+     * @return $this instance
      */
     public function setBusinessObjectType($value)
     {
@@ -147,7 +147,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the SalesChannel property.
      *
-     * @return String SalesChannel.
+     * @return \string SalesChannel.
      */
     public function getSalesChannel()
     {
@@ -157,7 +157,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the SalesChannel property.
      *
      * @param string salesChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setSalesChannel($value)
     {
@@ -197,7 +197,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the Charge property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent charge
-     * @return $this 
+     * @return $this instance
      */
     public function setCharge($value)
     {
@@ -240,7 +240,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the FeeList property.
      *
      * @param array feeList
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeList($value)
     {
@@ -282,7 +282,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the PaymentAmountType property.
      *
-     * @return String PaymentAmountType.
+     * @return \string PaymentAmountType.
      */
     public function getPaymentAmountType()
     {
@@ -292,7 +292,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the PaymentAmountType property.
      *
      * @param string paymentAmountType
-     * @return $this 
+     * @return $this instance
      */
     public function setPaymentAmountType($value)
     {
@@ -322,7 +322,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the AmountDescription property.
      *
-     * @return String AmountDescription.
+     * @return \string AmountDescription.
      */
     public function getAmountDescription()
     {
@@ -332,7 +332,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the AmountDescription property.
      *
      * @param string amountDescription
-     * @return $this 
+     * @return $this instance
      */
     public function setAmountDescription($value)
     {
@@ -362,7 +362,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the FulfillmentChannel property.
      *
-     * @return String FulfillmentChannel.
+     * @return \string FulfillmentChannel.
      */
     public function getFulfillmentChannel()
     {
@@ -372,7 +372,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the FulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -402,7 +402,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the StoreName property.
      *
-     * @return String StoreName.
+     * @return \string StoreName.
      */
     public function getStoreName()
     {
@@ -412,7 +412,7 @@ class MwsFinancesServiceModelPayWithAmazonEvent extends MwsFinancesServiceModel
      * Set the value of the StoreName property.
      *
      * @param string storeName
-     * @return $this 
+     * @return $this instance
      */
     public function setStoreName($value)
     {

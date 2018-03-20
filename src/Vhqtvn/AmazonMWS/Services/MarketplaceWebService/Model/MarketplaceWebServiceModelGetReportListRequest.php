@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -134,7 +134,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -174,7 +174,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
      * Sets the value of the MaxCount property.
      * 
      * @param int MaxCount
-     * @return $this 
+     * @return $this instance
      */
     public function setMaxCount($value)
     {
@@ -213,7 +213,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
     /**
      * Sets the value of the ReportTypeList.
      * 
-     * @param TypeList ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList ReportTypeList
      * @return void
      */
     public function setReportTypeList($value)
@@ -224,7 +224,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
     /**
      * Set the value of ReportTypeList, return this.
      *
-     * @param TypeList $ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList $ReportTypeList
      * @return $this
      */
     public function withReportTypeList($ReportTypeList)
@@ -254,7 +254,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
      * Sets the value of the Acknowledged property.
      * 
      * @param bool Acknowledged
-     * @return $this 
+     * @return $this instance
      */
     public function setAcknowledged($value)
     {
@@ -294,7 +294,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
      * Sets the value of the AvailableFromDate property.
      * 
      * @param string AvailableFromDate
-     * @return $this 
+     * @return $this instance
      */
     public function setAvailableFromDate($value)
     {
@@ -334,7 +334,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
      * Sets the value of the AvailableToDate property.
      * 
      * @param string AvailableToDate
-     * @return $this 
+     * @return $this instance
      */
     public function setAvailableToDate($value)
     {
@@ -373,7 +373,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
     /**
      * Sets the value of the ReportRequestIdList.
      * 
-     * @param IdList ReportRequestIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList ReportRequestIdList
      * @return void
      */
     public function setReportRequestIdList($value)
@@ -384,7 +384,7 @@ class MarketplaceWebServiceModelGetReportListRequest extends MarketplaceWebServi
     /**
      * Set the value of ReportRequestIdList, return this.
      *
-     * @param IdList $ReportRequestIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList $ReportRequestIdList
      * @return $this
      */
     public function withReportRequestIdList($ReportRequestIdList)

@@ -32,7 +32,7 @@ class MwsMerchantFulfillmentServiceModelGetServiceStatusResponse extends MwsMerc
      * Set the value of the GetServiceStatusResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelGetServiceStatusResult getServiceStatusResult
-     * @return $this 
+     * @return $this instance
      */
     public function setGetServiceStatusResult($value)
     {
@@ -72,7 +72,7 @@ class MwsMerchantFulfillmentServiceModelGetServiceStatusResponse extends MwsMerc
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class MwsMerchantFulfillmentServiceModelGetServiceStatusResponse extends MwsMerc
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

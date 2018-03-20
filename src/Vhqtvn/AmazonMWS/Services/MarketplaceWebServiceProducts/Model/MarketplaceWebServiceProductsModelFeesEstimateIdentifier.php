@@ -24,7 +24,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -34,7 +34,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -64,7 +64,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -74,7 +74,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -104,7 +104,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Get the value of the IdType property.
      *
-     * @return String IdType.
+     * @return \string IdType.
      */
     public function getIdType()
     {
@@ -114,7 +114,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
      * Set the value of the IdType property.
      *
      * @param string idType
-     * @return $this 
+     * @return $this instance
      */
     public function setIdType($value)
     {
@@ -144,7 +144,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Get the value of the IdValue property.
      *
-     * @return String IdValue.
+     * @return \string IdValue.
      */
     public function getIdValue()
     {
@@ -154,7 +154,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
      * Set the value of the IdValue property.
      *
      * @param string idValue
-     * @return $this 
+     * @return $this instance
      */
     public function setIdValue($value)
     {
@@ -193,7 +193,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Get the value of the IsAmazonFulfilled property.
      *
-     * @return Boolean IsAmazonFulfilled.
+     * @return \bool IsAmazonFulfilled.
      */
     public function getIsAmazonFulfilled()
     {
@@ -203,7 +203,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
      * Set the value of the IsAmazonFulfilled property.
      *
      * @param bool isAmazonFulfilled
-     * @return $this 
+     * @return $this instance
      */
     public function setIsAmazonFulfilled($value)
     {
@@ -243,7 +243,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
      * Set the value of the PriceToEstimateFees property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceToEstimateFees priceToEstimateFees
-     * @return $this 
+     * @return $this instance
      */
     public function setPriceToEstimateFees($value)
     {
@@ -273,7 +273,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
     /**
      * Get the value of the SellerInputIdentifier property.
      *
-     * @return String SellerInputIdentifier.
+     * @return \string SellerInputIdentifier.
      */
     public function getSellerInputIdentifier()
     {
@@ -283,7 +283,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateIdentifier extends Marketpla
      * Set the value of the SellerInputIdentifier property.
      *
      * @param string sellerInputIdentifier
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerInputIdentifier($value)
     {

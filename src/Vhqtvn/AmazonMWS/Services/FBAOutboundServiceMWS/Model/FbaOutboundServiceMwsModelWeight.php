@@ -19,7 +19,7 @@ class FbaOutboundServiceMwsModelWeight extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the Unit property.
      *
-     * @return String Unit.
+     * @return \string Unit.
      */
     public function getUnit()
     {
@@ -29,7 +29,7 @@ class FbaOutboundServiceMwsModelWeight extends FbaOutboundServiceMwsModel
      * Set the value of the Unit property.
      *
      * @param string unit
-     * @return $this 
+     * @return $this instance
      */
     public function setUnit($value)
     {
@@ -59,7 +59,7 @@ class FbaOutboundServiceMwsModelWeight extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the Value property.
      *
-     * @return String Value.
+     * @return \string Value.
      */
     public function getValue()
     {
@@ -69,7 +69,7 @@ class FbaOutboundServiceMwsModelWeight extends FbaOutboundServiceMwsModel
      * Set the value of the Value property.
      *
      * @param string value
-     * @return $this 
+     * @return $this instance
      */
     public function setValue($value)
     {

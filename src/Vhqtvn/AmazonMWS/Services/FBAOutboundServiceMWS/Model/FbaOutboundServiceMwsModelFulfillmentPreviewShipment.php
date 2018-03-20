@@ -22,7 +22,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Get the value of the EarliestShipDate property.
      *
-     * @return XMLGregorianCalendar EarliestShipDate.
+     * @return \DateTime EarliestShipDate.
      */
     public function getEarliestShipDate()
     {
@@ -32,7 +32,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
      * Set the value of the EarliestShipDate property.
      *
      * @param string earliestShipDate
-     * @return $this 
+     * @return $this instance
      */
     public function setEarliestShipDate($value)
     {
@@ -62,7 +62,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Get the value of the LatestShipDate property.
      *
-     * @return XMLGregorianCalendar LatestShipDate.
+     * @return \DateTime LatestShipDate.
      */
     public function getLatestShipDate()
     {
@@ -72,7 +72,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
      * Set the value of the LatestShipDate property.
      *
      * @param string latestShipDate
-     * @return $this 
+     * @return $this instance
      */
     public function setLatestShipDate($value)
     {
@@ -102,7 +102,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Get the value of the EarliestArrivalDate property.
      *
-     * @return XMLGregorianCalendar EarliestArrivalDate.
+     * @return \DateTime EarliestArrivalDate.
      */
     public function getEarliestArrivalDate()
     {
@@ -112,7 +112,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
      * Set the value of the EarliestArrivalDate property.
      *
      * @param string earliestArrivalDate
-     * @return $this 
+     * @return $this instance
      */
     public function setEarliestArrivalDate($value)
     {
@@ -142,7 +142,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
     /**
      * Get the value of the LatestArrivalDate property.
      *
-     * @return XMLGregorianCalendar LatestArrivalDate.
+     * @return \DateTime LatestArrivalDate.
      */
     public function getLatestArrivalDate()
     {
@@ -152,7 +152,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
      * Set the value of the LatestArrivalDate property.
      *
      * @param string latestArrivalDate
-     * @return $this 
+     * @return $this instance
      */
     public function setLatestArrivalDate($value)
     {
@@ -192,7 +192,7 @@ class FbaOutboundServiceMwsModelFulfillmentPreviewShipment extends FbaOutboundSe
      * Set the value of the FulfillmentPreviewItems property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentPreviewItemList fulfillmentPreviewItems
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentPreviewItems($value)
     {

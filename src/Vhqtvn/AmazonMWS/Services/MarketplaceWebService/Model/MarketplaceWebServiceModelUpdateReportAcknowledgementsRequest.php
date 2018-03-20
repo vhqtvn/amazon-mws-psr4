@@ -46,7 +46,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -86,7 +86,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -126,7 +126,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -165,7 +165,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
     /**
      * Sets the value of the ReportIdList.
      * 
-     * @param IdList ReportIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList ReportIdList
      * @return void
      */
     public function setReportIdList($value)
@@ -176,7 +176,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
     /**
      * Set the value of ReportIdList, return this.
      *
-     * @param IdList $ReportIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList $ReportIdList
      * @return $this
      */
     public function withReportIdList($ReportIdList)
@@ -206,7 +206,7 @@ class MarketplaceWebServiceModelUpdateReportAcknowledgementsRequest extends Mark
      * Sets the value of the Acknowledged property.
      * 
      * @param bool Acknowledged
-     * @return $this 
+     * @return $this instance
      */
     public function setAcknowledged($value)
     {

@@ -25,7 +25,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the PostedDate property.
      *
-     * @return XMLGregorianCalendar PostedDate.
+     * @return \DateTime PostedDate.
      */
     public function getPostedDate()
     {
@@ -35,7 +35,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedDate($value)
     {
@@ -65,7 +65,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the CouponId property.
      *
-     * @return String CouponId.
+     * @return \string CouponId.
      */
     public function getCouponId()
     {
@@ -75,7 +75,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
      * Set the value of the CouponId property.
      *
      * @param string couponId
-     * @return $this 
+     * @return $this instance
      */
     public function setCouponId($value)
     {
@@ -105,7 +105,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the SellerCouponDescription property.
      *
-     * @return String SellerCouponDescription.
+     * @return \string SellerCouponDescription.
      */
     public function getSellerCouponDescription()
     {
@@ -115,7 +115,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
      * Set the value of the SellerCouponDescription property.
      *
      * @param string sellerCouponDescription
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerCouponDescription($value)
     {
@@ -145,7 +145,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the ClipOrRedemptionCount property.
      *
-     * @return Long ClipOrRedemptionCount.
+     * @return int ClipOrRedemptionCount.
      */
     public function getClipOrRedemptionCount()
     {
@@ -155,7 +155,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
      * Set the value of the ClipOrRedemptionCount property.
      *
      * @param int clipOrRedemptionCount
-     * @return $this 
+     * @return $this instance
      */
     public function setClipOrRedemptionCount($value)
     {
@@ -185,7 +185,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the PaymentEventId property.
      *
-     * @return String PaymentEventId.
+     * @return \string PaymentEventId.
      */
     public function getPaymentEventId()
     {
@@ -195,7 +195,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
      * Set the value of the PaymentEventId property.
      *
      * @param string paymentEventId
-     * @return $this 
+     * @return $this instance
      */
     public function setPaymentEventId($value)
     {
@@ -235,7 +235,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
      * Set the value of the FeeComponent property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent feeComponent
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeComponent($value)
     {
@@ -275,7 +275,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
      * Set the value of the ChargeComponent property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent chargeComponent
-     * @return $this 
+     * @return $this instance
      */
     public function setChargeComponent($value)
     {
@@ -315,7 +315,7 @@ class MwsFinancesServiceModelCouponPaymentEvent extends MwsFinancesServiceModel
      * Set the value of the TotalAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency totalAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setTotalAmount($value)
     {

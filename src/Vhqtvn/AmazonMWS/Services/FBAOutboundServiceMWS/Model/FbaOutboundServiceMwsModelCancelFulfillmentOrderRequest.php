@@ -21,7 +21,7 @@ class FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -31,7 +31,7 @@ class FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -61,7 +61,7 @@ class FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -71,7 +71,7 @@ class FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -101,7 +101,7 @@ class FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the Marketplace property.
      *
-     * @return String Marketplace.
+     * @return \string Marketplace.
      */
     public function getMarketplace()
     {
@@ -111,7 +111,7 @@ class FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the Marketplace property.
      *
      * @param string marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -141,7 +141,7 @@ class FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the SellerFulfillmentOrderId property.
      *
-     * @return String SellerFulfillmentOrderId.
+     * @return \string SellerFulfillmentOrderId.
      */
     public function getSellerFulfillmentOrderId()
     {
@@ -151,7 +151,7 @@ class FbaOutboundServiceMwsModelCancelFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the SellerFulfillmentOrderId property.
      *
      * @param string sellerFulfillmentOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderId($value)
     {

@@ -33,7 +33,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -43,7 +43,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -73,7 +73,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -83,7 +83,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -113,7 +113,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the Marketplace property.
      *
-     * @return String Marketplace.
+     * @return \string Marketplace.
      */
     public function getMarketplace()
     {
@@ -123,7 +123,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the Marketplace property.
      *
      * @param string marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -153,7 +153,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -163,7 +163,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -193,7 +193,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the SellerFulfillmentOrderId property.
      *
-     * @return String SellerFulfillmentOrderId.
+     * @return \string SellerFulfillmentOrderId.
      */
     public function getSellerFulfillmentOrderId()
     {
@@ -203,7 +203,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the SellerFulfillmentOrderId property.
      *
      * @param string sellerFulfillmentOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFulfillmentOrderId($value)
     {
@@ -233,7 +233,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the DisplayableOrderId property.
      *
-     * @return String DisplayableOrderId.
+     * @return \string DisplayableOrderId.
      */
     public function getDisplayableOrderId()
     {
@@ -243,7 +243,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the DisplayableOrderId property.
      *
      * @param string displayableOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setDisplayableOrderId($value)
     {
@@ -273,7 +273,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the DisplayableOrderDateTime property.
      *
-     * @return XMLGregorianCalendar DisplayableOrderDateTime.
+     * @return \DateTime DisplayableOrderDateTime.
      */
     public function getDisplayableOrderDateTime()
     {
@@ -283,7 +283,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the DisplayableOrderDateTime property.
      *
      * @param string displayableOrderDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setDisplayableOrderDateTime($value)
     {
@@ -313,7 +313,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the DisplayableOrderComment property.
      *
-     * @return String DisplayableOrderComment.
+     * @return \string DisplayableOrderComment.
      */
     public function getDisplayableOrderComment()
     {
@@ -323,7 +323,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the DisplayableOrderComment property.
      *
      * @param string displayableOrderComment
-     * @return $this 
+     * @return $this instance
      */
     public function setDisplayableOrderComment($value)
     {
@@ -353,7 +353,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the ShippingSpeedCategory property.
      *
-     * @return String ShippingSpeedCategory.
+     * @return \string ShippingSpeedCategory.
      */
     public function getShippingSpeedCategory()
     {
@@ -363,7 +363,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the ShippingSpeedCategory property.
      *
      * @param string shippingSpeedCategory
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingSpeedCategory($value)
     {
@@ -403,7 +403,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the DestinationAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelAddress destinationAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setDestinationAddress($value)
     {
@@ -433,7 +433,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the FulfillmentAction property.
      *
-     * @return String FulfillmentAction.
+     * @return \string FulfillmentAction.
      */
     public function getFulfillmentAction()
     {
@@ -443,7 +443,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the FulfillmentAction property.
      *
      * @param string fulfillmentAction
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentAction($value)
     {
@@ -473,7 +473,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the FulfillmentPolicy property.
      *
-     * @return String FulfillmentPolicy.
+     * @return \string FulfillmentPolicy.
      */
     public function getFulfillmentPolicy()
     {
@@ -483,7 +483,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the FulfillmentPolicy property.
      *
      * @param string fulfillmentPolicy
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentPolicy($value)
     {
@@ -513,7 +513,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the FulfillmentMethod property.
      *
-     * @return String FulfillmentMethod.
+     * @return \string FulfillmentMethod.
      */
     public function getFulfillmentMethod()
     {
@@ -523,7 +523,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the FulfillmentMethod property.
      *
      * @param string fulfillmentMethod
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentMethod($value)
     {
@@ -553,7 +553,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
     /**
      * Get the value of the ShipFromCountryCode property.
      *
-     * @return String ShipFromCountryCode.
+     * @return \string ShipFromCountryCode.
      */
     public function getShipFromCountryCode()
     {
@@ -563,7 +563,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the ShipFromCountryCode property.
      *
      * @param string shipFromCountryCode
-     * @return $this 
+     * @return $this instance
      */
     public function setShipFromCountryCode($value)
     {
@@ -603,7 +603,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the NotificationEmailList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelNotificationEmailList notificationEmailList
-     * @return $this 
+     * @return $this instance
      */
     public function setNotificationEmailList($value)
     {
@@ -643,7 +643,7 @@ class FbaOutboundServiceMwsModelUpdateFulfillmentOrderRequest extends FbaOutboun
      * Set the value of the Items property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelUpdateFulfillmentOrderItemList items
-     * @return $this 
+     * @return $this instance
      */
     public function setItems($value)
     {

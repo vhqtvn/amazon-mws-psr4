@@ -23,7 +23,7 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
     /**
      * Get the value of the PostedDate property.
      *
-     * @return XMLGregorianCalendar PostedDate.
+     * @return \DateTime PostedDate.
      */
     public function getPostedDate()
     {
@@ -33,7 +33,7 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedDate($value)
     {
@@ -63,7 +63,7 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
     /**
      * Get the value of the EnrollmentId property.
      *
-     * @return String EnrollmentId.
+     * @return \string EnrollmentId.
      */
     public function getEnrollmentId()
     {
@@ -73,7 +73,7 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
      * Set the value of the EnrollmentId property.
      *
      * @param string enrollmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setEnrollmentId($value)
     {
@@ -103,7 +103,7 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
     /**
      * Get the value of the ParentASIN property.
      *
-     * @return String ParentASIN.
+     * @return \string ParentASIN.
      */
     public function getParentASIN()
     {
@@ -113,7 +113,7 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
      * Set the value of the ParentASIN property.
      *
      * @param string parentASIN
-     * @return $this 
+     * @return $this instance
      */
     public function setParentASIN($value)
     {
@@ -153,7 +153,7 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
      * Set the value of the FeeComponent property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFeeComponent feeComponent
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeComponent($value)
     {
@@ -193,7 +193,7 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
      * Set the value of the ChargeComponent property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelChargeComponent chargeComponent
-     * @return $this 
+     * @return $this instance
      */
     public function setChargeComponent($value)
     {
@@ -233,7 +233,7 @@ class MwsFinancesServiceModelSellerReviewEnrollmentPaymentEvent extends MwsFinan
      * Set the value of the TotalAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency totalAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setTotalAmount($value)
     {

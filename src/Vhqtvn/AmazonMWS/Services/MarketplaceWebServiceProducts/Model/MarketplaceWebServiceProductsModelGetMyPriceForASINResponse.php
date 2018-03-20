@@ -35,7 +35,7 @@ class MarketplaceWebServiceProductsModelGetMyPriceForASINResponse extends Market
      * Set the value of the GetMyPriceForASINResult property.
      *
      * @param array getMyPriceForASINResult
-     * @return $this 
+     * @return $this instance
      */
     public function setGetMyPriceForASINResult($value)
     {
@@ -87,7 +87,7 @@ class MarketplaceWebServiceProductsModelGetMyPriceForASINResponse extends Market
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -127,7 +127,7 @@ class MarketplaceWebServiceProductsModelGetMyPriceForASINResponse extends Market
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

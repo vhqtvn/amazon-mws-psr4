@@ -20,7 +20,7 @@ class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServi
     /**
      * Get the value of the TimeOfFeesEstimation property.
      *
-     * @return XMLGregorianCalendar TimeOfFeesEstimation.
+     * @return \DateTime TimeOfFeesEstimation.
      */
     public function getTimeOfFeesEstimation()
     {
@@ -30,7 +30,7 @@ class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServi
      * Set the value of the TimeOfFeesEstimation property.
      *
      * @param string timeOfFeesEstimation
-     * @return $this 
+     * @return $this instance
      */
     public function setTimeOfFeesEstimation($value)
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServi
      * Set the value of the TotalFeesEstimate property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType totalFeesEstimate
-     * @return $this 
+     * @return $this instance
      */
     public function setTotalFeesEstimate($value)
     {
@@ -110,7 +110,7 @@ class MarketplaceWebServiceProductsModelFeesEstimate extends MarketplaceWebServi
      * Set the value of the FeeDetailList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetailList feeDetailList
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeDetailList($value)
     {

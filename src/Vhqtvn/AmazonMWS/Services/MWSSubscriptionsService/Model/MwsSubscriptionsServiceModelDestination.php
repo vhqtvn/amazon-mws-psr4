@@ -19,7 +19,7 @@ class MwsSubscriptionsServiceModelDestination extends MwsSubscriptionsServiceMod
     /**
      * Get the value of the DeliveryChannel property.
      *
-     * @return String DeliveryChannel.
+     * @return \string DeliveryChannel.
      */
     public function getDeliveryChannel()
     {
@@ -29,7 +29,7 @@ class MwsSubscriptionsServiceModelDestination extends MwsSubscriptionsServiceMod
      * Set the value of the DeliveryChannel property.
      *
      * @param string deliveryChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setDeliveryChannel($value)
     {
@@ -69,7 +69,7 @@ class MwsSubscriptionsServiceModelDestination extends MwsSubscriptionsServiceMod
      * Set the value of the AttributeList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelAttributeKeyValueList attributeList
-     * @return $this 
+     * @return $this instance
      */
     public function setAttributeList($value)
     {

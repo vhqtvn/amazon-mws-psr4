@@ -22,7 +22,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -32,7 +32,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -62,7 +62,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -72,7 +72,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -102,7 +102,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Get the value of the ShipmentId property.
      *
-     * @return String ShipmentId.
+     * @return \string ShipmentId.
      */
     public function getShipmentId()
     {
@@ -112,7 +112,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
      * Set the value of the ShipmentId property.
      *
      * @param string shipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentId($value)
     {
@@ -142,7 +142,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Get the value of the PageType property.
      *
-     * @return String PageType.
+     * @return \string PageType.
      */
     public function getPageType()
     {
@@ -152,7 +152,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
      * Set the value of the PageType property.
      *
      * @param string pageType
-     * @return $this 
+     * @return $this instance
      */
     public function setPageType($value)
     {
@@ -182,7 +182,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
     /**
      * Get the value of the NumberOfPackages property.
      *
-     * @return Integer NumberOfPackages.
+     * @return \int NumberOfPackages.
      */
     public function getNumberOfPackages()
     {
@@ -192,7 +192,7 @@ class FbaInboundServiceMwsModelGetPackageLabelsRequest extends FbaInboundService
      * Set the value of the NumberOfPackages property.
      *
      * @param int numberOfPackages
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfPackages($value)
     {

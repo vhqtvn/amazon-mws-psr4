@@ -19,7 +19,7 @@ class MwsFinancesServiceModelListFinancialEventsResult extends MwsFinancesServic
     /**
      * Get the value of the NextToken property.
      *
-     * @return String NextToken.
+     * @return \string NextToken.
      */
     public function getNextToken()
     {
@@ -29,7 +29,7 @@ class MwsFinancesServiceModelListFinancialEventsResult extends MwsFinancesServic
      * Set the value of the NextToken property.
      *
      * @param string nextToken
-     * @return $this 
+     * @return $this instance
      */
     public function setNextToken($value)
     {
@@ -69,7 +69,7 @@ class MwsFinancesServiceModelListFinancialEventsResult extends MwsFinancesServic
      * Set the value of the FinancialEvents property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelFinancialEvents financialEvents
-     * @return $this 
+     * @return $this instance
      */
     public function setFinancialEvents($value)
     {

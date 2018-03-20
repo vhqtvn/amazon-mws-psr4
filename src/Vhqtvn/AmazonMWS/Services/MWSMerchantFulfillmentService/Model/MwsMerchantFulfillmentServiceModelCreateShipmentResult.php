@@ -28,7 +28,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentResult extends MwsMerchant
      * Set the value of the Shipment property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipment shipment
-     * @return $this 
+     * @return $this instance
      */
     public function setShipment($value)
     {

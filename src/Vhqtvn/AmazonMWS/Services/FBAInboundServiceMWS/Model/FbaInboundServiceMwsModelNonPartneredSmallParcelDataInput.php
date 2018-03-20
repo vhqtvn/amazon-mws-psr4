@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelDataInput extends FbaInbou
     /**
      * Get the value of the CarrierName property.
      *
-     * @return String CarrierName.
+     * @return \string CarrierName.
      */
     public function getCarrierName()
     {
@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelDataInput extends FbaInbou
      * Set the value of the CarrierName property.
      *
      * @param string carrierName
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierName($value)
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelNonPartneredSmallParcelDataInput extends FbaInbou
      * Set the value of the PackageList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelNonPartneredSmallParcelPackageInputList packageList
-     * @return $this 
+     * @return $this instance
      */
     public function setPackageList($value)
     {

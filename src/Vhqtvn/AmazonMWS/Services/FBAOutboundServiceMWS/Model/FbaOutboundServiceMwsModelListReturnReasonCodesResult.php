@@ -28,7 +28,7 @@ class FbaOutboundServiceMwsModelListReturnReasonCodesResult extends FbaOutboundS
      * Set the value of the ReasonCodeDetailsList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelReasonCodeDetailsList reasonCodeDetailsList
-     * @return $this 
+     * @return $this instance
      */
     public function setReasonCodeDetailsList($value)
     {

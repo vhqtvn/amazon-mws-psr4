@@ -20,7 +20,7 @@ class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
     /**
      * Get the value of the TransportStatus property.
      *
-     * @return String TransportStatus.
+     * @return \string TransportStatus.
      */
     public function getTransportStatus()
     {
@@ -30,7 +30,7 @@ class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
      * Set the value of the TransportStatus property.
      *
      * @param string transportStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setTransportStatus($value)
     {
@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
     /**
      * Get the value of the ErrorCode property.
      *
-     * @return String ErrorCode.
+     * @return \string ErrorCode.
      */
     public function getErrorCode()
     {
@@ -70,7 +70,7 @@ class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
      * Set the value of the ErrorCode property.
      *
      * @param string errorCode
-     * @return $this 
+     * @return $this instance
      */
     public function setErrorCode($value)
     {
@@ -100,7 +100,7 @@ class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
     /**
      * Get the value of the ErrorDescription property.
      *
-     * @return String ErrorDescription.
+     * @return \string ErrorDescription.
      */
     public function getErrorDescription()
     {
@@ -110,7 +110,7 @@ class FbaInboundServiceMwsModelTransportResult extends FbaInboundServiceMwsModel
      * Set the value of the ErrorDescription property.
      *
      * @param string errorDescription
-     * @return $this 
+     * @return $this instance
      */
     public function setErrorDescription($value)
     {

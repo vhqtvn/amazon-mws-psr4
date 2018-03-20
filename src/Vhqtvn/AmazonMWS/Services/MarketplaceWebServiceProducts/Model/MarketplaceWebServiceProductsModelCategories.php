@@ -20,7 +20,7 @@ class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebService
     /**
      * Get the value of the ProductCategoryId property.
      *
-     * @return String ProductCategoryId.
+     * @return \string ProductCategoryId.
      */
     public function getProductCategoryId()
     {
@@ -30,7 +30,7 @@ class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebService
      * Set the value of the ProductCategoryId property.
      *
      * @param string productCategoryId
-     * @return $this 
+     * @return $this instance
      */
     public function setProductCategoryId($value)
     {
@@ -60,7 +60,7 @@ class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebService
     /**
      * Get the value of the ProductCategoryName property.
      *
-     * @return String ProductCategoryName.
+     * @return \string ProductCategoryName.
      */
     public function getProductCategoryName()
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebService
      * Set the value of the ProductCategoryName property.
      *
      * @param string productCategoryName
-     * @return $this 
+     * @return $this instance
      */
     public function setProductCategoryName($value)
     {
@@ -110,7 +110,7 @@ class MarketplaceWebServiceProductsModelCategories extends MarketplaceWebService
      * Set the value of the Parent property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelCategories parent
-     * @return $this 
+     * @return $this instance
      */
     public function setParent($value)
     {

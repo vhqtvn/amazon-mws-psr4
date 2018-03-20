@@ -33,7 +33,7 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
      * Set the value of the itemChargeList property.
      *
      * @param array itemChargeList
-     * @return $this 
+     * @return $this instance
      */
     public function setitemChargeList($value)
     {
@@ -75,7 +75,7 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
     /**
      * Get the value of the productDescription property.
      *
-     * @return String productDescription.
+     * @return \string productDescription.
      */
     public function getproductDescription()
     {
@@ -85,7 +85,7 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
      * Set the value of the productDescription property.
      *
      * @param string productDescription
-     * @return $this 
+     * @return $this instance
      */
     public function setproductDescription($value)
     {
@@ -115,7 +115,7 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
     /**
      * Get the value of the quantity property.
      *
-     * @return String quantity.
+     * @return \string quantity.
      */
     public function getquantity()
     {
@@ -125,7 +125,7 @@ class MwsFinancesServiceModelSAFETReimbursementItem extends MwsFinancesServiceMo
      * Set the value of the quantity property.
      *
      * @param string quantity
-     * @return $this 
+     * @return $this instance
      */
     public function setquantity($value)
     {

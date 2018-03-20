@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\MarketplaceWebServic
 /**
  * \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUListType
  * 
- * @property	\[]	$SellerSKU
+ * @property	\string[]	$SellerSKU
  */
 class MarketplaceWebServiceProductsModelSellerSKUListType extends MarketplaceWebServiceProductsModel
 {
@@ -18,7 +18,7 @@ class MarketplaceWebServiceProductsModelSellerSKUListType extends MarketplaceWeb
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelString[] SellerSKU.
+     * @return \string[] SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelSellerSKUListType extends MarketplaceWeb
      * Set the value of the SellerSKU property.
      *
      * @param array sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {

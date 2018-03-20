@@ -50,7 +50,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -90,7 +90,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -130,7 +130,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -169,7 +169,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
     /**
      * Sets the value of the FeedSubmissionIdList.
      * 
-     * @param IdList FeedSubmissionIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList FeedSubmissionIdList
      * @return void
      */
     public function setFeedSubmissionIdList($value)
@@ -180,7 +180,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
     /**
      * Set the value of FeedSubmissionIdList, return this.
      *
-     * @param IdList $FeedSubmissionIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList $FeedSubmissionIdList
      * @return $this
      */
     public function withFeedSubmissionIdList($FeedSubmissionIdList)
@@ -209,7 +209,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
     /**
      * Sets the value of the FeedTypeList.
      * 
-     * @param TypeList FeedTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList FeedTypeList
      * @return void
      */
     public function setFeedTypeList($value)
@@ -220,7 +220,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
     /**
      * Set the value of FeedTypeList, return this.
      *
-     * @param TypeList $FeedTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList $FeedTypeList
      * @return $this
      */
     public function withFeedTypeList($FeedTypeList)
@@ -250,7 +250,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
      * Sets the value of the SubmittedFromDate property.
      * 
      * @param string SubmittedFromDate
-     * @return $this 
+     * @return $this instance
      */
     public function setSubmittedFromDate($value)
     {
@@ -290,7 +290,7 @@ class MarketplaceWebServiceModelCancelFeedSubmissionsRequest extends Marketplace
      * Sets the value of the SubmittedToDate property.
      * 
      * @param string SubmittedToDate
-     * @return $this 
+     * @return $this instance
      */
     public function setSubmittedToDate($value)
     {

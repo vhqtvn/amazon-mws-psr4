@@ -28,7 +28,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the FinancialEventGroupId property.
      *
-     * @return String FinancialEventGroupId.
+     * @return \string FinancialEventGroupId.
      */
     public function getFinancialEventGroupId()
     {
@@ -38,7 +38,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the FinancialEventGroupId property.
      *
      * @param string financialEventGroupId
-     * @return $this 
+     * @return $this instance
      */
     public function setFinancialEventGroupId($value)
     {
@@ -68,7 +68,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the ProcessingStatus property.
      *
-     * @return String ProcessingStatus.
+     * @return \string ProcessingStatus.
      */
     public function getProcessingStatus()
     {
@@ -78,7 +78,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the ProcessingStatus property.
      *
      * @param string processingStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setProcessingStatus($value)
     {
@@ -108,7 +108,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the FundTransferStatus property.
      *
-     * @return String FundTransferStatus.
+     * @return \string FundTransferStatus.
      */
     public function getFundTransferStatus()
     {
@@ -118,7 +118,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the FundTransferStatus property.
      *
      * @param string fundTransferStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setFundTransferStatus($value)
     {
@@ -158,7 +158,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the OriginalTotal property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency originalTotal
-     * @return $this 
+     * @return $this instance
      */
     public function setOriginalTotal($value)
     {
@@ -198,7 +198,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the ConvertedTotal property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency convertedTotal
-     * @return $this 
+     * @return $this instance
      */
     public function setConvertedTotal($value)
     {
@@ -228,7 +228,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the FundTransferDate property.
      *
-     * @return XMLGregorianCalendar FundTransferDate.
+     * @return \DateTime FundTransferDate.
      */
     public function getFundTransferDate()
     {
@@ -238,7 +238,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the FundTransferDate property.
      *
      * @param string fundTransferDate
-     * @return $this 
+     * @return $this instance
      */
     public function setFundTransferDate($value)
     {
@@ -268,7 +268,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the TraceId property.
      *
-     * @return String TraceId.
+     * @return \string TraceId.
      */
     public function getTraceId()
     {
@@ -278,7 +278,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the TraceId property.
      *
      * @param string traceId
-     * @return $this 
+     * @return $this instance
      */
     public function setTraceId($value)
     {
@@ -308,7 +308,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the AccountTail property.
      *
-     * @return String AccountTail.
+     * @return \string AccountTail.
      */
     public function getAccountTail()
     {
@@ -318,7 +318,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the AccountTail property.
      *
      * @param string accountTail
-     * @return $this 
+     * @return $this instance
      */
     public function setAccountTail($value)
     {
@@ -358,7 +358,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the BeginningBalance property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency beginningBalance
-     * @return $this 
+     * @return $this instance
      */
     public function setBeginningBalance($value)
     {
@@ -388,7 +388,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the FinancialEventGroupStart property.
      *
-     * @return XMLGregorianCalendar FinancialEventGroupStart.
+     * @return \DateTime FinancialEventGroupStart.
      */
     public function getFinancialEventGroupStart()
     {
@@ -398,7 +398,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the FinancialEventGroupStart property.
      *
      * @param string financialEventGroupStart
-     * @return $this 
+     * @return $this instance
      */
     public function setFinancialEventGroupStart($value)
     {
@@ -428,7 +428,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
     /**
      * Get the value of the FinancialEventGroupEnd property.
      *
-     * @return XMLGregorianCalendar FinancialEventGroupEnd.
+     * @return \DateTime FinancialEventGroupEnd.
      */
     public function getFinancialEventGroupEnd()
     {
@@ -438,7 +438,7 @@ class MwsFinancesServiceModelFinancialEventGroup extends MwsFinancesServiceModel
      * Set the value of the FinancialEventGroupEnd property.
      *
      * @param string financialEventGroupEnd
-     * @return $this 
+     * @return $this instance
      */
     public function setFinancialEventGroupEnd($value)
     {

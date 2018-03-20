@@ -25,7 +25,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -35,7 +35,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -65,7 +65,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Get the value of the FNSKU property.
      *
-     * @return String FNSKU.
+     * @return \string FNSKU.
      */
     public function getFNSKU()
     {
@@ -75,7 +75,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
      * Set the value of the FNSKU property.
      *
      * @param string fnsku
-     * @return $this 
+     * @return $this instance
      */
     public function setFNSKU($value)
     {
@@ -105,7 +105,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -115,7 +115,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -145,7 +145,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Get the value of the Condition property.
      *
-     * @return String Condition.
+     * @return \string Condition.
      */
     public function getCondition()
     {
@@ -155,7 +155,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
      * Set the value of the Condition property.
      *
      * @param string condition
-     * @return $this 
+     * @return $this instance
      */
     public function setCondition($value)
     {
@@ -185,7 +185,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Get the value of the TotalSupplyQuantity property.
      *
-     * @return Integer TotalSupplyQuantity.
+     * @return \int TotalSupplyQuantity.
      */
     public function getTotalSupplyQuantity()
     {
@@ -195,7 +195,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
      * Set the value of the TotalSupplyQuantity property.
      *
      * @param int totalSupplyQuantity
-     * @return $this 
+     * @return $this instance
      */
     public function setTotalSupplyQuantity($value)
     {
@@ -225,7 +225,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
     /**
      * Get the value of the InStockSupplyQuantity property.
      *
-     * @return Integer InStockSupplyQuantity.
+     * @return \int InStockSupplyQuantity.
      */
     public function getInStockSupplyQuantity()
     {
@@ -235,7 +235,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
      * Set the value of the InStockSupplyQuantity property.
      *
      * @param int inStockSupplyQuantity
-     * @return $this 
+     * @return $this instance
      */
     public function setInStockSupplyQuantity($value)
     {
@@ -275,7 +275,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
      * Set the value of the EarliestAvailability property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelTimepoint earliestAvailability
-     * @return $this 
+     * @return $this instance
      */
     public function setEarliestAvailability($value)
     {
@@ -315,7 +315,7 @@ class FbaInventoryServiceMwsModelInventorySupply extends FbaInventoryServiceMwsM
      * Set the value of the SupplyDetail property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelInventorySupplyDetailList supplyDetail
-     * @return $this 
+     * @return $this instance
      */
     public function setSupplyDetail($value)
     {

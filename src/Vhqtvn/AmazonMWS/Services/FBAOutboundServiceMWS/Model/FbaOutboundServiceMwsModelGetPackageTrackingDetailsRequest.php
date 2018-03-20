@@ -20,7 +20,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsRequest extends FbaOutb
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -30,7 +30,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsRequest extends FbaOutb
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -60,7 +60,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsRequest extends FbaOutb
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -70,7 +70,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsRequest extends FbaOutb
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -110,7 +110,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsRequest extends FbaOutb
      * Set the value of the PackageNumber property.
      *
      * @param int packageNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setPackageNumber($value)
     {

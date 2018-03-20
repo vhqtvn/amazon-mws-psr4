@@ -32,7 +32,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
      * Set the value of the Products property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProductList products
-     * @return $this 
+     * @return $this instance
      */
     public function setProducts($value)
     {
@@ -72,7 +72,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
      * Set the value of the Error property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelError error
-     * @return $this 
+     * @return $this instance
      */
     public function setError($value)
     {
@@ -102,7 +102,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Get the value of the Id property.
      *
-     * @return String Id.
+     * @return \string Id.
      */
     public function getId()
     {
@@ -112,7 +112,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
      * Set the value of the Id property.
      *
      * @param string id
-     * @return $this 
+     * @return $this instance
      */
     public function setId($value)
     {
@@ -142,7 +142,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Get the value of the IdType property.
      *
-     * @return String IdType.
+     * @return \string IdType.
      */
     public function getIdType()
     {
@@ -152,7 +152,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
      * Set the value of the IdType property.
      *
      * @param string idType
-     * @return $this 
+     * @return $this instance
      */
     public function setIdType($value)
     {
@@ -182,7 +182,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
     /**
      * Get the value of the status property.
      *
-     * @return String status.
+     * @return \string status.
      */
     public function getstatus()
     {
@@ -192,7 +192,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductForIdResult extends Ma
      * Set the value of the status property.
      *
      * @param string status
-     * @return $this 
+     * @return $this instance
      */
     public function setstatus($value)
     {

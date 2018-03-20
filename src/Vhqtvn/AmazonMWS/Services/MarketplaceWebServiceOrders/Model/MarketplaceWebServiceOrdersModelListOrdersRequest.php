@@ -12,14 +12,14 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * @property	string	$CreatedBefore
  * @property	string	$LastUpdatedAfter
  * @property	string	$LastUpdatedBefore
- * @property	\[]	$OrderStatus
- * @property	\[]	$MarketplaceId
- * @property	\[]	$FulfillmentChannel
- * @property	\[]	$PaymentMethod
+ * @property	\string[]	$OrderStatus
+ * @property	\string[]	$MarketplaceId
+ * @property	\string[]	$FulfillmentChannel
+ * @property	\string[]	$PaymentMethod
  * @property	string	$BuyerEmail
  * @property	string	$SellerOrderId
  * @property	int	$MaxResultsPerPage
- * @property	\[]	$TFMShipmentStatus
+ * @property	\string[]	$TFMShipmentStatus
  */
 class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebServiceOrdersModel
 {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -41,7 +41,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -81,7 +81,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the CreatedAfter property.
      *
-     * @return XMLGregorianCalendar CreatedAfter.
+     * @return \DateTime CreatedAfter.
      */
     public function getCreatedAfter()
     {
@@ -121,7 +121,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the CreatedAfter property.
      *
      * @param string createdAfter
-     * @return $this 
+     * @return $this instance
      */
     public function setCreatedAfter($value)
     {
@@ -151,7 +151,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the CreatedBefore property.
      *
-     * @return XMLGregorianCalendar CreatedBefore.
+     * @return \DateTime CreatedBefore.
      */
     public function getCreatedBefore()
     {
@@ -161,7 +161,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the CreatedBefore property.
      *
      * @param string createdBefore
-     * @return $this 
+     * @return $this instance
      */
     public function setCreatedBefore($value)
     {
@@ -191,7 +191,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the LastUpdatedAfter property.
      *
-     * @return XMLGregorianCalendar LastUpdatedAfter.
+     * @return \DateTime LastUpdatedAfter.
      */
     public function getLastUpdatedAfter()
     {
@@ -201,7 +201,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the LastUpdatedAfter property.
      *
      * @param string lastUpdatedAfter
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdatedAfter($value)
     {
@@ -231,7 +231,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the LastUpdatedBefore property.
      *
-     * @return XMLGregorianCalendar LastUpdatedBefore.
+     * @return \DateTime LastUpdatedBefore.
      */
     public function getLastUpdatedBefore()
     {
@@ -241,7 +241,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the LastUpdatedBefore property.
      *
      * @param string lastUpdatedBefore
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdatedBefore($value)
     {
@@ -271,7 +271,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the OrderStatus property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] OrderStatus.
+     * @return \string[] OrderStatus.
      */
     public function getOrderStatus()
     {
@@ -284,7 +284,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the OrderStatus property.
      *
      * @param array orderStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderStatus($value)
     {
@@ -326,7 +326,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] MarketplaceId.
+     * @return \string[] MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -339,7 +339,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the MarketplaceId property.
      *
      * @param array marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -381,7 +381,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the FulfillmentChannel property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] FulfillmentChannel.
+     * @return \string[] FulfillmentChannel.
      */
     public function getFulfillmentChannel()
     {
@@ -394,7 +394,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the FulfillmentChannel property.
      *
      * @param array fulfillmentChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -436,7 +436,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the PaymentMethod property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] PaymentMethod.
+     * @return \string[] PaymentMethod.
      */
     public function getPaymentMethod()
     {
@@ -449,7 +449,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the PaymentMethod property.
      *
      * @param array paymentMethod
-     * @return $this 
+     * @return $this instance
      */
     public function setPaymentMethod($value)
     {
@@ -491,7 +491,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the BuyerEmail property.
      *
-     * @return String BuyerEmail.
+     * @return \string BuyerEmail.
      */
     public function getBuyerEmail()
     {
@@ -501,7 +501,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the BuyerEmail property.
      *
      * @param string buyerEmail
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyerEmail($value)
     {
@@ -531,7 +531,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the SellerOrderId property.
      *
-     * @return String SellerOrderId.
+     * @return \string SellerOrderId.
      */
     public function getSellerOrderId()
     {
@@ -541,7 +541,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the SellerOrderId property.
      *
      * @param string sellerOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerOrderId($value)
     {
@@ -571,7 +571,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the MaxResultsPerPage property.
      *
-     * @return Integer MaxResultsPerPage.
+     * @return \int MaxResultsPerPage.
      */
     public function getMaxResultsPerPage()
     {
@@ -581,7 +581,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the MaxResultsPerPage property.
      *
      * @param int maxResultsPerPage
-     * @return $this 
+     * @return $this instance
      */
     public function setMaxResultsPerPage($value)
     {
@@ -611,7 +611,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
     /**
      * Get the value of the TFMShipmentStatus property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] TFMShipmentStatus.
+     * @return \string[] TFMShipmentStatus.
      */
     public function getTFMShipmentStatus()
     {
@@ -624,7 +624,7 @@ class MarketplaceWebServiceOrdersModelListOrdersRequest extends MarketplaceWebSe
      * Set the value of the TFMShipmentStatus property.
      *
      * @param array tfmShipmentStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setTFMShipmentStatus($value)
     {

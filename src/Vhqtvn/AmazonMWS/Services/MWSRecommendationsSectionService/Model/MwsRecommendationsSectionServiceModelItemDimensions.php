@@ -31,7 +31,7 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
      * Set the value of the Height property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure height
-     * @return $this 
+     * @return $this instance
      */
     public function setHeight($value)
     {
@@ -71,7 +71,7 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
      * Set the value of the Width property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure width
-     * @return $this 
+     * @return $this instance
      */
     public function setWidth($value)
     {
@@ -111,7 +111,7 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
      * Set the value of the Length property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelDimensionMeasure length
-     * @return $this 
+     * @return $this instance
      */
     public function setLength($value)
     {
@@ -151,7 +151,7 @@ class MwsRecommendationsSectionServiceModelItemDimensions extends MwsRecommendat
      * Set the value of the Weight property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelWeightMeasure weight
-     * @return $this 
+     * @return $this instance
      */
     public function setWeight($value)
     {

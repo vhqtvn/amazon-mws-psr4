@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelGetReportScheduleCountResponse extends Marketpla
     /**
      * Sets the value of the GetReportScheduleCountResult.
      * 
-     * @param GetReportScheduleCountResult GetReportScheduleCountResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleCountResult GetReportScheduleCountResult
      * @return void
      */
     public function setGetReportScheduleCountResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelGetReportScheduleCountResponse extends Marketpla
     /**
      * Set the value of GetReportScheduleCountResult, return this.
      *
-     * @param GetReportScheduleCountResult $GetReportScheduleCountResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportScheduleCountResult $GetReportScheduleCountResult
      * @return $this
      */
     public function withGetReportScheduleCountResult($GetReportScheduleCountResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelGetReportScheduleCountResponse extends Marketpla
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelGetReportScheduleCountResponse extends Marketpla
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

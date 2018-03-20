@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelInvalidSKUList extends FbaInboundServiceMwsModel
      * Set the value of the InvalidSKU property.
      *
      * @param array invalidSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setInvalidSKU($value)
     {

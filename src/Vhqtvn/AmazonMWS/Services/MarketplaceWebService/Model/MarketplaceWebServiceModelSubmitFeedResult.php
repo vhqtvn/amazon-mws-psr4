@@ -39,7 +39,7 @@ class MarketplaceWebServiceModelSubmitFeedResult extends MarketplaceWebServiceMo
     /**
      * Sets the value of the FeedSubmissionInfo.
      * 
-     * @param FeedSubmissionInfo FeedSubmissionInfo
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo FeedSubmissionInfo
      * @return void
      */
     public function setFeedSubmissionInfo($value)
@@ -50,7 +50,7 @@ class MarketplaceWebServiceModelSubmitFeedResult extends MarketplaceWebServiceMo
     /**
      * Set the value of FeedSubmissionInfo, return this.
      *
-     * @param FeedSubmissionInfo $FeedSubmissionInfo
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelFeedSubmissionInfo $FeedSubmissionInfo
      * @return $this
      */
     public function withFeedSubmissionInfo($FeedSubmissionInfo)

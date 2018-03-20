@@ -22,7 +22,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -32,7 +32,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -62,7 +62,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -72,7 +72,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -102,7 +102,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -112,7 +112,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -142,7 +142,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
     /**
      * Get the value of the RecommendationCategory property.
      *
-     * @return String RecommendationCategory.
+     * @return \string RecommendationCategory.
      */
     public function getRecommendationCategory()
     {
@@ -152,7 +152,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
      * Set the value of the RecommendationCategory property.
      *
      * @param string recommendationCategory
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationCategory($value)
     {
@@ -195,7 +195,7 @@ class MwsRecommendationsSectionServiceModelListRecommendationsRequest extends Mw
      * Set the value of the CategoryQueryList property.
      *
      * @param array categoryQueryList
-     * @return $this 
+     * @return $this instance
      */
     public function setCategoryQueryList($value)
     {

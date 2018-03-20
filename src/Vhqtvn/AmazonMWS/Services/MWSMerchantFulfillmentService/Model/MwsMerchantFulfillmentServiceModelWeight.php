@@ -19,7 +19,7 @@ class MwsMerchantFulfillmentServiceModelWeight extends MwsMerchantFulfillmentSer
     /**
      * Get the value of the Value property.
      *
-     * @return BigDecimal Value.
+     * @return \float Value.
      */
     public function getValue()
     {
@@ -29,7 +29,7 @@ class MwsMerchantFulfillmentServiceModelWeight extends MwsMerchantFulfillmentSer
      * Set the value of the Value property.
      *
      * @param float value
-     * @return $this 
+     * @return $this instance
      */
     public function setValue($value)
     {
@@ -59,7 +59,7 @@ class MwsMerchantFulfillmentServiceModelWeight extends MwsMerchantFulfillmentSer
     /**
      * Get the value of the Unit property.
      *
-     * @return String Unit.
+     * @return \string Unit.
      */
     public function getUnit()
     {
@@ -69,7 +69,7 @@ class MwsMerchantFulfillmentServiceModelWeight extends MwsMerchantFulfillmentSer
      * Set the value of the Unit property.
      *
      * @param string unit
-     * @return $this 
+     * @return $this instance
      */
     public function setUnit($value)
     {

@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
     /**
      * Sets the value of the SubmitFeedResult.
      * 
-     * @param SubmitFeedResult SubmitFeedResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelSubmitFeedResult SubmitFeedResult
      * @return void
      */
     public function setSubmitFeedResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
     /**
      * Set the value of SubmitFeedResult, return this.
      *
-     * @param SubmitFeedResult $SubmitFeedResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelSubmitFeedResult $SubmitFeedResult
      * @return $this
      */
     public function withSubmitFeedResult($SubmitFeedResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelSubmitFeedResponse extends MarketplaceWebService
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

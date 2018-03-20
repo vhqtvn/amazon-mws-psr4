@@ -8,65 +8,73 @@ define('PREFIX', "MarketplaceWebServiceModelFBAFeeds");
 @mkdir(OUT_PATH);
 
 $type_map = [
-    'xsd:positiveInteger' => [
+    'xsd:positiveInteger'         => [
         'type' => 'int',
         'desc' => 'positive number',
     ],
-    'IDNumber' => [
+    'IDNumber'                    => [
         'type' => 'int',
         'desc' => 'ID Number',
     ],
-    'String' => [
+    'String'                      => [
         'type' => 'string',
         'desc' => 'max 50 characters',
     ],
-    'xsd:nonNegativeInteger' => [
+    'xsd:nonNegativeInteger'      => [
         'type' => 'int',
         'desc' => 'non-negative number',
     ],
-    'PositiveCurrencyAmount' => [
+    'PositiveCurrencyAmount'      => [
         'type' => 'float',
-        'desc' => 'Positive Currency Amount'
+        'desc' => 'Positive Currency Amount',
     ],
-    'xsd:date' => [
+    'xsd:date'                    => [
         'type' => 'string',
-        'desc' => 'Date'
+        'desc' => 'Date',
     ],
-    'xsd:dateTime' => [
+    'xsd:dateTime'                => [
         'type' => 'string',
-        'desc' => 'DateTime'
+        'desc' => 'DateTime',
     ],
-    'xsd:string' => [
+    'xsd:string'                  => [
         'type' => 'string',
     ],
-    'xsd:boolean' => [
+    'xsd:time'                    => [
+        'type' => 'string',
+        'desc' => 'Time',
+    ],
+    'xsd:boolean'                 => [
         'type' => 'boolean',
     ],
-    'FortyStringNotNull' => [
+    'FortyStringNotNull'          => [
         'type' => 'string',
-        'desc' => '1-40 chars, required'
+        'desc' => '1-40 chars, required',
     ],
-    'StringNotNull' => [
+    'StringNotNull'               => [
         'type' => 'string',
         'desc' => 'required',
     ],
-    'SKUType' => [
+    'SKUType'                     => [
         'type' => 'string',
-        'desc' => '1-40 chars'
+        'desc' => '1-40 chars',
     ],
-    'AddressTypeSupportNonCity' => [
+    'AddressLine'                 => [
+        'type' => 'string',
+        'desc' => '1-60 chars',
+    ],
+    'AddressTypeSupportNonCity'   => [
         'type' => PREFIX . 'AddressTypeSupportNonCity',
     ],
-    'AdjustmentBuyerPrice' => [
+    'AdjustmentBuyerPrice'        => [
         'type' => PREFIX . 'AdjustmentBuyerPrice',
     ],
-    'AdjustmentCurrencyAmount' => [
+    'AdjustmentCurrencyAmount'    => [
         'type' => 'float',
-        'desc' => 'Adjustment Currency Amount'
+        'desc' => 'Adjustment Currency Amount',
     ],
-    'PromotionApplicationType' => [
-        'type' => 'enum',
-        'class' => PREFIX . 'PromotionApplicationTypeEnum'
+    'PromotionApplicationType'    => [
+        'type'  => 'enum',
+        'class' => PREFIX . 'PromotionApplicationTypeEnum',
     ],
     'AdjustmentDirectPaymentType' => [
         'type' => PREFIX . 'AdjustmentDirectPaymentType',
@@ -79,15 +87,53 @@ $xpath = new DOMXPath($doc);
 $xpath->registerNamespace('xs', 'http://www.w3.org/2001/XMLSchema');
 
 foreach ($xpath->evaluate("/xs:schema/xs:element") as $e) {
-    if (in_array($e->getAttribute("name"), ['AddressTypeSupportNonCity', 'PromotionApplicationType', 'CarrierCode'])) {
+    if (in_array($e->getAttribute("name"), ['CarrierCode'])) {
         traverse("", $e);
     }
 }
+foreach ($xpath->evaluate("/xs:schema/xs:complexType") as $e) {
+    if (in_array($e->getAttribute("name"), ['AddressTypeSupportNonCity'])) {
+        $children = filter_nodes($e->childNodes);
+        if (count($children) != 1) {
+            var_dump(__LINE__, "", $children, $xml->attributes, $xml->getAttribute("name"));
+            exit;
+        }
+        $child = $children[0];
+        if ($child->nodeName !== 'xsd:sequence') {
+            var_dump(__LINE__, $child->nodeName);
+            exit;
+        }
+        generate_child($e->getAttribute("name"), filter_nodes($child->childNodes));
+    }
+}
+foreach ($xpath->evaluate("/xs:schema/xs:simpleType") as $e) {
+    if (in_array($e->getAttribute("name"), ['AddressLine', 'PromotionApplicationType'])) {
+        handle_simpletype($e->getAttribute("name"), $e);
+    }
+}
 
+$processes = glob(BASE_PATH . "/amazon-libraries/xsd/*.xsd");
 
-foreach (glob(BASE_PATH . "/amazon-libraries/xsd/*.xsd") as $xsd) {
-    if (in_array(basename($xsd), ['amzn-base.xsd', 'AutoAccessory.xsd', 'Override.xsd', 'Price.xsd', 'Product.xsd', 'ProductImage.xsd', 'Relationship.xsd'])) continue;
-    echo "$xsd\n";
+array_unshift($processes,
+    BASE_PATH . "/amazon-libraries/xsd/FulfillmentCenter.xsd"
+);
+
+foreach ($processes as $xsd) {
+    if (in_array(basename($xsd), [
+        'amzn-base.xsd',
+        'amzn-envelope.xsd',
+        'AutoAccessory.xsd',
+        'Override.xsd',
+        'Price.xsd',
+        'Product.xsd',
+        'ProductImage.xsd',
+        'Relationship.xsd',
+        'Listings.xsd',
+        'OrderAdjustment.xsd',
+        'SettlementReport.xsd',
+        'ProcessingReport.xsd',
+    ])) continue;
+    echo "**** $xsd\n";
     $doc = new DOMDocument();
     $doc->loadXML(file_get_contents($xsd));
     $xpath = new DOMXPath($doc);
@@ -96,9 +142,23 @@ foreach (glob(BASE_PATH . "/amazon-libraries/xsd/*.xsd") as $xsd) {
     $prefix = substr(basename($xsd), 0, -4);
 
     foreach ($xpath->evaluate("/xs:schema/xs:simpleType") as $e) {
-        var_dump($e->getAttribute("name"));
         $t = handle_simpletype($prefix . $e->getAttribute("name"), $e);
         $type_map[$t['name']] = $t;
+    }
+
+    foreach ($xpath->evaluate("/xs:schema/xs:complexType") as $e) {
+        $children = filter_nodes($e->childNodes);
+        if (count($children) != 1) {
+            var_dump(__LINE__, "", $children, $xml->attributes, $xml->getAttribute("name"));
+            exit;
+        }
+        $child = $children[0];
+        if ($child->nodeName !== 'xsd:sequence') {
+            var_dump(__LINE__, $child->nodeName);
+            exit;
+        }
+        $t = generate_child($prefix . $e->getAttribute("name"), filter_nodes($child->childNodes));
+        $type_map[$e->getAttribute("name")] = $t;
     }
 
     foreach ($xpath->evaluate("/xs:schema/xs:element") as $e) {
@@ -187,7 +247,7 @@ function generate_child($type, $children)
             if (!$ref) die("No name and ref");
             $props[] = [
                 'name' => $ref,
-                'spec' => check_type_ref($ref)
+                'spec' => check_type_ref($ref),
             ];
             return $ref;
         } else {
@@ -388,7 +448,7 @@ function generate_list_type($name, $org_type, $max)
 
     return [
             'type' => [$elm_type],
-            'max' => $max
+            'max'  => $max,
         ] + $org_type;
 }
 
@@ -412,14 +472,28 @@ function check_type_ref($ref)
             ];
         case 'CarrierCode':
             return [
-                'type' => 'enum',
+                'type'  => 'enum',
                 'class' => PREFIX . 'CarrierCodeEnum',
+            ];
+        case 'Header':
+        case 'FulfillmentCenter':
+        case 'Inventory':
+        case 'Listings':
+        case 'OrderAcknowledgement':
+        case 'OrderAdjustment':
+        case 'OrderFulfillment':
+        case 'Override':
+        case 'Price':
+        case 'ProcessingReport':
+            return [
+                'type'  => PREFIX . $ref,
             ];
         case     'ShipOption':
             return [
                 'type' => 'string',
-                'desc' => '1-50 chars, required'
+                'desc' => '1-50 chars, required',
             ];
+        case 'MarketplaceName':
         case 'AmazonOrderID':
         case 'AmazonOrderItemCode':
         case 'MerchantOrderID':
@@ -435,17 +509,40 @@ function check_type_ref($ref)
 function generate_enum($type, $base, $children)
 {
     $values = [];
+
+    $minLen = null;
+    $maxLen = null;
+
     foreach ($children as $child) {
         if ($child->nodeName !== 'xsd:enumeration') {
             if ($child->nodeName == 'xsd:pattern') {
                 return [
                     'type' => 'string',
-                    'desc' => "Must match pattern {$child->getAttribute('value')}"
+                    'desc' => "Must match pattern {$child->getAttribute('value')}",
                 ];
+            } else if ($child->nodeName == 'xsd:minLength') {
+                $minLen = $child->getAttribute('value');
+                continue;
+            } else if ($child->nodeName == 'xsd:maxLength') {
+                $maxLen = $child->getAttribute('value');
+                continue;
             }
             die("??? {$child->nodeName}");
         }
         $values[] = $child->getAttribute('value');
+    }
+
+    if (!is_null($minLen) || !is_null($maxLen)) {
+        if (!empty($values)) die("???? nono");
+        return [
+            'type' => 'string',
+            'desc' => "Length must be " . implode(" and ",
+                    array_merge(
+                        !is_null($minLen) ? [">= $minLen charaters"] : [],
+                        !is_null($maxLen) ? ["<= $maxLen charaters"] : []
+                    )
+                ),
+        ];
     }
 
     $type = PREFIX . $type . "Enum";
@@ -488,7 +585,7 @@ function generate_enum($type, $base, $children)
 
     return [
         'type' => 'string',
-        'desc' => "one of $type::K_*"
+        'desc' => "one of $type::K_*",
     ];
 }
 

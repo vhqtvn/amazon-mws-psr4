@@ -31,7 +31,7 @@ class MarketplaceWebServiceOrdersModelGetOrderResult extends MarketplaceWebServi
      * Set the value of the Orders property.
      *
      * @param array orders
-     * @return $this 
+     * @return $this instance
      */
     public function setOrders($value)
     {

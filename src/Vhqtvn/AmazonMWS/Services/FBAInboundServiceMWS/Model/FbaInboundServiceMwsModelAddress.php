@@ -25,7 +25,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
     /**
      * Get the value of the Name property.
      *
-     * @return String Name.
+     * @return \string Name.
      */
     public function getName()
     {
@@ -35,7 +35,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
      * Set the value of the Name property.
      *
      * @param string name
-     * @return $this 
+     * @return $this instance
      */
     public function setName($value)
     {
@@ -65,7 +65,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
     /**
      * Get the value of the AddressLine1 property.
      *
-     * @return String AddressLine1.
+     * @return \string AddressLine1.
      */
     public function getAddressLine1()
     {
@@ -75,7 +75,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
      * Set the value of the AddressLine1 property.
      *
      * @param string addressLine1
-     * @return $this 
+     * @return $this instance
      */
     public function setAddressLine1($value)
     {
@@ -105,7 +105,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
     /**
      * Get the value of the AddressLine2 property.
      *
-     * @return String AddressLine2.
+     * @return \string AddressLine2.
      */
     public function getAddressLine2()
     {
@@ -115,7 +115,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
      * Set the value of the AddressLine2 property.
      *
      * @param string addressLine2
-     * @return $this 
+     * @return $this instance
      */
     public function setAddressLine2($value)
     {
@@ -145,7 +145,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
     /**
      * Get the value of the DistrictOrCounty property.
      *
-     * @return String DistrictOrCounty.
+     * @return \string DistrictOrCounty.
      */
     public function getDistrictOrCounty()
     {
@@ -155,7 +155,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
      * Set the value of the DistrictOrCounty property.
      *
      * @param string districtOrCounty
-     * @return $this 
+     * @return $this instance
      */
     public function setDistrictOrCounty($value)
     {
@@ -185,7 +185,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
     /**
      * Get the value of the City property.
      *
-     * @return String City.
+     * @return \string City.
      */
     public function getCity()
     {
@@ -195,7 +195,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
      * Set the value of the City property.
      *
      * @param string city
-     * @return $this 
+     * @return $this instance
      */
     public function setCity($value)
     {
@@ -225,7 +225,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
     /**
      * Get the value of the StateOrProvinceCode property.
      *
-     * @return String StateOrProvinceCode.
+     * @return \string StateOrProvinceCode.
      */
     public function getStateOrProvinceCode()
     {
@@ -235,7 +235,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
      * Set the value of the StateOrProvinceCode property.
      *
      * @param string stateOrProvinceCode
-     * @return $this 
+     * @return $this instance
      */
     public function setStateOrProvinceCode($value)
     {
@@ -265,7 +265,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
     /**
      * Get the value of the CountryCode property.
      *
-     * @return String CountryCode.
+     * @return \string CountryCode.
      */
     public function getCountryCode()
     {
@@ -275,7 +275,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
      * Set the value of the CountryCode property.
      *
      * @param string countryCode
-     * @return $this 
+     * @return $this instance
      */
     public function setCountryCode($value)
     {
@@ -305,7 +305,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
     /**
      * Get the value of the PostalCode property.
      *
-     * @return String PostalCode.
+     * @return \string PostalCode.
      */
     public function getPostalCode()
     {
@@ -315,7 +315,7 @@ class FbaInboundServiceMwsModelAddress extends FbaInboundServiceMwsModel
      * Set the value of the PostalCode property.
      *
      * @param string postalCode
-     * @return $this 
+     * @return $this instance
      */
     public function setPostalCode($value)
     {

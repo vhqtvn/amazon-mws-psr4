@@ -62,7 +62,7 @@ class MarketplaceWebServiceModelGetReportListResponse extends MarketplaceWebServ
     /**
      * Sets the value of the GetReportListResult.
      * 
-     * @param GetReportListResult GetReportListResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListResult GetReportListResult
      * @return void
      */
     public function setGetReportListResult($value)
@@ -73,7 +73,7 @@ class MarketplaceWebServiceModelGetReportListResponse extends MarketplaceWebServ
     /**
      * Set the value of GetReportListResult, return this.
      *
-     * @param GetReportListResult $GetReportListResult
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelGetReportListResult $GetReportListResult
      * @return $this
      */
     public function withGetReportListResult($GetReportListResult)
@@ -102,7 +102,7 @@ class MarketplaceWebServiceModelGetReportListResponse extends MarketplaceWebServ
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value)
@@ -113,7 +113,7 @@ class MarketplaceWebServiceModelGetReportListResponse extends MarketplaceWebServ
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param ResponseMetadata $ResponseMetadata
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelResponseMetadata $ResponseMetadata
      * @return $this
      */
     public function withResponseMetadata($ResponseMetadata)

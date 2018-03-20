@@ -32,7 +32,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResponse ext
      * Set the value of the ListMarketplaceParticipationsResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListMarketplaceParticipationsResult listMarketplaceParticipationsResult
-     * @return $this 
+     * @return $this instance
      */
     public function setListMarketplaceParticipationsResult($value)
     {
@@ -72,7 +72,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResponse ext
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResponse ext
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

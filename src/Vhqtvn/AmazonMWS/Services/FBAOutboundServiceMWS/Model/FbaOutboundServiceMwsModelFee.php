@@ -19,7 +19,7 @@ class FbaOutboundServiceMwsModelFee extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the Name property.
      *
-     * @return String Name.
+     * @return \string Name.
      */
     public function getName()
     {
@@ -29,7 +29,7 @@ class FbaOutboundServiceMwsModelFee extends FbaOutboundServiceMwsModel
      * Set the value of the Name property.
      *
      * @param string name
-     * @return $this 
+     * @return $this instance
      */
     public function setName($value)
     {
@@ -69,7 +69,7 @@ class FbaOutboundServiceMwsModelFee extends FbaOutboundServiceMwsModel
      * Set the value of the Amount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelCurrency amount
-     * @return $this 
+     * @return $this instance
      */
     public function setAmount($value)
     {

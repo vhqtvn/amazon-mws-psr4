@@ -21,7 +21,7 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
     /**
      * Get the value of the Name property.
      *
-     * @return String Name.
+     * @return \string Name.
      */
     public function getName()
     {
@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
      * Set the value of the Name property.
      *
      * @param string name
-     * @return $this 
+     * @return $this instance
      */
     public function setName($value)
     {
@@ -61,7 +61,7 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
     /**
      * Get the value of the Phone property.
      *
-     * @return String Phone.
+     * @return \string Phone.
      */
     public function getPhone()
     {
@@ -71,7 +71,7 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
      * Set the value of the Phone property.
      *
      * @param string phone
-     * @return $this 
+     * @return $this instance
      */
     public function setPhone($value)
     {
@@ -101,7 +101,7 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
     /**
      * Get the value of the Email property.
      *
-     * @return String Email.
+     * @return \string Email.
      */
     public function getEmail()
     {
@@ -111,7 +111,7 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
      * Set the value of the Email property.
      *
      * @param string email
-     * @return $this 
+     * @return $this instance
      */
     public function setEmail($value)
     {
@@ -141,7 +141,7 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
     /**
      * Get the value of the Fax property.
      *
-     * @return String Fax.
+     * @return \string Fax.
      */
     public function getFax()
     {
@@ -151,7 +151,7 @@ class FbaInboundServiceMwsModelContact extends FbaInboundServiceMwsModel
      * Set the value of the Fax property.
      *
      * @param string fax
-     * @return $this 
+     * @return $this instance
      */
     public function setFax($value)
     {

@@ -21,7 +21,7 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
     /**
      * Get the value of the DeliveryExperience property.
      *
-     * @return String DeliveryExperience.
+     * @return \string DeliveryExperience.
      */
     public function getDeliveryExperience()
     {
@@ -31,7 +31,7 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
      * Set the value of the DeliveryExperience property.
      *
      * @param string deliveryExperience
-     * @return $this 
+     * @return $this instance
      */
     public function setDeliveryExperience($value)
     {
@@ -71,7 +71,7 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
      * Set the value of the DeclaredValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelCurrencyAmount declaredValue
-     * @return $this 
+     * @return $this instance
      */
     public function setDeclaredValue($value)
     {
@@ -120,7 +120,7 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
      * Set the value of the CarrierWillPickUp property.
      *
      * @param bool carrierWillPickUp
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierWillPickUp($value)
     {
@@ -150,7 +150,7 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
     /**
      * Get the value of the LabelFormat property.
      *
-     * @return String LabelFormat.
+     * @return \string LabelFormat.
      */
     public function getLabelFormat()
     {
@@ -160,7 +160,7 @@ class MwsMerchantFulfillmentServiceModelShippingServiceOptions extends MwsMercha
      * Set the value of the LabelFormat property.
      *
      * @param string labelFormat
-     * @return $this 
+     * @return $this instance
      */
     public function setLabelFormat($value)
     {

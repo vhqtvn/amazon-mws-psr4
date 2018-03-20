@@ -23,7 +23,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
     /**
      * Get the value of the ShipmentId property.
      *
-     * @return String ShipmentId.
+     * @return \string ShipmentId.
      */
     public function getShipmentId()
     {
@@ -33,7 +33,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
      * Set the value of the ShipmentId property.
      *
      * @param string shipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentId($value)
     {
@@ -63,7 +63,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
     /**
      * Get the value of the DestinationFulfillmentCenterId property.
      *
-     * @return String DestinationFulfillmentCenterId.
+     * @return \string DestinationFulfillmentCenterId.
      */
     public function getDestinationFulfillmentCenterId()
     {
@@ -73,7 +73,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
      * Set the value of the DestinationFulfillmentCenterId property.
      *
      * @param string destinationFulfillmentCenterId
-     * @return $this 
+     * @return $this instance
      */
     public function setDestinationFulfillmentCenterId($value)
     {
@@ -113,7 +113,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
      * Set the value of the ShipToAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress shipToAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setShipToAddress($value)
     {
@@ -143,7 +143,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
     /**
      * Get the value of the LabelPrepType property.
      *
-     * @return String LabelPrepType.
+     * @return \string LabelPrepType.
      */
     public function getLabelPrepType()
     {
@@ -153,7 +153,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
      * Set the value of the LabelPrepType property.
      *
      * @param string labelPrepType
-     * @return $this 
+     * @return $this instance
      */
     public function setLabelPrepType($value)
     {
@@ -193,7 +193,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
      * Set the value of the Items property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInboundShipmentPlanItemList items
-     * @return $this 
+     * @return $this instance
      */
     public function setItems($value)
     {
@@ -233,7 +233,7 @@ class FbaInboundServiceMwsModelInboundShipmentPlan extends FbaInboundServiceMwsM
      * Set the value of the EstimatedBoxContentsFee property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelBoxContentsFeeDetails estimatedBoxContentsFee
-     * @return $this 
+     * @return $this instance
      */
     public function setEstimatedBoxContentsFee($value)
     {

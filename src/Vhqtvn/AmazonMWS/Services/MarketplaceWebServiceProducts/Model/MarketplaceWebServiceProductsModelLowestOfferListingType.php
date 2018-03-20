@@ -32,7 +32,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
      * Set the value of the Qualifiers property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelQualifiersType qualifiers
-     * @return $this 
+     * @return $this instance
      */
     public function setQualifiers($value)
     {
@@ -62,7 +62,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
     /**
      * Get the value of the NumberOfOfferListingsConsidered property.
      *
-     * @return Integer NumberOfOfferListingsConsidered.
+     * @return \int NumberOfOfferListingsConsidered.
      */
     public function getNumberOfOfferListingsConsidered()
     {
@@ -72,7 +72,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
      * Set the value of the NumberOfOfferListingsConsidered property.
      *
      * @param int numberOfOfferListingsConsidered
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfOfferListingsConsidered($value)
     {
@@ -112,7 +112,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
      * Set the value of the SellerFeedbackCount property.
      *
      * @param int sellerFeedbackCount
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFeedbackCount($value)
     {
@@ -152,7 +152,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
      * Set the value of the Price property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceType price
-     * @return $this 
+     * @return $this instance
      */
     public function setPrice($value)
     {
@@ -182,7 +182,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
     /**
      * Get the value of the MultipleOffersAtLowestPrice property.
      *
-     * @return String MultipleOffersAtLowestPrice.
+     * @return \string MultipleOffersAtLowestPrice.
      */
     public function getMultipleOffersAtLowestPrice()
     {
@@ -192,7 +192,7 @@ class MarketplaceWebServiceProductsModelLowestOfferListingType extends Marketpla
      * Set the value of the MultipleOffersAtLowestPrice property.
      *
      * @param string multipleOffersAtLowestPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setMultipleOffersAtLowestPrice($value)
     {

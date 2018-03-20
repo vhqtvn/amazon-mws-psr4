@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelGetReportScheduleListRequest extends Marketplace
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -84,7 +84,7 @@ class MarketplaceWebServiceModelGetReportScheduleListRequest extends Marketplace
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -124,7 +124,7 @@ class MarketplaceWebServiceModelGetReportScheduleListRequest extends Marketplace
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -163,7 +163,7 @@ class MarketplaceWebServiceModelGetReportScheduleListRequest extends Marketplace
     /**
      * Sets the value of the ReportTypeList.
      * 
-     * @param TypeList ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList ReportTypeList
      * @return void
      */
     public function setReportTypeList($value)
@@ -174,7 +174,7 @@ class MarketplaceWebServiceModelGetReportScheduleListRequest extends Marketplace
     /**
      * Set the value of ReportTypeList, return this.
      *
-     * @param TypeList $ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList $ReportTypeList
      * @return $this
      */
     public function withReportTypeList($ReportTypeList)

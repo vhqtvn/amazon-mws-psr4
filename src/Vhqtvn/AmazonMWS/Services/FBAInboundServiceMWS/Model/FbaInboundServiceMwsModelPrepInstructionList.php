@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\FbaInboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPrepInstructionList
  * 
- * @property	\[]	$PrepInstruction
+ * @property	\string[]	$PrepInstruction
  */
 class FbaInboundServiceMwsModelPrepInstructionList extends FbaInboundServiceMwsModel
 {
@@ -18,7 +18,7 @@ class FbaInboundServiceMwsModelPrepInstructionList extends FbaInboundServiceMwsM
     /**
      * Get the value of the PrepInstruction property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelString[] PrepInstruction.
+     * @return \string[] PrepInstruction.
      */
     public function getPrepInstruction()
     {
@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelPrepInstructionList extends FbaInboundServiceMwsM
      * Set the value of the PrepInstruction property.
      *
      * @param array prepInstruction
-     * @return $this 
+     * @return $this instance
      */
     public function setPrepInstruction($value)
     {

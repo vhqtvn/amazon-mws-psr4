@@ -25,7 +25,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the postedDate property.
      *
-     * @return XMLGregorianCalendar postedDate.
+     * @return \DateTime postedDate.
      */
     public function getpostedDate()
     {
@@ -35,7 +35,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the postedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setpostedDate($value)
     {
@@ -65,7 +65,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the dealId property.
      *
-     * @return String dealId.
+     * @return \string dealId.
      */
     public function getdealId()
     {
@@ -75,7 +75,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the dealId property.
      *
      * @param string dealId
-     * @return $this 
+     * @return $this instance
      */
     public function setdealId($value)
     {
@@ -105,7 +105,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the dealDescription property.
      *
-     * @return String dealDescription.
+     * @return \string dealDescription.
      */
     public function getdealDescription()
     {
@@ -115,7 +115,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the dealDescription property.
      *
      * @param string dealDescription
-     * @return $this 
+     * @return $this instance
      */
     public function setdealDescription($value)
     {
@@ -145,7 +145,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the eventType property.
      *
-     * @return String eventType.
+     * @return \string eventType.
      */
     public function geteventType()
     {
@@ -155,7 +155,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the eventType property.
      *
      * @param string eventType
-     * @return $this 
+     * @return $this instance
      */
     public function seteventType($value)
     {
@@ -185,7 +185,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
     /**
      * Get the value of the feeType property.
      *
-     * @return String feeType.
+     * @return \string feeType.
      */
     public function getfeeType()
     {
@@ -195,7 +195,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the feeType property.
      *
      * @param string feeType
-     * @return $this 
+     * @return $this instance
      */
     public function setfeeType($value)
     {
@@ -235,7 +235,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the feeAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency feeAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setfeeAmount($value)
     {
@@ -275,7 +275,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the taxAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency taxAmount
-     * @return $this 
+     * @return $this instance
      */
     public function settaxAmount($value)
     {
@@ -315,7 +315,7 @@ class MwsFinancesServiceModelSellerDealPaymentEvent extends MwsFinancesServiceMo
      * Set the value of the totalAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency totalAmount
-     * @return $this 
+     * @return $this instance
      */
     public function settotalAmount($value)
     {

@@ -42,7 +42,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the Contact property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelContact contact
-     * @return $this 
+     * @return $this instance
      */
     public function setContact($value)
     {
@@ -72,7 +72,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the BoxCount property.
      *
-     * @return long BoxCount.
+     * @return int BoxCount.
      */
     public function getBoxCount()
     {
@@ -82,7 +82,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the BoxCount property.
      *
      * @param int boxCount
-     * @return $this 
+     * @return $this instance
      */
     public function setBoxCount($value)
     {
@@ -112,7 +112,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the SellerFreightClass property.
      *
-     * @return String SellerFreightClass.
+     * @return \string SellerFreightClass.
      */
     public function getSellerFreightClass()
     {
@@ -122,7 +122,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the SellerFreightClass property.
      *
      * @param string sellerFreightClass
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFreightClass($value)
     {
@@ -152,7 +152,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the FreightReadyDate property.
      *
-     * @return String FreightReadyDate.
+     * @return \string FreightReadyDate.
      */
     public function getFreightReadyDate()
     {
@@ -162,7 +162,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the FreightReadyDate property.
      *
      * @param string freightReadyDate
-     * @return $this 
+     * @return $this instance
      */
     public function setFreightReadyDate($value)
     {
@@ -202,7 +202,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the PalletList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPalletList palletList
-     * @return $this 
+     * @return $this instance
      */
     public function setPalletList($value)
     {
@@ -242,7 +242,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the TotalWeight property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelWeight totalWeight
-     * @return $this 
+     * @return $this instance
      */
     public function setTotalWeight($value)
     {
@@ -282,7 +282,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the SellerDeclaredValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount sellerDeclaredValue
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerDeclaredValue($value)
     {
@@ -322,7 +322,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the AmazonCalculatedValue property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAmount amazonCalculatedValue
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonCalculatedValue($value)
     {
@@ -352,7 +352,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the PreviewPickupDate property.
      *
-     * @return String PreviewPickupDate.
+     * @return \string PreviewPickupDate.
      */
     public function getPreviewPickupDate()
     {
@@ -362,7 +362,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the PreviewPickupDate property.
      *
      * @param string previewPickupDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPreviewPickupDate($value)
     {
@@ -392,7 +392,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the PreviewDeliveryDate property.
      *
-     * @return String PreviewDeliveryDate.
+     * @return \string PreviewDeliveryDate.
      */
     public function getPreviewDeliveryDate()
     {
@@ -402,7 +402,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the PreviewDeliveryDate property.
      *
      * @param string previewDeliveryDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPreviewDeliveryDate($value)
     {
@@ -432,7 +432,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the PreviewFreightClass property.
      *
-     * @return String PreviewFreightClass.
+     * @return \string PreviewFreightClass.
      */
     public function getPreviewFreightClass()
     {
@@ -442,7 +442,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the PreviewFreightClass property.
      *
      * @param string previewFreightClass
-     * @return $this 
+     * @return $this instance
      */
     public function setPreviewFreightClass($value)
     {
@@ -472,7 +472,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the AmazonReferenceId property.
      *
-     * @return String AmazonReferenceId.
+     * @return \string AmazonReferenceId.
      */
     public function getAmazonReferenceId()
     {
@@ -482,7 +482,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the AmazonReferenceId property.
      *
      * @param string amazonReferenceId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonReferenceId($value)
     {
@@ -531,7 +531,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the IsBillOfLadingAvailable property.
      *
      * @param bool isBillOfLadingAvailable
-     * @return $this 
+     * @return $this instance
      */
     public function setIsBillOfLadingAvailable($value)
     {
@@ -571,7 +571,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the PartneredEstimate property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelPartneredEstimate partneredEstimate
-     * @return $this 
+     * @return $this instance
      */
     public function setPartneredEstimate($value)
     {
@@ -601,7 +601,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
     /**
      * Get the value of the CarrierName property.
      *
-     * @return String CarrierName.
+     * @return \string CarrierName.
      */
     public function getCarrierName()
     {
@@ -611,7 +611,7 @@ class FbaInboundServiceMwsModelPartneredLtlDataOutput extends FbaInboundServiceM
      * Set the value of the CarrierName property.
      *
      * @param string carrierName
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierName($value)
     {

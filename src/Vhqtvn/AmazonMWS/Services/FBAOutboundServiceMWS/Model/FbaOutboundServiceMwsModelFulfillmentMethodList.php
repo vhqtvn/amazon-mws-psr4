@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\FbaOutboundServiceMwsModel;
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentMethodList
  * 
- * @property	\[]	$member
+ * @property	\string[]	$member
  */
 class FbaOutboundServiceMwsModelFulfillmentMethodList extends FbaOutboundServiceMwsModel
 {
@@ -18,7 +18,7 @@ class FbaOutboundServiceMwsModelFulfillmentMethodList extends FbaOutboundService
     /**
      * Get the value of the member property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelString[] member.
+     * @return \string[] member.
      */
     public function getmember()
     {
@@ -31,7 +31,7 @@ class FbaOutboundServiceMwsModelFulfillmentMethodList extends FbaOutboundService
      * Set the value of the member property.
      *
      * @param array member
-     * @return $this 
+     * @return $this instance
      */
     public function setmember($value)
     {

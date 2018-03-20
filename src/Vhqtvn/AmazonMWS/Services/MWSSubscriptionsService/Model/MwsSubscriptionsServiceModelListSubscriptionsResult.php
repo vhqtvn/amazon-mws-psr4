@@ -28,7 +28,7 @@ class MwsSubscriptionsServiceModelListSubscriptionsResult extends MwsSubscriptio
      * Set the value of the SubscriptionList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSSubscriptionsService\Model\MwsSubscriptionsServiceModelSubscriptionList subscriptionList
-     * @return $this 
+     * @return $this instance
      */
     public function setSubscriptionList($value)
     {

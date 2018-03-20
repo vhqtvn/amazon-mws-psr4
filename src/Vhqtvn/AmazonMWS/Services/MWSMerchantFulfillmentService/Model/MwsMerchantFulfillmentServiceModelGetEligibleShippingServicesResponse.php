@@ -32,7 +32,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResponse exte
      * Set the value of the GetEligibleShippingServicesResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult getEligibleShippingServicesResult
-     * @return $this 
+     * @return $this instance
      */
     public function setGetEligibleShippingServicesResult($value)
     {
@@ -72,7 +72,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResponse exte
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResponse exte
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

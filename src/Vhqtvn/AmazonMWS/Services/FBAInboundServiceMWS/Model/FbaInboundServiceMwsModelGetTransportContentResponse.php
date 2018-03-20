@@ -32,7 +32,7 @@ class FbaInboundServiceMwsModelGetTransportContentResponse extends FbaInboundSer
      * Set the value of the GetTransportContentResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGetTransportContentResult getTransportContentResult
-     * @return $this 
+     * @return $this instance
      */
     public function setGetTransportContentResult($value)
     {
@@ -72,7 +72,7 @@ class FbaInboundServiceMwsModelGetTransportContentResponse extends FbaInboundSer
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class FbaInboundServiceMwsModelGetTransportContentResponse extends FbaInboundSer
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

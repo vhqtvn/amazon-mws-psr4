@@ -35,7 +35,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductResponse extends Marke
      * Set the value of the GetMatchingProductResult property.
      *
      * @param array getMatchingProductResult
-     * @return $this 
+     * @return $this instance
      */
     public function setGetMatchingProductResult($value)
     {
@@ -87,7 +87,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductResponse extends Marke
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -127,7 +127,7 @@ class MarketplaceWebServiceProductsModelGetMatchingProductResponse extends Marke
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

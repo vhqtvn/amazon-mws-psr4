@@ -33,7 +33,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
      * Set the value of the ShippingServiceList property.
      *
      * @param array shippingServiceList
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingServiceList($value)
     {
@@ -88,7 +88,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
      * Set the value of the TemporarilyUnavailableCarrierList property.
      *
      * @param array temporarilyUnavailableCarrierList
-     * @return $this 
+     * @return $this instance
      */
     public function setTemporarilyUnavailableCarrierList($value)
     {
@@ -143,7 +143,7 @@ class MwsMerchantFulfillmentServiceModelGetEligibleShippingServicesResult extend
      * Set the value of the TermsAndConditionsNotAcceptedCarrierList property.
      *
      * @param array termsAndConditionsNotAcceptedCarrierList
-     * @return $this 
+     * @return $this instance
      */
     public function setTermsAndConditionsNotAcceptedCarrierList($value)
     {

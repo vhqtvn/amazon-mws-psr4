@@ -19,7 +19,7 @@ class MwsFinancesServiceModelDirectPayment extends MwsFinancesServiceModel
     /**
      * Get the value of the DirectPaymentType property.
      *
-     * @return String DirectPaymentType.
+     * @return \string DirectPaymentType.
      */
     public function getDirectPaymentType()
     {
@@ -29,7 +29,7 @@ class MwsFinancesServiceModelDirectPayment extends MwsFinancesServiceModel
      * Set the value of the DirectPaymentType property.
      *
      * @param string directPaymentType
-     * @return $this 
+     * @return $this instance
      */
     public function setDirectPaymentType($value)
     {
@@ -69,7 +69,7 @@ class MwsFinancesServiceModelDirectPayment extends MwsFinancesServiceModel
      * Set the value of the DirectPaymentAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency directPaymentAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setDirectPaymentAmount($value)
     {

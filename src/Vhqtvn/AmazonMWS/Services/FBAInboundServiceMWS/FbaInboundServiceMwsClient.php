@@ -1589,7 +1589,7 @@ class FbaInboundServiceMwsClient implements FbaInboundServiceMwsInterface
     }
     /**
      * Set curl options relating to SSL. Protected to allow overriding.
-     * @param $ch curl handle
+     * @param resource $ch handle
      */
     protected function setSSLCurlOptions($ch)
     {
@@ -1599,7 +1599,7 @@ class FbaInboundServiceMwsClient implements FbaInboundServiceMwsInterface
     /**
      * Exponential sleep on failed request
      *
-     * @param retries current retry
+     * @param int retries current retry
      */
     private function _pauseOnRetry($retries)
     {
@@ -1683,7 +1683,7 @@ class FbaInboundServiceMwsClient implements FbaInboundServiceMwsInterface
     /**
      * Calculate String to Sign for SignatureVersion 2
      * @param array $parameters request parameters
-     * @return String to Sign
+     * @return \string to Sign
      */
     private function _calculateStringToSignV2(array $parameters)
     {

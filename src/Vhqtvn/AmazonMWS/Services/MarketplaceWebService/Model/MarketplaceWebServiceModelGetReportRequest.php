@@ -44,7 +44,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -84,7 +84,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -124,7 +124,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -164,7 +164,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      * Sets the value of the ReportId property.
      * 
      * @param string ReportId
-     * @return $this 
+     * @return $this instance
      */
     public function setReportId($value)
     {
@@ -205,7 +205,7 @@ class MarketplaceWebServiceModelGetReportRequest extends MarketplaceWebServiceMo
      * Sets the value of the Report property.
      * 
      * @param string Report
-     * @return $this 
+     * @return $this instance
      */
     public function setReport($value)
     {

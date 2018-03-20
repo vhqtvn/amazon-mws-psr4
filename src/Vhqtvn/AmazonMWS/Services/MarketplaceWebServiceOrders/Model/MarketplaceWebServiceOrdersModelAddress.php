@@ -29,7 +29,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the Name property.
      *
-     * @return String Name.
+     * @return \string Name.
      */
     public function getName()
     {
@@ -39,7 +39,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the Name property.
      *
      * @param string name
-     * @return $this 
+     * @return $this instance
      */
     public function setName($value)
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the AddressLine1 property.
      *
-     * @return String AddressLine1.
+     * @return \string AddressLine1.
      */
     public function getAddressLine1()
     {
@@ -79,7 +79,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the AddressLine1 property.
      *
      * @param string addressLine1
-     * @return $this 
+     * @return $this instance
      */
     public function setAddressLine1($value)
     {
@@ -109,7 +109,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the AddressLine2 property.
      *
-     * @return String AddressLine2.
+     * @return \string AddressLine2.
      */
     public function getAddressLine2()
     {
@@ -119,7 +119,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the AddressLine2 property.
      *
      * @param string addressLine2
-     * @return $this 
+     * @return $this instance
      */
     public function setAddressLine2($value)
     {
@@ -149,7 +149,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the AddressLine3 property.
      *
-     * @return String AddressLine3.
+     * @return \string AddressLine3.
      */
     public function getAddressLine3()
     {
@@ -159,7 +159,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the AddressLine3 property.
      *
      * @param string addressLine3
-     * @return $this 
+     * @return $this instance
      */
     public function setAddressLine3($value)
     {
@@ -189,7 +189,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the City property.
      *
-     * @return String City.
+     * @return \string City.
      */
     public function getCity()
     {
@@ -199,7 +199,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the City property.
      *
      * @param string city
-     * @return $this 
+     * @return $this instance
      */
     public function setCity($value)
     {
@@ -229,7 +229,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the County property.
      *
-     * @return String County.
+     * @return \string County.
      */
     public function getCounty()
     {
@@ -239,7 +239,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the County property.
      *
      * @param string county
-     * @return $this 
+     * @return $this instance
      */
     public function setCounty($value)
     {
@@ -269,7 +269,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the District property.
      *
-     * @return String District.
+     * @return \string District.
      */
     public function getDistrict()
     {
@@ -279,7 +279,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the District property.
      *
      * @param string district
-     * @return $this 
+     * @return $this instance
      */
     public function setDistrict($value)
     {
@@ -309,7 +309,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the StateOrRegion property.
      *
-     * @return String StateOrRegion.
+     * @return \string StateOrRegion.
      */
     public function getStateOrRegion()
     {
@@ -319,7 +319,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the StateOrRegion property.
      *
      * @param string stateOrRegion
-     * @return $this 
+     * @return $this instance
      */
     public function setStateOrRegion($value)
     {
@@ -349,7 +349,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the PostalCode property.
      *
-     * @return String PostalCode.
+     * @return \string PostalCode.
      */
     public function getPostalCode()
     {
@@ -359,7 +359,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the PostalCode property.
      *
      * @param string postalCode
-     * @return $this 
+     * @return $this instance
      */
     public function setPostalCode($value)
     {
@@ -389,7 +389,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the CountryCode property.
      *
-     * @return String CountryCode.
+     * @return \string CountryCode.
      */
     public function getCountryCode()
     {
@@ -399,7 +399,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the CountryCode property.
      *
      * @param string countryCode
-     * @return $this 
+     * @return $this instance
      */
     public function setCountryCode($value)
     {
@@ -429,7 +429,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the Phone property.
      *
-     * @return String Phone.
+     * @return \string Phone.
      */
     public function getPhone()
     {
@@ -439,7 +439,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the Phone property.
      *
      * @param string phone
-     * @return $this 
+     * @return $this instance
      */
     public function setPhone($value)
     {
@@ -469,7 +469,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
     /**
      * Get the value of the AddressType property.
      *
-     * @return String AddressType.
+     * @return \string AddressType.
      */
     public function getAddressType()
     {
@@ -479,7 +479,7 @@ class MarketplaceWebServiceOrdersModelAddress extends MarketplaceWebServiceOrder
      * Set the value of the AddressType property.
      *
      * @param string addressType
-     * @return $this 
+     * @return $this instance
      */
     public function setAddressType($value)
     {

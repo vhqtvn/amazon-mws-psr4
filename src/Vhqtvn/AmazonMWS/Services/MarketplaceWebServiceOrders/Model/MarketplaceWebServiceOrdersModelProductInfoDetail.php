@@ -18,7 +18,7 @@ class MarketplaceWebServiceOrdersModelProductInfoDetail extends MarketplaceWebSe
     /**
      * Get the value of the NumberOfItems property.
      *
-     * @return Integer NumberOfItems.
+     * @return \int NumberOfItems.
      */
     public function getNumberOfItems()
     {
@@ -28,7 +28,7 @@ class MarketplaceWebServiceOrdersModelProductInfoDetail extends MarketplaceWebSe
      * Set the value of the NumberOfItems property.
      *
      * @param int numberOfItems
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfItems($value)
     {

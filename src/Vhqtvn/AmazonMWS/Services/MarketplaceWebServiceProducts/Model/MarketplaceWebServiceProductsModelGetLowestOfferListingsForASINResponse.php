@@ -35,7 +35,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResponse ex
      * Set the value of the GetLowestOfferListingsForASINResult property.
      *
      * @param array getLowestOfferListingsForASINResult
-     * @return $this 
+     * @return $this instance
      */
     public function setGetLowestOfferListingsForASINResult($value)
     {
@@ -87,7 +87,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResponse ex
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -127,7 +127,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINResponse ex
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

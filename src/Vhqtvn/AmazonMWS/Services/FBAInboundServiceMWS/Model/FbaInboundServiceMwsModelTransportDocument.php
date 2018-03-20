@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelTransportDocument extends FbaInboundServiceMwsMod
     /**
      * Get the value of the PdfDocument property.
      *
-     * @return String PdfDocument.
+     * @return \string PdfDocument.
      */
     public function getPdfDocument()
     {
@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelTransportDocument extends FbaInboundServiceMwsMod
      * Set the value of the PdfDocument property.
      *
      * @param string pdfDocument
-     * @return $this 
+     * @return $this instance
      */
     public function setPdfDocument($value)
     {
@@ -59,7 +59,7 @@ class FbaInboundServiceMwsModelTransportDocument extends FbaInboundServiceMwsMod
     /**
      * Get the value of the Checksum property.
      *
-     * @return String Checksum.
+     * @return \string Checksum.
      */
     public function getChecksum()
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelTransportDocument extends FbaInboundServiceMwsMod
      * Set the value of the Checksum property.
      *
      * @param string checksum
-     * @return $this 
+     * @return $this instance
      */
     public function setChecksum($value)
     {

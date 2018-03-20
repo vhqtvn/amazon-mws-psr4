@@ -19,7 +19,7 @@ class MwsFinancesServiceModelCurrency extends MwsFinancesServiceModel
     /**
      * Get the value of the CurrencyCode property.
      *
-     * @return String CurrencyCode.
+     * @return \string CurrencyCode.
      */
     public function getCurrencyCode()
     {
@@ -29,7 +29,7 @@ class MwsFinancesServiceModelCurrency extends MwsFinancesServiceModel
      * Set the value of the CurrencyCode property.
      *
      * @param string currencyCode
-     * @return $this 
+     * @return $this instance
      */
     public function setCurrencyCode($value)
     {
@@ -59,7 +59,7 @@ class MwsFinancesServiceModelCurrency extends MwsFinancesServiceModel
     /**
      * Get the value of the CurrencyAmount property.
      *
-     * @return BigDecimal CurrencyAmount.
+     * @return \float CurrencyAmount.
      */
     public function getCurrencyAmount()
     {
@@ -69,7 +69,7 @@ class MwsFinancesServiceModelCurrency extends MwsFinancesServiceModel
      * Set the value of the CurrencyAmount property.
      *
      * @param float currencyAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setCurrencyAmount($value)
     {

@@ -7,7 +7,7 @@ use Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\MwsRecommendation
  * \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelCategoryQuery
  * 
  * @property	string	$RecommendationCategory
- * @property	\[]	$FilterOptions
+ * @property	\string[]	$FilterOptions
  */
 class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendationsSectionServiceModel
 {
@@ -19,7 +19,7 @@ class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendati
     /**
      * Get the value of the RecommendationCategory property.
      *
-     * @return String RecommendationCategory.
+     * @return \string RecommendationCategory.
      */
     public function getRecommendationCategory()
     {
@@ -29,7 +29,7 @@ class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendati
      * Set the value of the RecommendationCategory property.
      *
      * @param string recommendationCategory
-     * @return $this 
+     * @return $this instance
      */
     public function setRecommendationCategory($value)
     {
@@ -59,7 +59,7 @@ class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendati
     /**
      * Get the value of the FilterOptions property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MWSRecommendationsSectionService\Model\MwsRecommendationsSectionServiceModelString[] FilterOptions.
+     * @return \string[] FilterOptions.
      */
     public function getFilterOptions()
     {
@@ -72,7 +72,7 @@ class MwsRecommendationsSectionServiceModelCategoryQuery extends MwsRecommendati
      * Set the value of the FilterOptions property.
      *
      * @param array filterOptions
-     * @return $this 
+     * @return $this instance
      */
     public function setFilterOptions($value)
     {

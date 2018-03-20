@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the ReportRequestId property.
      * 
      * @param string ReportRequestId
-     * @return $this 
+     * @return $this instance
      */
     public function setReportRequestId($value)
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the ReportType property.
      * 
      * @param string ReportType
-     * @return $this 
+     * @return $this instance
      */
     public function setReportType($value)
     {
@@ -134,7 +134,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the StartDate property.
      * 
      * @param string StartDate
-     * @return $this 
+     * @return $this instance
      */
     public function setStartDate($value)
     {
@@ -174,7 +174,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the EndDate property.
      * 
      * @param string EndDate
-     * @return $this 
+     * @return $this instance
      */
     public function setEndDate($value)
     {
@@ -214,7 +214,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the Scheduled property.
      * 
      * @param string Scheduled
-     * @return $this 
+     * @return $this instance
      */
     public function setScheduled($value)
     {
@@ -254,7 +254,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the SubmittedDate property.
      * 
      * @param string SubmittedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setSubmittedDate($value)
     {
@@ -294,7 +294,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the ReportProcessingStatus property.
      * 
      * @param string ReportProcessingStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setReportProcessingStatus($value)
     {
@@ -334,7 +334,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the GeneratedReportId property.
      *
      * @param string GeneratedReportId
-     * @return $this 
+     * @return $this instance
      */
     public function setGeneratedReportId($value)
     {
@@ -374,7 +374,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the StartedProcessingDate property.
      *
      * @param string StartedProcessingDate
-     * @return $this 
+     * @return $this instance
      */
     public function setStartedProcessingDate($value)
     {
@@ -414,7 +414,7 @@ class MarketplaceWebServiceModelReportRequestInfo extends MarketplaceWebServiceM
      * Sets the value of the CompletedDate property.
      *
      * @param string CompletedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setCompletedDate($value)
     {

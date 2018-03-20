@@ -20,7 +20,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResult exten
     /**
      * Get the value of the NextToken property.
      *
-     * @return String NextToken.
+     * @return \string NextToken.
      */
     public function getNextToken()
     {
@@ -30,7 +30,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResult exten
      * Set the value of the NextToken property.
      *
      * @param string nextToken
-     * @return $this 
+     * @return $this instance
      */
     public function setNextToken($value)
     {
@@ -70,7 +70,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResult exten
      * Set the value of the ListParticipations property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListParticipations listParticipations
-     * @return $this 
+     * @return $this instance
      */
     public function setListParticipations($value)
     {
@@ -110,7 +110,7 @@ class MarketplaceWebServiceSellersModelListMarketplaceParticipationsResult exten
      * Set the value of the ListMarketplaces property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceSellers\Model\MarketplaceWebServiceSellersModelListMarketplaces listMarketplaces
-     * @return $this 
+     * @return $this instance
      */
     public function setListMarketplaces($value)
     {

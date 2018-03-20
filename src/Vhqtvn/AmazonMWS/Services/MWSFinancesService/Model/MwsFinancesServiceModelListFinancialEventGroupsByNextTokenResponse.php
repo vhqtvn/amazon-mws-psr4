@@ -32,7 +32,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResponse extends
      * Set the value of the ListFinancialEventGroupsByNextTokenResult property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResult listFinancialEventGroupsByNextTokenResult
-     * @return $this 
+     * @return $this instance
      */
     public function setListFinancialEventGroupsByNextTokenResult($value)
     {
@@ -72,7 +72,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResponse extends
      * Set the value of the ResponseMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseMetadata responseMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseMetadata($value)
     {
@@ -112,7 +112,7 @@ class MwsFinancesServiceModelListFinancialEventGroupsByNextTokenResponse extends
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelResponseHeaderMetadata responseHeaderMetadata
-     * @return $this 
+     * @return $this instance
      */
     public function setResponseHeaderMetadata($value)
     {

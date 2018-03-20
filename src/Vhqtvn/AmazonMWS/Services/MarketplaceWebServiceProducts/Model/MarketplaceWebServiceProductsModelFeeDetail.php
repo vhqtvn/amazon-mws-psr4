@@ -23,7 +23,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
     /**
      * Get the value of the FeeType property.
      *
-     * @return String FeeType.
+     * @return \string FeeType.
      */
     public function getFeeType()
     {
@@ -33,7 +33,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
      * Set the value of the FeeType property.
      *
      * @param string feeType
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeType($value)
     {
@@ -73,7 +73,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
      * Set the value of the FeeAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType feeAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeAmount($value)
     {
@@ -113,7 +113,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
      * Set the value of the FeePromotion property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType feePromotion
-     * @return $this 
+     * @return $this instance
      */
     public function setFeePromotion($value)
     {
@@ -153,7 +153,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
      * Set the value of the TaxAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType taxAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setTaxAmount($value)
     {
@@ -193,7 +193,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
      * Set the value of the FinalFee property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType finalFee
-     * @return $this 
+     * @return $this instance
      */
     public function setFinalFee($value)
     {
@@ -233,7 +233,7 @@ class MarketplaceWebServiceProductsModelFeeDetail extends MarketplaceWebServiceP
      * Set the value of the IncludedFeeDetailList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelFeeDetailList includedFeeDetailList
-     * @return $this 
+     * @return $this instance
      */
     public function setIncludedFeeDetailList($value)
     {

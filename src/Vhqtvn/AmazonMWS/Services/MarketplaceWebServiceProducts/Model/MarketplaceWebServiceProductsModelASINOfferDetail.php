@@ -27,7 +27,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Get the value of the SubCondition property.
      *
-     * @return String SubCondition.
+     * @return \string SubCondition.
      */
     public function getSubCondition()
     {
@@ -37,7 +37,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the SubCondition property.
      *
      * @param string subCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setSubCondition($value)
     {
@@ -77,7 +77,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the SellerFeedbackRating property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerFeedbackType sellerFeedbackRating
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerFeedbackRating($value)
     {
@@ -117,7 +117,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the ShippingTime property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelDetailedShippingTimeType shippingTime
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingTime($value)
     {
@@ -157,7 +157,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the ListingPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType listingPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setListingPrice($value)
     {
@@ -197,7 +197,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the Points property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints points
-     * @return $this 
+     * @return $this instance
      */
     public function setPoints($value)
     {
@@ -237,7 +237,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the Shipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType shipping
-     * @return $this 
+     * @return $this instance
      */
     public function setShipping($value)
     {
@@ -277,7 +277,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the ShipsFrom property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelShipsFromType shipsFrom
-     * @return $this 
+     * @return $this instance
      */
     public function setShipsFrom($value)
     {
@@ -326,7 +326,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the IsFulfilledByAmazon property.
      *
      * @param bool isFulfilledByAmazon
-     * @return $this 
+     * @return $this instance
      */
     public function setIsFulfilledByAmazon($value)
     {
@@ -365,7 +365,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Get the value of the IsBuyBoxWinner property.
      *
-     * @return Boolean IsBuyBoxWinner.
+     * @return \bool IsBuyBoxWinner.
      */
     public function getIsBuyBoxWinner()
     {
@@ -375,7 +375,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the IsBuyBoxWinner property.
      *
      * @param bool isBuyBoxWinner
-     * @return $this 
+     * @return $this instance
      */
     public function setIsBuyBoxWinner($value)
     {
@@ -414,7 +414,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
     /**
      * Get the value of the IsFeaturedMerchant property.
      *
-     * @return Boolean IsFeaturedMerchant.
+     * @return \bool IsFeaturedMerchant.
      */
     public function getIsFeaturedMerchant()
     {
@@ -424,7 +424,7 @@ class MarketplaceWebServiceProductsModelASINOfferDetail extends MarketplaceWebSe
      * Set the value of the IsFeaturedMerchant property.
      *
      * @param bool isFeaturedMerchant
-     * @return $this 
+     * @return $this instance
      */
     public function setIsFeaturedMerchant($value)
     {

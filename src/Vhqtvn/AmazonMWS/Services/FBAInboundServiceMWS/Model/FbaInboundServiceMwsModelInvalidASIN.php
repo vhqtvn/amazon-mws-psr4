@@ -19,7 +19,7 @@ class FbaInboundServiceMwsModelInvalidASIN extends FbaInboundServiceMwsModel
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelInvalidASIN extends FbaInboundServiceMwsModel
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -59,7 +59,7 @@ class FbaInboundServiceMwsModelInvalidASIN extends FbaInboundServiceMwsModel
     /**
      * Get the value of the ErrorReason property.
      *
-     * @return String ErrorReason.
+     * @return \string ErrorReason.
      */
     public function getErrorReason()
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelInvalidASIN extends FbaInboundServiceMwsModel
      * Set the value of the ErrorReason property.
      *
      * @param string errorReason
-     * @return $this 
+     * @return $this instance
      */
     public function setErrorReason($value)
     {

@@ -39,7 +39,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the PackageNumber property.
      *
      * @param int packageNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setPackageNumber($value)
     {
@@ -69,7 +69,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the TrackingNumber property.
      *
-     * @return String TrackingNumber.
+     * @return \string TrackingNumber.
      */
     public function getTrackingNumber()
     {
@@ -79,7 +79,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the TrackingNumber property.
      *
      * @param string trackingNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setTrackingNumber($value)
     {
@@ -109,7 +109,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the CarrierCode property.
      *
-     * @return String CarrierCode.
+     * @return \string CarrierCode.
      */
     public function getCarrierCode()
     {
@@ -119,7 +119,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the CarrierCode property.
      *
      * @param string carrierCode
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierCode($value)
     {
@@ -149,7 +149,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the CarrierPhoneNumber property.
      *
-     * @return String CarrierPhoneNumber.
+     * @return \string CarrierPhoneNumber.
      */
     public function getCarrierPhoneNumber()
     {
@@ -159,7 +159,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the CarrierPhoneNumber property.
      *
      * @param string carrierPhoneNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierPhoneNumber($value)
     {
@@ -189,7 +189,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the CarrierURL property.
      *
-     * @return String CarrierURL.
+     * @return \string CarrierURL.
      */
     public function getCarrierURL()
     {
@@ -199,7 +199,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the CarrierURL property.
      *
      * @param string carrierURL
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierURL($value)
     {
@@ -229,7 +229,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the ShipDate property.
      *
-     * @return XMLGregorianCalendar ShipDate.
+     * @return \DateTime ShipDate.
      */
     public function getShipDate()
     {
@@ -239,7 +239,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the ShipDate property.
      *
      * @param string shipDate
-     * @return $this 
+     * @return $this instance
      */
     public function setShipDate($value)
     {
@@ -269,7 +269,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the EstimatedArrivalDate property.
      *
-     * @return XMLGregorianCalendar EstimatedArrivalDate.
+     * @return \DateTime EstimatedArrivalDate.
      */
     public function getEstimatedArrivalDate()
     {
@@ -279,7 +279,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the EstimatedArrivalDate property.
      *
      * @param string estimatedArrivalDate
-     * @return $this 
+     * @return $this instance
      */
     public function setEstimatedArrivalDate($value)
     {
@@ -319,7 +319,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the ShipToAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress shipToAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setShipToAddress($value)
     {
@@ -349,7 +349,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the CurrentStatus property.
      *
-     * @return String CurrentStatus.
+     * @return \string CurrentStatus.
      */
     public function getCurrentStatus()
     {
@@ -359,7 +359,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the CurrentStatus property.
      *
      * @param string currentStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setCurrentStatus($value)
     {
@@ -389,7 +389,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the SignedForBy property.
      *
-     * @return String SignedForBy.
+     * @return \string SignedForBy.
      */
     public function getSignedForBy()
     {
@@ -399,7 +399,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the SignedForBy property.
      *
      * @param string signedForBy
-     * @return $this 
+     * @return $this instance
      */
     public function setSignedForBy($value)
     {
@@ -429,7 +429,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
     /**
      * Get the value of the AdditionalLocationInfo property.
      *
-     * @return String AdditionalLocationInfo.
+     * @return \string AdditionalLocationInfo.
      */
     public function getAdditionalLocationInfo()
     {
@@ -439,7 +439,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the AdditionalLocationInfo property.
      *
      * @param string additionalLocationInfo
-     * @return $this 
+     * @return $this instance
      */
     public function setAdditionalLocationInfo($value)
     {
@@ -479,7 +479,7 @@ class FbaOutboundServiceMwsModelGetPackageTrackingDetailsResult extends FbaOutbo
      * Set the value of the TrackingEvents property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingEventList trackingEvents
-     * @return $this 
+     * @return $this instance
      */
     public function setTrackingEvents($value)
     {

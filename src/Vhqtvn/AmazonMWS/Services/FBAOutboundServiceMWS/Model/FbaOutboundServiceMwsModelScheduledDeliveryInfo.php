@@ -19,7 +19,7 @@ class FbaOutboundServiceMwsModelScheduledDeliveryInfo extends FbaOutboundService
     /**
      * Get the value of the DeliveryTimeZone property.
      *
-     * @return String DeliveryTimeZone.
+     * @return \string DeliveryTimeZone.
      */
     public function getDeliveryTimeZone()
     {
@@ -29,7 +29,7 @@ class FbaOutboundServiceMwsModelScheduledDeliveryInfo extends FbaOutboundService
      * Set the value of the DeliveryTimeZone property.
      *
      * @param string deliveryTimeZone
-     * @return $this 
+     * @return $this instance
      */
     public function setDeliveryTimeZone($value)
     {
@@ -69,7 +69,7 @@ class FbaOutboundServiceMwsModelScheduledDeliveryInfo extends FbaOutboundService
      * Set the value of the DeliveryWindows property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelDeliveryWindowList deliveryWindows
-     * @return $this 
+     * @return $this instance
      */
     public function setDeliveryWindows($value)
     {

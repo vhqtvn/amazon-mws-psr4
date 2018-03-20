@@ -21,7 +21,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
     /**
      * Get the value of the NextToken property.
      *
-     * @return String NextToken.
+     * @return \string NextToken.
      */
     public function getNextToken()
     {
@@ -31,7 +31,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
      * Set the value of the NextToken property.
      *
      * @param string nextToken
-     * @return $this 
+     * @return $this instance
      */
     public function setNextToken($value)
     {
@@ -61,7 +61,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
     /**
      * Get the value of the CreatedBefore property.
      *
-     * @return XMLGregorianCalendar CreatedBefore.
+     * @return \DateTime CreatedBefore.
      */
     public function getCreatedBefore()
     {
@@ -71,7 +71,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
      * Set the value of the CreatedBefore property.
      *
      * @param string createdBefore
-     * @return $this 
+     * @return $this instance
      */
     public function setCreatedBefore($value)
     {
@@ -101,7 +101,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
     /**
      * Get the value of the LastUpdatedBefore property.
      *
-     * @return XMLGregorianCalendar LastUpdatedBefore.
+     * @return \DateTime LastUpdatedBefore.
      */
     public function getLastUpdatedBefore()
     {
@@ -111,7 +111,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
      * Set the value of the LastUpdatedBefore property.
      *
      * @param string lastUpdatedBefore
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdatedBefore($value)
     {
@@ -154,7 +154,7 @@ class MarketplaceWebServiceOrdersModelListOrdersByNextTokenResult extends Market
      * Set the value of the Orders property.
      *
      * @param array orders
-     * @return $this 
+     * @return $this instance
      */
     public function setOrders($value)
     {

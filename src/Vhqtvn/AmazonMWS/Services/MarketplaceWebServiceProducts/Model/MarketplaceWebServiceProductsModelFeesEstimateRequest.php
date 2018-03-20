@@ -23,7 +23,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -33,7 +33,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -63,7 +63,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
     /**
      * Get the value of the IdType property.
      *
-     * @return String IdType.
+     * @return \string IdType.
      */
     public function getIdType()
     {
@@ -73,7 +73,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
      * Set the value of the IdType property.
      *
      * @param string idType
-     * @return $this 
+     * @return $this instance
      */
     public function setIdType($value)
     {
@@ -103,7 +103,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
     /**
      * Get the value of the IdValue property.
      *
-     * @return String IdValue.
+     * @return \string IdValue.
      */
     public function getIdValue()
     {
@@ -113,7 +113,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
      * Set the value of the IdValue property.
      *
      * @param string idValue
-     * @return $this 
+     * @return $this instance
      */
     public function setIdValue($value)
     {
@@ -152,7 +152,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
     /**
      * Get the value of the IsAmazonFulfilled property.
      *
-     * @return Boolean IsAmazonFulfilled.
+     * @return \bool IsAmazonFulfilled.
      */
     public function getIsAmazonFulfilled()
     {
@@ -162,7 +162,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
      * Set the value of the IsAmazonFulfilled property.
      *
      * @param bool isAmazonFulfilled
-     * @return $this 
+     * @return $this instance
      */
     public function setIsAmazonFulfilled($value)
     {
@@ -202,7 +202,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
      * Set the value of the PriceToEstimateFees property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPriceToEstimateFees priceToEstimateFees
-     * @return $this 
+     * @return $this instance
      */
     public function setPriceToEstimateFees($value)
     {
@@ -232,7 +232,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
     /**
      * Get the value of the Identifier property.
      *
-     * @return String Identifier.
+     * @return \string Identifier.
      */
     public function getIdentifier()
     {
@@ -242,7 +242,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequest extends MarketplaceW
      * Set the value of the Identifier property.
      *
      * @param string identifier
-     * @return $this 
+     * @return $this instance
      */
     public function setIdentifier($value)
     {

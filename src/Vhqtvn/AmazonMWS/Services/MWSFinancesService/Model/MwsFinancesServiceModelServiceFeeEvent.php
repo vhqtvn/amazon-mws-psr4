@@ -24,7 +24,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the AmazonOrderId property.
      *
-     * @return String AmazonOrderId.
+     * @return \string AmazonOrderId.
      */
     public function getAmazonOrderId()
     {
@@ -34,7 +34,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
      * Set the value of the AmazonOrderId property.
      *
      * @param string amazonOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonOrderId($value)
     {
@@ -64,7 +64,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the FeeReason property.
      *
-     * @return String FeeReason.
+     * @return \string FeeReason.
      */
     public function getFeeReason()
     {
@@ -74,7 +74,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
      * Set the value of the FeeReason property.
      *
      * @param string feeReason
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeReason($value)
     {
@@ -117,7 +117,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
      * Set the value of the FeeList property.
      *
      * @param array feeList
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeList($value)
     {
@@ -159,7 +159,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -169,7 +169,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -199,7 +199,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the FnSKU property.
      *
-     * @return String FnSKU.
+     * @return \string FnSKU.
      */
     public function getFnSKU()
     {
@@ -209,7 +209,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
      * Set the value of the FnSKU property.
      *
      * @param string fnSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setFnSKU($value)
     {
@@ -239,7 +239,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the FeeDescription property.
      *
-     * @return String FeeDescription.
+     * @return \string FeeDescription.
      */
     public function getFeeDescription()
     {
@@ -249,7 +249,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
      * Set the value of the FeeDescription property.
      *
      * @param string feeDescription
-     * @return $this 
+     * @return $this instance
      */
     public function setFeeDescription($value)
     {
@@ -279,7 +279,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -289,7 +289,7 @@ class MwsFinancesServiceModelServiceFeeEvent extends MwsFinancesServiceModel
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {

@@ -23,7 +23,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -33,7 +33,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -63,7 +63,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -73,7 +73,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -103,7 +103,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -113,7 +113,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -153,7 +153,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
      * Set the value of the ASINList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINListType asinList
-     * @return $this 
+     * @return $this instance
      */
     public function setASINList($value)
     {
@@ -183,7 +183,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
     /**
      * Get the value of the ItemCondition property.
      *
-     * @return String ItemCondition.
+     * @return \string ItemCondition.
      */
     public function getItemCondition()
     {
@@ -193,7 +193,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setItemCondition($value)
     {
@@ -232,7 +232,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
     /**
      * Get the value of the ExcludeMe property.
      *
-     * @return Boolean ExcludeMe.
+     * @return \bool ExcludeMe.
      */
     public function getExcludeMe()
     {
@@ -242,7 +242,7 @@ class MarketplaceWebServiceProductsModelGetLowestOfferListingsForASINRequest ext
      * Set the value of the ExcludeMe property.
      *
      * @param bool excludeMe
-     * @return $this 
+     * @return $this instance
      */
     public function setExcludeMe($value)
     {

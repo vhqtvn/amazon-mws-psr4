@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelASINInboundGuidanceList extends FbaInboundService
      * Set the value of the ASINInboundGuidance property.
      *
      * @param array asinInboundGuidance
-     * @return $this 
+     * @return $this instance
      */
     public function setASINInboundGuidance($value)
     {

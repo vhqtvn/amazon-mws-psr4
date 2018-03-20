@@ -20,7 +20,7 @@ class FbaInboundServiceMwsModelGetServiceStatusRequest extends FbaInboundService
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -30,7 +30,7 @@ class FbaInboundServiceMwsModelGetServiceStatusRequest extends FbaInboundService
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -60,7 +60,7 @@ class FbaInboundServiceMwsModelGetServiceStatusRequest extends FbaInboundService
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -70,7 +70,7 @@ class FbaInboundServiceMwsModelGetServiceStatusRequest extends FbaInboundService
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -100,7 +100,7 @@ class FbaInboundServiceMwsModelGetServiceStatusRequest extends FbaInboundService
     /**
      * Get the value of the Marketplace property.
      *
-     * @return String Marketplace.
+     * @return \string Marketplace.
      */
     public function getMarketplace()
     {
@@ -110,7 +110,7 @@ class FbaInboundServiceMwsModelGetServiceStatusRequest extends FbaInboundService
      * Set the value of the Marketplace property.
      *
      * @param string marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {

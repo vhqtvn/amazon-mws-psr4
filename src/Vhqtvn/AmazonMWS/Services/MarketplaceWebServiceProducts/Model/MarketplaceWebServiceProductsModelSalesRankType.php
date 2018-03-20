@@ -19,7 +19,7 @@ class MarketplaceWebServiceProductsModelSalesRankType extends MarketplaceWebServ
     /**
      * Get the value of the ProductCategoryId property.
      *
-     * @return String ProductCategoryId.
+     * @return \string ProductCategoryId.
      */
     public function getProductCategoryId()
     {
@@ -29,7 +29,7 @@ class MarketplaceWebServiceProductsModelSalesRankType extends MarketplaceWebServ
      * Set the value of the ProductCategoryId property.
      *
      * @param string productCategoryId
-     * @return $this 
+     * @return $this instance
      */
     public function setProductCategoryId($value)
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceProductsModelSalesRankType extends MarketplaceWebServ
      * Set the value of the Rank property.
      *
      * @param int rank
-     * @return $this 
+     * @return $this instance
      */
     public function setRank($value)
     {

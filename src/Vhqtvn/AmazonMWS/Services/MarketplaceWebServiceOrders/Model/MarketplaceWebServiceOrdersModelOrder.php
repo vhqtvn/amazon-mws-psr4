@@ -21,7 +21,7 @@ use Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\MarketplaceWebServiceO
  * @property	int	$NumberOfItemsUnshipped
  * @property	\Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelPaymentExecutionDetailItem[]	$PaymentExecutionDetail
  * @property	string	$PaymentMethod
- * @property	\[]	$PaymentMethodDetails
+ * @property	\string[]	$PaymentMethodDetails
  * @property	string	$MarketplaceId
  * @property	string	$BuyerEmail
  * @property	string	$BuyerName
@@ -53,7 +53,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the AmazonOrderId property.
      *
-     * @return String AmazonOrderId.
+     * @return \string AmazonOrderId.
      */
     public function getAmazonOrderId()
     {
@@ -63,7 +63,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the AmazonOrderId property.
      *
      * @param string amazonOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonOrderId($value)
     {
@@ -93,7 +93,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the SellerOrderId property.
      *
-     * @return String SellerOrderId.
+     * @return \string SellerOrderId.
      */
     public function getSellerOrderId()
     {
@@ -103,7 +103,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the SellerOrderId property.
      *
      * @param string sellerOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerOrderId($value)
     {
@@ -133,7 +133,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the PurchaseDate property.
      *
-     * @return XMLGregorianCalendar PurchaseDate.
+     * @return \DateTime PurchaseDate.
      */
     public function getPurchaseDate()
     {
@@ -143,7 +143,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the PurchaseDate property.
      *
      * @param string purchaseDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPurchaseDate($value)
     {
@@ -173,7 +173,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the LastUpdateDate property.
      *
-     * @return XMLGregorianCalendar LastUpdateDate.
+     * @return \DateTime LastUpdateDate.
      */
     public function getLastUpdateDate()
     {
@@ -183,7 +183,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the LastUpdateDate property.
      *
      * @param string lastUpdateDate
-     * @return $this 
+     * @return $this instance
      */
     public function setLastUpdateDate($value)
     {
@@ -213,7 +213,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the OrderStatus property.
      *
-     * @return String OrderStatus.
+     * @return \string OrderStatus.
      */
     public function getOrderStatus()
     {
@@ -223,7 +223,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the OrderStatus property.
      *
      * @param string orderStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderStatus($value)
     {
@@ -253,7 +253,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the FulfillmentChannel property.
      *
-     * @return String FulfillmentChannel.
+     * @return \string FulfillmentChannel.
      */
     public function getFulfillmentChannel()
     {
@@ -263,7 +263,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the FulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -293,7 +293,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the SalesChannel property.
      *
-     * @return String SalesChannel.
+     * @return \string SalesChannel.
      */
     public function getSalesChannel()
     {
@@ -303,7 +303,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the SalesChannel property.
      *
      * @param string salesChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setSalesChannel($value)
     {
@@ -333,7 +333,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the OrderChannel property.
      *
-     * @return String OrderChannel.
+     * @return \string OrderChannel.
      */
     public function getOrderChannel()
     {
@@ -343,7 +343,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the OrderChannel property.
      *
      * @param string orderChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderChannel($value)
     {
@@ -373,7 +373,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the ShipServiceLevel property.
      *
-     * @return String ShipServiceLevel.
+     * @return \string ShipServiceLevel.
      */
     public function getShipServiceLevel()
     {
@@ -383,7 +383,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the ShipServiceLevel property.
      *
      * @param string shipServiceLevel
-     * @return $this 
+     * @return $this instance
      */
     public function setShipServiceLevel($value)
     {
@@ -423,7 +423,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the ShippingAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelAddress shippingAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingAddress($value)
     {
@@ -463,7 +463,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the OrderTotal property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelMoney orderTotal
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderTotal($value)
     {
@@ -493,7 +493,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the NumberOfItemsShipped property.
      *
-     * @return Integer NumberOfItemsShipped.
+     * @return \int NumberOfItemsShipped.
      */
     public function getNumberOfItemsShipped()
     {
@@ -503,7 +503,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the NumberOfItemsShipped property.
      *
      * @param int numberOfItemsShipped
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfItemsShipped($value)
     {
@@ -533,7 +533,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the NumberOfItemsUnshipped property.
      *
-     * @return Integer NumberOfItemsUnshipped.
+     * @return \int NumberOfItemsUnshipped.
      */
     public function getNumberOfItemsUnshipped()
     {
@@ -543,7 +543,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the NumberOfItemsUnshipped property.
      *
      * @param int numberOfItemsUnshipped
-     * @return $this 
+     * @return $this instance
      */
     public function setNumberOfItemsUnshipped($value)
     {
@@ -586,7 +586,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the PaymentExecutionDetail property.
      *
      * @param array paymentExecutionDetail
-     * @return $this 
+     * @return $this instance
      */
     public function setPaymentExecutionDetail($value)
     {
@@ -628,7 +628,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the PaymentMethod property.
      *
-     * @return String PaymentMethod.
+     * @return \string PaymentMethod.
      */
     public function getPaymentMethod()
     {
@@ -638,7 +638,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the PaymentMethod property.
      *
      * @param string paymentMethod
-     * @return $this 
+     * @return $this instance
      */
     public function setPaymentMethod($value)
     {
@@ -668,7 +668,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the PaymentMethodDetails property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelString[] PaymentMethodDetails.
+     * @return \string[] PaymentMethodDetails.
      */
     public function getPaymentMethodDetails()
     {
@@ -681,7 +681,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the PaymentMethodDetails property.
      *
      * @param array paymentMethodDetails
-     * @return $this 
+     * @return $this instance
      */
     public function setPaymentMethodDetails($value)
     {
@@ -723,7 +723,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -733,7 +733,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -763,7 +763,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the BuyerEmail property.
      *
-     * @return String BuyerEmail.
+     * @return \string BuyerEmail.
      */
     public function getBuyerEmail()
     {
@@ -773,7 +773,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the BuyerEmail property.
      *
      * @param string buyerEmail
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyerEmail($value)
     {
@@ -803,7 +803,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the BuyerName property.
      *
-     * @return String BuyerName.
+     * @return \string BuyerName.
      */
     public function getBuyerName()
     {
@@ -813,7 +813,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the BuyerName property.
      *
      * @param string buyerName
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyerName($value)
     {
@@ -843,7 +843,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the BuyerCounty property.
      *
-     * @return String BuyerCounty.
+     * @return \string BuyerCounty.
      */
     public function getBuyerCounty()
     {
@@ -853,7 +853,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the BuyerCounty property.
      *
      * @param string buyerCounty
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyerCounty($value)
     {
@@ -893,7 +893,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the BuyerTaxInfo property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceOrders\Model\MarketplaceWebServiceOrdersModelBuyerTaxInfo buyerTaxInfo
-     * @return $this 
+     * @return $this instance
      */
     public function setBuyerTaxInfo($value)
     {
@@ -923,7 +923,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the ShipmentServiceLevelCategory property.
      *
-     * @return String ShipmentServiceLevelCategory.
+     * @return \string ShipmentServiceLevelCategory.
      */
     public function getShipmentServiceLevelCategory()
     {
@@ -933,7 +933,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the ShipmentServiceLevelCategory property.
      *
      * @param string shipmentServiceLevelCategory
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentServiceLevelCategory($value)
     {
@@ -972,7 +972,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the ShippedByAmazonTFM property.
      *
-     * @return Boolean ShippedByAmazonTFM.
+     * @return \bool ShippedByAmazonTFM.
      */
     public function getShippedByAmazonTFM()
     {
@@ -982,7 +982,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the ShippedByAmazonTFM property.
      *
      * @param bool shippedByAmazonTFM
-     * @return $this 
+     * @return $this instance
      */
     public function setShippedByAmazonTFM($value)
     {
@@ -1012,7 +1012,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the TFMShipmentStatus property.
      *
-     * @return String TFMShipmentStatus.
+     * @return \string TFMShipmentStatus.
      */
     public function getTFMShipmentStatus()
     {
@@ -1022,7 +1022,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the TFMShipmentStatus property.
      *
      * @param string tfmShipmentStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setTFMShipmentStatus($value)
     {
@@ -1052,7 +1052,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the CbaDisplayableShippingLabel property.
      *
-     * @return String CbaDisplayableShippingLabel.
+     * @return \string CbaDisplayableShippingLabel.
      */
     public function getCbaDisplayableShippingLabel()
     {
@@ -1062,7 +1062,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the CbaDisplayableShippingLabel property.
      *
      * @param string cbaDisplayableShippingLabel
-     * @return $this 
+     * @return $this instance
      */
     public function setCbaDisplayableShippingLabel($value)
     {
@@ -1092,7 +1092,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the OrderType property.
      *
-     * @return String OrderType.
+     * @return \string OrderType.
      */
     public function getOrderType()
     {
@@ -1102,7 +1102,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the OrderType property.
      *
      * @param string orderType
-     * @return $this 
+     * @return $this instance
      */
     public function setOrderType($value)
     {
@@ -1132,7 +1132,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the EarliestShipDate property.
      *
-     * @return XMLGregorianCalendar EarliestShipDate.
+     * @return \DateTime EarliestShipDate.
      */
     public function getEarliestShipDate()
     {
@@ -1142,7 +1142,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the EarliestShipDate property.
      *
      * @param string earliestShipDate
-     * @return $this 
+     * @return $this instance
      */
     public function setEarliestShipDate($value)
     {
@@ -1172,7 +1172,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the LatestShipDate property.
      *
-     * @return XMLGregorianCalendar LatestShipDate.
+     * @return \DateTime LatestShipDate.
      */
     public function getLatestShipDate()
     {
@@ -1182,7 +1182,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the LatestShipDate property.
      *
      * @param string latestShipDate
-     * @return $this 
+     * @return $this instance
      */
     public function setLatestShipDate($value)
     {
@@ -1212,7 +1212,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the EarliestDeliveryDate property.
      *
-     * @return XMLGregorianCalendar EarliestDeliveryDate.
+     * @return \DateTime EarliestDeliveryDate.
      */
     public function getEarliestDeliveryDate()
     {
@@ -1222,7 +1222,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the EarliestDeliveryDate property.
      *
      * @param string earliestDeliveryDate
-     * @return $this 
+     * @return $this instance
      */
     public function setEarliestDeliveryDate($value)
     {
@@ -1252,7 +1252,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the LatestDeliveryDate property.
      *
-     * @return XMLGregorianCalendar LatestDeliveryDate.
+     * @return \DateTime LatestDeliveryDate.
      */
     public function getLatestDeliveryDate()
     {
@@ -1262,7 +1262,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the LatestDeliveryDate property.
      *
      * @param string latestDeliveryDate
-     * @return $this 
+     * @return $this instance
      */
     public function setLatestDeliveryDate($value)
     {
@@ -1301,7 +1301,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the IsBusinessOrder property.
      *
-     * @return Boolean IsBusinessOrder.
+     * @return \bool IsBusinessOrder.
      */
     public function getIsBusinessOrder()
     {
@@ -1311,7 +1311,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the IsBusinessOrder property.
      *
      * @param bool isBusinessOrder
-     * @return $this 
+     * @return $this instance
      */
     public function setIsBusinessOrder($value)
     {
@@ -1341,7 +1341,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the PurchaseOrderNumber property.
      *
-     * @return String PurchaseOrderNumber.
+     * @return \string PurchaseOrderNumber.
      */
     public function getPurchaseOrderNumber()
     {
@@ -1351,7 +1351,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the PurchaseOrderNumber property.
      *
      * @param string purchaseOrderNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setPurchaseOrderNumber($value)
     {
@@ -1390,7 +1390,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the IsPrime property.
      *
-     * @return Boolean IsPrime.
+     * @return \bool IsPrime.
      */
     public function getIsPrime()
     {
@@ -1400,7 +1400,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the IsPrime property.
      *
      * @param bool isPrime
-     * @return $this 
+     * @return $this instance
      */
     public function setIsPrime($value)
     {
@@ -1439,7 +1439,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the IsPremiumOrder property.
      *
-     * @return Boolean IsPremiumOrder.
+     * @return \bool IsPremiumOrder.
      */
     public function getIsPremiumOrder()
     {
@@ -1449,7 +1449,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the IsPremiumOrder property.
      *
      * @param bool isPremiumOrder
-     * @return $this 
+     * @return $this instance
      */
     public function setIsPremiumOrder($value)
     {
@@ -1479,7 +1479,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the ReplacedOrderId property.
      *
-     * @return String ReplacedOrderId.
+     * @return \string ReplacedOrderId.
      */
     public function getReplacedOrderId()
     {
@@ -1489,7 +1489,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the ReplacedOrderId property.
      *
      * @param string replacedOrderId
-     * @return $this 
+     * @return $this instance
      */
     public function setReplacedOrderId($value)
     {
@@ -1528,7 +1528,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
     /**
      * Get the value of the IsReplacementOrder property.
      *
-     * @return Boolean IsReplacementOrder.
+     * @return \bool IsReplacementOrder.
      */
     public function getIsReplacementOrder()
     {
@@ -1538,7 +1538,7 @@ class MarketplaceWebServiceOrdersModelOrder extends MarketplaceWebServiceOrdersM
      * Set the value of the IsReplacementOrder property.
      *
      * @param bool isReplacementOrder
-     * @return $this 
+     * @return $this instance
      */
     public function setIsReplacementOrder($value)
     {

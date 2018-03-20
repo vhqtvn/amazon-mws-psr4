@@ -6,7 +6,7 @@ use Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\FbaInventoryServiceMwsModel
 /**
  * \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelSellerSkuList
  * 
- * @property	\[]	$member
+ * @property	\string[]	$member
  */
 class FbaInventoryServiceMwsModelSellerSkuList extends FbaInventoryServiceMwsModel
 {
@@ -18,7 +18,7 @@ class FbaInventoryServiceMwsModelSellerSkuList extends FbaInventoryServiceMwsMod
     /**
      * Get the value of the member property.
      *
-     * @return \Vhqtvn\AmazonMWS\Services\FBAInventoryServiceMWS\Model\FbaInventoryServiceMwsModelString[] member.
+     * @return \string[] member.
      */
     public function getmember()
     {
@@ -31,7 +31,7 @@ class FbaInventoryServiceMwsModelSellerSkuList extends FbaInventoryServiceMwsMod
      * Set the value of the member property.
      *
      * @param array member
-     * @return $this 
+     * @return $this instance
      */
     public function setmember($value)
     {

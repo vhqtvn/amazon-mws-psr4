@@ -18,7 +18,7 @@ class MarketplaceWebServiceOrdersModelBuyerCustomizedInfoDetail extends Marketpl
     /**
      * Get the value of the CustomizedURL property.
      *
-     * @return String CustomizedURL.
+     * @return \string CustomizedURL.
      */
     public function getCustomizedURL()
     {
@@ -28,7 +28,7 @@ class MarketplaceWebServiceOrdersModelBuyerCustomizedInfoDetail extends Marketpl
      * Set the value of the CustomizedURL property.
      *
      * @param string customizedURL
-     * @return $this 
+     * @return $this instance
      */
     public function setCustomizedURL($value)
     {

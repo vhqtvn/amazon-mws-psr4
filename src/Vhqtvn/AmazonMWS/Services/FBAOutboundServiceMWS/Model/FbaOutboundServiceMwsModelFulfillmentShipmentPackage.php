@@ -31,7 +31,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
      * Set the value of the PackageNumber property.
      *
      * @param int packageNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setPackageNumber($value)
     {
@@ -61,7 +61,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
     /**
      * Get the value of the CarrierCode property.
      *
-     * @return String CarrierCode.
+     * @return \string CarrierCode.
      */
     public function getCarrierCode()
     {
@@ -71,7 +71,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
      * Set the value of the CarrierCode property.
      *
      * @param string carrierCode
-     * @return $this 
+     * @return $this instance
      */
     public function setCarrierCode($value)
     {
@@ -101,7 +101,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
     /**
      * Get the value of the TrackingNumber property.
      *
-     * @return String TrackingNumber.
+     * @return \string TrackingNumber.
      */
     public function getTrackingNumber()
     {
@@ -111,7 +111,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
      * Set the value of the TrackingNumber property.
      *
      * @param string trackingNumber
-     * @return $this 
+     * @return $this instance
      */
     public function setTrackingNumber($value)
     {
@@ -141,7 +141,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
     /**
      * Get the value of the EstimatedArrivalDateTime property.
      *
-     * @return XMLGregorianCalendar EstimatedArrivalDateTime.
+     * @return \DateTime EstimatedArrivalDateTime.
      */
     public function getEstimatedArrivalDateTime()
     {
@@ -151,7 +151,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipmentPackage extends FbaOutboundSe
      * Set the value of the EstimatedArrivalDateTime property.
      *
      * @param string estimatedArrivalDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setEstimatedArrivalDateTime($value)
     {

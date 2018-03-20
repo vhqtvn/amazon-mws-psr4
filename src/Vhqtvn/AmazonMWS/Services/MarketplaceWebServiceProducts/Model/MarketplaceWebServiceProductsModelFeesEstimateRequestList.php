@@ -31,7 +31,7 @@ class MarketplaceWebServiceProductsModelFeesEstimateRequestList extends Marketpl
      * Set the value of the FeesEstimateRequest property.
      *
      * @param array feesEstimateRequest
-     * @return $this 
+     * @return $this instance
      */
     public function setFeesEstimateRequest($value)
     {

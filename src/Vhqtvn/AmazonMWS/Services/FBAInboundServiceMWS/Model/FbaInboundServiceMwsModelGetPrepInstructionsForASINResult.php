@@ -29,7 +29,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResult extends FbaInbou
      * Set the value of the ASINPrepInstructionsList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelASINPrepInstructionsList asinPrepInstructionsList
-     * @return $this 
+     * @return $this instance
      */
     public function setASINPrepInstructionsList($value)
     {
@@ -69,7 +69,7 @@ class FbaInboundServiceMwsModelGetPrepInstructionsForASINResult extends FbaInbou
      * Set the value of the InvalidASINList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelInvalidASINList invalidASINList
-     * @return $this 
+     * @return $this instance
      */
     public function setInvalidASINList($value)
     {

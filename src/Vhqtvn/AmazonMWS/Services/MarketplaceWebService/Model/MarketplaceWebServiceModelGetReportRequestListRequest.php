@@ -54,7 +54,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplace($value)
     {
@@ -94,7 +94,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return $this 
+     * @return $this instance
      */
     public function setMerchant($value)
     {
@@ -134,7 +134,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -173,7 +173,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Sets the value of the ReportRequestIdList.
      * 
-     * @param IdList ReportRequestIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList ReportRequestIdList
      * @return void
      */
     public function setReportRequestIdList($value)
@@ -184,7 +184,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Set the value of ReportRequestIdList, return this.
      *
-     * @param IdList $ReportRequestIdList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelIdList $ReportRequestIdList
      * @return $this
      */
     public function withReportRequestIdList($ReportRequestIdList)
@@ -213,7 +213,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Sets the value of the ReportTypeList.
      * 
-     * @param TypeList ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList ReportTypeList
      * @return void
      */
     public function setReportTypeList($value)
@@ -224,7 +224,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Set the value of ReportTypeList, return this.
      *
-     * @param TypeList $ReportTypeList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelTypeList $ReportTypeList
      * @return $this
      */
     public function withReportTypeList($ReportTypeList)
@@ -253,7 +253,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Sets the value of the ReportProcessingStatusList.
      * 
-     * @param StatusList ReportProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList ReportProcessingStatusList
      * @return void
      */
     public function setReportProcessingStatusList($value)
@@ -264,7 +264,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Set the value of ReportProcessingStatusList, return this.
      *
-     * @param StatusList $ReportProcessingStatusList
+     * @return \Vhqtvn\AmazonMWS\Services\MarketplaceWebService\Model\MarketplaceWebServiceModelStatusList $ReportProcessingStatusList
      * @return $this
      */
     public function withReportProcessingStatusList($ReportProcessingStatusList)
@@ -284,7 +284,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Gets the value of the MaxCount property.
      * 
-     * @return Count MaxCount
+     * @return \string MaxCount
      */
     public function getMaxCount()
     {
@@ -293,8 +293,8 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Sets the value of the MaxCount property.
      * 
-     * @param Count MaxCount
-     * @return $this 
+     * @return \string MaxCount
+     * @return $this instance
      */
     public function setMaxCount($value)
     {
@@ -304,7 +304,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
     /**
      * Set the value of MaxCount, return this.
      *
-     * @param Count $MaxCount
+     * @return \string $MaxCount
      * @return $this
      */
     public function withMaxCount($MaxCount)
@@ -334,7 +334,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
      * Sets the value of the RequestedFromDate property.
      * 
      * @param string RequestedFromDate
-     * @return $this 
+     * @return $this instance
      */
     public function setRequestedFromDate($value)
     {
@@ -374,7 +374,7 @@ class MarketplaceWebServiceModelGetReportRequestListRequest extends MarketplaceW
      * Sets the value of the RequestedToDate property.
      * 
      * @param string RequestedToDate
-     * @return $this 
+     * @return $this instance
      */
     public function setRequestedToDate($value)
     {

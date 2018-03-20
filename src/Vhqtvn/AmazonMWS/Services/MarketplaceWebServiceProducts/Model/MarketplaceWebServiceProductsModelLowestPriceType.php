@@ -23,7 +23,7 @@ class MarketplaceWebServiceProductsModelLowestPriceType extends MarketplaceWebSe
     /**
      * Get the value of the condition property.
      *
-     * @return String condition.
+     * @return \string condition.
      */
     public function getcondition()
     {
@@ -33,7 +33,7 @@ class MarketplaceWebServiceProductsModelLowestPriceType extends MarketplaceWebSe
      * Set the value of the condition property.
      *
      * @param string condition
-     * @return $this 
+     * @return $this instance
      */
     public function setcondition($value)
     {
@@ -63,7 +63,7 @@ class MarketplaceWebServiceProductsModelLowestPriceType extends MarketplaceWebSe
     /**
      * Get the value of the fulfillmentChannel property.
      *
-     * @return String fulfillmentChannel.
+     * @return \string fulfillmentChannel.
      */
     public function getfulfillmentChannel()
     {
@@ -73,7 +73,7 @@ class MarketplaceWebServiceProductsModelLowestPriceType extends MarketplaceWebSe
      * Set the value of the fulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return $this 
+     * @return $this instance
      */
     public function setfulfillmentChannel($value)
     {
@@ -113,7 +113,7 @@ class MarketplaceWebServiceProductsModelLowestPriceType extends MarketplaceWebSe
      * Set the value of the LandedPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType landedPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setLandedPrice($value)
     {
@@ -153,7 +153,7 @@ class MarketplaceWebServiceProductsModelLowestPriceType extends MarketplaceWebSe
      * Set the value of the ListingPrice property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType listingPrice
-     * @return $this 
+     * @return $this instance
      */
     public function setListingPrice($value)
     {
@@ -193,7 +193,7 @@ class MarketplaceWebServiceProductsModelLowestPriceType extends MarketplaceWebSe
      * Set the value of the Shipping property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelMoneyType shipping
-     * @return $this 
+     * @return $this instance
      */
     public function setShipping($value)
     {
@@ -233,7 +233,7 @@ class MarketplaceWebServiceProductsModelLowestPriceType extends MarketplaceWebSe
      * Set the value of the Points property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelPoints points
-     * @return $this 
+     * @return $this instance
      */
     public function setPoints($value)
     {

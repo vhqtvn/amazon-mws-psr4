@@ -24,7 +24,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Get the value of the AmazonShipmentId property.
      *
-     * @return String AmazonShipmentId.
+     * @return \string AmazonShipmentId.
      */
     public function getAmazonShipmentId()
     {
@@ -34,7 +34,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
      * Set the value of the AmazonShipmentId property.
      *
      * @param string amazonShipmentId
-     * @return $this 
+     * @return $this instance
      */
     public function setAmazonShipmentId($value)
     {
@@ -64,7 +64,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Get the value of the FulfillmentCenterId property.
      *
-     * @return String FulfillmentCenterId.
+     * @return \string FulfillmentCenterId.
      */
     public function getFulfillmentCenterId()
     {
@@ -74,7 +74,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
      * Set the value of the FulfillmentCenterId property.
      *
      * @param string fulfillmentCenterId
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentCenterId($value)
     {
@@ -104,7 +104,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Get the value of the FulfillmentShipmentStatus property.
      *
-     * @return String FulfillmentShipmentStatus.
+     * @return \string FulfillmentShipmentStatus.
      */
     public function getFulfillmentShipmentStatus()
     {
@@ -114,7 +114,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
      * Set the value of the FulfillmentShipmentStatus property.
      *
      * @param string fulfillmentShipmentStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentShipmentStatus($value)
     {
@@ -144,7 +144,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Get the value of the ShippingDateTime property.
      *
-     * @return XMLGregorianCalendar ShippingDateTime.
+     * @return \DateTime ShippingDateTime.
      */
     public function getShippingDateTime()
     {
@@ -154,7 +154,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
      * Set the value of the ShippingDateTime property.
      *
      * @param string shippingDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingDateTime($value)
     {
@@ -184,7 +184,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
     /**
      * Get the value of the EstimatedArrivalDateTime property.
      *
-     * @return XMLGregorianCalendar EstimatedArrivalDateTime.
+     * @return \DateTime EstimatedArrivalDateTime.
      */
     public function getEstimatedArrivalDateTime()
     {
@@ -194,7 +194,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
      * Set the value of the EstimatedArrivalDateTime property.
      *
      * @param string estimatedArrivalDateTime
-     * @return $this 
+     * @return $this instance
      */
     public function setEstimatedArrivalDateTime($value)
     {
@@ -234,7 +234,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
      * Set the value of the FulfillmentShipmentItem property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentItemList fulfillmentShipmentItem
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentShipmentItem($value)
     {
@@ -274,7 +274,7 @@ class FbaOutboundServiceMwsModelFulfillmentShipment extends FbaOutboundServiceMw
      * Set the value of the FulfillmentShipmentPackage property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelFulfillmentShipmentPackageList fulfillmentShipmentPackage
-     * @return $this 
+     * @return $this instance
      */
     public function setFulfillmentShipmentPackage($value)
     {

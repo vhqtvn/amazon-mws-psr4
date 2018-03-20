@@ -24,7 +24,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Get the value of the ShipmentName property.
      *
-     * @return String ShipmentName.
+     * @return \string ShipmentName.
      */
     public function getShipmentName()
     {
@@ -34,7 +34,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
      * Set the value of the ShipmentName property.
      *
      * @param string shipmentName
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentName($value)
     {
@@ -74,7 +74,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
      * Set the value of the ShipFromAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelAddress shipFromAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setShipFromAddress($value)
     {
@@ -104,7 +104,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Get the value of the DestinationFulfillmentCenterId property.
      *
-     * @return String DestinationFulfillmentCenterId.
+     * @return \string DestinationFulfillmentCenterId.
      */
     public function getDestinationFulfillmentCenterId()
     {
@@ -114,7 +114,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
      * Set the value of the DestinationFulfillmentCenterId property.
      *
      * @param string destinationFulfillmentCenterId
-     * @return $this 
+     * @return $this instance
      */
     public function setDestinationFulfillmentCenterId($value)
     {
@@ -153,7 +153,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Get the value of the AreCasesRequired property.
      *
-     * @return Boolean AreCasesRequired.
+     * @return \bool AreCasesRequired.
      */
     public function getAreCasesRequired()
     {
@@ -163,7 +163,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
      * Set the value of the AreCasesRequired property.
      *
      * @param bool areCasesRequired
-     * @return $this 
+     * @return $this instance
      */
     public function setAreCasesRequired($value)
     {
@@ -193,7 +193,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Get the value of the ShipmentStatus property.
      *
-     * @return String ShipmentStatus.
+     * @return \string ShipmentStatus.
      */
     public function getShipmentStatus()
     {
@@ -203,7 +203,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
      * Set the value of the ShipmentStatus property.
      *
      * @param string shipmentStatus
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentStatus($value)
     {
@@ -233,7 +233,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Get the value of the LabelPrepPreference property.
      *
-     * @return String LabelPrepPreference.
+     * @return \string LabelPrepPreference.
      */
     public function getLabelPrepPreference()
     {
@@ -243,7 +243,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
      * Set the value of the LabelPrepPreference property.
      *
      * @param string labelPrepPreference
-     * @return $this 
+     * @return $this instance
      */
     public function setLabelPrepPreference($value)
     {
@@ -273,7 +273,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
     /**
      * Get the value of the IntendedBoxContentsSource property.
      *
-     * @return String IntendedBoxContentsSource.
+     * @return \string IntendedBoxContentsSource.
      */
     public function getIntendedBoxContentsSource()
     {
@@ -283,7 +283,7 @@ class FbaInboundServiceMwsModelInboundShipmentHeader extends FbaInboundServiceMw
      * Set the value of the IntendedBoxContentsSource property.
      *
      * @param string intendedBoxContentsSource
-     * @return $this 
+     * @return $this instance
      */
     public function setIntendedBoxContentsSource($value)
     {

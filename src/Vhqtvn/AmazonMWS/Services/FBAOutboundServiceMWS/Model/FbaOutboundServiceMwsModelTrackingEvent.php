@@ -20,7 +20,7 @@ class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the EventDate property.
      *
-     * @return XMLGregorianCalendar EventDate.
+     * @return \DateTime EventDate.
      */
     public function getEventDate()
     {
@@ -30,7 +30,7 @@ class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
      * Set the value of the EventDate property.
      *
      * @param string eventDate
-     * @return $this 
+     * @return $this instance
      */
     public function setEventDate($value)
     {
@@ -70,7 +70,7 @@ class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
      * Set the value of the EventAddress property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAOutboundServiceMWS\Model\FbaOutboundServiceMwsModelTrackingAddress eventAddress
-     * @return $this 
+     * @return $this instance
      */
     public function setEventAddress($value)
     {
@@ -100,7 +100,7 @@ class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
     /**
      * Get the value of the EventCode property.
      *
-     * @return String EventCode.
+     * @return \string EventCode.
      */
     public function getEventCode()
     {
@@ -110,7 +110,7 @@ class FbaOutboundServiceMwsModelTrackingEvent extends FbaOutboundServiceMwsModel
      * Set the value of the EventCode property.
      *
      * @param string eventCode
-     * @return $this 
+     * @return $this instance
      */
     public function setEventCode($value)
     {

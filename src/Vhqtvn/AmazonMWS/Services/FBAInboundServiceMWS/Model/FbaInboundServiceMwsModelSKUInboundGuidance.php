@@ -21,7 +21,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidance extends FbaInboundServiceMwsMo
     /**
      * Get the value of the SellerSKU property.
      *
-     * @return String SellerSKU.
+     * @return \string SellerSKU.
      */
     public function getSellerSKU()
     {
@@ -31,7 +31,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidance extends FbaInboundServiceMwsMo
      * Set the value of the SellerSKU property.
      *
      * @param string sellerSKU
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerSKU($value)
     {
@@ -61,7 +61,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidance extends FbaInboundServiceMwsMo
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -71,7 +71,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidance extends FbaInboundServiceMwsMo
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -101,7 +101,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidance extends FbaInboundServiceMwsMo
     /**
      * Get the value of the InboundGuidance property.
      *
-     * @return String InboundGuidance.
+     * @return \string InboundGuidance.
      */
     public function getInboundGuidance()
     {
@@ -111,7 +111,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidance extends FbaInboundServiceMwsMo
      * Set the value of the InboundGuidance property.
      *
      * @param string inboundGuidance
-     * @return $this 
+     * @return $this instance
      */
     public function setInboundGuidance($value)
     {
@@ -151,7 +151,7 @@ class FbaInboundServiceMwsModelSKUInboundGuidance extends FbaInboundServiceMwsMo
      * Set the value of the GuidanceReasonList property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\FBAInboundServiceMWS\Model\FbaInboundServiceMwsModelGuidanceReasonList guidanceReasonList
-     * @return $this 
+     * @return $this instance
      */
     public function setGuidanceReasonList($value)
     {

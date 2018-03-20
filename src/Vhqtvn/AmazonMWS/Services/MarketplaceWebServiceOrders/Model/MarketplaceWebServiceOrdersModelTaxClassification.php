@@ -19,7 +19,7 @@ class MarketplaceWebServiceOrdersModelTaxClassification extends MarketplaceWebSe
     /**
      * Get the value of the Name property.
      *
-     * @return String Name.
+     * @return \string Name.
      */
     public function getName()
     {
@@ -29,7 +29,7 @@ class MarketplaceWebServiceOrdersModelTaxClassification extends MarketplaceWebSe
      * Set the value of the Name property.
      *
      * @param string name
-     * @return $this 
+     * @return $this instance
      */
     public function setName($value)
     {
@@ -59,7 +59,7 @@ class MarketplaceWebServiceOrdersModelTaxClassification extends MarketplaceWebSe
     /**
      * Get the value of the Value property.
      *
-     * @return String Value.
+     * @return \string Value.
      */
     public function getValue()
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceOrdersModelTaxClassification extends MarketplaceWebSe
      * Set the value of the Value property.
      *
      * @param string value
-     * @return $this 
+     * @return $this instance
      */
     public function setValue($value)
     {

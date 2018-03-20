@@ -23,7 +23,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -33,7 +33,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -63,7 +63,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -73,7 +73,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -113,7 +113,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
      * Set the value of the ShipmentRequestDetails property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSMerchantFulfillmentService\Model\MwsMerchantFulfillmentServiceModelShipmentRequestDetails shipmentRequestDetails
-     * @return $this 
+     * @return $this instance
      */
     public function setShipmentRequestDetails($value)
     {
@@ -143,7 +143,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Get the value of the ShippingServiceId property.
      *
-     * @return String ShippingServiceId.
+     * @return \string ShippingServiceId.
      */
     public function getShippingServiceId()
     {
@@ -153,7 +153,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
      * Set the value of the ShippingServiceId property.
      *
      * @param string shippingServiceId
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingServiceId($value)
     {
@@ -183,7 +183,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Get the value of the ShippingServiceOfferId property.
      *
-     * @return String ShippingServiceOfferId.
+     * @return \string ShippingServiceOfferId.
      */
     public function getShippingServiceOfferId()
     {
@@ -193,7 +193,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
      * Set the value of the ShippingServiceOfferId property.
      *
      * @param string shippingServiceOfferId
-     * @return $this 
+     * @return $this instance
      */
     public function setShippingServiceOfferId($value)
     {
@@ -223,7 +223,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
     /**
      * Get the value of the HazmatType property.
      *
-     * @return String HazmatType.
+     * @return \string HazmatType.
      */
     public function getHazmatType()
     {
@@ -233,7 +233,7 @@ class MwsMerchantFulfillmentServiceModelCreateShipmentRequest extends MwsMerchan
      * Set the value of the HazmatType property.
      *
      * @param string hazmatType
-     * @return $this 
+     * @return $this instance
      */
     public function setHazmatType($value)
     {

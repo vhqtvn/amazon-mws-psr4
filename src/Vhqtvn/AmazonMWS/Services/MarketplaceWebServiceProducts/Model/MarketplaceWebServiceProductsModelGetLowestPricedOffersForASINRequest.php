@@ -22,7 +22,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -32,7 +32,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -62,7 +62,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -72,7 +72,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {
@@ -102,7 +102,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
     /**
      * Get the value of the MarketplaceId property.
      *
-     * @return String MarketplaceId.
+     * @return \string MarketplaceId.
      */
     public function getMarketplaceId()
     {
@@ -112,7 +112,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceId($value)
     {
@@ -142,7 +142,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
     /**
      * Get the value of the ASIN property.
      *
-     * @return String ASIN.
+     * @return \string ASIN.
      */
     public function getASIN()
     {
@@ -152,7 +152,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
      * Set the value of the ASIN property.
      *
      * @param string asin
-     * @return $this 
+     * @return $this instance
      */
     public function setASIN($value)
     {
@@ -182,7 +182,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
     /**
      * Get the value of the ItemCondition property.
      *
-     * @return String ItemCondition.
+     * @return \string ItemCondition.
      */
     public function getItemCondition()
     {
@@ -192,7 +192,7 @@ class MarketplaceWebServiceProductsModelGetLowestPricedOffersForASINRequest exte
      * Set the value of the ItemCondition property.
      *
      * @param string itemCondition
-     * @return $this 
+     * @return $this instance
      */
     public function setItemCondition($value)
     {

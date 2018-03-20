@@ -28,7 +28,7 @@ class MarketplaceWebServiceProductsModelListMatchingProductsResult extends Marke
      * Set the value of the Products property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelProductList products
-     * @return $this 
+     * @return $this instance
      */
     public function setProducts($value)
     {

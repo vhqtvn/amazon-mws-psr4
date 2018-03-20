@@ -19,7 +19,7 @@ class MwsRecommendationsSectionServiceModelGetServiceStatusRequest extends MwsRe
     /**
      * Get the value of the SellerId property.
      *
-     * @return String SellerId.
+     * @return \string SellerId.
      */
     public function getSellerId()
     {
@@ -29,7 +29,7 @@ class MwsRecommendationsSectionServiceModelGetServiceStatusRequest extends MwsRe
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return $this 
+     * @return $this instance
      */
     public function setSellerId($value)
     {
@@ -59,7 +59,7 @@ class MwsRecommendationsSectionServiceModelGetServiceStatusRequest extends MwsRe
     /**
      * Get the value of the MWSAuthToken property.
      *
-     * @return String MWSAuthToken.
+     * @return \string MWSAuthToken.
      */
     public function getMWSAuthToken()
     {
@@ -69,7 +69,7 @@ class MwsRecommendationsSectionServiceModelGetServiceStatusRequest extends MwsRe
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return $this 
+     * @return $this instance
      */
     public function setMWSAuthToken($value)
     {

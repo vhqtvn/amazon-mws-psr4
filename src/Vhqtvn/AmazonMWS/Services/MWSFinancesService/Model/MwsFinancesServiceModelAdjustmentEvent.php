@@ -21,7 +21,7 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the AdjustmentType property.
      *
-     * @return String AdjustmentType.
+     * @return \string AdjustmentType.
      */
     public function getAdjustmentType()
     {
@@ -31,7 +31,7 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
      * Set the value of the AdjustmentType property.
      *
      * @param string adjustmentType
-     * @return $this 
+     * @return $this instance
      */
     public function setAdjustmentType($value)
     {
@@ -61,7 +61,7 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
     /**
      * Get the value of the PostedDate property.
      *
-     * @return XMLGregorianCalendar PostedDate.
+     * @return \DateTime PostedDate.
      */
     public function getPostedDate()
     {
@@ -71,7 +71,7 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return $this 
+     * @return $this instance
      */
     public function setPostedDate($value)
     {
@@ -111,7 +111,7 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
      * Set the value of the AdjustmentAmount property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MWSFinancesService\Model\MwsFinancesServiceModelCurrency adjustmentAmount
-     * @return $this 
+     * @return $this instance
      */
     public function setAdjustmentAmount($value)
     {
@@ -154,7 +154,7 @@ class MwsFinancesServiceModelAdjustmentEvent extends MwsFinancesServiceModel
      * Set the value of the AdjustmentItemList property.
      *
      * @param array adjustmentItemList
-     * @return $this 
+     * @return $this instance
      */
     public function setAdjustmentItemList($value)
     {

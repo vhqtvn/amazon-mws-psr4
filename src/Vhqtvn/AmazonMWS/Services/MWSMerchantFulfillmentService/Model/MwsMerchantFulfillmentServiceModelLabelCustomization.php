@@ -19,7 +19,7 @@ class MwsMerchantFulfillmentServiceModelLabelCustomization extends MwsMerchantFu
     /**
      * Get the value of the CustomTextForLabel property.
      *
-     * @return String CustomTextForLabel.
+     * @return \string CustomTextForLabel.
      */
     public function getCustomTextForLabel()
     {
@@ -29,7 +29,7 @@ class MwsMerchantFulfillmentServiceModelLabelCustomization extends MwsMerchantFu
      * Set the value of the CustomTextForLabel property.
      *
      * @param string customTextForLabel
-     * @return $this 
+     * @return $this instance
      */
     public function setCustomTextForLabel($value)
     {
@@ -59,7 +59,7 @@ class MwsMerchantFulfillmentServiceModelLabelCustomization extends MwsMerchantFu
     /**
      * Get the value of the StandardIdForLabel property.
      *
-     * @return String StandardIdForLabel.
+     * @return \string StandardIdForLabel.
      */
     public function getStandardIdForLabel()
     {
@@ -69,7 +69,7 @@ class MwsMerchantFulfillmentServiceModelLabelCustomization extends MwsMerchantFu
      * Set the value of the StandardIdForLabel property.
      *
      * @param string standardIdForLabel
-     * @return $this 
+     * @return $this instance
      */
     public function setStandardIdForLabel($value)
     {

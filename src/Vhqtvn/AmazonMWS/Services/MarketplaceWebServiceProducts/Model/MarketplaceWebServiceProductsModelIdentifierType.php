@@ -29,7 +29,7 @@ class MarketplaceWebServiceProductsModelIdentifierType extends MarketplaceWebSer
      * Set the value of the MarketplaceASIN property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelASINIdentifier marketplaceASIN
-     * @return $this 
+     * @return $this instance
      */
     public function setMarketplaceASIN($value)
     {
@@ -69,7 +69,7 @@ class MarketplaceWebServiceProductsModelIdentifierType extends MarketplaceWebSer
      * Set the value of the SKUIdentifier property.
      *
      * @param \Vhqtvn\AmazonMWS\Services\MarketplaceWebServiceProducts\Model\MarketplaceWebServiceProductsModelSellerSKUIdentifier skuIdentifier
-     * @return $this 
+     * @return $this instance
      */
     public function setSKUIdentifier($value)
     {
